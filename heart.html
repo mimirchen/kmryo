@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Between Beats — A study in rhythm · AutoClip</title>
+<meta name="description" content="An abstract, poetic descent into the rhythm of the heart and the meeting of two valve leaflets — and the moment a machine learns to feel for it. From AutoClip (NCT07632794), Dr. Mi Chen.">
+<meta property="og:title" content="Between Beats — A study in rhythm">
+<meta property="og:description" content="Rhythm, flow, and the meeting of two edges. An abstract study from AutoClip · NCT07632794.">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="14" fill="%23A8362B"/><text x="50" y="74" font-size="62" text-anchor="middle" fill="%23FDF6F2" font-family="serif">觅</text></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --void:#0B0C0E; --void2:#15100E; --bone:#ECE7DD; --muted:#8B857B; --faint:#57534C;
+  --cinnabar:#C4402E; --ember:#E0654E; --deep:#7C2318;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--void);scroll-behavior:smooth}
+body{background:var(--void);color:var(--bone);font-family:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.serif{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--cinnabar);color:var(--bone)}
+html[data-lang="en"] .zh{display:none!important}
+html[data-lang="zh"] .en{display:none!important}
+
+/* fixed chrome */
+.chrome{position:fixed;inset:0;z-index:60;pointer-events:none}
+.chrome .top{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:clamp(1rem,2.4vw,1.9rem) clamp(1.2rem,3.5vw,3rem);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.chrome a,.chrome button{pointer-events:auto}
+.chrome .back{border-bottom:1px solid transparent;transition:border-color .3s;color:var(--muted)}
+.chrome .back:hover{border-color:currentColor}
+.pulse{display:flex;align-items:center;gap:.6rem}
+.pulse i{width:5px;height:5px;border-radius:50%;background:var(--ember);animation:blip 1.15s var(--ease) infinite}
+@keyframes blip{0%,100%{opacity:.3;transform:scale(.8)}12%{opacity:1;transform:scale(1.3)}22%{opacity:.5;transform:scale(.9)}}
+.lang{position:absolute;bottom:clamp(1rem,3vw,2rem);right:clamp(1.2rem,3.5vw,3rem);border:1px solid rgba(236,231,221,.22);border-radius:999px;padding:.32rem .9rem;font-size:.76rem;color:var(--bone);background:rgba(11,12,14,.4);backdrop-filter:blur(8px);cursor:pointer;font-family:inherit}
+.lang:hover{border-color:var(--bone)}
+.rail{position:absolute;left:clamp(1.2rem,3.5vw,3rem);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.7rem}
+.rail b{width:5px;height:5px;border-radius:50%;background:rgba(236,231,221,.2);transition:.4s}
+.rail b.on{background:var(--ember);transform:scale(1.6)}
+@media(max-width:720px){.rail{display:none}}
+
+/* pinned canvas stage */
+.stage{position:sticky;top:0;height:100svh;overflow:hidden}
+#c{position:absolute;inset:0;width:100%;height:100%;display:block}
+.vignette{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(72% 60% at 50% 48%,transparent 52%,rgba(0,0,0,.62) 100%)}
+
+/* captions */
+.cap{position:absolute;z-index:4;max-width:min(90vw,440px);opacity:0;will-change:opacity,transform;pointer-events:none}
+.cap .kick{font-size:.66rem;letter-spacing:.3em;text-transform:uppercase;color:var(--ember);margin-bottom:1.1rem}
+html[data-lang="zh"] .cap .kick{letter-spacing:.42em}
+.cap h2{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif;font-size:clamp(2.1rem,5.6vw,4.2rem);font-weight:500;line-height:1.02;letter-spacing:-.005em}
+.cap h2 em{font-style:italic;color:var(--ember)}
+.cap p{margin-top:1.1rem;color:var(--muted);font-size:.95rem;line-height:1.7;max-width:34ch;font-style:normal}
+.cap.tl{left:clamp(1.4rem,6vw,6rem);top:clamp(4.6rem,17vh,10rem)}
+.cap.br{right:clamp(1.4rem,6vw,6rem);bottom:clamp(3.6rem,13vh,8rem);text-align:right}
+.cap.br p{margin-left:auto}
+.cap.ctr{left:50%;top:50%;transform:translate(-50%,-42%);text-align:center;max-width:min(92vw,620px)}
+.cap.ctr p{margin:1.2rem auto 0}
+@media(max-width:720px){.cap.br{text-align:left;right:auto;left:clamp(1.4rem,6vw,6rem)}.cap.br p{margin-left:0}}
+
+/* hero */
+.hero{position:absolute;z-index:4;left:50%;bottom:clamp(3.5rem,10vh,6.5rem);transform:translateX(-50%);text-align:center;width:100%;padding:0 1rem}
+.hero .eyebrow{font-size:.66rem;letter-spacing:.34em;text-transform:uppercase;color:var(--ember);margin-bottom:1.4rem}
+.hero h1{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif;font-size:clamp(3.6rem,12vw,9.5rem);font-weight:500;line-height:.84;letter-spacing:-.02em}
+.hero h1 em{font-style:italic;color:var(--ember)}
+.hero .hint{margin-top:2rem;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0);opacity:.45}50%{transform:translateY(6px);opacity:1}}
+
+.scroll{position:relative;z-index:1}
+.beat{height:100svh}.beat.tall{height:190svh}
+
+/* finale */
+.finale{position:relative;z-index:10;background:var(--void);border-top:1px solid rgba(236,231,221,.1);padding:clamp(4rem,12vh,8rem) 0}
+.wrap{max-width:900px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3rem)}
+.finale .kick{font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--ember);margin-bottom:1.4rem}
+.finale h2{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif;font-size:clamp(2rem,4.6vw,3.2rem);font-weight:500;line-height:1.12;letter-spacing:-.01em;text-wrap:balance}
+.finale h2 em{font-style:italic;color:var(--ember)}
+.finale p.lede{color:var(--muted);font-size:1.05rem;line-height:1.75;margin-top:1.5rem;max-width:58ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1.4rem;margin:3rem 0}
+.fact{border-top:1px solid rgba(236,231,221,.16);padding-top:1rem}
+.fact b{display:block;font-size:1.55rem;font-weight:500;font-variant-numeric:tabular-nums}
+.fact b.seal{font-family:"Noto Serif SC",serif;color:var(--ember)}
+.fact span{color:var(--faint);font-size:.79rem}
+.cta-row{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1rem}
+.btn{border:1px solid rgba(236,231,221,.28);border-radius:999px;padding:.82rem 1.7rem;font-size:.92rem;transition:.3s}
+.btn:hover{background:var(--bone);color:var(--void);border-color:var(--bone)}
+.btn.blood{background:var(--cinnabar);border-color:var(--cinnabar)}
+.btn.blood:hover{background:var(--ember);border-color:var(--ember);color:var(--bone)}
+.foot{margin-top:3.5rem;color:var(--faint);font-size:.78rem;line-height:1.7}
+.foot a{color:var(--muted);border-bottom:1px solid rgba(236,231,221,.2)}
+@media(prefers-reduced-motion:reduce){.pulse i,.hero .hint{animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="chrome">
+  <div class="top">
+    <a class='back' href='/atelier'><span class="en">← Atelier</span><span class="zh">← 画廊</span></a>
+    <span class="pulse"><i></i><span class="en">A study in rhythm</span><span class="zh">关于节律的研究</span></span>
+  </div>
+  <div class="rail" id="rail"><b></b><b></b><b></b><b></b><b></b></div>
+  <button class="lang" id="langToggle">中文</button>
+</div>
+
+<div class="stage" id="stage">
+  <canvas id="c"></canvas>
+  <div class="vignette"></div>
+
+  <div class="hero" id="hero">
+    <p class="eyebrow"><span class="en">An anatomical poem · AutoClip</span><span class="zh">一首解剖之诗 · AutoClip</span></p>
+    <h1><span class="en">Between <em>beats</em></span><span class="zh">心跳<em>之间</em></span></h1>
+    <p class="hint"><span class="en">Scroll ↓</span><span class="zh">向下滚动 ↓</span></p>
+  </div>
+
+  <div class="cap tl" id="cap1">
+    <p class="kick"><span class="en">01 · The pulse</span><span class="zh">01 · 搏动</span></p>
+    <h2><span class="en">A muscle that<br>keeps <em>time</em>.</span><span class="zh">一块<br>守着<em>时间</em>的肌肉。</span></h2>
+    <p><span class="en">Sixty times a minute, in the dark, it tightens and lets go — a rhythm older than thought.</span><span class="zh">每分钟六十次,在黑暗里收紧、松开 —— 一种比思想更古老的节律。</span></p>
+  </div>
+
+  <div class="cap br" id="cap2">
+    <p class="kick"><span class="en">02 · The tide</span><span class="zh">02 · 潮汐</span></p>
+    <h2><span class="en">Each beat moves<br>a <em>tide</em> of blood.</span><span class="zh">每一次搏动<br>推动一场<em>血的潮汐</em>。</span></h2>
+    <p><span class="en">A cupful, forward, through chambers it will never see — carried by pressure, guided by two thin edges.</span><span class="zh">一杯血,向前,穿过它永不得见的心腔 —— 由压力推送,由两片薄缘引导。</span></p>
+  </div>
+
+  <div class="cap ctr" id="cap3">
+    <p class="kick"><span class="en">03 · The meeting</span><span class="zh">03 · 对合</span></p>
+    <h2><span class="en">Two edges<br>must <em>meet</em>.</span><span class="zh">两片薄缘,<br>必须<em>相遇</em>。</span></h2>
+    <p><span class="en">The mitral valve — two leaflets that close, twice a second, in perfect apposition. When they miss, the tide turns back.</span><span class="zh">二尖瓣 —— 两片瓣叶,每秒两次严丝合缝地闭合。一旦错开,潮水便倒流。</span></p>
+  </div>
+
+  <div class="cap tl" id="cap4">
+    <p class="kick"><span class="en">04 · The reading</span><span class="zh">04 · 读懂</span></p>
+    <h2><span class="en">We taught a machine<br>to <em>feel for it</em>.</span><span class="zh">我们教会机器<br><em>去感知</em>那一刻。</span></h2>
+    <p><span class="en">AutoClip traces the two edges in real time — finding the meeting a surgeon feels but cannot see.</span><span class="zh">AutoClip 实时描摹这两片缘 —— 找到那个外科医生能感知、却无法亲眼看见的相遇。</span></p>
+  </div>
+</div>
+
+<div class="scroll" id="scroll">
+  <div class="beat"></div>
+  <div class="beat tall"></div>
+  <div class="beat tall"></div>
+  <div class="beat tall"></div>
+  <div class="beat tall"></div>
+</div>
+
+<section class="finale">
+  <div class="wrap">
+    <p class="kick"><span class="en">The study behind the poem</span><span class="zh">诗背后的研究</span></p>
+    <h2><span class="en">Not an illustration — <em>research</em>, running now across three countries.</span><span class="zh">这不是插画 —— 而是一项<em>正在进行</em>的研究,横跨三国。</span></h2>
+    <p class="lede"><span class="en">AutoClip develops real-time AI to trace the mitral leaflets during transcatheter repair. I'm its sponsor-investigator and PI — a structural heart interventionist who both performs these procedures and builds the models that may one day guide them.</span><span class="zh">AutoClip 开发用于经导管修复中实时描摹二尖瓣瓣叶的 AI。我是它的发起人与主要研究者 —— 一名既亲手做这些手术、也亲手构建引导模型的结构性心脏病介入医生。</span></p>
+    <div class="facts">
+      <div class="fact"><b>NCT07632794</b><span><span class="en">ClinicalTrials.gov</span><span class="zh">临床试验注册号</span></span></div>
+      <div class="fact"><b>1,500</b><span><span class="en">patients · multicenter</span><span class="zh">例 · 多中心</span></span></div>
+      <div class="fact"><b>3</b><span><span class="en">countries · CH · IT · CN</span><span class="zh">国 · 瑞士 · 意大利 · 中国</span></span></div>
+      <div class="fact"><b class="seal">觅</b><span>千觅量子 RYO</span></div>
+    </div>
+    <div class="cta-row">
+      <a class='btn blood' href='/'><span class="en">Meet Dr. Mi Chen →</span><span class="zh">了解陈密医生 →</span></a>
+      <a class="btn" href="https://clinicaltrials.gov/study/NCT07632794" target="_blank" rel="noopener"><span class="en">The registration ↗</span><span class="zh">研究注册信息 ↗</span></a>
+    </div>
+    <p class="foot"><span class="en">An interactive study, part of the <a href='/atelier'>Atelier</a>. © 2026 Dr. Mi Chen · 千觅量子 RYO.</span><span class="zh">一件交互式研究作品,属于 <a href='/atelier'>画廊</a>。© 2026 陈密医生 · 千觅量子 RYO。</span></p>
+  </div>
+</section>
+
+<script>
+const html=document.documentElement;
+const REDUCED=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const lt=document.getElementById('langToggle');
+function setLang(l){html.dataset.lang=l;html.lang=l==='zh'?'zh-CN':'en';lt.textContent=l==='zh'?'EN':'中文';try{localStorage.setItem('kmryo-lang',l)}catch(e){}}
+lt.addEventListener('click',()=>setLang(html.dataset.lang==='en'?'zh':'en'));
+try{const s=localStorage.getItem('kmryo-lang');if(s)setLang(s)}catch(e){}
+
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const seg=(p,s,e)=>clamp((p-s)/(e-s),0,1);
+const band=(p,s,e,f=.16)=>{if(p<s||p>e)return 0;return Math.min(clamp((p-s)/f,0,1),clamp((e-p)/f,0,1))};
+const smooth=t=>t*t*(3-2*t);
+
+/* ---------- CANVAS: generative charcoal+cinnabar heart poem ---------- */
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+let W,H,DPR,cxp,cyp,R;
+function resize(){DPR=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;cv.style.width=W+'px';cv.style.height=H+'px';ctx.setTransform(DPR,0,0,DPR,0,0);cxp=W*0.5;cyp=H*0.5;R=Math.min(W,H)*0.34;}
+resize();addEventListener('resize',resize);
+
+// flow particles (blood) — thin cinnabar trails
+const N=Math.min(320,Math.floor(W*H/5200));
+const P=[];
+for(let i=0;i<N;i++){P.push({a:Math.random()*Math.PI*2,r:Math.random(),sp:0.2+Math.random()*0.8,w:Math.random(),life:Math.random()});}
+
+let prog=0,tgt=0,pr=0;
+const scroll=document.getElementById('scroll');
+function onScroll(){const rect=scroll.getBoundingClientRect();const total=scroll.offsetHeight-innerHeight;tgt=clamp(-rect.top/total,0,1);}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+// cardiac phase 0..1 over ~1.15s, with a sharp systolic contraction
+let t0=null;
+function cardiac(ts){const period=1150;const t=((ts)%period)/period;
+  // contraction curve: quick squeeze then slow relax
+  let c;
+  if(t<0.14)c=smooth(t/0.14);          // systole rise
+  else if(t<0.42)c=1-smooth((t-0.14)/0.28)*0.85; // early relax
+  else c=0.15*(1-smooth((t-0.42)/0.58));         // diastole settle
+  return c;
+}
+
+function draw(ts){
+  if(t0===null)t0=ts;const el=ts-t0;
+  pr=lerp(pr,tgt,REDUCED?1:0.06);prog=pr;
+  const beat=REDUCED?0.4:cardiac(el);
+
+  // fade trails (charcoal, slight warmth)
+  ctx.globalCompositeOperation='source-over';
+  ctx.fillStyle='rgba(11,12,14,0.14)';
+  ctx.fillRect(0,0,W,H);
+
+  // scene morph params
+  const zoom=lerp(0.7,1.35,smooth(seg(prog,0.05,0.62)));
+  const coreI=band(prog,-0.1,0.30,0.22)+0.15;     // core glow scenes 0-1
+  const flowI=smooth(seg(prog,0.20,0.5));           // flow scenes 2
+  const valveI=smooth(seg(prog,0.52,0.72));         // leaflets scenes 3
+  const aiI=smooth(seg(prog,0.80,0.94));            // ai trace scene 4
+
+  ctx.save();
+  ctx.translate(cxp,cyp);
+  ctx.scale(zoom,zoom);
+
+  // ---- 1. pulsing core: concentric ember rings ----
+  ctx.globalCompositeOperation='lighter';
+  const pulseR=R*(0.24+beat*0.16);
+  const g=ctx.createRadialGradient(0,0,0,0,0,pulseR*3.2);
+  g.addColorStop(0,`rgba(224,101,78,${(0.5*coreI*(0.6+beat*0.5)).toFixed(3)})`);
+  g.addColorStop(0.4,`rgba(196,64,46,${(0.16*coreI).toFixed(3)})`);
+  g.addColorStop(1,'rgba(196,64,46,0)');
+  ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,pulseR*3.2,0,7);ctx.fill();
+
+  // radiating rings on the beat
+  const ringN=3;
+  for(let k=0;k<ringN;k++){
+    const rp=((el/1150+k/ringN)%1);
+    const rr=pulseR+rp*R*2.1*(0.5+flowI*0.9+0.4);
+    const al=(1-rp)*0.22*(coreI*0.8+flowI*0.6);
+    if(al<=0)continue;
+    ctx.strokeStyle=`rgba(224,101,78,${al.toFixed(3)})`;
+    ctx.lineWidth=1;ctx.beginPath();ctx.arc(0,0,rr,0,7);ctx.stroke();
+  }
+
+  // ---- 2. flow field particles (blood streams) ----
+  const spd=(0.4+beat*1.4)*(0.4+flowI*1.3);
+  for(const q of P){
+    q.life+=0.004+spd*0.006;
+    if(q.life>1){q.life=0;q.a=Math.random()*Math.PI*2;q.r=0.05+Math.random()*0.15;}
+    // spiral outward with a curl
+    const t=q.life;
+    const ang=q.a+t*2.2*(q.w<.5?1:-1);
+    const rad=(q.r+t*1.1)*R;
+    const x=Math.cos(ang)*rad, y=Math.sin(ang)*rad*1.12;
+    const x2=Math.cos(ang+0.14)*(rad-6), y2=Math.sin(ang+0.14)*(rad-6)*1.12;
+    const a=(1-t)*0.5*(0.25+flowI);
+    if(a<=0.01)continue;
+    ctx.strokeStyle=`rgba(${q.w<.35?'236,231,221':'196,64,46'},${a.toFixed(3)})`;
+    ctx.lineWidth=0.6+q.w*1.1;
+    ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.stroke();
+  }
+
+  // ---- 3 & 4. the two leaflets: symmetric bezier edges that meet ----
+  if(valveI>0.001){
+    ctx.globalCompositeOperation='source-over';
+    const ap=(1-beat)*0.5+0.5;             // aperture: open in diastole, closed in systole
+    const gap=lerp(R*0.5,R*0.05,valveI)*ap*(1-aiI*0.3); // edges approach center as scene deepens
+    const span=R*(0.72);
+    const drop=R*(0.62);
+    const tipY=drop*0.52;
+    // glow behind
+    ctx.save();
+    ctx.shadowColor='rgba(196,64,46,0.5)';ctx.shadowBlur=18*valveI;
+    // left leaflet (anterior)
+    function leaf(dir){
+      ctx.beginPath();
+      const bx=dir*span;                 // base outer
+      ctx.moveTo(bx,-drop*0.5);
+      ctx.bezierCurveTo(dir*span*0.7,-drop*0.1, dir*(gap+R*0.12),tipY*0.5, dir*gap,tipY);
+      ctx.lineWidth=lerp(1,2.4,valveI);
+      ctx.strokeStyle=`rgba(236,231,221,${(0.16+0.6*valveI).toFixed(3)})`;
+      ctx.stroke();
+      // inner fill sliver
+      ctx.lineTo(dir*gap,tipY+R*0.02);
+      ctx.bezierCurveTo(dir*(gap+R*0.12),tipY*0.6, dir*span*0.72,-drop*0.05, bx,-drop*0.46);
+      ctx.closePath();
+      ctx.fillStyle=`rgba(124,35,24,${(0.10+0.26*valveI).toFixed(3)})`;
+      ctx.fill();
+    }
+    leaf(-1);leaf(1);
+    ctx.restore();
+
+    // coaptation shimmer at the meeting point
+    const cerr=(1-beat);
+    ctx.globalCompositeOperation='lighter';
+    const cg=ctx.createRadialGradient(0,tipY,0,0,tipY,R*0.14);
+    cg.addColorStop(0,`rgba(224,101,78,${(0.5*valveI*(0.4+cerr*0.6)).toFixed(3)})`);
+    cg.addColorStop(1,'rgba(224,101,78,0)');
+    ctx.fillStyle=cg;ctx.beginPath();ctx.arc(0,tipY,R*0.14,0,7);ctx.fill();
+
+    // ---- 4. AutoClip trace: points walking along the two edges ----
+    if(aiI>0.001){
+      ctx.globalCompositeOperation='source-over';
+      const steps=9;
+      const walk=seg(prog,0.80,0.97);
+      for(let d=-1;d<=1;d+=2){
+        for(let s=0;s<steps;s++){
+          const u=s/(steps-1);
+          if(u>walk)break;
+          // point along the leaflet bezier (approx by lerped control interpolation)
+          const bx=d*span, by=-drop*0.5;
+          const c1x=d*span*0.7,c1y=-drop*0.1;
+          const c2x=d*(gap+R*0.12),c2y=tipY*0.5;
+          const ex=d*gap,ey=tipY;
+          const mt=1-u;
+          const px=mt*mt*mt*bx+3*mt*mt*u*c1x+3*mt*u*u*c2x+u*u*u*ex;
+          const py=mt*mt*mt*by+3*mt*mt*u*c1y+3*mt*u*u*c2y+u*u*u*ey;
+          const pop=smooth(clamp((walk-u)*6,0,1));
+          ctx.fillStyle=`rgba(236,231,221,${(0.85*aiI*pop).toFixed(3)})`;
+          ctx.beginPath();ctx.arc(px,py,1.5*pop,0,7);ctx.fill();
+          if(s>0){/* connective node ring */
+            ctx.strokeStyle=`rgba(224,101,78,${(0.5*aiI*pop).toFixed(3)})`;
+            ctx.lineWidth=0.5;ctx.beginPath();ctx.arc(px,py,3.5*pop,0,7);ctx.stroke();
+          }
+        }
+      }
+      // caliper whisper between tips
+      const cal=seg(prog,0.9,0.99);
+      if(cal>0){
+        ctx.strokeStyle=`rgba(224,101,78,${(0.5*cal).toFixed(3)})`;ctx.lineWidth=0.7;
+        ctx.beginPath();ctx.moveTo(-gap,tipY+R*0.05);ctx.lineTo(gap,tipY+R*0.05);ctx.stroke();
+        ctx.fillStyle=`rgba(236,231,221,${(0.6*cal).toFixed(3)})`;
+        ctx.font='italic 12px "Cormorant Garamond",serif';ctx.textAlign='center';
+        ctx.fillText('coaptation',0,tipY+R*0.05+16);
+      }
+    }
+  }
+
+  ctx.restore();
+
+  // captions + rail (DOM)
+  paintDOM(prog);
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+
+/* DOM overlays */
+const hero=document.getElementById('hero');
+const caps=[1,2,3,4].map(i=>document.getElementById('cap'+i));
+const rail=[...document.getElementById('rail').children];
+function paintDOM(p){
+  hero.style.opacity=(1-seg(p,0.02,0.09)).toFixed(3);
+  hero.style.transform=`translateX(-50%) translateY(${(-seg(p,0.02,0.10)*40).toFixed(1)}px)`;
+  const b=[band(p,0.11,0.30),band(p,0.34,0.51),band(p,0.55,0.74),band(p,0.80,0.99)];
+  caps.forEach((c,i)=>{c.style.opacity=b[i].toFixed(3);
+    const dy=(1-b[i])*24;
+    if(c.classList.contains('ctr'))c.style.transform=`translate(-50%,calc(-42% + ${dy.toFixed(1)}px))`;
+    else c.style.transform=`translateY(${dy.toFixed(1)}px)`;});
+  const active=p<0.10?0:p<0.34?1:p<0.55?2:p<0.79?3:4;
+  rail.forEach((x,i)=>x.classList.toggle('on',i===active));
+}
+</script>
+</body>
+</html>
