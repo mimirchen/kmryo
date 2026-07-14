@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CardioAI · Dr. Mi Chen</title>
+<meta name="description" content="CardioAI: Next-Generation Diagnosis and Intervention Planning — an academic platform and workshop series at the crossroads of AI and cardiovascular medicine. Workshop at Swiss AI Weeks 2025, ETH Zürich.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:      #1A1B1E;
+  --loader:  #131417;
+  --cream:   #ECEAE3;
+  --muted:   #9C9C93;
+  --faint:   #6E6E67;
+  --seal:    #CE4A33;
+  --seal-deep: #A8362B;
+  --hair:    rgba(236,234,227,0.16);
+  --hair-soft: rgba(236,234,227,0.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg); color:var(--cream);
+  font-family:"Instrument Sans","Noto Sans SC",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+html[data-lang="en"] .zh{display:none !important}
+html[data-lang="zh"] .en{display:none !important}
+html[data-lang="zh"] body, html[data-lang="zh"] p{font-family:"Noto Sans SC","Instrument Sans",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.it{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif; font-style:italic; font-weight:500}
+.wrap{max-width:1080px; margin:0 auto; padding:0 clamp(1.2rem,4vw,2.5rem)}
+.label{
+  display:inline-block; font-size:0.72rem; letter-spacing:0.28em; text-transform:uppercase;
+  color:var(--muted);
+}
+.label::before{content:""; display:inline-block; width:1.6rem; height:1px; background:var(--seal); vertical-align:middle; margin-right:0.8rem}
+
+/* ---- top bar ---- */
+nav.top{
+  position:sticky; top:0; z-index:50;
+  background:rgba(26,27,30,0.86); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--hair-soft);
+}
+nav.top .wrap{display:flex; align-items:center; gap:1.4rem; height:3.6rem}
+nav.top a{color:var(--cream); text-decoration:none; font-size:0.9rem}
+nav.top .brand{font-weight:600; letter-spacing:0.04em}
+nav.top .brand em{font-style:normal; color:var(--seal)}
+nav.top .back{margin-left:auto; color:var(--muted)}
+nav.top .back:hover{color:var(--cream)}
+.lang-toggle{
+  background:none; border:1px solid var(--hair); color:var(--muted);
+  font:inherit; font-size:0.78rem; padding:0.25rem 0.7rem; border-radius:99px; cursor:pointer;
+}
+.lang-toggle:hover{color:var(--cream); border-color:var(--muted)}
+
+/* ---- hero ---- */
+header.page{padding:clamp(3.5rem,9vh,6.5rem) 0 clamp(2.5rem,6vh,4rem); border-bottom:1px solid var(--hair-soft)}
+.hero-grid{display:flex; gap:clamp(1.5rem,5vw,4rem); align-items:center; flex-wrap:wrap}
+.hero-mark{flex:0 0 auto}
+.hero-mark img{width:clamp(90px,12vw,140px); height:auto; display:block; filter:drop-shadow(0 8px 30px rgba(206,74,51,0.25))}
+.hero-text{flex:1 1 420px}
+h1{
+  font-size:clamp(2.6rem,7vw,4.6rem); line-height:1.05; font-weight:600; letter-spacing:-0.02em;
+  margin:0.9rem 0 0.6rem;
+}
+h1 .ai{color:var(--seal)}
+.hero-sub{
+  font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif; font-style:italic;
+  font-size:clamp(1.15rem,2.6vw,1.6rem); color:var(--muted); font-weight:500;
+}
+.meta-row{display:flex; flex-wrap:wrap; gap:0.5rem 0; margin-top:1.6rem; font-size:0.85rem; color:var(--muted)}
+.meta-row span.chip{border:1px solid var(--hair); border-radius:99px; padding:0.3rem 0.9rem; margin-right:0.5rem}
+.meta-row .chip b{color:var(--cream); font-weight:500}
+
+/* ---- stats ---- */
+.stats{border-bottom:1px solid var(--hair-soft)}
+.stats .wrap{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); }
+.stat{padding:2rem 1rem 2.2rem; border-left:1px solid var(--hair-soft)}
+.stat:first-child{border-left:none}
+.stat b{
+  display:block; font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif; font-style:italic;
+  font-size:clamp(2rem,4.5vw,3rem); font-weight:600; color:var(--cream); line-height:1.1;
+}
+.stat small{font-size:0.8rem; color:var(--muted); letter-spacing:0.06em}
+
+/* ---- sections ---- */
+section{padding:clamp(3rem,8vh,5.5rem) 0}
+.sec-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:2.2rem}
+.count{font-size:0.75rem; color:var(--faint); letter-spacing:0.2em}
+h2{font-size:clamp(1.5rem,3.4vw,2.2rem); font-weight:600; letter-spacing:-0.01em; margin-bottom:1.1rem}
+.prose{max-width:46rem; color:var(--muted); font-size:1.02rem}
+.prose strong{color:var(--cream); font-weight:500}
+
+/* ---- speakers ---- */
+.sp-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:1.6rem 1.4rem}
+.sp{border:1px solid var(--hair-soft); background:rgba(236,234,227,0.02); border-radius:6px; overflow:hidden; transition:border-color .25s, transform .25s}
+.sp:hover{border-color:var(--hair); transform:translateY(-3px)}
+.sp img{width:100%; aspect-ratio:1/1; object-fit:cover; display:block; filter:saturate(0.82); transition:filter .25s}
+.sp:hover img{filter:saturate(1)}
+.sp .nm{padding:0.8rem 0.9rem 0.15rem; font-weight:600; font-size:0.92rem; line-height:1.3}
+.sp .af{padding:0 0.9rem 0.95rem; font-size:0.78rem; color:var(--muted); line-height:1.45}
+.sp .af .role{color:var(--seal); display:block; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:0.15rem}
+
+/* ---- organizers ---- */
+.org-band{border-top:1px solid var(--hair-soft); border-bottom:1px solid var(--hair-soft); background:rgba(236,234,227,0.02)}
+.org-cols{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:2.5rem}
+.org-cols h3{font-size:0.75rem; letter-spacing:0.24em; text-transform:uppercase; color:var(--muted); font-weight:500; margin-bottom:0.9rem}
+.org-cols li{list-style:none; padding:0.42rem 0; border-bottom:1px solid var(--hair-soft); font-size:0.95rem}
+.org-cols li em{font-style:normal; color:var(--muted); font-size:0.82rem}
+
+/* ---- cta ---- */
+.cta-box{
+  border:1px solid var(--hair); border-radius:8px; padding:clamp(1.8rem,4vw,3rem);
+  display:flex; flex-wrap:wrap; gap:1.6rem; align-items:center; justify-content:space-between;
+}
+.cta-box p{max-width:32rem; color:var(--muted)}
+.btns{display:flex; gap:0.8rem; flex-wrap:wrap}
+.btn{
+  display:inline-block; text-decoration:none; font-size:0.9rem; padding:0.7rem 1.5rem; border-radius:99px;
+  border:1px solid var(--seal); color:var(--cream); background:var(--seal-deep); transition:background .2s;
+}
+.btn:hover{background:var(--seal)}
+.btn.ghost{background:none; border-color:var(--hair); color:var(--muted)}
+.btn.ghost:hover{color:var(--cream); border-color:var(--muted)}
+
+footer{border-top:1px solid var(--hair-soft); padding:1.6rem 0 2.2rem}
+footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:0.6rem; font-size:0.8rem; color:var(--faint)}
+footer .seal-line{font-family:"Noto Serif SC",serif; color:var(--seal); letter-spacing:0.2em}
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="/cardioai">Cardio<em>AI</em></a>
+    <a class="back" href="/"><span class="en">← Dr. Mi Chen · Home</span><span class="zh">← 返回陈密医生主页</span></a>
+    <button class="lang-toggle" id="langToggle">中文</button>
+  </div>
+</nav>
+
+<header class="page">
+  <div class="wrap hero-grid">
+    <div class="hero-mark"><img src="cardioai/mark.png" alt="CardioAI mark — a heart merging into circuit lines"></div>
+    <div class="hero-text">
+      <span class="label"><span class="en">Academic platform · Co-founded by Dr. Mi Chen</span><span class="zh">学术平台 · 陈密医生联合创办</span></span>
+      <h1>Cardio<span class="ai">AI</span></h1>
+      <p class="hero-sub"><span class="en">Next-generation diagnosis &amp; intervention planning.</span><span class="zh">下一代心血管诊断与介入规划。</span></p>
+      <div class="meta-row">
+        <span class="chip"><span class="en">Workshop · <b>Swiss AI Weeks 2025</b></span><span class="zh">工作坊 · <b>Swiss AI Weeks 2025</b></span></span>
+        <span class="chip"><span class="en"><b>ETH Zürich</b> · 24 Sept 2025</span><span class="zh"><b>苏黎世联邦理工</b> · 2025年9月24日</span></span>
+        <span class="chip"><span class="en"><b>146</b> registered</span><span class="zh"><b>146</b> 人报名</span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>146</b><small><span class="en">Registered attendees</span><span class="zh">报名参会者</span></small></div>
+    <div class="stat"><b>11</b><small><span class="en">Faculty &amp; speakers</span><span class="zh">讲者阵容</span></small></div>
+    <div class="stat"><b>6</b><small><span class="en">Institutions across Europe</span><span class="zh">欧洲合作机构</span></small></div>
+    <div class="stat"><b class="it">01</b><small><span class="en">First edition — more to come</span><span class="zh">首届 —— 未完待续</span></small></div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head"><span class="label"><span class="en">About</span><span class="zh">关于</span></span><span class="count">01</span></div>
+    <h2><span class="en">Where cardiology meets <span class="it">machine intelligence</span>.</span><span class="zh">当心脏病学遇上<span class="it">机器智能</span>。</span></h2>
+    <p class="prose">
+      <span class="en"><strong>CardioAI: Next-Generation Diagnosis and Intervention Planning</strong> is a focused workshop at Swiss AI Weeks bringing together leading minds in artificial intelligence, cardiac imaging and clinical cardiology to explore the transformative potential of AI in cardiovascular disease. From pre-procedural planning to real-time intervention support, AI is redefining how we visualize, analyze and treat complex cardiovascular conditions.</span>
+      <span class="zh"><strong>CardioAI:下一代诊断与介入规划</strong>是 Swiss AI Weeks 期间的专题工作坊,汇聚人工智能、心脏影像与临床心脏病学领域的领军人物,共同探索 AI 在心血管疾病中的变革性潜力。从术前规划到术中实时支持,AI 正在重新定义我们观察、分析和治疗复杂心血管疾病的方式。</span>
+    </p>
+    <p class="prose" style="margin-top:1rem">
+      <span class="en">The workshop featured cutting-edge research, translational applications and industry–academic collaborations that aim to make AI-driven cardiac diagnosis and treatment more <strong>accurate, accessible and actionable</strong> — and drew over 140 researchers, clinicians, AI engineers and startups to ETH Zürich.</span>
+      <span class="zh">工作坊呈现了前沿研究、转化应用与产学合作,致力于让 AI 驱动的心脏诊疗更加<strong>精准、可及、可落地</strong> —— 吸引了 140 余位研究者、临床医生、AI 工程师和创业者齐聚苏黎世联邦理工。</span>
+    </p>
+  </div>
+</section>
+
+<section id="speakers" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><span class="label"><span class="en">Faculty &amp; speakers</span><span class="zh">讲者阵容</span></span><span class="count">02</span></div>
+    <div class="sp-grid">
+      <div class="sp"><img src="cardioai/taramasso.jpg" alt="Prof. Maurizio Taramasso"><div class="nm">Maurizio Taramasso</div><div class="af"><span class="role">Prof. · <span class="en">Cardiac Surgery</span><span class="zh">心脏外科</span></span>HerzZentrum Hirslanden Zürich</div></div>
+      <div class="sp"><img src="cardioai/modine.jpg" alt="Prof. Thomas Modine"><div class="nm">Thomas Modine</div><div class="af"><span class="role">Prof. · <span class="en">Cardiac Surgery</span><span class="zh">心脏外科</span></span><span class="en">University Hospital of Bordeaux</span><span class="zh">波尔多大学医院</span></div></div>
+      <div class="sp"><img src="cardioai/kozerke.jpg" alt="Prof. Sebastian Kozerke"><div class="nm">Sebastian Kozerke</div><div class="af"><span class="role">Prof. · <span class="en">Biomedical Imaging</span><span class="zh">生物医学影像</span></span>ETH Zürich</div></div>
+      <div class="sp"><img src="cardioai/vogt.jpg" alt="Prof. Julia Vogt"><div class="nm">Julia Vogt</div><div class="af"><span class="role">Prof. · <span class="en">Medical Data Science</span><span class="zh">医学数据科学</span></span>ETH Zürich</div></div>
+      <div class="sp"><img src="cardioai/rodriguez.jpg" alt="PD Dr. Héctor Rodriguez Cetina Biefer"><div class="nm">Héctor Rodriguez Cetina Biefer</div><div class="af"><span class="role">PD Dr. · <span class="en">Cardiac Surgery</span><span class="zh">心脏外科</span></span><span class="en">University Hospital Zurich</span><span class="zh">苏黎世大学医院</span></div></div>
+      <div class="sp"><img src="cardioai/candreva.jpg" alt="PD Dr. Alessandro Candreva"><div class="nm">Alessandro Candreva</div><div class="af"><span class="role">PD Dr. · <span class="en">Cardiology</span><span class="zh">心内科</span></span><span class="en">University Hospital Zurich</span><span class="zh">苏黎世大学医院</span></div></div>
+      <div class="sp"><img src="cardioai/magno.jpg" alt="PD Dr. Michele Magno"><div class="nm">Michele Magno</div><div class="af"><span class="role">PD Dr. · <span class="en">Embedded AI</span><span class="zh">嵌入式 AI</span></span>ETH Zürich</div></div>
+      <div class="sp"><img src="cardioai/ma.jpg" alt="Dr. Chenming Ma"><div class="nm">Chenming Ma</div><div class="af"><span class="role">Dr. · <span class="en">Interventional Cardiology</span><span class="zh">心脏介入</span></span>Mercy TAVI</div></div>
+      <div class="sp"><img src="cardioai/yang.jpg" alt="Dr. Jiancheng Yang"><div class="nm">Jiancheng Yang</div><div class="af"><span class="role">Dr. · <span class="en">Medical AI</span><span class="zh">医学人工智能</span></span>EPFL</div></div>
+      <div class="sp"><img src="cardioai/li.jpg" alt="Dr. Xia Li"><div class="nm">Xia Li</div><div class="af"><span class="role">Dr. · <span class="en">AI Research</span><span class="zh">AI 研究</span></span>ETH Zürich</div></div>
+      <div class="sp"><img src="cardioai/chen.jpg" alt="Dr. Mi Chen"><div class="nm">Mi Chen</div><div class="af"><span class="role">Dr. · <span class="en">Structural Heart</span><span class="zh">结构性心脏病</span></span>HerzZentrum Hirslanden Zürich</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="org-band" id="organizers">
+  <div class="wrap">
+    <div class="sec-head"><span class="label"><span class="en">Behind the workshop</span><span class="zh">幕后团队</span></span><span class="count">03</span></div>
+    <div class="org-cols">
+      <div>
+        <h3><span class="en">Organizers</span><span class="zh">发起人</span></h3>
+        <ul>
+          <li>Dr. Mi Chen <em>· HerzZentrum Hirslanden Zürich</em></li>
+          <li>Dr. Xia Li <em>· ETH Zürich</em></li>
+          <li>Dr. Jiancheng Yang <em>· EPFL</em></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="en">Partner institutions</span><span class="zh">合作机构</span></h3>
+        <ul>
+          <li>HerzZentrum Hirslanden Zürich</li>
+          <li>ETH Zürich <em>· <span class="en">venue &amp; co-host</span><span class="zh">场地与联合主办</span></em></li>
+          <li><span class="en">University Hospital Zurich (USZ)</span><span class="zh">苏黎世大学医院(USZ)</span></li>
+          <li>Samuylov AI · kmRyo</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="next">
+  <div class="wrap">
+    <div class="cta-box">
+      <div>
+        <h2 style="margin-bottom:0.5rem"><span class="en">The next <span class="it">edition</span> is taking shape.</span><span class="zh">下一届,<span class="it">正在筹备</span>。</span></h2>
+        <p><span class="en">Interested in speaking, sponsoring or collaborating with the CardioAI community? Let's talk.</span><span class="zh">想在 CardioAI 社区演讲、赞助或合作?欢迎联系。</span></p>
+      </div>
+      <div class="btns">
+        <a class="btn" href="/#contact"><span class="en">Get in touch</span><span class="zh">联系我们</span></a>
+        <a class="btn ghost" href="https://luma.com/esxmg6hb" target="_blank" rel="noopener"><span class="en">2025 event page ↗</span><span class="zh">2025 活动页 ↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 CardioAI · Dr. Mi Chen</span>
+    <span class="seal-line">心之所向 · 智之所往</span>
+  </div>
+</footer>
+
+<script>
+const html = document.documentElement;
+const toggle = document.getElementById('langToggle');
+function setLang(l) {
+  html.dataset.lang = l;
+  html.lang = l === 'zh' ? 'zh-CN' : 'en';
+  toggle.textContent = l === 'zh' ? 'EN' : '中文';
+  try { localStorage.setItem('kmryo-lang', l); } catch (e) {}
+}
+toggle.addEventListener('click', () => setLang(html.dataset.lang === 'en' ? 'zh' : 'en'));
+try { const s = localStorage.getItem('kmryo-lang'); if (s) setLang(s); } catch (e) {}
+</script>
+</body>
+</html>
