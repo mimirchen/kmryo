@@ -356,78 +356,84 @@ html[data-lang="zh"] .plate-name h1 { font-family: "Noto Serif SC",serif; letter
 .scope-tabs .scope.on { color: var(--bg); background: var(--cream); }
 .scope-tabs .scope.off { opacity: 0.32; cursor: default; }
 
-/* — 马赛克 — */
-.mosaic { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 58px; grid-auto-flow: dense; gap: 12px; }
-.tile {
-  position: relative; display: flex; flex-direction: column; overflow: hidden;
-  background: var(--bg-2); border: 1px solid var(--hair-soft); border-radius: 4px;
-  color: var(--cream); isolation: isolate;
-  transition: transform 0.35s cubic-bezier(0.22,1,0.36,1), box-shadow 0.35s ease, border-color 0.35s ease;
-  animation: tileIn 0.5s cubic-bezier(0.22,1,0.36,1) both;
-}
+/* — 编辑部布局:Monocle 骨架 + 大头条 — */
+.mosaic { display: block; }
 @keyframes tileIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
-html.reduced .tile { animation: none; }
-.tile:focus-visible { outline: 2px solid var(--cream); outline-offset: 2px; }
-.tile::after { content: ""; position: absolute; inset: 0; border-top: 3px solid var(--acc, var(--seal)); pointer-events: none; z-index: 3; }
-@media (pointer: fine) {
-  .tile:hover { transform: scale(1.035); box-shadow: 0 18px 50px rgba(0,0,0,0.5); border-color: color-mix(in srgb, var(--acc) 55%, transparent); z-index: 10; }
-}
+html.reduced .hero-card, html.reduced .feature { animation: none !important; }
 
-/* figure / central illustration */
-.tile-fig { position: relative; flex: 0 0 auto; background: radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--acc) 15%, transparent), transparent 70%); border-bottom: 1px solid var(--hair-soft); overflow: hidden; }
-.tile-fig svg { position: absolute; right: -6%; bottom: -12%; width: 62%; height: 130%; color: var(--acc, var(--seal)); opacity: 0.5; transition: transform 0.5s cubic-bezier(0.22,1,0.36,1), opacity 0.4s; }
-.tile:hover .tile-fig svg { transform: scale(1.08) rotate(-3deg); opacity: 0.72; }
-.tile-fig img { width: 100%; height: 100%; object-fit: cover; }
+.ed-label { display: flex; align-items: center; gap: 0.9rem; margin: clamp(2rem,5vh,3rem) 0 1.1rem; font-size: 0.66rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--faint); }
+html[data-lang="zh"] .ed-label { letter-spacing: 0.34em; }
+.ed-label b { color: var(--cream); font-weight: 600; }
+.ed-label::after { content: ""; flex: 1; height: 1px; background: var(--hair); }
 
-/* body */
-.tile-body { display: flex; flex-direction: column; gap: 0.5rem; padding: 0.9rem 1rem 0.85rem; flex: 1 1 auto; min-height: 0; }
-.tile-mast { display: flex; align-items: center; gap: 0.5rem; }
-.mast-mark { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.02em; color: var(--acc, var(--seal)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.mast-if { margin-left: auto; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--faint); font-variant-numeric: tabular-nums; white-space: nowrap; flex-shrink: 0; }
-.tile-kick { display: flex; gap: 0.5rem; align-items: center; font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
-.tile-kick .k-topic { color: var(--acc, var(--seal)); font-weight: 600; }
-.tile-head { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; line-height: 1.14; letter-spacing: 0; color: var(--cream); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
-html[data-lang="zh"] .tile-head { font-family: "Noto Serif SC",serif; line-height: 1.3; }
-.tile-sum { color: var(--muted); font-size: 0.82rem; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
-.tile-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; padding-top: 0.4rem; }
-.tile-foot .t-date { font-size: 0.64rem; color: var(--faint); font-variant-numeric: tabular-nums; }
-.tile-foot .t-arr { color: var(--acc, var(--seal)); font-size: 0.9rem; transition: transform 0.25s ease; }
-.tile:hover .t-arr { transform: translate(3px,-3px); }
+/* top band: hero + aside briefs */
+.ed-top { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; align-items: stretch; }
 
-/* size tiers */
-.tile[data-size="xl"] .tile-fig { height: 168px; }
-.tile[data-size="xl"] .tile-head { font-size: clamp(1.5rem, 2.6vw, 2.2rem); -webkit-line-clamp: 3; }
-.tile[data-size="xl"] .tile-sum { font-size: 0.94rem; -webkit-line-clamp: 4; }
-.tile[data-size="xl"] .mast-mark { font-size: 1.15rem; }
-.tile[data-size="l"] .tile-fig { height: 132px; }
-.tile[data-size="l"] .tile-head { font-size: clamp(1.25rem, 2vw, 1.7rem); -webkit-line-clamp: 3; }
-.tile[data-size="l"] .tile-sum { -webkit-line-clamp: 3; }
-.tile[data-size="l"] .mast-mark { font-size: 1.05rem; }
-.tile[data-size="m"] .tile-fig { height: 96px; }
-.tile[data-size="m"] .tile-head { font-size: 1.12rem; -webkit-line-clamp: 3; }
-.tile[data-size="m"] .tile-sum { -webkit-line-clamp: 2; }
-.tile[data-size="s"] .tile-fig { display: none; }
-.tile[data-size="s"] .tile-head { font-size: 0.98rem; -webkit-line-clamp: 3; }
-.tile[data-size="s"] .tile-sum { display: none; }
-.tile[data-size="xs"] .tile-fig { display: none; }
-.tile[data-size="xs"] .tile-body { padding: 0.7rem 0.85rem; gap: 0.35rem; }
-.tile[data-size="xs"] .tile-head { font-size: 0.9rem; -webkit-line-clamp: 3; }
-.tile[data-size="xs"] .tile-sum { display: none; }
-.tile[data-size="xs"] .tile-kick { display: none; }
-/* reveal summary on hover for small tiles */
-@media (pointer: fine) {
-  .tile[data-size="s"]:hover .tile-sum, .tile[data-size="xs"]:hover .tile-sum { display: -webkit-box; -webkit-line-clamp: 4; }
-}
+.card { position: relative; display: block; color: var(--cream); }
+.card:focus-visible { outline: 2px solid var(--cream); outline-offset: 3px; }
+.card-top { position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--acc, var(--seal)); z-index: 2; }
+.card-credit { position: absolute; right: 0.7rem; bottom: 0.55rem; z-index: 2; font-size: 0.54rem; letter-spacing: 0.03em; color: rgba(255,255,255,0.55); }
 
-.paper-note { color: var(--faint); font-size: 0.78rem; margin-top: 1.6rem; line-height: 1.7; }
+/* HERO */
+.hero-card { min-height: clamp(360px, 50vh, 560px); border-radius: 6px; overflow: hidden; border: 1px solid var(--hair-soft); display: flex; align-items: flex-end; isolation: isolate; animation: tileIn 0.55s cubic-bezier(0.22,1,0.36,1) both; }
+.hero-media { position: absolute; inset: 0; z-index: -2; overflow: hidden; }
+.hero-media img, .hero-media svg { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.22,1,0.36,1); }
+.hero-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(13,14,17,0) 18%, rgba(13,14,17,0.4) 52%, rgba(13,14,17,0.93) 100%); }
+@media (pointer: fine) { .hero-card:hover .hero-media img, .hero-card:hover .hero-media svg { transform: scale(1.045); } }
+.hero-in { padding: clamp(1.4rem, 3vw, 2.6rem); width: 100%; }
+.hero-kick { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.8rem; font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; }
+.k-topic { color: #fff; background: var(--acc, var(--seal)); padding: 0.22rem 0.6rem; border-radius: 2px; font-weight: 700; letter-spacing: 0.1em; }
+.k-src { font-family: "Cormorant Garamond","Noto Serif SC",serif; font-size: 1rem; letter-spacing: 0.01em; text-transform: none; color: var(--cream); }
+.hero-head { font-family: "Cormorant Garamond","Noto Serif SC",serif; font-weight: 600; font-size: clamp(1.75rem, 3.5vw, 3.1rem); line-height: 1.06; letter-spacing: 0; max-width: 22ch; }
+html[data-lang="zh"] .hero-head { font-family: "Noto Serif SC",serif; line-height: 1.24; }
+.hero-sum { margin-top: 0.85rem; color: rgba(236,234,227,0.84); font-size: 1rem; line-height: 1.6; max-width: 58ch; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.hero-metaline { margin-top: 1.1rem; display: flex; align-items: center; gap: 1.1rem; font-size: 0.72rem; letter-spacing: 0.05em; color: var(--muted); }
+.hero-metaline .h-arr { color: var(--acc, var(--seal)); font-size: 0.95rem; }
+
+/* ASIDE column of briefs */
+.ed-aside { display: flex; flex-direction: column; border: 1px solid var(--hair-soft); border-radius: 6px; padding: 0.3rem 1.1rem; background: var(--bg-2); }
+
+/* BRIEF row (aside + in-brief) */
+.brief { display: block; padding: 0.95rem 0; border-top: 1px solid var(--hair); transition: padding-left 0.22s ease; }
+.brief:first-child { border-top: 0; }
+.b-kick { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem; font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--faint); }
+.b-kick .k-topic { color: var(--acc, var(--seal)); background: none; padding: 0; font-weight: 700; }
+.b-kick .k-src { font-size: 0.8rem; margin-left: auto; color: var(--muted); }
+.brief h4 { font-family: "Cormorant Garamond","Noto Serif SC",serif; font-weight: 600; font-size: 1.08rem; line-height: 1.2; color: var(--cream); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+html[data-lang="zh"] .brief h4 { font-family: "Noto Serif SC",serif; line-height: 1.4; }
+.b-meta { margin-top: 0.45rem; display: flex; gap: 0.7rem; font-size: 0.66rem; letter-spacing: 0.03em; color: var(--faint); font-variant-numeric: tabular-nums; }
+.b-meta .b-arr { color: var(--acc, var(--seal)); }
+@media (pointer: fine) { .brief:hover { padding-left: 0.55rem; } .brief:hover h4 { color: #fff; } }
+
+/* FEATURES */
+.ed-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.feature { position: relative; border: 1px solid var(--hair-soft); border-radius: 6px; overflow: hidden; background: var(--bg-2); display: flex; flex-direction: column; color: var(--cream); animation: tileIn 0.55s cubic-bezier(0.22,1,0.36,1) both; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
+.feature:focus-visible { outline: 2px solid var(--cream); outline-offset: 3px; }
+@media (pointer: fine) { .feature:hover { transform: translateY(-5px); box-shadow: 0 16px 42px rgba(0,0,0,0.45); border-color: color-mix(in srgb, var(--acc) 45%, transparent); } }
+.feat-media { position: relative; height: 172px; overflow: hidden; border-bottom: 1px solid var(--hair-soft); }
+.feat-media img, .feat-media svg { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); }
+@media (pointer: fine) { .feature:hover .feat-media img, .feature:hover .feat-media svg { transform: scale(1.06); } }
+.feat-body { padding: 1rem 1.1rem 1.05rem; display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
+.feat-kick { display: flex; align-items: center; gap: 0.5rem; font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--faint); }
+.feat-kick .k-topic { color: var(--acc, var(--seal)); background: none; padding: 0; }
+.feat-kick .k-src { margin-left: auto; text-transform: none; font-size: 0.85rem; color: var(--muted); }
+.feature h3 { font-family: "Cormorant Garamond","Noto Serif SC",serif; font-weight: 600; font-size: 1.22rem; line-height: 1.18; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+html[data-lang="zh"] .feature h3 { font-family: "Noto Serif SC",serif; line-height: 1.35; }
+.feat-sum { color: var(--muted); font-size: 0.83rem; line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.feat-foot { margin-top: auto; display: flex; justify-content: space-between; font-size: 0.66rem; color: var(--faint); font-variant-numeric: tabular-nums; padding-top: 0.3rem; }
+.feat-foot .f-arr { color: var(--acc, var(--seal)); }
+
+/* IN BRIEF — multi-column list */
+.ed-briefs { columns: 2; column-gap: 2.6rem; }
+.ed-briefs .brief { break-inside: avoid; -webkit-column-break-inside: avoid; }
+
+.paper-note { color: var(--faint); font-size: 0.78rem; margin-top: 1.8rem; line-height: 1.7; }
 .paper-empty { color: var(--muted); font-size: 0.95rem; padding: 3.5rem 0; text-align: center; }
 
 @media (max-width: 860px) {
-  .mosaic { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 14px; }
-  .tile { grid-column: 1 / -1 !important; grid-row: auto !important; }
-  .tile-fig { display: block !important; height: 150px !important; }
-  .tile[data-size="s"] .tile-sum, .tile[data-size="xs"] .tile-sum { display: -webkit-box; -webkit-line-clamp: 3; }
-  .tile[data-size="xs"] .tile-kick { display: flex; }
+  .ed-top { grid-template-columns: 1fr; }
+  .ed-features { grid-template-columns: 1fr; }
+  .ed-briefs { columns: 1; }
 }
 
 /* slim footer on focus page */
@@ -499,7 +505,7 @@ html[data-lang="zh"] .tile-head { font-family: "Noto Serif SC",serif; line-heigh
       </div>
       <div class="mosaic" id="pulseGrid"></div>
       <p class="paper-empty" id="pulseEmpty" hidden><span class="en">No entries for this day.</span><span class="zh">这一天暂无收录。</span></p>
-      <p class="paper-note"><span class="en">Auto-curated daily by an AI research agent from the top journals, the major meetings and the structural-heart conversation. Block size reflects a blend of journal impact, reach and editorial importance. Every block links to its source. Illustrations are original schematics, not the publishers' figures. Not medical advice.</span><span class="zh">由 AI 研究 agent 每日从大刊、重要会议与圈内讨论中自动整理。方块大小综合了期刊影响力、传播热度与编辑重要性。每个方块均链接至原文。配图为原创示意图,非出版方原图。不构成医疗建议。</span></p>
+      <p class="paper-note"><span class="en">Auto-curated daily by an AI research agent from the top journals, the major meetings and the structural-heart conversation. Placement reflects a blend of journal impact, reach and editorial importance. Hero images are open-access figures (credited) where a reuse licence permits, otherwise original schematics. Every item links to its source. Not medical advice.</span><span class="zh">由 AI 研究 agent 每日从大刊、重要会议与圈内讨论中自动整理。版位综合了期刊影响力、传播热度与编辑重要性。头图在许可允许时采用开放获取原图(标注出处),否则为原创示意图。每条均链接至原文。不构成医疗建议。</span></p>
     </div>
   </section>
 
@@ -509,7 +515,7 @@ html[data-lang="zh"] .tile-head { font-family: "Noto Serif SC",serif; line-heigh
       <div class="foot-cta">
         <div class="foot-cta-l">
           <img class="foot-avatar" src="portrait.jpg" alt="Dr. Mi Chen" width="648" height="1000">
-          <p><span class="en">Curated from inside the Zurich cath lab by <b>Dr. Mi Chen</b> — structural heart interventionist, co-founder of CardioAI.</span><span class="zh">由 <b>陈密医生</b> 在苏黎世导管室内部策展 —— 结构性心脏病介入医生,CardioAI 联合创始人。</span></p>
+          <p><span class="en">Curated from inside the Zurich hybrid room by <b>Dr. Mi Chen</b> — structural heart interventionist, cardiac surgeon, co-founder of CardioAI.</span><span class="zh">由 <b>陈密医生</b> 在苏黎世复合手术室内部策展 —— 结构性心脏病介入医生、心脏外科医生、CardioAI 联合创始人。</span></p>
         </div>
         <a class="pill magnetic" href="/about"><span class="en">About &amp; consulting ↗</span><span class="zh">关于与咨询 ↗</span></a>
       </div>
@@ -718,28 +724,28 @@ tickTime(); setInterval(tickTime, 30000);
     Other:     {en:'Structural',    zh:'结构'}
   };
 
-  // original schematic illustrations (not publisher figures)
-  const ART = {
-    TAVI: '<circle cx="50" cy="50" r="33"/><circle cx="50" cy="34" r="10"/><circle cx="36" cy="59" r="10"/><circle cx="64" cy="59" r="10"/>',
-    Mitral: '<circle cx="50" cy="50" r="33"/><path d="M27 41 Q50 63 73 41"/><path d="M27 59 Q50 37 73 59"/>',
-    Tricuspid: '<circle cx="50" cy="50" r="33"/><path d="M50 50 L50 18 M50 50 L26 64 M50 50 L74 64"/>',
-    LAA: '<path d="M20 54 Q21 29 44 29 Q69 29 73 50 Q75 66 58 70 Q38 74 29 65 Q21 59 20 54Z"/><circle cx="65" cy="51" r="8.5"/><path d="M56 51 H75"/>',
-    Imaging: '<path d="M50 20 L24 80 A62 62 0 0 0 76 80 Z"/><path d="M35 52 A24 24 0 0 1 65 52" opacity="0.7"/><path d="M40 66 A16 16 0 0 1 60 66" opacity="0.5"/>',
-    Other: '<circle cx="50" cy="50" r="33"/><path d="M22 50 H37 L43 33 L52 68 L58 50 H78"/>'
+  // original duotone illustrations (fallback when no open-access image); motifs drawn around (0,0)
+  const MOTIF = {
+    TAVI: '<circle r="152" stroke-opacity="0.22"/><circle r="152" stroke-dasharray="5 15" stroke-opacity="0.5"/><path d="M0 0 L0 -122 M0 0 L-106 61 M0 0 L106 61" stroke-width="4"/><circle cx="0" cy="-80" r="47" fill="A" fill-opacity="0.2"/><circle cx="-69" cy="41" r="47" fill="A" fill-opacity="0.2"/><circle cx="69" cy="41" r="47" fill="A" fill-opacity="0.2"/>',
+    Mitral: '<circle r="152" stroke-opacity="0.22"/><path d="M-122 -56 Q0 72 122 -56" fill="A" fill-opacity="0.16"/><path d="M-122 56 Q0 -72 122 56" fill="A" fill-opacity="0.16"/><path d="M-122 -56 Q0 72 122 -56 M-122 56 Q0 -72 122 56" stroke-width="4"/>',
+    Tricuspid: '<circle r="152" stroke-opacity="0.22"/><circle r="152" stroke-dasharray="4 13" stroke-opacity="0.45"/><path d="M0 0 L0 -142 M0 0 L-122 76 M0 0 L122 76" stroke-width="4"/><path d="M0 -142 A142 142 0 0 1 122 76" fill="A" fill-opacity="0.12"/>',
+    LAA: '<path d="M-152 22 Q-142 -122 22 -122 Q152 -122 152 32 Q152 112 40 122 Q-92 132 -132 72 Q-158 42 -152 22Z" fill="A" fill-opacity="0.16" stroke-width="4"/><circle cx="92" cy="12" r="44"/><path d="M48 12 H136 M92 -32 V56 M60 -20 L124 44 M124 -20 L60 44" stroke-width="2.5" stroke-opacity="0.7"/>',
+    Imaging: '<path d="M0 -172 L-152 152 A215 215 0 0 0 152 152 Z" fill="A" fill-opacity="0.1" stroke-opacity="0.45" stroke-width="3"/><path d="M-72 42 A92 92 0 0 1 72 42" stroke-width="3.5" stroke-opacity="0.75"/><path d="M-42 98 A56 56 0 0 1 42 98" stroke-width="3.5" stroke-opacity="0.5"/><circle r="7" fill="L" stroke="none"/>',
+    Other: '<path d="M0 122 C-122 32 -152 -60 -82 -112 C-40 -142 0 -112 0 -70 C0 -112 40 -142 82 -112 C152 -60 122 32 0 122Z" fill="A" fill-opacity="0.16" stroke-width="4"/><path d="M-152 -10 H-62 L-30 -72 L12 62 L42 -10 H152" stroke-width="4" stroke-opacity="0.85"/>'
   };
-  function artFor(t){ return '<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' + (ART[t] || ART.Other) + '</svg>'; }
-
-  function sizeFor(rank, n) {
-    if (n === 1) return {c:12, r:6, s:'xl'};
-    if (n === 2) return rank === 0 ? {c:7, r:6, s:'xl'} : {c:5, r:6, s:'l'};
-    if (n === 3) return [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:12,r:4,s:'m'}][rank];
-    if (n === 4) return [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:6,r:4,s:'m'},{c:6,r:4,s:'m'}][rank];
-    const lead = [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:4,r:5,s:'m'},{c:4,r:5,s:'m'},{c:4,r:5,s:'m'}];
-    if (rank < 5) return lead[rank];
-    const tail = n - 5, per = tail >= 4 ? 4 : tail;
-    const c = Math.max(3, Math.floor(12 / per));
-    const s = c >= 5 ? 'm' : (c >= 4 ? 's' : 'xs');
-    return {c, r: s === 'm' ? 4 : 3, s};
+  const LIGHT = 'rgba(243,238,228,0.9)';
+  let ARTUID = 0;
+  function heroArt(topic, accent) {
+    const uid = 'a' + (ARTUID++);
+    const motif = (MOTIF[topic] || MOTIF.Other).replace(/"A"/g, '"' + accent + '"').replace(/"L"/g, '"' + LIGHT + '"');
+    return '<svg viewBox="0 0 800 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">'
+      + '<defs><radialGradient id="rg' + uid + '" cx="30%" cy="26%" r="98%">'
+      + '<stop offset="0%" stop-color="' + accent + '" stop-opacity="0.6"/>'
+      + '<stop offset="42%" stop-color="' + accent + '" stop-opacity="0.15"/>'
+      + '<stop offset="100%" stop-color="#0c0d10" stop-opacity="1"/></radialGradient>'
+      + '<pattern id="dt' + uid + '" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="' + accent + '" fill-opacity="0.16"/></pattern></defs>'
+      + '<rect width="800" height="560" fill="#101116"/><rect width="800" height="560" fill="url(#rg' + uid + ')"/><rect width="800" height="560" fill="url(#dt' + uid + ')"/>'
+      + '<g transform="translate(516 300)" stroke="' + LIGHT + '" stroke-opacity="0.85" fill="none" stroke-linecap="round" stroke-linejoin="round">' + motif + '</g></svg>';
   }
 
   let days = [], idx = -1;
@@ -758,53 +764,120 @@ tickTime(); setInterval(tickTime, 30000);
     return (it.weight || 2) * 20 + (sm.boost || 0) + (ty.boost || 3);
   }
 
+  function ctx(it) {
+    const sm = srcMeta(it.source);
+    const ty = TYPE[it.type] || TYPE.news;
+    const tp = TOPIC[it.topic] || TOPIC.Other;
+    return { sm, ty, tp, accent: sm.accent || ty.accent || '#CE4A33' };
+  }
+  function mediaEl(it, accent) {
+    const m = document.createElement('div');
+    if (it.image) {
+      const im = document.createElement('img'); im.src = it.image; im.alt = ''; im.loading = 'lazy';
+      im.addEventListener('error', () => { m.innerHTML = heroArt(it.topic, accent); });
+      m.append(im);
+      if (it.image_credit) { const c = document.createElement('span'); c.className = 'card-credit'; c.textContent = it.image_credit; m.append(c); }
+    } else { m.innerHTML = heroArt(it.topic, accent); }
+    return m;
+  }
+  function dstr(it, day) { return (it.date || day.date || '').slice(5).replace('-', '/'); }
+
+  function heroCard(it, day) {
+    const c = ctx(it);
+    const a = document.createElement('a'); a.className = 'card hero-card'; a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; a.style.setProperty('--acc', c.accent);
+    const media = mediaEl(it, c.accent); media.className = 'hero-media';
+    const top = document.createElement('span'); top.className = 'card-top';
+    const inr = document.createElement('div'); inr.className = 'hero-in';
+    const kick = document.createElement('div'); kick.className = 'hero-kick';
+    const kt = bi('span', c.tp.en, c.tp.zh); kt.className = 'k-topic';
+    const ks = document.createElement('span'); ks.className = 'k-src'; ks.textContent = c.sm.mark || it.source || '';
+    kick.append(kt, ks);
+    const h = bi('h2', it.title, it.title_zh); h.className = 'hero-head';
+    const sum = bi('p', it.summary_en, it.summary_zh); sum.className = 'hero-sum';
+    const meta = document.createElement('div'); meta.className = 'hero-metaline';
+    const md = document.createElement('span'); md.textContent = dstr(it, day);
+    const mt = bi('span', c.ty.en, c.ty.zh);
+    const ms = document.createElement('span'); ms.textContent = c.sm.meta || '';
+    const ar = document.createElement('span'); ar.className = 'h-arr'; ar.append(bi('span', 'Read source ↗', '读原文 ↗'));
+    meta.append(md, mt); if (c.sm.meta) meta.append(ms); meta.append(ar);
+    inr.append(kick, h, sum, meta);
+    a.append(media, top, inr);
+    return a;
+  }
+  function featureCard(it, day) {
+    const c = ctx(it);
+    const a = document.createElement('a'); a.className = 'card feature'; a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; a.style.setProperty('--acc', c.accent);
+    const media = mediaEl(it, c.accent); media.className = 'feat-media';
+    const top = document.createElement('span'); top.className = 'card-top';
+    media.append(top);
+    const body = document.createElement('div'); body.className = 'feat-body';
+    const kick = document.createElement('div'); kick.className = 'feat-kick';
+    const kt = bi('span', c.tp.en, c.tp.zh); kt.className = 'k-topic';
+    const ks = document.createElement('span'); ks.className = 'k-src'; ks.textContent = c.sm.mark || it.source || '';
+    kick.append(kt, ks);
+    const h = bi('h3', it.title, it.title_zh);
+    const sum = bi('p', it.summary_en, it.summary_zh); sum.className = 'feat-sum';
+    const foot = document.createElement('div'); foot.className = 'feat-foot';
+    const md = document.createElement('span'); md.textContent = dstr(it, day);
+    const ar = document.createElement('span'); ar.className = 'f-arr'; ar.textContent = '↗';
+    foot.append(md, ar);
+    body.append(kick, h, sum, foot);
+    a.append(media, body);
+    return a;
+  }
+  function briefRow(it, day) {
+    const c = ctx(it);
+    const a = document.createElement('a'); a.className = 'card brief'; a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; a.style.setProperty('--acc', c.accent);
+    const kick = document.createElement('div'); kick.className = 'b-kick';
+    const kt = bi('span', c.tp.en, c.tp.zh); kt.className = 'k-topic';
+    const ks = document.createElement('span'); ks.className = 'k-src'; ks.textContent = c.sm.mark || it.source || '';
+    kick.append(kt, ks);
+    const h = bi('h4', it.title, it.title_zh);
+    const meta = document.createElement('div'); meta.className = 'b-meta';
+    const md = document.createElement('span'); md.textContent = dstr(it, day);
+    const mt = bi('span', c.ty.en, c.ty.zh);
+    const ar = document.createElement('span'); ar.className = 'b-arr'; ar.textContent = '↗';
+    meta.append(md, mt, ar);
+    a.append(kick, h, meta);
+    return a;
+  }
+  function label(en, zh, num) {
+    const d = document.createElement('div'); d.className = 'ed-label';
+    const b = bi('b', en, zh);
+    d.append(b);
+    return d;
+  }
+
   function render(day) {
     grid.replaceChildren();
     const items = (day.items || []).slice().sort((a, b) => score(b) - score(a));
     emptyEl.hidden = items.length > 0;
-    const n = items.length;
-    items.forEach((it, i) => {
-      const sm = srcMeta(it.source);
-      const ty = TYPE[it.type] || TYPE.news;
-      const tp = TOPIC[it.topic] || TOPIC.Other;
-      const accent = sm.accent || ty.accent || 'var(--seal)';
-      const sz = sizeFor(i, n);
+    if (!items.length) return;
 
-      const a = document.createElement('a');
-      a.className = 'tile'; a.dataset.size = sz.s;
-      a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
-      a.style.gridColumn = 'span ' + sz.c;
-      a.style.gridRow = 'span ' + sz.r;
-      a.style.setProperty('--acc', accent);
-      a.style.animationDelay = Math.min(i * 0.045, 0.5) + 's';
+    const hero = items[0], rest = items.slice(1);
+    const aside = rest.slice(0, 3), features = rest.slice(3, 6), briefs = rest.slice(6);
 
-      const fig = document.createElement('div'); fig.className = 'tile-fig';
-      if (it.image) { const im = document.createElement('img'); im.src = it.image; im.alt = ''; im.loading = 'lazy'; fig.append(im); }
-      else fig.innerHTML = artFor(it.topic);
+    const top = document.createElement('div'); top.className = 'ed-top';
+    top.append(heroCard(hero, day));
+    if (aside.length) {
+      const as = document.createElement('div'); as.className = 'ed-aside';
+      aside.forEach(it => as.append(briefRow(it, day)));
+      top.append(as);
+    } else { top.style.gridTemplateColumns = '1fr'; }
+    grid.append(top);
 
-      const body = document.createElement('div'); body.className = 'tile-body';
-      const mast = document.createElement('div'); mast.className = 'tile-mast';
-      const mk = document.createElement('span'); mk.className = 'mast-mark'; mk.textContent = sm.mark || (it.source || '');
-      const mi = document.createElement('span'); mi.className = 'mast-if'; mi.textContent = sm.meta || (it.source || '');
-      mast.append(mk, mi);
-
-      const kick = document.createElement('div'); kick.className = 'tile-kick';
-      const kt = bi('span', tp.en, tp.zh); kt.classList.add('k-topic');
-      const ky = bi('span', ty.en, ty.zh); ky.classList.add('k-type');
-      kick.append(kt, document.createTextNode('·'), ky);
-
-      const h = bi('h3', it.title, it.title_zh); h.className = 'tile-head';
-      const sum = bi('p', it.summary_en, it.summary_zh); sum.className = 'tile-sum';
-
-      const foot = document.createElement('div'); foot.className = 'tile-foot';
-      const dt = document.createElement('span'); dt.className = 't-date'; dt.textContent = (it.date || day.date || '').slice(5).replace('-', '/');
-      const ar = document.createElement('span'); ar.className = 't-arr'; ar.textContent = '↗';
-      foot.append(dt, ar);
-
-      body.append(mast, kick, h, sum, foot);
-      a.append(fig, body);
-      grid.append(a);
-    });
+    if (features.length) {
+      grid.append(label('Features', '焦点'));
+      const fr = document.createElement('div'); fr.className = 'ed-features';
+      features.forEach((it, i) => { const f = featureCard(it, day); f.style.animationDelay = (i * 0.06) + 's'; fr.append(f); });
+      grid.append(fr);
+    }
+    if (briefs.length) {
+      grid.append(label('In brief', '简讯'));
+      const bl = document.createElement('div'); bl.className = 'ed-briefs';
+      briefs.forEach(it => bl.append(briefRow(it, day)));
+      grid.append(bl);
+    }
   }
 
   function fmtDate(d) {

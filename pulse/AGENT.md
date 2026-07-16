@@ -33,11 +33,23 @@
       "topic": "TAVI",
       "weight": 4,
       "url": "https://...",
-      "image": "(可选) 一张可公开、可外链的图片 URL 或 data:URI"
+      "image": "(可选) pulse/img/ 下的本地图片相对路径,或可外链的图片 URL",
+      "image_credit": "(填了 image 就必须写) 出处与许可,如 'Fig. — Author et al., EuroIntervention 2026 (CC BY)'"
     }
   ]
 }
 ```
+
+### 关于头图(重要,版权红线)
+
+页面是「大头条 + 图片驱动」的杂志排版,**头条和焦点卡都吃图**。取图规则:
+
+- **只允许开放获取(OA)且许可明确允许重用的图**(CC BY / CC BY-NC),典型来源:EuroIntervention(多为 OA)、部分 JACC/EHJ/Circulation OA 文章的 central illustration / graphical abstract、各学会(SCAI/ESC/ACC)声明配图。取图前确认文章页标注了 CC BY 类许可。
+- **严禁**抓取付费墙后、"仅免费阅读但保留所有权利"的图,以及 TCTMD/新闻站的配图(它们免费读但图有版权)。拿不准就**不要填 image**。
+- **优先自托管**:把图下载到仓库 `pulse/img/`(文件名用文章标识,如 `2026-07-06-safe-protect.jpg`),`image` 填相对路径 `pulse/img/xxx.jpg`;避免直接外链(外链常被防盗链或失效)。下载的图一并 `git add pulse/img && git add pulse/data`。
+- 填了 `image` 就**必须**同时填 `image_credit`(出处 + 许可)。
+- 没有合法可用的图时**留空 image**——前端会自动按 `topic` 渲染原创杜通色示意插画,页面照样好看。
+- 每天至少给**头条(weight/评分最高那条)**尽量配一张合法 OA 图;其余能配则配。
 
 字段约定:
 
