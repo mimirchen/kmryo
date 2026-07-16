@@ -388,6 +388,26 @@ html.reduced .pcard { animation: none; }
   .pcard { grid-column: span 2 !important; grid-row: span 1 !important; min-height: 0; }
   .pcard .psum { display: -webkit-box; }
 }
+
+/* ---- subscribe band ---- */
+.brief { border-top: 1px solid var(--hair); }
+.brief-in { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(1.6rem,5vw,4rem); align-items: center; padding: clamp(2.6rem,6vh,4.4rem) 0; }
+.brief-kick { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); }
+.brief-kick::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--seal); transform: rotate(-4deg); }
+.brief h2 { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; font-style: italic; font-size: clamp(1.8rem,3.4vw,2.9rem); line-height: 1.04; margin: 0.7rem 0 0; color: var(--cream); }
+html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style: normal; font-size: clamp(1.6rem,3vw,2.4rem); }
+.brief p.brief-sub { color: var(--muted); font-size: 0.98rem; line-height: 1.6; margin-top: 0.85rem; max-width: 46ch; }
+.bd-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.bd-row input[type=email] { flex: 1 1 12rem; min-width: 0; background: transparent; border: 1px solid var(--hair); border-radius: 999px; padding: 0.85rem 1.25rem; color: var(--cream); font: inherit; font-size: 0.98rem; transition: border-color 0.2s; }
+.bd-row input[type=email]::placeholder { color: rgba(156,156,147,0.7); }
+.bd-row input[type=email]:focus { outline: none; border-color: var(--seal); }
+.bd-row button { flex: 0 0 auto; background: var(--seal-deep); color: var(--cream); border: 1px solid var(--seal-deep); border-radius: 999px; padding: 0.85rem 1.5rem; font: inherit; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: background 0.2s, transform 0.15s; }
+.bd-row button:hover { background: var(--seal); transform: translateY(-1px); }
+.bd-fine { color: var(--muted); font-size: 0.8rem; margin-top: 0.85rem; opacity: 0.8; }
+.bd-msg { font-size: 0.9rem; margin-top: 0.85rem; min-height: 1.2em; }
+.bd-msg.ok { color: var(--cream); }
+.bd-msg.warn { color: var(--seal); }
+@media (max-width: 720px) { .brief-in { grid-template-columns: 1fr; gap: 1.4rem; } }
 </style>
 <noscript><style>#loader{display:none}body.locked{overflow:auto}.fade,.lines .li>span{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
@@ -604,6 +624,27 @@ html.reduced .pcard { animation: none; }
     </div>
   </section>
 
+  <!-- ============ SUBSCRIBE BAND ============ -->
+  <section class="brief" id="subscribe">
+    <div class="wrap">
+      <div class="brief-in">
+        <div class="brief-copy">
+          <span class="brief-kick"><span class="en">The Monday Briefing</span><span class="zh">周一简报</span></span>
+          <h2><span class="en">The week's structural-heart signal, in one email.</span><span class="zh">一封邮件,收下本周结构心的关键信号。</span></h2>
+          <p class="brief-sub"><span class="en">Every Monday: the highest-impact trials, late-breakers and device news of the week — curated from inside the Zurich hybrid room. One email. No noise.</span><span class="zh">每周一:本周影响力最高的临床试验、late-breaking 与器械动态 —— 由苏黎世复合手术室内部策展。一封邮件,绝无噪音。(周报为英文)</span></p>
+        </div>
+        <div class="brief-form">
+          <form class="bd-row" id="bdForm" method="post" target="popupwindow" novalidate>
+            <input type="email" name="email" id="bdEmail" placeholder="you@hospital.org" autocomplete="email" required>
+            <button type="submit"><span class="en">Subscribe</span><span class="zh">订阅</span></button>
+          </form>
+          <p class="bd-fine"><span class="en">Free · English · Unsubscribe anytime. No spam, ever.</span><span class="zh">免费 · 英文 · 随时一键退订。绝不发垃圾邮件。</span></p>
+          <p class="bd-msg" id="bdMsg" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ CTA / CONTACT ============ -->
   <section class="cta" id="contact">
     <div class="wrap">
@@ -788,6 +829,34 @@ function tickTime() {
   } catch (e) {}
 }
 tickTime(); setInterval(tickTime, 30000);
+
+/* ---- Subscribe (Buttondown) ---- */
+(function () {
+  // Buttondown username (buttondown.com/settings → Basics).
+  const BUTTONDOWN_USER = "kmryo";
+  const form = document.getElementById('bdForm');
+  const email = document.getElementById('bdEmail');
+  const msg = document.getElementById('bdMsg');
+  if (!form) return;
+  const isZh = () => html.dataset.lang === 'zh';
+  const say = (text, cls) => { msg.textContent = text; msg.className = 'bd-msg ' + (cls || ''); };
+  form.setAttribute('action', BUTTONDOWN_USER
+    ? `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDOWN_USER}` : '');
+  form.addEventListener('submit', function (e) {
+    if (!BUTTONDOWN_USER) {
+      e.preventDefault();
+      say(isZh() ? '订阅即将开放,先记下你的期待 🙏' : 'Subscriptions open shortly — thanks for the interest 🙏', 'warn');
+      return;
+    }
+    if (!email.value || !email.validity.valid) {
+      e.preventDefault();
+      say(isZh() ? '请输入有效的邮箱地址。' : 'Please enter a valid email address.', 'warn');
+      return;
+    }
+    window.open(`https://buttondown.com/${BUTTONDOWN_USER}`, 'popupwindow');
+    say(isZh() ? '快好了 —— 请到邮箱点确认链接。' : 'Almost there — check your inbox to confirm.', 'ok');
+  });
+})();
 
 /* ---- daily pulse (每日焦点) ---- */
 (function () {
