@@ -26,15 +26,23 @@ SEAL_DEEP = (168, 54, 43)
 FONTS = {
     "serif":  ["/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
                "/System/Library/Fonts/Supplemental/Georgia.ttf",
-               "/Library/Fonts/Georgia.ttf"],
-    "serifr": ["/System/Library/Fonts/Supplemental/Georgia.ttf"],
+               "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"],
+    "serifr": ["/System/Library/Fonts/Supplemental/Georgia.ttf",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"],
     "sans":   ["/System/Library/Fonts/Supplemental/Arial.ttf",
-               "/System/Library/Fonts/Helvetica.ttc"],
+               "/System/Library/Fonts/Helvetica.ttc",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
     "sansb":  ["/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-               "/System/Library/Fonts/Helvetica.ttc"],
+               "/System/Library/Fonts/Helvetica.ttc",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
     "cjk":    ["/System/Library/Fonts/PingFang.ttc",
-               "/System/Library/Fonts/Supplemental/Songti.ttc"],
+               "/System/Library/Fonts/Supplemental/Songti.ttc",
+               "/usr/share/fonts/opentype/noto/NotoSansCJKsc-Regular.otf",
+               "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+               "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"],
 }
+HAS_CJK = any(os.path.exists(p) for p in FONTS["cjk"])
 def font(kind, size):
     for p in FONTS[kind]:
         if os.path.exists(p):
@@ -110,10 +118,14 @@ def main():
     LX = 64
     # brand row: seal + wordmark
     d.rounded_rectangle([LX, 60, LX+34, 94], radius=6, fill=SEAL_DEEP)
-    d.text((LX+17, 77), "觅", font=font("cjk", 22), fill=CREAM, anchor="mm")
+    if HAS_CJK:
+        d.text((LX+17, 77), "觅", font=font("cjk", 22), fill=CREAM, anchor="mm")
+    else:
+        d.text((LX+17, 76), "R", font=font("serif", 20), fill=CREAM, anchor="mm")
     bx = LX+48
-    d.text((bx, 78), "千觅量子", font=font("cjk", 17), fill=MUTED, anchor="lm")
-    bx += d.textlength("千觅量子", font=font("cjk", 17)) + 7
+    if HAS_CJK:
+        d.text((bx, 78), "千觅量子", font=font("cjk", 17), fill=MUTED, anchor="lm")
+        bx += d.textlength("千觅量子", font=font("cjk", 17)) + 7
     d.text((bx, 77), "RYO · STRUCTURAL HEART FOCUS", font=font("sans", 17), fill=MUTED, anchor="lm")
     # topic kicker pill
     topic = (it.get("topic") or "").upper()
