@@ -11,8 +11,11 @@
 2. **只收录真实、可验证的条目**:每条必须有能打开的 URL。宁缺毋滥,严禁编造标题/数据/链接。典型每天 4–10 条;确实没有大新闻时可以少于 4 条。
 3. **写入数据文件** `pulse/data/YYYY-MM-DD.json`(格式见下)。
 4. **更新 `pulse/data/manifest.json`**:把新日期追加进 `days` 数组(保持升序,勿删旧日期)。
-5. **提交并推送**:`git add pulse/data && git commit -m "pulse: YYYY-MM-DD daily update" && git push`。GitHub Pages 约 1 分钟后生效。
-6. 除 `pulse/data/` 外**不得改动仓库其他任何文件**。
+5. **重新生成社交分享卡片**:`python3 pulse/make_share_card.py`。它读取最新一天的头条(评分最高那条),渲染 `pulse/img/share/card.png`(1200×630),这张就是领英/微信/X 抓到的 `og:image`。**必须每天重跑**,否则分享出去还是旧头条。
+6. **更新 `index.html` 里的社交文字标签**(让文字预览也反映今日头条):把头条英文标题填进 `og:title` 与 `twitter:title`,把它的一句话英文简述填进 `og:description` 与 `twitter:description`。这几行有 `<!-- Social share card -->` 注释标记,只改 content,别动结构。`og:image` 的 URL 保持不变(内容靠重画 card.png 更新)。
+7. **提交并推送**:`git add pulse/data pulse/img/share index.html && git commit -m "pulse: YYYY-MM-DD daily update" && git push`。GitHub Pages 约 1 分钟后生效。
+8. 除上述文件(`pulse/data/`、`pulse/img/`、以及 index.html 里那几行 social 标签)外**不得改动仓库其他任何内容**。
+9. 分享缓存提示:领英会缓存预览,想立刻看到新卡片可用 LinkedIn Post Inspector(https://www.linkedin.com/post-inspector/)重新抓取;微信缓存更顽固,通常次日或换带参数的链接可刷新。
 
 ## 数据格式
 
