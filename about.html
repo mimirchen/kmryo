@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Dr. Mi Chen — Structural Heart × AI | 千觅量子 RYO</title>
+<meta name="description" content="Dr. Mi Chen, MD PhD — structural heart fellow at Klinik Hirslanden Zürich, co-founder of CardioAI, Associate Editor of JACC: Case Reports. Consulting, research and tools at the intersection of cardiovascular medicine and artificial intelligence.">
+<meta property="og:title" content="Dr. Mi Chen — Structural Heart × AI | 千觅量子 RYO">
+<meta property="og:description" content="Structural heart fellow, Klinik Hirslanden Zürich · Co-founder of CardioAI · Associate Editor, JACC: Case Reports · Consulting at the frontier of medicine × AI.">
+<meta property="og:image" content="https://www.kmryo.com/portrait.jpg">
+<meta property="og:url" content="https://www.kmryo.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuinhSI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoLTEuNiA2MCA2MCkiPjxyZWN0IHg9IjYiIHk9IjYiIHdpZHRoPSIxMDgiIGhlaWdodD0iMTA4IiByeD0iMTAiIGZpbGw9IiNBODM2MkIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS40NCA4Ny45Nikgc2NhbGUoMC4wOTcwNyAtMC4wOTcwNykiIGQ9Ik0yMjUgMzc1UTI2NiAzMzcgMjY3IDI5NlEyNjcgMjY2IDI3Ny4wIDE5NS41UTI4NyAxMjUgMjg5LjUgMTI2LjBRMjkyIDEyNyAzMTQuNSAxNTcuMFEzMzcgMTg3IDM1MCAyMTBRMzYzIDIzNCAzODAuNSAyODUuNVEzOTggMzM3IDQwNiAzMzdRNDE2IDMzNyA0MzguMCAzMjQuNVE0NjAgMzEyIDQ2MCAzMDdRNDYwIDMwMCA0NTUuMCAzMDAuMFE0NTAgMzAwIDQ1My4wIDI5Mi4wUTQ1NiAyODQgNDQ3LjUgMjc1LjBRNDM5IDI2NiA0MjkuNSAyNDIuMFE0MjAgMjE4IDQwOSAyMDBMMzk1IDE4M0w0MTkgMTYwUTQ0NCAxMzggNDQ0LjUgMTI4LjBRNDQ1IDExOCA0NDUgNDZRNDQ1IC03IDQ1MC41IC0zMi4wUTQ1NiAtNTcgNDcwIC04Nkw0NzkgLTEwNEg1MjhRNTcyIC0xMDQgNjU0LjAgLTEwMC41UTczNiAtOTcgNzU0IC05NFE3NzkgLTg5IDc4MyAtNDRMNzg2IC0zMVE3ODggLTMxIDc5MSAtMzVRNzk1IC00NyA4MDggLTY0UTgxNyAtNzUgODIyLjUgLTc4LjBRODI4IC04MSA4MzggLTc5UTg1MCAtNzYgODUwIC03OVE4NDUgLTgyIDg1MSAtODhRODU1IC05NCA4NDUuMCAtMTA1LjBRODM1IC0xMTYgODE5IC0xMjJRNzkyIC0xMzEgNzY3LjAgLTEzMy4wUTc0MiAtMTM1IDY3NSAtMTM0UTU4NCAtMTMyIDUzNiAtMTMyUTQ5NCAtMTM0IDQ4MC4wIC0xMjUuNVE0NjYgLTExNyA0NTAgLTg1UTQzOCAtNTkgNDI3LjUgLTMuNVE0MTcgNTIgNDE3IDkxUTQxNyAxMTAgNDA1LjUgMTM2LjBRMzk0IDE2MiAzODUgMTYyUTM4MSAxNjIgMzc1LjAgMTQ2LjVRMzY5IDEzMSAzNjUgMTMxUTM2MCAxMzEgMzU0LjAgMTE3LjBRMzQ4IDEwMyAzNTEgOTlRMzU2IDkxIDMyOSA1OFEzMjYgNTUgMzIyIDYyTDMxOSA2MVEzMjIgNTAgMzEzIDM4UTMwOSAzMyAzMDcgMzFMMzA5IDM4UTMxMiA0NiAzMDYgNDFRMzAzIDQwIDI5NyAzM1EyODEgMTggMjgxIDJRMjc5IC0xMiAyNTIuNSAtNDEuMFEyMjYgLTcwIDIxMiAtNzNRMTk4IC03NiAxODQgLTg5UTE1OSAtMTEzIDE1MCAtOTJRMTQ0IC03NSAxNjAgLTQ3UTE3MyAtMjMgMTgwLjUgLTE2LjBRMTg4IC05IDIyMy41IDMyLjVRMjU5IDc0IDI1MyA4NFEyNDQgMTAwIDIyOSAyODBRMjI2IDMxMyAyMTYuMCAzMjkuNVEyMDYgMzQ2IDIwMyAzNjhRMjAwIDM4NyAyMDQuNSAzODguNVEyMDkgMzkwIDIyNSAzNzVaTTQ5MiA0NDNRNTIyIDQ0MCA1NDUuNSA0MjYuNVE1NjkgNDEzIDU3MyAzOTlRNTc2IDM4NyA1NjMuNSAzNjMuNVE1NTEgMzQwIDU0OC4wIDMxOC41UTU0NSAyOTcgNTM2LjUgMjQ5LjVRNTI4IDIwMiA1MjYgMTU1UTUyNSAxMzQgNTI0LjAgMTIxLjVRNTIzIDEwOSA1MjEuMCAxMDEuNVE1MTkgOTQgNTE2LjUgOTIuMFE1MTQgOTAgNTEwIDkxUTQ5NSA5NyA0OTEuNSAxNDIuNVE0ODggMTg4IDQ5NyAyMzhRNTAzIDI2NiA1MDcuNSAzMzkuNVE1MTIgNDEzIDUwOSA0MThRNTAzIDQyNCA0NDIuNSA0MDcuNVEzODIgMzkxIDMyNiAzNjlRMzAzIDM1OSAyOTYuNSAzNTkuNVEyOTAgMzYwIDI3NSAzNzRRMjQ1IDQwMCAyNzAgNDAwUTI4NCA0MDAgMzE0LjUgNDExLjBRMzQ1IDQyMiAzOTQgNDM1UTQzNSA0NDYgNDQ3LjAgNDQ2LjVRNDU5IDQ0NyA0OTIgNDQzWk0yMzIgNTMxUTI0OCA1MjQgMjU1LjAgNTE2LjVRMjYyIDUwOSAyNjkgNDkzUTI4NSA0NTQgMjcwLjUgNDM4LjBRMjU2IDQyMiAyMjYgNDQ0UTIxMiA0NTYgMTkyLjUgNDkyLjBRMTczIDUyOCAxNzYgNTM4UTE3OSA1NDkgMTkxLjAgNTQ3LjVRMjAzIDU0NiAyMzIgNTMxWk01NDcgNjA3UTU3MCA1OTYgNTgzLjUgNTkwLjVRNTk3IDU4NSA1OTcgNTcxUTU5NyA1NTcgNTg4LjAgNTQ3LjVRNTc5IDUzOCA1NzAgNTQ0UTU0MiA1NjIgNTA2IDUyOFE0ODIgNTA2IDQ3NiA1MDZRNDU5IDUwNiA0ODEgNTQ2UTQ4NSA1NTQgNDkxIDU2M1E1MTMgNTkzIDUxMyA2MDZRNTEzIDYxNiA1MTkuMCA2MTcuMFE1MjUgNjE4IDU0NyA2MDdaTTQ5MSA3MThRNTA3IDcwNyA1MTcgNzA3UTUzNiA3MDcgNTIyIDY5M1E1MTQgNjg1IDUyMiA2ODFRNTM2IDY3MiA1MDYgNjY1UTUwMSA2NjMgNDk0IDY2MlE0NzMgNjU5IDQ0MS41IDY0NC4wUTQxMCA2MjkgMzk0IDYyNlEzODIgNjI0IDM4MS41IDYxNy4wUTM4MSA2MTAgMzkwLjUgNTk0LjBRNDAwIDU3OCA0MDkgNTQzUTQxNCA1MTggNDEzLjUgNTEyLjBRNDEzIDUwNiA0MDYgNTAwUTM5NCA0OTAgMzg1LjAgNDkxLjVRMzc2IDQ5MyAzNjIgNTA5UTM0NCA1MjcgMzQ0IDU0OVEzNDQgNTc5IDMxOSA2MjFRMzE5IDYyMiAyOTUuNSA2MTQuMFEyNzIgNjA2IDI2NSA2MDFRMjU2IDU5NyAyNDcuMCA1OTUuMFEyMzggNTkzIDIzMi4wIDU5My41UTIyNiA1OTQgMjI2IDU5OVEyMjYgNjEyIDI3MS4wIDY0MC4wUTMxNiA2NjggMzcwIDY4N1E0MDQgNjk4IDQyOCA3MTZRNDQ3IDczMSA0NTcuMCA3MzEuMFE0NjcgNzMxIDQ5MSA3MThaIiBmaWxsPSIjRjNFRUU0Ii8+PC9nPjwvc3ZnPg==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS — committed dark editorial ============ */
+:root {
+  --bg:      #1A1B1E;
+  --bg-2:    #202226;
+  --loader:  #131417;
+  --cream:   #ECEAE3;
+  --muted:   #9C9C93;
+  --faint:   #6E6E67;
+  --seal:    #CE4A33;   /* cinnabar, tuned for dark ground */
+  --seal-deep: #A8362B;
+  --hair:    rgba(236,234,227,0.16);
+  --hair-soft: rgba(236,234,227,0.08);
+}
+
+/* ============ BASE ============ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--bg); }
+html:not(.smooth-on) { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--cream);
+  font-family: "Instrument Sans", "Noto Sans SC", -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+html[data-lang="zh"] body { font-family: "Noto Sans SC", "Instrument Sans", -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+.it {
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif;
+  font-style: italic; font-weight: 500;
+}
+html[data-lang="zh"] .it { font-family: "Noto Serif SC", "Cormorant Garamond", Georgia, serif; font-style: normal; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--cream); outline-offset: 4px; border-radius: 2px; }
+img { max-width: 100%; display: block; }
+::selection { background: var(--seal); color: var(--cream); }
+
+html[data-lang="en"] .zh { display: none !important; }
+html[data-lang="zh"] .en { display: none !important; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 clamp(1.4rem, 5vw, 3.5rem); }
+.label {
+  font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.22em;
+  color: var(--muted); font-weight: 500;
+}
+html[data-lang="zh"] .label { letter-spacing: 0.4em; }
+
+/* ============ LOADER ============ */
+#loader {
+  position: fixed; inset: 0; z-index: 200;
+  background: var(--loader);
+  display: grid; place-items: center;
+  border-radius: 0;
+  transition: transform 0.85s cubic-bezier(0.76, 0, 0.24, 1), border-radius 0.85s cubic-bezier(0.76, 0, 0.24, 1);
+}
+#loader.done { transform: translateY(-110%); border-radius: 0 0 50% 50% / 0 0 9vh 9vh; }
+#loader .word {
+  font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 500; color: var(--cream);
+  display: flex; align-items: center; gap: 0.9rem;
+}
+#loader .word::before {
+  content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--seal);
+}
+html.no-js #loader, html.reduced #loader { display: none; }
+body.locked { overflow: hidden; }
+
+/* ============ CURSOR & PREVIEW ============ */
+#cursor {
+  position: fixed; top: 0; left: 0; z-index: 190; pointer-events: none;
+  width: 12px; height: 12px; border-radius: 50%; background: var(--cream);
+  mix-blend-mode: difference;
+  transform: translate(-100px, -100px);
+  transition: width 0.25s ease, height 0.25s ease;
+}
+#cursor.on { width: 64px; height: 64px; }
+@media (pointer: coarse) { #cursor { display: none; } }
+html.reduced #cursor { display: none; }
+
+#preview {
+  position: fixed; top: 0; left: 0; z-index: 60; pointer-events: none;
+  width: min(360px, 32vw); aspect-ratio: 4/3; border-radius: 6px; overflow: hidden;
+  opacity: 0; transform: translate(-50%, -50%) scale(0.7);
+  transition: opacity 0.35s ease, transform 0.35s cubic-bezier(0.33, 1, 0.68, 1);
+}
+#preview.on { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+#preview img { width: 100%; height: 100%; object-fit: cover; }
+#preview .glyph-panel {
+  position: absolute; inset: 0; display: none; place-items: center;
+  background: var(--seal-deep); color: var(--cream);
+  font-family: "Noto Serif SC", serif; font-size: 4.5rem; font-weight: 600;
+}
+#preview.glyph .glyph-panel { display: grid; }
+#preview.glyph img { visibility: hidden; }
+@media (pointer: coarse), (max-width: 860px) { #preview { display: none; } }
+
+/* ============ NAV ============ */
+#nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  transition: transform 0.45s ease, background 0.3s ease;
+  background: transparent;
+}
+#nav.solid { background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(12px); }
+#nav.hide { transform: translateY(-105%); }
+#nav .row { display: flex; align-items: center; gap: 1.8rem; padding: 1.1rem 0; }
+.brand { display: flex; align-items: center; gap: 0.75rem; margin-right: auto; font-weight: 500; letter-spacing: 0.01em; }
+.seal-wrap { flex-shrink: 0; display: block; }
+.seal-mini { width: 34px; height: 34px; display: block; }
+.nav-links { display: flex; gap: 1.7rem; }
+.nav-links a { font-size: 0.92rem; color: var(--muted); position: relative; }
+.nav-links a::after {
+  content: ""; position: absolute; left: 50%; bottom: -6px; width: 5px; height: 5px;
+  border-radius: 50%; background: var(--seal); transform: translateX(-50%) scale(0);
+  transition: transform 0.25s ease;
+}
+.nav-links a:hover { color: var(--cream); }
+.nav-links a:hover::after { transform: translateX(-50%) scale(1); }
+.lang-toggle {
+  border: 1px solid var(--hair); border-radius: 999px; padding: 0.35rem 1rem;
+  font-size: 0.85rem; color: var(--cream); transition: border-color 0.25s ease, background 0.25s ease;
+}
+.lang-toggle:hover { border-color: var(--cream); }
+@media (max-width: 860px) { .nav-links { display: none; } .brand .brand-sub { display: none; } }
+
+/* ============ SMOOTH WRAPPER ============ */
+html.smooth-on #smooth { position: fixed; top: 0; left: 0; width: 100%; will-change: transform; }
+
+/* ============ REVEALS ============ */
+html.js .lines .li { display: block; overflow: hidden; }
+html.js .lines .li > span { display: block; transform: translateY(120%); transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
+html.js .lines.in .li > span { transform: translateY(0); }
+html.js .lines.in .li:nth-child(2) > span { transition-delay: 0.08s; }
+html.js .lines.in .li:nth-child(3) > span { transition-delay: 0.16s; }
+html.js .fade { opacity: 0; transform: translateY(28px); transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
+html.js .fade.in { opacity: 1; transform: none; }
+html.js .fade.d1 { transition-delay: 0.1s; } html.js .fade.d2 { transition-delay: 0.2s; } html.js .fade.d3 { transition-delay: 0.3s; }
+html.reduced .lines .li > span { transform: none !important; }
+html.reduced .fade { opacity: 1 !important; transform: none !important; transition: none; }
+
+/* ============ HERO ============ */
+.hero { min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; position: relative; padding-top: 7rem; }
+.hero-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; margin-bottom: auto; padding-top: 3.5rem; }
+.hero-role { max-width: 24ch; font-size: clamp(1.05rem, 1.6vw, 1.3rem); line-height: 1.5; color: var(--cream); }
+.hero-role .arrow { color: var(--seal); }
+.seal-stamp { width: 66px; height: 66px; flex-shrink: 0; }
+.seal-stamp svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3)); }
+.hero-name-block { padding-bottom: 1rem; }
+.hero-hello { font-size: clamp(1rem, 1.8vw, 1.35rem); color: var(--muted); margin-bottom: 0.6rem; }
+.hero-name {
+  font-size: clamp(3.4rem, 12.5vw, 10rem); font-weight: 500; line-height: 0.98;
+  letter-spacing: -0.02em; text-wrap: balance;
+}
+html[data-lang="zh"] .hero-name { letter-spacing: 0.04em; }
+.hero-name .it { color: var(--seal); font-weight: 600; }
+.hero-meta { display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: 1.6rem; padding-bottom: 2.2rem; }
+.hero-meta .sub { color: var(--muted); font-size: 0.98rem; max-width: 52ch; }
+.down-btn {
+  width: 74px; height: 74px; border: 1px solid var(--hair); border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.3rem; color: var(--cream); flex-shrink: 0;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.down-btn:hover { background: var(--seal-deep); border-color: var(--seal-deep); }
+
+/* marquee */
+.marquee { border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); overflow: hidden; white-space: nowrap; }
+.marquee .track { display: inline-block; padding: 1rem 0; animation: roll 26s linear infinite; }
+.marquee span.chunk {
+  font-size: clamp(1.4rem, 3vw, 2.2rem); font-weight: 500; letter-spacing: 0.01em;
+  color: var(--cream);
+}
+.marquee .dot { color: var(--seal); margin: 0 1.6rem; }
+@keyframes roll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+html.reduced .marquee .track { animation: none; }
+
+/* ============ SECTIONS ============ */
+section { padding: clamp(5rem, 12vh, 9rem) 0; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 2rem; margin-bottom: clamp(2.5rem, 6vh, 4.5rem); }
+.sec-head .count { color: var(--faint); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+
+/* statement */
+.statement { border-top: 1px solid var(--hair); }
+.statement .grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.statement h2 { font-size: clamp(1.9rem, 4.4vw, 3.5rem); font-weight: 500; line-height: 1.25; letter-spacing: -0.01em; }
+.statement h2 .it { color: var(--seal); font-size: 1.06em; }
+.statement .side { display: flex; flex-direction: column; gap: 1.8rem; padding-top: 0.8rem; }
+.statement .side p { color: var(--muted); font-size: 0.98rem; max-width: 36ch; }
+@media (max-width: 860px) { .statement .grid { grid-template-columns: 1fr; } }
+
+/* pill buttons */
+.pill {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+  border: 1px solid var(--hair); border-radius: 999px;
+  padding: 1rem 2rem; font-size: 0.95rem; font-weight: 500; color: var(--cream);
+  position: relative; overflow: hidden; isolation: isolate;
+  transition: color 0.4s ease, border-color 0.4s ease;
+  width: fit-content;
+}
+.pill::after {
+  content: ""; position: absolute; inset: -2px; z-index: -1;
+  background: var(--seal-deep); border-radius: 50% 50% 0 0 / 75% 75% 0 0;
+  transform: translateY(102%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1), border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+}
+.pill:hover::after { transform: translateY(0); border-radius: 0; }
+.pill:hover { border-color: var(--seal-deep); }
+.pill.solid { background: var(--seal-deep); border-color: var(--seal-deep); }
+.pill.solid::after { background: var(--cream); }
+.pill.solid:hover { color: var(--bg); }
+
+/* ============ ABOUT ============ */
+.about { border-top: 1px solid var(--hair); }
+.about-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: clamp(2.5rem, 6vw, 5.5rem); align-items: start; }
+.portrait-frame { position: relative; }
+.portrait-frame img { border-radius: 6px; width: 100%; height: auto; }
+.portrait-frame .stamp-corner { position: absolute; right: -14px; bottom: -14px; }
+.bio p { color: var(--cream); font-size: clamp(1.05rem, 1.5vw, 1.25rem); line-height: 1.7; }
+.bio p + p { margin-top: 1.4rem; }
+.bio p .mark { color: var(--seal); }
+.cred-rows { margin-top: 3rem; border-top: 1px solid var(--hair); }
+.cred-rows .row {
+  display: grid; grid-template-columns: 160px 1fr; gap: 1.5rem;
+  padding: 1.05rem 0; border-bottom: 1px solid var(--hair-soft);
+  font-size: 0.95rem;
+}
+.cred-rows .k { color: var(--faint); text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.72rem; padding-top: 0.25rem; }
+.cred-rows .v { color: var(--muted); }
+.cred-rows .v b { color: var(--cream); font-weight: 500; }
+@media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; } .portrait-frame { max-width: 420px; } .cred-rows .row { grid-template-columns: 1fr; gap: 0.2rem; } }
+
+/* ============ WORK ============ */
+.work { border-top: 1px solid var(--hair); }
+.work-list { border-top: 1px solid var(--hair); }
+.work-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 2rem;
+  padding: clamp(1.8rem, 5vh, 3.2rem) 0; border-bottom: 1px solid var(--hair);
+  transition: opacity 0.35s ease;
+}
+.work-row h3 {
+  font-size: clamp(1.9rem, 5.5vw, 4rem); font-weight: 500; letter-spacing: -0.015em;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.work-row .cat { color: var(--muted); font-size: 0.92rem; text-align: right; flex-shrink: 0; transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+@media (pointer: fine) {
+  .work-list:hover .work-row { opacity: 0.35; }
+  .work-list .work-row:hover { opacity: 1; }
+  .work-row:hover h3 { transform: translateX(14px); }
+  .work-row:hover .cat { transform: translateX(-8px); }
+}
+
+/* ============ SERVICES ============ */
+.services { border-top: 1px solid var(--hair); }
+.svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.6rem, 4vw, 3.5rem); }
+.svc { border-top: 1px solid var(--hair); padding-top: 1.6rem; }
+.svc .num { color: var(--seal); font-size: 0.85rem; font-variant-numeric: tabular-nums; display: block; margin-bottom: 2.6rem; }
+.svc h3 { font-size: clamp(1.3rem, 2vw, 1.7rem); font-weight: 500; margin-bottom: 1rem; }
+.svc p { color: var(--muted); font-size: 0.95rem; }
+@media (max-width: 860px) { .svc-grid { grid-template-columns: 1fr; } .svc .num { margin-bottom: 1.2rem; } }
+
+/* ============ PRODUCTS ============ */
+.products { border-top: 1px solid var(--hair); }
+.prod-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+.prod {
+  background: var(--bg-2); border: 1px solid var(--hair-soft); border-radius: 10px;
+  padding: 2rem 1.8rem; display: flex; flex-direction: column; gap: 1rem;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.35s ease;
+}
+.prod:hover { transform: translateY(-6px); border-color: var(--hair); }
+.prod .meta { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--faint); }
+.prod h3 { font-size: 1.25rem; font-weight: 500; line-height: 1.35; }
+.prod p { color: var(--muted); font-size: 0.93rem; flex-grow: 1; }
+.prod .price { font-variant-numeric: tabular-nums; color: var(--cream); font-size: 0.95rem; }
+.prod .price .soon { color: var(--seal); }
+@media (max-width: 860px) { .prod-grid { grid-template-columns: 1fr; } }
+
+/* ============ NEWSLETTER ============ */
+.news { border-top: 1px solid var(--hair); }
+.news .grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+.news h2 { font-size: clamp(1.8rem, 3.6vw, 2.8rem); font-weight: 500; }
+.news h2 .it { color: var(--seal); }
+.news .sub { color: var(--muted); margin-top: 0.8rem; max-width: 46ch; font-size: 0.97rem; }
+form.signup { display: flex; border: 1px solid var(--hair); border-radius: 999px; padding: 0.35rem; }
+form.signup input {
+  flex: 1; min-width: 0; background: none; border: none; color: var(--cream);
+  padding: 0.7rem 1.2rem; font: inherit;
+}
+form.signup input::placeholder { color: var(--faint); }
+form.signup input:focus { outline: none; }
+form.signup .pill { padding: 0.75rem 1.6rem; }
+.form-note { font-size: 0.8rem; color: var(--faint); margin-top: 0.8rem; padding-left: 1.2rem; }
+@media (max-width: 860px) { .news .grid { grid-template-columns: 1fr; } }
+
+/* ============ CTA FOOTER ============ */
+.cta { border-top: 1px solid var(--hair); padding-bottom: 0; }
+.cta-head { display: flex; align-items: center; gap: clamp(1rem, 3vw, 2rem); flex-wrap: wrap; }
+.cta-head .avatar {
+  width: clamp(64px, 8vw, 100px); height: clamp(64px, 8vw, 100px);
+  border-radius: 50%; object-fit: cover; object-position: top;
+}
+.cta h2 { font-size: clamp(2.6rem, 8vw, 6.5rem); font-weight: 500; line-height: 1.05; letter-spacing: -0.02em; }
+.cta h2 .it { color: var(--seal); }
+.cta-line { position: relative; border-bottom: 1px solid var(--hair); margin-top: clamp(3rem, 8vh, 5.5rem); }
+.cta-line .pill { position: absolute; right: clamp(0px, 8vw, 120px); top: 50%; transform: translateY(-50%); background: var(--seal-deep); border-color: var(--seal-deep); padding: 1.5rem 2.6rem; font-size: 1.02rem; }
+.cta-links { display: flex; flex-wrap: wrap; gap: 0.9rem; padding: clamp(4rem, 9vh, 6rem) 0 4rem; }
+.foot { display: flex; flex-wrap: wrap; gap: 1.2rem 2.5rem; justify-content: space-between; align-items: end; padding: 1.6rem 0 2rem; }
+.foot .col { display: flex; flex-direction: column; gap: 0.25rem; }
+.foot .k { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--faint); }
+.foot .v { font-size: 0.88rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.foot .motto { font-family: "Noto Serif SC", serif; color: var(--seal); font-size: 0.95rem; letter-spacing: 0.2em; }
+.foot .motto-wrap { display: flex; align-items: center; gap: 0.9rem; }
+.seal-b { width: 46px; height: 46px; display: block; }
+
+/* ============ DAILY PULSE (每日焦点) ============ */
+.pulse { padding-top: clamp(7.5rem, 14vh, 10.5rem); }
+.pulse .sec-head { align-items: center; margin-bottom: 1.6rem; }
+.pulse-title { font-size: clamp(1.9rem, 4.5vw, 3.2rem); font-weight: 500; letter-spacing: -0.01em; line-height: 1.15; }
+.pulse-title .it { color: var(--seal); }
+.pulse-sub { color: var(--muted); font-size: 0.95rem; max-width: 62ch; margin-top: 0.7rem; }
+.pulse-bar { display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; flex-wrap: wrap; margin: 2rem 0 1.4rem; padding: 0.7rem 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
+.pulse-nav { display: flex; align-items: center; gap: 0.9rem; }
+.pnav {
+  width: 38px; height: 38px; border: 1px solid var(--hair); border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.1rem; color: var(--cream);
+  transition: background 0.25s ease, border-color 0.25s ease, opacity 0.2s ease;
+}
+.pnav:hover:not(:disabled) { background: var(--seal-deep); border-color: var(--seal-deep); }
+.pnav:disabled { opacity: 0.25; cursor: default; }
+.pulse-date { font-variant-numeric: tabular-nums; font-size: 0.98rem; color: var(--cream); min-width: 11ch; text-align: center; }
+.pulse-scope { display: flex; gap: 0.4rem; }
+.pulse-scope .scope {
+  border: 1px solid transparent; border-radius: 999px; padding: 0.3rem 0.95rem;
+  font-size: 0.82rem; color: var(--muted); transition: color 0.2s ease, border-color 0.2s ease;
+}
+.pulse-scope .scope.on { color: var(--cream); border-color: var(--hair); }
+.pulse-scope .scope.off { opacity: 0.35; cursor: default; }
+.pulse-grid { display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 148px; grid-auto-flow: dense; gap: 0.85rem; }
+.pcard {
+  position: relative; display: flex; flex-direction: column; gap: 0.55rem;
+  background: var(--bg-2); border: 1px solid var(--hair-soft); border-radius: 10px;
+  padding: 1.15rem 1.2rem; overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), border-color 0.3s ease;
+  animation: pcardIn 0.55s cubic-bezier(0.22,1,0.36,1) both;
+}
+@keyframes pcardIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+html.reduced .pcard { animation: none; }
+.pcard:hover { transform: translateY(-5px); border-color: var(--hair); }
+.pcard::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--acc, var(--seal)); opacity: 0.85; }
+.pcard.w5 { grid-column: span 4; grid-row: span 2; }
+.pcard.w4 { grid-column: span 2; grid-row: span 2; }
+.pcard.w3 { grid-column: span 2; grid-row: span 1; }
+.pcard.w2, .pcard.w1 { grid-column: span 2; grid-row: span 1; }
+.pcard .phead { display: flex; align-items: baseline; justify-content: space-between; gap: 0.8rem; }
+.pcard .psrc { font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--acc, var(--seal)); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pcard .pdate { font-size: 0.68rem; color: var(--faint); font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.pcard h3 { font-weight: 500; line-height: 1.35; font-size: 0.98rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.pcard.w5 h3 { font-size: clamp(1.25rem, 2.2vw, 1.7rem); -webkit-line-clamp: 3; line-height: 1.3; }
+.pcard.w4 h3 { font-size: 1.08rem; -webkit-line-clamp: 4; }
+.pcard.w2 h3, .pcard.w1 h3 { font-size: 0.9rem; -webkit-line-clamp: 3; }
+.pcard .psum { color: var(--muted); font-size: 0.88rem; line-height: 1.6; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.pcard.w5 .psum { -webkit-line-clamp: 4; font-size: 0.93rem; }
+.pcard.w3 .psum, .pcard.w2 .psum, .pcard.w1 .psum { display: none; }
+.pcard .pfoot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; }
+.pcard .ptopic { font-size: 0.7rem; color: var(--faint); letter-spacing: 0.1em; text-transform: uppercase; }
+.pcard .parr { color: var(--acc, var(--seal)); font-size: 0.95rem; transition: transform 0.25s ease; }
+.pcard:hover .parr { transform: translate(3px, -3px); }
+.pulse-note { color: var(--faint); font-size: 0.8rem; margin-top: 1.2rem; }
+.pulse-empty { color: var(--muted); font-size: 0.95rem; padding: 3rem 0; text-align: center; }
+@media (max-width: 860px) {
+  .pulse-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+  .pcard { grid-column: span 2 !important; grid-row: span 1 !important; min-height: 0; }
+  .pcard .psum { display: -webkit-box; }
+}
+</style>
+<noscript><style>#loader{display:none}body.locked{overflow:auto}.fade,.lines .li>span{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body class="locked">
+
+<div id="loader" aria-hidden="true"><div class="word" id="loaderWord">心</div></div>
+<div id="cursor" aria-hidden="true"></div>
+<div id="preview" aria-hidden="true"><img src="team.jpg" alt="" width="900" height="600"><div class="glyph-panel">评</div></div>
+
+<header id="nav">
+  <div class="wrap row">
+    <a class="brand" href="#top" aria-label="Dr. Mi Chen — home">
+      <span class="seal-wrap" aria-hidden="true"><svg class="seal-mini" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="觅 — home"><g transform="rotate(-1.6 60 60)"><rect x="6" y="6" width="108" height="108" rx="10" fill="#A8362B"/><path transform="translate(11.44 87.96) scale(0.09707 -0.09707)" d="M225 375Q266 337 267 296Q267 266 277.0 195.5Q287 125 289.5 126.0Q292 127 314.5 157.0Q337 187 350 210Q363 234 380.5 285.5Q398 337 406 337Q416 337 438.0 324.5Q460 312 460 307Q460 300 455.0 300.0Q450 300 453.0 292.0Q456 284 447.5 275.0Q439 266 429.5 242.0Q420 218 409 200L395 183L419 160Q444 138 444.5 128.0Q445 118 445 46Q445 -7 450.5 -32.0Q456 -57 470 -86L479 -104H528Q572 -104 654.0 -100.5Q736 -97 754 -94Q779 -89 783 -44L786 -31Q788 -31 791 -35Q795 -47 808 -64Q817 -75 822.5 -78.0Q828 -81 838 -79Q850 -76 850 -79Q845 -82 851 -88Q855 -94 845.0 -105.0Q835 -116 819 -122Q792 -131 767.0 -133.0Q742 -135 675 -134Q584 -132 536 -132Q494 -134 480.0 -125.5Q466 -117 450 -85Q438 -59 427.5 -3.5Q417 52 417 91Q417 110 405.5 136.0Q394 162 385 162Q381 162 375.0 146.5Q369 131 365 131Q360 131 354.0 117.0Q348 103 351 99Q356 91 329 58Q326 55 322 62L319 61Q322 50 313 38Q309 33 307 31L309 38Q312 46 306 41Q303 40 297 33Q281 18 281 2Q279 -12 252.5 -41.0Q226 -70 212 -73Q198 -76 184 -89Q159 -113 150 -92Q144 -75 160 -47Q173 -23 180.5 -16.0Q188 -9 223.5 32.5Q259 74 253 84Q244 100 229 280Q226 313 216.0 329.5Q206 346 203 368Q200 387 204.5 388.5Q209 390 225 375ZM492 443Q522 440 545.5 426.5Q569 413 573 399Q576 387 563.5 363.5Q551 340 548.0 318.5Q545 297 536.5 249.5Q528 202 526 155Q525 134 524.0 121.5Q523 109 521.0 101.5Q519 94 516.5 92.0Q514 90 510 91Q495 97 491.5 142.5Q488 188 497 238Q503 266 507.5 339.5Q512 413 509 418Q503 424 442.5 407.5Q382 391 326 369Q303 359 296.5 359.5Q290 360 275 374Q245 400 270 400Q284 400 314.5 411.0Q345 422 394 435Q435 446 447.0 446.5Q459 447 492 443ZM232 531Q248 524 255.0 516.5Q262 509 269 493Q285 454 270.5 438.0Q256 422 226 444Q212 456 192.5 492.0Q173 528 176 538Q179 549 191.0 547.5Q203 546 232 531ZM547 607Q570 596 583.5 590.5Q597 585 597 571Q597 557 588.0 547.5Q579 538 570 544Q542 562 506 528Q482 506 476 506Q459 506 481 546Q485 554 491 563Q513 593 513 606Q513 616 519.0 617.0Q525 618 547 607ZM491 718Q507 707 517 707Q536 707 522 693Q514 685 522 681Q536 672 506 665Q501 663 494 662Q473 659 441.5 644.0Q410 629 394 626Q382 624 381.5 617.0Q381 610 390.5 594.0Q400 578 409 543Q414 518 413.5 512.0Q413 506 406 500Q394 490 385.0 491.5Q376 493 362 509Q344 527 344 549Q344 579 319 621Q319 622 295.5 614.0Q272 606 265 601Q256 597 247.0 595.0Q238 593 232.0 593.5Q226 594 226 599Q226 612 271.0 640.0Q316 668 370 687Q404 698 428 716Q447 731 457.0 731.0Q467 731 491 718Z" fill="#F3EEE4"/></g></svg></span>
+      <span>Dr. Mi Chen&ensp;<span class="brand-sub" style="color:var(--muted)">— 千觅量子 RYO</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/"><span class="en">Daily Focus</span><span class="zh">每日焦点</span></a>
+      <a href="#about"><span class="en">About</span><span class="zh">关于</span></a>
+      <a href="#work"><span class="en">Work</span><span class="zh">项目</span></a>
+      <a href="#services"><span class="en">Services</span><span class="zh">服务</span></a>
+      <a href="#products"><span class="en">Products</span><span class="zh">产品</span></a>
+      <a href='/atelier'><span class="en">Atelier</span><span class="zh">画廊</span></a>
+      <a href="#contact"><span class="en">Contact</span><span class="zh">联系</span></a>
+    </nav>
+    <button class="lang-toggle magnetic" id="langToggle" aria-label="Switch language">中文</button>
+  </div>
+</header>
+
+<div id="smooth">
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" style="padding-top:0">
+    <div class="wrap hero-top">
+      <p class="hero-role fade">
+        <span class="en">Structural heart interventionist<br>&amp; builder of medical AI <span class="arrow">↘</span></span>
+        <span class="zh">结构性心脏病介入医生<br>兼医疗 AI 创造者 <span class="arrow">↘</span></span>
+      </p>
+      <span class="seal-stamp fade d1" aria-hidden="true"><svg class="" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="千觅量子 seal"><defs><filter id="sealHeroA" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="4" seed="3" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs><g filter="url(#sealHeroA)" transform="rotate(-1.6 60 60)"><rect x="6" y="6" width="108" height="108" rx="10" fill="#A8362B"/><path transform="translate(61.08 52.19) scale(0.04587 -0.04587)" d="M468 605Q475 613 479.0 613.0Q483 613 510 598Q534 584 542.0 569.5Q550 555 550 529Q550 505 556.5 502.5Q563 500 599.0 505.5Q635 511 669.5 515.0Q704 519 738 526Q767 531 779.0 529.5Q791 528 796 518Q800 511 808.5 510.5Q817 510 817 518Q818 525 820.5 516.0Q823 507 829.5 500.0Q836 493 835.5 466.0Q835 439 823 430Q816 423 809.5 421.5Q803 420 784 421Q755 424 729 433Q712 439 699.5 440.0Q687 441 654 439Q605 437 579 432Q562 427 557.5 424.0Q553 421 549 411Q544 396 537 295Q523 108 517.0 63.5Q511 19 494 -29Q473 -83 462 -83Q457 -83 452 -70Q447 -59 445 172L443 403L418 401Q394 398 370.0 397.0Q346 396 334.5 386.5Q323 377 309 374Q296 372 257.0 359.0Q218 346 209 343Q202 339 197.5 341.5Q193 344 182 354Q164 370 164 374Q164 379 177.5 394.5Q191 410 201 416Q216 425 282.5 443.5Q349 462 418 477L446 483L448 529Q450 564 453.5 578.0Q457 592 468 605ZM488 745Q526 785 535.5 788.5Q545 792 570 774Q634 731 598 702Q589 694 579.0 691.0Q569 688 541 684Q521 681 501.5 670.5Q482 660 476.0 660.0Q470 660 432.5 641.0Q395 622 384.5 622.0Q374 622 365 616Q353 611 335.5 606.5Q318 602 313 605Q306 607 318 615Q320 616 322 618Q429 682 488 745Z" fill="#F3EEE4"/><path transform="translate(62.67 99.07) scale(0.04262 -0.04262)" d="M429 179Q436 194 441.0 197.0Q446 200 455 190Q471 171 471 124Q471 85 478.0 65.0Q485 45 502 36Q522 24 589.0 17.0Q656 10 682 16Q713 22 723 34Q729 39 735 39Q740 39 751.5 54.0Q763 69 765 80Q780 151 791 152Q796 152 803 137Q819 99 824 27Q825 -2 831 -15Q837 -25 835.5 -35.0Q834 -45 824 -65Q817 -82 804 -88L777 -102Q738 -122 667 -113Q571 -102 533 -91Q494 -81 480.0 -74.0Q466 -67 453 -52Q432 -30 424.0 -6.5Q416 17 411 60Q409 81 415.0 118.5Q421 156 429 179ZM401 376Q405 386 410.5 386.0Q416 386 432.0 370.0Q448 354 448 350Q448 344 454.0 335.5Q460 327 456.0 312.0Q452 297 452.0 283.5Q452 270 446.0 253.0Q440 236 440.0 227.5Q440 219 435 208L421 178Q413 160 409.0 158.0Q405 156 392.0 135.5Q379 115 370.0 105.5Q361 96 338.0 64.5Q315 33 309 29Q279 5 259 -11Q241 -26 222.0 -34.5Q203 -43 185 -43Q166 -43 165 -39Q165 -36 173 -30Q188 -20 224.0 19.5Q260 59 283 89Q309 123 332.0 173.5Q355 224 366 272Q372 290 377.0 307.5Q382 325 382 331Q382 342 401 376ZM196 603Q200 610 206.0 609.5Q212 609 243 602Q277 592 287.5 582.5Q298 573 298 551Q297 539 294.5 533.0Q292 527 284 521Q264 503 249.5 502.5Q235 502 219 519Q204 535 195 577Q191 596 196 603ZM381 639Q386 651 391.5 651.0Q397 651 425 640Q450 629 465 630Q474 630 476.5 628.5Q479 627 479 622Q479 612 473.5 605.0Q468 598 470 591Q472 582 466.5 571.0Q461 560 450 555Q438 547 420 550Q405 552 397.5 558.5Q390 565 382 584Q369 612 381 639ZM631 634Q631 640 639.0 656.5Q647 673 653.5 670.5Q660 668 671.5 664.0Q683 660 695.0 651.5Q707 643 725 634Q738 629 740.5 626.0Q743 623 743 612Q743 599 731.5 583.0Q720 567 705 561Q692 556 680 546Q672 540 646.0 529.5Q620 519 602 514Q590 510 565 500Q544 493 544 491Q545 489 551 488Q596 478 609 462Q620 449 621.5 439.5Q623 430 613 414Q606 400 604.0 388.0Q602 376 599 333Q593 199 586 185Q581 174 581 169Q581 162 571.5 153.0Q562 144 553 144Q539 144 529.5 151.0Q520 158 510 177Q501 197 500.0 208.5Q499 220 505 242Q511 263 512 354V445L489 451Q427 463 384 454Q360 447 349.5 439.5Q339 432 339 417Q339 408 332 397Q314 373 311 222Q310 184 305.5 171.5Q301 159 287 149Q266 135 266 153Q266 163 261 165Q258 168 256.5 181.0Q255 194 258 203Q262 212 265.5 231.5Q269 251 273.0 274.0Q277 297 281 356Q284 405 288.5 423.0Q293 441 303 453Q321 475 367.0 489.0Q413 503 455 500L487 498L508 514Q554 547 592.5 585.0Q631 623 631 634ZM459 817Q472 825 481.5 822.0Q491 819 516 796Q543 772 535.5 756.0Q528 740 485 728Q423 710 371 690Q354 684 334.0 682.5Q314 681 306.0 679.0Q298 677 287 681L276 683L291 695Q306 708 310 708Q314 708 361.5 741.5Q409 775 426 791Q449 811 459 817Z" fill="#F3EEE4"/><path transform="translate(14.66 51.09) scale(0.04268 -0.04268)" d="M468 412Q533 423 583 409Q603 402 616 402Q626 402 650.0 392.0Q674 382 682 374Q691 368 694.0 356.5Q697 345 695 338Q691 328 689.0 309.0Q687 290 675.5 266.0Q664 242 653.0 213.0Q642 184 627.5 174.0Q613 164 602 149Q583 122 578 140Q574 148 565 168Q553 196 547 185Q543 181 536 181Q530 181 529.0 176.0Q528 171 528 150V119L561 121Q584 122 591.5 120.5Q599 119 611 112Q622 105 624.5 101.0Q627 97 625 87Q622 73 614.0 59.5Q606 46 599.5 44.0Q593 42 571.5 49.5Q550 57 537 51Q527 48 525.5 43.5Q524 39 525 18L526 -10L544 -8Q561 -5 629 -3Q689 -2 703.5 -6.5Q718 -11 721.0 -31.5Q724 -52 720.0 -69.5Q716 -87 706 -92Q700 -96 693.5 -95.0Q687 -94 666 -88Q645 -81 624.5 -80.0Q604 -79 515 -79Q395 -79 389.0 -84.0Q383 -89 361.5 -95.5Q340 -102 327.0 -109.5Q314 -117 305.0 -114.5Q296 -112 272.5 -94.0Q249 -76 249 -72Q248 -65 254.5 -57.0Q261 -49 268 -47Q298 -39 341.0 -30.5Q384 -22 400 -22Q418 -22 423 20L427 38H413Q400 38 388 32Q380 28 375.5 28.5Q371 29 359 34Q330 48 330 73Q330 81 347 87Q400 106 416 106Q428 106 432.5 114.5Q437 123 437 148V176L427 174Q415 172 405.5 169.0Q396 166 375 164Q361 162 357.0 163.5Q353 165 349 171Q335 191 325 241Q323 250 313 278Q296 326 298 339Q301 363 308 363Q313 363 346 379Q392 400 468 412ZM559 363Q548 366 531.5 367.0Q515 368 504.0 367.0Q493 366 493 364Q493 357 511.5 342.0Q530 327 542 324Q564 319 566.0 305.0Q568 291 548 281Q534 274 530 260Q528 250 529.0 246.0Q530 242 538 235Q548 225 548.0 220.5Q548 216 553 216Q560 216 571.0 247.5Q582 279 588 319Q593 344 588.5 350.5Q584 357 559 363ZM443 338 447 359 435 358Q421 358 398.0 352.5Q375 347 369 341Q362 337 359.5 323.5Q357 310 359.0 299.0Q361 288 368 288Q373 288 374.0 292.0Q375 296 404.5 303.5Q434 311 437.0 313.5Q440 316 443 338ZM372 269Q369 277 365.0 276.0Q361 275 364 267Q375 217 381 212Q384 209 414 220Q435 228 439.5 231.0Q444 234 444 246Q446 261 442.0 264.5Q438 268 419 262Q403 257 389.0 259.5Q375 262 372 269ZM322 480Q364 487 382.0 490.5Q400 494 461.0 498.0Q522 502 568.0 506.0Q614 510 726.5 511.5Q839 513 841.0 515.5Q843 518 856.5 518.0Q870 518 888 501Q901 489 903.5 483.5Q906 478 905 465Q905 447 902.5 442.0Q900 437 886 432Q858 420 825 433Q774 451 703.0 456.0Q632 461 505 454Q365 447 282 424Q233 410 218 406Q197 401 166 381Q147 369 115 391Q96 404 95.0 408.5Q94 413 106 424Q137 452 322 480ZM556 818Q589 829 629 811Q654 800 657.0 795.5Q660 791 672.5 785.5Q685 780 698 767Q708 758 710.0 753.5Q712 749 711 735Q711 716 702.5 704.0Q694 692 680.5 662.0Q667 632 667 626Q667 619 652 589Q642 567 621.5 544.5Q601 522 591 522Q586 522 572.0 538.0Q558 554 543 562Q533 567 524.0 567.0Q515 567 481 563Q435 557 427 555Q401 547 391 521Q385 506 380.5 506.0Q376 506 361.0 522.0Q346 538 343.5 555.5Q341 573 337.5 575.5Q334 578 334.0 586.5Q334 595 324 632L310 686Q306 702 302.5 705.5Q299 709 295 730Q292 744 293.0 748.0Q294 752 301 758Q312 767 321.5 765.0Q331 763 340 770Q350 779 379.0 788.5Q408 798 441 803Q466 807 484.5 810.5Q503 814 525.0 814.5Q547 815 556 818ZM550 766Q529 770 481.5 770.5Q434 771 419 767Q407 765 390.5 756.5Q374 748 370 741Q361 732 362 694Q364 686 365 685Q401 704 459.0 718.0Q517 732 526 723Q529 721 531.0 714.0Q533 707 531.5 701.5Q530 696 528 696Q525 696 523 683Q523 674 520.5 672.0Q518 670 507 670Q491 669 449.0 662.0Q407 655 390 656Q384 656 381.5 655.5Q379 655 376.5 654.5Q374 654 374.5 652.5Q375 651 376 649Q379 643 381 630Q384 609 386.0 604.5Q388 600 395 602Q512 638 548 635Q558 635 561.5 636.5Q565 638 566 643Q575 699 575 739V762Z" fill="#F3EEE4"/><path transform="translate(13.06 100.19) scale(0.04587 -0.04587)" d="M298 749Q311 754 358.0 763.5Q405 773 474.0 773.0Q543 773 548.0 777.0Q553 781 560.0 778.5Q567 776 573.5 782.5Q580 789 584.0 789.0Q588 789 631 760Q658 743 668.5 734.0Q679 725 683 714Q690 701 690.0 697.0Q690 693 686 687Q677 679 667.0 676.0Q657 673 657.0 669.0Q657 665 643.0 662.0Q629 659 618.0 650.0Q607 641 582 628Q556 614 530.5 596.5Q505 579 503 573Q501 566 519 544Q543 512 551 475Q553 466 557.0 464.5Q561 463 585 462Q616 462 646.0 458.0Q676 454 758 449Q814 447 830.5 444.5Q847 442 863 434Q886 421 897 404L906 387L898 367Q889 347 872 338Q855 330 843.0 330.5Q831 331 805 343Q777 355 746 360Q644 375 607 373L578 370L577 267Q577 164 574 151Q567 113 556 87Q546 65 538 42Q534 26 519.5 4.0Q505 -18 493 -30Q469 -53 442.5 -68.0Q416 -83 400 -83Q393 -83 383.5 -73.0Q374 -63 374 -56Q374 -50 363.0 -26.0Q352 -2 352.0 2.5Q352 7 335 17Q324 22 312.0 38.5Q300 55 300 64Q300 70 291.5 80.5Q283 91 283 94Q284 97 294.0 96.0Q304 95 322.5 90.5Q341 86 360 79Q396 68 412 68Q422 68 428.0 71.5Q434 75 444 86Q470 116 487 177Q494 202 492.0 285.0Q490 368 487 370Q486 373 429.0 368.0Q372 363 349 360Q331 356 298.0 347.0Q265 338 255 334Q202 309 190.0 305.0Q178 301 166 303Q153 307 146.0 311.0Q139 315 116 331Q94 347 94 354Q94 375 125 394Q160 413 349 438Q470 453 471 457Q472 459 471 462Q463 486 452.5 510.5Q442 535 437 539Q433 541 433.5 552.0Q434 563 437 571Q442 579 451 579Q458 579 478.0 597.5Q498 616 498 623Q498 627 509 642Q519 653 532.0 679.5Q545 706 545 711Q545 721 480 718Q450 718 406.0 708.5Q362 699 351.0 690.5Q340 682 334.0 682.0Q328 682 309 693Q295 701 291.5 705.5Q288 710 286.5 723.5Q285 737 287.0 741.0Q289 745 298 749Z" fill="#F3EEE4"/></g></svg></span>
+    </div>
+    <div class="wrap hero-name-block">
+      <p class="hero-hello fade"><span class="en">Grüezi, I'm</span><span class="zh">你好,我是</span></p>
+      <h1 class="hero-name lines">
+        <span class="li"><span><span class="en">Dr. <span class="it">Mi</span> Chen</span><span class="zh">陈<span class="it">密</span>医生</span></span></span>
+      </h1>
+      <div class="hero-meta">
+        <p class="sub fade d1">
+          <span class="en">MD PhD · Swiss-registered physician (MEBEKO) · fellow at Klinik Hirslanden Zürich · co-founder of CardioAI · Associate Editor, JACC: Case Reports</span>
+          <span class="zh">医学博士 · 瑞士注册医师(MEBEKO) · 苏黎世 Hirslanden 医院 Fellow · CardioAI 联合创始人 · 《JACC: Case Reports》副主编</span>
+        </p>
+        <a class="down-btn magnetic fade d2" href="#about" aria-label="Scroll down">↓</a>
+      </div>
+    </div>
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span class="chunk">Dr. Mi Chen <span class="dot">◦</span> 陈密 <span class="dot">◦</span> Structural Heart × AI <span class="dot">◦</span> 千觅量子 RYO <span class="dot">◦</span> Zurich <span class="dot">◦</span> </span><span class="chunk">Dr. Mi Chen <span class="dot">◦</span> 陈密 <span class="dot">◦</span> Structural Heart × AI <span class="dot">◦</span> 千觅量子 RYO <span class="dot">◦</span> Zurich <span class="dot">◦</span> </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATEMENT ============ -->
+  <section class="statement">
+    <div class="wrap grid">
+      <h2 class="lines">
+        <span class="li"><span><span class="en">Helping medicine and <span class="it">machines</span></span><span class="zh">让医学与<span class="it">机器</span></span></span></span>
+        <span class="li"><span><span class="en">speak one language —</span><span class="zh">学会说同一种语言 ——</span></span></span>
+        <span class="li"><span><span class="en">from cath lab to <span class="it">code</span>.</span><span class="zh">从导管室,到<span class="it">代码</span>。</span></span></span>
+      </h2>
+      <div class="side">
+        <p class="fade">
+          <span class="en">The rare mix of an interventionist with 1,700+ structural procedures behind her, a published researcher, and a translator between two worlds. Always precise, never lost in translation.</span>
+          <span class="zh">一位积累了 1700+ 台结构性心脏病手术经验的术者、一位持续发表的研究者、一位游走于两个世界之间的翻译者 —— 三者罕见地集于一身。</span>
+        </p>
+        <a class="pill magnetic fade d1" href="#about"><span class="en">About me</span><span class="zh">关于我</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap sec-head">
+      <span class="label"><span class="en">About</span><span class="zh">关于我</span></span>
+      <span class="count">01</span>
+    </div>
+    <div class="wrap about-grid">
+      <div class="portrait-frame fade">
+        <img src="portrait.jpg" alt="Dr. Mi Chen, structural heart fellow, Klinik Hirslanden Zürich" width="648" height="1000">
+        <span class="stamp-corner seal-stamp" aria-hidden="true"><svg class="" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="千觅量子 seal"><defs><filter id="sealCornA" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="4" seed="17" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs><g filter="url(#sealCornA)" transform="rotate(-1.6 60 60)"><rect x="6" y="6" width="108" height="108" rx="10" fill="#A8362B"/><path transform="translate(61.08 52.19) scale(0.04587 -0.04587)" d="M468 605Q475 613 479.0 613.0Q483 613 510 598Q534 584 542.0 569.5Q550 555 550 529Q550 505 556.5 502.5Q563 500 599.0 505.5Q635 511 669.5 515.0Q704 519 738 526Q767 531 779.0 529.5Q791 528 796 518Q800 511 808.5 510.5Q817 510 817 518Q818 525 820.5 516.0Q823 507 829.5 500.0Q836 493 835.5 466.0Q835 439 823 430Q816 423 809.5 421.5Q803 420 784 421Q755 424 729 433Q712 439 699.5 440.0Q687 441 654 439Q605 437 579 432Q562 427 557.5 424.0Q553 421 549 411Q544 396 537 295Q523 108 517.0 63.5Q511 19 494 -29Q473 -83 462 -83Q457 -83 452 -70Q447 -59 445 172L443 403L418 401Q394 398 370.0 397.0Q346 396 334.5 386.5Q323 377 309 374Q296 372 257.0 359.0Q218 346 209 343Q202 339 197.5 341.5Q193 344 182 354Q164 370 164 374Q164 379 177.5 394.5Q191 410 201 416Q216 425 282.5 443.5Q349 462 418 477L446 483L448 529Q450 564 453.5 578.0Q457 592 468 605ZM488 745Q526 785 535.5 788.5Q545 792 570 774Q634 731 598 702Q589 694 579.0 691.0Q569 688 541 684Q521 681 501.5 670.5Q482 660 476.0 660.0Q470 660 432.5 641.0Q395 622 384.5 622.0Q374 622 365 616Q353 611 335.5 606.5Q318 602 313 605Q306 607 318 615Q320 616 322 618Q429 682 488 745Z" fill="#F3EEE4"/><path transform="translate(62.67 99.07) scale(0.04262 -0.04262)" d="M429 179Q436 194 441.0 197.0Q446 200 455 190Q471 171 471 124Q471 85 478.0 65.0Q485 45 502 36Q522 24 589.0 17.0Q656 10 682 16Q713 22 723 34Q729 39 735 39Q740 39 751.5 54.0Q763 69 765 80Q780 151 791 152Q796 152 803 137Q819 99 824 27Q825 -2 831 -15Q837 -25 835.5 -35.0Q834 -45 824 -65Q817 -82 804 -88L777 -102Q738 -122 667 -113Q571 -102 533 -91Q494 -81 480.0 -74.0Q466 -67 453 -52Q432 -30 424.0 -6.5Q416 17 411 60Q409 81 415.0 118.5Q421 156 429 179ZM401 376Q405 386 410.5 386.0Q416 386 432.0 370.0Q448 354 448 350Q448 344 454.0 335.5Q460 327 456.0 312.0Q452 297 452.0 283.5Q452 270 446.0 253.0Q440 236 440.0 227.5Q440 219 435 208L421 178Q413 160 409.0 158.0Q405 156 392.0 135.5Q379 115 370.0 105.5Q361 96 338.0 64.5Q315 33 309 29Q279 5 259 -11Q241 -26 222.0 -34.5Q203 -43 185 -43Q166 -43 165 -39Q165 -36 173 -30Q188 -20 224.0 19.5Q260 59 283 89Q309 123 332.0 173.5Q355 224 366 272Q372 290 377.0 307.5Q382 325 382 331Q382 342 401 376ZM196 603Q200 610 206.0 609.5Q212 609 243 602Q277 592 287.5 582.5Q298 573 298 551Q297 539 294.5 533.0Q292 527 284 521Q264 503 249.5 502.5Q235 502 219 519Q204 535 195 577Q191 596 196 603ZM381 639Q386 651 391.5 651.0Q397 651 425 640Q450 629 465 630Q474 630 476.5 628.5Q479 627 479 622Q479 612 473.5 605.0Q468 598 470 591Q472 582 466.5 571.0Q461 560 450 555Q438 547 420 550Q405 552 397.5 558.5Q390 565 382 584Q369 612 381 639ZM631 634Q631 640 639.0 656.5Q647 673 653.5 670.5Q660 668 671.5 664.0Q683 660 695.0 651.5Q707 643 725 634Q738 629 740.5 626.0Q743 623 743 612Q743 599 731.5 583.0Q720 567 705 561Q692 556 680 546Q672 540 646.0 529.5Q620 519 602 514Q590 510 565 500Q544 493 544 491Q545 489 551 488Q596 478 609 462Q620 449 621.5 439.5Q623 430 613 414Q606 400 604.0 388.0Q602 376 599 333Q593 199 586 185Q581 174 581 169Q581 162 571.5 153.0Q562 144 553 144Q539 144 529.5 151.0Q520 158 510 177Q501 197 500.0 208.5Q499 220 505 242Q511 263 512 354V445L489 451Q427 463 384 454Q360 447 349.5 439.5Q339 432 339 417Q339 408 332 397Q314 373 311 222Q310 184 305.5 171.5Q301 159 287 149Q266 135 266 153Q266 163 261 165Q258 168 256.5 181.0Q255 194 258 203Q262 212 265.5 231.5Q269 251 273.0 274.0Q277 297 281 356Q284 405 288.5 423.0Q293 441 303 453Q321 475 367.0 489.0Q413 503 455 500L487 498L508 514Q554 547 592.5 585.0Q631 623 631 634ZM459 817Q472 825 481.5 822.0Q491 819 516 796Q543 772 535.5 756.0Q528 740 485 728Q423 710 371 690Q354 684 334.0 682.5Q314 681 306.0 679.0Q298 677 287 681L276 683L291 695Q306 708 310 708Q314 708 361.5 741.5Q409 775 426 791Q449 811 459 817Z" fill="#F3EEE4"/><path transform="translate(14.66 51.09) scale(0.04268 -0.04268)" d="M468 412Q533 423 583 409Q603 402 616 402Q626 402 650.0 392.0Q674 382 682 374Q691 368 694.0 356.5Q697 345 695 338Q691 328 689.0 309.0Q687 290 675.5 266.0Q664 242 653.0 213.0Q642 184 627.5 174.0Q613 164 602 149Q583 122 578 140Q574 148 565 168Q553 196 547 185Q543 181 536 181Q530 181 529.0 176.0Q528 171 528 150V119L561 121Q584 122 591.5 120.5Q599 119 611 112Q622 105 624.5 101.0Q627 97 625 87Q622 73 614.0 59.5Q606 46 599.5 44.0Q593 42 571.5 49.5Q550 57 537 51Q527 48 525.5 43.5Q524 39 525 18L526 -10L544 -8Q561 -5 629 -3Q689 -2 703.5 -6.5Q718 -11 721.0 -31.5Q724 -52 720.0 -69.5Q716 -87 706 -92Q700 -96 693.5 -95.0Q687 -94 666 -88Q645 -81 624.5 -80.0Q604 -79 515 -79Q395 -79 389.0 -84.0Q383 -89 361.5 -95.5Q340 -102 327.0 -109.5Q314 -117 305.0 -114.5Q296 -112 272.5 -94.0Q249 -76 249 -72Q248 -65 254.5 -57.0Q261 -49 268 -47Q298 -39 341.0 -30.5Q384 -22 400 -22Q418 -22 423 20L427 38H413Q400 38 388 32Q380 28 375.5 28.5Q371 29 359 34Q330 48 330 73Q330 81 347 87Q400 106 416 106Q428 106 432.5 114.5Q437 123 437 148V176L427 174Q415 172 405.5 169.0Q396 166 375 164Q361 162 357.0 163.5Q353 165 349 171Q335 191 325 241Q323 250 313 278Q296 326 298 339Q301 363 308 363Q313 363 346 379Q392 400 468 412ZM559 363Q548 366 531.5 367.0Q515 368 504.0 367.0Q493 366 493 364Q493 357 511.5 342.0Q530 327 542 324Q564 319 566.0 305.0Q568 291 548 281Q534 274 530 260Q528 250 529.0 246.0Q530 242 538 235Q548 225 548.0 220.5Q548 216 553 216Q560 216 571.0 247.5Q582 279 588 319Q593 344 588.5 350.5Q584 357 559 363ZM443 338 447 359 435 358Q421 358 398.0 352.5Q375 347 369 341Q362 337 359.5 323.5Q357 310 359.0 299.0Q361 288 368 288Q373 288 374.0 292.0Q375 296 404.5 303.5Q434 311 437.0 313.5Q440 316 443 338ZM372 269Q369 277 365.0 276.0Q361 275 364 267Q375 217 381 212Q384 209 414 220Q435 228 439.5 231.0Q444 234 444 246Q446 261 442.0 264.5Q438 268 419 262Q403 257 389.0 259.5Q375 262 372 269ZM322 480Q364 487 382.0 490.5Q400 494 461.0 498.0Q522 502 568.0 506.0Q614 510 726.5 511.5Q839 513 841.0 515.5Q843 518 856.5 518.0Q870 518 888 501Q901 489 903.5 483.5Q906 478 905 465Q905 447 902.5 442.0Q900 437 886 432Q858 420 825 433Q774 451 703.0 456.0Q632 461 505 454Q365 447 282 424Q233 410 218 406Q197 401 166 381Q147 369 115 391Q96 404 95.0 408.5Q94 413 106 424Q137 452 322 480ZM556 818Q589 829 629 811Q654 800 657.0 795.5Q660 791 672.5 785.5Q685 780 698 767Q708 758 710.0 753.5Q712 749 711 735Q711 716 702.5 704.0Q694 692 680.5 662.0Q667 632 667 626Q667 619 652 589Q642 567 621.5 544.5Q601 522 591 522Q586 522 572.0 538.0Q558 554 543 562Q533 567 524.0 567.0Q515 567 481 563Q435 557 427 555Q401 547 391 521Q385 506 380.5 506.0Q376 506 361.0 522.0Q346 538 343.5 555.5Q341 573 337.5 575.5Q334 578 334.0 586.5Q334 595 324 632L310 686Q306 702 302.5 705.5Q299 709 295 730Q292 744 293.0 748.0Q294 752 301 758Q312 767 321.5 765.0Q331 763 340 770Q350 779 379.0 788.5Q408 798 441 803Q466 807 484.5 810.5Q503 814 525.0 814.5Q547 815 556 818ZM550 766Q529 770 481.5 770.5Q434 771 419 767Q407 765 390.5 756.5Q374 748 370 741Q361 732 362 694Q364 686 365 685Q401 704 459.0 718.0Q517 732 526 723Q529 721 531.0 714.0Q533 707 531.5 701.5Q530 696 528 696Q525 696 523 683Q523 674 520.5 672.0Q518 670 507 670Q491 669 449.0 662.0Q407 655 390 656Q384 656 381.5 655.5Q379 655 376.5 654.5Q374 654 374.5 652.5Q375 651 376 649Q379 643 381 630Q384 609 386.0 604.5Q388 600 395 602Q512 638 548 635Q558 635 561.5 636.5Q565 638 566 643Q575 699 575 739V762Z" fill="#F3EEE4"/><path transform="translate(13.06 100.19) scale(0.04587 -0.04587)" d="M298 749Q311 754 358.0 763.5Q405 773 474.0 773.0Q543 773 548.0 777.0Q553 781 560.0 778.5Q567 776 573.5 782.5Q580 789 584.0 789.0Q588 789 631 760Q658 743 668.5 734.0Q679 725 683 714Q690 701 690.0 697.0Q690 693 686 687Q677 679 667.0 676.0Q657 673 657.0 669.0Q657 665 643.0 662.0Q629 659 618.0 650.0Q607 641 582 628Q556 614 530.5 596.5Q505 579 503 573Q501 566 519 544Q543 512 551 475Q553 466 557.0 464.5Q561 463 585 462Q616 462 646.0 458.0Q676 454 758 449Q814 447 830.5 444.5Q847 442 863 434Q886 421 897 404L906 387L898 367Q889 347 872 338Q855 330 843.0 330.5Q831 331 805 343Q777 355 746 360Q644 375 607 373L578 370L577 267Q577 164 574 151Q567 113 556 87Q546 65 538 42Q534 26 519.5 4.0Q505 -18 493 -30Q469 -53 442.5 -68.0Q416 -83 400 -83Q393 -83 383.5 -73.0Q374 -63 374 -56Q374 -50 363.0 -26.0Q352 -2 352.0 2.5Q352 7 335 17Q324 22 312.0 38.5Q300 55 300 64Q300 70 291.5 80.5Q283 91 283 94Q284 97 294.0 96.0Q304 95 322.5 90.5Q341 86 360 79Q396 68 412 68Q422 68 428.0 71.5Q434 75 444 86Q470 116 487 177Q494 202 492.0 285.0Q490 368 487 370Q486 373 429.0 368.0Q372 363 349 360Q331 356 298.0 347.0Q265 338 255 334Q202 309 190.0 305.0Q178 301 166 303Q153 307 146.0 311.0Q139 315 116 331Q94 347 94 354Q94 375 125 394Q160 413 349 438Q470 453 471 457Q472 459 471 462Q463 486 452.5 510.5Q442 535 437 539Q433 541 433.5 552.0Q434 563 437 571Q442 579 451 579Q458 579 478.0 597.5Q498 616 498 623Q498 627 509 642Q519 653 532.0 679.5Q545 706 545 711Q545 721 480 718Q450 718 406.0 708.5Q362 699 351.0 690.5Q340 682 334.0 682.0Q328 682 309 693Q295 701 291.5 705.5Q288 710 286.5 723.5Q285 737 287.0 741.0Q289 745 298 749Z" fill="#F3EEE4"/></g></svg></span>
+      </div>
+      <div>
+        <div class="bio">
+          <p class="fade"><span class="en">I'm a structural heart interventionist — TAVI, TEER and transcatheter tricuspid therapies — currently a fellow at Klinik Hirslanden Zürich, after a fellowship at the University Hospital Zurich Heart Center and clinical training at Beijing Anzhen Hospital. Across <span class="mark">1,700+ procedures</span> I've learned exactly where technology helps at the table, and where it gets in the way.</span>
+          <span class="zh">我是一名结构性心脏病介入医生 —— 专注 TAVI、TEER 与经导管三尖瓣治疗,现为苏黎世 Hirslanden 医院结构性心脏病 Fellow,此前曾任苏黎世大学医院心脏中心 Fellow,并在北京安贞医院完成临床训练。<span class="mark">1700 多台手术</span>让我确切地知道:技术在手术台上哪里真正有用,哪里只会碍事。</span></p>
+          <p class="fade d1"><span class="en">That bedside vantage point is what I bring to AI. I lead <span class="mark">AutoClip</span> (NCT07632794), a 1,500-patient multicenter study across Switzerland, Italy and China building real-time AI guidance for mitral repair — work selected as a <span class="mark">TCT 2025 innovation project</span> — and I co-founded CardioAI in Zurich to make cardiology and computer science speak each other's language. As European proctor for novel devices such as LuX-Valve Plus (2022–2024), I performed first-in-country implant training across Europe and trained nearly a hundred structural operators.</span>
+          <span class="zh">这份来自手术台的视角,正是我做 AI 的底气。我主持 <span class="mark">AutoClip</span> 研究(NCT07632794)—— 一项横跨瑞士、意大利与中国的 1,500 例多中心研究,为二尖瓣修复构建术中实时 AI 引导,相关工作入选 <span class="mark">TCT 2025 精选创新项目</span>;我在苏黎世联合创办 CardioAI,让"心脏病学"与"计算机科学"学会说彼此的语言。作为 LuX-Valve Plus 等创新器械的欧洲带教专家(2022–2024),我带教了欧洲多国首例植入,培训了近百名结构性心脏病术者。</span></p>
+        </div>
+        <div class="cred-rows fade d2">
+          <div class="row"><span class="k"><span class="en">Clinical</span><span class="zh">临床</span></span><span class="v"><b><span class="en">Structural heart fellow — Klinik Hirslanden Zürich</span><span class="zh">结构性心脏病 Fellow —— 苏黎世 Hirslanden 医院</span></b> · <span class="en">Swiss-registered physician (MEBEKO) · licensed physician, China</span><span class="zh">瑞士注册医师(MEBEKO) · 中国执业医师</span></span></div>
+          <div class="row"><span class="k"><span class="en">Education</span><span class="zh">教育</span></span><span class="v"><span class="en"><b>MD &amp; PhD, Capital Medical University</b> (Beijing Anzhen Hospital) · Joint PhD, University Hospital Zurich</span><span class="zh"><b>首都医科大学(北京安贞医院)博士</b> · 苏黎世大学医院联合培养博士</span></span></div>
+          <div class="row"><span class="k"><span class="en">Academic</span><span class="zh">学术任职</span></span><span class="v"><span class="en"><b>Associate Editor, JACC: Case Reports</b> · Faculty, EuroPCR / TCT / PCR London Valves</span><span class="zh"><b>《JACC: Case Reports》副主编</b> · EuroPCR / TCT / PCR London Valves 学术委员</span></span></div>
+          <div class="row"><span class="k"><span class="en">Research</span><span class="zh">研究</span></span><span class="v"><span class="en"><b>25 SCI papers</b> as first/corresponding author · cumulative IF 120+</span><span class="zh"><b>第一/通讯作者 SCI 论文 25 篇</b> · 累计影响因子 120+</span></span></div>
+          <div class="row"><span class="k"><span class="en">Languages</span><span class="zh">工作语言</span></span><span class="v">中文 · English · Deutsch (B2) · 日本語</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="work" id="work">
+    <div class="wrap sec-head">
+      <span class="label"><span class="en">Recent work</span><span class="zh">代表项目</span></span>
+      <span class="count">02</span>
+    </div>
+    <div class="wrap">
+      <div class="work-list" id="workList">
+        <a class="work-row" href="#contact" data-img="lab.jpg">
+          <h3>AutoClip</h3>
+          <span class="cat"><span class="en">Global multicenter AI study — NCT07632794</span><span class="zh">全球多中心 AI 研究 —— NCT07632794</span></span>
+        </a>
+        <a class="work-row" href="/cardioai" data-img="team.jpg">
+          <h3>CardioAI</h3>
+          <span class="cat"><span class="en">Community &amp; Events — Zurich</span><span class="zh">学术社区 —— 苏黎世</span></span>
+        </a>
+        <a class="work-row" href="#contact" data-glyph="评">
+          <h3>EuroSCORE II GPT</h3>
+          <span class="cat"><span class="en">Clinical tool — LLM</span><span class="zh">临床工具 —— 大模型</span></span>
+        </a>
+      </div>
+      <p style="color:var(--faint); font-size:0.85rem; margin-top:1.4rem" class="fade">
+        <span class="en">CardioAI: co-founded academic platform, incl. workshop at Swiss AI Weeks 2025 · AutoClip (NCT07632794): 1,500-patient multicenter study of real-time AI segmentation for TEER guidance — sponsor-investigator &amp; PI; sites at Fuwai (Beijing), San Raffaele &amp; San Donato (Milan) and HerzZentrum Hirslanden Zürich, with ETH Zurich · EuroSCORE II GPT: risk assessment with an explicit ethical-use protocol.</span>
+        <span class="zh">CardioAI:联合创办的学术平台,含 2025 Swiss AI Weeks 工作坊 · AutoClip(NCT07632794):1,500 例多中心研究,开发 TEER 术中实时 AI 分割引导 —— 陈密医生任发起人与主要研究者,参与中心:北京阜外、米兰 San Raffaele 与 San Donato、苏黎世 Hirslanden 心脏中心,联合 ETH Zurich · EuroSCORE II GPT:配套伦理使用规范的风险评估工具。</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="wrap sec-head">
+      <span class="label"><span class="en">I can help you with</span><span class="zh">我能帮你做</span></span>
+      <span class="count">03</span>
+    </div>
+    <div class="wrap svc-grid">
+      <div class="svc fade">
+        <span class="num">01</span>
+        <h3><span class="en">Europe Market-Entry Advisory</span><span class="zh">器械出海 · 欧洲落地顾问</span></h3>
+        <p><span class="en">For structural heart device companies entering Europe: operator training design, site relationships, KOL development and launch strategy — built on first-in-country launches in four European countries and 1,700+ procedures.</span>
+        <span class="zh">面向进军欧洲的结构性心脏病器械企业:术者培训体系设计、中心关系、KOL 建设与上市策略 —— 以欧洲四国首例落地与 1700+ 台手术经验为底。</span></p>
+      </div>
+      <div class="svc fade d1">
+        <span class="num">02</span>
+        <h3><span class="en">Clinical AI Advisory</span><span class="zh">临床 AI 顾问</span></h3>
+        <p><span class="en">For imaging-AI startups and health-tech teams: clinical validation design, EU AI Act × MDR readiness, and real workflow fit — from the sponsor-investigator of a 1,500-patient multicenter AI study.</span>
+        <span class="zh">面向影像 AI 初创与医疗科技团队:临床验证设计、EU AI Act × MDR 合规路径、真实工作流契合度 —— 来自一项 1,500 例多中心 AI 研究的发起人。</span></p>
+      </div>
+      <div class="svc fade d2">
+        <span class="num">03</span>
+        <h3><span class="en">Speaking &amp; Workshops</span><span class="zh">演讲与工作坊</span></h3>
+        <p><span class="en">Keynotes and hands-on workshops on AI in cardiovascular care — for conferences, hospital departments and medical schools, in English or Chinese.</span>
+        <span class="zh">面向学术会议、医院科室与医学院的主题演讲与实操工作坊,聚焦心血管领域的 AI 应用,中英文均可。</span></p>
+      </div>
+    </div>
+    <div class="wrap" style="margin-top:3.5rem">
+      <a class="pill solid magnetic fade" href="https://cal.com/doctor.michen/discovery" target="_blank" rel="noopener"><span class="en">Book a discovery call — 45 min</span><span class="zh">预约诊断通话 — 45 分钟</span></a>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="products" id="products">
+    <div class="wrap sec-head">
+      <span class="label"><span class="en">Products &amp; Programs</span><span class="zh">产品与项目</span></span>
+      <span class="count">04</span>
+    </div>
+    <div class="wrap prod-grid">
+      <div class="prod fade">
+        <span class="meta"><span class="en">Playbook · English</span><span class="zh">手册 · 英文</span></span>
+        <h3><span class="en">Building a Tricuspid Program</span><span class="zh">《三尖瓣项目建设手册》</span></h3>
+        <p><span class="en">The operator playbook for launching a TTVR/TEER program — patient screening, imaging workflow, team training and pitfalls. Written from four first-in-country European launches.</span>
+        <span class="zh">TTVR/TEER 项目从零到一的术者手册 —— 患者筛选、影像流程、团队培训与避坑清单,源自欧洲四国首例落地实战。</span></p>
+        <span class="price">$497 · <a class="soon" href="mailto:doctor.michen@gmail.com?subject=Playbook%20founding%20pre-order" style="color:var(--seal);text-decoration:none"><span class="en">founding pre-order →</span><span class="zh">创始预订 →</span></a></span>
+      </div>
+      <div class="prod fade d1">
+        <span class="meta"><span class="en">B2B · License</span><span class="zh">企业 · 授权</span></span>
+        <h3><span class="en">Operator Training Curriculum</span><span class="zh">术者培训课程体系授权</span></h3>
+        <p><span class="en">A complete, field-tested training curriculum for device companies bringing structural heart products to European operators — licensed per cohort, delivered with your clinical team.</span>
+        <span class="zh">为器械企业打造的完整术者培训课程体系(欧洲实战验证),按培训期授权,与贵司临床团队共同交付。</span></p>
+        <span class="price">EUR 10–30k / <span class="en">cohort</span><span class="zh">期</span> · <a class="soon" href="#contact" style="color:var(--seal);text-decoration:none"><span class="en">enquire →</span><span class="zh">洽谈 →</span></a></span>
+      </div>
+      <div class="prod fade d2">
+        <span class="meta"><span class="en">Community · 中文</span><span class="zh">社群 · 中文</span></span>
+        <h3><span class="en">结构心脏 · 欧洲前线</span><span class="zh">「结构心脏 · 欧洲前线」</span></h3>
+        <p><span class="en">A Chinese-language insider circle for interventional cardiologists — European conference intel, case dissections, and career Q&amp;A from inside the Zurich cath lab.</span>
+        <span class="zh">面向介入医生的中文圈子 —— 欧洲会议一线情报、病例拆解、出海职业问答,来自苏黎世导管室内部视角。</span></p>
+        <span class="price">¥799/<span class="en">yr</span><span class="zh">年</span> · <a class="soon" href="mailto:doctor.michen@gmail.com?subject=%E6%AC%A7%E6%B4%B2%E5%89%8D%E7%BA%BF%20%E5%88%9B%E5%A7%8B%E4%BC%9A%E5%91%98" style="color:var(--seal);text-decoration:none"><span class="en">join waitlist →</span><span class="zh">首批100名 · 候补 →</span></a></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="news" id="insights">
+    <div class="wrap grid">
+      <div>
+        <h2 class="lines"><span class="li"><span><span class="en">The <span class="it">Bridge</span> ·《桥》</span><span class="zh">《<span class="it">桥</span>》· The Bridge</span></span></span></h2>
+        <p class="sub fade"><span class="en">China's structural heart devices are going global — and I watch it happen from inside European cath labs. One free letter a month: launches, data, and what actually matters. English, with 中文摘要.</span>
+        <span class="zh">中国结构性心脏病器械正在出海,而我在欧洲导管室内部见证这一切。每月一封免费通讯:新器械落地、关键数据、真正重要的趋势。英文为主,附中文摘要。</span></p>
+      </div>
+      <div class="fade d1">
+        <!-- EDIT ME: replace action with your Formspree / Buttondown endpoint -->
+        <form class="signup" id="newsletterForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="email" name="email" required placeholder="you@hospital.org" aria-label="Email address">
+          <button class="pill solid" type="submit"><span class="en">Subscribe</span><span class="zh">订阅</span></button>
+        </form>
+        <p class="form-note"><span class="en">No spam. Unsubscribe anytime.</span><span class="zh">拒绝垃圾邮件,可随时退订。</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / CONTACT ============ -->
+  <section class="cta" id="contact">
+    <div class="wrap">
+      <div class="cta-head">
+        <img class="avatar fade" src="portrait.jpg" alt="" width="648" height="1000">
+        <h2 class="lines">
+          <span class="li"><span><span class="en">Let's work</span><span class="zh">一起做点</span></span></span>
+          <span class="li"><span><span class="en"><span class="it">together</span>.</span><span class="zh">有分量的<span class="it">事</span>。</span></span></span>
+        </h2>
+      </div>
+      <div class="cta-line">
+        <a class="pill magnetic" href="https://cal.com/doctor.michen/discovery" target="_blank" rel="noopener"><span class="en">Book a call ↗</span><span class="zh">预约通话 ↗</span></a>
+      </div>
+      <div class="cta-links">
+        <a class="pill magnetic" href="mailto:doctor.michen@gmail.com?subject=Enquiry%20from%20kmryo.com">doctor.michen@gmail.com</a>
+        <a class="pill magnetic" href="https://www.linkedin.com/in/mi-chen-samuylov/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="pill magnetic" href="https://scholar.google.com/citations?user=rpMJfJwAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+      </div>
+      <div class="foot">
+        <div class="col">
+          <span class="k"><span class="en">Edition</span><span class="zh">版本</span></span>
+          <span class="v">© 2026 Dr. Mi Chen · 千觅量子 RYO</span>
+        </div>
+        <div class="col">
+          <span class="k"><span class="en">Local time</span><span class="zh">当地时间</span></span>
+          <span class="v" id="localTime">Zurich — --:-- CET</span>
+        </div>
+        <span class="motto-wrap"><span class="motto">千里之行 · 觅于毫末</span><svg class="seal-b" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="千觅量子 朱文 seal"><defs><filter id="sealFootB" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="4" seed="29" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs><g filter="url(#sealFootB)" transform="rotate(-1.6 60 60)"><rect x="8" y="8" width="104" height="104" rx="10" fill="none" stroke="#A8362B" stroke-width="5"/><path transform="translate(62.80 52.98) scale(0.04243 -0.04243)" d="M468 605Q475 613 479.0 613.0Q483 613 510 598Q534 584 542.0 569.5Q550 555 550 529Q550 505 556.5 502.5Q563 500 599.0 505.5Q635 511 669.5 515.0Q704 519 738 526Q767 531 779.0 529.5Q791 528 796 518Q800 511 808.5 510.5Q817 510 817 518Q818 525 820.5 516.0Q823 507 829.5 500.0Q836 493 835.5 466.0Q835 439 823 430Q816 423 809.5 421.5Q803 420 784 421Q755 424 729 433Q712 439 699.5 440.0Q687 441 654 439Q605 437 579 432Q562 427 557.5 424.0Q553 421 549 411Q544 396 537 295Q523 108 517.0 63.5Q511 19 494 -29Q473 -83 462 -83Q457 -83 452 -70Q447 -59 445 172L443 403L418 401Q394 398 370.0 397.0Q346 396 334.5 386.5Q323 377 309 374Q296 372 257.0 359.0Q218 346 209 343Q202 339 197.5 341.5Q193 344 182 354Q164 370 164 374Q164 379 177.5 394.5Q191 410 201 416Q216 425 282.5 443.5Q349 462 418 477L446 483L448 529Q450 564 453.5 578.0Q457 592 468 605ZM488 745Q526 785 535.5 788.5Q545 792 570 774Q634 731 598 702Q589 694 579.0 691.0Q569 688 541 684Q521 681 501.5 670.5Q482 660 476.0 660.0Q470 660 432.5 641.0Q395 622 384.5 622.0Q374 622 365 616Q353 611 335.5 606.5Q318 602 313 605Q306 607 318 615Q320 616 322 618Q429 682 488 745Z" fill="#A8362B"/><path transform="translate(64.27 97.94) scale(0.03942 -0.03942)" d="M429 179Q436 194 441.0 197.0Q446 200 455 190Q471 171 471 124Q471 85 478.0 65.0Q485 45 502 36Q522 24 589.0 17.0Q656 10 682 16Q713 22 723 34Q729 39 735 39Q740 39 751.5 54.0Q763 69 765 80Q780 151 791 152Q796 152 803 137Q819 99 824 27Q825 -2 831 -15Q837 -25 835.5 -35.0Q834 -45 824 -65Q817 -82 804 -88L777 -102Q738 -122 667 -113Q571 -102 533 -91Q494 -81 480.0 -74.0Q466 -67 453 -52Q432 -30 424.0 -6.5Q416 17 411 60Q409 81 415.0 118.5Q421 156 429 179ZM401 376Q405 386 410.5 386.0Q416 386 432.0 370.0Q448 354 448 350Q448 344 454.0 335.5Q460 327 456.0 312.0Q452 297 452.0 283.5Q452 270 446.0 253.0Q440 236 440.0 227.5Q440 219 435 208L421 178Q413 160 409.0 158.0Q405 156 392.0 135.5Q379 115 370.0 105.5Q361 96 338.0 64.5Q315 33 309 29Q279 5 259 -11Q241 -26 222.0 -34.5Q203 -43 185 -43Q166 -43 165 -39Q165 -36 173 -30Q188 -20 224.0 19.5Q260 59 283 89Q309 123 332.0 173.5Q355 224 366 272Q372 290 377.0 307.5Q382 325 382 331Q382 342 401 376ZM196 603Q200 610 206.0 609.5Q212 609 243 602Q277 592 287.5 582.5Q298 573 298 551Q297 539 294.5 533.0Q292 527 284 521Q264 503 249.5 502.5Q235 502 219 519Q204 535 195 577Q191 596 196 603ZM381 639Q386 651 391.5 651.0Q397 651 425 640Q450 629 465 630Q474 630 476.5 628.5Q479 627 479 622Q479 612 473.5 605.0Q468 598 470 591Q472 582 466.5 571.0Q461 560 450 555Q438 547 420 550Q405 552 397.5 558.5Q390 565 382 584Q369 612 381 639ZM631 634Q631 640 639.0 656.5Q647 673 653.5 670.5Q660 668 671.5 664.0Q683 660 695.0 651.5Q707 643 725 634Q738 629 740.5 626.0Q743 623 743 612Q743 599 731.5 583.0Q720 567 705 561Q692 556 680 546Q672 540 646.0 529.5Q620 519 602 514Q590 510 565 500Q544 493 544 491Q545 489 551 488Q596 478 609 462Q620 449 621.5 439.5Q623 430 613 414Q606 400 604.0 388.0Q602 376 599 333Q593 199 586 185Q581 174 581 169Q581 162 571.5 153.0Q562 144 553 144Q539 144 529.5 151.0Q520 158 510 177Q501 197 500.0 208.5Q499 220 505 242Q511 263 512 354V445L489 451Q427 463 384 454Q360 447 349.5 439.5Q339 432 339 417Q339 408 332 397Q314 373 311 222Q310 184 305.5 171.5Q301 159 287 149Q266 135 266 153Q266 163 261 165Q258 168 256.5 181.0Q255 194 258 203Q262 212 265.5 231.5Q269 251 273.0 274.0Q277 297 281 356Q284 405 288.5 423.0Q293 441 303 453Q321 475 367.0 489.0Q413 503 455 500L487 498L508 514Q554 547 592.5 585.0Q631 623 631 634ZM459 817Q472 825 481.5 822.0Q491 819 516 796Q543 772 535.5 756.0Q528 740 485 728Q423 710 371 690Q354 684 334.0 682.5Q314 681 306.0 679.0Q298 677 287 681L276 683L291 695Q306 708 310 708Q314 708 361.5 741.5Q409 775 426 791Q449 811 459 817Z" fill="#A8362B"/><path transform="translate(18.26 51.96) scale(0.03948 -0.03948)" d="M468 412Q533 423 583 409Q603 402 616 402Q626 402 650.0 392.0Q674 382 682 374Q691 368 694.0 356.5Q697 345 695 338Q691 328 689.0 309.0Q687 290 675.5 266.0Q664 242 653.0 213.0Q642 184 627.5 174.0Q613 164 602 149Q583 122 578 140Q574 148 565 168Q553 196 547 185Q543 181 536 181Q530 181 529.0 176.0Q528 171 528 150V119L561 121Q584 122 591.5 120.5Q599 119 611 112Q622 105 624.5 101.0Q627 97 625 87Q622 73 614.0 59.5Q606 46 599.5 44.0Q593 42 571.5 49.5Q550 57 537 51Q527 48 525.5 43.5Q524 39 525 18L526 -10L544 -8Q561 -5 629 -3Q689 -2 703.5 -6.5Q718 -11 721.0 -31.5Q724 -52 720.0 -69.5Q716 -87 706 -92Q700 -96 693.5 -95.0Q687 -94 666 -88Q645 -81 624.5 -80.0Q604 -79 515 -79Q395 -79 389.0 -84.0Q383 -89 361.5 -95.5Q340 -102 327.0 -109.5Q314 -117 305.0 -114.5Q296 -112 272.5 -94.0Q249 -76 249 -72Q248 -65 254.5 -57.0Q261 -49 268 -47Q298 -39 341.0 -30.5Q384 -22 400 -22Q418 -22 423 20L427 38H413Q400 38 388 32Q380 28 375.5 28.5Q371 29 359 34Q330 48 330 73Q330 81 347 87Q400 106 416 106Q428 106 432.5 114.5Q437 123 437 148V176L427 174Q415 172 405.5 169.0Q396 166 375 164Q361 162 357.0 163.5Q353 165 349 171Q335 191 325 241Q323 250 313 278Q296 326 298 339Q301 363 308 363Q313 363 346 379Q392 400 468 412ZM559 363Q548 366 531.5 367.0Q515 368 504.0 367.0Q493 366 493 364Q493 357 511.5 342.0Q530 327 542 324Q564 319 566.0 305.0Q568 291 548 281Q534 274 530 260Q528 250 529.0 246.0Q530 242 538 235Q548 225 548.0 220.5Q548 216 553 216Q560 216 571.0 247.5Q582 279 588 319Q593 344 588.5 350.5Q584 357 559 363ZM443 338 447 359 435 358Q421 358 398.0 352.5Q375 347 369 341Q362 337 359.5 323.5Q357 310 359.0 299.0Q361 288 368 288Q373 288 374.0 292.0Q375 296 404.5 303.5Q434 311 437.0 313.5Q440 316 443 338ZM372 269Q369 277 365.0 276.0Q361 275 364 267Q375 217 381 212Q384 209 414 220Q435 228 439.5 231.0Q444 234 444 246Q446 261 442.0 264.5Q438 268 419 262Q403 257 389.0 259.5Q375 262 372 269ZM322 480Q364 487 382.0 490.5Q400 494 461.0 498.0Q522 502 568.0 506.0Q614 510 726.5 511.5Q839 513 841.0 515.5Q843 518 856.5 518.0Q870 518 888 501Q901 489 903.5 483.5Q906 478 905 465Q905 447 902.5 442.0Q900 437 886 432Q858 420 825 433Q774 451 703.0 456.0Q632 461 505 454Q365 447 282 424Q233 410 218 406Q197 401 166 381Q147 369 115 391Q96 404 95.0 408.5Q94 413 106 424Q137 452 322 480ZM556 818Q589 829 629 811Q654 800 657.0 795.5Q660 791 672.5 785.5Q685 780 698 767Q708 758 710.0 753.5Q712 749 711 735Q711 716 702.5 704.0Q694 692 680.5 662.0Q667 632 667 626Q667 619 652 589Q642 567 621.5 544.5Q601 522 591 522Q586 522 572.0 538.0Q558 554 543 562Q533 567 524.0 567.0Q515 567 481 563Q435 557 427 555Q401 547 391 521Q385 506 380.5 506.0Q376 506 361.0 522.0Q346 538 343.5 555.5Q341 573 337.5 575.5Q334 578 334.0 586.5Q334 595 324 632L310 686Q306 702 302.5 705.5Q299 709 295 730Q292 744 293.0 748.0Q294 752 301 758Q312 767 321.5 765.0Q331 763 340 770Q350 779 379.0 788.5Q408 798 441 803Q466 807 484.5 810.5Q503 814 525.0 814.5Q547 815 556 818ZM550 766Q529 770 481.5 770.5Q434 771 419 767Q407 765 390.5 756.5Q374 748 370 741Q361 732 362 694Q364 686 365 685Q401 704 459.0 718.0Q517 732 526 723Q529 721 531.0 714.0Q533 707 531.5 701.5Q530 696 528 696Q525 696 523 683Q523 674 520.5 672.0Q518 670 507 670Q491 669 449.0 662.0Q407 655 390 656Q384 656 381.5 655.5Q379 655 376.5 654.5Q374 654 374.5 652.5Q375 651 376 649Q379 643 381 630Q384 609 386.0 604.5Q388 600 395 602Q512 638 548 635Q558 635 561.5 636.5Q565 638 566 643Q575 699 575 739V762Z" fill="#A8362B"/><path transform="translate(16.78 98.98) scale(0.04243 -0.04243)" d="M298 749Q311 754 358.0 763.5Q405 773 474.0 773.0Q543 773 548.0 777.0Q553 781 560.0 778.5Q567 776 573.5 782.5Q580 789 584.0 789.0Q588 789 631 760Q658 743 668.5 734.0Q679 725 683 714Q690 701 690.0 697.0Q690 693 686 687Q677 679 667.0 676.0Q657 673 657.0 669.0Q657 665 643.0 662.0Q629 659 618.0 650.0Q607 641 582 628Q556 614 530.5 596.5Q505 579 503 573Q501 566 519 544Q543 512 551 475Q553 466 557.0 464.5Q561 463 585 462Q616 462 646.0 458.0Q676 454 758 449Q814 447 830.5 444.5Q847 442 863 434Q886 421 897 404L906 387L898 367Q889 347 872 338Q855 330 843.0 330.5Q831 331 805 343Q777 355 746 360Q644 375 607 373L578 370L577 267Q577 164 574 151Q567 113 556 87Q546 65 538 42Q534 26 519.5 4.0Q505 -18 493 -30Q469 -53 442.5 -68.0Q416 -83 400 -83Q393 -83 383.5 -73.0Q374 -63 374 -56Q374 -50 363.0 -26.0Q352 -2 352.0 2.5Q352 7 335 17Q324 22 312.0 38.5Q300 55 300 64Q300 70 291.5 80.5Q283 91 283 94Q284 97 294.0 96.0Q304 95 322.5 90.5Q341 86 360 79Q396 68 412 68Q422 68 428.0 71.5Q434 75 444 86Q470 116 487 177Q494 202 492.0 285.0Q490 368 487 370Q486 373 429.0 368.0Q372 363 349 360Q331 356 298.0 347.0Q265 338 255 334Q202 309 190.0 305.0Q178 301 166 303Q153 307 146.0 311.0Q139 315 116 331Q94 347 94 354Q94 375 125 394Q160 413 349 438Q470 453 471 457Q472 459 471 462Q463 486 452.5 510.5Q442 535 437 539Q433 541 433.5 552.0Q434 563 437 571Q442 579 451 579Q458 579 478.0 597.5Q498 616 498 623Q498 627 509 642Q519 653 532.0 679.5Q545 706 545 711Q545 721 480 718Q450 718 406.0 708.5Q362 699 351.0 690.5Q340 682 334.0 682.0Q328 682 309 693Q295 701 291.5 705.5Q288 710 286.5 723.5Q285 737 287.0 741.0Q289 745 298 749Z" fill="#A8362B"/></g></svg></span>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div><!-- /#smooth -->
+
+<script>
+const html = document.documentElement;
+html.classList.add('js');
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (REDUCED) html.classList.add('reduced');
+const FINE = matchMedia('(pointer: fine)').matches;
+
+/* ---- language ---- */
+const toggle = document.getElementById('langToggle');
+function setLang(lang) {
+  html.dataset.lang = lang;
+  html.lang = lang === 'zh' ? 'zh-CN' : 'en';
+  toggle.textContent = lang === 'zh' ? 'EN' : '中文';
+  try { localStorage.setItem('kmryo-lang', lang); } catch (e) {}
+}
+toggle.addEventListener('click', () => setLang(html.dataset.lang === 'en' ? 'zh' : 'en'));
+try {
+  const saved = localStorage.getItem('kmryo-lang');
+  if (saved) setLang(saved);
+} catch (e) {}
+
+/* ---- loader ---- */
+const loader = document.getElementById('loader');
+const loaderWord = document.getElementById('loaderWord');
+const WORDS = ['心', 'Heart', 'Herz', 'Cœur', 'Cardiology', 'AI'];
+let seen = false;
+try { seen = sessionStorage.getItem('kmryo-intro') === '1'; } catch (e) {}
+function finishLoader() {
+  loader.classList.add('done');
+  document.body.classList.remove('locked');
+  try { sessionStorage.setItem('kmryo-intro', '1'); } catch (e) {}
+  setTimeout(() => loader.remove(), 1000);
+  revealHero();
+}
+if (REDUCED || seen) {
+  loader.remove();
+  document.body.classList.remove('locked');
+  revealHero();
+} else {
+  let i = 0;
+  const step = () => {
+    i++;
+    if (i < WORDS.length) { loaderWord.textContent = WORDS[i]; setTimeout(step, 240); }
+    else setTimeout(finishLoader, 320);
+  };
+  setTimeout(step, 650);
+}
+function revealHero() {
+  requestAnimationFrame(() => {
+    document.querySelectorAll('.hero .lines, .hero .fade').forEach(el => el.classList.add('in'));
+  });
+}
+
+/* ---- scroll reveals ---- */
+const io = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+}, { threshold: 0.15 });
+document.querySelectorAll('.lines, .fade').forEach(el => io.observe(el));
+
+/* ---- smooth (lerp) scrolling ---- */
+const smoothEl = document.getElementById('smooth');
+const SMOOTH = FINE && !REDUCED && innerWidth > 860;
+let cur = 0;
+if (SMOOTH) {
+  html.classList.add('smooth-on');
+  const setH = () => { document.body.style.height = smoothEl.scrollHeight + 'px'; };
+  setH();
+  new ResizeObserver(setH).observe(smoothEl);
+  addEventListener('load', setH);
+  const lerp = (a, b, n) => a + (b - a) * n;
+  (function raf() {
+    cur = lerp(cur, scrollY, 0.09);
+    if (Math.abs(cur - scrollY) < 0.1) cur = scrollY;
+    smoothEl.style.transform = `translate3d(0, ${-cur}px, 0)`;
+    requestAnimationFrame(raf);
+  })();
+}
+
+/* ---- nav hide/show ---- */
+const nav = document.getElementById('nav');
+let lastY = 0;
+addEventListener('scroll', () => {
+  const y = scrollY;
+  nav.classList.toggle('solid', y > 40);
+  nav.classList.toggle('hide', y > 160 && y > lastY);
+  lastY = y;
+}, { passive: true });
+
+/* ---- custom cursor ---- */
+if (FINE && !REDUCED) {
+  const cursor = document.getElementById('cursor');
+  let cx = -100, cy = -100, tx = -100, ty = -100;
+  addEventListener('mousemove', e => { tx = e.clientX; ty = e.clientY; }, { passive: true });
+  (function craf() {
+    cx += (tx - cx) * 0.2; cy += (ty - cy) * 0.2;
+    cursor.style.transform = `translate(${cx - cursor.offsetWidth / 2}px, ${cy - cursor.offsetHeight / 2}px)`;
+    requestAnimationFrame(craf);
+  })();
+  document.addEventListener('mouseover', e => {
+    cursor.classList.toggle('on', !!e.target.closest('a, button, .work-row'));
+  });
+}
+
+/* ---- magnetic buttons ---- */
+if (FINE && !REDUCED) {
+  document.querySelectorAll('.magnetic').forEach(el => {
+    el.style.transition = 'transform 0.3s cubic-bezier(0.22, 1, 0.36, 1)';
+    el.addEventListener('mousemove', e => {
+      const r = el.getBoundingClientRect();
+      const x = (e.clientX - r.left - r.width / 2) * 0.3;
+      const y = (e.clientY - r.top - r.height / 2) * 0.4;
+      el.style.transform = `translate(${x}px, ${y}px)`;
+    });
+    el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+  });
+}
+
+/* ---- work hover preview ---- */
+const preview = document.getElementById('preview');
+const pimg = preview.querySelector('img');
+const pglyph = preview.querySelector('.glyph-panel');
+if (FINE && !REDUCED) {
+  let px = 0, py = 0, ptx = 0, pty = 0, active = false;
+  addEventListener('mousemove', e => { ptx = e.clientX; pty = e.clientY; }, { passive: true });
+  (function praf() {
+    px += (ptx - px) * 0.12; py += (pty - py) * 0.12;
+    preview.style.left = px + 'px'; preview.style.top = py + 'px';
+    requestAnimationFrame(praf);
+  })();
+  document.querySelectorAll('.work-row').forEach(row => {
+    row.addEventListener('mouseenter', () => {
+      const img = row.dataset.img, glyph = row.dataset.glyph;
+      if (img) { preview.classList.remove('glyph'); pimg.src = img; }
+      else { preview.classList.add('glyph'); pglyph.textContent = glyph || '觅'; }
+      preview.classList.add('on');
+    });
+    row.addEventListener('mouseleave', () => preview.classList.remove('on'));
+  });
+}
+
+/* ---- Zurich local time ---- */
+const timeEl = document.getElementById('localTime');
+function tickTime() {
+  try {
+    const t = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Zurich', hour12: false }).format(new Date());
+    timeEl.textContent = `Zurich — ${t} CET`;
+  } catch (e) {}
+}
+tickTime(); setInterval(tickTime, 30000);
+
+/* ---- daily pulse (每日焦点) ---- */
+(function () {
+  const grid = document.getElementById('pulseGrid');
+  const dateEl = document.getElementById('pulseDate');
+  const emptyEl = document.getElementById('pulseEmpty');
+  const prevBtn = document.getElementById('pulsePrev');
+  const nextBtn = document.getElementById('pulseNext');
+  if (!grid) return;
+  const ACCENT = { journal: 'var(--seal)', conference: '#C9A227', regulatory: '#4E8F8B', industry: '#4E8F8B', social: '#6E87A8', news: '#6E87A8', guideline: '#6E87A8' };
+  const TYPE_ZH = { journal: '期刊', conference: '会议', regulatory: '监管', industry: '产业', social: '热议', news: '新闻', guideline: '指南' };
+  let days = [], idx = -1;
+  const cache = {};
+
+  function span(cls, en, zh) {
+    const s = document.createElement('span'); s.className = cls;
+    const e = document.createElement('span'); e.className = 'en'; e.textContent = en;
+    const z = document.createElement('span'); z.className = 'zh'; z.textContent = zh;
+    s.append(e, z); return s;
+  }
+
+  function render(day) {
+    grid.replaceChildren();
+    const items = (day.items || []).slice().sort((a, b) => (b.weight || 1) - (a.weight || 1));
+    emptyEl.hidden = items.length > 0;
+    items.forEach((it, i) => {
+      const a = document.createElement('a');
+      a.className = 'pcard w' + Math.min(5, Math.max(1, it.weight || 1));
+      a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
+      a.style.setProperty('--acc', ACCENT[it.type] || 'var(--seal)');
+      a.style.animationDelay = Math.min(i * 0.04, 0.4) + 's';
+      const head = document.createElement('div'); head.className = 'phead';
+      const src = document.createElement('span'); src.className = 'psrc'; src.textContent = it.source || '';
+      const dt = document.createElement('span'); dt.className = 'pdate'; dt.textContent = (it.date || day.date || '').slice(5);
+      head.append(src, dt);
+      const h = document.createElement('h3');
+      h.append(span('', it.title || '', it.title_zh || it.title || ''));
+      const sum = document.createElement('p'); sum.className = 'psum';
+      const sumZh = document.createElement('span'); sumZh.className = 'zh'; sumZh.textContent = it.summary_zh || '';
+      const sumEn = document.createElement('span'); sumEn.className = 'en'; sumEn.textContent = it.summary_en || it.summary_zh || '';
+      sum.append(sumEn, sumZh);
+      const foot = document.createElement('div'); foot.className = 'pfoot';
+      const topic = document.createElement('span'); topic.className = 'ptopic';
+      topic.append(span('', (it.topic ? it.topic + ' · ' : '') + (it.type || ''), (it.topic ? it.topic + ' · ' : '') + (TYPE_ZH[it.type] || it.type || '')));
+      const arr = document.createElement('span'); arr.className = 'parr'; arr.textContent = '↗';
+      foot.append(topic, arr);
+      a.append(head, h, sum, foot);
+      grid.append(a);
+    });
+  }
+
+  function show(i) {
+    if (i < 0 || i >= days.length) return;
+    idx = i;
+    const d = days[idx];
+    dateEl.textContent = d;
+    prevBtn.disabled = idx === 0;
+    nextBtn.disabled = idx === days.length - 1;
+    if (cache[d]) { render(cache[d]); return; }
+    fetch('pulse/data/' + d + '.json').then(r => r.json()).then(day => {
+      cache[d] = day;
+      if (days[idx] === d) render(day);
+    }).catch(() => { grid.replaceChildren(); emptyEl.hidden = false; });
+  }
+
+  prevBtn.addEventListener('click', () => show(idx - 1));
+  nextBtn.addEventListener('click', () => show(idx + 1));
+
+  fetch('pulse/data/manifest.json').then(r => r.json()).then(m => {
+    days = (m.days || []).slice().sort();
+    if (days.length) show(days.length - 1);
+    else emptyEl.hidden = false;
+  }).catch(() => {
+    emptyEl.hidden = false;
+    dateEl.textContent = 'offline';
+  });
+})();
+
+/* ---- newsletter placeholder guard ---- */
+const form = document.getElementById('newsletterForm');
+form.addEventListener('submit', e => {
+  if (form.action.includes('YOUR_FORM_ID')) {
+    e.preventDefault();
+    alert(html.dataset.lang === 'zh'
+      ? '表单尚未接入 —— 请完成 Formspree 配置。'
+      : 'Form not connected yet — set up the Formspree endpoint first.');
+  }
+});
+</script>
+</body>
+</html>

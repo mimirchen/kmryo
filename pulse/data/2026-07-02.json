@@ -1,0 +1,29 @@
+{
+ "date": "2026-07-02",
+ "items": [
+  {
+   "date": "2026-07-02",
+   "title": "STUN-AF: Ablation Before LAAO May Reduce Peridevice Leaks",
+   "title_zh": "STUN-AF 研究:先消融再行左心耳封堵或可减少器械周围残余漏",
+   "summary_zh": "TCTMD 报道的 STUN-AF 研究提示,在左心耳封堵(LAAO)前先行房颤消融可能降低封堵器周围残余漏的发生率,对消融与 LAAO 联合手术的时序策略有参考价值。",
+   "source": "TCTMD",
+   "type": "news",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/stun-af-ablation-laao-may-reduce-peridevice-leaks",
+   "summary_en": "The STUN-AF study suggests performing AF ablation before left atrial appendage occlusion may lower the rate of peridevice leak — informing the sequencing of combined ablation-plus-LAAO procedures."
+  },
+  {
+   "date": "2026-07-02",
+   "title": "The Mitral Asterisk: A High-Risk Phenotype Within Moderate Aortic Stenosis",
+   "title_zh": "'二尖瓣星号':中度主动脉瓣狭窄中的高危表型",
+   "summary_zh": "Baker 心脏与糖尿病研究所 Sen 撰写的述评,提出在中度主动脉瓣狭窄患者中合并二尖瓣病变者构成预后更差的高危亚型('二尖瓣星号'),主张加强影像学表型识别与更密切随访。呼应中度 AS 是否需更早干预的热点争论。",
+   "source": "JACC: Cardiovascular Imaging",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcmg.2026.05.006",
+   "summary_en": "An editorial arguing that moderate-aortic-stenosis patients with concomitant mitral disease form a worse-prognosis 'mitral asterisk' subgroup warranting closer imaging phenotyping and follow-up — echoing the debate over earlier intervention in moderate AS."
+  }
+ ]
+}

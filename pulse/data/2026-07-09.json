@@ -1,0 +1,41 @@
+{
+ "date": "2026-07-09",
+ "items": [
+  {
+   "date": "2026-07-09",
+   "title": "Standardized endpoint definitions for trials of transcatheter left atrial appendage closure: a consensus from the LAARC",
+   "title_zh": "经导管左心耳封堵试验的标准化终点定义:左心耳学术研究联盟(LAARC)共识",
+   "summary_zh": "由美、欧、亚学者及 FDA、欧洲公告机构、日本 PMDA 等监管方共同制定的学术共识,统一了左心耳封堵(LAAC)临床试验中死亡、卒中、出血、器械性能及安全性/有效性复合终点的标准化定义。旨在提升 LAAC 研究质量并增强不同试验间的可比性。",
+   "source": "EHJ",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42425446/",
+   "summary_en": "A Left Atrial Appendage Academic Research Consortium consensus — with academics plus FDA, EU notified bodies and Japan's PMDA — standardizes endpoint definitions (death, stroke, bleeding, device performance, composite safety/efficacy) for LAA-closure trials to improve quality and cross-trial comparability."
+  },
+  {
+   "date": "2026-07-09",
+   "title": "TRiCares Announces Initiation of TRICURE US IDE Pivotal Study for Topaz Tricuspid Valve Replacement System",
+   "title_zh": "TRiCares 宣布 Topaz 经导管三尖瓣置换系统 TRICURE 美国关键性研究入组首例",
+   "summary_zh": "TRiCares 宣布其 Topaz 经股 TTVR 系统的 TRICURE US IDE 关键性随机试验完成首例患者入组,计划在美加欧多达 75 个中心开展,针对外科高危的重度三尖瓣反流患者。Topaz 主打减少传导系统影响、降低起搏器植入率,是 Evoque 之后 TTVR 赛道的重要竞争者。",
+   "source": "GlobeNewswire",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/tricares-announces-initiation-of-tricure-us-ide-pivotal-study-for-topaz-tricuspid-valve-replacement-system/2381491",
+   "summary_en": "TRiCares enrolled the first patient in TRICURE US IDE, the pivotal RCT of its transfemoral Topaz transcatheter tricuspid replacement, planned across up to 75 North American and European sites for surgical-high-risk severe TR; Topaz aims to spare the conduction system and lower pacemaker rates."
+  },
+  {
+   "date": "2026-07-09",
+   "title": "SCCT 2026: What to Expect in Chula Vista",
+   "title_zh": "SCCT 2026 心血管 CT 年会前瞻:结构性介入术前规划成重头戏",
+   "summary_zh": "TCTMD 发布 SCCT 2026(7 月 9-12 日,加州 Chula Vista)前瞻:会前工作坊覆盖主动脉瓣、三尖瓣、肺动脉瓣及左心耳封堵的 CT 术前规划,并与美国超声心动图学会(ASE)联办结构性心脏介入影像规划专场,凸显 CT 在 TAVI/TMVR/TTVR 全流程中的核心地位。",
+   "source": "TCTMD",
+   "type": "news",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://www.tctmd.com/news/scct-2026-what-expect-chula-vista",
+   "summary_en": "TCTMD previews SCCT 2026 (Chula Vista, Jul 9–12): pre-conference workshops on CT planning for aortic, tricuspid, pulmonary and LAA procedures plus a joint ASE session on structural-intervention imaging — underscoring CT's central role across TAVI/TMVR/TTVR."
+  }
+ ]
+}

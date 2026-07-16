@@ -1,0 +1,77 @@
+{
+ "date": "2026-07-08",
+ "items": [
+  {
+   "date": "2026-07-08",
+   "title": "Jenscare wins CE mark (EU MDR) for LuX-Valve Plus transvenous tricuspid valve replacement system",
+   "title_zh": "宁波健世科技 LuX-Valve Plus 经静脉三尖瓣置换系统获欧盟 MDR CE 认证",
+   "summary_zh": "健世科技第二代经静脉三尖瓣置换系统 LuX-Valve Plus 获 EU MDR CE 认证,成为全球第二个获批的经导管原位三尖瓣置换系统。其不依赖径向支撑力的室间隔锚定设计可降低起搏器植入风险;LuX-Valve 系列已在五大洲数十国累计植入超千例。",
+   "source": "MassDevice",
+   "type": "regulatory",
+   "topic": "Tricuspid",
+   "weight": 5,
+   "url": "https://www.massdevice.com/jenscare-ce-mark-transvenous-tricuspid-valve/",
+   "summary_en": "Jenscare's second-generation transvenous tricuspid valve replacement system, LuX-Valve Plus, won EU MDR CE mark — the world's second approved orthotopic transcatheter tricuspid replacement; its septal-anchoring design (not reliant on radial force) may lower pacemaker risk, with 1,000+ LuX-Valve implants across dozens of countries."
+  },
+  {
+   "date": "2026-07-08",
+   "title": "Sex-Related Differences in Outcomes and Thresholds for Intervention in Primary Mitral Regurgitation: A Systematic Review and Meta-Analysis",
+   "title_zh": "原发性二尖瓣反流干预结局与干预阈值的性别差异:系统综述与荟萃分析",
+   "summary_zh": "纳入 17 项研究 25,690 例接受外科或经导管干预的原发性二尖瓣反流患者(女性占 37.5%)。女性干预时更年老(平均大 3.2 岁)、症状更重,长期全因死亡风险较男性高 15%(HR 1.15,95% CI 1.07-1.24),MACE 风险高 37%。提示现行以左室指标为核心的干预阈值可能系统性延误女性患者,需重新审视指南以实现性别公平。",
+   "source": "JACC: Cardiovascular Imaging",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcmg.2026.05.013",
+   "summary_en": "A meta-analysis of 17 studies and 25,690 patients undergoing surgical or transcatheter repair for primary MR (37.5% women): women were treated older (by 3.2 years) and more symptomatic, with 15% higher long-term all-cause mortality (HR 1.15, 95% CI 1.07–1.24) and 37% higher MACE — suggesting LV-centric thresholds systematically delay women and should be revisited."
+  },
+  {
+   "date": "2026-07-08",
+   "title": "ESC Congress 2026 Hot Line Trials Revealed",
+   "title_zh": "ESC 2026 年会 Hot Line 试验名单公布:多项 TAVI 与三尖瓣重磅研究在列",
+   "summary_zh": "Radcliffe Cardiology 发布 ESC 慕尼黑年会(8 月 28-31 日)46 项 Hot Line 试验清单,结构领域包括 TAVI PCI、NOTION-4(瓣叶血栓)、ACASA-TAVI 与 POPular ACE TAVI(术后抗栓/鱼精蛋白策略)及 TRIC-I-HF(心衰合并重度三尖瓣反流的介入治疗)。结构界已开始预热讨论这些可能改变实践的结果。",
+   "source": "Radcliffe Cardiology / ESC",
+   "type": "news",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.radcliffecardiology.com/news/esc-congress-2026-hot-line-trials-revealed?language_content_entity=en",
+   "summary_en": "Radcliffe Cardiology published the 46-trial ESC 2026 (Munich, Aug 28–31) Hot Line list; structural entries include TAVI PCI, NOTION-4 (leaflet thrombosis), ACASA-TAVI and POPular ACE TAVI (post-TAVI antithrombotic/protamine strategies) and TRIC-I-HF (tricuspid intervention in HF with severe TR)."
+  },
+  {
+   "date": "2026-07-08",
+   "title": "AI-ECG Models Detect Structural Heart Disease, Identify At-Risk Patients",
+   "title_zh": "AI 心电图模型可检出结构性心脏病并识别高危患者",
+   "summary_zh": "TCTMD 报道的新研究显示,基于人工智能的心电图模型能够从常规 ECG 中筛查出结构性心脏病(瓣膜病、心肌病等)并识别高危人群,有望改善该领域的漏诊问题,但筛查性能仍有提升空间。",
+   "source": "TCTMD",
+   "type": "news",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/ai-ecg-models-detect-structural-heart-disease-identify-risk-patients",
+   "summary_en": "TCTMD reports new work showing AI-ECG models can screen for structural heart disease (valvular disease, cardiomyopathy) and flag at-risk patients from routine ECGs — a possible answer to underdiagnosis, though screening performance still has room to improve."
+  },
+  {
+   "date": "2026-07-08",
+   "title": "From Repair to Valve-in-Valve: The Rapid Evolution of Transcatheter Tricuspid Therapy",
+   "title_zh": "从修复到瓣中瓣:经导管三尖瓣治疗的快速演进",
+   "summary_zh": "JACC: Case Reports 三尖瓣介入专刊的配套述评,以经导管三尖瓣瓣中瓣治疗早期瓣膜失败病例为切入点,梳理三尖瓣介入从缘对缘修复到置换、再到瓣中瓣补救的技术演进。该专刊集中收录十余篇 TTVR/三尖瓣 TEER 病例,反映'被遗忘的瓣膜'已成结构性心脏病最活跃前沿。",
+   "source": "JACC: Case Reports",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2026.109119",
+   "summary_en": "An editorial in JACC: Case Reports' tricuspid-intervention theme issue traces the field's rapid evolution from edge-to-edge repair to replacement to valve-in-valve rescue — the issue's dozen-plus TTVR/tricuspid-TEER cases reflect the 'forgotten valve' becoming structural heart's most active frontier."
+  },
+  {
+   "date": "2026-07-08",
+   "title": "Valve-in-Valve Implantation for Early Failure of a Transcatheter Tricuspid Valve",
+   "title_zh": "经导管三尖瓣早期失败的瓣中瓣植入治疗",
+   "summary_zh": "JACC: Case Reports 三尖瓣专刊病例,报告经导管三尖瓣置换术后瓣膜早期失败、经瓣中瓣再植入成功补救的完整过程。为 TTVR 术后瓣膜功能障碍的再干预策略提供先例,提示三尖瓣介入的全生命周期管理问题正在浮现。",
+   "source": "JACC: Case Reports",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 1,
+   "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2026.108909",
+   "summary_en": "A JACC: Case Reports case of valve-in-valve implantation to rescue early failure after transcatheter tricuspid valve replacement — a precedent for re-intervention on TTVR dysfunction and a sign that lifetime management of tricuspid interventions is emerging."
+  }
+ ]
+}

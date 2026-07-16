@@ -1,0 +1,53 @@
+{
+ "date": "2026-07-14",
+ "items": [
+  {
+   "date": "2026-07-14",
+   "title": "Medtronic recalls Harmony heart valve delivery catheter for risk of tip detaching (FDA Class I)",
+   "title_zh": "美敦力 Harmony 经导管肺动脉瓣输送导管一级召回:头端脱落风险",
+   "summary_zh": "FDA 将美敦力 Harmony TPV 输送导管的召回定为最高级别 Class I:远端头端可能在植入过程中从输送系统脱落、需再次手术取出,全球涉及 1800 余套器械(截至 5 月 14 日无严重伤亡报告)。瓣膜本身不受影响,已植入患者无需处理,制造问题已解决。",
+   "source": "MedTech Dive / FDA",
+   "type": "regulatory",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://www.medtechdive.com/news/medtronic-recalls-heart-valve-delivery-catheter-for-risk-of-tip-detaching/825186/",
+   "summary_en": "The FDA classified Medtronic's recall of the Harmony transcatheter pulmonary valve delivery catheter as Class I (most serious): the distal tip can detach during implantation and require additional surgery to retrieve; 1,800+ devices worldwide (no serious injuries reported as of May 14). The valve is unaffected and implanted patients need no action."
+  },
+  {
+   "date": "2026-07-14",
+   "title": "SCAI/ASE/HRS/SIR/SVS Expert Consensus Statement on Enhanced Radiation Protection",
+   "title_zh": "SCAI/ASE/HRS/SIR/SVS 关于强化辐射防护的专家共识声明:强制且紧急行动的时刻",
+   "summary_zh": "由 SCAI 牵头、多学会联合背书的共识声明,呼吁强制推行强化辐射防护装置(ERPD)以达到 ALARA 标准,应对导管室人员面临的肿瘤、白内障、生殖损害及铅衣所致骨科损伤等职业风险,明确政府、厂商与医疗机构的责任并要求更新监管阈值。对高度依赖透视的结构性介入团队职业防护有直接影响。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "guideline",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.06.011",
+   "summary_en": "A SCAI-led, multi-society expert consensus urges mandatory adoption of enhanced radiation-protection devices to meet ALARA, addressing cath-lab occupational risks (cancer, cataract, reproductive harm, lead-apron orthopedic injury), assigning responsibility to government, manufacturers and institutions and calling for updated thresholds — directly relevant to fluoroscopy-heavy structural teams."
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Acute haemodynamic instability after transcatheter tricuspid valve replacement: insights from pressure-volume loops",
+   "title_zh": "经导管三尖瓣置换术后急性血流动力学不稳定:来自压力-容积环的启示",
+   "summary_zh": "基于压力-容积环(PV-loop)分析的研究,探讨 TTVR 后急性血流动力学不稳定的机制,提示突然消除三尖瓣反流后右心室后负荷骤增可致右心失代偿。为 TTVR 患者围术期血流动力学管理提供病理生理学依据。",
+   "source": "EHJ",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41705557/",
+   "summary_en": "A pressure-volume-loop study of the mechanism of acute hemodynamic instability after transcatheter tricuspid valve replacement, showing that abruptly abolishing TR raises RV afterload and can precipitate RV decompensation — a physiologic basis for peri-procedural TTVR management."
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Tricuspid valve replacement with a LuX-Valve for tricuspid stenosis via a right atrium access",
+   "title_zh": "经右心房入路应用 LuX-Valve 行三尖瓣置换治疗三尖瓣狭窄",
+   "summary_zh": "临床影像/病例报道,展示经右心房入路使用 LuX-Valve 器械成功治疗三尖瓣狭窄,为经导管三尖瓣介入在少见的三尖瓣狭窄适应证及替代入路上的应用提供示例。",
+   "source": "EHJ",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 1,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41313046/",
+   "summary_en": "A clinical image/case of transcatheter tricuspid valve replacement with LuX-Valve via right-atrial access to treat tricuspid stenosis — an example of transcatheter tricuspid therapy for the uncommon stenosis indication and an alternative access route."
+  }
+ ]
+}

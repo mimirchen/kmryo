@@ -1,0 +1,125 @@
+{
+ "date": "2026-07-01",
+ "items": [
+  {
+   "date": "2026-06-26",
+   "title": "TAVI holds up to SAVR at seven years on durability in PARTNER 3",
+   "title_zh": "PARTNER 3 七年数据:TAVI 瓣膜耐久性与外科手术相当",
+   "summary_zh": "纽约瓣膜会 2026 重磅 late-breaking 并同步发表于 JAMA Cardiology:低危患者中 SAPIEN 3 TAVI 与外科换瓣 7 年结构性瓣膜退化率相当(7.3% 对 7.6%),生物瓣衰败(6.9% 对 7.5%)与再干预率(5.4% 对 5.5%)均低且相似;TAVI 组血栓相关瓣膜功能障碍较多(5.2% 对 0.9%)但多为早期、常可逆。支持 TAVI 用于低危患者的终身管理。",
+   "source": "New York Valves 2026",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 5,
+   "url": "https://cardiovascularnews.com/partner-3-trial-shows-tavi-holds-up-to-savr-at-seven-years-on-durability/",
+   "summary_en": "At New York Valves 2026 (and in JAMA Cardiology), the PARTNER 3 7-year analysis found SAPIEN 3 TAVI and surgery had similar structural valve deterioration (7.3% vs 7.6%), bioprosthetic failure (6.9% vs 7.5%) and reintervention (5.4% vs 5.5%) in low-risk patients; TAVI had more thrombosis-related dysfunction (5.2% vs 0.9%) but mostly early and often reversible — supporting TAVI durability for lifetime management."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Physiology vs angiography-guided PCI in TAVI: the FAITAVI trial",
+   "title_zh": "TAVI 患者生理学指导对比造影指导 PCI:FAITAVI 试验",
+   "summary_zh": "意大利多中心随机对照试验,在合并冠脉病变、拟行 TAVI 的患者中比较以 FFR(生理学)指导与以造影指导两种 PCI 策略的临床结局,为 TAVI 人群冠脉血运重建决策这一争议领域提供随机证据。同期配发述评。",
+   "source": "EHJ",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41417623/",
+   "summary_en": "Italian multicentre RCT comparing FFR (physiology)- vs angiography-guided PCI in TAVI patients with coronary disease, giving randomized evidence on how to guide revascularization in this contested area; published with an accompanying editorial."
+  },
+  {
+   "date": "2026-06-26",
+   "title": "Contemporary Outcomes of Aortic Stenosis Care: The AHA Target: Aortic Stenosis Registry",
+   "title_zh": "主动脉瓣狭窄诊疗的当代结局:AHA Target: Aortic Stenosis 注册研究",
+   "summary_zh": "发表于 Circulation 的 AHA Target: Aortic Stenosis 质量注册报告,描绘美国重度主动脉瓣狭窄患者从诊断到干预的真实世界路径与结局,揭示治疗延误与转诊缺口。为缩小主动脉瓣狭窄'诊疗差距'、优化瓣膜团队流程提供基线证据。",
+   "source": "Circulation",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42360276/",
+   "summary_en": "The AHA Target: Aortic Stenosis quality registry maps real-world diagnosis-to-treatment pathways and outcomes for severe aortic stenosis in the US, exposing treatment delays and referral gaps — a baseline for closing the aortic-stenosis 'care gap'."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Real-world TriClip Data Show Reduced TR, Good Procedural Success",
+   "title_zh": "TriClip 真实世界数据:三尖瓣反流显著降低、手术成功率高",
+   "summary_zh": "纽约瓣膜会 2026 公布的 STS/ACC TVT 注册研究纳入美国 278 家中心 3035 例重度三尖瓣反流患者:器械成功率 98%,30 天全因死亡率 1.4%,87% 患者 TR 降至中度及以下,KCCQ 评分平均改善 22 分,中位住院仅 1 天。为 TriClip 随机试验结果提供大规模真实世界佐证。",
+   "source": "TCTMD / New York Valves 2026",
+   "type": "conference",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.tctmd.com/news/real-world-triclip-data-show-reduced-tr-good-procedural-success",
+   "summary_en": "A 3,035-patient STS/ACC TVT registry analysis (278 US sites) of TriClip tricuspid TEER: 98% device success, 1.4% 30-day mortality, TR reduced to moderate-or-less in 87%, a mean 22-point KCCQ gain and 1-day median stay — large real-world confirmation of the randomized data."
+  },
+  {
+   "date": "2026-06-25",
+   "title": "Transseptal TMVR in MAC Shows Promise in Registry (ENCIRCLE MAC, SAPIEN M3)",
+   "title_zh": "ENCIRCLE MAC 注册研究:SAPIEN M3 经房间隔 TMVR 治疗二尖瓣环钙化显示前景",
+   "summary_zh": "纽约瓣膜会 2026 公布的 ENCIRCLE MAC 注册研究评估 Edwards SAPIEN M3 在 5 国 36 家中心 100 例重度二尖瓣环钙化(MAC)患者中的结局:1 年全因死亡或心衰住院复合终点 33.6%,低于 45% 的预设标准;98.5% 患者 MR 降至 1+ 及以下。为这类几乎无治疗选择的极高危人群提供新证据。",
+   "source": "TCTMD / New York Valves 2026",
+   "type": "conference",
+   "topic": "Mitral",
+   "weight": 4,
+   "url": "https://www.tctmd.com/news/transseptal-tmvr-mac-shows-promise-registry",
+   "summary_en": "The ENCIRCLE MAC registry of Edwards SAPIEN M3 transseptal TMVR in 100 severe mitral-annular-calcification patients (36 sites): 33.6% 1-year death-or-HF-hospitalization (below the 45% benchmark) and MR ≤1+ in 98.5% — new evidence for a group with almost no options."
+  },
+  {
+   "date": "2026-06-29",
+   "title": "Laplace Announces FDA IDE Approval of TRIUMPH Pivotal Trial of Its Transcatheter Tricuspid Valve Replacement System",
+   "title_zh": "Laplace 经导管三尖瓣置换系统 TRIUMPH 关键性试验获 FDA IDE 批准",
+   "summary_zh": "FDA 批准 Laplace Interventional 的 TTVR 系统开展 TRIUMPH 关键性试验:约 400 例重度三尖瓣反流患者按 2:1 随机对照商业化 TTVR(Edwards Evoque),另设最多 150 例单臂注册队列。该系统采用柔性框架、术中可完全重定位与回收,标志 TTVR 赛道竞争加剧。",
+   "source": "Laplace Interventional",
+   "type": "regulatory",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.prnewswire.com/news-releases/laplace-announces-fda-ide-approval-of-triumph-pivotal-trial-of-its-transcatheter-tricuspid-valve-replacement-system-302813749.html",
+   "summary_en": "The FDA granted IDE approval for the TRIUMPH pivotal trial of Laplace's transcatheter tricuspid valve replacement — ~400 severe-TR patients randomized 2:1 against commercial TTVR (Evoque), plus a registry arm — intensifying competition in the TTVR field."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "JenaValve Recaps Late-Breaking Clinical Data from New York Valves 2026",
+   "title_zh": "JenaValve 总结纽约瓣膜会 2026 重磅数据:Trilogy 瓣膜治疗主动脉瓣反流",
+   "summary_zh": "JenaValve 回顾其在纽约瓣膜会 2026 的两项数据:ALIGN-AR 分析显示单纯主动脉瓣反流 TAVR 术后起搏器植入的预测因素不同于狭窄患者;JENA-VAD 注册研究中 28 例 LVAD 合并显著 AR 患者接受 Trilogy 治疗,1 年死亡率仅 7.3%、无重大并发症。Trilogy 是美欧均获批治疗高危 AR 的经导管瓣膜。",
+   "source": "JenaValve",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.globenewswire.com/news-release/2026/07/01/3320637/0/en/JenaValve-Recaps-Key-Highlights-Including-Late-Breaking-Clinical-Data-from-New-York-Valves-2026.html",
+   "summary_en": "JenaValve recapped two New York Valves 2026 datasets for its Trilogy aortic-regurgitation valve: an ALIGN-AR analysis of pacemaker predictors in pure AR, and JENA-VAD registry data in 28 LVAD-plus-AR patients showing 7.3% 1-year mortality with no major complications."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "SCAI 2026 Roundup: Major Coronary, Structural and Vascular Trials From Montreal",
+   "title_zh": "SCAI 2026 蒙特利尔会议综述:结构性心脏重磅试验盘点",
+   "summary_zh": "ACC《Cardiology》杂志刊发 SCAI 2026 会议综述,结构部分点评了 AltaValve 经导管二尖瓣早期可行性研究、二尖瓣环钙化(MAC)患者行 TEER 的疗效数据,以及 DETECT AS 电子提醒系统显著提高重度主动脉瓣狭窄转诊率、缩小诊疗差距。是了解上半年介入结构进展的权威汇总。",
+   "source": "ACC Cardiology",
+   "type": "news",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2026/07/01/01/Online-Exclusive-SCAI-2026-Roundup",
+   "summary_en": "ACC's Cardiology magazine roundup of SCAI 2026 (Montréal) structural highlights — the AltaValve transcatheter mitral EFS, TEER outcomes in mitral annular calcification, and the DETECT AS e-alert system that boosted severe-AS referral and narrowed the care gap."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Second Universal Definition of HF Focuses on Phenotypes and Etiology",
+   "title_zh": "第二版心衰通用定义发布:聚焦表型与病因(含瓣膜性心衰)",
+   "summary_zh": "AHA/ACC/ESC/WHF 联合发布第二版心力衰竭通用定义共识,强调病因(包括瓣膜病)、疾病轨迹与可操作的射血分数分类。对结构性心脏病团队而言,瓣膜性心衰的定位与干预时机是热议点。",
+   "source": "TCTMD",
+   "type": "guideline",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/second-universal-definition-hf-focuses-phenotypes-and-etiology",
+   "summary_en": "AHA/ACC/ESC/WHF released the second Universal Definition of Heart Failure, emphasizing etiology (including valvular disease), disease trajectory and actionable EF categories — with valvular HF timing a live discussion point for structural teams."
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Interventional cardiologist Manesh Patel begins term as AHA president",
+   "title_zh": "介入心脏病学家 Manesh Patel 就任美国心脏协会(AHA)主席",
+   "summary_zh": "杜克大学心内科主任、介入心脏病学家 Manesh Patel 就任 AHA 2026-27 年度主席,是近年少见的介入背景 AHA 掌门人。社群对其在器械审评、结构介入循证政策上的立场多有讨论。",
+   "source": "Cardiovascular Business",
+   "type": "social",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/cardiologist-manesh-patel-named-new-american-heart-association-president",
+   "summary_en": "Interventional cardiologist Manesh Patel (Duke) began his term as AHA president — a rare interventional-background AHA leader, prompting discussion of his stance on device evaluation and structural-intervention evidence policy."
+  }
+ ]
+}

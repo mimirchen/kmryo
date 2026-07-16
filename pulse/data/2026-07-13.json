@@ -1,0 +1,77 @@
+{
+ "date": "2026-07-13",
+ "items": [
+  {
+   "date": "2026-07-13",
+   "title": "Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement",
+   "title_zh": "优化经导管主动脉瓣置换术的操作策略:国际立场声明",
+   "summary_zh": "由哥本哈根 Rigshospitalet 牵头、全球 30 余位专家联合发布的国际立场声明,提出 TAVR CODE 框架(同轴性 Coaxiality、朝向 Orientation、深度 Depth、扩张 Expansion)四项透视参数以标准化术中瓣膜植入评估,系统阐述针对年轻、预期寿命更长患者的手术优化策略,包括预/后扩张、交界对齐、IVUS 评估瓣膜扩张及 AI 机器人输送等方向。有望成为 TAVR 走向精细化、耐久化时代的操作规范基石。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 5,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.04.049",
+   "summary_en": "A Rigshospitalet-led international position statement from 30+ experts proposes the TAVR CODE framework (Coaxiality, Orientation, Depth, Expansion) of four fluoroscopic parameters to standardize intraprocedural TAVR assessment, and details optimization for younger, longer-life-expectancy patients — pre/post-dilatation, commissural alignment, IVUS expansion checks and AI-robotic delivery."
+  },
+  {
+   "date": "2026-07-13",
+   "title": "Hospital Volume and Failure to Rescue Post-TAVR: Insights From the STS/ACC TVT Registry",
+   "title_zh": "医院手术量与 TAVR 术后抢救失败:来自 STS/ACC TVT 注册研究的洞见",
+   "summary_zh": "基于 STS/ACC TVT 注册库 2017-2023 年 808 家中心 487,159 例 TAVR 患者的大型队列。低手术量中心较高量中心 30 天死亡率(校正 OR 1.12)和主要并发症(校正 OR 1.19)均更高,但抢救失败率(总体 11.0%)在各手术量分层间无显著差异。提示手术量-死亡率负相关主要由并发症发生率驱动而非抢救能力差异,对 TAVR 中心质量管理与最低手术量政策有重要意义。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.03.036",
+   "summary_en": "A 487,159-patient STS/ACC TVT registry cohort (808 sites, 2017–2023): low-volume centers had higher 30-day mortality (adj OR 1.12) and major complications (adj OR 1.19) than high-volume, but failure-to-rescue (11.0% overall) did not differ by volume — implying the volume-mortality link is driven by complication rates, not rescue ability."
+  },
+  {
+   "date": "2026-07-13",
+   "title": "Aortic Valve Hemodynamic Physiology: New Insights to Improve Patient Selection",
+   "title_zh": "主动脉瓣血流动力学生理:改善患者筛选的新见解",
+   "summary_zh": "系统综述梳理主动脉瓣狭窄血流动力学评估的生理学基础,探讨如何借助包括负荷主动脉瓣指数(SAVI)在内的新型有创生理学指标改进 TAVR 患者筛选。对低流速低跨瓣压差等诊断困难人群的干预决策有参考价值,呼应冠脉 FFR 式生理学评估向结构性心脏病领域的延伸。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.04.050",
+   "summary_en": "A review of the physiologic basis for hemodynamic assessment in aortic stenosis, exploring new invasive indices (including the stress aortic valve index, SAVI) to improve TAVR patient selection in difficult low-flow/low-gradient cases — extending FFR-style physiology into structural heart."
+  },
+  {
+   "date": "2026-07-13",
+   "title": "Sublingual Nitroglycerin Appears Safe, Helpful for Pre-TAVI CCTA",
+   "title_zh": "舌下含服硝酸甘油用于 TAVI 术前 CCTA 安全且有助于评估",
+   "summary_zh": "新研究显示,在 TAVI 术前冠脉 CT 血管成像(CCTA)前舌下含服硝酸甘油安全可行,可改善冠脉显影质量,有助于减少术前有创冠脉造影需求。对日益依赖 CT 规划的 TAVI 流程有实用意义。",
+   "source": "TCTMD",
+   "type": "news",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.tctmd.com/news/sublingual-nitroglycerin-appears-safe-helpful-pre-tavi-ccta",
+   "summary_en": "New data show sublingual nitroglycerin before pre-TAVI coronary CT angiography is safe and improves coronary opacification, potentially reducing the need for pre-procedural invasive angiography — practical for increasingly CT-driven TAVI workups."
+  },
+  {
+   "date": "2026-07-13",
+   "title": "Understanding the Volume-Outcome Curve in Contemporary TAVR: Complications or Failure to Rescue?",
+   "title_zh": "理解当代 TAVR 的手术量-结局曲线:并发症还是抢救失败?(述评)",
+   "summary_zh": "针对同期 TVT 注册研究的述评,剖析 TAVR 手术量与死亡率关系的机制:低量中心死亡率更高源于并发症更多,而非并发症发生后的抢救能力不足,并讨论对 TAVR 中心准入标准、区域化布局与质量改进的政策含义。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.016",
+   "summary_en": "An editorial on the TVT registry volume analysis unpacks the mechanism — higher mortality at low-volume centers stems from more complications rather than worse rescue — and its implications for TAVR center accreditation, regionalization and quality improvement."
+  },
+  {
+   "date": "2026-07-13",
+   "title": "Iron Deficiency Criteria for Patients Undergoing Transcatheter Aortic Valve Replacement",
+   "title_zh": "TAVR 患者的铁缺乏诊断标准",
+   "summary_zh": "鹿特丹 Erasmus 大学医学中心心脏科与老年科联合发表的研究通讯,评估不同铁缺乏诊断标准在 TAVR 人群中的适用性与检出差异。铁缺乏是 TAVR 老年患者常见且可纠正的合并症,与术后恢复和生活质量相关,统一诊断标准有助围术期优化管理。",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.04.028",
+   "summary_en": "An Erasmus MC (Rotterdam) cardiology-geriatrics research letter evaluates how different iron-deficiency criteria apply and differ in detection in a TAVR population; iron deficiency is a common, correctable comorbidity tied to recovery and quality of life, so a unified definition aids peri-procedural optimization."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "date": "2026-07-06",
+ "items": [
+  {
+   "date": "2026-07-06",
+   "title": "Left atrial appendage closure with the AnchorMan or Watchman devices: 12-month results of the SAFE-PROTECT randomised trial",
+   "title_zh": "AnchorMan 与 Watchman 左心耳封堵:SAFE-PROTECT 随机试验 12 个月结果",
+   "summary_zh": "中国多中心开放标签非劣效 RCT,216 例高卒中风险非瓣膜性房颤患者 1:1 随机接受新型 AnchorMan 或 Watchman 2.5 左心耳封堵。12 个月主要终点临床成功率两组均为 98.1%(非劣效 P=0.0004),超声 LAA 封堵率均达 100%;AnchorMan 的 >3 mm 器械周围残余漏发生率更低(5.7% vs 15.6%,P=0.04)。为 LAA 封堵器械领域再添一个经随机对照验证的新选择。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 5,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-25-01168",
+   "summary_en": "SAFE-PROTECT, a Chinese multicentre open-label non-inferiority RCT, randomized 216 high-stroke-risk NVAF patients to the new AnchorMan vs Watchman 2.5 for LAA closure: 12-month clinical success 98.1% in both (non-inferiority P=0.0004), 100% echo closure, and fewer >3 mm peridevice leaks with AnchorMan (5.7% vs 15.6%, P=0.04)."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Prosthesis-patient mismatch with intra-annular self-expanding valves: an analysis of the PORTICO IDE trial",
+   "title_zh": "环内自膨胀瓣膜的人工瓣膜-患者不匹配:PORTICO IDE 试验分析",
+   "summary_zh": "PORTICO IDE 前瞻性随机试验 675 例高危/极高危重度主动脉瓣狭窄患者的核心实验室分析,比较 Portico、Evolut 与 SAPIEN 3 在小(≤23 mm)和大(>23 mm)瓣环中的血流动力学。小瓣环中环内自膨胀 Portico 显著优于球扩 SAPIEN 3(平均跨瓣压差 8.5 vs 13.7 mmHg,重度 PPM 3.3% vs 26.3%,均 P<0.0001),5 年结构性瓣膜退化率亦更低(2.2% vs 13.9%,P=0.03)。挑战'自膨胀 vs 球扩'的简单二分法。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-26-00158",
+   "summary_en": "A core-lab analysis of the PORTICO IDE RCT (675 high/extreme-risk severe AS) comparing Portico, Evolut and SAPIEN 3 by annulus size: in small annuli the intra-annular self-expanding Portico beat balloon-expandable SAPIEN 3 (mean gradient 8.5 vs 13.7 mmHg, severe PPM 3.3% vs 26.3%, both P<0.0001) with lower 5-year deterioration (2.2% vs 13.9%) — challenging the self-expanding-vs-balloon dichotomy."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "SAFER-TAVI: Radial Eases Secondary Access Site Problems",
+   "title_zh": "SAFER-TAVI 试验:桡动脉作为 TAVI 次要入路减少入路并发症",
+   "summary_zh": "纽约瓣膜会 2026 公布、TCTMD 随后报道的 SAFER-TAVI 随机试验比较 TAVI 次要入路采用桡动脉与股动脉:桡动脉组入路并发症更少,但代价是辐射暴露增加、更常需转换入路(4.4% 对 1.1%)或增加第三入路。为 TAVI 次要入路选择提供随机证据。",
+   "source": "TCTMD / New York Valves 2026",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/safer-tavi-radial-eases-secondary-access-site-problems",
+   "summary_en": "The SAFER-TAVI RCT (New York Valves 2026) compared radial vs femoral secondary access in TAVI: radial reduced access-site complications but at the cost of more radiation and more crossover/third-access (4.4% vs 1.1%) — randomized guidance for secondary-access choice."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Validation of the VARC-HBR consensus for defining high bleeding risk in TAVI",
+   "title_zh": "VARC-HBR 共识定义 TAVI 高出血风险的验证研究",
+   "summary_zh": "由 CERC 联合 Capodanno、Mehran 等发表的研究通讯,在 TAVI 人群中对新近发布的 VARC-HBR 高出血风险定义进行验证。出血是 TAVI 术后重要的可干预并发症,该验证为围术期抗栓策略个体化与未来试验入选标准提供依据。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-26-00315",
+   "summary_en": "A CERC-led research letter (with Capodanno and Mehran) validates the new VARC-HBR high-bleeding-risk definition in a TAVI population — supporting individualized antithrombotic strategy and future trial-enrollment criteria."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "AnchorMan versus Watchman 2.5: a randomised comparison in left atrial appendage closure",
+   "title_zh": "AnchorMan 对比 Watchman 2.5:左心耳封堵的随机比较(述评)",
+   "summary_zh": "Garot 与 Nielsen-Kudsk 针对 SAFE-PROTECT 试验的配套述评,点评新型 AnchorMan 封堵器的设计特点与非劣效结果,并讨论器械周围残余漏差异的临床意义及对 LAA 封堵器械迭代格局的影响。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-26-00453",
+   "summary_en": "Garot and Nielsen-Kudsk's editorial on SAFE-PROTECT reviews the new AnchorMan occluder's design and non-inferiority result and discusses what the peridevice-leak difference means for the evolving LAA-closure device landscape."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Comparing transcatheter aortic valves: time to look beyond simplistic categorisations",
+   "title_zh": "比较经导管主动脉瓣:是时候超越简单化分类了(述评)",
+   "summary_zh": "Blackman 与 Maznyczka 针对 PORTICO IDE 血流动力学分析的配套述评,主张摒弃'自膨胀 vs 球扩'、'环上 vs 环内'的粗放二分法,转向基于具体瓣膜设计特征和患者解剖(尤其小瓣环)的个体化选瓣思路。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-E-26-00011",
+   "summary_en": "Blackman and Maznyczka's editorial on the PORTICO IDE analysis argues for dropping the crude 'self-expanding vs balloon' and 'supra- vs intra-annular' labels in favor of valve-design- and anatomy-specific (especially small-annulus) prosthesis choice."
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Concomitant transfemoral aortic and mitral valve replacement",
+   "title_zh": "经股动脉/静脉同期主动脉瓣与二尖瓣置换",
+   "summary_zh": "伦敦 St Thomas' 医院团队报告的同期全经导管主动脉瓣+二尖瓣置换病例,展示多瓣膜病变一站式经导管治疗的技术可行性与影像规划要点。为外科高危的联合瓣膜病患者提供全介入治疗路径的参考。",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-26-00128",
+   "summary_en": "A St Thomas' (London) case of concurrent fully transcatheter aortic and mitral valve replacement, demonstrating one-stop transcatheter therapy for multivalve disease and its imaging-planning considerations."
+  }
+ ]
+}

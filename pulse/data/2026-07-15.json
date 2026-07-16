@@ -1,0 +1,29 @@
+{
+ "date": "2026-07-15",
+ "items": [
+  {
+   "date": "2026-07-15",
+   "title": "Echocardiographer-Led Combined Transjugular ICE and TEE for Tricuspid Transcatheter Edge-to-Edge Repair",
+   "title_zh": "超声医师主导的经颈静脉心腔内超声联合经食管超声引导三尖瓣缘对缘修复",
+   "summary_zh": "病例报告展示由超声心动图医师主导、经颈静脉 ICE 与 TEE 联合引导三尖瓣 TEER 的成像方案,解决三尖瓣介入中 TEE 声窗不佳的常见难题。体现 ICE 在三尖瓣介入影像引导中的日益重要地位及影像团队协作模式的创新。",
+   "source": "JACC: Case Reports",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2026.109248",
+   "summary_en": "A case of echocardiographer-led combined transjugular ICE and TEE guidance for tricuspid TEER, solving the common problem of poor TEE windows in tricuspid procedures — highlighting ICE's growing role and a new imaging-team collaboration model."
+  },
+  {
+   "date": "2026-07-15",
+   "title": "ElectroWire Medical Receives 510(k) Clearance for LightningWire Transseptal Puncture System",
+   "title_zh": "ElectroWire LightningWire 电外科房间隔穿刺系统获 FDA 510(k) 许可",
+   "summary_zh": "FDA 给予 LightningWire 电外科房间隔穿刺导丝 510(k) 许可,适用于房颤消融、左心耳封堵及经导管二尖瓣修复/置换等需经房间隔入路的手术。房间隔穿刺工具的迭代直接关系二尖瓣与 LAAO 手术效率与安全,受结构术者关注。",
+   "source": "PR Newswire",
+   "type": "regulatory",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://www.prnewswire.com/news-releases/electrowire-medical-receives-510k-clearance-for-lightningwire-transseptal-puncture-system-302826604.html",
+   "summary_en": "The FDA granted 510(k) clearance to ElectroWire's LightningWire electrosurgical transseptal puncture system for procedures needing transseptal access — AF ablation, LAA closure and transcatheter mitral repair/replacement; better transseptal tools directly affect mitral and LAAO efficiency and safety."
+  }
+ ]
+}

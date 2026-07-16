@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Mi Chen — Structural Heart × AI | 千觅量子 RYO</title>
+<title>Structural Heart Focus — Daily | Dr. Mi Chen · 千觅量子 RYO</title>
 <meta name="description" content="Dr. Mi Chen, MD PhD — structural heart fellow at Klinik Hirslanden Zürich, co-founder of CardioAI, Associate Editor of JACC: Case Reports. Consulting, research and tools at the intersection of cardiovascular medicine and artificial intelligence.">
 <meta property="og:title" content="Dr. Mi Chen — Structural Heart × AI | 千觅量子 RYO">
 <meta property="og:description" content="Structural heart fellow, Klinik Hirslanden Zürich · Co-founder of CardioAI · Associate Editor, JACC: Case Reports · Consulting at the frontier of medicine × AI.">
@@ -327,6 +327,116 @@ form.signup .pill { padding: 0.75rem 1.6rem; }
 .foot .motto { font-family: "Noto Serif SC", serif; color: var(--seal); font-size: 0.95rem; letter-spacing: 0.2em; }
 .foot .motto-wrap { display: flex; align-items: center; gap: 0.9rem; }
 .seal-b { width: 46px; height: 46px; display: block; }
+
+/* ============ DAILY FOCUS — 报纸马赛克 ============ */
+.paper { padding-top: clamp(6.5rem, 12vh, 9rem); padding-bottom: clamp(3rem, 8vh, 6rem); }
+
+/* — 报头 nameplate — */
+.plate { border-bottom: 3px solid var(--cream); padding-bottom: 1rem; }
+.plate-top { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--faint); }
+html[data-lang="zh"] .plate-top { letter-spacing: 0.28em; }
+.plate-name { display: flex; align-items: baseline; gap: 0.9rem; flex-wrap: wrap; margin: 0.5rem 0 0.2rem; }
+.plate-name h1 { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; font-size: clamp(2.4rem, 6.5vw, 5.2rem); line-height: 0.95; letter-spacing: 0; }
+html[data-lang="zh"] .plate-name h1 { font-family: "Noto Serif SC",serif; letter-spacing: 0.06em; }
+.plate-name .em { color: var(--seal); }
+.plate-tag { color: var(--muted); font-size: 0.92rem; max-width: 54ch; }
+.plate-rule2 { height: 1px; background: var(--hair); margin-top: 0.9rem; }
+
+/* — 控制条 — */
+.paper-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: 0.9rem 0; margin-bottom: 1.2rem; }
+.day-nav { display: flex; align-items: center; gap: 0.8rem; }
+.pnav { width: 40px; height: 40px; border: 1px solid var(--hair); border-radius: 50%; display: grid; place-items: center; font-size: 1.2rem; color: var(--cream); transition: background 0.25s, border-color 0.25s, opacity 0.2s; }
+.pnav:hover:not(:disabled) { background: var(--seal-deep); border-color: var(--seal-deep); }
+.pnav:disabled { opacity: 0.22; cursor: default; }
+.day-label { display: flex; flex-direction: column; align-items: center; min-width: 12ch; }
+.day-label .d-main { font-family: "Cormorant Garamond","Noto Serif SC",serif; font-size: 1.5rem; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.day-label .d-sub { font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--faint); }
+.scope-tabs { display: flex; gap: 0.35rem; }
+.scope-tabs .scope { border: 1px solid transparent; border-radius: 999px; padding: 0.32rem 0.9rem; font-size: 0.8rem; color: var(--muted); transition: color 0.2s, border-color 0.2s, background 0.2s; }
+.scope-tabs .scope.on { color: var(--bg); background: var(--cream); }
+.scope-tabs .scope.off { opacity: 0.32; cursor: default; }
+
+/* — 马赛克 — */
+.mosaic { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 58px; grid-auto-flow: dense; gap: 12px; }
+.tile {
+  position: relative; display: flex; flex-direction: column; overflow: hidden;
+  background: var(--bg-2); border: 1px solid var(--hair-soft); border-radius: 4px;
+  color: var(--cream); isolation: isolate;
+  transition: transform 0.35s cubic-bezier(0.22,1,0.36,1), box-shadow 0.35s ease, border-color 0.35s ease;
+  animation: tileIn 0.5s cubic-bezier(0.22,1,0.36,1) both;
+}
+@keyframes tileIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+html.reduced .tile { animation: none; }
+.tile:focus-visible { outline: 2px solid var(--cream); outline-offset: 2px; }
+.tile::after { content: ""; position: absolute; inset: 0; border-top: 3px solid var(--acc, var(--seal)); pointer-events: none; z-index: 3; }
+@media (pointer: fine) {
+  .tile:hover { transform: scale(1.035); box-shadow: 0 18px 50px rgba(0,0,0,0.5); border-color: color-mix(in srgb, var(--acc) 55%, transparent); z-index: 10; }
+}
+
+/* figure / central illustration */
+.tile-fig { position: relative; flex: 0 0 auto; background: radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--acc) 15%, transparent), transparent 70%); border-bottom: 1px solid var(--hair-soft); overflow: hidden; }
+.tile-fig svg { position: absolute; right: -6%; bottom: -12%; width: 62%; height: 130%; color: var(--acc, var(--seal)); opacity: 0.5; transition: transform 0.5s cubic-bezier(0.22,1,0.36,1), opacity 0.4s; }
+.tile:hover .tile-fig svg { transform: scale(1.08) rotate(-3deg); opacity: 0.72; }
+.tile-fig img { width: 100%; height: 100%; object-fit: cover; }
+
+/* body */
+.tile-body { display: flex; flex-direction: column; gap: 0.5rem; padding: 0.9rem 1rem 0.85rem; flex: 1 1 auto; min-height: 0; }
+.tile-mast { display: flex; align-items: center; gap: 0.5rem; }
+.mast-mark { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.02em; color: var(--acc, var(--seal)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mast-if { margin-left: auto; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--faint); font-variant-numeric: tabular-nums; white-space: nowrap; flex-shrink: 0; }
+.tile-kick { display: flex; gap: 0.5rem; align-items: center; font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
+.tile-kick .k-topic { color: var(--acc, var(--seal)); font-weight: 600; }
+.tile-head { font-family: "Cormorant Garamond","Noto Serif SC",Georgia,serif; font-weight: 600; line-height: 1.14; letter-spacing: 0; color: var(--cream); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+html[data-lang="zh"] .tile-head { font-family: "Noto Serif SC",serif; line-height: 1.3; }
+.tile-sum { color: var(--muted); font-size: 0.82rem; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.tile-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; padding-top: 0.4rem; }
+.tile-foot .t-date { font-size: 0.64rem; color: var(--faint); font-variant-numeric: tabular-nums; }
+.tile-foot .t-arr { color: var(--acc, var(--seal)); font-size: 0.9rem; transition: transform 0.25s ease; }
+.tile:hover .t-arr { transform: translate(3px,-3px); }
+
+/* size tiers */
+.tile[data-size="xl"] .tile-fig { height: 168px; }
+.tile[data-size="xl"] .tile-head { font-size: clamp(1.5rem, 2.6vw, 2.2rem); -webkit-line-clamp: 3; }
+.tile[data-size="xl"] .tile-sum { font-size: 0.94rem; -webkit-line-clamp: 4; }
+.tile[data-size="xl"] .mast-mark { font-size: 1.15rem; }
+.tile[data-size="l"] .tile-fig { height: 132px; }
+.tile[data-size="l"] .tile-head { font-size: clamp(1.25rem, 2vw, 1.7rem); -webkit-line-clamp: 3; }
+.tile[data-size="l"] .tile-sum { -webkit-line-clamp: 3; }
+.tile[data-size="l"] .mast-mark { font-size: 1.05rem; }
+.tile[data-size="m"] .tile-fig { height: 96px; }
+.tile[data-size="m"] .tile-head { font-size: 1.12rem; -webkit-line-clamp: 3; }
+.tile[data-size="m"] .tile-sum { -webkit-line-clamp: 2; }
+.tile[data-size="s"] .tile-fig { display: none; }
+.tile[data-size="s"] .tile-head { font-size: 0.98rem; -webkit-line-clamp: 3; }
+.tile[data-size="s"] .tile-sum { display: none; }
+.tile[data-size="xs"] .tile-fig { display: none; }
+.tile[data-size="xs"] .tile-body { padding: 0.7rem 0.85rem; gap: 0.35rem; }
+.tile[data-size="xs"] .tile-head { font-size: 0.9rem; -webkit-line-clamp: 3; }
+.tile[data-size="xs"] .tile-sum { display: none; }
+.tile[data-size="xs"] .tile-kick { display: none; }
+/* reveal summary on hover for small tiles */
+@media (pointer: fine) {
+  .tile[data-size="s"]:hover .tile-sum, .tile[data-size="xs"]:hover .tile-sum { display: -webkit-box; -webkit-line-clamp: 4; }
+}
+
+.paper-note { color: var(--faint); font-size: 0.78rem; margin-top: 1.6rem; line-height: 1.7; }
+.paper-empty { color: var(--muted); font-size: 0.95rem; padding: 3.5rem 0; text-align: center; }
+
+@media (max-width: 860px) {
+  .mosaic { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 14px; }
+  .tile { grid-column: 1 / -1 !important; grid-row: auto !important; }
+  .tile-fig { display: block !important; height: 150px !important; }
+  .tile[data-size="s"] .tile-sum, .tile[data-size="xs"] .tile-sum { display: -webkit-box; -webkit-line-clamp: 3; }
+  .tile[data-size="xs"] .tile-kick { display: flex; }
+}
+
+/* slim footer on focus page */
+.paper-foot { border-top: 1px solid var(--hair); margin-top: clamp(3rem,7vh,5rem); }
+.foot-cta { display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; padding-bottom: clamp(2.5rem,6vh,4rem); border-bottom: 1px solid var(--hair); margin-bottom: 1.6rem; }
+.foot-cta-l { display: flex; align-items: center; gap: 1.2rem; max-width: 62ch; }
+.foot-avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; }
+.foot-cta p { color: var(--muted); font-size: 0.98rem; }
+.foot-cta p b { color: var(--cream); font-weight: 500; }
 </style>
 <noscript><style>#loader{display:none}body.locked{overflow:auto}.fade,.lines .li>span{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
@@ -334,7 +444,6 @@ form.signup .pill { padding: 0.75rem 1.6rem; }
 
 <div id="loader" aria-hidden="true"><div class="word" id="loaderWord">心</div></div>
 <div id="cursor" aria-hidden="true"></div>
-<div id="preview" aria-hidden="true"><img src="team.jpg" alt="" width="900" height="600"><div class="glyph-panel">评</div></div>
 
 <header id="nav">
   <div class="wrap row">
@@ -343,12 +452,11 @@ form.signup .pill { padding: 0.75rem 1.6rem; }
       <span>Dr. Mi Chen&ensp;<span class="brand-sub" style="color:var(--muted)">— 千觅量子 RYO</span></span>
     </a>
     <nav class="nav-links" aria-label="Main">
-      <a href="#about"><span class="en">About</span><span class="zh">关于</span></a>
-      <a href="#work"><span class="en">Work</span><span class="zh">项目</span></a>
-      <a href="#services"><span class="en">Services</span><span class="zh">服务</span></a>
-      <a href="#products"><span class="en">Products</span><span class="zh">产品</span></a>
+      <a href="#pulse"><span class="en">Daily Focus</span><span class="zh">每日焦点</span></a>
+      <a href="/about"><span class="en">About</span><span class="zh">关于我</span></a>
+      <a href="/about#services"><span class="en">Consulting</span><span class="zh">咨询</span></a>
+      <a href="/cardioai"><span class="en">CardioAI</span><span class="zh">CardioAI</span></a>
       <a href='/atelier'><span class="en">Atelier</span><span class="zh">画廊</span></a>
-      <a href="#contact"><span class="en">Contact</span><span class="zh">联系</span></a>
     </nav>
     <button class="lang-toggle magnetic" id="langToggle" aria-label="Switch language">中文</button>
   </div>
@@ -357,208 +465,53 @@ form.signup .pill { padding: 0.75rem 1.6rem; }
 <div id="smooth">
 <main id="top">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero" style="padding-top:0">
-    <div class="wrap hero-top">
-      <p class="hero-role fade">
-        <span class="en">Structural heart interventionist<br>&amp; builder of medical AI <span class="arrow">↘</span></span>
-        <span class="zh">结构性心脏病介入医生<br>兼医疗 AI 创造者 <span class="arrow">↘</span></span>
-      </p>
-      <span class="seal-stamp fade d1" aria-hidden="true"><svg class="" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="千觅量子 seal"><defs><filter id="sealHeroA" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="4" seed="3" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs><g filter="url(#sealHeroA)" transform="rotate(-1.6 60 60)"><rect x="6" y="6" width="108" height="108" rx="10" fill="#A8362B"/><path transform="translate(61.08 52.19) scale(0.04587 -0.04587)" d="M468 605Q475 613 479.0 613.0Q483 613 510 598Q534 584 542.0 569.5Q550 555 550 529Q550 505 556.5 502.5Q563 500 599.0 505.5Q635 511 669.5 515.0Q704 519 738 526Q767 531 779.0 529.5Q791 528 796 518Q800 511 808.5 510.5Q817 510 817 518Q818 525 820.5 516.0Q823 507 829.5 500.0Q836 493 835.5 466.0Q835 439 823 430Q816 423 809.5 421.5Q803 420 784 421Q755 424 729 433Q712 439 699.5 440.0Q687 441 654 439Q605 437 579 432Q562 427 557.5 424.0Q553 421 549 411Q544 396 537 295Q523 108 517.0 63.5Q511 19 494 -29Q473 -83 462 -83Q457 -83 452 -70Q447 -59 445 172L443 403L418 401Q394 398 370.0 397.0Q346 396 334.5 386.5Q323 377 309 374Q296 372 257.0 359.0Q218 346 209 343Q202 339 197.5 341.5Q193 344 182 354Q164 370 164 374Q164 379 177.5 394.5Q191 410 201 416Q216 425 282.5 443.5Q349 462 418 477L446 483L448 529Q450 564 453.5 578.0Q457 592 468 605ZM488 745Q526 785 535.5 788.5Q545 792 570 774Q634 731 598 702Q589 694 579.0 691.0Q569 688 541 684Q521 681 501.5 670.5Q482 660 476.0 660.0Q470 660 432.5 641.0Q395 622 384.5 622.0Q374 622 365 616Q353 611 335.5 606.5Q318 602 313 605Q306 607 318 615Q320 616 322 618Q429 682 488 745Z" fill="#F3EEE4"/><path transform="translate(62.67 99.07) scale(0.04262 -0.04262)" d="M429 179Q436 194 441.0 197.0Q446 200 455 190Q471 171 471 124Q471 85 478.0 65.0Q485 45 502 36Q522 24 589.0 17.0Q656 10 682 16Q713 22 723 34Q729 39 735 39Q740 39 751.5 54.0Q763 69 765 80Q780 151 791 152Q796 152 803 137Q819 99 824 27Q825 -2 831 -15Q837 -25 835.5 -35.0Q834 -45 824 -65Q817 -82 804 -88L777 -102Q738 -122 667 -113Q571 -102 533 -91Q494 -81 480.0 -74.0Q466 -67 453 -52Q432 -30 424.0 -6.5Q416 17 411 60Q409 81 415.0 118.5Q421 156 429 179ZM401 376Q405 386 410.5 386.0Q416 386 432.0 370.0Q448 354 448 350Q448 344 454.0 335.5Q460 327 456.0 312.0Q452 297 452.0 283.5Q452 270 446.0 253.0Q440 236 440.0 227.5Q440 219 435 208L421 178Q413 160 409.0 158.0Q405 156 392.0 135.5Q379 115 370.0 105.5Q361 96 338.0 64.5Q315 33 309 29Q279 5 259 -11Q241 -26 222.0 -34.5Q203 -43 185 -43Q166 -43 165 -39Q165 -36 173 -30Q188 -20 224.0 19.5Q260 59 283 89Q309 123 332.0 173.5Q355 224 366 272Q372 290 377.0 307.5Q382 325 382 331Q382 342 401 376ZM196 603Q200 610 206.0 609.5Q212 609 243 602Q277 592 287.5 582.5Q298 573 298 551Q297 539 294.5 533.0Q292 527 284 521Q264 503 249.5 502.5Q235 502 219 519Q204 535 195 577Q191 596 196 603ZM381 639Q386 651 391.5 651.0Q397 651 425 640Q450 629 465 630Q474 630 476.5 628.5Q479 627 479 622Q479 612 473.5 605.0Q468 598 470 591Q472 582 466.5 571.0Q461 560 450 555Q438 547 420 550Q405 552 397.5 558.5Q390 565 382 584Q369 612 381 639ZM631 634Q631 640 639.0 656.5Q647 673 653.5 670.5Q660 668 671.5 664.0Q683 660 695.0 651.5Q707 643 725 634Q738 629 740.5 626.0Q743 623 743 612Q743 599 731.5 583.0Q720 567 705 561Q692 556 680 546Q672 540 646.0 529.5Q620 519 602 514Q590 510 565 500Q544 493 544 491Q545 489 551 488Q596 478 609 462Q620 449 621.5 439.5Q623 430 613 414Q606 400 604.0 388.0Q602 376 599 333Q593 199 586 185Q581 174 581 169Q581 162 571.5 153.0Q562 144 553 144Q539 144 529.5 151.0Q520 158 510 177Q501 197 500.0 208.5Q499 220 505 242Q511 263 512 354V445L489 451Q427 463 384 454Q360 447 349.5 439.5Q339 432 339 417Q339 408 332 397Q314 373 311 222Q310 184 305.5 171.5Q301 159 287 149Q266 135 266 153Q266 163 261 165Q258 168 256.5 181.0Q255 194 258 203Q262 212 265.5 231.5Q269 251 273.0 274.0Q277 297 281 356Q284 405 288.5 423.0Q293 441 303 453Q321 475 367.0 489.0Q413 503 455 500L487 498L508 514Q554 547 592.5 585.0Q631 623 631 634ZM459 817Q472 825 481.5 822.0Q491 819 516 796Q543 772 535.5 756.0Q528 740 485 728Q423 710 371 690Q354 684 334.0 682.5Q314 681 306.0 679.0Q298 677 287 681L276 683L291 695Q306 708 310 708Q314 708 361.5 741.5Q409 775 426 791Q449 811 459 817Z" fill="#F3EEE4"/><path transform="translate(14.66 51.09) scale(0.04268 -0.04268)" d="M468 412Q533 423 583 409Q603 402 616 402Q626 402 650.0 392.0Q674 382 682 374Q691 368 694.0 356.5Q697 345 695 338Q691 328 689.0 309.0Q687 290 675.5 266.0Q664 242 653.0 213.0Q642 184 627.5 174.0Q613 164 602 149Q583 122 578 140Q574 148 565 168Q553 196 547 185Q543 181 536 181Q530 181 529.0 176.0Q528 171 528 150V119L561 121Q584 122 591.5 120.5Q599 119 611 112Q622 105 624.5 101.0Q627 97 625 87Q622 73 614.0 59.5Q606 46 599.5 44.0Q593 42 571.5 49.5Q550 57 537 51Q527 48 525.5 43.5Q524 39 525 18L526 -10L544 -8Q561 -5 629 -3Q689 -2 703.5 -6.5Q718 -11 721.0 -31.5Q724 -52 720.0 -69.5Q716 -87 706 -92Q700 -96 693.5 -95.0Q687 -94 666 -88Q645 -81 624.5 -80.0Q604 -79 515 -79Q395 -79 389.0 -84.0Q383 -89 361.5 -95.5Q340 -102 327.0 -109.5Q314 -117 305.0 -114.5Q296 -112 272.5 -94.0Q249 -76 249 -72Q248 -65 254.5 -57.0Q261 -49 268 -47Q298 -39 341.0 -30.5Q384 -22 400 -22Q418 -22 423 20L427 38H413Q400 38 388 32Q380 28 375.5 28.5Q371 29 359 34Q330 48 330 73Q330 81 347 87Q400 106 416 106Q428 106 432.5 114.5Q437 123 437 148V176L427 174Q415 172 405.5 169.0Q396 166 375 164Q361 162 357.0 163.5Q353 165 349 171Q335 191 325 241Q323 250 313 278Q296 326 298 339Q301 363 308 363Q313 363 346 379Q392 400 468 412ZM559 363Q548 366 531.5 367.0Q515 368 504.0 367.0Q493 366 493 364Q493 357 511.5 342.0Q530 327 542 324Q564 319 566.0 305.0Q568 291 548 281Q534 274 530 260Q528 250 529.0 246.0Q530 242 538 235Q548 225 548.0 220.5Q548 216 553 216Q560 216 571.0 247.5Q582 279 588 319Q593 344 588.5 350.5Q584 357 559 363ZM443 338 447 359 435 358Q421 358 398.0 352.5Q375 347 369 341Q362 337 359.5 323.5Q357 310 359.0 299.0Q361 288 368 288Q373 288 374.0 292.0Q375 296 404.5 303.5Q434 311 437.0 313.5Q440 316 443 338ZM372 269Q369 277 365.0 276.0Q361 275 364 267Q375 217 381 212Q384 209 414 220Q435 228 439.5 231.0Q444 234 444 246Q446 261 442.0 264.5Q438 268 419 262Q403 257 389.0 259.5Q375 262 372 269ZM322 480Q364 487 382.0 490.5Q400 494 461.0 498.0Q522 502 568.0 506.0Q614 510 726.5 511.5Q839 513 841.0 515.5Q843 518 856.5 518.0Q870 518 888 501Q901 489 903.5 483.5Q906 478 905 465Q905 447 902.5 442.0Q900 437 886 432Q858 420 825 433Q774 451 703.0 456.0Q632 461 505 454Q365 447 282 424Q233 410 218 406Q197 401 166 381Q147 369 115 391Q96 404 95.0 408.5Q94 413 106 424Q137 452 322 480ZM556 818Q589 829 629 811Q654 800 657.0 795.5Q660 791 672.5 785.5Q685 780 698 767Q708 758 710.0 753.5Q712 749 711 735Q711 716 702.5 704.0Q694 692 680.5 662.0Q667 632 667 626Q667 619 652 589Q642 567 621.5 544.5Q601 522 591 522Q586 522 572.0 538.0Q558 554 543 562Q533 567 524.0 567.0Q515 567 481 563Q435 557 427 555Q401 547 391 521Q385 506 380.5 506.0Q376 506 361.0 522.0Q346 538 343.5 555.5Q341 573 337.5 575.5Q334 578 334.0 586.5Q334 595 324 632L310 686Q306 702 302.5 705.5Q299 709 295 730Q292 744 293.0 748.0Q294 752 301 758Q312 767 321.5 765.0Q331 763 340 770Q350 779 379.0 788.5Q408 798 441 803Q466 807 484.5 810.5Q503 814 525.0 814.5Q547 815 556 818ZM550 766Q529 770 481.5 770.5Q434 771 419 767Q407 765 390.5 756.5Q374 748 370 741Q361 732 362 694Q364 686 365 685Q401 704 459.0 718.0Q517 732 526 723Q529 721 531.0 714.0Q533 707 531.5 701.5Q530 696 528 696Q525 696 523 683Q523 674 520.5 672.0Q518 670 507 670Q491 669 449.0 662.0Q407 655 390 656Q384 656 381.5 655.5Q379 655 376.5 654.5Q374 654 374.5 652.5Q375 651 376 649Q379 643 381 630Q384 609 386.0 604.5Q388 600 395 602Q512 638 548 635Q558 635 561.5 636.5Q565 638 566 643Q575 699 575 739V762Z" fill="#F3EEE4"/><path transform="translate(13.06 100.19) scale(0.04587 -0.04587)" d="M298 749Q311 754 358.0 763.5Q405 773 474.0 773.0Q543 773 548.0 777.0Q553 781 560.0 778.5Q567 776 573.5 782.5Q580 789 584.0 789.0Q588 789 631 760Q658 743 668.5 734.0Q679 725 683 714Q690 701 690.0 697.0Q690 693 686 687Q677 679 667.0 676.0Q657 673 657.0 669.0Q657 665 643.0 662.0Q629 659 618.0 650.0Q607 641 582 628Q556 614 530.5 596.5Q505 579 503 573Q501 566 519 544Q543 512 551 475Q553 466 557.0 464.5Q561 463 585 462Q616 462 646.0 458.0Q676 454 758 449Q814 447 830.5 444.5Q847 442 863 434Q886 421 897 404L906 387L898 367Q889 347 872 338Q855 330 843.0 330.5Q831 331 805 343Q777 355 746 360Q644 375 607 373L578 370L577 267Q577 164 574 151Q567 113 556 87Q546 65 538 42Q534 26 519.5 4.0Q505 -18 493 -30Q469 -53 442.5 -68.0Q416 -83 400 -83Q393 -83 383.5 -73.0Q374 -63 374 -56Q374 -50 363.0 -26.0Q352 -2 352.0 2.5Q352 7 335 17Q324 22 312.0 38.5Q300 55 300 64Q300 70 291.5 80.5Q283 91 283 94Q284 97 294.0 96.0Q304 95 322.5 90.5Q341 86 360 79Q396 68 412 68Q422 68 428.0 71.5Q434 75 444 86Q470 116 487 177Q494 202 492.0 285.0Q490 368 487 370Q486 373 429.0 368.0Q372 363 349 360Q331 356 298.0 347.0Q265 338 255 334Q202 309 190.0 305.0Q178 301 166 303Q153 307 146.0 311.0Q139 315 116 331Q94 347 94 354Q94 375 125 394Q160 413 349 438Q470 453 471 457Q472 459 471 462Q463 486 452.5 510.5Q442 535 437 539Q433 541 433.5 552.0Q434 563 437 571Q442 579 451 579Q458 579 478.0 597.5Q498 616 498 623Q498 627 509 642Q519 653 532.0 679.5Q545 706 545 711Q545 721 480 718Q450 718 406.0 708.5Q362 699 351.0 690.5Q340 682 334.0 682.0Q328 682 309 693Q295 701 291.5 705.5Q288 710 286.5 723.5Q285 737 287.0 741.0Q289 745 298 749Z" fill="#F3EEE4"/></g></svg></span>
-    </div>
-    <div class="wrap hero-name-block">
-      <p class="hero-hello fade"><span class="en">Grüezi, I'm</span><span class="zh">你好,我是</span></p>
-      <h1 class="hero-name lines">
-        <span class="li"><span><span class="en">Dr. <span class="it">Mi</span> Chen</span><span class="zh">陈<span class="it">密</span>医生</span></span></span>
-      </h1>
-      <div class="hero-meta">
-        <p class="sub fade d1">
-          <span class="en">MD PhD · Swiss-registered physician (MEBEKO) · fellow at Klinik Hirslanden Zürich · co-founder of CardioAI · Associate Editor, JACC: Case Reports</span>
-          <span class="zh">医学博士 · 瑞士注册医师(MEBEKO) · 苏黎世 Hirslanden 医院 Fellow · CardioAI 联合创始人 · 《JACC: Case Reports》副主编</span>
-        </p>
-        <a class="down-btn magnetic fade d2" href="#about" aria-label="Scroll down">↓</a>
-      </div>
-    </div>
-    <div class="marquee" aria-hidden="true">
-      <div class="track">
-        <span class="chunk">Dr. Mi Chen <span class="dot">◦</span> 陈密 <span class="dot">◦</span> Structural Heart × AI <span class="dot">◦</span> 千觅量子 RYO <span class="dot">◦</span> Zurich <span class="dot">◦</span> </span><span class="chunk">Dr. Mi Chen <span class="dot">◦</span> 陈密 <span class="dot">◦</span> Structural Heart × AI <span class="dot">◦</span> 千觅量子 RYO <span class="dot">◦</span> Zurich <span class="dot">◦</span> </span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ STATEMENT ============ -->
-  <section class="statement">
-    <div class="wrap grid">
-      <h2 class="lines">
-        <span class="li"><span><span class="en">Helping medicine and <span class="it">machines</span></span><span class="zh">让医学与<span class="it">机器</span></span></span></span>
-        <span class="li"><span><span class="en">speak one language —</span><span class="zh">学会说同一种语言 ——</span></span></span>
-        <span class="li"><span><span class="en">from cath lab to <span class="it">code</span>.</span><span class="zh">从导管室,到<span class="it">代码</span>。</span></span></span>
-      </h2>
-      <div class="side">
-        <p class="fade">
-          <span class="en">The rare mix of an interventionist with 1,700+ structural procedures behind her, a published researcher, and a translator between two worlds. Always precise, never lost in translation.</span>
-          <span class="zh">一位积累了 1700+ 台结构性心脏病手术经验的术者、一位持续发表的研究者、一位游走于两个世界之间的翻译者 —— 三者罕见地集于一身。</span>
-        </p>
-        <a class="pill magnetic fade d1" href="#about"><span class="en">About me</span><span class="zh">关于我</span></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="about" id="about">
-    <div class="wrap sec-head">
-      <span class="label"><span class="en">About</span><span class="zh">关于我</span></span>
-      <span class="count">01</span>
-    </div>
-    <div class="wrap about-grid">
-      <div class="portrait-frame fade">
-        <img src="portrait.jpg" alt="Dr. Mi Chen, structural heart fellow, Klinik Hirslanden Zürich" width="648" height="1000">
-        <span class="stamp-corner seal-stamp" aria-hidden="true"><svg class="" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="千觅量子 seal"><defs><filter id="sealCornA" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="4" seed="17" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs><g filter="url(#sealCornA)" transform="rotate(-1.6 60 60)"><rect x="6" y="6" width="108" height="108" rx="10" fill="#A8362B"/><path transform="translate(61.08 52.19) scale(0.04587 -0.04587)" d="M468 605Q475 613 479.0 613.0Q483 613 510 598Q534 584 542.0 569.5Q550 555 550 529Q550 505 556.5 502.5Q563 500 599.0 505.5Q635 511 669.5 515.0Q704 519 738 526Q767 531 779.0 529.5Q791 528 796 518Q800 511 808.5 510.5Q817 510 817 518Q818 525 820.5 516.0Q823 507 829.5 500.0Q836 493 835.5 466.0Q835 439 823 430Q816 423 809.5 421.5Q803 420 784 421Q755 424 729 433Q712 439 699.5 440.0Q687 441 654 439Q605 437 579 432Q562 427 557.5 424.0Q553 421 549 411Q544 396 537 295Q523 108 517.0 63.5Q511 19 494 -29Q473 -83 462 -83Q457 -83 452 -70Q447 -59 445 172L443 403L418 401Q394 398 370.0 397.0Q346 396 334.5 386.5Q323 377 309 374Q296 372 257.0 359.0Q218 346 209 343Q202 339 197.5 341.5Q193 344 182 354Q164 370 164 374Q164 379 177.5 394.5Q191 410 201 416Q216 425 282.5 443.5Q349 462 418 477L446 483L448 529Q450 564 453.5 578.0Q457 592 468 605ZM488 745Q526 785 535.5 788.5Q545 792 570 774Q634 731 598 702Q589 694 579.0 691.0Q569 688 541 684Q521 681 501.5 670.5Q482 660 476.0 660.0Q470 660 432.5 641.0Q395 622 384.5 622.0Q374 622 365 616Q353 611 335.5 606.5Q318 602 313 605Q306 607 318 615Q320 616 322 618Q429 682 488 745Z" fill="#F3EEE4"/><path transform="translate(62.67 99.07) scale(0.04262 -0.04262)" d="M429 179Q436 194 441.0 197.0Q446 200 455 190Q471 171 471 124Q471 85 478.0 65.0Q485 45 502 36Q522 24 589.0 17.0Q656 10 682 16Q713 22 723 34Q729 39 735 39Q740 39 751.5 54.0Q763 69 765 80Q780 151 791 152Q796 152 803 137Q819 99 824 27Q825 -2 831 -15Q837 -25 835.5 -35.0Q834 -45 824 -65Q817 -82 804 -88L777 -102Q738 -122 667 -113Q571 -102 533 -91Q494 -81 480.0 -74.0Q466 -67 453 -52Q432 -30 424.0 -6.5Q416 17 411 60Q409 81 415.0 118.5Q421 156 429 179ZM401 376Q405 386 410.5 386.0Q416 386 432.0 370.0Q448 354 448 350Q448 344 454.0 335.5Q460 327 456.0 312.0Q452 297 452.0 283.5Q452 270 446.0 253.0Q440 236 440.0 227.5Q440 219 435 208L421 178Q413 160 409.0 158.0Q405 156 392.0 135.5Q379 115 370.0 105.5Q361 96 338.0 64.5Q315 33 309 29Q279 5 259 -11Q241 -26 222.0 -34.5Q203 -43 185 -43Q166 -43 165 -39Q165 -36 173 -30Q188 -20 224.0 19.5Q260 59 283 89Q309 123 332.0 173.5Q355 224 366 272Q372 290 377.0 307.5Q382 325 382 331Q382 342 401 376ZM196 603Q200 610 206.0 609.5Q212 609 243 602Q277 592 287.5 582.5Q298 573 298 551Q297 539 294.5 533.0Q292 527 284 521Q264 503 249.5 502.5Q235 502 219 519Q204 535 195 577Q191 596 196 603ZM381 639Q386 651 391.5 651.0Q397 651 425 640Q450 629 465 630Q474 630 476.5 628.5Q479 627 479 622Q479 612 473.5 605.0Q468 598 470 591Q472 582 466.5 571.0Q461 560 450 555Q438 547 420 550Q405 552 397.5 558.5Q390 565 382 584Q369 612 381 639ZM631 634Q631 640 639.0 656.5Q647 673 653.5 670.5Q660 668 671.5 664.0Q683 660 695.0 651.5Q707 643 725 634Q738 629 740.5 626.0Q743 623 743 612Q743 599 731.5 583.0Q720 567 705 561Q692 556 680 546Q672 540 646.0 529.5Q620 519 602 514Q590 510 565 500Q544 493 544 491Q545 489 551 488Q596 478 609 462Q620 449 621.5 439.5Q623 430 613 414Q606 400 604.0 388.0Q602 376 599 333Q593 199 586 185Q581 174 581 169Q581 162 571.5 153.0Q562 144 553 144Q539 144 529.5 151.0Q520 158 510 177Q501 197 500.0 208.5Q499 220 505 242Q511 263 512 354V445L489 451Q427 463 384 454Q360 447 349.5 439.5Q339 432 339 417Q339 408 332 397Q314 373 311 222Q310 184 305.5 171.5Q301 159 287 149Q266 135 266 153Q266 163 261 165Q258 168 256.5 181.0Q255 194 258 203Q262 212 265.5 231.5Q269 251 273.0 274.0Q277 297 281 356Q284 405 288.5 423.0Q293 441 303 453Q321 475 367.0 489.0Q413 503 455 500L487 498L508 514Q554 547 592.5 585.0Q631 623 631 634ZM459 817Q472 825 481.5 822.0Q491 819 516 796Q543 772 535.5 756.0Q528 740 485 728Q423 710 371 690Q354 684 334.0 682.5Q314 681 306.0 679.0Q298 677 287 681L276 683L291 695Q306 708 310 708Q314 708 361.5 741.5Q409 775 426 791Q449 811 459 817Z" fill="#F3EEE4"/><path transform="translate(14.66 51.09) scale(0.04268 -0.04268)" d="M468 412Q533 423 583 409Q603 402 616 402Q626 402 650.0 392.0Q674 382 682 374Q691 368 694.0 356.5Q697 345 695 338Q691 328 689.0 309.0Q687 290 675.5 266.0Q664 242 653.0 213.0Q642 184 627.5 174.0Q613 164 602 149Q583 122 578 140Q574 148 565 168Q553 196 547 185Q543 181 536 181Q530 181 529.0 176.0Q528 171 528 150V119L561 121Q584 122 591.5 120.5Q599 119 611 112Q622 105 624.5 101.0Q627 97 625 87Q622 73 614.0 59.5Q606 46 599.5 44.0Q593 42 571.5 49.5Q550 57 537 51Q527 48 525.5 43.5Q524 39 525 18L526 -10L544 -8Q561 -5 629 -3Q689 -2 703.5 -6.5Q718 -11 721.0 -31.5Q724 -52 720.0 -69.5Q716 -87 706 -92Q700 -96 693.5 -95.0Q687 -94 666 -88Q645 -81 624.5 -80.0Q604 -79 515 -79Q395 -79 389.0 -84.0Q383 -89 361.5 -95.5Q340 -102 327.0 -109.5Q314 -117 305.0 -114.5Q296 -112 272.5 -94.0Q249 -76 249 -72Q248 -65 254.5 -57.0Q261 -49 268 -47Q298 -39 341.0 -30.5Q384 -22 400 -22Q418 -22 423 20L427 38H413Q400 38 388 32Q380 28 375.5 28.5Q371 29 359 34Q330 48 330 73Q330 81 347 87Q400 106 416 106Q428 106 432.5 114.5Q437 123 437 148V176L427 174Q415 172 405.5 169.0Q396 166 375 164Q361 162 357.0 163.5Q353 165 349 171Q335 191 325 241Q323 250 313 278Q296 326 298 339Q301 363 308 363Q313 363 346 379Q392 400 468 412ZM559 363Q548 366 531.5 367.0Q515 368 504.0 367.0Q493 366 493 364Q493 357 511.5 342.0Q530 327 542 324Q564 319 566.0 305.0Q568 291 548 281Q534 274 530 260Q528 250 529.0 246.0Q530 242 538 235Q548 225 548.0 220.5Q548 216 553 216Q560 216 571.0 247.5Q582 279 588 319Q593 344 588.5 350.5Q584 357 559 363ZM443 338 447 359 435 358Q421 358 398.0 352.5Q375 347 369 341Q362 337 359.5 323.5Q357 310 359.0 299.0Q361 288 368 288Q373 288 374.0 292.0Q375 296 404.5 303.5Q434 311 437.0 313.5Q440 316 443 338ZM372 269Q369 277 365.0 276.0Q361 275 364 267Q375 217 381 212Q384 209 414 220Q435 228 439.5 231.0Q444 234 444 246Q446 261 442.0 264.5Q438 268 419 262Q403 257 389.0 259.5Q375 262 372 269ZM322 480Q364 487 382.0 490.5Q400 494 461.0 498.0Q522 502 568.0 506.0Q614 510 726.5 511.5Q839 513 841.0 515.5Q843 518 856.5 518.0Q870 518 888 501Q901 489 903.5 483.5Q906 478 905 465Q905 447 902.5 442.0Q900 437 886 432Q858 420 825 433Q774 451 703.0 456.0Q632 461 505 454Q365 447 282 424Q233 410 218 406Q197 401 166 381Q147 369 115 391Q96 404 95.0 408.5Q94 413 106 424Q137 452 322 480ZM556 818Q589 829 629 811Q654 800 657.0 795.5Q660 791 672.5 785.5Q685 780 698 767Q708 758 710.0 753.5Q712 749 711 735Q711 716 702.5 704.0Q694 692 680.5 662.0Q667 632 667 626Q667 619 652 589Q642 567 621.5 544.5Q601 522 591 522Q586 522 572.0 538.0Q558 554 543 562Q533 567 524.0 567.0Q515 567 481 563Q435 557 427 555Q401 547 391 521Q385 506 380.5 506.0Q376 506 361.0 522.0Q346 538 343.5 555.5Q341 573 337.5 575.5Q334 578 334.0 586.5Q334 595 324 632L310 686Q306 702 302.5 705.5Q299 709 295 730Q292 744 293.0 748.0Q294 752 301 758Q312 767 321.5 765.0Q331 763 340 770Q350 779 379.0 788.5Q408 798 441 803Q466 807 484.5 810.5Q503 814 525.0 814.5Q547 815 556 818ZM550 766Q529 770 481.5 770.5Q434 771 419 767Q407 765 390.5 756.5Q374 748 370 741Q361 732 362 694Q364 686 365 685Q401 704 459.0 718.0Q517 732 526 723Q529 721 531.0 714.0Q533 707 531.5 701.5Q530 696 528 696Q525 696 523 683Q523 674 520.5 672.0Q518 670 507 670Q491 669 449.0 662.0Q407 655 390 656Q384 656 381.5 655.5Q379 655 376.5 654.5Q374 654 374.5 652.5Q375 651 376 649Q379 643 381 630Q384 609 386.0 604.5Q388 600 395 602Q512 638 548 635Q558 635 561.5 636.5Q565 638 566 643Q575 699 575 739V762Z" fill="#F3EEE4"/><path transform="translate(13.06 100.19) scale(0.04587 -0.04587)" d="M298 749Q311 754 358.0 763.5Q405 773 474.0 773.0Q543 773 548.0 777.0Q553 781 560.0 778.5Q567 776 573.5 782.5Q580 789 584.0 789.0Q588 789 631 760Q658 743 668.5 734.0Q679 725 683 714Q690 701 690.0 697.0Q690 693 686 687Q677 679 667.0 676.0Q657 673 657.0 669.0Q657 665 643.0 662.0Q629 659 618.0 650.0Q607 641 582 628Q556 614 530.5 596.5Q505 579 503 573Q501 566 519 544Q543 512 551 475Q553 466 557.0 464.5Q561 463 585 462Q616 462 646.0 458.0Q676 454 758 449Q814 447 830.5 444.5Q847 442 863 434Q886 421 897 404L906 387L898 367Q889 347 872 338Q855 330 843.0 330.5Q831 331 805 343Q777 355 746 360Q644 375 607 373L578 370L577 267Q577 164 574 151Q567 113 556 87Q546 65 538 42Q534 26 519.5 4.0Q505 -18 493 -30Q469 -53 442.5 -68.0Q416 -83 400 -83Q393 -83 383.5 -73.0Q374 -63 374 -56Q374 -50 363.0 -26.0Q352 -2 352.0 2.5Q352 7 335 17Q324 22 312.0 38.5Q300 55 300 64Q300 70 291.5 80.5Q283 91 283 94Q284 97 294.0 96.0Q304 95 322.5 90.5Q341 86 360 79Q396 68 412 68Q422 68 428.0 71.5Q434 75 444 86Q470 116 487 177Q494 202 492.0 285.0Q490 368 487 370Q486 373 429.0 368.0Q372 363 349 360Q331 356 298.0 347.0Q265 338 255 334Q202 309 190.0 305.0Q178 301 166 303Q153 307 146.0 311.0Q139 315 116 331Q94 347 94 354Q94 375 125 394Q160 413 349 438Q470 453 471 457Q472 459 471 462Q463 486 452.5 510.5Q442 535 437 539Q433 541 433.5 552.0Q434 563 437 571Q442 579 451 579Q458 579 478.0 597.5Q498 616 498 623Q498 627 509 642Q519 653 532.0 679.5Q545 706 545 711Q545 721 480 718Q450 718 406.0 708.5Q362 699 351.0 690.5Q340 682 334.0 682.0Q328 682 309 693Q295 701 291.5 705.5Q288 710 286.5 723.5Q285 737 287.0 741.0Q289 745 298 749Z" fill="#F3EEE4"/></g></svg></span>
-      </div>
-      <div>
-        <div class="bio">
-          <p class="fade"><span class="en">I'm a structural heart interventionist — TAVI, TEER and transcatheter tricuspid therapies — currently a fellow at Klinik Hirslanden Zürich, after a fellowship at the University Hospital Zurich Heart Center and clinical training at Beijing Anzhen Hospital. Across <span class="mark">1,700+ procedures</span> I've learned exactly where technology helps at the table, and where it gets in the way.</span>
-          <span class="zh">我是一名结构性心脏病介入医生 —— 专注 TAVI、TEER 与经导管三尖瓣治疗,现为苏黎世 Hirslanden 医院结构性心脏病 Fellow,此前曾任苏黎世大学医院心脏中心 Fellow,并在北京安贞医院完成临床训练。<span class="mark">1700 多台手术</span>让我确切地知道:技术在手术台上哪里真正有用,哪里只会碍事。</span></p>
-          <p class="fade d1"><span class="en">That bedside vantage point is what I bring to AI. I lead <span class="mark">AutoClip</span> (NCT07632794), a 1,500-patient multicenter study across Switzerland, Italy and China building real-time AI guidance for mitral repair — work selected as a <span class="mark">TCT 2025 innovation project</span> — and I co-founded CardioAI in Zurich to make cardiology and computer science speak each other's language. As European proctor for novel devices such as LuX-Valve Plus (2022–2024), I performed first-in-country implant training across Europe and trained nearly a hundred structural operators.</span>
-          <span class="zh">这份来自手术台的视角,正是我做 AI 的底气。我主持 <span class="mark">AutoClip</span> 研究(NCT07632794)—— 一项横跨瑞士、意大利与中国的 1,500 例多中心研究,为二尖瓣修复构建术中实时 AI 引导,相关工作入选 <span class="mark">TCT 2025 精选创新项目</span>;我在苏黎世联合创办 CardioAI,让"心脏病学"与"计算机科学"学会说彼此的语言。作为 LuX-Valve Plus 等创新器械的欧洲带教专家(2022–2024),我带教了欧洲多国首例植入,培训了近百名结构性心脏病术者。</span></p>
+  <!-- ============ DAILY FOCUS 报纸 ============ -->
+  <section class="paper" id="pulse">
+    <div class="wrap">
+      <!-- 报头 -->
+      <div class="plate">
+        <div class="plate-top">
+          <span><span class="en">Structural Heart · The Daily Front Page</span><span class="zh">结构性心脏病 · 每日头版</span></span>
+          <span><span class="en">Curated by an AI agent · Zurich</span><span class="zh">AI 每日自动策展 · 苏黎世</span></span>
         </div>
-        <div class="cred-rows fade d2">
-          <div class="row"><span class="k"><span class="en">Clinical</span><span class="zh">临床</span></span><span class="v"><b><span class="en">Structural heart fellow — Klinik Hirslanden Zürich</span><span class="zh">结构性心脏病 Fellow —— 苏黎世 Hirslanden 医院</span></b> · <span class="en">Swiss-registered physician (MEBEKO) · licensed physician, China</span><span class="zh">瑞士注册医师(MEBEKO) · 中国执业医师</span></span></div>
-          <div class="row"><span class="k"><span class="en">Education</span><span class="zh">教育</span></span><span class="v"><span class="en"><b>MD &amp; PhD, Capital Medical University</b> (Beijing Anzhen Hospital) · Joint PhD, University Hospital Zurich</span><span class="zh"><b>首都医科大学(北京安贞医院)博士</b> · 苏黎世大学医院联合培养博士</span></span></div>
-          <div class="row"><span class="k"><span class="en">Academic</span><span class="zh">学术任职</span></span><span class="v"><span class="en"><b>Associate Editor, JACC: Case Reports</b> · Faculty, EuroPCR / TCT / PCR London Valves</span><span class="zh"><b>《JACC: Case Reports》副主编</b> · EuroPCR / TCT / PCR London Valves 学术委员</span></span></div>
-          <div class="row"><span class="k"><span class="en">Research</span><span class="zh">研究</span></span><span class="v"><span class="en"><b>25 SCI papers</b> as first/corresponding author · cumulative IF 120+</span><span class="zh"><b>第一/通讯作者 SCI 论文 25 篇</b> · 累计影响因子 120+</span></span></div>
-          <div class="row"><span class="k"><span class="en">Languages</span><span class="zh">工作语言</span></span><span class="v">中文 · English · Deutsch (B2) · 日本語</span></div>
+        <div class="plate-name">
+          <h1><span class="en">Structural Heart <span class="em">Focus</span></span><span class="zh">结构心 · <span class="em">焦点</span></span></h1>
+        </div>
+        <p class="plate-tag"><span class="en">The day's most important structural-heart reading — journals, meetings and the conversation — laid out like a front page. The bigger the block, the bigger the story.</span><span class="zh">当日最重要的结构性心脏病动态 —— 大刊、会议与圈内热议,以头版方式排布。方块越大,分量越重。</span></p>
+        <div class="plate-rule2"></div>
+      </div>
+      <!-- 控制条 -->
+      <div class="paper-bar">
+        <div class="day-nav">
+          <button class="pnav" id="pulsePrev" aria-label="Previous day">‹</button>
+          <span class="day-label">
+            <span class="d-main" id="pulseDateMain">—</span>
+            <span class="d-sub" id="pulseDateSub">EDITION</span>
+          </span>
+          <button class="pnav" id="pulseNext" aria-label="Next day">›</button>
+        </div>
+        <div class="scope-tabs" aria-hidden="true">
+          <span class="scope on"><span class="en">Daily</span><span class="zh">日报</span></span>
+          <span class="scope off" title="coming soon"><span class="en">Weekly</span><span class="zh">周报</span></span>
+          <span class="scope off" title="coming soon"><span class="en">Monthly</span><span class="zh">月报</span></span>
+          <span class="scope off" title="coming soon"><span class="en">Yearly</span><span class="zh">年报</span></span>
         </div>
       </div>
+      <div class="mosaic" id="pulseGrid"></div>
+      <p class="paper-empty" id="pulseEmpty" hidden><span class="en">No entries for this day.</span><span class="zh">这一天暂无收录。</span></p>
+      <p class="paper-note"><span class="en">Auto-curated daily by an AI research agent from the top journals, the major meetings and the structural-heart conversation. Block size reflects a blend of journal impact, reach and editorial importance. Every block links to its source. Illustrations are original schematics, not the publishers' figures. Not medical advice.</span><span class="zh">由 AI 研究 agent 每日从大刊、重要会议与圈内讨论中自动整理。方块大小综合了期刊影响力、传播热度与编辑重要性。每个方块均链接至原文。配图为原创示意图,非出版方原图。不构成医疗建议。</span></p>
     </div>
   </section>
 
-  <!-- ============ WORK ============ -->
-  <section class="work" id="work">
-    <div class="wrap sec-head">
-      <span class="label"><span class="en">Recent work</span><span class="zh">代表项目</span></span>
-      <span class="count">02</span>
-    </div>
+  <!-- ============ SLIM FOOTER ============ -->
+  <section class="cta paper-foot" id="contact" style="padding-top:clamp(3rem,7vh,5rem)">
     <div class="wrap">
-      <div class="work-list" id="workList">
-        <a class="work-row" href="#contact" data-img="lab.jpg">
-          <h3>AutoClip</h3>
-          <span class="cat"><span class="en">Global multicenter AI study — NCT07632794</span><span class="zh">全球多中心 AI 研究 —— NCT07632794</span></span>
-        </a>
-        <a class="work-row" href="/cardioai" data-img="team.jpg">
-          <h3>CardioAI</h3>
-          <span class="cat"><span class="en">Community &amp; Events — Zurich</span><span class="zh">学术社区 —— 苏黎世</span></span>
-        </a>
-        <a class="work-row" href="#contact" data-glyph="评">
-          <h3>EuroSCORE II GPT</h3>
-          <span class="cat"><span class="en">Clinical tool — LLM</span><span class="zh">临床工具 —— 大模型</span></span>
-        </a>
-      </div>
-      <p style="color:var(--faint); font-size:0.85rem; margin-top:1.4rem" class="fade">
-        <span class="en">CardioAI: co-founded academic platform, incl. workshop at Swiss AI Weeks 2025 · AutoClip (NCT07632794): 1,500-patient multicenter study of real-time AI segmentation for TEER guidance — sponsor-investigator &amp; PI; sites at Fuwai (Beijing), San Raffaele &amp; San Donato (Milan) and HerzZentrum Hirslanden Zürich, with ETH Zurich · EuroSCORE II GPT: risk assessment with an explicit ethical-use protocol.</span>
-        <span class="zh">CardioAI:联合创办的学术平台,含 2025 Swiss AI Weeks 工作坊 · AutoClip(NCT07632794):1,500 例多中心研究,开发 TEER 术中实时 AI 分割引导 —— 陈密医生任发起人与主要研究者,参与中心:北京阜外、米兰 San Raffaele 与 San Donato、苏黎世 Hirslanden 心脏中心,联合 ETH Zurich · EuroSCORE II GPT:配套伦理使用规范的风险评估工具。</span>
-      </p>
-    </div>
-  </section>
-
-  <!-- ============ SERVICES ============ -->
-  <section class="services" id="services">
-    <div class="wrap sec-head">
-      <span class="label"><span class="en">I can help you with</span><span class="zh">我能帮你做</span></span>
-      <span class="count">03</span>
-    </div>
-    <div class="wrap svc-grid">
-      <div class="svc fade">
-        <span class="num">01</span>
-        <h3><span class="en">Europe Market-Entry Advisory</span><span class="zh">器械出海 · 欧洲落地顾问</span></h3>
-        <p><span class="en">For structural heart device companies entering Europe: operator training design, site relationships, KOL development and launch strategy — built on first-in-country launches in four European countries and 1,700+ procedures.</span>
-        <span class="zh">面向进军欧洲的结构性心脏病器械企业:术者培训体系设计、中心关系、KOL 建设与上市策略 —— 以欧洲四国首例落地与 1700+ 台手术经验为底。</span></p>
-      </div>
-      <div class="svc fade d1">
-        <span class="num">02</span>
-        <h3><span class="en">Clinical AI Advisory</span><span class="zh">临床 AI 顾问</span></h3>
-        <p><span class="en">For imaging-AI startups and health-tech teams: clinical validation design, EU AI Act × MDR readiness, and real workflow fit — from the sponsor-investigator of a 1,500-patient multicenter AI study.</span>
-        <span class="zh">面向影像 AI 初创与医疗科技团队:临床验证设计、EU AI Act × MDR 合规路径、真实工作流契合度 —— 来自一项 1,500 例多中心 AI 研究的发起人。</span></p>
-      </div>
-      <div class="svc fade d2">
-        <span class="num">03</span>
-        <h3><span class="en">Speaking &amp; Workshops</span><span class="zh">演讲与工作坊</span></h3>
-        <p><span class="en">Keynotes and hands-on workshops on AI in cardiovascular care — for conferences, hospital departments and medical schools, in English or Chinese.</span>
-        <span class="zh">面向学术会议、医院科室与医学院的主题演讲与实操工作坊,聚焦心血管领域的 AI 应用,中英文均可。</span></p>
-      </div>
-    </div>
-    <div class="wrap" style="margin-top:3.5rem">
-      <a class="pill solid magnetic fade" href="https://cal.com/doctor.michen/discovery" target="_blank" rel="noopener"><span class="en">Book a discovery call — 45 min</span><span class="zh">预约诊断通话 — 45 分钟</span></a>
-    </div>
-  </section>
-
-  <!-- ============ PRODUCTS ============ -->
-  <section class="products" id="products">
-    <div class="wrap sec-head">
-      <span class="label"><span class="en">Products &amp; Programs</span><span class="zh">产品与项目</span></span>
-      <span class="count">04</span>
-    </div>
-    <div class="wrap prod-grid">
-      <div class="prod fade">
-        <span class="meta"><span class="en">Playbook · English</span><span class="zh">手册 · 英文</span></span>
-        <h3><span class="en">Building a Tricuspid Program</span><span class="zh">《三尖瓣项目建设手册》</span></h3>
-        <p><span class="en">The operator playbook for launching a TTVR/TEER program — patient screening, imaging workflow, team training and pitfalls. Written from four first-in-country European launches.</span>
-        <span class="zh">TTVR/TEER 项目从零到一的术者手册 —— 患者筛选、影像流程、团队培训与避坑清单,源自欧洲四国首例落地实战。</span></p>
-        <span class="price">$497 · <a class="soon" href="mailto:doctor.michen@gmail.com?subject=Playbook%20founding%20pre-order" style="color:var(--seal);text-decoration:none"><span class="en">founding pre-order →</span><span class="zh">创始预订 →</span></a></span>
-      </div>
-      <div class="prod fade d1">
-        <span class="meta"><span class="en">B2B · License</span><span class="zh">企业 · 授权</span></span>
-        <h3><span class="en">Operator Training Curriculum</span><span class="zh">术者培训课程体系授权</span></h3>
-        <p><span class="en">A complete, field-tested training curriculum for device companies bringing structural heart products to European operators — licensed per cohort, delivered with your clinical team.</span>
-        <span class="zh">为器械企业打造的完整术者培训课程体系(欧洲实战验证),按培训期授权,与贵司临床团队共同交付。</span></p>
-        <span class="price">EUR 10–30k / <span class="en">cohort</span><span class="zh">期</span> · <a class="soon" href="#contact" style="color:var(--seal);text-decoration:none"><span class="en">enquire →</span><span class="zh">洽谈 →</span></a></span>
-      </div>
-      <div class="prod fade d2">
-        <span class="meta"><span class="en">Community · 中文</span><span class="zh">社群 · 中文</span></span>
-        <h3><span class="en">结构心脏 · 欧洲前线</span><span class="zh">「结构心脏 · 欧洲前线」</span></h3>
-        <p><span class="en">A Chinese-language insider circle for interventional cardiologists — European conference intel, case dissections, and career Q&amp;A from inside the Zurich cath lab.</span>
-        <span class="zh">面向介入医生的中文圈子 —— 欧洲会议一线情报、病例拆解、出海职业问答,来自苏黎世导管室内部视角。</span></p>
-        <span class="price">¥799/<span class="en">yr</span><span class="zh">年</span> · <a class="soon" href="mailto:doctor.michen@gmail.com?subject=%E6%AC%A7%E6%B4%B2%E5%89%8D%E7%BA%BF%20%E5%88%9B%E5%A7%8B%E4%BC%9A%E5%91%98" style="color:var(--seal);text-decoration:none"><span class="en">join waitlist →</span><span class="zh">首批100名 · 候补 →</span></a></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ NEWSLETTER ============ -->
-  <section class="news" id="insights">
-    <div class="wrap grid">
-      <div>
-        <h2 class="lines"><span class="li"><span><span class="en">The <span class="it">Bridge</span> ·《桥》</span><span class="zh">《<span class="it">桥</span>》· The Bridge</span></span></span></h2>
-        <p class="sub fade"><span class="en">China's structural heart devices are going global — and I watch it happen from inside European cath labs. One free letter a month: launches, data, and what actually matters. English, with 中文摘要.</span>
-        <span class="zh">中国结构性心脏病器械正在出海,而我在欧洲导管室内部见证这一切。每月一封免费通讯:新器械落地、关键数据、真正重要的趋势。英文为主,附中文摘要。</span></p>
-      </div>
-      <div class="fade d1">
-        <!-- EDIT ME: replace action with your Formspree / Buttondown endpoint -->
-        <form class="signup" id="newsletterForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <input type="email" name="email" required placeholder="you@hospital.org" aria-label="Email address">
-          <button class="pill solid" type="submit"><span class="en">Subscribe</span><span class="zh">订阅</span></button>
-        </form>
-        <p class="form-note"><span class="en">No spam. Unsubscribe anytime.</span><span class="zh">拒绝垃圾邮件,可随时退订。</span></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CTA / CONTACT ============ -->
-  <section class="cta" id="contact">
-    <div class="wrap">
-      <div class="cta-head">
-        <img class="avatar fade" src="portrait.jpg" alt="" width="648" height="1000">
-        <h2 class="lines">
-          <span class="li"><span><span class="en">Let's work</span><span class="zh">一起做点</span></span></span>
-          <span class="li"><span><span class="en"><span class="it">together</span>.</span><span class="zh">有分量的<span class="it">事</span>。</span></span></span>
-        </h2>
-      </div>
-      <div class="cta-line">
-        <a class="pill magnetic" href="https://cal.com/doctor.michen/discovery" target="_blank" rel="noopener"><span class="en">Book a call ↗</span><span class="zh">预约通话 ↗</span></a>
-      </div>
-      <div class="cta-links">
-        <a class="pill magnetic" href="mailto:doctor.michen@gmail.com?subject=Enquiry%20from%20kmryo.com">doctor.michen@gmail.com</a>
-        <a class="pill magnetic" href="https://www.linkedin.com/in/mi-chen-samuylov/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="pill magnetic" href="https://scholar.google.com/citations?user=rpMJfJwAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+      <div class="foot-cta">
+        <div class="foot-cta-l">
+          <img class="foot-avatar" src="portrait.jpg" alt="Dr. Mi Chen" width="648" height="1000">
+          <p><span class="en">Curated from inside the Zurich cath lab by <b>Dr. Mi Chen</b> — structural heart interventionist, co-founder of CardioAI.</span><span class="zh">由 <b>陈密医生</b> 在苏黎世导管室内部策展 —— 结构性心脏病介入医生,CardioAI 联合创始人。</span></p>
+        </div>
+        <a class="pill magnetic" href="/about"><span class="en">About &amp; consulting ↗</span><span class="zh">关于与咨询 ↗</span></a>
       </div>
       <div class="foot">
         <div class="col">
@@ -676,7 +629,7 @@ if (FINE && !REDUCED) {
     requestAnimationFrame(craf);
   })();
   document.addEventListener('mouseover', e => {
-    cursor.classList.toggle('on', !!e.target.closest('a, button, .work-row'));
+    cursor.classList.toggle('on', !!e.target.closest('a, button, .tile'));
   });
 }
 
@@ -694,29 +647,6 @@ if (FINE && !REDUCED) {
   });
 }
 
-/* ---- work hover preview ---- */
-const preview = document.getElementById('preview');
-const pimg = preview.querySelector('img');
-const pglyph = preview.querySelector('.glyph-panel');
-if (FINE && !REDUCED) {
-  let px = 0, py = 0, ptx = 0, pty = 0, active = false;
-  addEventListener('mousemove', e => { ptx = e.clientX; pty = e.clientY; }, { passive: true });
-  (function praf() {
-    px += (ptx - px) * 0.12; py += (pty - py) * 0.12;
-    preview.style.left = px + 'px'; preview.style.top = py + 'px';
-    requestAnimationFrame(praf);
-  })();
-  document.querySelectorAll('.work-row').forEach(row => {
-    row.addEventListener('mouseenter', () => {
-      const img = row.dataset.img, glyph = row.dataset.glyph;
-      if (img) { preview.classList.remove('glyph'); pimg.src = img; }
-      else { preview.classList.add('glyph'); pglyph.textContent = glyph || '觅'; }
-      preview.classList.add('on');
-    });
-    row.addEventListener('mouseleave', () => preview.classList.remove('on'));
-  });
-}
-
 /* ---- Zurich local time ---- */
 const timeEl = document.getElementById('localTime');
 function tickTime() {
@@ -727,16 +657,184 @@ function tickTime() {
 }
 tickTime(); setInterval(tickTime, 30000);
 
-/* ---- newsletter placeholder guard ---- */
-const form = document.getElementById('newsletterForm');
-form.addEventListener('submit', e => {
-  if (form.action.includes('YOUR_FORM_ID')) {
-    e.preventDefault();
-    alert(html.dataset.lang === 'zh'
-      ? '表单尚未接入 —— 请完成 Formspree 配置。'
-      : 'Form not connected yet — set up the Formspree endpoint first.');
+/* ---- Structural Heart Focus — 报纸马赛克 ---- */
+(function () {
+  const grid = document.getElementById('pulseGrid');
+  const emptyEl = document.getElementById('pulseEmpty');
+  const dMain = document.getElementById('pulseDateMain');
+  const dSub = document.getElementById('pulseDateSub');
+  const prevBtn = document.getElementById('pulsePrev');
+  const nextBtn = document.getElementById('pulseNext');
+  if (!grid) return;
+
+  // source → wordmark, brand accent, impact boost, meta line
+  const SRC = {
+    'NEJM': {mark:'NEJM', accent:'#C0392B', boost:40, meta:'N Engl J Med · IF 96'},
+    'Lancet': {mark:'The Lancet', accent:'#2E6FB7', boost:40, meta:'The Lancet · IF 98'},
+    'JAMA Cardiology': {mark:'JAMA Cardiol.', accent:'#2E7CB0', boost:26, meta:'JAMA Cardiology · IF 24'},
+    'JAMA': {mark:'JAMA', accent:'#2E7CB0', boost:34, meta:'JAMA · IF 63'},
+    'Circulation': {mark:'Circulation', accent:'#C8102E', boost:30, meta:'Circulation · IF 37'},
+    'EHJ': {mark:'Eur. Heart J.', accent:'#3355A0', boost:30, meta:'European Heart Journal · IF 38'},
+    'JACC: Cardiovascular Interventions': {mark:'JACC: Interv.', accent:'#1D5B99', boost:18, meta:'JACC: Cardiovascular Interventions'},
+    'JACC: Cardiovascular Imaging': {mark:'JACC: Imaging', accent:'#1D5B99', boost:18, meta:'JACC: Cardiovascular Imaging'},
+    'JACC: Case Reports': {mark:'JACC: Case Rep.', accent:'#4A7DB3', boost:6, meta:'JACC: Case Reports'},
+    'JACC': {mark:'JACC', accent:'#1D5B99', boost:26, meta:'J. Am. Coll. Cardiol. · IF 24'},
+    'EuroIntervention': {mark:'EuroIntervention', accent:'#E0392B', boost:14, meta:'EuroIntervention · IF 7'},
+    'TCTMD': {mark:'TCTMD', accent:'#CE7A2E', boost:4, meta:'TCTMD · meeting news'},
+    'New York Valves': {mark:'NY Valves ’26', accent:'#C9A227', boost:8, meta:'New York Valves 2026'},
+    'ACC Cardiology': {mark:'ACC', accent:'#CE7A2E', boost:6, meta:'ACC · Cardiology'},
+    'Radcliffe': {mark:'Radcliffe', accent:'#CE7A2E', boost:4, meta:'Radcliffe Cardiology'},
+    'Cardiovascular Business': {mark:'Cardiovasc. Bus.', accent:'#6E87A8', boost:2, meta:'Cardiovascular Business'},
+    'Cardiovascular News': {mark:'Cardiovasc. News', accent:'#6E87A8', boost:3, meta:'Cardiovascular News'},
+    'MassDevice': {mark:'MassDevice', accent:'#3E8E88', boost:3, meta:'MassDevice · industry'},
+    'MedTech Dive': {mark:'MedTech Dive', accent:'#3E8E88', boost:3, meta:'MedTech Dive · FDA'},
+    'JenaValve': {mark:'JenaValve', accent:'#3E8E88', boost:2, meta:'JenaValve · industry'},
+    'Laplace': {mark:'Laplace', accent:'#3E8E88', boost:2, meta:'Laplace Interventional'},
+    'GlobeNewswire': {mark:'GlobeNewswire', accent:'#6E87A8', boost:1, meta:'press release'},
+    'PR Newswire': {mark:'PR Newswire', accent:'#6E87A8', boost:1, meta:'press release'}
+  };
+  const SRC_KEYS = Object.keys(SRC).sort((a,b) => b.length - a.length);
+  function srcMeta(s) {
+    s = s || '';
+    for (const k of SRC_KEYS) if (s.indexOf(k) !== -1) return SRC[k];
+    return {mark: s.split(' / ')[0] || s, accent: null, boost: 0, meta: ''};
   }
-});
+
+  const TYPE = {
+    journal:   {en:'Journal',   zh:'期刊', accent:'#C0392B', boost:8},
+    guideline: {en:'Guideline', zh:'指南', accent:'#B07A2E', boost:9},
+    conference:{en:'Meeting',   zh:'会议', accent:'#C9A227', boost:7},
+    regulatory:{en:'Regulatory',zh:'监管', accent:'#3E8E88', boost:6},
+    industry:  {en:'Industry',  zh:'产业', accent:'#3E8E88', boost:3},
+    news:      {en:'News',      zh:'新闻', accent:'#6E87A8', boost:4},
+    social:    {en:'Buzz',      zh:'热议', accent:'#6E87A8', boost:2}
+  };
+  const TOPIC = {
+    TAVI:      {en:'Aortic / TAVI', zh:'主动脉瓣'},
+    Mitral:    {en:'Mitral',        zh:'二尖瓣'},
+    Tricuspid: {en:'Tricuspid',     zh:'三尖瓣'},
+    LAA:       {en:'LAA closure',   zh:'左心耳'},
+    Imaging:   {en:'Imaging',       zh:'影像'},
+    Other:     {en:'Structural',    zh:'结构'}
+  };
+
+  // original schematic illustrations (not publisher figures)
+  const ART = {
+    TAVI: '<circle cx="50" cy="50" r="33"/><circle cx="50" cy="34" r="10"/><circle cx="36" cy="59" r="10"/><circle cx="64" cy="59" r="10"/>',
+    Mitral: '<circle cx="50" cy="50" r="33"/><path d="M27 41 Q50 63 73 41"/><path d="M27 59 Q50 37 73 59"/>',
+    Tricuspid: '<circle cx="50" cy="50" r="33"/><path d="M50 50 L50 18 M50 50 L26 64 M50 50 L74 64"/>',
+    LAA: '<path d="M20 54 Q21 29 44 29 Q69 29 73 50 Q75 66 58 70 Q38 74 29 65 Q21 59 20 54Z"/><circle cx="65" cy="51" r="8.5"/><path d="M56 51 H75"/>',
+    Imaging: '<path d="M50 20 L24 80 A62 62 0 0 0 76 80 Z"/><path d="M35 52 A24 24 0 0 1 65 52" opacity="0.7"/><path d="M40 66 A16 16 0 0 1 60 66" opacity="0.5"/>',
+    Other: '<circle cx="50" cy="50" r="33"/><path d="M22 50 H37 L43 33 L52 68 L58 50 H78"/>'
+  };
+  function artFor(t){ return '<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' + (ART[t] || ART.Other) + '</svg>'; }
+
+  function sizeFor(rank, n) {
+    if (n === 1) return {c:12, r:6, s:'xl'};
+    if (n === 2) return rank === 0 ? {c:7, r:6, s:'xl'} : {c:5, r:6, s:'l'};
+    if (n === 3) return [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:12,r:4,s:'m'}][rank];
+    if (n === 4) return [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:6,r:4,s:'m'},{c:6,r:4,s:'m'}][rank];
+    const lead = [{c:7,r:6,s:'xl'},{c:5,r:6,s:'l'},{c:4,r:5,s:'m'},{c:4,r:5,s:'m'},{c:4,r:5,s:'m'}];
+    if (rank < 5) return lead[rank];
+    const tail = n - 5, per = tail >= 4 ? 4 : tail;
+    const c = Math.max(3, Math.floor(12 / per));
+    const s = c >= 5 ? 'm' : (c >= 4 ? 's' : 'xs');
+    return {c, r: s === 'm' ? 4 : 3, s};
+  }
+
+  let days = [], idx = -1;
+  const cache = {};
+
+  function bi(cls, en, zh) {
+    const w = document.createElement(cls || 'span');
+    const e = document.createElement('span'); e.className = 'en'; e.textContent = en || '';
+    const z = document.createElement('span'); z.className = 'zh'; z.textContent = zh || (en || '');
+    w.append(e, z); return w;
+  }
+
+  function score(it) {
+    const sm = srcMeta(it.source);
+    const ty = TYPE[it.type] || {boost:3};
+    return (it.weight || 2) * 20 + (sm.boost || 0) + (ty.boost || 3);
+  }
+
+  function render(day) {
+    grid.replaceChildren();
+    const items = (day.items || []).slice().sort((a, b) => score(b) - score(a));
+    emptyEl.hidden = items.length > 0;
+    const n = items.length;
+    items.forEach((it, i) => {
+      const sm = srcMeta(it.source);
+      const ty = TYPE[it.type] || TYPE.news;
+      const tp = TOPIC[it.topic] || TOPIC.Other;
+      const accent = sm.accent || ty.accent || 'var(--seal)';
+      const sz = sizeFor(i, n);
+
+      const a = document.createElement('a');
+      a.className = 'tile'; a.dataset.size = sz.s;
+      a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
+      a.style.gridColumn = 'span ' + sz.c;
+      a.style.gridRow = 'span ' + sz.r;
+      a.style.setProperty('--acc', accent);
+      a.style.animationDelay = Math.min(i * 0.045, 0.5) + 's';
+
+      const fig = document.createElement('div'); fig.className = 'tile-fig';
+      if (it.image) { const im = document.createElement('img'); im.src = it.image; im.alt = ''; im.loading = 'lazy'; fig.append(im); }
+      else fig.innerHTML = artFor(it.topic);
+
+      const body = document.createElement('div'); body.className = 'tile-body';
+      const mast = document.createElement('div'); mast.className = 'tile-mast';
+      const mk = document.createElement('span'); mk.className = 'mast-mark'; mk.textContent = sm.mark || (it.source || '');
+      const mi = document.createElement('span'); mi.className = 'mast-if'; mi.textContent = sm.meta || (it.source || '');
+      mast.append(mk, mi);
+
+      const kick = document.createElement('div'); kick.className = 'tile-kick';
+      const kt = bi('span', tp.en, tp.zh); kt.classList.add('k-topic');
+      const ky = bi('span', ty.en, ty.zh); ky.classList.add('k-type');
+      kick.append(kt, document.createTextNode('·'), ky);
+
+      const h = bi('h3', it.title, it.title_zh); h.className = 'tile-head';
+      const sum = bi('p', it.summary_en, it.summary_zh); sum.className = 'tile-sum';
+
+      const foot = document.createElement('div'); foot.className = 'tile-foot';
+      const dt = document.createElement('span'); dt.className = 't-date'; dt.textContent = (it.date || day.date || '').slice(5).replace('-', '/');
+      const ar = document.createElement('span'); ar.className = 't-arr'; ar.textContent = '↗';
+      foot.append(dt, ar);
+
+      body.append(mast, kick, h, sum, foot);
+      a.append(fig, body);
+      grid.append(a);
+    });
+  }
+
+  function fmtDate(d) {
+    const p = d.split('-');
+    return {main: p[1] + '/' + p[2], sub: p[0]};
+  }
+
+  function show(i) {
+    if (i < 0 || i >= days.length) return;
+    idx = i;
+    const d = days[idx];
+    const f = fmtDate(d); dMain.textContent = f.main; dSub.textContent = f.sub + ' · EDITION';
+    prevBtn.disabled = idx === 0;
+    nextBtn.disabled = idx === days.length - 1;
+    if (cache[d]) { render(cache[d]); return; }
+    fetch('pulse/data/' + d + '.json').then(r => r.json()).then(day => {
+      cache[d] = day;
+      if (days[idx] === d) render(day);
+    }).catch(() => { grid.replaceChildren(); emptyEl.hidden = false; });
+  }
+
+  prevBtn.addEventListener('click', () => show(idx - 1));
+  nextBtn.addEventListener('click', () => show(idx + 1));
+
+  fetch('pulse/data/manifest.json').then(r => r.json()).then(m => {
+    days = (m.days || []).slice().sort();
+    if (days.length) show(days.length - 1);
+    else emptyEl.hidden = false;
+  }).catch(() => { emptyEl.hidden = false; dMain.textContent = 'offline'; });
+})();
 </script>
 </body>
 </html>
