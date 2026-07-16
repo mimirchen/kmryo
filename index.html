@@ -481,6 +481,10 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
 .bd-msg.ok { color: var(--cream); }
 .bd-msg.warn { color: var(--seal); }
 @media (max-width: 720px) { .brief-in { grid-template-columns: 1fr; gap: 1.4rem; } }
+/* ---- support / tip link ---- */
+.foot-cta-actions { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.kofi { display: inline-flex; align-items: center; gap: 0.42rem; border: 1px solid var(--hair); border-radius: 999px; padding: 0.5rem 1.05rem; font-size: 0.9rem; color: var(--muted); transition: color .2s, border-color .2s; }
+.kofi:hover { color: var(--cream); border-color: var(--seal-deep); }
 </style>
 <noscript><style>#loader{display:none}body.locked{overflow:auto}.fade,.lines .li>span{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
@@ -577,7 +581,10 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
           <img class="foot-avatar" src="portrait.jpg" alt="Dr. Mi Chen" width="648" height="1000">
           <p><span class="en">Curated from inside the Zurich hybrid room by <b>Dr. Mi Chen</b> — structural heart interventionist, cardiac surgeon, co-founder of CardioAI.</span><span class="zh">由 <b>陈密医生</b> 在苏黎世复合手术室内部策展 —— 结构性心脏病介入医生、心脏外科医生、CardioAI 联合创始人。</span></p>
         </div>
-        <a class="pill magnetic" href="/about"><span class="en">About &amp; consulting ↗</span><span class="zh">关于与咨询 ↗</span></a>
+        <div class="foot-cta-actions">
+          <a class="kofi" id="kofiLink" href="#" target="_blank" rel="noopener" hidden>☕ <span class="en">Support this briefing</span><span class="zh">支持这份简报</span></a>
+          <a class="pill magnetic" href="/about"><span class="en">About &amp; consulting ↗</span><span class="zh">关于与咨询 ↗</span></a>
+        </div>
       </div>
       <div class="foot">
         <div class="col">
@@ -722,6 +729,14 @@ function tickTime() {
   } catch (e) {}
 }
 tickTime(); setInterval(tickTime, 30000);
+
+/* ---- Support / tip (Ko-fi) ---- */
+(function () {
+  // Paste your Ko-fi (or Stripe/BMC) page URL here to reveal the Support link. Empty = hidden.
+  const KOFI_URL = "";
+  const el = document.getElementById('kofiLink');
+  if (el && KOFI_URL) { el.href = KOFI_URL; el.hidden = false; }
+})();
 
 /* ---- Subscribe (Buttondown) ---- */
 (function () {
