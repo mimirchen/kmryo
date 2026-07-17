@@ -836,8 +836,8 @@ tickTime(); setInterval(tickTime, 30000);
 
 /* ---- Support / tip (Ko-fi) ---- */
 (function () {
-  // Paste your Ko-fi (or Stripe/BMC) page URL here to reveal the Support link. Empty = hidden.
-  const KOFI_URL = "";
+  // Support/tip URL (Stripe Payment Link). Empty = hidden.
+  const KOFI_URL = "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00";
   const el = document.getElementById('kofiLink');
   if (el && KOFI_URL) { el.href = KOFI_URL; el.hidden = false; }
 })();
