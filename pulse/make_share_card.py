@@ -268,28 +268,103 @@ def art_other(p, tone, vi):
 ART = {"TAVI": art_tavi, "Mitral": art_mitral, "Tricuspid": art_tricuspid,
        "LAA": art_laa, "Imaging": art_imaging, "Other": art_other}
 
+# Morandi still-life panel: two-tone colour field, the topic's bottle with the element
+# printed on its glaze, and the element "poured out" beside it (mirrors index.html).
+PALS = {  # field, table, vessel, ink, accent
+    "TAVI":      ((216,199,189),(194,171,158),(176,141,127),(95,74,65),(165,106,88)),
+    "Mitral":    ((212,215,200),(188,194,172),(150,164,136),(78,90,71),(117,135,106)),
+    "Tricuspid": ((205,212,217),(178,191,199),(140,160,174),(70,84,95),(95,122,140)),
+    "LAA":       ((223,213,192),(203,185,149),(180,160,120),(99,86,64),(150,129,79)),
+    "Imaging":   ((214,207,219),(191,179,201),(158,144,178),(81,73,101),(122,108,147)),
+    "Other":     ((216,211,202),(193,186,174),(166,157,143),(87,80,70),(126,116,102)),
+}
+BOTTLE_PTS = {
+    "TAVI": [(-58,0),(-58,-118)] + qbez((-58,-118),(-58,-146),(-30,-156),12)
+            + [(-16,-162),(-16,-222)] + qbez((-16,-222),(-16,-230),(-8,-230),6) + [(8,-230)]
+            + qbez((8,-230),(16,-230),(16,-222),6) + [(16,-162),(30,-156)]
+            + qbez((30,-156),(58,-146),(58,-118),12) + [(58,0)],
+    "Mitral": qbez((-33,-148),(-84,-136),(-84,-76)) + qbez((-84,-76),(-84,-20),(-44,-6))
+              + qbez((-44,-6),(-24,0),(0,0)) + qbez((0,0),(24,0),(44,-6))
+              + qbez((44,-6),(84,-20),(84,-76)) + qbez((84,-76),(84,-136),(33,-148))
+              + [(33,-172)] + qbez((33,-172),(33,-180),(25,-180),6) + [(-25,-180)]
+              + qbez((-25,-180),(-33,-180),(-33,-172),6),
+    "Tricuspid": [(-62,0),(-70,-120)] + qbez((-70,-120),(-72,-152),(-38,-160),12)
+                 + [(-20,-164),(-20,-196)] + qbez((-20,-196),(-20,-204),(-10,-204),6) + [(14,-204)]
+                 + qbez((14,-204),(22,-204),(20,-196),6) + [(16,-164),(34,-158)]
+                 + qbez((34,-158),(66,-150),(64,-118),12) + [(56,0)],
+    "LAA": [(-88,0)] + qbez((-88,0),(-96,-8),(-96,-52),8) + qbez((-96,-52),(-96,-118),(-48,-132))
+           + [(-30,-136),(-30,-148)] + qbez((-30,-148),(-30,-154),(-22,-154),6) + [(22,-154)]
+           + qbez((22,-154),(30,-154),(30,-148),6) + [(30,-136),(48,-132)]
+           + qbez((48,-132),(96,-118),(96,-52)) + qbez((96,-52),(96,-8),(88,0),8),
+    "Imaging": [(-74,0),(-20,-160),(-20,-192)] + qbez((-20,-192),(-20,-200),(-12,-200),6)
+                + [(12,-200)] + qbez((12,-200),(20,-200),(20,-192),6) + [(20,-160),(74,0)],
+    "Other": [(-52,0),(-52,-158)] + qbez((-52,-158),(-52,-170),(-42,-170),6) + [(42,-170)]
+             + qbez((42,-170),(52,-170),(52,-158),6) + [(52,0)],
+}
+BOTTLE_EXTRA = {
+    "Tricuspid": qbez((20,-196),(66,-188),(62,-142)) + qbez((62,-142),(60,-122),(42,-118)),
+    "Other": [(-52,-140),(52,-140)],
+}
+BOTTLE_BELLY = {"TAVI":(0,-84,0.38),"Mitral":(0,-78,0.44),"Tricuspid":(0,-84,0.36),
+                "LAA":(0,-66,0.48),"Imaging":(0,-60,0.3),"Other":(0,-78,0.36)}
+
+def render_element(topic, vi, s):
+    layer = Image.new("RGBA", (480, 480), (0, 0, 0, 0))
+    p = Pen(ImageDraw.Draw(layer), 240, 240, s)
+    ART[topic](p, TONES.get(topic, TONES["Other"]), vi)
+    return layer
+
+def tint(layer, color, alpha=1.0):
+    a = layer.split()[3]
+    if alpha < 1: a = a.point(lambda v: int(v*alpha))
+    out = Image.new("RGBA", layer.size, color + (0,))
+    out.putalpha(a)
+    return out
+
 def draw_panel_art(card, it, panel_x):
+    from PIL import ImageChops
     topic = it.get("topic") or "Other"
-    tone = TONES.get(topic, TONES["Other"])
+    if topic not in ART: topic = "Other"
     vi = TYPE_VARIANT.get(it.get("type") or "news", 0)
-    cx, cy = panel_x + (W - panel_x)//2 + 8, 300
-    # soft tonal vignette behind the element
-    glow = Image.new("L", (W, H), 0)
-    gd = ImageDraw.Draw(glow)
-    for r in range(300, 0, -6):
-        gd.ellipse([cx-r, cy-r*0.86, cx+r, cy+r*0.86], fill=int(52*(1 - r/300)))
-    card.paste(Image.new("RGB", (W, H), tone), (0, 0), glow)
-    # faint dot grid, like the site cards
-    dots = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    dd = ImageDraw.Draw(dots)
-    for y in range(10, H, 24):
-        for x in range(panel_x + 16, W, 24):
-            dd.ellipse([x-1, y-1, x+1, y+1], fill=tone + (44,))
-    card.paste(dots, (0, 0), dots)
-    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    p = Pen(ImageDraw.Draw(layer), cx, cy, 1.05)
-    ART.get(topic, art_other)(p, tone, vi)
-    card.paste(layer, (0, 0), layer)
+    field, table, vessel, ink, accent = PALS[topic]
+    d = ImageDraw.Draw(card)
+    TABLE_Y = 430
+    d.rectangle([panel_x, 0, W, H], fill=field)
+    d.rectangle([panel_x, TABLE_Y, W, H], fill=table)
+    bx, by, s = 968, TABLE_Y + 6, 1.15
+    pts = [(bx + x*s, by + y*s) for x, y in BOTTLE_PTS[topic]]
+    over = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(over)
+    hw = max(x for x, _ in BOTTLE_PTS[topic])
+    od.ellipse([bx-(hw+28)*s, by-13, bx+(hw+34)*s, by+15], fill=ink + (34,))
+    od.polygon(pts, fill=vessel + (255,))
+    od.line(pts + [pts[0]], fill=ink + (128,), width=4, joint="curve")
+    if topic in BOTTLE_EXTRA:
+        xpts = [(bx + x*s, by + y*s) for x, y in BOTTLE_EXTRA[topic]]
+        od.line(xpts, fill=ink + (128,), width=6 if topic == "Tricuspid" else 3, joint="curve")
+    card.paste(over, (0, 0), over)
+    # glaze print, clipped to the bottle
+    bex, bey, ps = BOTTLE_BELLY[topic]
+    el = tint(render_element(topic, vi, ps*s), ink, 0.62)
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    canvas.paste(el, (int(bx + bex*s) - 240, int(by + bey*s) - 240))
+    mask = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(mask).polygon(pts, fill=255)
+    canvas.putalpha(ImageChops.multiply(canvas.split()[3], mask))
+    card.paste(canvas, (0, 0), canvas)
+    # the element, poured out onto the wall beside the bottle
+    poured = tint(render_element(topic, vi, 0.6), ink, 0.9)
+    card.paste(poured, (int(bx - 185) - 240, 230 - 240), poured)
+    # a few drops along the pour
+    mouth_y = by + min(y for _, y in BOTTLE_PTS[topic])*s
+    drops = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dd = ImageDraw.Draw(drops)
+    for i, (fx, fy, r) in enumerate(((0.3, 0.35, 6), (0.55, 0.6, 5), (0.78, 0.85, 4))):
+        x = bx + (bx - 185 - bx)*fx
+        y = mouth_y + (230 - mouth_y)*fy + 26*i
+        col = accent if i == 1 else ink
+        dd.ellipse([x-r, y-r, x+r, y+r], fill=col + (200,))
+    card.paste(drops, (0, 0), drops)
 
 def main():
     date = sys.argv[1] if len(sys.argv) > 1 else None

@@ -424,6 +424,21 @@ html[data-lang="zh"] .brief h4 { font-family: "Noto Serif SC",serif; line-height
 .feat-media { position: relative; height: 172px; overflow: hidden; border-bottom: 1px solid var(--hair-soft); }
 .feat-media img, .feat-media svg { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); }
 @media (pointer: fine) { .feature:hover .feat-media img, .feature:hover .feat-media svg { transform: scale(1.06); } }
+
+/* Morandi still-life hover: the bottle tips and the printed element pours out */
+.m-bottle, .m-pour, .m-drop { transform-box: fill-box; }
+.m-bottle { transform-origin: 50% 100%; transition: transform 0.7s cubic-bezier(0.34, 1.45, 0.4, 1); }
+.m-pour { opacity: 0; transform-origin: center; transform: translate(10px, 16px) rotate(8deg) scale(0.45); transition: transform 0.7s cubic-bezier(0.3, 1.3, 0.4, 1), opacity 0.4s ease 0.05s; }
+.m-drop { opacity: 0; transition: transform 0.6s cubic-bezier(0.5, 0, 0.7, 0.4), opacity 0.35s ease; }
+@media (pointer: fine) {
+  .card:hover .m-bottle { transform: rotate(-24deg); }
+  .card:hover .m-pour { opacity: 1; transform: translate(-185px, -16px) rotate(-12deg) scale(1); }
+  .card:hover .m-drop { opacity: 0.85; }
+  .card:hover .m-d1 { transform: translate(-64px, 30px); transition-delay: 0.08s, 0.08s; }
+  .card:hover .m-d2 { transform: translate(-106px, 74px); transition-delay: 0.16s, 0.16s; }
+  .card:hover .m-d3 { transform: translate(-142px, 118px); transition-delay: 0.24s, 0.24s; }
+}
+html.reduced .m-bottle, html.reduced .m-pour, html.reduced .m-drop { transition: none; }
 .feat-body { padding: 1rem 1.1rem 1.05rem; display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
 .feat-kick { display: flex; align-items: center; gap: 0.5rem; font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--faint); }
 .feat-kick .k-topic { color: var(--acc, var(--seal)); background: none; padding: 0; }
@@ -828,9 +843,26 @@ tickTime(); setInterval(tickTime, 30000);
     Other:     {en:'Structural',    zh:'结构'}
   };
 
-  // small-element line art — one anatomical/device element per article, drawn around (0,0), radius ≤ 150.
-  // Each topic has variants; the article's type picks which one (journal → anatomy, regulatory/industry → device, guideline/social → schema).
-  const ART_TONE = { TAVI:'#C4897B', Mitral:'#93A98D', Tricuspid:'#8A9DB3', LAA:'#BFA47F', Imaging:'#A192B4', Other:'#A99C8C' };
+  // Morandi still-life vessels — each topic keeps its own bottle on a two-tone colour field;
+  // the valve/device element is printed on the glaze and pours out of the bottle on hover.
+  // Element motifs drawn around (0,0), radius ≤ 150; the article's type picks the variant
+  // (journal → anatomy, regulatory/industry → device, guideline/social → schema).
+  const PAL = {
+    TAVI:      { field:'#D8C7BD', table:'#C2AB9E', vessel:'#B08D7F', ink:'#5F4A41', accent:'#A56A58' },
+    Mitral:    { field:'#D4D7C8', table:'#BCC2AC', vessel:'#96A488', ink:'#4E5A47', accent:'#75876A' },
+    Tricuspid: { field:'#CDD4D9', table:'#B2BFC7', vessel:'#8CA0AE', ink:'#46545F', accent:'#5F7A8C' },
+    LAA:       { field:'#DFD5C0', table:'#CBB995', vessel:'#B4A078', ink:'#635640', accent:'#96814F' },
+    Imaging:   { field:'#D6CFDB', table:'#BFB3C9', vessel:'#9E90B2', ink:'#514965', accent:'#7A6C93' },
+    Other:     { field:'#D8D3CA', table:'#C1BAAE', vessel:'#A69D8F', ink:'#575046', accent:'#7E7466' }
+  };
+  const BOTTLES = {
+    TAVI:      { d:'M-58 0 L-58 -118 Q-58 -146 -30 -156 L-16 -162 L-16 -222 Q-16 -230 -8 -230 L8 -230 Q16 -230 16 -222 L16 -162 L30 -156 Q58 -146 58 -118 L58 0 Z', mouth:[0,-230], belly:[0,-84], ps:0.38, hw:58 },
+    Mitral:    { d:'M-33 -148 Q-84 -136 -84 -76 Q-84 -20 -44 -6 Q-24 0 0 0 Q24 0 44 -6 Q84 -20 84 -76 Q84 -136 33 -148 L33 -172 Q33 -180 25 -180 L-25 -180 Q-33 -180 -33 -172 Z', mouth:[0,-180], belly:[0,-78], ps:0.44, hw:84 },
+    Tricuspid: { d:'M-62 0 L-70 -120 Q-72 -152 -38 -160 L-20 -164 L-20 -196 Q-20 -204 -10 -204 L14 -204 Q22 -204 20 -196 L16 -164 L34 -158 Q66 -150 64 -118 L56 0 Z', extra:'M20 -196 Q66 -188 62 -142 Q60 -122 42 -118', mouth:[0,-204], belly:[0,-84], ps:0.36, hw:66 },
+    LAA:       { d:'M-88 0 Q-96 -8 -96 -52 Q-96 -118 -48 -132 L-30 -136 L-30 -148 Q-30 -154 -22 -154 L22 -154 Q30 -154 30 -148 L30 -136 L48 -132 Q96 -118 96 -52 Q96 -8 88 0 Z', mouth:[0,-154], belly:[0,-66], ps:0.48, hw:96 },
+    Imaging:   { d:'M-74 0 L-20 -160 L-20 -192 Q-20 -200 -12 -200 L12 -200 Q20 -200 20 -192 L20 -160 L74 0 Z', mouth:[0,-200], belly:[0,-60], ps:0.3, hw:74 },
+    Other:     { d:'M-52 0 L-52 -158 Q-52 -170 -42 -170 L42 -170 Q52 -170 52 -158 L52 0 Z', extra:'M-52 -140 L52 -140', mouth:[0,-170], belly:[0,-78], ps:0.36, hw:52 }
+  };
   const ELEMENTS = {
     TAVI: [
       // aortic valve, short axis — three leaflets
@@ -876,22 +908,32 @@ tickTime(); setInterval(tickTime, 30000);
     ]
   };
   const TYPE_VARIANT = { journal:0, conference:0, news:0, guideline:2, social:2, regulatory:1, industry:1 };
-  const LIGHT = 'rgba(243,238,228,0.9)';
   let ARTUID = 0;
   function heroArt(topic, type) {
     const uid = 'a' + (ARTUID++);
-    const tone = ART_TONE[topic] || ART_TONE.Other;
+    const pal = PAL[topic] || PAL.Other;
+    const b = BOTTLES[topic] || BOTTLES.Other;
     const list = ELEMENTS[topic] || ELEMENTS.Other;
-    const vi = TYPE_VARIANT[type] || 0;
-    const motif = list[vi % list.length].replace(/"A"/g, '"' + tone + '"').replace(/"L"/g, '"' + LIGHT + '"');
+    const motif = list[(TYPE_VARIANT[type] || 0) % list.length];
+    const printM = motif.replace(/"A"/g, '"' + pal.ink + '"').replace(/"L"/g, '"' + pal.ink + '"');
+    const pourM = motif.replace(/"A"/g, '"' + pal.accent + '"').replace(/"L"/g, '"' + pal.field + '"');
+    const mx = b.mouth[0], my = b.mouth[1];
     return '<svg viewBox="0 0 800 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">'
-      + '<defs><radialGradient id="rg' + uid + '" cx="62%" cy="46%" r="80%">'
-      + '<stop offset="0%" stop-color="' + tone + '" stop-opacity="0.42"/>'
-      + '<stop offset="48%" stop-color="' + tone + '" stop-opacity="0.12"/>'
-      + '<stop offset="100%" stop-color="#0c0d10" stop-opacity="1"/></radialGradient>'
-      + '<pattern id="dt' + uid + '" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="' + tone + '" fill-opacity="0.16"/></pattern></defs>'
-      + '<rect width="800" height="560" fill="#101116"/><rect width="800" height="560" fill="url(#rg' + uid + ')"/><rect width="800" height="560" fill="url(#dt' + uid + ')"/>'
-      + '<g transform="translate(516 300)" stroke="' + LIGHT + '" stroke-opacity="0.85" fill="none" stroke-linecap="round" stroke-linejoin="round">' + motif + '</g></svg>';
+      + '<defs><clipPath id="bc' + uid + '"><path d="' + b.d + '"/></clipPath></defs>'
+      + '<rect width="800" height="560" fill="' + pal.field + '"/>'
+      + '<rect y="388" width="800" height="172" fill="' + pal.table + '"/>'
+      + '<g transform="translate(516 388)">'
+      + '<ellipse cx="8" cy="7" rx="' + (b.hw + 30) + '" ry="14" fill="' + pal.ink + '" fill-opacity="0.14"/>'
+      + '<g class="m-bottle">'
+      + '<path d="' + b.d + '" fill="' + pal.vessel + '" stroke="' + pal.ink + '" stroke-opacity="0.5" stroke-width="3" stroke-linejoin="round"/>'
+      + (b.extra ? '<path d="' + b.extra + '" fill="none" stroke="' + pal.ink + '" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>' : '')
+      + '<g clip-path="url(#bc' + uid + ')"><g transform="translate(' + b.belly[0] + ' ' + b.belly[1] + ') scale(' + b.ps + ')" stroke="' + pal.ink + '" stroke-opacity="0.62" fill="none" stroke-linecap="round" stroke-linejoin="round">' + printM + '</g></g>'
+      + '</g>'
+      + '<g class="m-pour"><g transform="translate(' + mx + ' ' + (my - 10) + ') scale(0.72)" stroke="' + pal.ink + '" stroke-opacity="0.9" fill="none" stroke-linecap="round" stroke-linejoin="round">' + pourM + '</g></g>'
+      + '<circle class="m-drop m-d1" cx="' + mx + '" cy="' + my + '" r="6" fill="' + pal.ink + '"/>'
+      + '<circle class="m-drop m-d2" cx="' + mx + '" cy="' + my + '" r="5" fill="' + pal.accent + '"/>'
+      + '<circle class="m-drop m-d3" cx="' + mx + '" cy="' + my + '" r="4" fill="' + pal.ink + '"/>'
+      + '</g></svg>';
   }
 
   let days = [], idx = -1;
