@@ -428,20 +428,24 @@ html[data-lang="zh"] .brief h4 { font-family: "Noto Serif SC",serif; line-height
 .feat-media img, .feat-media svg { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); }
 @media (pointer: fine) { .feature:hover .feat-media img, .feature:hover .feat-media svg { transform: scale(1.06); } }
 
-/* Morandi still-life hover: the bottle tips and the printed element pours out */
-.m-bottle, .m-pour, .m-drop { transform-box: fill-box; }
+/* Morandi still-life hover: the bottle tips, the glaze print squeezes up through
+   the neck (clipped by the bottle) and pops out as the poured element; the bottle
+   is left empty until the pointer leaves and the element slips back in. */
+.m-bottle, .m-pour, .m-drop, .m-print { transform-box: fill-box; }
 .m-bottle { transform-origin: 50% 100%; transition: transform 0.7s cubic-bezier(0.34, 1.45, 0.4, 1); }
-.m-pour { opacity: 0; transform-origin: center; transform: translate(10px, 16px) rotate(8deg) scale(0.45); transition: transform 0.7s cubic-bezier(0.3, 1.3, 0.4, 1), opacity 0.4s ease 0.05s; }
+.m-print { transform-origin: 50% 6%; transition: transform 0.5s cubic-bezier(0.55, 0, 0.8, 0.4) 0.24s, opacity 0.22s ease 0.3s; }
+.m-pour { opacity: 0; transform-origin: center; transform: translate(4px, 14px) rotate(6deg) scale(0.2, 0.55); transition: transform 0.6s cubic-bezier(0.3, 1.35, 0.4, 1), opacity 0.25s ease; }
 .m-drop { opacity: 0; transition: transform 0.6s cubic-bezier(0.5, 0, 0.7, 0.4), opacity 0.35s ease; }
 @media (pointer: fine) {
   .card:hover .m-bottle { transform: rotate(-24deg); }
-  .card:hover .m-pour { opacity: 1; transform: translate(-185px, -16px) rotate(-12deg) scale(1); }
+  .card:hover .m-print { transform: translateY(var(--sqy, -100px)) scale(0.22, 0.6); opacity: 0; transition-delay: 0s, 0.26s; }
+  .card:hover .m-pour { opacity: 1; transform: translate(-185px, -16px) rotate(-12deg) scale(1, 1); transition-delay: 0.24s, 0.24s; }
   .card:hover .m-drop { opacity: 0.85; }
-  .card:hover .m-d1 { transform: translate(-64px, 30px); transition-delay: 0.08s, 0.08s; }
-  .card:hover .m-d2 { transform: translate(-106px, 74px); transition-delay: 0.16s, 0.16s; }
-  .card:hover .m-d3 { transform: translate(-142px, 118px); transition-delay: 0.24s, 0.24s; }
+  .card:hover .m-d1 { transform: translate(-64px, 30px); transition-delay: 0.3s, 0.3s; }
+  .card:hover .m-d2 { transform: translate(-106px, 74px); transition-delay: 0.38s, 0.38s; }
+  .card:hover .m-d3 { transform: translate(-142px, 118px); transition-delay: 0.46s, 0.46s; }
 }
-html.reduced .m-bottle, html.reduced .m-pour, html.reduced .m-drop { transition: none; }
+html.reduced .m-bottle, html.reduced .m-pour, html.reduced .m-drop, html.reduced .m-print { transition: none; }
 .feat-body { padding: 1rem 1.1rem 1.05rem; display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
 .feat-kick { display: flex; align-items: center; gap: 0.5rem; font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--faint); }
 .feat-kick .k-topic { color: var(--acc, var(--seal)); background: none; padding: 0; }
@@ -803,14 +807,13 @@ tickTime(); setInterval(tickTime, 30000);
 /* ---- Support / tip (Ko-fi) ---- */
 (function () {
   // Support/tip URL (Stripe Payment Link). Empty = hidden.
-  // Three Stripe Payment Links (5 / 15 / 50 CHF). Until the 15/50 links are
-  // created in the Stripe dashboard, all tiers fall back to the original link.
-  // After payment, each link should redirect to https://www.kmryo.com/thanks
-  // (Payment Link → Confirmation page → redirect) so supporters get the gift.
+  // Three Stripe Payment Links (5 / 15 / 50 CHF, fixed). All redirect to /thanks
+  // after payment. The original pay-what-you-want link (…cEw00) stays active for
+  // old bookmarks and also redirects to /thanks.
   const SUPPORT_LINKS = {
-    espresso: "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00",
-    double:   "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00",
-    bottle:   "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00"
+    espresso: "https://buy.stripe.com/aFa14pdhQ7Vj74e9wGcEw01",
+    double:   "https://buy.stripe.com/dRm6oJ7Xwb7v0FQgZ8cEw02",
+    bottle:   "https://buy.stripe.com/3cIeVfdhQ3F34W638icEw03"
   };
   const wire = (id, url) => { const el = document.getElementById(id); if (el && url) { el.href = url; el.hidden = false; } };
   wire('kofiLink', SUPPORT_LINKS.espresso);
@@ -994,7 +997,7 @@ tickTime(); setInterval(tickTime, 30000);
       + '<g class="m-bottle">'
       + '<path d="' + b.d + '" fill="' + pal.vessel + '" stroke="' + pal.ink + '" stroke-opacity="0.5" stroke-width="3" stroke-linejoin="round"/>'
       + (b.extra ? '<path d="' + b.extra + '" fill="none" stroke="' + pal.ink + '" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>' : '')
-      + '<g clip-path="url(#bc' + uid + ')"><g transform="translate(' + b.belly[0] + ' ' + b.belly[1] + ') scale(' + b.ps + ')" stroke="' + pal.ink + '" stroke-opacity="0.62" fill="none" stroke-linecap="round" stroke-linejoin="round">' + printM + '</g></g>'
+      + '<g clip-path="url(#bc' + uid + ')"><g class="m-print" style="--sqy:' + (b.mouth[1] - b.belly[1]) + 'px"><g transform="translate(' + b.belly[0] + ' ' + b.belly[1] + ') scale(' + b.ps + ')" stroke="' + pal.ink + '" stroke-opacity="0.62" fill="none" stroke-linecap="round" stroke-linejoin="round">' + printM + '</g></g></g>'
       + '</g>'
       + '<g class="m-pour"><g transform="translate(' + mx + ' ' + (my - 10) + ') scale(0.72)" stroke="' + pal.ink + '" stroke-opacity="0.9" fill="none" stroke-linecap="round" stroke-linejoin="round">' + pourM + '</g></g>'
       + '<circle class="m-drop m-d1" cx="' + mx + '" cy="' + my + '" r="6" fill="' + pal.ink + '"/>'
