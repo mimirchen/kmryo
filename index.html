@@ -828,26 +828,68 @@ tickTime(); setInterval(tickTime, 30000);
     Other:     {en:'Structural',    zh:'结构'}
   };
 
-  // original duotone illustrations (fallback when no open-access image); motifs drawn around (0,0)
-  const MOTIF = {
-    TAVI: '<circle r="152" stroke-opacity="0.22"/><circle r="152" stroke-dasharray="5 15" stroke-opacity="0.5"/><path d="M0 0 L0 -122 M0 0 L-106 61 M0 0 L106 61" stroke-width="4"/><circle cx="0" cy="-80" r="47" fill="A" fill-opacity="0.2"/><circle cx="-69" cy="41" r="47" fill="A" fill-opacity="0.2"/><circle cx="69" cy="41" r="47" fill="A" fill-opacity="0.2"/>',
-    Mitral: '<circle r="152" stroke-opacity="0.22"/><path d="M-122 -56 Q0 72 122 -56" fill="A" fill-opacity="0.16"/><path d="M-122 56 Q0 -72 122 56" fill="A" fill-opacity="0.16"/><path d="M-122 -56 Q0 72 122 -56 M-122 56 Q0 -72 122 56" stroke-width="4"/>',
-    Tricuspid: '<circle r="152" stroke-opacity="0.22"/><circle r="152" stroke-dasharray="4 13" stroke-opacity="0.45"/><path d="M0 0 L0 -142 M0 0 L-122 76 M0 0 L122 76" stroke-width="4"/><path d="M0 -142 A142 142 0 0 1 122 76" fill="A" fill-opacity="0.12"/>',
-    LAA: '<path d="M-152 22 Q-142 -122 22 -122 Q152 -122 152 32 Q152 112 40 122 Q-92 132 -132 72 Q-158 42 -152 22Z" fill="A" fill-opacity="0.16" stroke-width="4"/><circle cx="92" cy="12" r="44"/><path d="M48 12 H136 M92 -32 V56 M60 -20 L124 44 M124 -20 L60 44" stroke-width="2.5" stroke-opacity="0.7"/>',
-    Imaging: '<path d="M0 -172 L-152 152 A215 215 0 0 0 152 152 Z" fill="A" fill-opacity="0.1" stroke-opacity="0.45" stroke-width="3"/><path d="M-72 42 A92 92 0 0 1 72 42" stroke-width="3.5" stroke-opacity="0.75"/><path d="M-42 98 A56 56 0 0 1 42 98" stroke-width="3.5" stroke-opacity="0.5"/><circle r="7" fill="L" stroke="none"/>',
-    Other: '<path d="M0 122 C-122 32 -152 -60 -82 -112 C-40 -142 0 -112 0 -70 C0 -112 40 -142 82 -112 C152 -60 122 32 0 122Z" fill="A" fill-opacity="0.16" stroke-width="4"/><path d="M-152 -10 H-62 L-30 -72 L12 62 L42 -10 H152" stroke-width="4" stroke-opacity="0.85"/>'
+  // small-element line art — one anatomical/device element per article, drawn around (0,0), radius ≤ 150.
+  // Each topic has variants; the article's type picks which one (journal → anatomy, regulatory/industry → device, guideline/social → schema).
+  const ART_TONE = { TAVI:'#C4897B', Mitral:'#93A98D', Tricuspid:'#8A9DB3', LAA:'#BFA47F', Imaging:'#A192B4', Other:'#A99C8C' };
+  const ELEMENTS = {
+    TAVI: [
+      // aortic valve, short axis — three leaflets
+      '<circle r="118" stroke-width="3.5"/><circle r="140" stroke-dasharray="4 14" stroke-opacity="0.35"/><path d="M0 -118 A118 118 0 0 1 102 59 L0 0 Z" fill="A" fill-opacity="0.12" stroke="none"/><path d="M0 0 Q-16 -62 0 -118 M0 0 Q62 20 102 59 M0 0 Q-48 44 -102 59" stroke-width="3.5"/><circle r="5.5" fill="L" stroke="none"/>',
+      // THV stent frame, side view
+      '<path d="M-90 -118 V118 M90 -118 V118" stroke-opacity="0.35" stroke-width="2.5"/><path d="M-90 -118 L-60 -59 L-30 -118 L0 -59 L30 -118 L60 -59 L90 -118 M-90 -59 L-60 -118 M-30 -59 L-60 -118 M0 -59 L30 -118 M60 -118 L90 -59" stroke-width="2.5"/><path d="M-90 -59 L-60 0 L-30 -59 L0 0 L30 -59 L60 0 L90 -59 M-90 0 L-60 -59 M-30 0 L0 -59 M30 0 L60 -59 M90 0 L60 -59" stroke-width="2.5"/><path d="M-90 0 L-60 59 L-30 0 L0 59 L30 0 L60 59 L90 0 M-90 59 L-60 0 M-30 59 L0 0 M30 59 L60 0 M90 59 L60 0" stroke-width="2.5"/><path d="M-90 59 L-60 118 L-30 59 L0 118 L30 59 L60 118 L90 59 M-90 118 L-60 59 M-30 118 L0 59 M30 118 L60 59 M90 118 L60 59" stroke-width="2.5"/><path d="M-58 -70 Q0 -22 58 -70" stroke-width="3" stroke="A" stroke-opacity="0.9"/>',
+      // trial curves — two diverging arms
+      '<path d="M-120 -110 V110 H130" stroke-opacity="0.45" stroke-width="2.5"/><path d="M-120 -72 H-64 V-60 H-6 V-44 H56 V-34 H124" stroke-width="3.5"/><path d="M-120 -72 H-84 V-46 H-22 V-10 H38 V14 H124" stroke-width="3.5" stroke="A"/><circle cx="124" cy="-34" r="4.5" fill="L" stroke="none"/><circle cx="124" cy="14" r="4.5" fill="A" stroke="none"/>'
+    ],
+    Mitral: [
+      // mitral valve, short axis — fish-mouth
+      '<ellipse rx="132" ry="98" stroke-width="3.5"/><ellipse rx="152" ry="118" stroke-dasharray="4 14" stroke-opacity="0.3"/><path d="M-106 -18 Q0 -70 106 -18 Q0 74 -106 -18Z" fill="A" fill-opacity="0.12" stroke="none"/><path d="M-106 -18 Q0 -70 106 -18" stroke-width="3"/><path d="M-106 -18 Q0 74 106 -18" stroke-width="3.5"/><path d="M-44 46 l9 -13 M35 46 l9 -14" stroke-width="2.5" stroke-opacity="0.65"/><circle cx="-106" cy="-18" r="4" fill="L" stroke="none"/><circle cx="106" cy="-18" r="4" fill="L" stroke="none"/>',
+      // edge-to-edge clip grasping both leaflets
+      '<path d="M-140 -52 Q-64 -24 -16 14" stroke-width="3.5"/><path d="M140 -52 Q64 -24 16 14" stroke-width="3.5"/><path d="M-124 -34 Q-70 6 -26 0" stroke-opacity="0.35" stroke-width="2.5"/><path d="M124 -34 Q70 6 26 0" stroke-opacity="0.35" stroke-width="2.5"/><path d="M-16 14 L-11 32 M16 14 L11 32" stroke-width="3"/><rect x="-11" y="20" width="22" height="52" rx="5" fill="A" fill-opacity="0.25" stroke-width="3"/><path d="M0 72 V112" stroke-opacity="0.5" stroke-width="2.5"/>',
+      // annuloplasty ring, open D
+      '<path d="M-22 -102 Q-110 -86 -110 -8 Q-108 62 -42 84 Q32 102 86 62 Q118 32 108 -24" stroke-width="4"/><circle cx="-22" cy="-102" r="3.5" fill="A" stroke="none"/><circle cx="-82" cy="-64" r="3.5" fill="A" stroke="none"/><circle cx="-109" cy="-8" r="3.5" fill="A" stroke="none"/><circle cx="-88" cy="52" r="3.5" fill="A" stroke="none"/><circle cx="-20" cy="92" r="3.5" fill="A" stroke="none"/><circle cx="52" cy="88" r="3.5" fill="A" stroke="none"/><circle cx="100" cy="40" r="3.5" fill="A" stroke="none"/><circle cx="108" cy="-24" r="3.5" fill="A" stroke="none"/>'
+    ],
+    Tricuspid: [
+      // tricuspid valve, short axis — three unequal leaflets
+      '<circle r="118" stroke-width="3.5"/><circle r="140" stroke-dasharray="4 14" stroke-opacity="0.35"/><path d="M-31 -114 A118 118 0 0 1 107 50 L6 -4 Z" fill="A" fill-opacity="0.12" stroke="none"/><path d="M6 -4 Q-8 -60 -31 -114 M6 -4 Q60 14 107 50 M6 -4 Q-44 40 -97 68" stroke-width="3.5"/><circle cx="-31" cy="-114" r="4" fill="L" stroke="none"/><circle cx="107" cy="50" r="4" fill="L" stroke="none"/><circle cx="-97" cy="68" r="4" fill="L" stroke="none"/>',
+      // tricuspid edge-to-edge — clip between leaflets
+      '<path d="M-142 -58 Q-64 -30 -14 8 M142 -58 Q66 -30 20 4 M-24 118 Q-2 60 4 26" stroke-width="3.5"/><path d="M-14 8 L-8 26 M20 4 L14 24" stroke-width="3"/><rect x="-8" y="16" width="21" height="48" rx="5" fill="A" fill-opacity="0.25" stroke-width="3"/><path d="M2 64 Q2 96 22 112" stroke-opacity="0.5" stroke-width="2.5"/>'
+    ],
+    LAA: [
+      // appendage — windsock with pectinate ridges
+      '<path d="M-124 16 Q-136 -78 -44 -104 Q52 -128 96 -74 Q130 -32 100 -2 Q142 22 112 62 Q76 106 4 92 Q-92 118 -124 16 Z" fill="A" fill-opacity="0.1" stroke-width="3.5"/><path d="M-84 -44 Q-20 -58 44 -66 M-78 -12 Q-10 -22 58 -28 M-66 22 Q0 14 62 8 M-48 54 Q12 48 64 40" stroke-width="2" stroke-opacity="0.45"/><path d="M96 -74 Q66 -8 112 62" stroke-dasharray="3 10" stroke-opacity="0.5" stroke-width="2.5"/>',
+      // occluder plug, side view
+      '<ellipse cy="-44" rx="86" ry="20" fill="A" fill-opacity="0.15" stroke-width="3.5"/><path d="M-86 -44 Q-92 34 -46 58 M86 -44 Q92 34 46 58 M-46 58 Q0 74 46 58" stroke-width="3.5"/><path d="M-80 6 l-11 6 M80 6 l11 6 M-62 40 l-9 10 M62 40 l9 10" stroke-width="2.5"/><path d="M0 -66 V-46" stroke-width="3"/><circle cy="-73" r="5" fill="L" stroke="none"/>'
+    ],
+    Imaging: [
+      // echo sector with caliper
+      '<path d="M0 -128 L-116 92 A150 150 0 0 0 116 92 Z" fill="A" fill-opacity="0.08" stroke-opacity="0.6" stroke-width="3"/><path d="M-38 -56 A82 82 0 0 1 38 -56" stroke-opacity="0.5" stroke-width="2.5"/><path d="M-66 -8 A146 146 0 0 1 66 -8" stroke-opacity="0.32" stroke-width="2.5"/><path d="M-40 42 Q0 14 40 42" stroke-width="3.5"/><circle cx="-40" cy="42" r="4" fill="L" stroke="none"/><circle cx="40" cy="42" r="4" fill="L" stroke="none"/><path d="M-40 42 H40" stroke-dasharray="2 8" stroke-opacity="0.7" stroke-width="2"/>',
+      // spectral doppler under an ECG lead
+      '<path d="M-130 -76 H-74 L-62 -100 L-50 -58 L-42 -76 H130" stroke-width="2" stroke-opacity="0.55"/><path d="M-130 -20 H130" stroke-opacity="0.5" stroke-width="2.5"/><path d="M-98 -20 Q-86 74 -64 78 Q-46 74 -34 -20 Z" fill="A" fill-opacity="0.35" stroke-width="2.5"/><path d="M-18 -20 Q-6 78 16 82 Q34 78 46 -20 Z" fill="A" fill-opacity="0.35" stroke-width="2.5"/><path d="M62 -20 Q74 74 96 78 Q114 74 126 -20 Z" fill="A" fill-opacity="0.2" stroke-width="2.5" stroke-opacity="0.6"/>'
+    ],
+    Other: [
+      // arterial pressure trace with dicrotic notch
+      '<path d="M-130 60 H130" stroke-opacity="0.3" stroke-width="2"/><path d="M-130 58 H-96 C-88 58 -86 -52 -66 -52 C-52 -52 -54 -6 -44 -2 C-40 0 -38 -14 -30 -12 Q-16 -6 -8 42 L-4 58 H22 C30 58 32 -52 52 -52 C66 -52 64 -6 74 -2 C78 0 80 -14 88 -12 Q102 -6 110 42 L114 58 H130" stroke-width="3.5"/><circle cx="-44" cy="-2" r="4" fill="A" stroke="none"/><circle cx="74" cy="-2" r="4" fill="A" stroke="none"/>',
+      // J-tip guidewire
+      '<path d="M-136 64 Q-30 52 30 6" stroke-dasharray="3 10" stroke-opacity="0.4" stroke-width="2.5"/><path d="M-136 96 Q-40 84 18 40 Q84 -10 76 -58 Q70 -92 38 -86 Q10 -80 22 -54" stroke-width="3.5"/><circle cx="22" cy="-54" r="4.5" fill="L" stroke="none"/>',
+      // small heart contour over an ECG lead
+      '<g transform="scale(0.55)"><path d="M0 122 C-122 32 -152 -60 -82 -112 C-40 -142 0 -112 0 -70 C0 -112 40 -142 82 -112 C152 -60 122 32 0 122Z" fill="A" fill-opacity="0.14" stroke-width="6"/></g><path d="M-140 108 H-64 L-38 62 L-6 132 L18 108 H140" stroke-width="3" stroke-opacity="0.8"/>'
+    ]
   };
+  const TYPE_VARIANT = { journal:0, conference:0, news:0, guideline:2, social:2, regulatory:1, industry:1 };
   const LIGHT = 'rgba(243,238,228,0.9)';
   let ARTUID = 0;
-  function heroArt(topic, accent) {
+  function heroArt(topic, type) {
     const uid = 'a' + (ARTUID++);
-    const motif = (MOTIF[topic] || MOTIF.Other).replace(/"A"/g, '"' + accent + '"').replace(/"L"/g, '"' + LIGHT + '"');
+    const tone = ART_TONE[topic] || ART_TONE.Other;
+    const list = ELEMENTS[topic] || ELEMENTS.Other;
+    const vi = TYPE_VARIANT[type] || 0;
+    const motif = list[vi % list.length].replace(/"A"/g, '"' + tone + '"').replace(/"L"/g, '"' + LIGHT + '"');
     return '<svg viewBox="0 0 800 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">'
-      + '<defs><radialGradient id="rg' + uid + '" cx="30%" cy="26%" r="98%">'
-      + '<stop offset="0%" stop-color="' + accent + '" stop-opacity="0.6"/>'
-      + '<stop offset="42%" stop-color="' + accent + '" stop-opacity="0.15"/>'
+      + '<defs><radialGradient id="rg' + uid + '" cx="62%" cy="46%" r="80%">'
+      + '<stop offset="0%" stop-color="' + tone + '" stop-opacity="0.42"/>'
+      + '<stop offset="48%" stop-color="' + tone + '" stop-opacity="0.12"/>'
       + '<stop offset="100%" stop-color="#0c0d10" stop-opacity="1"/></radialGradient>'
-      + '<pattern id="dt' + uid + '" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="' + accent + '" fill-opacity="0.16"/></pattern></defs>'
+      + '<pattern id="dt' + uid + '" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="' + tone + '" fill-opacity="0.16"/></pattern></defs>'
       + '<rect width="800" height="560" fill="#101116"/><rect width="800" height="560" fill="url(#rg' + uid + ')"/><rect width="800" height="560" fill="url(#dt' + uid + ')"/>'
       + '<g transform="translate(516 300)" stroke="' + LIGHT + '" stroke-opacity="0.85" fill="none" stroke-linecap="round" stroke-linejoin="round">' + motif + '</g></svg>';
   }
@@ -875,14 +917,16 @@ tickTime(); setInterval(tickTime, 30000);
     const tp = TOPIC[it.topic] || TOPIC.Other;
     return { sm, ty, tp, accent: SEAL };
   }
-  const TOPIC_IMG = { TAVI: 'aortic', Mitral: 'mitral', Tricuspid: 'tricuspid', LAA: 'laa', Imaging: 'imaging', Other: 'heart' };
-  function mediaEl(it, accent) {
+  function mediaEl(it) {
     const m = document.createElement('div');
-    const src = it.image || ('pulse/img/topics/' + (TOPIC_IMG[it.topic] || 'heart') + '.png');
-    const im = document.createElement('img'); im.src = src; im.alt = ''; im.loading = 'lazy';
-    im.addEventListener('error', () => { m.innerHTML = heroArt(it.topic, accent); });
-    m.append(im);
-    if (it.image && it.image_credit) { const c = document.createElement('span'); c.className = 'card-credit'; c.textContent = it.image_credit; m.append(c); }
+    if (it.image) {
+      const im = document.createElement('img'); im.src = it.image; im.alt = ''; im.loading = 'lazy';
+      im.addEventListener('error', () => { m.innerHTML = heroArt(it.topic, it.type); });
+      m.append(im);
+      if (it.image_credit) { const c = document.createElement('span'); c.className = 'card-credit'; c.textContent = it.image_credit; m.append(c); }
+    } else {
+      m.innerHTML = heroArt(it.topic, it.type);
+    }
     return m;
   }
   function dstr(it, day) { return (it.date || day.date || '').slice(5).replace('-', '/'); }
@@ -890,7 +934,7 @@ tickTime(); setInterval(tickTime, 30000);
   function heroCard(it, day) {
     const c = ctx(it);
     const a = document.createElement('a'); a.className = 'card hero-card'; a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; a.style.setProperty('--acc', c.accent);
-    const media = mediaEl(it, c.accent); media.className = 'hero-media';
+    const media = mediaEl(it); media.className = 'hero-media';
     const top = document.createElement('span'); top.className = 'card-top';
     const inr = document.createElement('div'); inr.className = 'hero-in';
     const kick = document.createElement('div'); kick.className = 'hero-kick';
@@ -912,7 +956,7 @@ tickTime(); setInterval(tickTime, 30000);
   function featureCard(it, day) {
     const c = ctx(it);
     const a = document.createElement('a'); a.className = 'card feature'; a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; a.style.setProperty('--acc', c.accent);
-    const media = mediaEl(it, c.accent); media.className = 'feat-media';
+    const media = mediaEl(it); media.className = 'feat-media';
     const top = document.createElement('span'); top.className = 'card-top';
     media.append(top);
     const body = document.createElement('div'); body.className = 'feat-body';
