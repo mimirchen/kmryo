@@ -1,0 +1,65 @@
+{
+ "date": "2026-07-21",
+ "items": [
+  {
+   "date": "2026-07-21",
+   "title": "First Large Comprehensive Core-Laboratory Evaluation of Implantation Depth and Clinical Outcomes in TAVR: Final Global Results From the Optimize PRO Prospective Study",
+   "title_zh": "Optimize PRO 研究终期结果:TAVR 置入深度的核心实验室评估与临床结局",
+   "summary_zh": "Optimize PRO 是一项覆盖美国、加拿大、欧洲、中东与澳大利亚 50 家中心的前瞻性研究,对 603 例经股 TAVR(Evolut PRO/PRO+ 平台)患者按核心实验室判读的瓣膜置入深度分为 <1mm(88 例)、1-3mm(196 例)、3-5mm(170 例)、>5mm(149 例)四组。结果显示置入深度与新发永久起搏器植入率呈明显量效关系:<1mm 组仅 2.3%,1-3mm 组 9.2%,3-5mm 组 15.9%,>5mm 组高达 20.3%(P<0.001),提示更浅的瓣膜置入位置可显著降低术后起搏器需求,为优化 TAVR 置入技术提供了迄今最大规模的核心实验室证据。",
+   "summary_en": "The prospective Optimize PRO study, spanning 50 centers across the US, Canada, Europe, the Middle East, and Australia, core-lab-adjudicated implant depth in 603 transfemoral TAVR patients (Evolut PRO/PRO+) across four strata (<1mm, 1-3mm, 3-5mm, >5mm). New permanent pacemaker rates rose steeply with deeper implantation — 2.3%, 9.2%, 15.9%, and 20.3% respectively (P<.001) — providing the largest core-laboratory dataset yet showing that shallower implant depth meaningfully reduces post-TAVR pacemaker need.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.007"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Twenty-Year Follow-Up After Patent Foramen Ovale Closure in Patients With Paradoxical Embolism",
+   "title_zh": "卵圆孔未闭(PFO)封堵术后 20 年随访:矛盾性栓塞人群的长期安全性与有效性",
+   "summary_zh": "该研究对 2001-2006 年间因 PFO 相关卒中(91 例)、TIA(45 例)或外周栓塞(1 例)接受经导管 PFO 封堵的 130 例患者进行了长达 20 年的随访,是目前 PFO 封堵领域随访时间最长的队列之一。随访期内 20 例(15.3%)患者死亡(12.2% 为非心血管原因死亡),复发缺血事件极为罕见:仅 1 例卒中(0.04/100 患者-年)与 6 例 TIA(0.25/100 患者-年),证实经导管 PFO 封堵在矛盾性栓塞人群中具有稳定的超长期安全性与有效性。",
+   "summary_en": "This single-center cohort followed 130 patients who underwent transcatheter PFO closure between 2001 and 2006 for a PFO-associated stroke (n=91), TIA (n=45), or peripheral embolism (n=1) for up to 20 years — among the longest follow-up periods reported for PFO closure. Twenty patients (15.3%) died (12.2% from non-cardiovascular causes), while recurrent ischemic events were rare: just 1 stroke (0.04 per 100 patient-years) and 6 TIAs (0.25 per 100 patient-years), confirming durable very-long-term safety and efficacy of PFO closure for paradoxical embolism.",
+   "source": "JAMA Cardiology",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2845593"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "FTC Secures $12 Million in Penalties for Pre-Merger Reporting Act Violations",
+   "title_zh": "FTC 对爱德华兹生命科学收购 JC Medical 交易开出创纪录 1200 万美元 HSR 未申报罚单",
+   "summary_zh": "美国联邦贸易委员会(FTC)与司法部 7 月 13 日宣布,爱德华兹生命科学(Edwards Lifesciences)2024 年以 1.15 亿美元收购治疗主动脉瓣反流的经导管瓣膜企业 JC Medical 时,通过把交易价刻意压在《哈特-斯科特-罗迪诺法》(HSR)1.195 亿美元申报门槛之下、并将对卖方 Genesis MedTech 的 2500 万美元投资拆分为'独立'交易处理,规避了并购前申报与等待期义务;Edwards/JC Medical 与 Genesis MedTech 将分别支付 1000 万与 200 万美元、合计 1200 万美元罚款,创下医疗器械行业 HSR 未申报罚单纪录。收购 JC Medical 次日,Edwards 即着手收购其唯一竞争对手 JenaValve(Trilogy 瓣膜),该交易已于 2026 年 1 月被法院初步禁令叫停。",
+   "summary_en": "The FTC and DOJ announced on July 13, 2026 a record $12 million settlement — $10 million from Edwards Lifesciences/JC Medical and $2 million from Genesis MedTech — over Edwards' 2024 acquisition of aortic-regurgitation TAVR maker JC Medical, which was structured (a $115M deal price kept just under the $119.5M HSR threshold, paired with a separately-booked $25M investment in Genesis MedTech) to evade Hart-Scott-Rodino premerger notification — the largest-ever penalty for HSR filing avoidance. Edwards had moved to acquire JC Medical's only rival, JenaValve (Trilogy valve), the very next day, a deal a federal court preliminarily blocked in January 2026.",
+   "source": "Federal Trade Commission",
+   "type": "regulatory",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Incidence, Clinical Implications, and Predictors of Paravalvular Leak Following Transcatheter Tricuspid Valve Replacement: The TRIPLACE Registry",
+   "title_zh": "TRIPLACE 注册研究:经导管三尖瓣置换(TTVR)术后瓣周漏发生率及其预后意义",
+   "summary_zh": "TRIPLACE 全球多中心注册研究纳入 394 例接受经导管三尖瓣置换(TTVR)的患者,发现术后中重度瓣周漏(PVL)发生率为 6.1%(24 例),轻度 22.3%(88 例),无/微量 71.6%(282 例);中重度 PVL 与更高的 1 年全因死亡率及更差的 NYHA 心功能分级(III/IV 级)独立相关。右心房容积增大、瓣膜位置偏移(malposition)及 IV 型瓣环解剖形态是发生中重度 PVL 的主要预测因素,为优化患者筛选与置入技术提供依据。",
+   "summary_en": "The multicentre TRIPLACE registry of 394 transcatheter tricuspid valve replacement (TTVR) patients found moderate-or-severe paravalvular leak (PVL) in 6.1% (n=24), mild PVL in 22.3% (n=88), and none/trace in 71.6% (n=282); moderate-or-severe PVL was independently associated with higher 1-year mortality and worse NYHA functional class. Larger right atrial volume, device malposition, and type IV annular morphology were the main predictors, informing patient selection and implantation technique.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.01.281"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Clinical Outcomes of Transfemoral Transcatheter Mitral Valve Replacement: Results From the CHOICE-MI Registry",
+   "title_zh": "CHOICE-MI 注册研究:经股静脉入路经导管二尖瓣置换(TMVR)临床结局",
+   "summary_zh": "CHOICE-MI 是一项国际多中心注册研究,纳入全球 41 家中心共 124 例接受经股静脉专用器械二尖瓣置换(TF-TMVR,涉及 9 种不同装置)的患者(中位年龄 79 岁,女性占 50%,EuroSCORE II 5.0%)。手术技术成功率达 91%,操作相关死亡率仅 0.8%;出院时 95% 患者残余二尖瓣反流≤1+,该获益在 2 年随访中总体维持,为二尖瓣解剖不适合缘对缘修复(TEER)或外科手术的患者提供了经股入路 TMVR 的多器械汇总证据。",
+   "summary_en": "The international CHOICE-MI registry enrolled 124 patients (median age 79, 50% women, EuroSCORE II 5.0%) across 41 centers worldwide who underwent transfemoral transcatheter mitral valve replacement (TF-TMVR) with 9 different dedicated devices. Technical success was 91% with 0.8% procedural mortality; 95% of patients had residual mitral regurgitation ≤1+ at discharge, a benefit largely sustained through 2-year follow-up — pooled multi-device evidence for transfemoral TMVR in patients unsuitable for TEER or surgery.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.003"
+  }
+ ]
+}
