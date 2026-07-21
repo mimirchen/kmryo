@@ -160,8 +160,8 @@ def build(items, ndays, year):
       <span style="font:400 13px/1 Arial,sans-serif;color:{MUTED};">&nbsp; the AI-curated structural-heart front page, updated daily</span>
     </div>
     <div style="padding:18px 0 0;">
-      <a href="{SUPPORT_URL}" style="font:600 13px/1 Arial,sans-serif;color:{SEAL};text-decoration:none;">&#9749; Support this briefing &rsaquo;</a>
-      <span style="font:400 12px/1 Arial,sans-serif;color:#9a968c;">&nbsp; it keeps the daily curation running</span>
+      <a href="{SUPPORT_URL}" style="font:600 13px/1 Arial,sans-serif;color:{SEAL};text-decoration:none;">&#9749; Buy the 5 a.m. espresso &rsaquo;</a>
+      <span style="font:400 12px/1 Arial,sans-serif;color:#9a968c;">&nbsp; this briefing is brewed beside one every morning — the briefing is free, the espresso isn't</span>
     </div>
     <div style="padding:20px 0 0;font:400 12px/1.5 Arial,sans-serif;color:#9a968c;">
       You are receiving this because you subscribed at kmryo.com. Not medical advice.

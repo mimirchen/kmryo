@@ -496,8 +496,29 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
 .bd-row button:hover { background: var(--seal); transform: translateY(-1px); }
 .bd-fine { color: var(--muted); font-size: 0.8rem; margin-top: 0.85rem; opacity: 0.8; }
 .bd-msg { font-size: 0.9rem; margin-top: 0.85rem; min-height: 1.2em; }
-.bd-support { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.5rem; background: var(--seal-deep); color: var(--cream); border-radius: 999px; padding: 0.6rem 1.25rem; font-size: 0.92rem; font-weight: 600; transition: background 0.2s, transform 0.15s; }
-.bd-support:hover { background: var(--seal); transform: translateY(-1px); }
+
+/* ---- support: the 5 a.m. espresso ---- */
+.sup-block { display: grid; grid-template-columns: 96px 1fr; gap: 1.1rem; align-items: center; margin-top: 0.9rem; padding: 1.1rem 1.2rem; border: 1px solid var(--hair-soft); border-radius: 10px; background: var(--bg-2); }
+.sup-art svg { width: 96px; height: auto; display: block; overflow: visible; }
+.sup-cup { transform-box: view-box; transform-origin: 74px 32px; animation: supTilt 5.5s ease-in-out infinite; }
+.sup-drop { opacity: 0; animation: supDrop 5.5s ease-in infinite; }
+.sup-dp2 { animation-delay: 0.14s; } .sup-dp3 { animation-delay: 0.26s; }
+.sup-level { transform-box: view-box; transform-origin: 60px 140px; transform: scaleY(0.42); animation: supLevel 5.5s ease-in-out infinite; }
+.sup-steam { opacity: 0.7; animation: supSteam 2.6s ease-in-out infinite; }
+.sup-st2 { animation-delay: 1.1s; }
+@keyframes supTilt { 0%, 52%, 92%, 100% { transform: rotate(0deg); } 62%, 82% { transform: rotate(-24deg); } }
+@keyframes supDrop { 0%, 60% { opacity: 0; transform: translateY(0); } 64% { opacity: 1; } 76% { opacity: 1; transform: translateY(22px); } 80%, 100% { opacity: 0; transform: translateY(24px); } }
+@keyframes supLevel { 0%, 60% { transform: scaleY(0.42); } 85%, 92% { transform: scaleY(0.52); } 100% { transform: scaleY(0.42); } }
+@keyframes supSteam { 0%, 100% { opacity: 0.2; transform: translateY(0); } 50% { opacity: 0.8; transform: translateY(-2.5px); } }
+html.reduced .sup-cup, html.reduced .sup-drop, html.reduced .sup-level, html.reduced .sup-steam { animation: none; }
+.sup-story { font-size: 0.92rem; line-height: 1.55; color: var(--cream); opacity: 0.92; }
+.sup-tiers { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.7rem; }
+.sup-tier { display: inline-flex; align-items: center; gap: 0.45rem; border: 1px solid var(--hair); border-radius: 999px; padding: 0.5rem 0.95rem; font-size: 0.88rem; color: var(--cream); transition: border-color 0.2s, background 0.2s, transform 0.15s; }
+.sup-tier .t-amt { color: var(--muted); font-size: 0.8rem; }
+.sup-tier:hover { background: var(--seal-deep); border-color: var(--seal-deep); transform: translateY(-1px); }
+.sup-tier:hover .t-amt { color: var(--cream); }
+.sup-fine { margin-top: 0.6rem; font-size: 0.76rem; color: var(--muted); opacity: 0.85; }
+@media (max-width: 520px) { .sup-block { grid-template-columns: 1fr; } .sup-art { display: none; } }
 .bd-msg.ok { color: var(--cream); }
 .bd-msg.warn { color: var(--seal); }
 @media (max-width: 720px) { .brief-in { grid-template-columns: 1fr; gap: 1.4rem; } }
@@ -525,7 +546,7 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
       <a href="/about#services"><span class="en">Consulting</span><span class="zh">咨询</span></a>
       <a href="/cardioai"><span class="en">CardioAI</span><span class="zh">CardioAI</span></a>
       <a href='/atelier'><span class="en">Atelier</span><span class="zh">画廊</span></a>
-      <a class="nav-support" id="navSupport" href="#" target="_blank" rel="noopener" hidden>&#9749; <span class="en">Support the Briefing</span><span class="zh">支持简报</span></a>
+      <a class="nav-support" id="navSupport" href="#" target="_blank" rel="noopener" hidden>&#9749; <span class="en">Buy the 5 a.m. espresso</span><span class="zh">请杯清晨的咖啡</span></a>
     </nav>
     <button class="lang-toggle magnetic" id="langToggle" aria-label="Switch language">中文</button>
   </div>
@@ -589,7 +610,34 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
           </form>
           <p class="bd-fine"><span class="en">Free · English · Weekly + monthly + yearly · Unsubscribe anytime. No spam, ever.</span><span class="zh">免费 · 英文 · 周报+月报+年报 · 随时一键退订。绝不发垃圾邮件。</span></p>
           <p class="bd-msg" id="bdMsg" role="status" aria-live="polite"></p>
-          <a class="bd-support" id="bdSupport" href="#" target="_blank" rel="noopener" hidden>&#9749; <span class="en">Reader-supported — buy me a coffee</span><span class="zh">读者供养 —— 请我一杯咖啡</span> <span aria-hidden="true">›</span></a>
+          <div class="sup-block">
+            <div class="sup-art" aria-hidden="true">
+              <svg viewBox="0 0 120 150" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="60" cy="141" rx="50" ry="6" fill="#000" opacity="0.25"/>
+                <clipPath id="supBottleClip"><path d="M43.5 66 Q18 72 18 102 Q18 130 38 137 Q48 140 60 140 Q72 140 82 137 Q102 130 102 102 Q102 72 76.5 66 L76.5 54 Q76.5 50 72.5 50 L47.5 50 Q43.5 50 43.5 54 Z"/></clipPath>
+                <g clip-path="url(#supBottleClip)"><rect class="sup-level" x="14" y="50" width="92" height="90" fill="#6F4E37" opacity="0.85"/></g>
+                <path d="M43.5 66 Q18 72 18 102 Q18 130 38 137 Q48 140 60 140 Q72 140 82 137 Q102 130 102 102 Q102 72 76.5 66 L76.5 54 Q76.5 50 72.5 50 L47.5 50 Q43.5 50 43.5 54 Z" fill="#A69D8F" fill-opacity="0.45" stroke="#D8D3CA" stroke-width="2.5" stroke-linejoin="round"/>
+                <circle class="sup-drop sup-dp1" cx="60" cy="34" r="3.4" fill="#6F4E37"/>
+                <circle class="sup-drop sup-dp2" cx="63" cy="34" r="2.6" fill="#6F4E37"/>
+                <circle class="sup-drop sup-dp3" cx="57" cy="34" r="2.2" fill="#6F4E37"/>
+                <g class="sup-cup">
+                  <path d="M40 8 L76 8 Q78 8 77.6 10 L74 30 Q73.6 32 71.5 32 L44.5 32 Q42.4 32 42 30 L38.4 10 Q38 8 40 8 Z" fill="#F3EEE4" stroke="#CE4A33" stroke-width="2.5" stroke-linejoin="round"/>
+                  <path d="M77 12 Q88 12 86 20 Q84.4 26.5 74.5 25.5" fill="none" stroke="#CE4A33" stroke-width="2.5" stroke-linecap="round"/>
+                  <path class="sup-steam sup-st1" d="M52 2 Q54 -3 52 -8" fill="none" stroke="#9C9C93" stroke-width="1.8" stroke-linecap="round"/>
+                  <path class="sup-steam sup-st2" d="M62 3 Q64 -2 62 -7" fill="none" stroke="#9C9C93" stroke-width="1.8" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <div class="sup-copy">
+              <p class="sup-story"><span class="en">Brewed at 5 a.m. in Zürich, alongside an espresso. The briefing is free — the espresso isn't.</span><span class="zh">每天清晨五点,这份简报和一杯浓缩咖啡一起在苏黎世煮出来。简报永远免费,咖啡不免费。</span></p>
+              <div class="sup-tiers">
+                <a class="sup-tier" id="supEspresso" href="#" target="_blank" rel="noopener">☕ <span class="t-name"><span class="en">Espresso</span><span class="zh">一杯浓缩</span></span><span class="t-amt">CHF 5</span></a>
+                <a class="sup-tier" id="supDouble" href="#" target="_blank" rel="noopener">🫀 <span class="t-name"><span class="en">Night-shift double</span><span class="zh">夜班双份</span></span><span class="t-amt">CHF 15</span></a>
+                <a class="sup-tier" id="supBottle" href="#" target="_blank" rel="noopener">🏺 <span class="t-name"><span class="en">Name a bottle</span><span class="zh">认领一只瓶子</span></span><span class="t-amt">CHF 50</span></a>
+              </div>
+              <p class="sup-fine"><span class="en">One-off, via Stripe. A little thank-you gift waits on the other side. ☺</span><span class="zh">一次性,Stripe 安全支付。付完有一份小谢礼等你。☺</span></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -604,7 +652,7 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
           <p><span class="en">Curated from inside the Zurich hybrid room by <b>Dr. Mi Chen</b> — structural heart interventionist, cardiac surgeon, co-founder of CardioAI.</span><span class="zh">由 <b>陈密医生</b> 在苏黎世复合手术室内部策展 —— 结构性心脏病介入医生、心脏外科医生、CardioAI 联合创始人。</span></p>
         </div>
         <div class="foot-cta-actions">
-          <a class="kofi" id="kofiLink" href="#" target="_blank" rel="noopener" hidden>☕ <span class="en">Support this briefing</span><span class="zh">支持这份简报</span></a>
+          <a class="kofi" id="kofiLink" href="#" target="_blank" rel="noopener" hidden>☕ <span class="en">Buy the 5 a.m. espresso</span><span class="zh">请一杯清晨五点的浓缩</span></a>
           <a class="pill magnetic" href="/about"><span class="en">About &amp; consulting ↗</span><span class="zh">关于与咨询 ↗</span></a>
         </div>
       </div>
@@ -755,11 +803,21 @@ tickTime(); setInterval(tickTime, 30000);
 /* ---- Support / tip (Ko-fi) ---- */
 (function () {
   // Support/tip URL (Stripe Payment Link). Empty = hidden.
-  const KOFI_URL = "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00";
-  for (const id of ['kofiLink', 'navSupport', 'bdSupport']) {
-    const el = document.getElementById(id);
-    if (el && KOFI_URL) { el.href = KOFI_URL; el.hidden = false; }
-  }
+  // Three Stripe Payment Links (5 / 15 / 50 CHF). Until the 15/50 links are
+  // created in the Stripe dashboard, all tiers fall back to the original link.
+  // After payment, each link should redirect to https://www.kmryo.com/thanks
+  // (Payment Link → Confirmation page → redirect) so supporters get the gift.
+  const SUPPORT_LINKS = {
+    espresso: "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00",
+    double:   "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00",
+    bottle:   "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00"
+  };
+  const wire = (id, url) => { const el = document.getElementById(id); if (el && url) { el.href = url; el.hidden = false; } };
+  wire('kofiLink', SUPPORT_LINKS.espresso);
+  wire('navSupport', SUPPORT_LINKS.espresso);
+  wire('supEspresso', SUPPORT_LINKS.espresso);
+  wire('supDouble', SUPPORT_LINKS.double);
+  wire('supBottle', SUPPORT_LINKS.bottle);
 })();
 
 /* ---- Subscribe (Buttondown) ---- */
