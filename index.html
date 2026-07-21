@@ -635,11 +635,11 @@ html.reduced .sup-cup, html.reduced .sup-drop, html.reduced .sup-level, html.red
             <div class="sup-copy">
               <p class="sup-story"><span class="en">Brewed at 5 a.m. in Zürich, alongside an espresso. The briefing is free — the espresso isn't.</span><span class="zh">每天清晨五点,这份简报和一杯浓缩咖啡一起在苏黎世煮出来。简报永远免费,咖啡不免费。</span></p>
               <div class="sup-tiers">
-                <a class="sup-tier" id="supEspresso" href="#" target="_blank" rel="noopener">☕ <span class="t-name"><span class="en">Espresso</span><span class="zh">一杯浓缩</span></span><span class="t-amt">CHF 5</span></a>
-                <a class="sup-tier" id="supDouble" href="#" target="_blank" rel="noopener">🫀 <span class="t-name"><span class="en">Night-shift double</span><span class="zh">夜班双份</span></span><span class="t-amt">CHF 15</span></a>
-                <a class="sup-tier" id="supBottle" href="#" target="_blank" rel="noopener">🏺 <span class="t-name"><span class="en">Name a bottle</span><span class="zh">认领一只瓶子</span></span><span class="t-amt">CHF 50</span></a>
+                <a class="sup-tier" id="supEspresso" href="#" target="_blank" rel="noopener">☕ <span class="t-name"><span class="en">Espresso</span><span class="zh">一杯浓缩</span></span><span class="t-amt"><span class="en">CHF 5</span><span class="zh">CHF 5 · ¥40</span></span></a>
+                <a class="sup-tier" id="supDouble" href="#" target="_blank" rel="noopener">🫀 <span class="t-name"><span class="en">Night-shift double</span><span class="zh">夜班双份</span></span><span class="t-amt"><span class="en">CHF 15</span><span class="zh">CHF 15 · ¥120</span></span></a>
+                <a class="sup-tier" id="supBottle" href="#" target="_blank" rel="noopener">🏺 <span class="t-name"><span class="en">Name a bottle</span><span class="zh">认领一只瓶子</span></span><span class="t-amt"><span class="en">CHF 50</span><span class="zh">CHF 50 · ¥400</span></span></a>
               </div>
-              <p class="sup-fine"><span class="en">One-off, via Stripe. A little thank-you gift waits on the other side. ☺</span><span class="zh">一次性,Stripe 安全支付。付完有一份小谢礼等你。☺</span></p>
+              <p class="sup-fine"><span class="en">One-off, via Stripe. A little thank-you gift waits on the other side. ☺</span><span class="zh">一次性,Stripe 安全支付,中文页面以人民币结算。付完有一份小谢礼等你。☺</span></p>
             </div>
           </div>
         </div>
@@ -807,20 +807,26 @@ tickTime(); setInterval(tickTime, 30000);
 /* ---- Support / tip (Ko-fi) ---- */
 (function () {
   // Support/tip URL (Stripe Payment Link). Empty = hidden.
-  // Three Stripe Payment Links (5 / 15 / 50 CHF, fixed). All redirect to /thanks
+  // Stripe Payment Links per tier: CHF is the house currency; the Chinese view
+  // checks out in CNY instead (¥40/¥120/¥400). All six links redirect to /thanks
   // after payment. The original pay-what-you-want link (…cEw00) stays active for
   // old bookmarks and also redirects to /thanks.
   const SUPPORT_LINKS = {
-    espresso: "https://buy.stripe.com/aFa14pdhQ7Vj74e9wGcEw01",
-    double:   "https://buy.stripe.com/dRm6oJ7Xwb7v0FQgZ8cEw02",
-    bottle:   "https://buy.stripe.com/3cIeVfdhQ3F34W638icEw03"
+    espresso: { chf: "https://buy.stripe.com/aFa14pdhQ7Vj74e9wGcEw01", cny: "https://buy.stripe.com/8x200lcdMdfD88ibEOcEw04" },
+    double:   { chf: "https://buy.stripe.com/dRm6oJ7Xwb7v0FQgZ8cEw02", cny: "https://buy.stripe.com/9B63cxfpY2AZ2NYbEOcEw05" },
+    bottle:   { chf: "https://buy.stripe.com/3cIeVfdhQ3F34W638icEw03", cny: "https://buy.stripe.com/eVq9AV91A1wVbku24ecEw06" }
   };
-  const wire = (id, url) => { const el = document.getElementById(id); if (el && url) { el.href = url; el.hidden = false; } };
-  wire('kofiLink', SUPPORT_LINKS.espresso);
-  wire('navSupport', SUPPORT_LINKS.espresso);
-  wire('supEspresso', SUPPORT_LINKS.espresso);
-  wire('supDouble', SUPPORT_LINKS.double);
-  wire('supBottle', SUPPORT_LINKS.bottle);
+  const TIER_IDS = { kofiLink: 'espresso', navSupport: 'espresso', supEspresso: 'espresso', supDouble: 'double', supBottle: 'bottle' };
+  function applySupportLinks() {
+    const cur = document.documentElement.dataset.lang === 'zh' ? 'cny' : 'chf';
+    for (const [id, tier] of Object.entries(TIER_IDS)) {
+      const el = document.getElementById(id);
+      if (el) { el.href = SUPPORT_LINKS[tier][cur]; el.hidden = false; }
+    }
+  }
+  applySupportLinks();
+  new MutationObserver(applySupportLinks)
+    .observe(document.documentElement, { attributes: true, attributeFilter: ['data-lang'] });
 })();
 
 /* ---- Subscribe (Buttondown) ---- */
