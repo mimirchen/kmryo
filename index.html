@@ -142,6 +142,9 @@ html.reduced #cursor { display: none; }
 }
 .nav-links a:hover { color: var(--cream); }
 .nav-links a:hover::after { transform: translateX(-50%) scale(1); }
+.nav-links a.nav-support { background: var(--seal-deep); color: var(--cream); border-radius: 999px; padding: 0.42rem 1rem; font-weight: 600; transition: background 0.2s, transform 0.15s; }
+.nav-links a.nav-support::after { display: none; }
+.nav-links a.nav-support:hover { background: var(--seal); transform: translateY(-1px); }
 .lang-toggle {
   border: 1px solid var(--hair); border-radius: 999px; padding: 0.35rem 1rem;
   font-size: 0.85rem; color: var(--cream); transition: border-color 0.25s ease, background 0.25s ease;
@@ -493,6 +496,8 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
 .bd-row button:hover { background: var(--seal); transform: translateY(-1px); }
 .bd-fine { color: var(--muted); font-size: 0.8rem; margin-top: 0.85rem; opacity: 0.8; }
 .bd-msg { font-size: 0.9rem; margin-top: 0.85rem; min-height: 1.2em; }
+.bd-support { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.5rem; background: var(--seal-deep); color: var(--cream); border-radius: 999px; padding: 0.6rem 1.25rem; font-size: 0.92rem; font-weight: 600; transition: background 0.2s, transform 0.15s; }
+.bd-support:hover { background: var(--seal); transform: translateY(-1px); }
 .bd-msg.ok { color: var(--cream); }
 .bd-msg.warn { color: var(--seal); }
 @media (max-width: 720px) { .brief-in { grid-template-columns: 1fr; gap: 1.4rem; } }
@@ -520,6 +525,7 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
       <a href="/about#services"><span class="en">Consulting</span><span class="zh">咨询</span></a>
       <a href="/cardioai"><span class="en">CardioAI</span><span class="zh">CardioAI</span></a>
       <a href='/atelier'><span class="en">Atelier</span><span class="zh">画廊</span></a>
+      <a class="nav-support" id="navSupport" href="#" target="_blank" rel="noopener" hidden>&#9749; <span class="en">Support the Briefing</span><span class="zh">支持简报</span></a>
     </nav>
     <button class="lang-toggle magnetic" id="langToggle" aria-label="Switch language">中文</button>
   </div>
@@ -574,15 +580,16 @@ html[data-lang="zh"] .brief h2 { font-family: "Noto Serif SC",serif; font-style:
         <div class="brief-copy">
           <span class="brief-kick"><span class="en">The Monday Briefing</span><span class="zh">周一简报</span></span>
           <h2><span class="en">The week's structural-heart signal, in one email.</span><span class="zh">一封邮件,收下本周结构心的关键信号。</span></h2>
-          <p class="brief-sub"><span class="en">Every Monday: the highest-impact trials, late-breakers and device news of the week — curated from inside the Zurich hybrid room. One email. No noise.</span><span class="zh">每周一:本周影响力最高的临床试验、late-breaking 与器械动态 —— 由苏黎世复合手术室内部策展。一封邮件,绝无噪音。(周报为英文)</span></p>
+          <p class="brief-sub"><span class="en">Every Monday: the highest-impact trials, late-breakers and device news of the week — curated from inside the Zurich hybrid room. Plus a monthly digest and a year-in-review. One email at a time. No noise.</span><span class="zh">每周一:本周影响力最高的临床试验、late-breaking 与器械动态 —— 由苏黎世复合手术室内部策展。另有每月精选与年度回顾。一封邮件,绝无噪音。(简报为英文)</span></p>
         </div>
         <div class="brief-form">
           <form class="bd-row" id="bdForm" method="post" target="popupwindow" novalidate>
             <input type="email" name="email" id="bdEmail" placeholder="you@hospital.org" autocomplete="email" required>
             <button type="submit"><span class="en">Subscribe</span><span class="zh">订阅</span></button>
           </form>
-          <p class="bd-fine"><span class="en">Free · English · Unsubscribe anytime. No spam, ever.</span><span class="zh">免费 · 英文 · 随时一键退订。绝不发垃圾邮件。</span></p>
+          <p class="bd-fine"><span class="en">Free · English · Weekly + monthly + yearly · Unsubscribe anytime. No spam, ever.</span><span class="zh">免费 · 英文 · 周报+月报+年报 · 随时一键退订。绝不发垃圾邮件。</span></p>
           <p class="bd-msg" id="bdMsg" role="status" aria-live="polite"></p>
+          <a class="bd-support" id="bdSupport" href="#" target="_blank" rel="noopener" hidden>&#9749; <span class="en">Reader-supported — buy me a coffee</span><span class="zh">读者供养 —— 请我一杯咖啡</span> <span aria-hidden="true">›</span></a>
         </div>
       </div>
     </div>
@@ -749,8 +756,10 @@ tickTime(); setInterval(tickTime, 30000);
 (function () {
   // Support/tip URL (Stripe Payment Link). Empty = hidden.
   const KOFI_URL = "https://buy.stripe.com/aFa6oJ91Ab7v88i38icEw00";
-  const el = document.getElementById('kofiLink');
-  if (el && KOFI_URL) { el.href = KOFI_URL; el.hidden = false; }
+  for (const id of ['kofiLink', 'navSupport', 'bdSupport']) {
+    const el = document.getElementById(id);
+    if (el && KOFI_URL) { el.href = KOFI_URL; el.hidden = false; }
+  }
 })();
 
 /* ---- Subscribe (Buttondown) ---- */

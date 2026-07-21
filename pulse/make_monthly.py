@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
-"""Assemble the week's top structural-heart items into an English HTML email.
+"""Assemble the month's top structural-heart items into an English HTML email.
 
-Usage:  python3 pulse/make_weekly.py [YYYY-MM-DD]
-        (any date inside the target ISO week; defaults to the latest day in manifest)
+Usage:  python3 pulse/make_monthly.py [YYYY-MM | YYYY-MM-DD]
+        (any date inside the target month; defaults to the latest day in manifest)
 
-Reads pulse/data/*.json, selects every item whose date falls in that ISO week,
-ranks them (journal impact + weight + type, same scoring as the share card),
-and writes:
-    pulse/weekly/YYYY-Www.html   — the email body (inline-styled, email-client-safe)
+Reads pulse/data/*.json, selects every item whose date falls in that calendar
+month, ranks them (journal impact + weight + type, same scoring as the share
+card), and writes:
+    pulse/monthly/YYYY-MM.html   — the email body (inline-styled, email-client-safe)
 and prints a suggested subject line to stdout as `SUBJECT: ...`.
 
-No secrets, no network. The weekly cloud agent runs this, then POSTs the HTML to
-Buttondown with the API key from its environment (see pulse/AGENT-WEEKLY.md).
+No secrets, no network. The monthly cloud agent runs this, then POSTs the HTML
+to Buttondown with its API key (see pulse/AGENT-MONTHLY.md).
 """
 import json, os, sys, html as _html
-from datetime import date, datetime, timedelta
+from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # website/
 DATA = os.path.join(ROOT, "pulse", "data")
-OUT = os.path.join(ROOT, "pulse", "weekly")
+OUT = os.path.join(ROOT, "pulse", "monthly")
 os.makedirs(OUT, exist_ok=True)
 
 # palette (light editorial — safest across email clients)
@@ -37,41 +37,30 @@ def score(it):
 def esc(t): return _html.escape(t or "", quote=True)
 
 def load_days():
-    mpath = os.path.join(DATA, "manifest.json")
-    m = json.load(open(mpath))
+    m = json.load(open(os.path.join(DATA, "manifest.json")))
     return sorted(m.get("days", []))
 
-def target_week(arg, days):
+def target_month(arg, days):
     if arg:
-        d = datetime.strptime(arg, "%Y-%m-%d").date()
+        d = datetime.strptime(arg[:7], "%Y-%m").date().replace(day=1)
     elif days:
-        d = datetime.strptime(days[-1], "%Y-%m-%d").date()
+        d = datetime.strptime(days[-1], "%Y-%m-%d").date().replace(day=1)
     else:
         raise SystemExit("no data days available")
-    iso = d.isocalendar()  # (year, week, weekday)
-    return iso[0], iso[1]
+    return d.year, d.month
 
-def gather(days, year, week):
-    items = []
+def gather(days, year, month):
+    items, ndays = [], 0
     for ds in days:
         d = datetime.strptime(ds, "%Y-%m-%d").date()
-        iso = d.isocalendar()
-        if iso[0] == year and iso[1] == week:
+        if d.year == year and d.month == month:
+            ndays += 1
             day = json.load(open(os.path.join(DATA, ds + ".json")))
             for it in day.get("items", []):
                 it["_date"] = ds
                 items.append(it)
     items.sort(key=score, reverse=True)
-    return items
-
-def week_range(year, week):
-    monday = date.fromisocalendar(year, week, 1)
-    sunday = monday + timedelta(days=6)
-    if monday.month == sunday.month:
-        label = f"{monday.strftime('%b')} {monday.day}–{sunday.day}, {sunday.year}"
-    else:
-        label = f"{monday.strftime('%b')} {monday.day} – {sunday.strftime('%b')} {sunday.day}, {sunday.year}"
-    return monday, sunday, label
+    return items, ndays
 
 def lead_block(it):
     topic = esc((it.get("topic") or "").upper())
@@ -110,27 +99,30 @@ def row_block(it):
     </td></tr>
     """
 
-def build(items, year, week):
-    monday, sunday, label = week_range(year, week)
+def build(items, ndays, year, month):
+    label = datetime(year, month, 1).strftime("%B %Y")
     lead = items[0] if items else None
-    rest = items[1:12]
+    rest = items[1:15]
     n = len(items)
     def clip(t, n=62):
         t = t or ""
         if len(t) <= n: return t
         cut = t[:n].rsplit(" ", 1)[0].rstrip(" .,;:—-")
         return cut + "…"
-    subject = (f"The Monday Briefing — {esc(clip(lead.get('title')))}" if lead
-               else f"The Monday Briefing — {label}")
-    pre = (esc(lead.get('title')) if lead else "This week in structural heart") + \
-          f" · plus {max(n-1,0)} more from the week"
+    subject = (f"The Monthly Digest — {esc(clip(lead.get('title')))}" if lead
+               else f"The Monthly Digest — {label}")
+    pre = (esc(lead.get('title')) if lead else "This month in structural heart") + \
+          f" · the {label} digest, {n} items curated"
 
     lead_html = lead_block(lead) if lead else \
-        f'<tr><td style="padding:24px 0;font:400 16px/1.6 Georgia,serif;color:{MUTED};">A quiet week — no major structural-heart developments to report. Back next Monday.</td></tr>'
+        f'<tr><td style="padding:24px 0;font:400 16px/1.6 Georgia,serif;color:{MUTED};">A quiet month — no major structural-heart developments to report.</td></tr>'
     rows_html = "".join(row_block(it) for it in rest)
     more_hdr = (f'<tr><td style="padding:34px 0 4px;font:700 12px/1 Arial,sans-serif;'
                 f'letter-spacing:.18em;color:{MUTED};text-transform:uppercase;">'
-                f'Also this week</td></tr>' if rest else "")
+                f'The rest of the month</td></tr>' if rest else "")
+    stat = (f'<tr><td style="padding:14px 0 0;font:400 13px/1.5 Arial,sans-serif;color:{MUTED};">'
+            f'{n} items curated across {ndays} days in {label}. These are the ones that mattered.</td></tr>'
+            if n else "")
 
     return subject, f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -146,9 +138,10 @@ def build(items, year, week):
     <span style="font:700 12px/1 Arial,sans-serif;letter-spacing:.2em;color:{MUTED};vertical-align:middle;padding-left:8px;">RYO · STRUCTURAL HEART FOCUS</span>
   </td></tr>
   <tr><td style="padding:14px 0 0;border-bottom:2px solid {INK};">
-    <span style="font:600 15px/1 Georgia,serif;color:{INK};">The Monday Briefing</span>
+    <span style="font:600 15px/1 Georgia,serif;color:{INK};">The Monthly Digest</span>
     <span style="font:400 13px/1 Arial,sans-serif;color:{MUTED};float:right;padding-top:2px;">{label}</span>
   </td></tr>
+  {stat}
 
   <!-- lead -->
   <tr><td style="padding:22px 0 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0">{lead_html}</table></td></tr>
@@ -184,14 +177,14 @@ def build(items, year, week):
 def main():
     arg = sys.argv[1] if len(sys.argv) > 1 else None
     days = load_days()
-    year, week = target_week(arg, days)
-    items = gather(days, year, week)
-    subject, doc = build(items, year, week)
-    fname = f"{year}-W{week:02d}.html"
+    year, month = target_month(arg, days)
+    items, ndays = gather(days, year, month)
+    subject, doc = build(items, ndays, year, month)
+    fname = f"{year}-{month:02d}.html"
     with open(os.path.join(OUT, fname), "w") as f:
         f.write(doc)
     print(f"SUBJECT: {subject}")
-    print(f"WROTE: pulse/weekly/{fname}  ({len(items)} items, ISO {year}-W{week:02d})")
+    print(f"WROTE: pulse/monthly/{fname}  ({len(items)} items, {year}-{month:02d})")
 
 if __name__ == "__main__":
     main()
