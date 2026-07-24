@@ -1,0 +1,17 @@
+{
+ "date": "2026-07-24",
+ "items": [
+  {
+   "date": "2026-07-24",
+   "title": "Clinical and Haemodynamic Outcomes With Contemporary Intra- and Supra-Annular Self-Expanding Valves: The Multicentre International HERA-TAVI Registry",
+   "title_zh": "HERA-TAVI 注册研究:当代内瓣叶式与瓣上式自膨胀瓣膜的临床与血流动力学结局对比",
+   "summary_zh": "国际多中心 HERA-TAVI 注册研究纳入 2,607 例接受自膨胀瓣膜 TAVR 的患者,其中内瓣叶式(IA-SEV)1,604 例、瓣上式(SA-SEV)1,003 例;倾向评分匹配后获得 892 对进行对比。1 年随访显示,VARC-3 器械成功率两组相近(91.1% vs 90.9%),复合主要终点亦无显著差异(12.6% vs 11.3%);但内瓣叶式瓣膜的新发永久起搏器植入率更高(22.1% vs 16.3%),瓣上式瓣膜的重大/危及生命出血率更高(4.2% vs 2.6%),两组跨瓣压差与中重度瓣周漏发生率均较低且相近。研究提示自膨胀瓣膜的选择应结合患者解剖结构与终身瓣膜管理策略进行个体化决策。",
+   "summary_en": "The multicentre international HERA-TAVI registry compared 2,607 TAVR patients treated with intra-annular (n=1,604) versus supra-annular (n=1,003) self-expanding valves; after propensity-score matching (892 pairs), 1-year VARC-3 device success was similar (91.1% vs 90.9%) and the composite primary endpoint did not differ (12.6% vs 11.3%), but permanent pacemaker implantation was higher with intra-annular valves (22.1% vs 16.3%) while major/life-threatening bleeding was higher with supra-annular valves (4.2% vs 2.6%) — supporting an individualized, anatomy- and lifetime-management-based approach to self-expanding valve selection.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://eurointervention.pcronline.com/doi/10.4244/EIJ-D-26-00390"
+  }
+ ]
+}
