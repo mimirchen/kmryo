@@ -1,0 +1,41 @@
+{
+ "date": "2026-07-30",
+ "items": [
+  {
+   "date": "2026-07-29",
+   "title": "Cost-effectiveness analysis of transcatheter aortic valve implantation for asymptomatic severe aortic stenosis across nine European countries",
+   "title_zh": "无症状重度主动脉瓣狭窄早期 TAVI 卫生经济学分析:覆盖欧洲九国的终生视角模型",
+   "summary_zh": "基于 EARLY TAVR 随机对照试验(901 例无症状重度主动脉瓣狭窄患者,早期 TAVI 与临床随访观察对比,中位随访 3.8 年)的数据,研究团队构建终生视角卫生经济学模型,评估比利时、法国、德国、意大利、荷兰、西班牙、瑞典、瑞士与英国九个欧洲医疗体系中早期 TAVI 的成本效果。结果显示早期 TAVI 在全部九国均具经济学优势:成本效果达标概率介于英国 97.32% 至比利时 99.94%,人均终生医疗成本节省从英国的 1788 英镑到瑞士的 15802 瑞士法郎不等,质量调整生命年(QALY)增益 0.18(德国、英国)至 0.23(瑞士);早期 TAVI 组致残性卒中减少 0.04-0.05 例/人、非致残性卒中减少 0.03 例/人、心衰住院减少 0.12-0.14 例/人。该研究发表于 European Heart Journal Open,恰逢美国 CMS 正考虑将无症状患者纳入 TAVR 医保覆盖范围,为相关决策提供卫生经济学证据。",
+   "summary_en": "Using a lifetime-horizon health-economic model built on EARLY TAVR trial inputs (901 patients with asymptomatic severe aortic stenosis randomized to early TAVI vs clinical surveillance, median follow-up 3.8 years), researchers assessed early TAVI's cost-effectiveness across nine European health systems (Belgium, France, Germany, Italy, the Netherlands, Spain, Sweden, Switzerland, UK). Early TAVI was economically dominant in all nine countries, with cost-effectiveness probability ranging from 97.32% (UK) to 99.94% (Belgium), lifetime savings of £1,788 (UK) to CHF15,802 (Switzerland) per patient, and QALY gains of 0.18 (Germany/UK) to 0.23 (Switzerland); early TAVI also cut disabling stroke by 0.04-0.05, non-disabling stroke by 0.03, and heart-failure hospitalization by 0.12-0.14 events per person. Published in European Heart Journal Open, the analysis lands as CMS weighs expanding US TAVR coverage to asymptomatic patients.",
+   "source": "EHJ Open",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://doi.org/10.1093/ehjopen/oeag115"
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Left atrial appendage closure with the AnchorMan or Watchman devices: 12-month results of the SAFE-PROTECT randomised trial",
+   "title_zh": "SAFE-PROTECT 随机对照试验 12 个月结果:AnchorMan 与 Watchman 左心耳封堵器械头对头比较",
+   "summary_zh": "SAFE-PROTECT 是一项多中心、开放标签非劣效性随机对照试验,纳入 216 例非瓣膜性房颤高卒中风险患者,1:1 随机分配至 MicroPort 新一代左心耳封堵器 AnchorMan(108 例)或 Watchman 2.5(108 例)。12 个月主要终点(缺血/出血性卒中、体循环栓塞或心血管/不明原因死亡的临床成功率)两组均为 98.1%,达到非劣效标准(p 非劣效=0.0004);次要终点超声心动图评估的左心耳封堵率两组相当。AnchorMan 组≥3mm 器械周漏发生率显著更低(5.7% 对 15.6%,p=0.04),两组全因死亡、卒中、大出血及器械相关并发症发生率均低且相近。",
+   "summary_en": "SAFE-PROTECT, a multicenter, open-label non-inferiority RCT, randomized 216 patients with non-valvular AF at high stroke risk 1:1 to MicroPort's next-generation AnchorMan left atrial appendage occluder (n=108) or Watchman 2.5 (n=108). At 12 months the primary clinical-success endpoint (freedom from ischemic/hemorrhagic stroke, systemic embolism, or cardiovascular/unexplained death) was identical at 98.1% in both arms, meeting non-inferiority (p=0.0004), with comparable echo-defined LAA occlusion. AnchorMan showed significantly less peri-device leak >3mm (5.7% vs 15.6%, p=0.04), while all-cause mortality, stroke, major bleeding, and device-related complications were low and similar between groups.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://eurointervention.pcronline.com/article/left-atrial-appendage-closure-with-the-anchorman-or-watchman-devices-12-month-results-of-the-safe-protect-randomised-trial"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "Valgen Medtech's DragonFly™ System Receives EU Approval for FMR Indication",
+   "title_zh": "沃比医疗 DragonFly™ 经导管二尖瓣修复系统获欧盟批准新增功能性二尖瓣反流(FMR)适应症",
+   "summary_zh": "中国器械公司沃比医疗(Valgen Medtech)宣布其经股静脉二尖瓣缘对缘修复系统 DragonFly™ 获欧盟 CE 认证,新增功能性二尖瓣反流(FMR)适应症,此前已于 2025 年 4 月获批用于退行性二尖瓣反流(DMR),成为首款同时获欧盟批准治疗 DMR 与 FMR 适应症的中国原研经导管二尖瓣修复系统。临床数据显示:1 年复合有效性主要终点(全因死亡、二尖瓣再介入及反流程度>2+ 的自由生存率)达标率 86.7%,器械植入成功率与手术成功率均为 97.4%,66.7% 患者仅需植入单枚夹合器;术后 30 天 100% 患者心功能改善至 NYHA I 或 II 级,并维持至 1 年随访。该适应症扩展呼应 2025 版 ESC/EACTS 指南将 TEER 用于治疗心室性功能性二尖瓣反流升级为 I 类推荐。",
+   "summary_en": "Chinese device maker Valgen Medtech announced EU (CE mark) approval for its transfemoral edge-to-edge DragonFly™ mitral repair system in functional mitral regurgitation (FMR), extending its April 2025 approval for degenerative MR (DMR) and making it the first China-originated transcatheter mitral repair system approved in the EU for both indications. Trial data showed a 1-year composite primary effectiveness endpoint (freedom from all-cause death, mitral reintervention, and MR >2+) of 86.7%, device implantation and procedural success both at 97.4%, and 66.7% of patients treated with a single clip; 100% of patients reached NYHA class I/II by 30 days, sustained through 1-year follow-up. The expanded indication follows the 2025 ESC/EACTS guideline upgrade of TEER for selected ventricular FMR patients to a Class I recommendation.",
+   "source": "PR Newswire / Valgen Medtech",
+   "type": "regulatory",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.prnewswire.com/news-releases/valgen-medtechs-dragonfly-system-receives-eu-approval-for-fmr-indication-302808678.html"
+  }
+ ]
+}
