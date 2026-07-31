@@ -1,0 +1,41 @@
+{
+ "date": "2026-07-31",
+ "items": [
+  {
+   "date": "2026-06-23",
+   "title": "Pathway Labs Announces World's First FDA Clearance for Multicondition AI in Cardiology and Partnership with OpenEvidence",
+   "title_zh": "Pathway Labs 宣布 EchoNext 获 FDA 全球首个心血管多病种 AI 筛查许可,并与 OpenEvidence 达成合作",
+   "summary_zh": "哥伦比亚大学/纽约长老会心脏病学家 Pierre Elias 团队开发、Pathway Labs 商业化的 EchoNext 于 2026 年 6 月 23 日获 FDA 许可,成为全球首个可从常规 12 导联心电图筛查多种结构性心脏病的 AI 工具,覆盖重度主动脉瓣狭窄、明显二尖瓣反流、射血分数降低性心衰、肺动脉高压等高危征象。该模型基于纽约长老会医院系统超 70 万对心电图-超声心动图数据训练,并在 20 余家医院、逾 50 万例患者中完成验证;借助 EchoNext 提示,医生诊断结构性心脏病的准确率、敏感度、特异度分别达 77.3%、72.6%、80.7%,显著高于常规临床路径下的 64.0%、61.1%、66.1%,发现结构性心脏病的概率约为常规路径的两倍。同日 Pathway Labs 宣布与 AI 医疗问答平台 OpenEvidence 合作,将 EchoNext 接入其覆盖全美过半临床医生的系统。",
+   "summary_en": "EchoNext, developed by Columbia/NewYork-Presbyterian cardiologist Pierre Elias and commercialized by Pathway Labs, received FDA clearance on June 23, 2026 as the world's first AI tool to screen for multiple forms of structural heart disease -- including severe aortic stenosis, significant mitral regurgitation, heart failure with reduced ejection fraction, and pulmonary hypertension -- from a routine 12-lead ECG. Trained on more than 700,000 paired ECG-echocardiogram cases across the NewYork-Presbyterian system and validated across 20+ hospitals and 500,000+ patients, EchoNext-assisted clinicians achieved 77.3% accuracy, 72.6% sensitivity, and 80.7% specificity versus 64.0%/61.1%/66.1% with routine care alone -- roughly doubling detection of structural heart disease. Pathway Labs simultaneously announced a partnership with OpenEvidence to bring EchoNext to the AI platform used by more than half of US clinicians.",
+   "source": "Businesswire / Pathway Labs",
+   "type": "regulatory",
+   "topic": "Imaging",
+   "weight": 4,
+   "url": "https://www.businesswire.com/news/home/20260623150207/en/Pathway-Labs-Announces-Worlds-First-FDA-Clearance-for-Multicondition-AI-in-Cardiology-and-Partnership-with-OpenEvidence"
+  },
+  {
+   "date": "2026-07-09",
+   "title": "TRiCares Announces Initiation of TRICURE US IDE Pivotal Study for Topaz Tricuspid Valve Replacement System",
+   "title_zh": "TRiCares 启动 TRICURE 美国 IDE 关键性试验:Topaz 经导管三尖瓣置换系统对比 Edwards EVOQUE 的首个头对头随机研究",
+   "summary_zh": "德国器械公司 TRiCares 宣布其 Topaz 经导管三尖瓣置换系统(TTVR)美国 IDE 关键性试验 TRICURE 已完成首例患者入组与手术,由 Pradeep Yadav 医生在美国佐治亚州 Piedmont 心脏研究所主刀。该研究为前瞻性、全球多中心、1:1 随机对照试验,计划在美国、加拿大及欧洲多国最多 75 家中心开展,对比 Topaz 与已获批上市的 Edwards EVOQUE TTVR 系统治疗重度及以上三尖瓣反流的安全性与有效性,是首个投入患者入组、对比新一代器械与已上市 TTVR 器械的头对头随机对照研究。Topaz 已于 2026 年 4 月获 FDA 批准开展该 IDE 关键性试验,并在欧洲同步开展 TRICURE 欧洲关键性研究。",
+   "summary_en": "German device maker TRiCares announced that the first patient has been enrolled and treated in its TRICURE US IDE pivotal trial for the Topaz transcatheter tricuspid valve replacement (TTVR) system, performed at Piedmont Heart Institute in Atlanta by Dr. Pradeep Yadav. The prospective, global, multicenter, 1:1 randomized controlled trial -- running at up to 75 sites across the US, Canada, and Europe -- compares Topaz against the FDA-approved Edwards EVOQUE TTVR system in patients with severe-or-greater tricuspid regurgitation, marking the first actively enrolling head-to-head RCT of an investigational versus a commercially approved TTVR device. Topaz received FDA IDE approval for the pivotal trial in April 2026 and is also being studied in a parallel TRICURE European Pivotal Study.",
+   "source": "GlobeNewswire / TRiCares",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.manilatimes.net/2026/07/09/tmt-newswire/globenewswire/tricares-announces-initiation-of-tricure-us-ide-pivotal-study-for-topaz-tricuspid-valve-replacement-system/2381491"
+  },
+  {
+   "date": "2026-07-28",
+   "title": "Abbott Initiates TREAT TR Study to Show Real-World Outcomes for TriClip in Repairing Leaky Tricuspid Heart Valve",
+   "title_zh": "雅培启动 TREAT TR 真实世界研究,评估 TriClip 治疗三尖瓣反流的长期表现",
+   "summary_zh": "雅培(Abbott)宣布启动 TREAT TR 上市后真实世界研究,计划在美国、加拿大与欧洲最多 100 家中心入组约 1000 例患者,评估其 TriClip 经导管缘对缘修复(TEER)系统治疗三尖瓣反流(TR)的安全性与长期表现。首例入组于西班牙巴塞罗那临床医院完成,由 Xavier Freixa 医生主刀。此前基于 STS/ACC TVT 注册研究、覆盖美国 278 家中心 3035 例患者的真实世界数据显示,TriClip 疗效与 TRILUMINATE 关键性试验结果一致,患者 TR 显著减轻且生活质量改善,相关数据已于 2026 年 6 月纽约瓣膜大会(New York Valves)公布。",
+   "summary_en": "Abbott announced the launch of TREAT TR, a post-market real-world study that will enroll roughly 1,000 patients at up to 100 sites across the US, Canada, and Europe to evaluate the safety and long-term performance of its TriClip transcatheter edge-to-edge repair (TEER) system for tricuspid regurgitation (TR). The first patient was enrolled at Hospital Clinic de Barcelona, led by Dr. Xavier Freixa. The study builds on prior real-world data from 3,035 patients across 278 US sites in the STS/ACC TVT Registry -- presented at New York Valves in June 2026 -- showing outcomes consistent with the TRILUMINATE Pivotal trial, with significant TR reduction and improved quality of life.",
+   "source": "Abbott",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.massdevice.com/abbott-initiates-real-world-study-triclip/"
+  }
+ ]
+}
