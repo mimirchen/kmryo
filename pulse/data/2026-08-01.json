@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-01",
+ "items": [
+  {
+   "date": "2026-07-13",
+   "title": "Hospital Volume and Failure to Rescue Post-TAVR: Insights From the STS/ACC TVT Registry",
+   "title_zh": "STS/ACC TVT 注册研究:TAVR 医院年手术量与\"抢救失败率\"的关系",
+   "summary_zh": "基于 STS/ACC TVT 注册研究,纳入 2017-2023 年在 808 家中心接受 TAVR 的 487,159 例患者(中位年龄 79 岁,57% 男性),按医院年化手术量分层分析主要并发症与\"抢救失败\"(发生并发症后 30 天内死亡)的关系。结果显示低手术量中心 30 天死亡率更高(校正 OR 1.12,95% CI 1.00-1.25,p=0.045)、主要并发症发生率更高(校正 OR 1.19,95% CI 1.08-1.32,p=0.0006);但按术量校正后抢救失败率两者并无显著差异(每增加 100 例校正 OR 0.97,95% CI 0.93-1.01,p=0.11),全部中心中并发症患者的抢救失败率约为 11%。研究提示 TAVR 术量-死亡率的反向关系主要源于低术量中心并发症发生率更高,而非\"抢救\"能力的差异,为质量改进策略提供了新方向。",
+   "summary_en": "Using the STS/ACC TVT Registry, researchers analyzed 487,159 TAVR patients (median age 79, 57% male) across 808 US sites from 2017-2023, stratifying major complications and failure to rescue (30-day mortality after a major complication) by annualized hospital volume. Lower-volume sites had significantly higher 30-day mortality (adjusted OR 1.12, 95% CI 1.00-1.25, p=0.045) and major complications (adjusted OR 1.19, 95% CI 1.08-1.32, p=0.0006), but failure-to-rescue rates did not differ significantly by volume (adjusted OR 0.97 per 100 cases, 95% CI 0.93-1.01, p=0.11); the overall failure-to-rescue rate among complicated patients was 11%. The findings suggest the volume-mortality relationship in TAVR is driven mainly by higher complication rates at low-volume centers rather than differences in rescue capability.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.03.036"
+  },
+  {
+   "date": "2026-07-29",
+   "title": "Boston Scientific Announces Results for Second Quarter 2026",
+   "title_zh": "波士顿科学公布 2026 年第二季度业绩:Watchman 左心耳封堵器增长放缓,下调全年指引",
+   "summary_zh": "波士顿科学公布 2026 年第二季度业绩:净销售额 54.42 亿美元(报告口径同比 +7.5%,有机增长 +7.0%),调整后每股收益 0.86 美元(上年同期 0.75 美元),心血管板块销售额 36.24 亿美元。公司同时披露其 Watchman 左心耳封堵器二季度销售额仅增长 4%(美国 +3%、国际 +18%),主要原因是临床实践正转向将 Watchman 与消融等其他心脏手术同台完成,减少了单独实施的 Watchman 手术量;公司预计下半年美国 Watchman 销售额同比转为中高个位数下滑,并将全年调整后每股收益指引从 3.34-3.41 美元下调至 3.28-3.32 美元、有机销售增长指引从 6.5%-8% 下调至 5%-6%,同时启动 5 亿美元重组计划。这是左心耳封堵这一结构性心脏病增长最快赛道近年来首次出现明显放缓信号。",
+   "summary_en": "Boston Scientific reported Q2 2026 net sales of $5.442 billion (+7.5% reported, +7.0% organic) and adjusted EPS of $0.86 (vs $0.75 a year earlier), with Cardiovascular segment sales of $3.624 billion. The company disclosed that Watchman left atrial appendage closure sales grew just 4% in the quarter (US +3%, international +18%), attributing the slowdown to a shift toward pairing Watchman with concomitant cardiac procedures such as ablation rather than standalone implants; it expects US Watchman sales to decline mid-to-high single digits year-over-year in the second half, cut full-year adjusted EPS guidance to $3.28-$3.32 (from $3.34-$3.41) and organic growth guidance to 5%-6% (from 6.5%-8%), and announced a $500 million restructuring plan -- a notable slowdown signal for what has been structural heart's fastest-growing segment.",
+   "source": "Boston Scientific / PRNewswire",
+   "type": "industry",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-results-for-second-quarter-2026-302837127.html"
+  },
+  {
+   "date": "2026-07-08",
+   "title": "Jenscare Scientific's LuX-Valve Plus Receives EU MDR CE Certification for Transvenous Tricuspid Valve Replacement System",
+   "title_zh": "捷仕特 LuX-Valve Plus 经静脉三尖瓣置换系统获欧盟 MDR CE 认证",
+   "summary_zh": "中国器械公司捷仕特(Jenscare Scientific)宣布其第二代经静脉三尖瓣置换系统 LuX-Valve Plus 获欧盟医疗器械法规(MDR)CE 认证,用于治疗不适合外科手术的重度三尖瓣反流患者。该系统采用经颈静脉输送、瓣膜释放位置与角度可多方位调整,是全球第二款获批的原位经导管三尖瓣置换系统;目前 LuX-Valve 系列全球已在数十个国家完成逾千例植入。此次 CE 认证使其正式进入欧洲市场,成为三尖瓣置换赛道继雅培 EVOQUE 之后的又一竞争者。",
+   "summary_en": "Chinese device maker Jenscare Scientific announced that its second-generation transvenous tricuspid valve replacement (TTVR) system, LuX-Valve Plus, has received CE certification under the EU Medical Device Regulation (MDR) for patients with severe tricuspid regurgitation who are not surgical candidates. Delivered transjugularly with multi-angle adjustable and steerable release, it becomes the world's second approved orthotopic transcatheter tricuspid valve replacement system; more than 1,000 patients across dozens of countries have received LuX-Valve implants to date. The CE mark opens the European market to LuX-Valve Plus, adding a new competitor to the TTVR space alongside Abbott's EVOQUE.",
+   "source": "MassDevice / Jenscare Scientific",
+   "type": "regulatory",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.massdevice.com/jenscare-ce-mark-transvenous-tricuspid-valve/"
+  },
+  {
+   "date": "2026-07-15",
+   "title": "ElectroWire Medical Receives 510(k) Clearance for LightningWire™ Transseptal Puncture System",
+   "title_zh": "ElectroWire Medical 的 LightningWire™ 经房间隔穿刺系统获 FDA 510(k) 许可",
+   "summary_zh": "美国器械公司 ElectroWire Medical 宣布其 LightningWire™ 经房间隔穿刺系统获 FDA 510(k) 许可,用于在心脏房间隔上建立通路以引入各类心血管导管,适用范围涵盖房颤射频消融、左心耳封堵及经导管二尖瓣修复/置换等经房间隔入路的结构性心脏病介入手术。作为结构性心脏介入\"上游\"入路工具的一次更新,该产品的获批反映出行业对经房间隔通路器械精细化、专用化的持续投入。",
+   "summary_en": "US device maker ElectroWire Medical announced FDA 510(k) clearance for its LightningWire™ Transseptal Puncture System, indicated to create an opening in the atrial septum for introducing cardiovascular catheters -- supporting transseptal procedures including AF ablation, left atrial appendage occlusion, and transcatheter mitral valve repair/replacement. The clearance reflects continued industry investment in dedicated, purpose-built transseptal access tools that underpin a growing share of structural heart procedures.",
+   "source": "PR Newswire / ElectroWire Medical",
+   "type": "regulatory",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://www.prnewswire.com/news-releases/electrowire-medical-receives-510k-clearance-for-lightningwire-transseptal-puncture-system-302826604.html"
+  }
+ ]
+}
