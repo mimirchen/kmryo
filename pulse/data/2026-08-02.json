@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-02",
+ "items": [
+  {
+   "date": "2026-07-29",
+   "title": "VDyne Announces First Patient Treated in TRIVITA US IDE Pivotal Study of the TriNova™ Transcatheter Tricuspid Valve Replacement System",
+   "title_zh": "VDyne 宣布 TRIVITA 美国 IDE 关键性试验完成首例患者治疗:TriNova 经导管三尖瓣置换系统对比 EVOQUE 的首个头对头随机研究",
+   "summary_zh": "结构性心脏病器械公司 VDyne 宣布其 TriNova 经导管三尖瓣置换(TTVR)系统美国 IDE 关键性试验 TRIVITA 完成首例患者治疗,手术由 Konstantinos Voudris 医生在明尼阿波利斯 Allina Health 心脏病研究所主刀。该研究为前瞻性、全球多中心、1:1 随机对照试验,计划在美国与欧洲最多 70 家中心入组,直接对比 TriNova 与已获批上市的 Edwards EVOQUE 经导管三尖瓣置换系统治疗重度及以上三尖瓣反流的安全性与有效性,是首个投入患者入组、将在研新一代器械与已上市 TTVR 器械头对头对比的随机对照研究。",
+   "summary_en": "VDyne announced that the first patient has been enrolled and treated in the TRIVITA US IDE pivotal trial of its TriNova transcatheter tricuspid valve replacement (TTVR) system, performed by Dr. Konstantinos Voudris at Allina Health Minneapolis Heart Institute. The prospective, global, multicenter, 1:1 randomized trial -- at up to 70 US and European sites -- compares TriNova head-to-head against the FDA-approved Edwards EVOQUE TTVR system in patients with severe-or-greater tricuspid regurgitation, marking the first actively enrolling head-to-head RCT of an investigational device against a commercially approved TTVR system.",
+   "source": "BusinessWire / VDyne",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.businesswire.com/news/home/20260729729276/en/VDyne-Announces-First-Patient-Treated-in-TRIVITA-US-IDE-Pivotal-Study-of-the-TriNova-Transcatheter-Tricuspid-Valve-Replacement-System"
+  },
+  {
+   "date": "2026-07-23",
+   "title": "Venus Medtech Announces Completion of Patient Enrollment in Pivotal China Trial for Venus-PowerX, the World's First Fully Recoverable Self-Expanding Dry-Valve TAVR System",
+   "title_zh": "启明医疗宣布 Venus-PowerX 中国关键性试验完成患者入组:全球首款可完全回收自膨胀\"干瓣\"TAVR 系统",
+   "summary_zh": "启明医疗(Venus Medtech)宣布其 Venus-PowerX 经导管主动脉瓣系统中国关键性试验 PREVAILS 已完成患者入组。该系统为全球首款在瓣膜 100% 释放后仍可完全回收的自膨胀\"干瓣\"TAVR 器械。PREVAILS 为前瞻性、多中心、单组目标值试验,旨在评估该系统治疗重度主动脉瓣狭窄患者的安全性、有效性与器械性能,所获数据将同步支持欧盟 CE 认证与中国 NMPA 注册申报。Venus-PowerX 目前已在阿根廷、智利、委内瑞拉获批上市。",
+   "summary_en": "Venus Medtech announced completion of patient enrollment in its PREVAILS pivotal China trial for Venus-PowerX, described as the world's first fully recoverable self-expanding \"dry-valve\" TAVR system -- retrievable even after 100% deployment. PREVAILS is a prospective, multicenter, single-arm, objective-performance-criterion trial evaluating safety, efficacy, and device performance in patients with severe aortic stenosis; the data will support simultaneous CE marking in Europe and NMPA registration in China. Venus-PowerX already holds regulatory approvals in Argentina, Chile, and Venezuela.",
+   "source": "PR Newswire / Venus Medtech",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.prnewswire.com/news-releases/venus-medtech-announces-completion-of-patient-enrollment-in-pivotal-china-trial-for-venus-powerx-the-worlds-first-fully-recoverable-self-expanding-dry-valve-tavr-system-302831965.html"
+  },
+  {
+   "date": "2026-07-20",
+   "title": "Jenscare Has First TTVR Implants in US Pivotal Trial",
+   "title_zh": "捷仕特 LuX-Valve Plus 完成美国 TRINITY 关键性试验首例植入,由 Montefiore 医院团队主刀",
+   "summary_zh": "中国结构性心脏病器械公司捷仕特(Jenscare Scientific)宣布其第二代经静脉三尖瓣置换系统 LuX-Valve Plus 在美国 FDA IDE 关键性试验 TRINITY 中完成首例植入,手术由 Azeem Latib 医生在纽约 Montefiore 医院完成,距该器械获欧盟 MDR CE 认证仅两周。TRINITY 为前瞻性、多中心单臂研究,此前已在全球 20 家中心(含法国、德国、西班牙、丹麦、英国等 18 家中心)入组 161 例患者,评估该器械治疗外科高危、重度三尖瓣反流患者的安全性与有效性。",
+   "summary_en": "Chinese structural heart device maker Jenscare Scientific announced the first US implants of its second-generation transvenous tricuspid valve replacement (TTVR) system, LuX-Valve Plus, in the FDA IDE pivotal TRINITY trial, performed by Dr. Azeem Latib at Montefiore Medical Center in New York -- just two weeks after the device received EU MDR CE certification. TRINITY is a prospective, multicenter, single-arm trial that has enrolled 161 patients across 20 global sites (including 18 in France, Germany, Spain, Denmark, and the UK) evaluating safety and efficacy in surgically high-risk patients with severe tricuspid regurgitation.",
+   "source": "MassDevice",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.massdevice.com/jenscare-first-tavr-implants-us-trial/"
+  }
+ ]
+}
