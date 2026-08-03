@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-03",
+ "items": [
+  {
+   "date": "2026-06-23",
+   "title": "AI Tool Developed at NewYork-Presbyterian and Columbia to Detect Hidden Heart Disease Receives FDA Approval",
+   "title_zh": "EchoNext 获 FDA 批准:全球首个基于常规心电图检测隐匿性结构性心脏病的 AI 工具",
+   "summary_zh": "由纽约长老会医院与哥伦比亚大学团队(Pierre Elias 医生)开发、Pathway Labs 商业化的 AI 工具 EchoNext 获得 FDA 批准,成为全球首个基于常规 12 导联心电图(ECG)筛查隐匿性结构性心脏病的 AI 工具,可识别瓣膜病变、左/右心衰、提示浸润性心肌病的重度心肌肥厚及肺动脉高压等六类异常。该模型基于来自 23 万患者的 120 万对 ECG-超声心动图配对数据训练;在覆盖 20 余家医院、逾 50 万患者的验证研究中,其结构性心脏病检出准确率优于心脏科医生(含借助 AI 辅助判读的医生)。此前发表于 Nature 的研究显示,EchoNext 单纯依据 ECG 识别结构性心脏病问题的准确率为 77%,心脏科医生为 64%。",
+   "summary_en": "EchoNext, an AI tool developed at NewYork-Presbyterian and Columbia University (led by Dr. Pierre Elias) and commercialized by Pathway Labs, received FDA clearance as the world's first AI tool to screen for hidden structural heart disease from a standard 12-lead ECG, flagging valve disease, right/left heart failure, severe hypertrophy suggestive of infiltrative cardiomyopathy, and pulmonary hypertension. Trained on 1.2 million paired ECG-echocardiogram studies from 230,000 patients and validated across more than 20 hospitals and 500,000 patients, EchoNext outperformed cardiologists (with or without AI assistance) at detecting structural heart disease; the underlying Nature study reported 77% accuracy for EchoNext versus 64% for cardiologists reading ECGs alone.",
+   "source": "NewYork-Presbyterian / Columbia",
+   "type": "regulatory",
+   "topic": "Imaging",
+   "weight": 5,
+   "url": "https://www.nyp.org/news/ai-tool-developed-at-newyork-presbyterian-and-columbia-to-detect-hidden-heart-disease-receives-fda-approval"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "EARLY TAVR: 5-Year Data Still Support TAVI Over Surveillance in Asymptomatic Aortic Stenosis",
+   "title_zh": "EARLY TAVR 5 年随访结果公布:无症状重度主动脉瓣狭窄患者早期 TAVI 仍优于临床观察",
+   "summary_zh": "EARLY TAVR 随机对照试验(901 例 65 岁以上无症状重度主动脉瓣狭窄患者,美国/加拿大 75 家中心,采用 Edwards Sapien 3 瓣膜,由 Edwards Lifesciences 资助)公布 5 年随访数据:早期 TAVI 组死亡/卒中/心衰住院复合终点发生率为 15.2%,显著低于临床观察组的 24.2%(HR 0.58,95% CI 0.43-0.78);landmark 分析显示死亡或卒中方面的获益主要在 2 年后显现(HR 0.61,95% CI 0.40-0.94)。数据由 Philippe Généreux 医生在 New York Valves 2026 大会上公布,延续了该试验此前推动 FDA 于 2025 年批准 TAVI 用于无症状重度主动脉瓣狭窄患者的证据链。",
+   "summary_en": "The EARLY TAVR randomized trial (901 patients ≥65 with asymptomatic severe aortic stenosis across 75 US/Canada sites, using the Edwards Sapien 3 valve, funded by Edwards Lifesciences) reported 5-year outcomes: the composite of death, stroke, or heart failure hospitalization occurred in 15.2% with early TAVI versus 24.2% with clinical surveillance (HR 0.58, 95% CI 0.43-0.78), with a landmark analysis showing the death-or-stroke benefit emerging mainly after 2 years (HR 0.61, 95% CI 0.40-0.94). Presented by Dr. Philippe Généreux at New York Valves 2026, the data extend the evidence base that led the FDA to approve TAVI for asymptomatic severe AS in 2025.",
+   "source": "TCTMD",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.tctmd.com/news/early-tavr-5-year-data-still-support-tavi-over-surveillance-asymptomatic"
+  },
+  {
+   "date": "2026-07-28",
+   "title": "Abbott Initiates TREAT TR Study to Evaluate Real-World Outcomes of TriClip™ for Tricuspid Regurgitation",
+   "title_zh": "雅培启动 TREAT TR 真实世界研究,评估 TriClip 治疗三尖瓣反流的长期表现",
+   "summary_zh": "雅培(Abbott)宣布启动 TREAT TR 前瞻性真实世界研究,计划在美国、加拿大及欧洲最多 100 家中心入组约 1000 例接受 TriClip 经导管缘对缘修复(T-TEER)治疗的重度三尖瓣反流患者,随访 5 年(出院、30 天、6 个月、1 年后每年一次复查)。首例入组在西班牙巴塞罗那临床医院完成,由 Xavier Freixa 医生主刀。该研究旨在为已于 2024 年获 FDA 批准的 TriClip 补充大样本、长期随访的真实世界安全性与有效性证据,发生于 VDyne、启明医疗等新一代三尖瓣器械相继进入关键性试验的竞争背景下。",
+   "summary_en": "Abbott launched TREAT TR, a prospective real-world post-market study of its FDA-approved TriClip transcatheter edge-to-edge repair (T-TEER) system, planning to enroll approximately 1,000 patients with severe tricuspid regurgitation at up to 100 sites across the US, Canada, and Europe, with 5-year follow-up. The first patient was enrolled at Hospital Clínic de Barcelona by Dr. Xavier Freixa, adding long-term real-world evidence amid rising competition from next-generation TTVR devices from companies including VDyne and Venus Medtech.",
+   "source": "MassDevice / Abbott",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.massdevice.com/abbott-initiates-real-world-study-triclip/"
+  },
+  {
+   "date": "2026-07-07",
+   "title": "Cardiac Dimensions Announces Three Major Publications Demonstrating Long-Term Durability, Real-World Performance, and Broad Patient Benefit of the Carillon Mitral Contour System",
+   "title_zh": "Cardiac Dimensions 公布三项重磅研究:Carillon 二尖瓣环缩系统长期疗效与真实世界数据",
+   "summary_zh": "器械公司 Cardiac Dimensions 同期发表三项关于其经皮二尖瓣间接环缩器械 Carillon Mitral Contour System 的研究成果。其一为 CINCH-FMR 多中心真实世界注册研究 5 年数据:中重度以上功能性二尖瓣反流(FMR)患者比例由基线 84% 降至 1 年时 9% 并长期维持,97% 以上患者反流分级保持稳定或改善,近半数患者 5 年内未因心衰再住院;其二为迄今覆盖射血分数保留(HFpEF)与降低(HFrEF)患者规模最大的单中心经验;其三为 REDUCE FMR 试验单中心延伸随访,报告 10 年心血管生存率为 66%,是经导管二尖瓣修复疗法迄今报道随访时间最长的数据。",
+   "summary_en": "Device maker Cardiac Dimensions announced three concurrent publications on its percutaneous indirect mitral annuloplasty device, the Carillon Mitral Contour System. The CINCH-FMR multicenter real-world registry's 5-year data showed moderate-to-severe-or-greater functional MR fell from 84% at baseline to 9% at 1 year and stayed low, with over 97% of patients maintaining a stable or improved MR grade and nearly half free of heart-failure hospitalization at 5 years; a second paper reported the largest single-center experience spanning HFpEF and HFrEF; a third extended follow-up of the REDUCE FMR trial to 10 years, reporting 66% cardiovascular survival -- described as the longest follow-up reported for any transcatheter mitral repair therapy.",
+   "source": "Cardiac Dimensions",
+   "type": "industry",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.businesswire.com/news/home/20260707656796/en/Cardiac-Dimensions-Announces-Three-Major-Publications-Demonstrating-Long-Term-Durability-Real-World-Performance-and-Broad-Patient-Benefit-of-the-Carillon-Mitral-Contour-System"
+  }
+ ]
+}
