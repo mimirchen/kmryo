@@ -1,0 +1,29 @@
+{
+ "date": "2026-08-04",
+ "items": [
+  {
+   "date": "2026-06-24",
+   "title": "RCT, Real-World Data Show TAVI Durability Up to 7 Years in Low-risk Patients",
+   "title_zh": "低危患者TAVI瓣膜7年耐久性获随机对照试验与真实世界注册研究双重印证",
+   "summary_zh": "在New York Valves 2026大会晚期突破性科学环节上,PARTNER 3随机对照试验的7年随访数据与STS/ACC TVT真实世界注册研究结果相互印证,提示球囊扩张式TAVI瓣膜在低危患者中具有良好长期耐久性。PARTNER 3显示TAVI组与外科换瓣(SAVR)组在生物瓣膜衰败(6.9% vs 7.3%)和结构性瓣膜退化(7.3% vs 7.6%)发生率上无显著差异;由Sreek Vemulapalli医生公布的TVT注册研究纳入2015-2024年间68,071例经股动脉置入Sapien 3/Ultra/Ultra Resilia瓣膜、STS评分<4%的低危患者,通过Medicare理赔数据随访最长7年,总死亡率45.1%(主要与患者高龄及衰弱相关),再介入率仅2.2%,进一步支持球囊扩张瓣膜的长期耐久性证据链。",
+   "summary_en": "At a late-breaking science session at New York Valves 2026, 7-year PARTNER 3 randomized trial data converged with real-world STS/ACC TVT Registry findings to support the long-term durability of balloon-expandable TAVI valves in low-risk patients. PARTNER 3 showed no significant difference between TAVI and surgical replacement (SAVR) in bioprosthetic valve failure (6.9% vs 7.3%) or structural valve deterioration (7.3% vs 7.6%); a companion TVT Registry analysis presented by Sreek Vemulapalli, MD, following 68,071 low-risk patients (STS score <4%) who underwent transfemoral TAVI with Sapien 3/Ultra/Ultra Resilia valves from 2015-2024 for up to 7 years via Medicare claims found an overall death rate of 45.1% (attributed largely to advanced age and frailty) and a reintervention rate of just 2.2%, reinforcing the durability case for balloon-expandable valves.",
+   "source": "TCTMD",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/rct-real-world-data-show-tavi-durability-7-years-low-risk-patients"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Artificial Intelligence in Echocardiography: A Position Statement From the British Society of Echocardiography",
+   "title_zh": "英国超声心动图学会(BSE)发布人工智能应用于超声心动图的立场声明",
+   "summary_zh": "英国超声心动图学会(BSE)在《Echo Research & Practice》发表共识性立场声明,针对AI在超声心动图检查中的安全、公平、有效整合提出结构化评估框架,覆盖图像采集、自动分析、报告生成到风险分层的全流程。声明指出,尽管AI技术潜力迅速扩展,临床实际采纳仍受制于实践、技术与治理层面的挑战,并强调加强超声心动图从业人员的教育与技能提升,是确保医护人员能够放心评估、部署和监测AI模型的关键环节。声明主要立足英国医疗体系,但其原则对采用类似超声心动图服务模式的其他医疗系统同样具有参考价值。",
+   "summary_en": "The British Society of Echocardiography (BSE) has published a consensus position statement in Echo Research & Practice offering a structured framework for the safe, equitable, and effective integration of AI across the echocardiography workflow, from image acquisition and automated analysis to reporting and risk stratification. The statement notes that despite AI's rapidly expanding potential, clinical adoption remains limited by practical, technical, and governance challenges, and emphasizes that education and upskilling of the echocardiography workforce will be essential so clinicians can confidently evaluate, deploy, and monitor AI models. Though centered on the UK context, its principles are intended to be relevant to other health systems with similar echocardiography delivery models.",
+   "source": "Echo Research & Practice (BSE)",
+   "type": "guideline",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://link.springer.com/article/10.1186/s44156-026-00124-4"
+  }
+ ]
+}
