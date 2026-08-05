@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-05",
+ "items": [
+  {
+   "date": "2026-05-19",
+   "title": "The Less the Better: Mild vs Moderate Residual Tricuspid Regurgitation After T-TEER: Insights From EuroTR",
+   "title_zh": "EuroTR注册研究:三尖瓣缘对缘修复术后残余反流每加重一级,两年生存率显著下降",
+   "summary_zh": "欧洲多中心EuroTR注册研究纳入2016-2024年间26个中心接受三尖瓣经导管缘对缘修复(T-TEER)的2545例患者(平均年龄79岁,女性占54%;术前重度反流44%、大量33%、极重度20%)。结果显示,术后残余三尖瓣反流(TR)程度每加重一级——哪怕只是从无/微量升级为轻度、或从轻度升级为中度——两年全因生存率及无心衰住院生存率均显著下降,提示T-TEER的治疗目标应尽量追求接近无反流的水平,而非满足于传统的轻度及以下达标线。",
+   "summary_en": "The multicenter European EuroTR registry followed 2,545 patients (mean age 79, 54% women) who underwent tricuspid transcatheter edge-to-edge repair (T-TEER) at 26 centers from 2016-2024 (baseline TR severe in 44%, massive in 33%, torrential in 20%). Even a single step-up in residual TR - from none/trace to mild, or mild to moderate - was linked to significantly lower 2-year survival and survival free from heart failure hospitalization, arguing that procedural success should target near-none residual TR rather than the conventional \"mild or less\" threshold.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.02.047"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "Balloon-Assisted Translocation of the Mitral Anterior Leaflet to Prevent Outflow Tract Obstruction During TMVR: BATMAN-Registry",
+   "title_zh": "BATMAN注册研究:球囊辅助二尖瓣前叶移位技术预防经导管二尖瓣置换术中左室流出道梗阻",
+   "summary_zh": "在EuroPCR 2026同步发表于《JACC: Cardiovascular Interventions》的BATMAN注册研究,纳入2023-2026年间83例存在左室流出道(LVOT)梗阻高风险的经导管二尖瓣置换(TMVR)患者,采用球囊辅助二尖瓣前叶撕裂移位(BATMAN)技术处理原生前叶。结果显示技术成功率达98.8%,95.1%的患者未发生LVOT梗阻或围术期死亡,为高解剖风险患者拓展TMVR适应证提供了新的介入策略证据。",
+   "summary_en": "The BATMAN-Registry, simultaneously published in JACC: Cardiovascular Interventions at EuroPCR 2026, enrolled 83 patients at high risk of left ventricular outflow tract (LVOT) obstruction who underwent transcatheter mitral valve replacement (TMVR) using the balloon-assisted translocation of the anterior mitral leaflet (BATMAN) technique between 2023 and 2026. Technical success was 98.8%, and 95.1% of patients were free from LVOT obstruction or procedural death, adding evidence for a bailout strategy that could broaden TMVR eligibility in anatomically high-risk patients.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.04.013"
+  },
+  {
+   "date": "2026-05-26",
+   "title": "MAUDE Registry Analysis of Pericardial Effusions Following Watchman and Amulet Left Atrial Appendage Occlusion",
+   "title_zh": "FDA MAUDE数据库分析:Watchman与Amulet左心耳封堵术后心包积液特征与转归",
+   "summary_zh": "基于美国FDA MAUDE不良事件数据库的回顾性分析显示,截至2024年12月,Amulet封堵器相关心包积液报告290例(66%为急性、34%为迟发性),Watchman相关33例(94%为急性、6%为迟发性)。Amulet组中,65%的急性心包积液和55%的迟发性心包积液需要心包穿刺、心包开窗或开胸等干预,相应死亡率分别为8.4%和8.0%,提示迟发性心包积液虽发生率较低但临床风险不容忽视,应重视左心耳封堵术后的长期随访。",
+   "summary_en": "A retrospective analysis of the FDA MAUDE adverse-event database identified 290 pericardial effusion reports associated with the Amulet occluder (66% acute, 34% late) versus 33 with Watchman (94% acute, 6% late) through December 2024. Among Amulet cases, 65% of acute and 55% of late effusions required intervention (pericardiocentesis, pericardial window, or sternotomy), with mortality of 8.4% and 8.0%, respectively - a reminder that late pericardial effusion, though less common, carries meaningful risk and merits longer-term post-LAAO surveillance.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2026.102789"
+  },
+  {
+   "date": "2026-04-15",
+   "title": "5-Year Follow-Up After Transcatheter Mitral Valve Replacement Using the Cardiovalve System",
+   "title_zh": "Cardiovalve经导管二尖瓣置换系统迄今最长5年随访个案:瓣膜功能持续良好",
+   "summary_zh": "《JACC: Case Reports》报道了一例接受经股静脉房间隔入路Cardiovalve经导管二尖瓣置换(TMVR)患者的5年随访结果,是该系统迄今公开的最长随访个案。患者持续保持NYHA心功能I级,瓣膜功能维持良好,未出现结构性退化、血栓形成或左室流出道梗阻,为这一早期经导管二尖瓣置换平台的长期耐久性提供了初步个案证据。",
+   "summary_en": "JACC: Case Reports published a 5-year follow-up - the longest publicly reported to date - of a patient treated with the transseptal Cardiovalve transcatheter mitral valve replacement (TMVR) system. The patient remained in NYHA functional class I with preserved valve function and no degeneration, thrombosis, or left ventricular outflow tract obstruction, offering early case-level evidence of long-term durability for this earlier-generation TMVR platform.",
+   "source": "JACC: Case Reports",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 1,
+   "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.106539"
+  }
+ ]
+}
