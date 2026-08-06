@@ -1,0 +1,29 @@
+{
+ "date": "2026-08-06",
+ "items": [
+  {
+   "date": "2026-05-20",
+   "title": "Clinical Outcomes of Transfemoral Transcatheter Mitral Valve Replacement: Results from the CHOICE-MI Registry",
+   "title_zh": "CHOICE-MI国际注册研究:经股静脉经导管二尖瓣置换技术成功率高,但中期死亡/心衰住院负担仍重",
+   "summary_zh": "CHOICE-MI国际注册研究纳入41个中心、使用9种不同专用器械经股静脉入路完成经导管二尖瓣置换(TF-TMVR)的124例患者(中位EuroSCORE II 5.0%;原发性二尖瓣反流占39.5%,二尖瓣环钙化占12.9%)。结果显示技术成功率达91.1%,围术期死亡率仅0.8%,出院时94.9%患者残余反流≤轻度;但主要复合终点(全因死亡或心衰住院)1年时已达44%,2年时升至53%,房颤是该终点的独立预测因子(HR 3.97,p=0.022),提示经股TMVR在技术层面已较成熟,但中期临床获益仍有改善空间。",
+   "summary_en": "The international CHOICE-MI registry reports outcomes for 124 patients who underwent transfemoral transcatheter mitral valve replacement (TF-TMVR) with 9 dedicated devices across 41 centers (median EuroSCORE II 5.0%; primary MR in 39.5%, mitral annular calcification in 12.9%). Technical success was 91.1% and procedural mortality only 0.8%, with 94.9% achieving residual MR of mild or less at discharge - but the composite of all-cause death or heart failure hospitalization reached 44% at 1 year and 53% at 2 years, with atrial fibrillation independently predicting the outcome (HR 3.97, P=0.022), underscoring a gap between procedural success and mid-term clinical benefit.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.003"
+  },
+  {
+   "date": "2026-08-05",
+   "title": "P&F Products & Features GmbH Announces Acquisition of AVVie GmbH",
+   "title_zh": "P&F Products & Features收购奥地利AVVie公司,拓展AngelValve二尖瓣腱索修复平台",
+   "summary_zh": "德国医疗技术公司P&F Products & Features GmbH宣布收购奥地利公司AVVie GmbH。AVVie由心脏外科医生Werner Mohl教授创立,核心技术AngelValve™增强系统基于其专有的\"Mitral Butterfly®\"经导管腱索修复设计,通过一步法重建退行性二尖瓣反流(MR)脱垂瓣叶的支持结构。欧美目前约有1300万MR患者,其中相当比例因解剖条件不适合现有缘对缘修复(TEER)或经导管二尖瓣置换(TMVR)产品,此次收购交易金额未披露,P&F将结合自身临床试验开发与监管申报经验推进AngelValve平台的后续研发。",
+   "summary_en": "German medtech company P&F Products & Features GmbH announced the acquisition of Austria-based AVVie GmbH. AVVie, founded by cardiac surgeon Prof. Werner Mohl, developed the AngelValve™ Augmentation System built on its proprietary Mitral Butterfly® transcatheter chordal-repair design - a single-step technique to restore the support apparatus of a flail leaflet in degenerative mitral regurgitation (MR). With an estimated 13 million patients across Europe and the US living with MR, many of them anatomically unsuited to existing TEER or TMVR devices, the deal - financial terms undisclosed - pairs AVVie's engineering with P&F's clinical-trial and regulatory expertise to advance the platform.",
+   "source": "PR Newswire",
+   "type": "industry",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://www.prnewswire.com/news-releases/pf-products--features-gmbh-announces-acquisition-of-avvie-gmbh-302843841.html"
+  }
+ ]
+}
