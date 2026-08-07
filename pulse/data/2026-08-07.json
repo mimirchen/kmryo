@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-07",
+ "items": [
+  {
+   "date": "2026-04-13",
+   "title": "Real-World Outcomes of Transcatheter Tricuspid Valve Replacement: Analysis From the STS/ACC TVT Registry",
+   "title_zh": "JAMA刊发STS/ACC TVT注册研究:经导管三尖瓣置换真实世界数据证实安全有效",
+   "summary_zh": "发表于JAMA的STS/ACC经导管瓣膜治疗(TVT)注册研究纳入2024年2月至2025年3月美国82个中心连续接受经导管三尖瓣置换(TTVR,均为Evoque器械)的1034例重度三尖瓣反流患者(平均年龄77岁,女性69%,黑人11%)。瓣膜植入成功率超98%,术后30天几乎所有患者反流降至轻度以下,全因死亡、卒中及出血等临床结局与TRISCEND II关键性试验一致,且新发心脏植入电子装置及出血发生率均低于随机对照试验人群,是FDA 2024年批准该器械后美国首批大规模真实世界安全性与有效性证据。",
+   "summary_en": "A JAMA-published analysis of the STS/ACC Transcatheter Valve Therapy (TVT) Registry evaluated 1,034 consecutive patients with severe tricuspid regurgitation who underwent transcatheter tricuspid valve replacement (TTVR, all Evoque devices) at 82 US centers between February 2024 and March 2025 (mean age 77, 69% female, 11% Black). Valve implantation succeeded in over 98% of cases, TR was reduced to mild or less in nearly all patients by 30 days, and mortality, stroke, and bleeding outcomes were consistent with the TRISCEND II pivotal trial - with lower rates of new cardiac device implantation and bleeding than in the randomized trial - providing the first large-scale US real-world confirmation of safety and effectiveness since the device's 2024 FDA approval.",
+   "source": "JAMA",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://jamanetwork.com/journals/jama/article-abstract/2847572"
+  },
+  {
+   "date": "2026-07-06",
+   "title": "Left Atrial Appendage Closure With the AnchorMan or Watchman Devices: 12-Month Results of the SAFE-PROTECT Randomised Trial",
+   "title_zh": "SAFE-PROTECT随机对照试验:国产AnchorMan封堵器12个月疗效不劣于Watchman",
+   "summary_zh": "发表于EuroIntervention的SAFE-PROTECT多中心、开放标签非劣效性随机对照试验纳入216例非瓣膜性房颤、卒中高危患者(平均CHA2DS2-VASc评分约4.0),按1:1随机分配至微创医疗(MicroPort)新一代左心耳封堵器AnchorMan组或Watchman 2.5组。12个月主要终点(缺血/出血性卒中、体循环栓塞及心血管或不明原因死亡复合终点)临床成功率两组均达98.1%,达成预设非劣效标准;两组器械均实现100%封堵成功(残余漏<5mm),而AnchorMan组>3mm残余漏发生率显著低于Watchman组,提示这款中国自主研发封堵器在有效性与残余漏控制上具竞争力。",
+   "summary_en": "The multicenter, open-label, non-inferiority SAFE-PROTECT randomized trial, published in EuroIntervention, enrolled 216 patients with non-valvular atrial fibrillation at high stroke risk (mean CHA2DS2-VASc ~4.0), randomized 1:1 to left atrial appendage closure with MicroPort's next-generation AnchorMan device or the Watchman 2.5. At 12 months, clinical success (freedom from ischemic/hemorrhagic stroke, systemic embolism, and cardiovascular or unexplained death) was 98.1% in both arms, meeting the prespecified non-inferiority margin; both devices achieved 100% procedural occlusion success (peri-device leak <5 mm), while AnchorMan showed a significantly lower rate of peri-device leak >3 mm than Watchman - positioning this Chinese-developed device as a competitive alternative on both efficacy and leak control.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://eurointervention.pcronline.com/article/left-atrial-appendage-closure-with-the-anchorman-or-watchman-devices-12-month-results-of-the-safe-protect-randomised-trial"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "Real-World Outcomes of Dedicated Leaflet Modification for Bioprosthetic Valve-In-Valve TAVR: A 150-Patient Commercial Experience",
+   "title_zh": "真实世界队列:专用瓣叶劈裂技术在瓣中瓣TAVR中150例商业应用经验",
+   "summary_zh": "JACC: Cardiovascular Interventions发表的美国28个中心真实世界队列纳入150例接受瓣中瓣TAVR的高危冠脉阻塞解剖患者(平均年龄79岁,女性60%;63%为外科生物瓣失败、37%为TAVR瓣失败),术前CT预测87%存在急性冠脉阻塞风险、51%合并窦部隔离与直接开口阻塞双重高危解剖。145例尝试机械瓣叶劈裂,手术成功率达99%(其中57%行双瓣叶劈裂),但仍有2%发生冠脉阻塞、2%全因死亡(2例左室穿孔、1例卒中后死亡),提示该技术在高危解剖中总体安全有效,但长期前瞻性随访仍属必要。",
+   "summary_en": "A 28-center US real-world cohort published in JACC: Cardiovascular Interventions enrolled 150 patients (mean age 79, 60% female; 63% failed surgical valves, 37% failed TAVR valves) undergoing valve-in-valve TAVR at anatomically high risk for coronary obstruction - CT predicted acute coronary obstruction risk in 87%, with combined sinus sequestration and direct ostial obstruction risk in 51%. Among 145 patients in whom mechanical leaflet splitting was attempted, procedural success was 99% (57% dual-leaflet splitting), though serious complications occurred in 2% (coronary obstruction) and all-cause mortality was 2%, underscoring that longer-term prospective follow-up remains essential.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.06.002"
+  },
+  {
+   "date": "2026-04-24",
+   "title": "AltaValve Early Feasibility Study: One-Year Outcomes with Atrial Fixation Transcatheter Mitral Valve Replacement",
+   "title_zh": "AltaValve早期可行性研究一年结果:心房固定式经导管二尖瓣置换展现持久疗效",
+   "summary_zh": "在SCAI 2026科学年会公布的AltaValve(4C Medical)早期可行性研究纳入30例重度二尖瓣反流(≥3+)、不适合外科手术或TEER的患者(平均年龄77岁,女性63%)。该器械采用独特的心房固定(而非传统心室锚定)设计。1年随访显示技术成功率与反流即刻消除率均达97%,95%患者维持MR≤1+且NYHA I/II级;平均二尖瓣跨瓣压差4.0 mmHg、LVOT压差仅1.8 mmHg,LVEF由基线54%维持在53%,6分钟步行距离平均增加43米;未发生卒中、器械栓塞、新发房颤、危及生命出血或新发起搏器植入,支持该心房固定平台的可行性与耐久性,后续将在ATLAS关键性试验中进一步验证。",
+   "summary_en": "The AltaValve (4C Medical) Early Feasibility Study, reported at SCAI 2026, enrolled 30 patients with severe mitral regurgitation (≥3+) unsuitable for surgery or TEER (mean age 77, 63% female), using a distinctive atrial-fixation (rather than ventricular-anchoring) design. At 1 year, technical success and immediate MR elimination were both 97%, with 95% maintaining MR of 1+ or less and NYHA class I/II; mean mitral gradient was 4.0 mmHg and LVOT gradient just 1.8 mmHg, LVEF was preserved (53% vs 54% baseline), and 6-minute walk distance improved by 43 meters on average - with no stroke, device embolization, new atrial fibrillation, life-threatening bleeding, or new pacemakers, supporting the platform's feasibility ahead of the pivotal ATLAS trial.",
+   "source": "SCAI",
+   "type": "conference",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://www.scai.org/altavalve-early-feasibility-study-one-year-outcomes-atrial-fixation-transcatheter-mitral-valve"
+  }
+ ]
+}
