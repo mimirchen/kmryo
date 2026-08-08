@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-08",
+ "items": [
+  {
+   "date": "2026-03-28",
+   "title": "Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation",
+   "title_zh": "CHAMPION-AF公布3年结果:NEJM确认左心耳封堵可作为房颤卒中预防的一线选择",
+   "summary_zh": "发表于NEJM、在2026年ACC年会公布的CHAMPION-AF随机对照试验纳入3000例伴卒中危险因素、符合口服抗凝药适应证的房颤患者(平均年龄71.7岁,女性31.9%),随机接受Watchman FLX左心耳封堵(Boston Scientific)或新型口服抗凝药(NOAC)治疗。3年主要复合终点(心血管死亡、卒中或体循环栓塞)封堵组5.7% vs NOAC组4.8%,达到预设非劣效标准;缺血性卒中/体循环栓塞年化率仅1.1%;ISTH出血(含围术期)风险显著降低34%(12.8% vs 19.0%)。该研究首次为左心耳封堵作为房颤卒中预防\"一线\"选择(而非仅限抗凝禁忌人群)提供随机化证据,但试验由器械厂商资助且实际事件率低于预设,非劣效检验效力也引发讨论。",
+   "summary_en": "The NEJM-published CHAMPION-AF randomized trial, presented at ACC 2026, reported 3-year outcomes in 3,000 atrial fibrillation patients eligible for oral anticoagulation (mean age 71.7, 31.9% women) randomized to Watchman FLX left atrial appendage closure (Boston Scientific) versus a NOAC. The composite of cardiovascular death, stroke, or systemic embolism occurred in 5.7% of the LAAC group versus 4.8% with NOACs, meeting the prespecified non-inferiority margin; annualized ischemic stroke/systemic embolism was 1.1%, and ISTH bleeding (including procedural) was reduced by 34% (12.8% vs 19.0% at 36 months). The trial is the first randomized evidence supporting LAAC as a potential first-line stroke-prevention option, though industry funding and lower-than-expected event rates have fueled debate over the strength of its non-inferiority claim.",
+   "source": "NEJM",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 5,
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2517213"
+  },
+  {
+   "date": "2026-02-13",
+   "title": "Six-Year Outcomes After Transcatheter vs Surgical Aortic Valve Replacement in Low-Risk Patients With Aortic Stenosis",
+   "title_zh": "Evolut Low Risk试验6-7年随访:低危患者TAVR再干预风险随时间逐渐超过外科换瓣",
+   "summary_zh": "发表于JACC的Evolut Low Risk随机对照试验6年结果显示,1414例2016至2019年入组的低危重度主动脉瓣狭窄患者中,经导管主动脉瓣置换(TAVR,美敦力Evolut系列)与外科换瓣(SAVR)在全因死亡或致残性卒中主要终点上6年内无显著差异,但生存曲线自5年起出现交叉、数值上略倾向外科;TAVR组6年再干预率为5.5% vs SAVR组3.3%(p=0.07),扩展至7年随访后差距扩大至9.8% vs 6.0%并达到统计学显著。再干预风险的上升主要由生物瓣返流(而非狭窄进展)驱动(TAVR组5.6% vs SAVR组1.6%),提示年轻低危患者选择TAVR时需权衡中长期再干预风险。",
+   "summary_en": "Six-year outcomes from the randomized Evolut Low Risk trial, published in JACC, followed 1,414 low-risk patients with severe aortic stenosis enrolled in 2016-2019 comparing self-expanding TAVR (Medtronic Evolut) with surgical aortic valve replacement (SAVR). The primary endpoint of all-cause mortality or disabling stroke showed no significant difference through 6 years, though the survival curves crossed at 5 years to numerically favor surgery. Reintervention was 5.5% with TAVR versus 3.3% with SAVR at 6 years (p=0.07), widening to a statistically significant 9.8% versus 6.0% when follow-up extended to 7 years - driven mainly by bioprosthetic aortic regurgitation rather than valve stenosis (5.6% vs 1.6%), a signal that longer-term reintervention risk should factor into TAVR decisions for younger, low-risk patients.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5063"
+  },
+  {
+   "date": "2026-02-06",
+   "title": "Prognostic impact of tricuspid regurgitation improvement after transcatheter mitral valve replacement: results from an international multicentre registry",
+   "title_zh": "CHOICE-MI登记研究:TMVR术后三尖瓣反流改善与更低死亡及心衰住院风险相关",
+   "summary_zh": "发表于European Heart Journal - Valvular and Structural Heart Disease的CHOICE-MI国际多中心登记研究纳入31个中心309例接受专用经导管二尖瓣置换器械(TMVR)治疗的中重度二尖瓣反流患者(中位年龄77岁),33.0%的患者术后三尖瓣反流(TR)获得改善(较基线降低≥1级)。多因素分析显示TR改善是1年全因死亡或心衰住院复合终点更低风险的独立预测因素,且与更好的症状获益相关,提示TMVR围术期应重视对合并TR的评估与管理。",
+   "summary_en": "The CHOICE-MI international multicenter registry, published in European Heart Journal - Valvular and Structural Heart Disease, analyzed 309 patients (median age 77) with moderate-to-severe mitral regurgitation treated with dedicated transcatheter mitral valve replacement (TMVR) devices across 31 centers. Tricuspid regurgitation (TR) improved by at least one grade in 33.0% of patients after TMVR, and this improvement independently predicted lower 1-year all-cause mortality or heart failure hospitalization and greater symptomatic benefit - underscoring the prognostic relevance of concomitant TR when planning and following TMVR.",
+   "source": "EHJ-VSHD",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://academic.oup.com/ehjvshd/article/2/1/xwag012/8494825"
+  },
+  {
+   "date": "2026-08-03",
+   "title": "New Minimally Invasive Option Available for Patients With Mitral Valve Disorders",
+   "title_zh": "范德堡心血管研究所开展SAPIEN M3经间隔二尖瓣置换,高危患者术后一晚可出院",
+   "summary_zh": "范德堡大学心血管研究所(VHVI)报道,自2026年6月起为外科高危、伴中重度二尖瓣反流、重度二尖瓣狭窄或混合性二尖瓣病变的患者开展SAPIEN M3(Edwards Lifesciences)经股静脉-房间隔二尖瓣置换手术——这是2025年12月获FDA批准的首款经间隔途径经导管二尖瓣置换系统。报道以首批受益患者之一Dixie Watt为例,介绍该术式创伤更小、多数患者术后一晚即可出院回家,为既往缺乏微创选择的高危二尖瓣病患者提供新方案。",
+   "summary_en": "Vanderbilt Heart and Vascular Institute (VHVI) reports that since June 2026 it has been implanting the SAPIEN M3 (Edwards Lifesciences) - the first FDA-approved transseptal transcatheter mitral valve replacement system, cleared in December 2025 - in surgery-high-risk patients with moderate-to-severe mitral regurgitation, severe mitral stenosis, or mixed mitral disease. Profiling early recipient Dixie Watt, the piece highlights the minimally invasive procedure's typical one-night hospital stay, giving high-risk mitral valve patients a new option where few existed before.",
+   "source": "Vanderbilt Health News",
+   "type": "news",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://news.vumc.org/2026/08/03/new-minimally-invasive-option-available-for-patients-with-mitral-valve-disorders/"
+  }
+ ]
+}
