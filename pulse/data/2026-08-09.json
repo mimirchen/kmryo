@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-09",
+ "items": [
+  {
+   "date": "2026-01-02",
+   "title": "Outcomes of Patients With New Left Bundle Branch Block After TAVR: TVT Registry Insights",
+   "title_zh": "STS/ACC TVT登记研究:TAVR术后新发左束支传导阻滞与更差1年预后及3.5倍起搏器植入风险相关",
+   "summary_zh": "基于STS/ACC经导管瓣膜治疗(TVT)登记研究,纳入2016至2022年间202,533例存活出院的TAVR患者,16.3%(32,933例)术后新发左束支传导阻滞(LBBB),该比例从2016年第一季度的19.9%降至2022年第三季度的14.4%。新发LBBB患者出院后1年内永久起搏器植入率显著升高(7.1% vs 2.1%,校正HR 3.50,p<0.001),同时全因死亡、心血管死亡、再住院及左室收缩功能恶化风险均增加,提示需加强对这类患者的心电监测与随访。",
+   "summary_en": "An analysis of the STS/ACC Transcatheter Valve Therapy (TVT) Registry covering 202,533 TAVR recipients discharged alive between 2016 and 2022 found that 16.3% (32,933 patients) developed new left bundle branch block (LBBB), with incidence falling from 19.9% in Q1 2016 to 14.4% in Q3 2022. New LBBB was associated with a markedly higher rate of post-discharge permanent pacemaker implantation (7.1% vs 2.1%; adjusted HR 3.50; P<0.001), plus increased all-cause and cardiovascular mortality, rehospitalization, and worsening left ventricular systolic function, underscoring the need for closer rhythm monitoring in these patients.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.015441"
+  },
+  {
+   "date": "2026-04-15",
+   "title": "Impact of TAVR Failure Mechanism on Outcomes After Reintervention: From the EXPLANTORREDO-TAVR Registry",
+   "title_zh": "EXPLANTORREDO-TAVR国际登记研究:TAVR失败机制不同,外科取瓣与Redo-TAVR再干预策略选择存在差异",
+   "summary_zh": "EXPLANTORREDO-TAVR国际多中心登记研究纳入29个中心2009至2022年间因经导管主动脉瓣失败接受外科取瓣或再次TAVR(redo-TAVR)的553例患者(平均年龄75.6±9.3岁,女性42%)。其中结构性瓣膜退化(SVD)占64.9%,非结构性瓣膜功能障碍(NSVD,主要为瓣周漏和人工瓣膜-患者不匹配)占35.1%。SVD患者从初次TAVR到再干预的时间显著长于NSVD患者(50.7个月 vs 5.5个月,p<0.001),且更多见于球囊扩张瓣膜(50.7% vs 24.8%,p<0.001);两组再干预方式(外科取瓣 vs redo-TAVR)总体分布无显著差异,提示失败机制应成为制定再干预策略的重要参考。",
+   "summary_en": "The EXPLANTORREDO-TAVR international multicenter registry analyzed 553 patients across 29 centers (mean age 75.6±9.3, 42% women) who underwent surgical explant or redo-TAVR for transcatheter valve failure between 2009 and 2022. Structural valve deterioration (SVD) accounted for 64.9% of failures and nonstructural valve dysfunction (NSVD, mainly paravalvular leak and prosthesis-patient mismatch) for 35.1%. Time from index TAVR to reintervention was far longer with SVD than NSVD (50.7 vs 5.5 months; P<0.001), and SVD was more common with balloon-expandable valves (50.7% vs 24.8%; P<0.001), while overall choice of reintervention strategy (explant vs redo-TAVR) did not differ significantly between groups — suggesting failure mechanism should help guide the reintervention approach.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.016068"
+  },
+  {
+   "date": "2025-11-14",
+   "title": "Invasive Hemodynamics and Risk Stratification in T-TEER: Moving Beyond ESC Thresholds — EuroTR Registry Insights",
+   "title_zh": "EuroTR登记研究:有创血流动力学指标为三尖瓣缘对缘修复患者提供超越现行ESC标准的风险分层依据",
+   "summary_zh": "基于欧洲三尖瓣反流经导管修复登记研究(EuroTR)的711例接受三尖瓣缘对缘修复(T-TEER)患者数据显示,2年无死亡/心衰住院生存率为63%。研究确定平均肺动脉压≥32 mmHg、肺毛细血管楔压(PCWP)≥20 mmHg为预测2年死亡/心衰住院的最佳阈值,均高于现行ESC肺动脉高压诊断标准;PCWP≥20 mmHg独立预测早期临床恶化(HR 2.77)及2年死亡/心衰住院(HR 1.75),提示晚期三尖瓣反流患者的风险分层需要采用人群特异性的血流动力学切点,而非直接套用现有肺动脉高压指南阈值。",
+   "summary_en": "An analysis of 711 patients from the European Registry of Transcatheter Repair for Tricuspid Regurgitation (EuroTR) undergoing T-TEER found 2-year survival free of death or heart failure hospitalization (HFH) of 63%. The study identified optimal prognostic thresholds — mean pulmonary artery pressure ≥32 mmHg and pulmonary capillary wedge pressure (PCWP) ≥20 mmHg — that exceeded standard ESC pulmonary hypertension diagnostic cutoffs. PCWP ≥20 mmHg independently predicted early clinical deterioration (HR 2.77) and 2-year death/HFH (HR 1.75), suggesting risk stratification in advanced TR should use population-specific hemodynamic thresholds rather than general pulmonary hypertension guideline criteria.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.015964"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Sex-Related Differences in Outcomes and Thresholds for Intervention in Primary Mitral Regurgitation: A Systematic Review and Meta-Analysis",
+   "title_zh": "系统综述与荟萃分析:女性原发性二尖瓣反流患者接受干预时年龄更大、症状更重,长期预后逊于男性",
+   "summary_zh": "发表于JACC: Cardiovascular Imaging的系统综述与荟萃分析纳入17项研究(88%为回顾性观察性研究,以外科干预为主)、合计近26,000例接受外科或经导管干预的原发性二尖瓣反流(PMR)患者,女性占38%。汇总重建的个体患者时间-事件数据并经meta回归分析显示,女性接受干预时年龄更大、症状更重、等待手术时间更长、接受二尖瓣修复(而非置换)的比例更低;年龄、中度以上三尖瓣反流及同期三尖瓣修复是导致两性死亡率差异的三个显著调节因素,且这两项三尖瓣相关因素在女性中更常见,提示现行PMR干预阈值和指南未充分考虑性别差异。",
+   "summary_en": "A systematic review and meta-analysis in JACC: Cardiovascular Imaging pooled 17 studies (88% retrospective, predominantly surgical) covering nearly 26,000 patients undergoing surgical or transcatheter intervention for primary mitral regurgitation (PMR), of whom 38% were women. Using reconstructed individual patient time-to-event data and meta-regression, the authors found women were older and more symptomatic at intervention, waited longer for surgery, and received mitral repair less often than replacement compared with men. Age, moderate-or-greater tricuspid regurgitation, and concomitant tricuspid valve repair emerged as significant moderators of the sex gap in mortality — and both tricuspid-related factors were more common in women — indicating current PMR intervention thresholds and guidelines insufficiently account for sex differences.",
+   "source": "JACC: Cardiovascular Imaging",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcmg.2026.05.013"
+  }
+ ]
+}
