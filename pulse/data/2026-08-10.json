@@ -1,0 +1,65 @@
+{
+ "date": "2026-08-10",
+ "items": [
+  {
+   "date": "2026-03-18",
+   "title": "Left Atrial Appendage Closure or Medical Therapy in Atrial Fibrillation",
+   "title_zh": "CLOSURE-AF随机试验:左心耳封堵未能证明不劣于强化药物治疗,与CHAMPION-AF结论形成鲜明对比",
+   "summary_zh": "发表于NEJM、由Landmesser等主导的CLOSURE-AF为德国42家中心的前瞻性随机对照试验,纳入912例卒中风险(CHA2DS2-VASc评分均值5.2)与出血风险(HAS-BLED评分均值3.0)均高的房颤患者,1:1随机分配至左心耳封堵(446例)或医生指导下的强化药物治疗(含新型口服抗凝药,442例)。中位随访3年,意向治疗分析显示封堵组主要复合终点(卒中、体循环栓塞、心血管/不明原因死亡或大出血)年化发生率为16.83/100人年,高于药物组的13.27/100人年(校正HR 1.28,95%CI 1.01-1.62),未达到预设非劣效界值(HR 1.3)。该结果与几乎同期发表、结论相反的CHAMPION-AF试验形成鲜明对比,凸显患者选择(尤其高龄、多重合并症人群)对左心耳封堵获益的决定性影响,已引发欧洲心脏杂志撰文呼吁审慎解读。",
+   "summary_en": "Published in NEJM, the CLOSURE-AF trial (Landmesser et al) randomized 912 atrial fibrillation patients at high risk of both stroke (mean CHA2DS2-VASc 5.2) and bleeding (mean HAS-BLED 3.0) across 42 German centers to left atrial appendage closure (n=446) or physician-directed intensified medical therapy including NOACs (n=442). Over a median 3-year follow-up, the intention-to-treat annualized rate of the primary composite endpoint (stroke, systemic embolism, cardiovascular/unexplained death, or major bleeding) was 16.83 per 100 patient-years with LAAC versus 13.27 with medical therapy (adjusted HR 1.28, 95% CI 1.01-1.62), missing the prespecified noninferiority margin of 1.3. The negative result stands in sharp contrast to the nearly concurrent CHAMPION-AF trial, underscoring how patient selection — especially in older, multimorbid populations — may determine whether LAAC outperforms medical therapy, and has already prompted calls for cautious interpretation in the European Heart Journal.",
+   "source": "NEJM",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2513310"
+  },
+  {
+   "date": "2026-03-16",
+   "title": "Durability of Mitral Valve Transcatheter Edge-to-Edge Repair: An Expert Overview",
+   "title_zh": "JACC专家综述:二尖瓣缘对缘修复5年MR复发率达17%,原发性MR患者耐久性问题更突出",
+   "summary_zh": "发表于JACC: Cardiovascular Interventions、由Mariani、Stolz、von Bardeleben等撰写的这篇专家综述系统汇总了二尖瓣缘对缘修复(M-TEER)长期耐久性数据:术后最初数月MR复发与再干预的加权合并发生率为5%-10%,前3年基本保持稳定,但至5年时分别升至17%与9%;其中原发性MR患者的复发/再干预率在数值上高于继发性MR,5年时41%的原发性MR患者出现MR复发或需要再干预。文章还指出,针对M-TEER失败的处理,再次行缘对缘修复较外科手术更安全,但1年内MR复发率仍达20%-40%,外科二尖瓣置换是M-TEER失败后最常用的手术方式,提示M-TEER中远期耐久性、尤其在原发性MR人群中,仍是亟待改善的临床问题。",
+   "summary_en": "This expert overview in JACC: Cardiovascular Interventions, authored by Mariani, Stolz, von Bardeleben and colleagues, synthesizes long-term durability data on mitral transcatheter edge-to-edge repair (M-TEER): pooled weighted rates of MR recurrence and reintervention were 5%-10% in the first months post-procedure, stayed roughly stable through 3 years, then rose to 17% and 9% respectively by 5 years. Recurrence and reintervention were numerically higher with primary than secondary MR, with 41% of primary-MR patients experiencing recurrence or needing reintervention by 5 years. For failed M-TEER, redo TEER appeared safer than surgery but still carried a 20%-40% 1-year MR recurrence rate, while mitral valve replacement was the most common surgical fallback — highlighting mid-to-long-term durability, particularly in primary MR, as an unresolved challenge for the field.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.02.019"
+  },
+  {
+   "date": "2026-02-03",
+   "title": "Early Safety and Feasibility Study of a Novel Transcatheter Aortic Valve With Polymeric Leaflets",
+   "title_zh": "全球首款聚合物瓣叶TAVR瓣膜首次人体研究:12例患者1年随访结果令人鼓舞,或改善耐久性并降低成本",
+   "summary_zh": "发表于JACC: Asia的首次人体前瞻性、非随机、单臂多中心研究评估了Sikelia经导管主动脉瓣系统——全球首款采用聚氨酯复合材料浸涂瓣叶(而非传统牛/猪心包组织)的自膨胀TAVR瓣膜。2022至2024年间,中国4家高手术量中心为12例重度症状性主动脉瓣狭窄患者(平均年龄近74岁,75%为男性,STS评分均值4.51%)植入该瓣膜,1年随访结果令人鼓舞,未见瓣膜相关安全性问题。研究者认为聚合物瓣叶柔顺性更好、有助于改善瓣周漏封堵,并可能降低血栓形成与钙化风险,从而提升长期耐久性并降低生产成本,但样本量小,仍需更大规模、更长随访的研究验证。",
+   "summary_en": "Published in JACC: Asia, this first-in-human, prospective, single-arm, multicenter feasibility study evaluated the Sikelia transcatheter aortic valve — the world's first self-expanding TAVR device with dip-coated polyurethane composite leaflets instead of conventional bovine/porcine pericardial tissue. Between 2022 and 2024, four high-volume centers in China implanted the valve in 12 patients with severe symptomatic aortic stenosis (mean age ~74, 75% men, mean STS score 4.51%), with encouraging 1-year outcomes and no valve-related safety signals. Investigators say the polymeric leaflets' greater flexibility could improve paravalvular sealing while reducing thrombogenicity and calcification — potentially boosting long-term durability and lowering manufacturing cost — though the small sample size means larger, longer-term studies are still needed.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacasi.2025.10.032"
+  },
+  {
+   "date": "2026-04-21",
+   "title": "Tricuspid Valve Academic Research Consortium-2 (TVARC-2): Trial Design and Endpoints",
+   "title_zh": "TVARC-2共识文件发布:为三尖瓣介入治疗的下一代临床试验设计与终点定义提供统一标准",
+   "summary_zh": "发表于JACC的三尖瓣学术研究联盟第二份共识文件(TVARC-2)由Weill Cornell、杜克大学等多中心专家组撰写,在此前TVARC三尖瓣反流定义与终点标准的基础上,进一步针对经导管三尖瓣介入(TTVI)与优化药物治疗、器械与器械、器械与外科三类比较场景,提出具体的试验设计方案与终点选择建议。文件指出,基于随机对照试验证据,缘对缘修复与瓣膜置换器械已相继获FDA批准及CE认证,但后续新一代器械与联合治疗方案仍缺乏统一评价框架,TVARC-2旨在为申办方与监管机构提供可比较的标准化路径。",
+   "summary_en": "Published in JACC, the second Tricuspid Valve Academic Research Consortium document (TVARC-2), authored by a multicenter expert panel including Weill Cornell and Duke investigators, builds on the original TVARC definitions of tricuspid regurgitation and outcomes to propose concrete trial designs and endpoint selections for three key comparison scenarios in transcatheter tricuspid valve intervention (TTVI): device versus optimal medical therapy, device versus device, and device versus surgery. The document notes that randomized evidence has already led to FDA approval and CE marking of edge-to-edge repair and replacement devices, but next-generation devices and combination strategies still lack a standardized evaluation framework — a gap TVARC-2 aims to close for sponsors and regulators alike.",
+   "source": "JACC",
+   "type": "guideline",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5102"
+  },
+  {
+   "date": "2026-03-25",
+   "title": "Clinical Applications of Artificial Intelligence in Structural Heart Disease",
+   "title_zh": "JSCAI综述:人工智能如何重塑左心耳封堵、二尖瓣与三尖瓣介入的术前规划与影像工作流程",
+   "summary_zh": "发表于《美国心血管造影与介入学会杂志》(JSCAI)的这篇综述系统梳理了人工智能在结构性心脏病各主要领域的临床应用现状:在左心耳封堵中,自动化CT工作流程可实现专家级精度的左心耳解剖分型与器械选型,三维AI心脏建模平台还能减少术中对经食管超声的依赖;在二尖瓣介入中,AI表型分析可捕捉瓣叶对合、腱索张力与瓣环构型等复杂几何关系,识别与手术成功及残余反流相关的解剖模式;在三尖瓣介入中,自动化深度学习CT平台可对三尖瓣环、右心房与右心室生成可重复的四维模型,应对右心解剖复杂多变带来的影像挑战。综述指出,基于CT的AI应用对减少不必要的有创冠脉造影、优化手术流程的临床影响最为显著。",
+   "summary_en": "This review in the Journal of the Society for Cardiovascular Angiography & Interventions (JSCAI) surveys how artificial intelligence is being applied across major structural heart disease domains: in left atrial appendage closure, automated CT-based workflows achieve expert-level accuracy in appendage anatomy characterization and device sizing, while 3D AI-driven cardiac modeling reduces reliance on transesophageal echocardiography; in mitral valve interventions, AI phenotyping captures complex geometric relationships — leaflet coaptation, tenting, annular configuration — to identify patterns associated with technical success and residual regurgitation; and in tricuspid interventions, automated deep-learning CT platforms generate reproducible 4D models of the tricuspid annulus and right heart chambers to address the imaging challenges posed by complex right-sided anatomy. The authors note CT-based AI tools show the strongest clinical impact so far, notably in reducing unnecessary invasive coronary angiography and improving procedural workflow efficiency.",
+   "source": "JSCAI",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://www.jscai.org/article/S2772-9303(26)00142-0/fulltext"
+  }
+ ]
+}
