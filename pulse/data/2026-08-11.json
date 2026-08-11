@@ -1,0 +1,77 @@
+{
+ "date": "2026-08-11",
+ "items": [
+  {
+   "date": "2026-06-16",
+   "title": "10-Year Outcomes of SAPIEN 3 Transcatheter Aortic Valve Replacement or Surgery in Intermediate-Risk Patients",
+   "title_zh": "SAPIEN 3 TAVR十年随访:中等风险主动脉瓣狭窄患者介入与外科置换死亡、再介入率相当",
+   "summary_zh": "发表于JACC(2026;87:3296-3308)的这项分析比较了PARTNER 2 SAPIEN 3中等风险注册研究(P2S3i)与PARTNER 2A随机试验中接受外科主动脉瓣置换(SAVR)的患者,通过倾向评分匹配各纳入783例中等手术风险的重度症状性主动脉瓣狭窄患者(平均年龄82岁,43%女性,STS评分均值5.5%)。10年随访显示,经导管主动脉瓣置换(TAVR)组与外科组在死亡率和瓣膜再介入率上相近,血流动力学表现也保持稳定,为SAPIEN 3瓣膜的长期耐久性提供了迄今为止随访时间最长的证据之一;研究者也提示,长期随访中的失访差异与老年人群的竞争死亡风险,是解读此类超长期数据时需要注意的局限。",
+   "summary_en": "Published in JACC (2026;87:3296-3308), this propensity-score-matched analysis compared 783 intermediate-surgical-risk patients with severe symptomatic aortic stenosis who received SAPIEN 3 TAVR in the PARTNER 2 SAPIEN 3 Intermediate-Risk Registry (P2S3i) against 783 matched patients who underwent SAVR in the PARTNER 2A randomized trial (mean age 82, 43% women, mean STS score 5.5%). At 10 years, TAVR and surgery showed similar rates of mortality and aortic valve reintervention, with comparable hemodynamic stability — among the longest follow-up data yet for SAPIEN 3 durability — though the authors note differential loss to follow-up and competing mortality risk in this elderly population complicate interpretation of such extended-term data.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0735109726062674"
+  },
+  {
+   "date": "2026-06-27",
+   "title": "Five-Year Outcomes of Transcatheter Mitral Valve Replacement in Patients With Severe Symptomatic Mitral Regurgitation: Results From the Tendyne Expanded Clinical Study",
+   "title_zh": "Tendyne经导管二尖瓣置换5年随访:重度二尖瓣反流患者MR控制率高,但器械相关不良事件不容忽视",
+   "summary_zh": "发表于ESC Heart Failure的Tendyne扩展临床研究(Expanded Clinical Study)是一项前瞻性单臂多中心研究,2014年11月至2020年6月共入组191例重度症状性二尖瓣反流患者(平均年龄74.1岁,62.8%男性,70.2%为NYHA III/IV级,88.5%为继发性MR),其中186例(97.4%)完成经导管二尖瓣置换(TMVR)。5年随访显示,MR分级从基线99.5%患者≥3+降至95.3%患者≤1+;存活至5年的49例患者中73.5%处于NYHA I/II级。但5年内严重不良事件包括危及生命的出血11.5%、肾功能不全/衰竭28.8%、器械血栓5.8%,提示该器械疗效持久,但安全性问题仍需在患者选择时审慎权衡。",
+   "summary_en": "Published in ESC Heart Failure, the Tendyne Expanded Clinical Study is a prospective, single-arm, multicenter study that enrolled 191 patients with severe symptomatic mitral regurgitation (mean age 74.1, 62.8% men, 70.2% NYHA III/IV, 88.5% secondary MR) between November 2014 and June 2020, of whom 186 (97.4%) underwent Tendyne transcatheter mitral valve replacement. At 5 years, MR grade fell from ≥3+ in 99.5% of patients at baseline to ≤1+ in 95.3%, and among the 49 patients surviving to 5 years, 73.5% were NYHA class I/II. However, serious adverse events through 5 years included life-threatening bleeding (11.5%), renal insufficiency/failure (28.8%), and device thrombosis (5.8%) — durable efficacy tempered by safety signals that underscore the importance of careful patient selection.",
+   "source": "ESC Heart Failure",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://academic.oup.com/eschf/advance-article/doi/10.1093/eschf/xvag175/8719422"
+  },
+  {
+   "date": "2026-06-26",
+   "title": "Repeat M-TEER Tied to Worse Clinical Outcomes: STS/ACC TVT Registry",
+   "title_zh": "New York Valves 2026:STS/ACC TVT注册研究显示,二尖瓣缘对缘修复二次手术患者死亡与心衰住院风险更高",
+   "summary_zh": "在New York Valves 2026大会上,弗吉尼亚大学John Saxon医生公布了基于STS/ACC TVT注册研究的分析:2016至2023年间69,139例接受二尖瓣缘对缘修复(M-TEER)的患者中,3.8%在5年内接受了二次修复。与仅接受单次M-TEER者相比,需要二次手术的患者死亡与心衰再住院风险更高,健康状态改善幅度也更小;二次M-TEER的手术成功率仅59%,约半数患者出现医源性二尖瓣狭窄。预测二次手术需求的最强因素包括首次手术仅置入单个器械、末次MR分级≥2+及末次跨瓣压差较低。",
+   "summary_en": "At New York Valves 2026, John Saxon, MD (University of Virginia), presented an STS/ACC TVT Registry analysis of 69,139 patients who underwent mitral transcatheter edge-to-edge repair (M-TEER) between 2016 and 2023, finding that 3.8% required a second repair within 5 years. Compared with single-procedure patients, those needing a redo had higher mortality and heart failure hospitalization risk and smaller gains in health status; procedural success with repeat M-TEER was only 59%, and roughly half of redo patients developed iatrogenic mitral stenosis. The strongest predictors of needing a second repair were a single-device index procedure, final MR grade ≥2+, and a lower final mean gradient.",
+   "source": "TCTMD (New York Valves 2026)",
+   "type": "conference",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/repeat-m-teer-tied-worse-clinical-outcomes-stsacc-tvt-registry"
+  },
+  {
+   "date": "2026-06-29",
+   "title": "Novel Transcatheter Edge-to-Edge Repair System for High-Risk Primary Mitral Regurgitation: 2-Year Pivotal Trial Outcomes",
+   "title_zh": "国产Neonova缘对缘修复系统2年枢纽试验结果:高危原发性二尖瓣反流患者MR控制率维持在95%以上",
+   "summary_zh": "发表于JACC: Asia的这项单臂、以性能目标为对照的中国枢纽试验,在23家中心纳入123例外科高危的中重度至重度原发性二尖瓣反流患者(平均年龄71岁,46%女性),评估新型Neonova缘对缘修复(TEER)系统。主要疗效终点为1年治疗成功率(免于死亡、二尖瓣手术及MR>2+),以60%为性能目标,实际达92.68%,2年时仍维持84.55%的无事件生存率;MR≤2+的患者比例1年时为96.61%,2年时为95.41%,显示该国产器械中期疗效稳定。",
+   "summary_en": "Published in JACC: Asia, this single-arm, performance-goal pivotal trial across 23 Chinese centers enrolled 123 high-surgical-risk patients with moderate-to-severe or severe primary mitral regurgitation (mean age 71, 46% women) to evaluate the novel Neonova transcatheter edge-to-edge repair (TEER) system. The primary efficacy endpoint — 1-year treatment success (freedom from death, mitral surgery, and MR >2+) against a 60% performance goal — was met at 92.68%, with event-free survival remaining at 84.55% at 2 years. MR ≤2+ was maintained in 96.61% of patients at 1 year and 95.41% at 2 years, indicating stable mid-term performance for this domestically developed device.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacasi.2026.04.029"
+  },
+  {
+   "date": "2026-07-27",
+   "title": "Trends and Outcomes of Antithrombotic Strategies for Valve-in-Valve TAVR: The STS/ACC TVT Registry",
+   "title_zh": "STS/ACC TVT注册研究:瓣中瓣TAVR术后抗栓方案差异巨大,但1年死亡、卒中与出血风险并无显著区别",
+   "summary_zh": "发表于JACC: Cardiovascular Interventions(2026;19(14):1927-1939)的这项STS/ACC TVT注册研究分析了2015年1月至2024年3月期间18,414例接受瓣中瓣TAVR(valve-in-valve)的患者,发现临床实践中抗栓方案差异显著:27.3%接受单抗血小板治疗(SAPT),53.5%接受双抗血小板治疗(DAPT),19.2%接受基于口服抗凝药的方案,且DAPT使用率逐年下降、SAPT至2024年已成为主流。1年随访显示,不同抗栓策略组间全因死亡、卒中及出血风险均无显著差异,凸显这一日益增长的患者群体仍缺乏循证的抗栓治疗指南。",
+   "summary_en": "Published in JACC: Cardiovascular Interventions (2026;19(14):1927-1939), this STS/ACC TVT Registry analysis of 18,414 valve-in-valve TAVR patients (January 2015-March 2024) found wide practice variation in antithrombotic strategy: 27.3% received single antiplatelet therapy (SAPT), 53.5% dual antiplatelet therapy (DAPT), and 19.2% an oral-anticoagulation-based regimen, with DAPT use declining over time as SAPT became dominant by 2024. At 1 year, no significant differences in all-cause mortality, stroke, or bleeding were found across strategies — underscoring the lack of evidence-based guidance for antithrombotic management in this growing patient population.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42508850/"
+  },
+  {
+   "date": "2026-04-20",
+   "title": "TAVI in Young Patients With Bicuspid Aortic Valve Stenosis: Insight From the International AD-HOC Registry",
+   "title_zh": "国际AD-HOC注册研究:年轻二叶式主动脉瓣狭窄患者行TAVI技术成功率与老年、高危患者相当",
+   "summary_zh": "发表于《临床心脏病学研究》(Clinical Research in Cardiology)的国际AD-HOC注册研究纳入980例重度二叶式主动脉瓣(BAV)狭窄患者,按年龄与手术风险分为三组:第一组(<69岁且STS评分<4%,113例)、第二组(69-75岁且STS评分<4%,173例)与第三组(>75岁或STS评分≥4%,694例)。三组接受TAVI的技术成功率分别为94.7%、97.1%与94.5%(P=0.37),30天器械成功率与安全性也无显著差异,为常被主要随机对照试验排除的年轻低危二叶瓣患者提供了TAVI可行性证据。",
+   "summary_en": "Published in Clinical Research in Cardiology, this international AD-HOC registry study enrolled 980 patients with severe bicuspid aortic valve (BAV) stenosis, stratified by age and surgical risk into three groups: Group I (age <69 and STS-PROM <4%, n=113), Group II (69-75 years and STS-PROM <4%, n=173), and Group III (>75 years or STS-PROM ≥4%, n=694). Technical success with TAVI was comparable across groups (94.7%, 97.1%, and 94.5% respectively; P=0.37), as were 30-day device success and safety — providing feasibility evidence for TAVI in younger, lower-risk bicuspid AS patients who are often excluded from pivotal randomized trials.",
+   "source": "Clinical Research in Cardiology",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://link.springer.com/article/10.1007/s00392-026-02892-9"
+  }
+ ]
+}
