@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-12",
+ "items": [
+  {
+   "date": "2026-07-29",
+   "title": "Health Status Outcomes 7 Years After Transcatheter or Surgical Aortic Valve Replacement in Low-Surgical Risk Patients With Aortic Stenosis",
+   "title_zh": "PARTNER 3七年随访:TAVR恢复更快,但2年后与外科置换健康状态结局相近",
+   "summary_zh": "发表于JACC的PARTNER 3随机试验7年健康状态分析纳入943例低外科风险重度症状性主动脉瓣狭窄患者(TAVR组494例,SAVR组449例),采用堪萨斯城心肌病问卷(KCCQ-OS)评估。TAVR组术后1个月KCCQ-OS评分显著优于SAVR组(均差+16.2分),优势持续至2年(+1.9分),但3至7年间两组无显著差异;7年时约60%患者维持“优异结局”(存活、KCCQ-OS≥75分且较基线下降不超过10分)。研究提示TAVR恢复更快,但长期患者报告健康状态获益与外科置换相当。",
+   "summary_en": "Published in JACC, this 7-year health-status analysis of the PARTNER 3 randomized trial (943 low-surgical-risk patients with severe symptomatic aortic stenosis; 494 TAVR, 449 SAVR) using the Kansas City Cardiomyopathy Questionnaire (KCCQ-OS) found TAVR conferred substantially higher scores at 1 month (mean difference +16.2 points) and modestly higher scores through 2 years (+1.9 points), with no significant between-group difference from years 3 through 7. At 7 years, roughly 60% of patients in both arms achieved an \"excellent outcome\" (alive, KCCQ-OS ≥75, no ≥10-point decline from baseline) -- confirming faster early recovery with TAVR but comparable long-term patient-reported health status versus surgery.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.06.022"
+  },
+  {
+   "date": "2026-01-06",
+   "title": "Percutaneous Aorto-Coronary Bypass Graft to Prevent Coronary Obstruction Following TAVR: First Human VECTOR Procedure",
+   "title_zh": "首例人体VECTOR手术:经皮主动脉-冠脉旁路搭桥预防TAVR术后冠脉阻塞",
+   "summary_zh": "发表于Circulation: Cardiovascular Interventions的病例报道中,美国NIH与埃默里大学团队完成全球首例人体VECTOR(心室-冠脉经导管外向导航再入)手术:针对一例因解剖原因无法接受BASILICA、UNICORN、CATHEDRAL或“snorkel”支架等现有瓣叶劈裂/保护技术、TAVR术后存在冠脉阻塞高风险的患者,团队用带膜支架在左主干与主动脉间打孔连接,建立经皮主动脉-冠脉旁路,成功预防了冠脉阻塞。该患者此前曾行经导管二尖瓣置换,术后6个月状况良好,长期口服抗凝药联合单抗血小板治疗。此技术为无法采用现有保护术式的极少数高危患者提供了“跳出常规”的新选择。",
+   "summary_en": "In a case report published in Circulation: Cardiovascular Interventions, a team from the US National Institutes of Health and Emory University performed the world's first human VECTOR (ventriculo-coronary transcatheter outward navigation and re-entry) procedure: using a covered stent punched through to connect the left main coronary artery and the aorta, they created a percutaneous aorto-coronary bypass that successfully prevented coronary obstruction in a TAVR-candidate patient ineligible for existing leaflet-modification techniques (BASILICA, UNICORN, CATHEDRAL, or snorkel stenting). The patient, who had previously undergone transcatheter mitral valve replacement, remained well 6 months later on lifelong oral anticoagulation plus single antiplatelet therapy -- an \"outside-the-box\" option for the rare high-risk patients left without a percutaneous protection strategy.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.016130"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "Clinical Outcomes of Transfemoral Transcatheter Mitral Valve Replacement: Results From the CHOICE-MI Registry",
+   "title_zh": "CHOICE-MI注册研究:经股静脉入路经导管二尖瓣置换技术成功率高,但2年死亡/心衰住院复合终点近半",
+   "summary_zh": "发表于JACC: Cardiovascular Interventions的国际CHOICE-MI注册研究分析了41家中心124例接受经股静脉入路(transfemoral)经导管二尖瓣置换(TF TMVR)的患者(平均年龄79岁,50%女性,EuroSCORE II中位数5.0%),共使用9种不同器械。技术成功率91%,手术相关死亡率0.8%;出院时95%患者残余二尖瓣反流≤1+,该效果基本维持至2年。但2年时全因死亡或心衰住院复合终点发生率达53%(1年时44%),心血管死亡率20%(1年15%);房颤是死亡/心衰住院的独立预测因素(HR 3.97,p=0.022)。研究提示TF TMVR技术层面表现“合理”,但高危患者群体中长期不良事件负担依然沉重。",
+   "summary_en": "The international CHOICE-MI registry, published in JACC: Cardiovascular Interventions, analyzed 124 patients (mean age 79, 50% women, median EuroSCORE II 5.0%) who underwent transfemoral transcatheter mitral valve replacement (TF TMVR) with 9 different dedicated devices across 41 centers. Technical success was 91% and procedural mortality 0.8%; 95% of patients had residual mitral regurgitation ≤1+ at discharge, largely sustained through 2 years. However, the composite of all-cause mortality or heart failure hospitalization reached 53% at 2 years (44% at 1 year), with cardiovascular mortality of 20% (15% at 1 year); atrial fibrillation independently predicted mortality/HFH (HR 3.97, p=0.022) -- \"reasonable\" procedural performance for TF TMVR, but a reminder of the substantial longer-term event burden in this high-risk population.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.003"
+  },
+  {
+   "date": "2026-03-17",
+   "title": "Multiview deep learning improves detection of major cardiac conditions from echocardiography",
+   "title_zh": "多视图深度学习提升超声心动图对主要心脏疾病的检测能力",
+   "summary_zh": "发表于《自然·心血管研究》(Nature Cardiovascular Research,2026;5:234-245)的这项研究由旧金山加州大学与蒙特利尔心脏研究所团队合作,开发了一种可同时联合分析多个超声切面视图的深度神经网络(DNN)架构,并在三项任务上进行验证:检测左/右心室功能异常、舒张功能不全及中重度瓣膜反流。与仅基于单一切面训练的模型相比,多视图DNN在受试者工作特征曲线下面积(AUC)上提升了0.06至0.09,显示整合多切面信息可显著提升AI超声心动图的诊断准确性,为结构性心脏病的AI辅助筛查与诊断提供新思路。",
+   "summary_en": "Published in Nature Cardiovascular Research (2026;5:234-245), this study from UCSF and the Montreal Heart Institute developed a deep neural network architecture that jointly analyzes multiple echocardiographic video views simultaneously, validated on three tasks: detecting left or right ventricular abnormality, diastolic dysfunction, and substantial valvular regurgitation. Compared with models trained on a single view, the multiview DNN improved discrimination (AUC) by 0.06-0.09 across tasks -- demonstrating that integrating multiple imaging views within one AI model can meaningfully boost diagnostic accuracy, with implications for AI-assisted screening and diagnosis in structural heart disease.",
+   "source": "Nature Cardiovascular Research",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://www.nature.com/articles/s44161-026-00786-7"
+  }
+ ]
+}
