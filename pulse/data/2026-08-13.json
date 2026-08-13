@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-13",
+ "items": [
+  {
+   "date": "2026-08-07",
+   "title": "Combined transcatheter mitral and tricuspid edge-to-edge repair or tricuspid edge-to-edge repair alone in moderate mitral regurgitation: a propensity-matched analysis",
+   "title_zh": "EuroTR倾向匹配分析:三尖瓣TEER基础上加做二尖瓣TEER可显著改善中度二尖瓣反流患者生存",
+   "summary_zh": "基于欧洲EuroTR注册研究(2016-2025年)对3100例接受三尖瓣缘对缘修复(T-TEER)治疗重度三尖瓣反流的患者进行分析,其中30%合并未处理的中度二尖瓣反流(MR),这部分患者2年全因死亡率显著更高(37% vs 23%,p<0.0001)。经倾向评分匹配后共217对患者,同期加做二尖瓣TEER(M-TEER)组较单纯T-TEER组三尖瓣反流改善幅度更大(-1.9级 vs -1.6级,p=0.001),生存率也显著提高(1年87% vs 76%,2年81% vs 70%,p=0.005)。研究提示对合并中度MR的重度TR患者,同期处理二尖瓣可能带来额外临床获益,为双瓣联合介入策略提供注册研究证据。",
+   "summary_en": "This propensity-matched analysis of the European EuroTR registry (2016-2025) found that among 3,100 patients undergoing tricuspid transcatheter edge-to-edge repair (T-TEER) for severe tricuspid regurgitation, 30% had untreated moderate mitral regurgitation (MR), which was associated with significantly higher 2-year mortality (37% vs 23%, p<0.0001). Among 217 propensity-matched pairs, adding concomitant mitral TEER (M-TEER) produced greater TR reduction (-1.9 vs -1.6 grades, p=0.001) and markedly better survival (87% vs 76% at 1 year; 81% vs 70% at 2 years, p=0.005) than T-TEER alone -- registry evidence supporting a combined dual-valve strategy in this subgroup.",
+   "source": "European Heart Journal",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag186/8662040"
+  },
+  {
+   "date": "2026-06-08",
+   "title": "Impact of Adverse Events on Costs and Length of Stay Following Transcatheter Tricuspid Valve Replacement",
+   "title_zh": "TRISCEND II经济学分析:主要不良事件推高经导管三尖瓣置换住院费用与住院时间,新发起搏器与肾脏替代治疗影响最大",
+   "summary_zh": "基于TRISCEND II试验155例接受经导管三尖瓣置换(TTVR,EVOQUE系统)患者的住院账单数据分析,平均住院费用(含49,000美元瓣膜费用,不含医生费用)为80,005美元。约20%患者发生主要不良事件,其中新发起搏器/心脏植入电子装置需求(9.7%)与重度出血(9.0%)最常见;发生主要不良事件患者住院费用显著更高(115,390美元 vs 80,393美元)。新发起搏器/CIED需求与新发肾脏替代治疗对费用和住院时间影响最大;总体来看,主要不良事件相关的额外住院时间与费用约为0.7天和5,100美元,分别占总住院时间的11%与总住院费用的6%。",
+   "summary_en": "Using hospital billing data from 155 patients in the TRISCEND II trial who underwent transcatheter tricuspid valve replacement (TTVR) with the EVOQUE system, mean admission cost (including the $49,000 device but excluding physician fees) was $80,005. About 20% of patients had a major adverse event -- most commonly new pacemaker/CIED implantation (9.7%) and severe bleeding (9.0%) -- and costs were substantially higher among those patients ($115,390 vs $80,393). New pacemaker/CIED need and new renal replacement therapy were the largest drivers of added cost and length of stay, which overall accounted for roughly 0.7 extra days and $5,100 (about 11% of total length of stay and 6% of total admission cost).",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2474870626002587"
+  },
+  {
+   "date": "2026-06-09",
+   "title": "Improving structural heart disease screening: AI-ECG and novice AI-guided focused cardiac ultrasound",
+   "title_zh": "995例前瞻性研究:AI心电图联合新手AI引导床旁超声可提升结构性心脏病筛查效能",
+   "summary_zh": "这项前瞻性研究纳入995例成人,评估AI增强心电图(AI-ECG)与9名完全无超声经验的操作者在AI实时引导下(UltraSight软件、Philips Lumify手持设备)完成的床旁聚焦心脏超声(AI-FoCUS),用以筛查左心室射血分数<40%、中重度以上主动脉瓣狭窄、肥厚型心肌病或心脏淀粉样变等结构性心脏病,并以标准超声心动图为对照。AI-FoCUS检查完成率达97.3%;三类目标疾病患病率分别为5.0%(低EF)、3.5%(中重度以上主动脉瓣狭窄)、8.8%(肥厚型心肌病或淀粉样变)。研究提示,将AI-ECG与新手可操作的AI引导床旁超声结合,有望成为可扩展的结构性心脏病筛查路径,拓展至缺乏专业超声人员的基层场景。",
+   "summary_en": "This prospective study of 995 adults evaluated AI-enhanced ECG (AI-ECG) combined with AI-guided focused cardiac ultrasound (AI-FoCUS) performed by nine complete ultrasound novices using real-time AI guidance (UltraSight software on a handheld Philips Lumify device), benchmarked against comprehensive echocardiography, to screen for structural heart disease (LV ejection fraction <40%, at least moderate aortic stenosis, hypertrophic cardiomyopathy, or cardiac amyloidosis). AI-FoCUS was feasible in 97.3% of encounters; target-condition prevalence was 5.0% for reduced EF, 3.5% for at least moderate AS, and 8.8% for HCM/amyloidosis. The findings suggest pairing AI-ECG with novice-operable AI-guided point-of-care ultrasound could offer a scalable structural heart disease screening pathway for settings lacking dedicated sonographers.",
+   "source": "npj Digital Medicine",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://www.nature.com/articles/s41746-026-02856-3"
+  }
+ ]
+}
