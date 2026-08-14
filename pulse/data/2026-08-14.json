@@ -1,0 +1,65 @@
+{
+ "date": "2026-08-14",
+ "items": [
+  {
+   "date": "2026-06-16",
+   "title": "Population Prevalence of Valvular Heart Disease in the United States: The PREVUE-VALVE Study",
+   "title_zh": "PREVUE-VALVE研究:美国3000名65-85岁老年人普查显示至少1060万人患有临床显著瓣膜病",
+   "summary_zh": "PREVUE-VALVE研究采用去中心化、代表性抽样方式(电子邀请结合邮寄招募),随机纳入美国3000名65-85岁老年人接受标准化超声心动图筛查,以估算瓣膜性心脏病(VHD)的真实人群患病率。结果显示,中度及以上VHD患病率为8.2%,若纳入轻-中度病变则升至18.4%;其中三尖瓣反流最常见(3.7%),其次为主动脉瓣狭窄(3.1%)、二尖瓣反流(2.0%)和主动脉瓣反流(0.7%)。按现有人口结构推算,美国目前至少有470万人患中度VHD、1060万人患临床显著VHD,患病率明显高于以往基于临床就诊数据的估计,为筛查项目扩容与资源配置提供了关键流行病学依据。",
+   "summary_en": "The PREVUE-VALVE study used a decentralized, representative sampling approach -- randomly recruiting 3,000 US adults aged 65-85 via electronic invitation and mail for standardized echocardiographic screening -- to determine the true population prevalence of valvular heart disease (VHD). Moderate-or-greater VHD was found in 8.2% of participants, rising to 18.4% when mild-moderate disease was included; tricuspid regurgitation was most common (3.7%), followed by aortic stenosis (3.1%), mitral regurgitation (2.0%), and aortic regurgitation (0.7%). Extrapolated to current US demographics, this implies at least 4.7 million people living with moderate VHD and 10.6 million with clinically significant VHD -- a substantially higher burden than prior clinic-based estimates, offering key epidemiological grounding for expanding screening programs.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5137"
+  },
+  {
+   "date": "2026-05-11",
+   "title": "1-Year Real-World Outcomes With the Amulet Occluder From the EMERGE LAA Postapproval Study",
+   "title_zh": "EMERGE LAA上市后研究:12180例真实世界Amulet封堵器植入队列,1年全因死亡率8.2%、卒中1.5%",
+   "summary_zh": "基于美国国家心血管数据登记(NCDR)LAAO注册库的EMERGE LAA上市后研究,纳入2021年8月至2023年12月间尝试植入Amulet左心耳封堵器的12180例患者,是该器械迄今最大规模的真实世界队列。植入成功率达96.0%(11693/12180),既往封堵失败患者再次尝试的成功率为88.9%;45天时有效封堵(残余分流≤3mm)比例达97.2%。安全性方面,45天全因死亡0.81%、缺血性卒中0.23%、大出血3.1%;1年随访时全因死亡率8.2%,任何卒中1.5%(缺血性1.2%),大出血6.4%。数据为Amulet在美国大规模临床实践中的安全性提供了迄今最全面的真实世界证据。",
+   "summary_en": "The EMERGE LAA postapproval study, drawing on the US National Cardiovascular Data Registry (NCDR) LAAO Registry, is the largest real-world cohort of the Amulet left atrial appendage occluder to date, covering 12,180 patients with attempted implantation between August 2021 and December 2023. Implant success was 96.0% (11,693/12,180), with 88.9% success among patients with prior failed LAAO attempts, and effective closure (peridevice leak ≤3 mm) in 97.2% at 45 days. Safety outcomes included 45-day all-cause death of 0.81%, ischemic stroke 0.23%, and major bleeding 3.1%; at 1 year, all-cause death was 8.2%, any stroke 1.5% (ischemic 1.2%), and major bleeding 6.4% -- the most comprehensive real-world safety evidence for Amulet in US clinical practice to date.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.02.016"
+  },
+  {
+   "date": "2026-06-15",
+   "title": "Persistent Severe Tricuspid Regurgitation After Mitral Transcatheter Edge-to-Edge Repair: Prognostic Implications of Guideline-Based Eligibility for Transcatheter Tricuspid Valve Intervention",
+   "title_zh": "905例双中心队列:二尖瓣TEER后残余重度三尖瓣反流常见,不符合TTVI指征者2年死亡风险增5倍",
+   "summary_zh": "这项双中心回顾性队列研究纳入2015-2025年间接受二尖瓣缘对缘修复(M-TEER)治疗重度二尖瓣反流的905例患者,评估术后残余重度三尖瓣反流(TR)的患病率、影响因素及预后意义,并按现行指南标准将残余重度TR患者分为经导管三尖瓣介入(TTVI)可行组与不可行组。多因素分析显示,不符合TTVI指征是2年死亡风险独立升高的强预测因子(HR 5.25,95%CI 1.39-19.8);右心重构程度较重、基线TR分级更高及女性患者更易出现TR持续存在。研究提示,M-TEER后残余重度TR标志着高危亚组,但不良预后主要由TTVI不可行患者驱动,支持在术前规划阶段即评估三尖瓣解剖以指导后续分期干预决策。",
+   "summary_en": "This dual-center retrospective cohort study analyzed 905 patients who underwent mitral transcatheter edge-to-edge repair (M-TEER) for severe mitral regurgitation between 2015 and 2025, characterizing the prevalence, determinants, and prognostic significance of persistent severe tricuspid regurgitation (TR), with patients stratified by guideline-based eligibility for transcatheter tricuspid valve intervention (TTVI). On multivariable analysis, TTVI ineligibility was independently associated with markedly higher 2-year mortality (HR 5.25, 95% CI 1.39-19.8); advanced right heart remodeling, higher baseline TR severity, and female sex were associated with TR persistence. Persistent severe TR after M-TEER identifies a high-risk subgroup, but adverse outcomes were driven primarily by patients ineligible for TTVI -- supporting upfront tricuspid anatomic assessment to guide staged intervention planning.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://doi.org/10.1016/j.shj.2026.101051"
+  },
+  {
+   "date": "2026-03-10",
+   "title": "Surgical Versus Transcatheter Aortic Valve Replacement in Patients Aged >60 Years With Bicuspid Valve Stenosis: A Time-to-Event Data Meta-Analysis",
+   "title_zh": "重建时间-事件数据荟萃分析:60岁以上二叶式主动脉瓣狭窄患者TAVI中期结局(48个月)逊于外科换瓣",
+   "summary_zh": "这项荟萃分析纳入5项风险校正的比较研究(TAVI组5901例、外科主动脉瓣置换SAVR组12427例),均为年龄60岁以上二叶式主动脉瓣狭窄患者,采用重建的个体患者时间-事件数据进行分析。结果显示TAVI在术后早期(6个月内)具有优势,但此后死亡/卒中/再住院复合终点风险反超SAVR并持续至48个月(12-48个月HR 1.62,95%CI 1.46-1.79,P<0.0001),敏感性分析(全队列脆弱Cox模型、限制性平均生存时间分析)支持结果稳健性。作者提示,在向年轻二叶瓣患者扩大TAVI适应证时应更加审慎,现有证据尚不支持全面替代外科手术。",
+   "summary_en": "This meta-analysis pooled reconstructed individual patient time-to-event data from five risk-adjusted comparative studies (TAVI, n=5,901; surgical aortic valve replacement [SAVR], n=12,427) in patients over age 60 with bicuspid aortic valve stenosis. TAVI showed an early procedural advantage but this reversed by 6 months, with a sustained higher hazard for the composite of death, stroke, or rehospitalization through 48 months (HR 1.62, 95% CI 1.46-1.79; P<0.0001) versus SAVR, a finding supported by sensitivity analyses including frailty Cox models and restricted mean survival time analysis. The authors caution against premature expansion of TAVI indications to younger bicuspid-valve patients, arguing current evidence does not yet support replacing surgery in this group.",
+   "source": "Journal of the American Heart Association",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/full/10.1161/JAHA.125.046556"
+  },
+  {
+   "date": "2026-08-11",
+   "title": "Versa Vascular Appoints Bill Shields as Chief Executive Officer",
+   "title_zh": "三尖瓣修复初创公司Versa Vascular任命前美敦力结构性心脏病高管Bill Shields为CEO",
+   "summary_zh": "经导管三尖瓣修复初创公司Versa Vascular宣布任命Bill Shields为首席执行官。Shields此前在美敦力工作15年,近7年担任经导管二尖瓣与三尖瓣治疗业务副总裁兼总经理,主导多项产品开发与临床研究;此前CEO David Hovda转任公司顾问。Versa此前完成2730万美元超额认购的C轮融资,其在研的双机制经导管三尖瓣修复系统已完成首例人体植入,用于治疗解剖条件不适合其他经导管方案的高危重度功能性三尖瓣反流患者。此次人事变动反映在TriClip、EVOQUE两款获批器械之外,三尖瓣介入赛道的初创企业竞争仍在升温。",
+   "summary_en": "Tricuspid repair startup Versa Vascular announced the appointment of Bill Shields as CEO. Shields spent 15 years at Medtronic, most recently seven years as VP/GM of its Transcatheter Mitral and Tricuspid Therapies business leading product development and clinical studies, while outgoing CEO David Hovda moves into an advisory role. Versa, which recently closed an oversubscribed $27.3 million Series C round, has already reported first-in-human implantation of its dual-mechanism transcatheter tricuspid repair device in high-risk patients whose anatomy is unsuitable for other transcatheter options -- a leadership move underscoring intensifying startup competition in the tricuspid space beyond the approved TriClip and EVOQUE devices.",
+   "source": "Versa Vascular / BusinessWire",
+   "type": "industry",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://www.businesswire.com/news/home/20260811284926/en/Versa-Vascular-Appoints-Bill-Shields-as-Chief-Executive-Officer"
+  }
+ ]
+}
