@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-17",
+ "items": [
+  {
+   "date": "2026-08-11",
+   "title": "Human heart valve-like tissues from pluripotent stem cells with enhanced maturation recapitulate inflammatory valve disease",
+   "title_zh": "干细胞工程心脏瓣膜组织首次在体外重现风湿性心脏病炎症损伤过程",
+   "summary_zh": "墨尔本默多克儿童研究所(MCRI)Holly Voges团队联合墨尔本大学、Baker心脏与糖尿病研究所等机构在《Cell Stem Cell》发表研究,利用人多能干细胞体外构建出高度成熟、可重现天然瓣膜分子特征的三维心脏瓣膜样组织。给该工程组织施加与风湿性心脏病相关的炎症蛋白后,组织出现僵硬化,并呈现与真实患病瓣膜一致的生物标志物变化,首次在体外重现了瓣膜炎症损伤过程。该平台为研究瓣膜发育与病变机制、筛选再生治疗方案提供了新工具,有望加速针对儿童与成人瓣膜病的再生医学研究。",
+   "summary_en": "Researchers at Murdoch Children's Research Institute in Melbourne, led by Dr Holly Voges with collaborators from the University of Melbourne, Baker Heart and Diabetes Institute and other centers, engineered 3D human heart valve-like tissue from pluripotent stem cells that recapitulates native valve molecular maturation, published in Cell Stem Cell. Exposing the tissue to inflammatory proteins linked to rheumatic heart disease made it stiffer and reproduced biomarkers seen in diseased human valves, modeling valve inflammatory injury in a dish for the first time -- offering a new platform to study valve development/disease and screen regenerative treatments.",
+   "source": "Cell Stem Cell",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(26)00270-5"
+  },
+  {
+   "date": "2026-08-11",
+   "title": "Anteris Technologies Announces Results for the Second Quarter of 2026",
+   "title_zh": "Anteris二季度财报:主动脉瓣关闭不全新瓣DurAVR的PARADIGM关键试验获美国医保覆盖,美/丹/荷同步入组",
+   "summary_zh": "主动脉瓣器械公司Anteris Technologies公布2026年第二季度业绩,其DurAVR经导管主动脉瓣系统(专为主动脉瓣关闭不全设计)的全球关键性PARADIGM试验取得进展:已在美国医保(CMS)国家覆盖政策下获得报销资格,美国入组已于5月启动并完成首批患者植入,目前美国、丹麦、荷兰同步积极招募,加拿大与法国已获监管许可,相关临床经验同时在New York Valves 2026会议上展示。PARADIGM为约1000例患者的全入组1:1随机对照研究,主要复合终点为术后1年全因死亡、卒中及心血管住院;本季度研发投入2340万美元,经营性现金净流出2080万美元。",
+   "summary_en": "Aortic valve device maker Anteris Technologies reported Q2 2026 results detailing progress in its global pivotal PARADIGM Trial for DurAVR THV, a TAVR device designed for aortic regurgitation. The company secured US Medicare (CMS) reimbursement eligibility under a national coverage policy, began US enrollment in May with the first US patients treated, and is now actively recruiting in the US, Denmark, and the Netherlands, with regulatory clearance already obtained in Canada and France; clinical experience was also presented at New York Valves 2026. PARADIGM is an all-comers, 1:1 randomized study of roughly 1,000 patients with a primary composite endpoint of 1-year all-cause mortality, stroke, and cardiovascular hospitalization; Q2 R&D spend was $23.4M with net operating cash outflow of $20.8M.",
+   "source": "Anteris Technologies / GlobeNewswire",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.globenewswire.com/news-release/2026/08/11/3343309/0/en/anteris-technologies-announces-results-for-the-second-quarter-of-2026.html"
+  },
+  {
+   "date": "2026-08-14",
+   "title": "Single-Access Transfemoral TAVI with a Balloon Expandable Valve: Age-Stratified Analysis of Clinical Outcomes",
+   "title_zh": "204例倾向性匹配队列按年龄分层分析:单一血管入路球扩瓣TAVI早期安全性不受年龄影响",
+   "summary_zh": "发表于《Journal of Clinical Medicine》的一项二次分析,基于此前单入路与双入路经股动脉TAVI倾向性评分匹配研究(共204例,采用SAPIEN 3 Ultra球扩瓣),按年龄分层考察入路策略对30天VARC-3早期安全终点及主要不良心血管事件(死亡、新发永久起搏器、神经/血管并发症)的影响。作者采用逻辑回归交互分析及限制性立方样条法评估年龄与入路方式的交互效应,结果支持单一血管入路策略可在不同年龄段患者中安全实施,为减少TAVI术中血管并发症、简化入路策略提供了年龄适用性证据。",
+   "summary_en": "A secondary analysis published in the Journal of Clinical Medicine, drawn from a propensity-score-matched cohort (204 patients) comparing single- vs dual-access transfemoral TAVI using the SAPIEN 3 Ultra balloon-expandable valve, examined whether patient age modifies the effect of access strategy on the 30-day VARC-3 early-safety endpoint and major adverse cardiovascular events (death, new permanent pacemaker, neurologic/vascular complications). Using logistic regression interaction analysis and restricted cubic splines, the authors found the single-access strategy remained safe across age groups, supporting its use to reduce vascular complications and simplify access planning in TAVI regardless of patient age.",
+   "source": "Journal of Clinical Medicine",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://doi.org/10.3390/jcm15166305"
+  }
+ ]
+}
