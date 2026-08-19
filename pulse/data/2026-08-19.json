@@ -1,0 +1,17 @@
+{
+ "date": "2026-08-19",
+ "items": [
+  {
+   "date": "2026-08-11",
+   "title": "More than Fluid: AI-Derived Pleural Effusion Volume as a Marker of Cardiovascular Congestion in Transcatheter Aortic Valve Implantation",
+   "title_zh": "AI量化TAVI术前胸腔积液体积:反映心血管淤血负担,但对长期死亡率无独立预测价值",
+   "summary_zh": "奥地利萨尔茨堡Paracelsus医科大学附属医院团队在开放获取期刊《Medical Sciences》发表回顾性单中心队列研究,纳入2016年1月至2022年6月因重度症状性主动脉瓣狭窄接受TAVI的连续患者,利用AI算法自动从术前CT定量胸腔积液体积。约四分之一(约25%)患者术前存在胸腔积液,其体积与肺动脉高压、右心功能受损、房颤及心功能下降等心血管淤血标志物相关;但多变量分析显示,校正其他临床与影像学因素后,胸腔积液体积并未为TAVI术后长期死亡率提供独立的额外预测价值,提示其更多反映综合心血管及全身疾病负担,而非独立预后指标。",
+   "summary_en": "A retrospective single-center cohort study from Paracelsus Medical University Hospital Salzburg, Austria, published in the open-access journal Medical Sciences, used an AI algorithm to automatically quantify pleural effusion volume on pre-procedural CT in consecutive patients undergoing TAVI for severe symptomatic aortic stenosis between January 2016 and June 2022. Pleural effusion was present in roughly a quarter of patients and correlated with markers of cardiovascular congestion (pulmonary hypertension, RV impairment, atrial fibrillation, reduced cardiac performance), but multivariable analysis found it added no independent prognostic value for long-term mortality beyond other clinical and imaging variables -- suggesting it reflects broader cardiovascular/systemic disease burden rather than serving as a standalone risk marker.",
+   "source": "Medical Sciences (MDPI)",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://doi.org/10.3390/medsci14040472"
+  }
+ ]
+}
