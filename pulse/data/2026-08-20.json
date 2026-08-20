@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-20",
+ "items": [
+  {
+   "date": "2026-05-21",
+   "title": "First Large Comprehensive Core-Laboratory Evaluation of Implantation Depth and Clinical Outcomes in TAVR: Final Global Results From the Optimize PRO Prospective Study",
+   "title_zh": "TAVR置入深度核心实验室研究——Optimize PRO最终全球结果:置入越深,永久起搏器植入率越低",
+   "summary_zh": "多中心前瞻性Optimize PRO研究纳入603例接受Evolut PRO/PRO+自膨胀瓣膜TAVR治疗的重度症状性主动脉瓣狭窄患者,按核心实验室判定的无冠瓣置入深度分为<1mm(88例)、1–3mm(196例)、3–5mm(170例)、>5mm(149例)四组。结果显示,置入越深(瓣膜位置越高),术中再鞘/回收操作率越低(27.3% vs 33.7% vs 48.8% vs 51.7%,p<0.001)、住院时间更短(1天 vs 2天),永久起搏器植入率也显著更低(2.3% vs 9.2% vs 15.9% vs 20.3%,p<0.001);而1年全因死亡率、卒中及瓣膜移位在四组间相近。该研究于EuroPCR 2026晚期突破试验环节公布,同步发表于JACC: Cardiovascular Interventions,为优化TAVR置入深度、减少传导系统损伤提供了迄今规模最大的核心实验室证据。",
+   "summary_en": "The prospective, multicenter Optimize PRO study enrolled 603 patients with symptomatic severe aortic stenosis undergoing TAVR with self-expanding Evolut PRO/PRO+ valves, stratified by core-laboratory-adjudicated implant depth into four groups (<1mm, n=88; 1-3mm, n=196; 3-5mm, n=170; >5mm, n=149). Higher (shallower) implants were associated with significantly lower resheathing/recapture rates (27.3% vs 33.7% vs 48.8% vs 51.7%, p<0.001), shorter hospital stays, and markedly lower permanent pacemaker implantation rates (2.3% vs 9.2% vs 15.9% vs 20.3%, p<0.001), while 1-year mortality, stroke, and valve migration were similar across groups. Presented as a EuroPCR 2026 Hot Line and simultaneously published in JACC: Cardiovascular Interventions, this is the largest core-laboratory dataset to date linking TAVR implant depth to conduction outcomes.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://doi.org/10.1016/j.jcin.2026.05.007"
+  },
+  {
+   "date": "2026-05-18",
+   "title": "The Less the Better: Mild vs Moderate Residual Tricuspid Regurgitation After T-TEER: Insights From EuroTR",
+   "title_zh": "残留反流越轻越好:EuroTR注册研究显示T-TEER术后轻度与中度残留三尖瓣反流的2年结局有别",
+   "summary_zh": "EuroTR多中心注册研究纳入2016–2024年欧洲26家中心接受三尖瓣经导管缘对缘修复术(T-TEER)的2545例重度三尖瓣反流患者(平均年龄79岁,54%为女性),按术后残留反流严重程度(轻度、中度、重度)分层比较2年生存率及无心衰再住院生存率。结果显示,残留反流分级越重,2年生存及无心衰住院结局越差,提示即使从轻度增至中度的残留反流也具有临床意义,强调术中应尽可能追求最小残留反流(“越少越好”)。研究在EuroPCR 2026晚期突破环节公布,同步发表于JACC: Cardiovascular Interventions。",
+   "summary_en": "The EuroTR multicenter registry analyzed 2,545 patients with severe tricuspid regurgitation (mean age 79, 54% women) who underwent tricuspid transcatheter edge-to-edge repair (T-TEER) at 26 European centers between 2016 and 2024, stratifying 2-year survival and survival free from heart failure hospitalization by residual TR severity (mild, moderate, severe). Worse residual TR grade was associated with progressively poorer 2-year outcomes, indicating that even an increase from mild to moderate residual TR carries clinical significance -- reinforcing that operators should aim to minimize residual TR during T-TEER. Presented as a EuroPCR 2026 Hot Line and simultaneously published in JACC: Cardiovascular Interventions.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://doi.org/10.1016/j.jcin.2026.02.047"
+  },
+  {
+   "date": "2026-05-11",
+   "title": "30-Day Outcomes of a Single-Stage Transfemoral Mitral Valve Replacement System in Severe Mitral Valve Disease",
+   "title_zh": "单阶段经股静脉二尖瓣置换系统(Cephea)30天结局:31例高危患者达成97%生存与100%反流改善",
+   "summary_zh": "一项早期可行性研究纳入31例接受Cephea单阶段经股静脉经房间隔二尖瓣置换系统治疗的重度症状性二尖瓣病变高危患者(24例经研究方案入组,7例同情使用),平均年龄75.0±8.1岁,STS预测死亡风险6.4%±2.9%。30天时,主要安全终点(生存)达成率为97%(31例中30例),无术中死亡或卒中;在可评估超声心动图的27例患者中,100%二尖瓣反流降至轻度或以下,达成主要有效性终点。结果提示该单阶段经股系统在解剖复杂的高危患者中具有较高的植入成功率与良好的早期安全性。",
+   "summary_en": "An early feasibility study of the Cephea single-stage transfemoral transseptal mitral valve replacement system enrolled 31 high-risk patients with symptomatic severe mitral valve disease (24 under the EFS protocol, 7 compassionate use; mean age 75.0±8.1 years, STS-PROM 6.4%±2.9%). At 30 days, the primary safety endpoint (survival) was met in 97% (30/31) with no procedural deaths or strokes, and the primary efficacy endpoint -- mitral regurgitation reduced to mild or less -- was achieved in 100% of patients with evaluable echocardiograms (27/27), supporting high implant success and favorable early safety in anatomically complex high-risk patients.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://doi.org/10.1016/j.jcin.2026.02.029"
+  },
+  {
+   "date": "2026-08-19",
+   "title": "Putting Patients at the Heart of Innovation: Voices Across Asia Pacific Help Shape the Future of Structural Heart Care",
+   "title_zh": "把患者放在创新中心:爱德华生命科学亚太患者体验日,五位患者分享结构性心脏病诊疗之旅",
+   "summary_zh": "爱德华生命科学(Edwards Lifesciences)于2026年8月19日在新加坡举办年度亚太区「患者体验日」,邀请来自澳大利亚、印度、印度尼西亚、韩国及新加坡的5位结构性心脏病患者,与其手术团队及公司员工面对面分享治疗历程。活动旨在通过患者、照护者与医护人员的直接交流,加深对亚太地区快速老龄化背景下结构性心脏病诊疗现实与患者需求的理解,以推动更以患者为中心的创新。该消息属企业公关活动,不含新临床数据。",
+   "summary_en": "Edwards Lifesciences held its annual Asia-Pacific Patient Experience Day in Singapore on August 19, 2026, bringing together five structural heart disease patients from Australia, India, Indonesia, South Korea and Singapore to share their treatment journeys with the clinicians and company staff behind their care. The event aimed to deepen understanding of patients' real-world experience amid a rapidly aging Asia-Pacific population and to inform more patient-centered innovation; it is a corporate/patient-advocacy event and does not report new clinical data.",
+   "source": "PR Newswire / Edwards Lifesciences",
+   "type": "industry",
+   "topic": "Other",
+   "weight": 1,
+   "url": "https://www.manilatimes.net/2026/08/19/tmt-newswire/pr-newswire/putting-patients-at-the-heart-of-innovation-voices-across-asia-pacific-help-shape-the-future-of-structural-heart-care/2408255"
+  }
+ ]
+}
