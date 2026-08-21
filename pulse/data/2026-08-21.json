@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-21",
+ "items": [
+  {
+   "date": "2026-01-28",
+   "title": "Frequency and Outcomes of Acute Hemodynamic Instability Following Transcatheter Tricuspid Valve Replacement: Insights From the CESAR-TR-Registry",
+   "title_zh": "CESAR-TR注册研究:8.5%患者TTVR术后发生急性血流动力学不稳定,院内死亡率骤增至35.2%",
+   "summary_zh": "多中心CESAR-TR注册研究纳入200例接受经导管三尖瓣置换术(TTVR)治疗的重度三尖瓣反流患者(平均年龄78±11岁),结果显示8.5%的患者在术后24小时内出现急性血流动力学不稳定(AHI)。发生AHI的患者院内死亡率高达35.2%,而未发生AHI者仅为0.1%,两者差异悬殊。研究提示TTVR术中突然消除三尖瓣反流可致右心负荷骤变、诱发右心失代偿,应加强围术期识别与血流动力学管理。",
+   "summary_en": "The multicenter CESAR-TR registry enrolled 200 patients with severe tricuspid regurgitation undergoing transcatheter tricuspid valve replacement (mean age 78±11 years); acute hemodynamic instability (AHI) occurred in 8.5% of patients, typically within 24 hours of the procedure. In-hospital mortality was dramatically higher among patients with AHI (35.2%) versus those without (0.1%), underscoring the need for early recognition and perioperative management of the abrupt right-heart loading changes that abolishing severe TR can trigger.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.01.284"
+  },
+  {
+   "date": "2026-02-06",
+   "title": "Early Outcomes With a Next-Generation Dual-Seal Left Atrial Appendage Occluder: Results From the VERITAS Study",
+   "title_zh": "VERITAS研究:新一代双密封LAA封堵器Amulet 360——400例植入成功率99.8%,需穿刺引流的心包积液降至0.5%",
+   "summary_zh": "前瞻性单臂VERITAS研究在全球34家中心为400例非瓣膜性房颤患者(平均74岁,38%为女性)植入新一代双密封左心耳封堵器Amulet 360,植入成功率达99.8%;45天时93.9%的患者达到完全封堵(无>3mm残余分流),399/400例达成主要有效性终点。安全性方面,术后7天内及出院前无死亡、缺血性卒中、体循环栓塞或需外科/血管介入处理的严重并发症;需心包穿刺引流的心包积液发生率仅0.5%,显著低于既往AMULET-IDE(2.4%)与EMERGE LAA(1.9%)研究,提示新一代封堵器安全性进一步提升。",
+   "summary_en": "The prospective, single-arm VERITAS study implanted the next-generation dual-seal Amulet 360 left atrial appendage occluder in 400 patients with nonvalvular atrial fibrillation (mean age 74, 38% women) across 34 global sites, achieving 99.8% implant success and complete LAA closure (no leak >3mm) in 93.9% of patients at 45 days, with 399/400 meeting the primary effectiveness endpoint. No deaths, ischemic strokes, systemic emboli, or major procedural complications occurred within 7 days or before discharge, and pericardial effusion requiring pericardiocentesis fell to 0.5% -- well below the 2.4% (AMULET-IDE) and 1.9% (EMERGE LAA) seen with prior-generation devices.",
+   "source": "JACC: Clinical Electrophysiology",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacep.2026.01.021"
+  },
+  {
+   "date": "2026-02-03",
+   "title": "Proactive Management and Treatment of Aortic Stenosis: An International Expert Perspective",
+   "title_zh": "主动脉瓣狭窄「主动管理」国际专家共识:呼应ESC/EACTS新指南,倡导从「观察等待」转向早期转诊与干预",
+   "summary_zh": "Christopher M. Cook等国际专家联合撰写的观点文章发表于JACC(2026年87卷4期,414-438页),呼应2025年ESC/EACTS新版瓣膜病指南对传统「症状驱动观察等待」模式的挑战,为重度主动脉瓣狭窄提出更主动的管理框架:及早转诊多学科心脏瓣膜团队、简化并前置化评估流程,对多数无症状重度AS患者尽早行主动脉瓣置换,对有症状患者更紧急干预,并在暂缓干预时建立转诊医生与瓣膜团队间的结构化随访机制。",
+   "summary_en": "An international expert perspective led by Christopher M. Cook and colleagues, published in JACC (2026;87(4):414-438), builds on the 2025 ESC/EACTS valvular heart disease guidelines challenging the traditional symptom-driven watchful-waiting paradigm. It outlines a proactive operational framework for severe aortic stenosis: early referral to a multidisciplinary Heart Valve Team, streamlined upstream evaluation, prompt aortic valve replacement for many asymptomatic patients, more urgent treatment for symptomatic patients, and structured surveillance between referring clinicians and the Heart Valve Team when intervention is deferred.",
+   "source": "JACC",
+   "type": "guideline",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.10.074"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "Redo-TAVR (TAV-in-TAV) Best Practices Part 1: Short-in-Short and Short-in-Tall: A Heart and Valve Collaboratory Document",
+   "title_zh": "Heart and Valve Collaboratory共识文件:瓣中瓣(Redo-TAVR)「最佳实践」第一部分——短支架植入失效短/高支架瓣膜的标准化路径",
+   "summary_zh": "由Vinayak N. Bapat、Gilbert H.L. Tang等牵头的Heart and Valve Collaboratory多学科专家组,针对短支架球囊扩张瓣膜植入失效短支架或高支架瓣膜内(「short-in-short」「short-in-tall」)的redo-TAVR(瓣中瓣)场景,系统梳理台架试验与临床证据,统一相关解剖学定义、提出基于CT的体内选型策略,并对预扩张、释放技术与后扩张给出可操作的标准化流程建议,旨在为日益增多的TAVR瓣膜失效再介入病例提供循证路径。发表于JACC: Cardiovascular Interventions 2026年8月刊。",
+   "summary_en": "A multidisciplinary Heart and Valve Collaboratory expert panel led by Vinayak N. Bapat and Gilbert H.L. Tang reviewed bench and clinical evidence on redo-TAVR (TAV-in-TAV) for short-frame balloon-expandable valves implanted within failed short- or tall-frame prior valves (\"short-in-short\" and \"short-in-tall\"), standardizing anatomic definitions, CT-based in-vivo sizing strategies, and practical workflows for predilatation, deployment, and postdilatation -- published in the August 2026 issue of JACC: Cardiovascular Interventions to guide the growing volume of TAVR reintervention cases.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "guideline",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.06.003"
+  }
+ ]
+}
