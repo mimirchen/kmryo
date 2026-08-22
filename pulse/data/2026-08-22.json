@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-22",
+ "items": [
+  {
+   "date": "2026-05-18",
+   "title": "Boston Scientific Announces Strategic Investment in MiRus LLC",
+   "title_zh": "波士顿科学15亿美元战略投资MiRus:换取镍钛替代材料SIEGEL球扩式TAVR系统的收购期权",
+   "summary_zh": "波士顿科学宣布向再生医学材料公司MiRus LLC投资15亿美元现金,换取其约33.75%的非投票权股权,并获得独家期权——可在满足特定临床与监管里程碑后,再支付总计30亿美元收购MiRus旗下TAVR-结构性心脏NewCo子公司(即SIEGEL球扩式TAVR系统)全部股权。SIEGEL瓣膜采用受NASA材料启发的钼铼(molybdenum-rhenium)超合金支架,不含镍元素,是其区别于现有球扩式与自膨胀瓣膜的核心卖点。这是波士顿科学在此前Lotus瓣膜退出市场后第三次尝试重返TAVR赛道,凸显TAVR市场竞争格局仍在快速演变。",
+   "summary_en": "Boston Scientific announced a $1.5 billion cash investment in MiRus LLC in exchange for an approximately 33.75% non-voting equity stake, plus an exclusive option to pay an additional aggregate $3.0 billion to acquire MiRus's TAVR-Structural Heart NewCo subsidiary -- maker of the balloon-expandable SIEGEL transcatheter aortic valve -- contingent on clinical and regulatory milestones. SIEGEL's frame uses a NASA-inspired, nickel-free molybdenum-rhenium superalloy, its key differentiator from existing balloon-expandable and self-expanding valves; the deal marks Boston Scientific's third attempt to re-enter the TAVR market after discontinuing its earlier Lotus valve.",
+   "source": "Boston Scientific / PR Newswire",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://news.bostonscientific.com/2026-05-18-Boston-Scientific-announces-strategic-investment-in-MiRus-LLC"
+  },
+  {
+   "date": "2026-03-26",
+   "title": "FDA Clears Philips AI Solution That Provides Real-Time Guidance During Complex Minimally Invasive Heart Valve Repair",
+   "title_zh": "飞利浦EchoNavigator R5.0搭载DeviceGuide获FDA 510(k)许可:AI实时融合超声与X线引导二尖瓣缘对缘修复",
+   "summary_zh": "飞利浦与爱德华生命科学联合研发的EchoNavigator R5.0搭载新模块DeviceGuide获美国FDA 510(k)许可。该AI软件可自动识别并实时追踪二尖瓣修复器械(目前适配爱德华PASCAL Ace系统),将实时超声心动图与X线透视融合为同步三维可视化图像,叠加显示于术者屏幕,旨在简化经导管二尖瓣缘对缘修复(M-TEER)等复杂微创手术的器械导航。该方案在美欧多家研究中心(含哥伦比亚大学欧文医学中心结构性心脏与瓣膜中心)完成临床验证后获批,是影像与AI技术深度融入结构性心脏介入工作流的又一例证。",
+   "summary_en": "Philips received FDA 510(k) clearance for EchoNavigator R5.0 with DeviceGuide, an AI-enabled image-guidance module co-developed with Edwards Lifesciences and currently indicated for use with Edwards' PASCAL Ace mitral valve repair system. DeviceGuide automatically identifies and tracks the repair device in real time, fusing live echocardiography and fluoroscopy into a single synchronized 3D view overlaid on the operator's display to streamline device navigation during complex procedures such as transcatheter mitral edge-to-edge repair (M-TEER). The clearance followed clinical validation at US and European investigational sites, including the Structural Heart and Valve Center at NewYork-Presbyterian/Columbia University Irving Medical Center.",
+   "source": "Philips",
+   "type": "regulatory",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.philips.com/a-w/about/news/archive/standard/news/press/2026/fda-clears-philips-ai-solution-that-provides-real-time-guidance-during-complex-minimally-invasive-heart-valve-repair.html"
+  },
+  {
+   "date": "2026-01-26",
+   "title": "Patent Foramen Ovale Closure in Stroke and the PASCAL Classification System",
+   "title_zh": "SCOPE联盟JAMA Neurology研究:PASCAL分类可区分3740例卵圆孔未闭封堵的获益与房颤风险人群",
+   "summary_zh": "Saver、Kent、Kasner等SCOPE(Systematic, Collaborative, PFO Closure Evaluation)联盟研究者在《JAMA Neurology》发表个体患者数据二次分析,汇总6项III期随机对照试验共3740例18-60岁隐源性卒中合并卵圆孔未闭(PFO)患者,按PFO相关卒中因果可能性(PASCAL分类:很可能/可能/不太可能)分层评估经导管封堵获益与房颤(AF)风险。结果显示,「很可能」与「可能」组封堵后卒中显著减少,获益远超房颤风险增量;而「不太可能」组封堵未能降低卒中风险,45天后器械相关房颤绝对风险增量却高达4.41%(对比「可能」组1.53%、「很可能」组0.65%),提示应基于PASCAL分类而非单纯年龄或隐源性诊断筛选封堵适用人群。",
+   "summary_en": "Investigators from the SCOPE (Systematic, Collaborative, PFO Closure Evaluation) consortium -- Saver, Kent, Kasner and colleagues -- published a secondary analysis of pooled individual patient data from six phase 3 randomized trials (n=3,740; ages 18-60 with cryptogenic stroke and patent foramen ovale) in JAMA Neurology, stratifying the benefit of transcatheter PFO closure and its atrial fibrillation (AF) risk by the PFO-Associated Stroke Causal Likelihood (PASCAL) classification. Closure produced a clear net reduction in recurrent stroke for patients classified as \"probable\" or \"possible,\" far outweighing any AF risk, whereas \"unlikely\" patients saw no stroke-risk reduction but a markedly higher absolute excess risk of device-related AF beyond day 45 (4.41% vs 1.53% in \"possible\" and 0.65% in \"probable\"), arguing for PASCAL-guided rather than age- or diagnosis-alone patient selection for closure.",
+   "source": "JAMA Neurology",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/2844104"
+  },
+  {
+   "date": "2026-03-25",
+   "title": "Clinical Applications of Artificial Intelligence in Structural Heart Disease",
+   "title_zh": "JSCAI人工智能专刊综述:AI如何贯穿结构性心脏病诊断、病程评估、风险分层、术前规划与预后预测全流程",
+   "summary_zh": "作为《Journal of the Society for Cardiovascular Angiography & Interventions》(JSCAI)人工智能专刊的一篇综述文章,系统梳理了AI在结构性心脏病诊疗全流程中的临床应用现状:早期研究表明,AI驱动方法可自动完成复杂影像工作流分析、精确量化心脏解剖结构并评估血流动力学,其一致性、效率与可重复性均优于传统人工方法;通过整合多模态临床与影像数据,AI还可识别细微表型模式,为个体化治疗策略提供依据,应用范围覆盖疾病筛查诊断、纵向病情评估、风险分层、术前规划直至术后临床结局预测。该专刊同期还纳入AI赋能器械临床试验等选题,反映影像与AI技术正加速融入结构性心脏介入的每一个决策节点。",
+   "summary_en": "Published as part of a JSCAI special issue on artificial intelligence in interventional cardiology, this review surveys AI's growing clinical footprint across the structural heart disease care continuum. Early studies show AI-driven methods can automate complex imaging workflows, precisely quantify cardiac anatomy, and assess hemodynamics with greater consistency, efficiency, and reproducibility than conventional approaches; by integrating multimodal clinical and imaging data, these tools can also uncover subtle phenotypic patterns that inform individualized treatment strategies -- spanning screening and diagnosis, longitudinal disease assessment, risk stratification, preprocedural planning, and postprocedural outcome prediction. The same special issue also covers AI-powered device trials, underscoring how imaging AI is being woven into nearly every decision point of structural heart intervention.",
+   "source": "JSCAI",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://www.jscai.org/article/S2772-9303(26)00142-0/fulltext"
+  }
+ ]
+}
