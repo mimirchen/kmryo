@@ -1,0 +1,17 @@
+{
+ "date": "2026-08-23",
+ "items": [
+  {
+   "date": "2026-07-22",
+   "title": "Treadmill Stress Test in Patients With Asymptomatic Severe Aortic Stenosis: A Prespecified Registry-Based Follow-Up of the EARLY TAVR Randomized Clinical Trial",
+   "title_zh": "EARLY TAVR跑步机负荷试验注册研究:15.2%无症状重度主动脉瓣狭窄患者运动试验阳性,阳性者中20%一年后仍未接受推荐治疗",
+   "summary_zh": "EARLY TAVR随机对照试验的预设注册研究在美国75家中心对962例经筛查疑似无症状重度主动脉瓣狭窄的患者进行标准化跑步机负荷试验(TST):816例(84.8%)结果阴性、随机分入TAVR或临床观察组,146例(15.2%)结果阳性,其中105例同意进入EARLY TAVR跑步机注册研究并随访2年。阳性结果最常见诱因为运动诱发症状(50.5%)、收缩压下降(36.2%)和室性心律失常(14.3%);试验中及试验后即刻均无死亡、心脏骤停、晕厥或需电复律等安全事件。尽管阳性结果本应提示尽快干预,仍有20%患者在1年时未接受治疗,不过阳性组2年总体死亡率仍处于低位。研究提示跑步机负荷试验用于无症状重度AS筛查安全可靠,但阳性结果向实际治疗的转化仍有明显提升空间。",
+   "summary_en": "A prespecified registry-based follow-up of the EARLY TAVR randomized trial performed standardized treadmill stress testing (TST) in 962 patients screened as asymptomatic with severe aortic stenosis across 75 US sites: 816 (84.8%) had a normal TST and were randomized to TAVR or surveillance, while 146 (15.2%) had a positive TST -- most often for exertional symptoms (50.5%), a drop in systolic blood pressure (36.2%), or ventricular arrhythmia (14.3%) -- with no deaths, cardiac arrest, syncope, or need for cardioversion during or immediately after testing. Despite a positive TST signaling need for prompt intervention, 20% of these patients remained untreated at 1 year, though 2-year mortality stayed low overall in the positive-TST group, underscoring that stress testing is safe and reliable for risk-stratifying asymptomatic severe AS even as treatment translation still lags.",
+   "source": "JAMA Cardiology",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://jamanetwork.com/journals/jamacardiology/article-abstract/2851751"
+  }
+ ]
+}
