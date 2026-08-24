@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-24",
+ "items": [
+  {
+   "date": "2026-03-28",
+   "title": "Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation",
+   "title_zh": "CHAMPION-AF随机试验:Watchman FLX封堵器非劣于新型口服抗凝药,非手术出血风险降低45%",
+   "summary_zh": "CHAMPION-AF是迄今最大的左心耳封堵(LAAC)一线治疗随机对照试验,在美国、加拿大、欧洲、日本和澳大利亚141个中心纳入3000例非瓣膜性房颤患者(CHA2DS2-VASc评分≥2/3分),随机接受Watchman FLX封堵或新型口服抗凝药(NOAC)。3年随访结果显示:主要有效性终点(心血管死亡、卒中或体循环栓塞)封堵组5.7% vs NOAC组4.8%,达到非劣效标准;主要安全性终点(非手术相关大出血及有临床意义的非大出血)封堵组10.9% vs NOAC组19.0%,相对风险降低45%(P<0.001优效);净临床获益复合终点封堵组15.1% vs NOAC组21.8%(P<0.001)。研究已同步发表于《新英格兰医学杂志》,为LAAC作为可耐受抗凝患者的一线卒中预防选择提供了关键证据,但也有专家提醒需权衡植入相关并发症与长期获益。",
+   "summary_en": "CHAMPION-AF, the largest randomized trial testing left atrial appendage closure (LAAC) as a first-line stroke-prevention strategy, enrolled 3,000 patients with non-valvular atrial fibrillation at 141 sites across the US, Canada, Europe, Japan, and Australia, randomizing them to the Watchman FLX device or a NOAC. At 3 years, LAAC was noninferior to NOACs for the primary efficacy endpoint of cardiovascular death, stroke, or systemic embolism (5.7% vs 4.8%) and superior for non-procedure-related major/clinically relevant bleeding (10.9% vs 19.0%, a 45% relative reduction, P<0.001), with a favorable net clinical benefit (15.1% vs 21.8%, P<0.001). Published simultaneously in NEJM, the results support LAAC as a reasonable first-line alternative to anticoagulation even in patients who can tolerate NOACs, though some experts caution about weighing device-related complications against the long-term benefit.",
+   "source": "NEJM",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2517213"
+  },
+  {
+   "date": "2026-03-23",
+   "title": "Incidence, Clinical Implications, and Predictors of Paravalvular Leak Following Transcatheter Tricuspid Valve Replacement: The TRIPLACE Registry",
+   "title_zh": "TRIPLACE登记研究:经导管三尖瓣置换术后6.1%出现中重度瓣周漏,显著推高1年死亡风险",
+   "summary_zh": "全球多中心TRIPLACE登记研究纳入394例接受经导管三尖瓣置换术(TTVR)的患者,按出院前瓣周漏(PVL)严重程度分层:71.6%无/微量PVL,22.3%轻度PVL,6.1%(24例)为中重度PVL。分析显示中重度PVL与更高的1年全因死亡率及更差的功能状态显著相关;右心房容积增大、瓣膜植入位置不良、以及IV型瓣环解剖形态是中重度PVL的独立预测因素。研究发表于《JACC: Cardiovascular Interventions》(2026年第19卷第6期,680-693页),提示TTVR疗效可能因瓣周漏而打折扣,未来需在器械设计与植入技术上进一步优化以降低这一并发症。",
+   "summary_en": "The multicenter TRIPLACE registry stratified 394 patients undergoing transcatheter tricuspid valve replacement (TTVR) by predischarge paravalvular leak (PVL) severity: 71.6% had none-or-trace, 22.3% mild, and 6.1% (n=24) moderate-or-severe PVL. Moderate-or-severe PVL was associated with significantly higher 1-year all-cause mortality and worse functional status; larger right atrial volume, device malposition, and type IV annular morphology were independent predictors. Published in JACC: Cardiovascular Interventions (2026;19:680-693), the findings suggest PVL may attenuate the clinical benefit of TTVR and highlight a target for future device and technique refinement.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.01.281"
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Real-World TriClip Data Show Reduced TR, Good Procedural Success",
+   "title_zh": "STS/ACC TVT登记真实世界数据:TriClip三尖瓣夹合术30天87%患者反流降至中度以下",
+   "summary_zh": "基于STS/ACC TVT登记数据库对3035例在美国278家中心接受TriClip经导管三尖瓣缘对缘修复(T-TEER)的真实世界患者进行分析:30天时87%的患者三尖瓣反流降至中度或以下,堪萨斯城心肌病问卷(KCCQ)评分平均改善超过22分,大出血发生率仅0.9%,新发永久起搏器植入率仅0.5%。这些真实世界结果与此前TRILUMINATE等随机对照试验结果高度一致,进一步支持TriClip在解剖条件适合的重度症状性三尖瓣反流患者中的安全性和有效性。数据在New York Valves 2026上公布,由Wayne Batchelor医生代表研究团队报告。",
+   "summary_en": "An analysis of the STS/ACC TVT Registry covering 3,035 patients undergoing TriClip tricuspid transcatheter edge-to-edge repair (T-TEER) at 278 US sites found that at 30 days, 87% of patients had tricuspid regurgitation reduced to moderate or less, with a mean improvement of more than 22 points on the Kansas City Cardiomyopathy Questionnaire, major bleeding in just 0.9%, and new permanent pacemaker implantation in only 0.5%. The real-world findings closely mirror results from randomized trials such as TRILUMINATE, reinforcing TriClip's safety and effectiveness in anatomically suitable patients with severe symptomatic tricuspid regurgitation. The data were presented at New York Valves 2026 by Wayne Batchelor, MD.",
+   "source": "TCTMD",
+   "type": "news",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.tctmd.com/news/real-world-triclip-data-show-reduced-tr-good-procedural-success"
+  },
+  {
+   "date": "2026-07",
+   "title": "Contemporary transcatheter aortic valve implantation (TAVI) practice in Europe: insights from the second European TAVI pathway registry",
+   "title_zh": "第二次欧洲TAVI通路登记研究:202家中心年完成44,089例TAVI,勾勒欧洲实践现状",
+   "summary_zh": "第二次欧洲TAVI通路登记研究是一项国际多中心横断面观察性研究,调查了来自37个国家的202家心脏中心,汇总2024年度共完成44,089例经导管主动脉瓣植入术(TAVI),显示欧洲TAVI年手术量已突破10万例(含各类注册来源)。研究重点考察瓣膜诊所(Heart Valve Clinics)等多学科一体化诊疗路径对工作流程效率、决策速度及患者体验的影响,发现建立专职心脏团队通路的中心能更有效地减少不必要的评估延迟。研究发表于《European Heart Journal - Valvular and Structural Heart Disease》,为欧洲各国TAVI服务体系的标准化与效率提升提供了最新参照。",
+   "summary_en": "The second European TAVI Pathway Registry, an international multicenter cross-sectional study, surveyed 202 heart centers across 37 countries and tallied 44,089 transcatheter aortic valve implantation (TAVI) procedures performed in 2024, reflecting continued rapid growth of TAVI volumes across Europe. The study focused on how dedicated multidisciplinary Heart Valve Clinic pathways affect workflow efficiency, Heart Team decision-making speed, and patient experience, finding that centers with streamlined pathways reduced unnecessary evaluation delays. Published in the European Heart Journal - Valvular and Structural Heart Disease, the findings offer a contemporary benchmark for standardizing and improving TAVI care delivery across Europe.",
+   "source": "European Heart Journal - Valvular and Structural Heart Disease",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://academic.oup.com/ehjvshd/article/2/3/xwag043/8700236"
+  }
+ ]
+}
