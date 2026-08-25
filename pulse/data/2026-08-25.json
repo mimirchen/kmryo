@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-25",
+ "items": [
+  {
+   "date": "2026-03",
+   "title": "Balloon- Versus Self-Expanding Transcatheter Valves for Failed Small Surgical Aortic Bioprostheses: 3-Year Results of the LYTEN Trial",
+   "title_zh": "LYTEN随机试验3年结果:小外科瓣瓣中瓣(≤23mm)自膨胀瓣血流动力学显著优于球扩瓣,平均跨瓣压差≥20mmHg发生率17.6% vs 62.1%",
+   "summary_zh": "LYTEN是一项针对失效小外科生物瓣(瓣环≤23mm)行瓣中瓣经导管主动脉瓣置换(ViV-TAVR)的随机对照试验,共98例患者接受球扩瓣(SAPIEN 3/ULTRA,46例)或自膨胀瓣(Evolut R/PRO/PRO+,52例)治疗。3年随访显示,自膨胀瓣组平均跨瓣压差≥20mmHg的比例仅17.6%,显著低于球扩瓣组的62.1%(P<0.001);达到「理想瓣膜表现」标准者自膨胀瓣组82.4% vs 球扩瓣组27.6%(P<0.001)。两组临床结局与功能状态改善相近,但自膨胀瓣在小尺寸瓣中瓣场景下血流动力学优势持续保持到3年,为器械选型提供了迄今随访最长的随机证据。研究发表于《Circulation: Cardiovascular Interventions》。",
+   "summary_en": "The randomized LYTEN trial compared balloon-expandable (SAPIEN 3/ULTRA, n=46) and self-expanding (Evolut R/PRO/PRO+, n=52) transcatheter valves for valve-in-valve TAVR in 98 patients with failed small (≤23mm) surgical aortic bioprostheses. At 3 years, a mean gradient ≥20 mmHg occurred in only 17.6% of self-expanding-valve patients versus 62.1% of balloon-expandable-valve patients (P<0.001), and intended valve performance was met in 82.4% versus 27.6% (P<0.001), with similar clinical outcomes between groups. Published in Circulation: Cardiovascular Interventions, these are the longest randomized follow-up data yet on device selection for small failed surgical valves, showing the self-expanding valve's hemodynamic advantage persists through 3 years.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.016255"
+  },
+  {
+   "date": "2026-03",
+   "title": "Operator and Institutional Recommendations and Requirements for Tricuspid Interventions: 2026 ACC/AHA/ASE/HRS/STS Expert Consensus Systems of Care Document",
+   "title_zh": "ACC/AHA/ASE/HRS/STS五学会联合发布三尖瓣介入「系统性诊疗」共识:TTVR初期须三人术者团队,25例或3年后经证实30天重大并发症率<20%方可精简团队",
+   "summary_zh": "美国心脏病学会(ACC)、美国心脏协会(AHA)、美国超声心动图学会(ASE)、心律学会(HRS)与胸外科医师协会(STS)联合发布2026版三尖瓣介入系统性诊疗专家共识文件,发表于《JACC》。文件规定:开展经导管三尖瓣介入(TTVI)项目的机构须具备完整的影像与治疗设施及成熟的心外科项目,且已具备PCI、TAVI、二尖瓣缘对缘修复(M-TEER)、球囊瓣膜成形及封堵等经验;经导管三尖瓣置换(TTVR)初期须由介入超声心动图医师、介入心脏科医师与心外科医师三人组成术者团队,只有在完成至少25例手术或3年经验且30天重大并发症率低于20%后方可精简团队;相关中心须参加STS/ACC经导管瓣膜治疗(TVT)登记以支持上市后监测与长期结局追踪。这是首个针对三尖瓣介入项目准入与团队构成的多学会系统性诊疗标准。",
+   "summary_en": "The American College of Cardiology, American Heart Association, American Society of Echocardiography, Heart Rhythm Society, and Society of Thoracic Surgeons jointly published a 2026 expert consensus systems-of-care document on tricuspid interventions in JACC. It requires institutions launching transcatheter tricuspid valve intervention (TTVI) programs to have comprehensive imaging and therapeutic facilities plus an established cardiac surgery program with prior experience in PCI, TAVI, mitral TEER, balloon valvuloplasty, and closure devices; transcatheter tricuspid valve replacement (TTVR) should initially involve a three-operator team (interventional echocardiographer, interventional cardiologist, cardiac surgeon), which may be streamlined only after 25 cases or 3 years of experience with a demonstrated 30-day major complication rate below 20%; and centers must participate in the STS/ACC Transcatheter Valve Therapy Registry for postmarket surveillance. It is the first multisociety systems-of-care standard specifically for tricuspid intervention program credentialing and team composition.",
+   "source": "JACC",
+   "type": "guideline",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5069"
+  },
+  {
+   "date": "2026-03",
+   "title": "PROTECT H2H: Head-to-Head Randomized Comparison of the Emboliner and Sentinel Cerebral Embolic Protection Devices During TAVR",
+   "title_zh": "PROTECT H2H首个头对头随机试验:新一代Emboliner脑保护装置非劣于Sentinel,捕获碎片量多3倍且到位成功率96% vs 87%",
+   "summary_zh": "PROTECT H2H是首个直接比较两款TAVR脑栓塞保护装置的头对头随机对照试验,在巴西、德国、美国20家中心纳入522例接受TAVR的重度主动脉瓣狭窄患者(平均年龄79岁,33%为女性),随机接受新一代Emboliner或现有的Sentinel脑保护装置。30天主要复合终点(全因死亡、卒中或急性肾损伤)发生率Emboliner组4.5% vs Sentinel组5.0%,达到非劣效标准(非劣效P=0.0004);关键次要终点30天卒中率两组相近(2.0% vs 2.1%)。Emboliner组捕获的栓塞碎片量为Sentinel组的3倍,装置到位成功率也更高(96% vs 87%)。研究结果于2026年3月在美国心脏病学会(ACC.26)科学年会公布。",
+   "summary_en": "PROTECT H2H, the first head-to-head randomized trial comparing two cerebral embolic protection devices during TAVR, enrolled 522 patients with severe aortic stenosis (mean age 79, 33% women) at 20 sites in Brazil, Germany, and the US, randomizing them to the next-generation Emboliner or the established Sentinel device. The 30-day primary composite endpoint of death, stroke, or acute kidney injury occurred in 4.5% of Emboliner patients versus 5.0% of Sentinel patients, meeting noninferiority (P=0.0004), with similar 30-day stroke rates (2.0% vs 2.1%). Emboliner captured three times more embolic debris and achieved a higher successful-positioning rate (96% vs 87%). Results were presented at the American College of Cardiology's ACC.26 Scientific Session in March 2026.",
+   "source": "ACC.26 / American College of Cardiology",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.acc.org/latest-in-cardiology/articles/2026/03/25/21/27/sun-4pm-protecth2h-acc-2026"
+  }
+ ]
+}
