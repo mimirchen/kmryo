@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-26",
+ "items": [
+  {
+   "date": "2026-02-16",
+   "title": "Six-Year Outcomes After Transcatheter vs Surgical Aortic Valve Replacement in Low-Risk Patients With Aortic Stenosis",
+   "title_zh": "Evolut Low Risk试验6年结果:TAVR与外科手术主要终点无差异,但TAVR组再干预率显著升高(7年9.8% vs 6.0%),主要由瓣膜反流驱动",
+   "summary_zh": "Evolut Low Risk随机对照试验纳入低外科风险重度主动脉瓣狭窄患者,比较自膨胀式经导管主动脉瓣置换(TAVR,Evolut系列瓣膜)与外科主动脉瓣置换(SAVR)。6年随访显示,主要复合终点(全因死亡或致残性卒中)两组相近,TAVR组23.3% vs SAVR组20.4%(P=0.43),无统计学差异;但TAVR组再干预率呈升高趋势,6年时5.5% vs 3.3%(P=0.07),在可获得7年数据的亚组中TAVR组再干预率进一步升至9.8% vs SAVR组6.0%,差异转为显著。分层分析显示,再干预升高主要由瓣膜反流所致(TAVR 5.6% vs SAVR 1.6%,亚分布风险比3.39,95%CI 1.62-7.07,P<0.001),而由狭窄导致的再干预两组相近(3.6% vs 3.5%,P=0.70)。研究于2026年2月在线发表于《JACC》,为低风险患者TAVR长期瓣膜表现与再干预风险提供了迄今最长随访的随机证据,提示自膨胀瓣长期反流相关失效是需要持续关注的信号。",
+   "summary_en": "The randomized Evolut Low Risk trial compared self-expanding transcatheter aortic valve replacement (TAVR) with surgical aortic valve replacement (SAVR) in low-surgical-risk patients with severe aortic stenosis. At 6 years, the primary composite endpoint of all-cause mortality or disabling stroke was similar between arms (TAVR 23.3% vs SAVR 20.4%, P=0.43), but reintervention trended higher with TAVR (5.5% vs 3.3%, P=0.07) and became significantly higher in the subset with 7-year data (9.8% vs 6.0%). The excess reintervention was driven largely by bioprosthetic aortic regurgitation (TAVR 5.6% vs SAVR 1.6%; subdistribution HR 3.39, 95% CI 1.62-7.07, P<0.001) rather than stenosis (3.6% vs 3.5%, P=0.70). Published online in JACC in February 2026, these are the longest randomized follow-up data yet for low-risk TAVR, flagging regurgitation-related valve failure as a signal to watch long term.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5063"
+  },
+  {
+   "date": "2025-08-30",
+   "title": "Three-Year Follow-Up of the NOTION-2 Trial: TAVR Versus SAVR to Treat Younger Low-Risk Patients With Tricuspid or Bicuspid Aortic Stenosis",
+   "title_zh": "NOTION-2试验3年随访:60-75岁低风险主动脉瓣狭窄患者中TAVR与外科手术总体结局相近,三叶瓣亚组两者几乎相同",
+   "summary_zh": "NOTION-2是首个专门纳入60-75岁低外科风险重度主动脉瓣狭窄患者(涵盖二叶瓣与三叶瓣解剖)的TAVR与SAVR随机对照试验,共370例患者(平均年龄71.1岁,平均STS预测死亡风险1.2%)按1:1随机分组。3年随访结果显示,主要复合终点(死亡、卒中或操作/瓣膜/心衰相关再住院)TAVR组16.1% vs SAVR组12.6%(风险比1.3,95%CI 0.8-2.2),两组无统计学显著差异;在三叶瓣亚组中两组结局几乎相同(14.5% vs 14.4%)。两组结构性瓣膜退化及再干预发生率均较低。研究发表于《Circulation》,为既往被主要低风险试验排除在外的年轻、二叶瓣患者群体的器械选择提供了首个随机证据,但样本量有限,长期(如瓣膜耐久性)结论仍需更长随访验证。",
+   "summary_en": "NOTION-2 is the first randomized trial dedicated to TAVR versus SAVR in patients aged 60-75 years at low surgical risk with severe aortic stenosis, including both bicuspid and tricuspid valve anatomy — a population excluded from earlier low-risk trials. Among 370 randomized patients (mean age 71.1 years, mean STS-PROM 1.2%), the 3-year primary composite endpoint (death, stroke, or procedure-, valve-, or heart failure-related hospitalization) occurred in 16.1% of TAVR patients versus 12.6% of SAVR patients (HR 1.3, 95% CI 0.8-2.2), a nonsignificant difference; outcomes were nearly identical in the tricuspid-valve subgroup (14.5% vs 14.4%). Rates of structural valve deterioration and reintervention were low in both arms. Published in Circulation, the trial gives the first randomized evidence on device choice for younger, bicuspid-inclusive low-risk patients, though longer follow-up is still needed to settle durability questions.",
+   "source": "Circulation",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.076678"
+  },
+  {
+   "date": "2026-06-08",
+   "title": "Anteris Advances Global PARADIGM Expansion with French Regulatory Clearance",
+   "title_zh": "Anteris公司DurAVR瓣膜获法国监管机构ANSM批准,全球关键性PARADIGM试验(约1000例)启动法国入组",
+   "summary_zh": "澳大利亚器械公司Anteris Technologies宣布,其DurAVR经导管主动脉瓣(利用真实解剖形态设计的生物工程瓣膜)已获得法国国家药品和保健产品安全局(ANSM)全面监管许可,可在法国领先中心启动患者入组。该许可是公司全球关键性PARADIGM试验(计划纳入约1000例重度钙化性主动脉瓣狭窄患者,比较DurAVR与现有市售TAVR/外科瓣膜)在欧洲扩展布局的重要一步。公司高管表示法国拥有经验丰富的心脏中心与研究者,是具有战略意义的市场。消息于2026年6月8日通过GlobeNewswire发布,反映结构性心脏瓣膜赛道在传统巨头(爱德华、美敦力、雅培)之外仍有新进入者持续推进临床开发。",
+   "summary_en": "Australian device maker Anteris Technologies announced it received full regulatory clearance from France's ANSM for its DurAVR transcatheter heart valve — a bioengineered valve designed to replicate native leaflet geometry — enabling patient enrollment to begin at leading French centers. The clearance advances the global pivotal PARADIGM trial, which plans to enroll roughly 1,000 patients with severe calcific aortic stenosis to compare DurAVR against currently marketed TAVR and surgical valves. Company leadership called France a strategically important market given its experienced centers and investigators. The announcement, released via GlobeNewswire on June 8, 2026, illustrates continued clinical-stage competition in the aortic valve space beyond the established players (Edwards, Medtronic, Abbott).",
+   "source": "GlobeNewswire / Anteris Technologies",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.globenewswire.com/news-release/2026/06/08/3307890/0/en/Anteris-Advances-Global-PARADIGM-Expansion-with-French-Regulatory-Clearance.html"
+  },
+  {
+   "date": "2026-03-31",
+   "title": "Five-year follow-up of transcatheter tricuspid valve replacement with the EVOQUE valve",
+   "title_zh": "全球首例EVOQUE经导管三尖瓣置换病例5年随访:瓣膜功能持续稳定,平均跨瓣压差仅2 mmHg,无晚期并发症",
+   "summary_zh": "该病例报告随访了全球首例接受EVOQUE系统经导管三尖瓣置换(TTVR)的患者——一名75岁重度功能性三尖瓣反流合并轻度右心室功能不全的男性,2019年植入48mm EVOQUE瓣膜。5年随访超声心动图显示瓣膜位置稳定,仅轻度瓣周漏,平均跨瓣压差2 mmHg,提示长期血流动力学表现良好且无晚期并发症;此前随访中CT显示植入后3个月右心室舒张末容积即缩小27%,提示右心重构获益持续存在。研究发表于《EuroIntervention》,是迄今关于经导管三尖瓣置换器械最长随访个案报告,为TTVR长期耐久性提供了早期但重要的信号,不过作为单例报告,其结论仍需更大样本的登记研究验证。",
+   "summary_en": "This case report presents 5-year follow-up of the world's first patient treated with transcatheter tricuspid valve replacement (TTVR) using the EVOQUE system — a 75-year-old man with severe functional tricuspid regurgitation and mild right ventricular dysfunction who received a 48-mm EVOQUE valve in 2019. At 5 years, echocardiography showed a stable valve position, only mild paravalvular leak, and a mean gradient of 2 mmHg, indicating sustained hemodynamic performance with no late complications; earlier follow-up CT had shown a 27% reduction in right ventricular diastolic volume by 3 months. Published in EuroIntervention, this is the longest reported follow-up for any TTVR device, offering an early but notable durability signal that will need confirmation in larger registries.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 1,
+   "url": "https://eurointervention.pcronline.com/article/five-year-follow-up-of-transcatheter-tricuspid-valve-replacement-with-the-evoque-valve"
+  }
+ ]
+}
