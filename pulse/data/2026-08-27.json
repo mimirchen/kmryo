@@ -1,0 +1,53 @@
+{
+ "date": "2026-08-27",
+ "items": [
+  {
+   "date": "2026-08-13",
+   "title": "Clinical Outcomes of Transfemoral Transcatheter Mitral Valve Replacement: Results From the CHOICE-MI Registry",
+   "title_zh": "CHOICE-MI登记研究:经股静脉经间隔TMVR技术成功率91.1%,反流缓解持久——迄今最大规模真实世界数据",
+   "summary_zh": "多中心CHOICE-MI(经导管二尖瓣关闭不全最优治疗选择)登记研究纳入124例接受经股静脉、经房间隔途径经导管二尖瓣置换(TMVR)的患者(平均年龄79岁,女性占50%,EuroSCORE II均值5.0%),涉及9种不同器械,其中原发性二尖瓣反流占39.5%,合并二尖瓣环钙化占12.9%。结果显示技术成功率达91.1%(113/124),多数患者二尖瓣反流获得可预期且持久的缓解,心功能同步改善;研究以2年全因死亡或心衰住院复合终点为主要观察指标。论文发表于《JACC: Cardiovascular Interventions》2026年8月刊(第19卷第15期),为此前证据相对匮乏的经股静脉TMVR入路提供了迄今规模最大的多中心真实世界数据。",
+   "summary_en": "The multicenter CHOICE-MI registry analyzed 124 patients (mean age 79, 50% female, mean EuroSCORE II 5.0%) undergoing transfemoral transseptal transcatheter mitral valve replacement across 9 different devices, in a population with 39.5% primary mitral regurgitation and 12.9% mitral annular calcification. Technical success was achieved in 91.1% (113/124), with durable, predictable resolution of mitral regurgitation and functional improvement in most patients, tracked against a 2-year composite of all-cause mortality or heart failure hospitalization. Published in the August 2026 issue of JACC: Cardiovascular Interventions, this is the largest real-world dataset to date on the transfemoral approach to TMVR, for which evidence has previously been scarce.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.003"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "Real-World Outcomes of TAVR With the Navitor Valve for Patients With Small Aortic Annuli: Results From the STS/ACC TVT Registry",
+   "title_zh": "STS/ACC TVT登记研究:Navitor瓣膜治疗小主动脉瓣环真实世界数据——98.2%轻度以下瓣周漏,重度患者-瓣膜不匹配仅5.3%",
+   "summary_zh": "在New York Valves 2026大会的突破性临床科学(late-breaking)环节上,研究者公布了美国STS/ACC TVT登记研究中Abbott公司Navitor自膨胀式TAVR瓣膜用于小主动脉瓣环患者(该亚组以女性为主,既往因人工瓣膜-患者不匹配风险较高而备受关注)的真实世界数据:术后30天时98.2%的患者瓣周漏为轻度或以下,平均跨瓣压差7.5 mmHg;尽管解剖条件具有挑战性,重度人工瓣膜-患者不匹配(PPM)发生率仅5.3%。数据由The Christ Hospital的Raviteja Reddy Guddeti医生代表团队报告,为Navitor瓣膜在小瓣环高风险人群中的血流动力学表现提供了大样本真实世界支持。",
+   "summary_en": "Late-breaking STS/ACC TVT Registry data presented at New York Valves 2026 showed real-world outcomes of Abbott's Navitor self-expanding TAVR valve in patients with small aortic annuli — a predominantly female subgroup historically at higher risk of prosthesis-patient mismatch. At 30 days, 98.2% of patients had mild or less paravalvular leak and the mean gradient was 7.5 mmHg; despite challenging anatomy, severe prosthesis-patient mismatch occurred in just 5.3%. The data were presented by Dr. Raviteja Reddy Guddeti (The Christ Hospital) on behalf of the registry team.",
+   "source": "STS/ACC TVT Registry · New York Valves 2026",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/abbotts-navitor-tavr-valve-linked-positive-real-world-outcomes"
+  },
+  {
+   "date": "2026-08-24",
+   "title": "Peijia Medical Announces 2026 Interim Results, Achieving First-Ever Profit Before Tax on Strong TAVR Growth",
+   "title_zh": "启明医疗发布2026年中期业绩:TAVR业务强劲增长,首次实现税前盈利",
+   "summary_zh": "中国结构性心脏病器械企业启明医疗(Peijia Medical)发布2026年中期业绩:总收入4.245亿元人民币,同比增长20.1%;毛利2.900亿元,同比增长17.1%。经导管瓣膜治疗业务收入2.073亿元,同比增长28.3%,期内完成约2830例TAVR植入,同比增长36.5%,增长动力之一来自已获批用于主动脉瓣反流适应症的TaurusTrio瓣膜系统;公司同期首次实现税前盈利(70万元人民币)。业绩反映中国TAVR市场持续快速放量,本土器械企业在爱德华、美敦力等跨国巨头之外形成有力竞争。",
+   "summary_en": "Chinese structural heart device maker Peijia Medical's 2026 interim results show total revenue of RMB424.5 million (up 20.1% year-on-year) and gross profit of RMB290.0 million (up 17.1%). Its transcatheter valve therapeutic business grew 28.3% to RMB207.3 million on roughly 2,830 TAVR implantations (up 36.5%), driven in part by the TaurusTrio valve's aortic-regurgitation indication; the company posted its first-ever profit before tax (RMB0.7 million). The results underscore continued rapid TAVR volume growth in China, with domestic device makers building competitive scale alongside Edwards and Medtronic.",
+   "source": "PR Newswire / Peijia Medical",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.prnewswire.com/news-releases/peijia-medical-announces-2026-interim-results-achieving-first-ever-profit-before-tax-on-strong-tavr-growth-302858077.html"
+  },
+  {
+   "date": "2026-08-06",
+   "title": "ESC Congress 2026 Hot Line Trials to Watch: TRIC-I-HF",
+   "title_zh": "ESC 2026大会前瞻:TRIC-I-HF试验将于Hot Line环节公布,经导管三尖瓣干预能否改善心衰硬终点备受关注",
+   "summary_zh": "欧洲心脏病学会(ESC)2026年会(8月28日至31日,慕尼黑)公布Hot Line预告:今年12场Hot Line专场将呈现59项具有潜在实践改变意义的重磅临床试验。结构性心脏病领域最受关注的是TRIC-I-HF-DZHK24试验——一项由慕尼黑大学Joerg Hausleiter教授团队主导、纳入约360例重度三尖瓣反流合并右心衰竭患者的前瞻性、随机、开放标签策略性试验。此前多项三尖瓣介入研究已证实可改善症状与生活质量,但尚未证实能降低心衰住院或死亡率这一硬终点,TRIC-I-HF被视为回答该问题的关键证据,若结果阳性有望加速经导管三尖瓣干预这一快速增长治疗类别的临床采用。",
+   "summary_en": "Previewing ESC Congress 2026 (Aug 28-31, Munich), organizers flagged 59 potentially practice-changing trials across 12 Hot Line sessions. In structural heart, TRIC-I-HF-DZHK24 — a randomized, open-label strategy trial of roughly 360 patients with severe tricuspid regurgitation and manifest right heart failure, led by Prof. Joerg Hausleiter (LMU Munich) — is among the most anticipated. Prior tricuspid intervention trials have shown symptom and quality-of-life benefit but not yet reduced heart failure hospitalization or mortality, making TRIC-I-HF a pivotal test that could accelerate adoption of transcatheter tricuspid therapy if positive.",
+   "source": "Radcliffe Cardiology (ESC 2026 preview)",
+   "type": "conference",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://www.radcliffecardiology.com/news/esc-2026-hot-line-trials-watch"
+  }
+ ]
+}
