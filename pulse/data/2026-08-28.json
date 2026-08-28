@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-28",
+ "items": [
+  {
+   "date": "2026-08-28",
+   "title": "ESC Congress 2026 Opens in Munich: Hot Line 7 to Unveil Five Structural Heart Trials on August 30",
+   "title_zh": "ESC 2026年会今日在慕尼黑开幕:Hot Line 7专场8月30日将揭晓5项结构性心脏病重磅试验",
+   "summary_zh": "欧洲心脏病学会(ESC)2026年会今日(8月28日)在慕尼黑开幕,预计吸引超3万名临床医生、研究者与媒体参会,大会新闻发布环节已于8月27日启动。官方公布的12场Hot Line专场共纳入59项具潜在改变临床实践意义的试验,其中聚焦结构性心脏病的Hot Line 7将于8月30日11:00-12:15(欧洲中部时间)举行,一次性公布5项研究:POPular ACE TAVI(TAVI术后鱼精蛋白常规vs选择性应用以减少出血)、TAVI PCI(TAVI合并冠脉PCI的最佳时机)、TRIC-I-HF(重度三尖瓣反流合并心衰患者的介入策略)、ACASA-TAVI(TAVI术后抗栓治疗方案)及NOTION-4(TAVI术后亚临床瓣叶血栓)。大会同期还将发布心衰管理、心脏康复及心血管-慢性肾病管理三部新版指南。",
+   "summary_en": "ESC Congress 2026 opened today (Aug 28) in Munich, expected to draw more than 30,000 clinicians, researchers and journalists, with the press programme having begun Aug 27. Of the 59 potentially practice-changing trials across 12 Hot Line sessions, Hot Line 7 — dedicated to structural heart disease — is scheduled for Aug 30, 11:00-12:15 CEST, unveiling five studies at once: POPular ACE TAVI (routine vs selective protamine after TAVI to reduce bleeding), TAVI PCI (timing of concomitant coronary PCI), TRIC-I-HF (tricuspid intervention strategy in heart failure), ACASA-TAVI (post-TAVI antithrombotic regimen), and NOTION-4 (subclinical leaflet thrombosis after TAVI). Three new ESC guidelines on heart failure management, cardiac rehabilitation, and cardiovascular-CKD management will also be released during the congress.",
+   "source": "ESC Congress 2026",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.escardio.org/news/press/press-releases/hot-lines-revealed--the-trials-that-will-make-the-headlines-at-esc-congress-2026/"
+  },
+  {
+   "date": "2026-08-18",
+   "title": "AI-ECG Detection of Structural Heart Disease in the Community Setting: Transportability and Spectrum Effects in the PREVUE-VALVE Study",
+   "title_zh": "PREVUE-VALVE研究:AI心电图筛查结构性心脏病表现在社区人群中打折扣——AUC从医院队列83%降至社区队列71%",
+   "summary_zh": "发表于《JACC》(第88卷第7期,2026年8月18日,765-767页)的研究信,将此前在多中心医院队列中训练用于检测结构性心脏病的AI心电图模型EchoNext,应用于社区队列PREVUE-VALVE(2402名65-85岁居家接受心电图与经胸超声心动图检查的社区居民)进行外部验证。结果显示,社区队列中结构性心脏病患病率仅8%,远低于医院队列的43%,病变谱也更轻(以中度三尖瓣反流为主,收缩性心衰更少);相应地,AI-ECG诊断效能明显下降,曲线下面积(AUC)从医院队列的83%降至社区队列的71%,阳性预测值仅14%,意味着多数阳性结果并非中度以上结构性心脏病。研究提示AI筛查工具需在其目标应用人群中重新验证,不能简单外推医院来源数据。",
+   "summary_en": "This research letter published in JACC (Vol. 88, Issue 7, Aug 18 2026, pp. 765-767) externally validated EchoNext, an AI-ECG model originally trained on a multicenter hospital-based cohort to detect structural heart disease (SHD), in the community-based PREVUE-VALVE cohort (2,402 community-dwelling adults aged 65-85 undergoing in-home ECG and echocardiography). SHD prevalence was far lower in the community setting (8% vs 43% in hospital cohorts), with a milder disease spectrum. AI-ECG performance dropped accordingly — AUC fell from 83% in the hospital derivation cohort to 71% in PREVUE-VALVE, with a positive predictive value of just 14%, meaning most positive results did not correspond to moderate-or-greater SHD. The findings underscore the need to validate AI screening tools within their intended-use population before community deployment.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0735109726068336"
+  },
+  {
+   "date": "2026-08-12",
+   "title": "Women in the Leadership of Interventional Structural Heart Disease Trials: A Systematic Review and Meta-Analysis",
+   "title_zh": "JACC: Advances荟萃分析:结构性心脏病介入试验领导层中女性仅占7%,56.2%的监督委员会全为男性",
+   "summary_zh": "发表于《JACC: Advances》(2026年8月12日在线发表)的系统评价与荟萃分析,纳入2010年1月至2025年12月发表于高影响力期刊的88项结构性心脏病介入试验(主动脉瓣疾病57项、二尖瓣疾病12项、左心耳封堵7项、PFO封堵7项、三尖瓣疾病5项),评估各试验监督委员会中女性作为委员、委员会主席及通讯作者的占比。结果显示,监督委员会共512个席位中女性仅占36席(7.0%);在报告了委员会构成的随机对照/单臂研究中,56.2%的委员会成员全部为男性。作者(Samimi、Kharsa、Erdem等)呼吁通过针对性政策提升试验领导层多元化,以减少心血管证据生成过程中的结构性不平等。",
+   "summary_en": "This systematic review and meta-analysis, published online Aug 12, 2026 in JACC: Advances, analyzed 88 interventional structural heart disease trials published in high-impact journals from Jan 2010 to Dec 2025 (57 aortic valve, 12 mitral valve, 7 LAA occlusion, 7 PFO closure, and 5 tricuspid valve trials), assessing women's representation as oversight committee members, committee chairs, and senior authors. Of 512 total committee seats, only 36 (7.0%) were held by women, and among trials reporting committee composition, 56.2% had oversight committees composed entirely of men. The authors (Samimi, Kharsa, Erdem, et al.) call for targeted policies to diversify trial leadership and address downstream inequities in cardiovascular evidence generation.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://doi.org/10.1016/j.jacadv.2026.103073"
+  }
+ ]
+}
