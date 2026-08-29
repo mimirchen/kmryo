@@ -1,0 +1,65 @@
+{
+ "date": "2026-08-29",
+ "items": [
+  {
+   "date": "2026-08-07",
+   "title": "Combined Transcatheter Mitral and Tricuspid Edge-to-Edge Repair or Tricuspid Edge-to-Edge Repair Alone in Moderate Mitral Regurgitation: A Propensity-Matched Analysis",
+   "title_zh": "EuroTR登记研究:重度三尖瓣反流合并中度二尖瓣反流患者,同期加做二尖瓣缘对缘修复较单纯三尖瓣修复2年生存率提高11个百分点(81% vs 70%)",
+   "summary_zh": "EuroTR登记(2016-2025年)对2762例接受经导管三尖瓣缘对缘修复(T-TEER)治疗重度三尖瓣反流的患者进行倾向评分匹配分析。多变量分析显示,合并中度二尖瓣反流(MR)预测死亡风险升高(HR 1.81,P=0.005),而同期加做经导管二尖瓣缘对缘修复(M-TEER)则与生存获益相关(HR 0.46,P<0.0001)。倾向匹配后217对患者中,同期M-TEER组三尖瓣反流缓解程度更佳(平均降低1.9级 vs 1.6级),NYHA心功能分级与6分钟步行距离改善更明显,1年生存率87% vs 76%,2年生存率81% vs 70%。研究发表于《European Heart Journal》(2026年8月7日,第47卷第30期,4113-4128页),提示对合并中度MR的重度TR患者行T-TEER时,同期处理二尖瓣病变可能带来额外生存获益,为多瓣膜联合介入策略提供支持证据。",
+   "summary_en": "This propensity-matched analysis from the EuroTR registry (2016-2025) examined 2,762 patients undergoing transcatheter tricuspid edge-to-edge repair (T-TEER) for severe tricuspid regurgitation. Multivariable analysis showed concomitant moderate mitral regurgitation (MR) predicted higher mortality (HR 1.81, P=0.005), while concomitant mitral TEER (M-TEER) was associated with a survival benefit (HR 0.46, P<0.0001). After matching (217 pairs), patients receiving concomitant M-TEER had greater TR reduction (-1.9 vs -1.6 grades), better NYHA class and 6-minute walk distance improvement, and higher survival at 1 year (87% vs 76%) and 2 years (81% vs 70%). Published in the European Heart Journal (Aug 7, 2026; Vol. 47, Issue 30, pp. 4113-4128), the findings support treating concomitant moderate MR at the time of T-TEER in patients with multivalve disease.",
+   "source": "European Heart Journal",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://academic.oup.com/eurheartj/article/47/30/4113/8662040"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Boston Scientific Cyberattack Disrupts Global Order Processing and Shipping, Halting Deliveries of WATCHMAN, Pacemakers and Stents",
+   "title_zh": "波士顿科学遭网络攻击致全球订单与发货系统瘫痪,WATCHMAN左心耳封堵器、起搏器与支架供应中断,分析师预估三季度营收或受冲击6-7%",
+   "summary_zh": "波士顿科学(Boston Scientific)于2026年8月25日(周二)首次发现网络异常活动,8月26日(周三)公开披露一起网络攻击事件,导致公司处理与发放全球客户订单的信息系统全面瘫痪,包括起搏器、心脏支架、除颤器以及左心耳封堵器WATCHMAN在内的多类心血管器械发货受阻,爱尔兰Cork工厂等制造场地员工被迫停工。公司在监管文件中表示尚未确定该事件是否构成重大影响,仍在评估\"全面范围、性质与影响\"。分析师(如Evercore ISI的Vijay Kumar)参照史赛克(Stryker)今年早些时候类似事件约3周的恢复周期进行推算,预估此次事件可能令波士顿科学三季度营收承压6-7个百分点(600-700个基点)。事件凸显器械行业网络安全风险已直接威胁到包括结构性心脏病器械在内的全球供应链稳定性。",
+   "summary_en": "Boston Scientific first detected unauthorized network activity on Tuesday, Aug 25, 2026, and publicly disclosed a cyberattack the next day, Aug 26. The incident knocked out the information systems the company uses to process and ship global customer orders, disrupting deliveries of pacemakers, cardiac stents, defibrillators, and the WATCHMAN left atrial appendage closure device; employees at manufacturing sites including Cork, Ireland were sent home. In its regulatory filing, the company said it has not yet determined whether the incident is material and is still assessing the \"full scope, nature and impacts.\" Analysts, including Evercore ISI's Vijay Kumar, modeled a potential 600-700 basis point (6-7%) hit to third-quarter revenue by analogy to Stryker's roughly three-week recovery from a similar incident earlier this year. The episode highlights how a device maker's cybersecurity failure can directly threaten the global supply chain for structural heart devices.",
+   "source": "MedTech Dive",
+   "type": "industry",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.medtechdive.com/news/boston-scientifics-ordering-shipping-disrupted-in-cyberattack/828814/"
+  },
+  {
+   "date": "2026-01",
+   "title": "Pre-TAVI CT Angiography for Coronary Artery Disease Assessment: A Systematic Review and Meta-Analysis of Clinical Outcomes",
+   "title_zh": "系统评价与荟萃分析:TAVI术前冠脉CT血管造影敏感性97%、特异性68%,单心跳CT扫描仪特异性可达82%,理论上可减少41%有创冠脉造影",
+   "summary_zh": "发表于《Circulation: Cardiovascular Interventions》(2026年1月)的系统评价与荟萃分析,评估TAVI术前冠脉CT血管造影(CCTA)对判断阻塞性冠状动脉疾病的诊断准确性。意向性诊断分析显示,CCTA敏感性97%(95%CI 94%-98%),特异性68%(95%CI 56%-68%),阳性似然比3.0,阴性似然比0.05,分层汇总ROC曲线下面积达0.96(95%CI 0.94-0.98)。按扫描仪类型分层,单心跳(single-heartbeat)CT扫描仪与其他机型敏感性相近(96% vs 97%),但特异性显著更高(82% vs 60%)。按40%患病率估算,常规将CCTA纳入TAVI术前评估可减少41%(95%CI 34%-47%)的有创冠脉造影检查。研究为TAVI术前\"CT优先、有创造影选择性补充\"的评估路径提供了量化证据支持。",
+   "summary_en": "This systematic review and meta-analysis, published in Circulation: Cardiovascular Interventions (January 2026), evaluated the diagnostic accuracy of pre-TAVI coronary CT angiography (CCTA) for obstructive coronary artery disease. In an intention-to-diagnose analysis, CCTA sensitivity was 97% (95% CI 94-98%) and specificity 68% (95% CI 56-68%), with a positive likelihood ratio of 3.0, negative likelihood ratio of 0.05, and an area under the hierarchical summary ROC curve of 0.96 (95% CI 0.94-0.98). Single-heartbeat CT scanners showed similar sensitivity to other scanner types (96% vs 97%) but markedly higher specificity (82% vs 60%). Assuming a 40% disease prevalence, routine pre-TAVI CCTA could avoid 41% (95% CI 34-47%) of invasive coronary angiograms, supporting a CT-first, selectively-confirmed pathway for pre-TAVI coronary assessment.",
+   "source": "Circulation: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.125.016074"
+  },
+  {
+   "date": "2026-03-26",
+   "title": "FDA Clears Philips AI Solution That Provides Real-Time Guidance During Complex Minimally Invasive Heart Valve Repair",
+   "title_zh": "飞利浦EchoNavigator R5.0搭载DeviceGuide获FDA 510(k)许可:AI融合超声与X线实时追踪PASCAL瓣膜,辅助复杂二尖瓣缘对缘修复导航",
+   "summary_zh": "飞利浦(Philips)于2026年3月26日宣布,其EchoNavigator R5.0软件所搭载的DeviceGuide解决方案获得美国FDA 510(k)许可。该产品与爱德华生命科学(Edwards)联合开发,基于飞利浦超声-X线融合成像技术(EchoNavigator),将EPIQ CVxi心血管超声平台的实时超声图像与Azurion介入导管室的实时X线图像融合,AI算法可在术中自动追踪并可视化爱德华PASCAL二尖瓣缘对缘修复器械的位置,为术者提供单一集成视图以更清晰、更有信心地完成器械导航与定位,旨在提升复杂经导管二尖瓣修复手术的操作精度与效率。",
+   "summary_en": "Philips announced on March 26, 2026 that its EchoNavigator R5.0 software with the DeviceGuide solution received FDA 510(k) clearance. Co-developed with Edwards Lifesciences, the technology builds on Philips' echo-fluoro fusion platform, combining live echocardiography from the EPIQ CVxi cardiovascular ultrasound system with live X-ray from the Azurion image-guided therapy system. An AI algorithm automatically tracks and visualizes the position of Edwards' PASCAL mitral edge-to-edge repair device during the procedure, giving operators a single integrated view intended to improve navigation confidence and precision during complex transcatheter mitral valve repairs.",
+   "source": "Philips / GlobeNewswire",
+   "type": "regulatory",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://www.globenewswire.com/news-release/2026/03/26/3263118/0/en/FDA-clears-Philips-AI-solution-that-provides-real-time-guidance-during-complex-minimally-invasive-heart-valve-repair.html"
+  },
+  {
+   "date": "2026-03",
+   "title": "Outcomes of Left Atrial Appendage Occlusion After Transcatheter Edge-to-Edge Mitral Valve Repair: A System-Level Retrospective Analysis",
+   "title_zh": "系统层面回顾性分析(2016-2024年,412例LAAO患者):既往行二尖瓣缘对缘修复(MTEER)者再行左心耳封堵手术成功率与安全性相当,但90天再入院率升高(22% vs 14%)",
+   "summary_zh": "一项系统层面的回顾性分析纳入2016-2024年间接受左心耳封堵(LAAO)的412例患者,其中54例(13.1%)既往接受过经导管二尖瓣缘对缘修复(MTEER)。校正后比较显示,既往MTEER组与无MTEER组手术成功率相近(96% vs 97%),院内死亡率(1.9% vs 1.6%)、心包积液(3.7% vs 2.9%)、大出血(5.6% vs 4.3%)及卒中(1.9% vs 1.4%)均无统计学显著差异;但既往MTEER组90天再入院率明显更高(22% vs 14%)。该分析作为2026年美国心脏病学会年会(ACC.26)摘要发表于《JACC》,提示既往MTEER病史不影响LAAO手术本身的可行性与围术期安全性,但此类合并结构性心脏病干预病史的患者出院后可能需要更密切的临床随访。",
+   "summary_en": "A system-level retrospective analysis of 412 patients undergoing left atrial appendage occlusion (LAAO) from 2016-2024 identified 54 (13.1%) with prior transcatheter mitral edge-to-edge repair (MTEER). After adjustment, procedural success was similar between those with and without prior MTEER (96% vs 97%), and in-hospital mortality (1.9% vs 1.6%), pericardial effusion (3.7% vs 2.9%), major bleeding (5.6% vs 4.3%), and stroke (1.9% vs 1.4%) did not differ significantly — but 90-day readmission was notably higher in the prior-MTEER group (22% vs 14%). Presented as an abstract at the American College of Cardiology's ACC.26 Scientific Session and published in JACC, the findings suggest prior MTEER does not compromise LAAO procedural feasibility or periprocedural safety, though patients with this multivalve intervention history may warrant closer post-discharge follow-up.",
+   "source": "JACC (ACC.26 abstract)",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.1293"
+  }
+ ]
+}
