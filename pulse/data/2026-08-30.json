@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-30",
+ "items": [
+  {
+   "date": "2026-08-27",
+   "title": "Abbott's Next-Generation Amulet 360 Left Atrial Appendage Occluder Receives CE Mark for Stroke Prevention in Atrial Fibrillation",
+   "title_zh": "雅培新一代双密封左心耳封堵器Amulet 360获欧盟CE认证,用于非瓣膜性房颤患者卒中预防",
+   "summary_zh": "2026年8月27日,雅培(Abbott)宣布其新一代双密封左心耳封堵器Amulet 360获得欧盟CE认证,用于降低非瓣膜性心房颤动患者的卒中风险。器械核心\"lobe\"部分经重新设计,更柔软、适应性更强,可覆盖更多不同形态的左心耳解剖;外侧\"disk\"作为第二道密封层进一步降低残余分流风险。CE认证基于此前公布的多中心VERITAS研究数据:400例患者植入成功率达99.8%,45天时93.9%的患者实现无大于3毫米残余分流的完全封堵,且7天内未见需再次手术、卒中或血栓形成等安全终点事件。获批后首批欧洲病例已分别在德国法兰克福(Boris Schmidt教授团队)、吕贝克(Ingo Eitel教授团队)及丹麦奥胡斯(Jens Erik Nielsen-Kudsk教授团队)完成,公司计划未来数周内在更多欧洲国家推广应用。Amulet 360由此将与波士顿科学市场领先的Watchman系列封堵器展开正面竞争。",
+   "summary_en": "On August 27, 2026, Abbott announced that its next-generation dual-seal Amulet 360 left atrial appendage occluder received CE Mark approval to reduce stroke risk in patients with non-valvular atrial fibrillation. The device's lobe was redesigned to be softer and more conformable to treat a wider range of LAA anatomies, while its outer disk provides a second sealing layer to further reduce residual leak. The clearance builds on previously reported multicentre VERITAS study data: among 400 patients, implant success was 99.8%, and 93.9% achieved complete LAA closure without a leak greater than 3 mm at 45 days, with no reported additional surgery, stroke, or thrombus within 7 days. The first European cases were completed in Frankfurt, Lübeck, and Aarhus, with Abbott planning further rollout across Europe in the coming weeks. Amulet 360 will now compete directly with Boston Scientific's market-leading Watchman occluders.",
+   "source": "MedTech Dive",
+   "type": "regulatory",
+   "topic": "LAA",
+   "weight": 4,
+   "url": "https://www.medtechdive.com/news/abbott-wins-ce-mark-for-new-laa-closure-device/829072/"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "Seven-Year Valve Durability With Transcatheter or Surgical Aortic Valve Replacement: An Ad Hoc Analysis of the PARTNER 3 Randomized Clinical Trial",
+   "title_zh": "PARTNER 3随机对照试验事后分析:TAVR与外科换瓣7年瓣膜耐久性相当,结构性瓣膜退化率7.3% vs 7.6%",
+   "summary_zh": "发表于《JAMA Cardiology》(2026年6月24日在线,DOI 10.1001/jamacardio.2026.2299)的PARTNER 3随机对照试验事后分析,对1000例低外科风险重度主动脉瓣狭窄患者(495例接受经导管主动脉瓣置换TAVR,453例接受外科手术换瓣SAVR)进行7年瓣膜耐久性随访。结果显示两组结构性瓣膜退化(SVD)发生率相近(TAVR 7.3% vs SAVR 7.6%),生物瓣膜衰败(BVF)发生率为TAVR 6.9% vs SAVR 7.5%,因瓣膜相关问题需二次介入的比例为TAVR 6% vs SAVR 5.5%;两组各约75%的患者在7年时仍存活且瓣膜功能良好。TAVR组血栓相关生物瓣膜功能障碍发生率更高,但研究者指出这类事件多发生在早期、常可自行或经治疗后逆转,极少进展为瓣膜衰败或需要再次干预。该分析为低危、年轻患者选择TAVR提供了迄今随访时间最长的瓣膜耐久性证据。",
+   "summary_en": "This ad hoc analysis of the PARTNER 3 randomized trial, published online in JAMA Cardiology on June 24, 2026 (DOI 10.1001/jamacardio.2026.2299), followed 1,000 low-surgical-risk patients with severe aortic stenosis (495 TAVR, 453 SAVR) for 7-year valve durability. Structural valve deterioration occurred at similar rates between groups (TAVR 7.3% vs SAVR 7.6%), bioprosthetic valve failure was 6.9% vs 7.5%, and valve-related reintervention was needed in 6% vs 5.5%; about 75% of patients in both arms were alive with a fully functioning valve at 7 years. Thrombosis-related bioprosthetic valve dysfunction was more common after TAVR, but the authors note these events tended to occur early, were often reversible, and rarely progressed to failure or reintervention. The findings provide the longest-term durability evidence yet supporting TAVR in younger, lower-risk patients.",
+   "source": "JAMA Cardiology",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2850866"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "A Randomised Trial of Carbon-Dioxide Flushing to Reduce Vascular Brain Injury in Patients Undergoing TAVI (INTERCEPTavi)",
+   "title_zh": "INTERCEPTavi随机对照先导试验:TAVI术中以二氧化碳冲洗瓣膜可减少新发脑缺血病灶(平均4个 vs 8.5个/例,P=0.031)",
+   "summary_zh": "发表于《EuroIntervention》(2026年5月20日,DOI 10.4244/EIJ-D-26-00425)的INTERCEPTavi单中心、盲法随机对照先导试验,纳入60例接受经导管主动脉瓣置换(TAVI)的患者,按1:1随机分为瓣膜二氧化碳(CO2)冲洗组与传统生理盐水冲洗组,并以术后脑磁共振成像(MRI)及经颅多普勒(TCD)评估脑血管损伤。结果显示,CO2冲洗组每例患者新发脑缺血病灶数显著低于生理盐水组(平均4个 vs 8.5个,P=0.031);总梗死面积CO2组数值上更小(40.32 mm² vs 93.20 mm²)但未达统计学显著性(P=0.111);TCD检测到的微栓子信号(以气体栓子为主)CO2组也有所减少,同样未达统计学显著性(P=0.5)。作为样本量有限的先导研究,结果仍需在更大规模试验中验证,但为TAVI术中一种简单、低成本的脑保护策略提供了初步证据支持。",
+   "summary_en": "This single-centre, blinded, randomized pilot trial (INTERCEPTavi), published in EuroIntervention on May 20, 2026 (DOI 10.4244/EIJ-D-26-00425), randomized 60 patients undergoing TAVI 1:1 to valve flushing with carbon dioxide (CO2) versus conventional saline, assessing vascular brain injury via post-procedural MRI and transcranial Doppler (TCD). CO2 flushing significantly reduced the average number of new cerebral ischemic lesions per patient compared with saline (4 vs 8.5 lesions; P=0.031). Total infarct area was numerically smaller with CO2 flushing (40.32 mm² vs 93.20 mm²) but did not reach statistical significance (P=0.111), and TCD-detected micro-embolic signals (predominantly gaseous emboli) were also reduced without reaching significance (P=0.5). As a small pilot study, the findings require confirmation in larger trials, but they offer early evidence for a simple, low-cost cerebral protection strategy during TAVI.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://doi.org/10.4244/EIJ-D-26-00425"
+  }
+ ]
+}
