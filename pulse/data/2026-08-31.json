@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-31",
+ "items": [
+  {
+   "date": "2026-08-30",
+   "title": "Transcatheter Tricuspid Valve Repair Reduces Death and Heart Failure Hospitalisation in Severe Tricuspid Regurgitation: The TRIC-I-HF Trial",
+   "title_zh": "TRIC-I-HF随机对照试验:三尖瓣介入修复联合药物治疗较单纯药物治疗显著降低重度三尖瓣反流合并心衰患者的死亡及心衰住院风险",
+   "summary_zh": "在2026年8月30日ESC年会Hot Line发布并同步发表于《新英格兰医学杂志》的TRIC-I-HF-DZHK24研究,是德国29家高年资心脏瓣膜中心开展的研究者发起、前瞻性、开放标签随机对照试验,纳入360例重度三尖瓣反流合并右心衰竭高风险患者(平均年龄80.3岁,56.4%为女性,75%为NYHA III/IV级),按2:1随机分为经导管三尖瓣介入(TTVI,采用PASCAL/PASCAL ACE、TriClip或Cardioband等CE认证器械)联合优化药物治疗组(237例)与单纯优化药物治疗组(123例)。研究设两个分层检验的共同主要终点:1年时全因死亡、心衰住院及生活质量的win ratio复合评估,以及(在前者达显著性后检验的)3年时全因死亡或心衰住院复合终点——后者结果显示TTVI组无事件生存率显著优于药物组(52.4% vs 21.0%,HR 0.40,95%CI 0.29–0.55,P<0.001)。这是首个显示经导管三尖瓣介入可降低死亡/心衰住院硬终点的随机对照试验,为该领域此前一直缺乏的临床获益证据补上关键一环。",
+   "summary_en": "Presented in a Hot Line session at ESC Congress 2026 on August 30, 2026 and published simultaneously in the New England Journal of Medicine, the investigator-initiated TRIC-I-HF-DZHK24 trial, conducted at 29 high-volume heart-valve centres in Germany, randomized 360 patients with severe tricuspid regurgitation and manifest right-sided heart failure (mean age 80.3, 56.4% women, 75% NYHA III/IV) 2:1 to transcatheter tricuspid valve intervention (TTVI, using CE-marked PASCAL/PASCAL ACE, TriClip, or Cardioband devices) plus optimal medical therapy (n=237) versus optimal medical therapy alone (n=123). Two hierarchically tested co-primary endpoints were used: a win-ratio composite of death, heart-failure hospitalisation, and quality of life at 1 year, and — tested only if the first reached significance — a composite of all-cause death or heart-failure hospitalisation at 3 years, for which event-free survival was significantly higher with TTVI (52.4% vs 21.0%; HR 0.40; 95% CI 0.29–0.55; P<0.001). This is the first randomized trial to show that transcatheter tricuspid repair reduces hard mortality/hospitalisation endpoints, filling a long-standing evidence gap in the field.",
+   "source": "ESC Congress 2026 / NEJM",
+   "type": "conference",
+   "topic": "Tricuspid",
+   "weight": 5,
+   "url": "https://www.escardio.org/news/press/press-releases/new-research-shows-transcatheter-repair-reduces-death-and-heart-failure-hospitalisation-in-severe-tricuspid-regurgitation-vs.-medical-therapy-alone"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "TAVI-First Strategy Noninferior to PCI-First in Patients With Aortic Stenosis and Coronary Artery Disease: The TAVI-PCI Trial",
+   "title_zh": "TAVI-PCI随机对照试验:986例合并冠心病的重度主动脉瓣狭窄患者中,\"先TAVI后PCI\"策略非劣于\"先PCI后TAVI\"(1年复合终点22.2% vs 24.2%)",
+   "summary_zh": "发表于2026年8月30日ESC年会Hot Line并同步发表于《新英格兰医学杂志》的TAVI-PCI随机对照试验,在奥地利、法国、德国、意大利、荷兰及瑞士48家中心纳入986例合并冠心病的重度主动脉瓣狭窄患者(平均年龄82岁,34%为女性),按1:1随机分为\"先行TAVI、再行血管造影引导PCI\"组与\"先行血管造影引导PCI、再行TAVI\"组,两项操作间隔1至45天内完成。主要终点为1年时全因死亡、非致死性心肌梗死、缺血驱动血运重建、瓣膜/操作/心衰相关再住院或危及生命/致残/大出血的复合终点。结果显示TAVI优先组与PCI优先组主要终点发生率相近(22.2% vs 24.2%),风险差为-2.0个百分点(95%CI -7.4至3.4),非劣效性检验P<0.001,按年龄、性别及PCI复杂程度等预设亚组分析未见明显异质性。该研究提示对于需同时接受TAVI与PCI的患者,PCI并非必须在瓣膜置换前完成,为临床操作排程提供了更大灵活性。",
+   "summary_en": "This randomized controlled trial (TAVI-PCI), presented in a Hot Line session at ESC Congress 2026 on August 30, 2026 and published simultaneously in the New England Journal of Medicine, enrolled 986 patients with severe aortic stenosis and concomitant coronary artery disease across 48 centres in Austria, France, Germany, Italy, the Netherlands, and Switzerland (mean age 82, 34% women). Patients were randomized 1:1 to TAVI followed by angiography-guided PCI, or PCI followed by TAVI, with both procedures completed within 1–45 days of each other. The primary endpoint — a composite of all-cause death, nonfatal myocardial infarction, ischaemia-driven revascularisation, valve-, procedure- or heart-failure-related rehospitalisation, or life-threatening, disabling or major bleeding at 1 year — occurred in 22.2% of the TAVI-first group versus 24.2% of the PCI-first group (risk difference −2.0 percentage points; 95% CI −7.4 to 3.4; P<0.001 for noninferiority), with no evidence of heterogeneity across prespecified subgroups including age, sex, and PCI complexity. The findings suggest PCI does not have to precede valve replacement in patients requiring both procedures, offering more flexibility in procedural scheduling.",
+   "source": "ESC Congress 2026 / NEJM",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.news-medical.net/news/20260830/TAVI-first-strategy-proves-noninferior-to-PCI-first-approach-in-new-trial.aspx"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "NOAC Monotherapy Nearly Halves Subclinical Leaflet Thrombosis Compared With Aspirin After TAVI: The ACASA-TAVI Trial",
+   "title_zh": "ACASA-TAVI随机对照试验:TAVI术后NOAC单药治疗较阿司匹林单药治疗使亚临床瓣叶血栓(HALT)发生率降低近半(16.2% vs 28.6%)",
+   "summary_zh": "在2026年ESC年会Hot Line发布的ACASA-TAVI随机对照试验,纳入360例接受经导管主动脉瓣置换(TAVI)且无长期抗凝指征的患者,按1:1随机分为Xa因子抑制剂类新型口服抗凝药(NOAC,阿哌沙班、艾多沙班或利伐沙班之一)单药治疗组与阿司匹林单药治疗组,疗程12个月。主要疗效终点为术后12个月心脏CT检出的瓣叶低密度增厚(HALT),NOAC组167例中27例(16.2%)发生,阿司匹林组168例中48例(28.6%)发生(风险比0.55,95%CI 0.37–0.82,P=0.004);复合安全终点(出血、血栓栓塞事件及死亡)NOAC组不劣于阿司匹林组,阿司匹林组出血事件数值上更多,且致命性/危及生命出血仅见于阿司匹林组。该研究为TAVI术后无抗凝指征患者的抗栓策略选择提供了新的随机化证据,但亚临床瓣叶血栓减少能否转化为瓣膜远期耐久性获益或降低临床血栓栓塞事件,仍待更大样本、更长随访的研究证实。",
+   "summary_en": "The ACASA-TAVI randomized trial, presented in a Hot Line session at ESC Congress 2026, randomized 360 patients undergoing TAVI with no indication for long-term anticoagulation 1:1 to 12 months of monotherapy with a factor Xa inhibitor NOAC (apixaban, edoxaban, or rivaroxaban) versus aspirin monotherapy. The primary efficacy endpoint, hypoattenuated leaflet thickening (HALT) on cardiac CT at 12 months, occurred in 27 of 167 patients (16.2%) in the NOAC group versus 48 of 168 patients (28.6%) in the aspirin group (risk ratio 0.55; 95% CI 0.37–0.82; P=0.004); the NOAC arm was noninferior to aspirin for the composite safety endpoint of bleeding, thromboembolism, and death, with numerically more bleeding events — including all life-threatening or fatal bleeds — occurring in the aspirin group. The trial provides new randomized evidence for antithrombotic strategy after TAVI in patients without an anticoagulation indication, though whether reduced subclinical leaflet thrombosis translates into better long-term valve durability or fewer clinical thromboembolic events awaits confirmation in larger, longer-term studies.",
+   "source": "ESC Congress 2026",
+   "type": "conference",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.hcplive.com/view/acasa-tavi-noac-monotherapy-cuts-leaflet-thrombosis"
+  }
+ ]
+}
