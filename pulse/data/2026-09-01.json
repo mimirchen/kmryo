@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-01",
+ "items": [
+  {
+   "date": "2026-08-31",
+   "title": "Left Atrial Appendage Closure During Cardiac Surgery Benefits Only High Stroke-Risk Patients: The LAACS-2 Trial",
+   "title_zh": "LAACS-2随机对照试验:心脏手术同期左心耳封闭总体未降低卒中/TIA风险,获益仅见于卒中高危亚组",
+   "summary_zh": "在2026年8月31日ESC年会Hot Line环节公布的LAACS-2随机对照试验,由丹麦Bispebjerg大学医院Helena Dominguez副教授牵头,在丹麦、西班牙、瑞典4家中心纳入1500例首次择期开胸心脏手术患者(含术前无房颤及有阵发性/慢性房颤病史者),按1:1随机分为同期行左心耳封闭组与标准治疗(左心耳保持开放)组。中位随访4.0年,主要终点(卒中或短暂性脑缺血发作)两组发生率相近(4.28% vs 5.04%,HR 0.85,95%CI 0.53–1.37,P=0.517),总体未达统计学显著性;但在按CHA2DS2-VASc评分预设的高卒中风险亚组分析中,左心耳封闭使主要终点相对风险降低56%(P=0.018)。研究提示不宜对所有开胸心脏手术患者常规施行左心耳封闭,获益可能局限于卒中高危人群,为该术式的患者选择提供了新的随机化证据。",
+   "summary_en": "Presented in a Hot Line session at ESC Congress 2026 on August 31, 2026, the LAACS-2 trial, led by Associate Professor Helena Dominguez of Bispebjerg University Hospital, Copenhagen, randomized 1,500 patients undergoing first-time planned open-heart surgery (with or without prior atrial fibrillation) 1:1 across four centres in Denmark, Spain, and Sweden to concomitant surgical left atrial appendage closure versus standard care (LAA left open). Over a median 4.0-year follow-up, the primary endpoint of stroke or transient ischaemic attack occurred at similar rates in both groups (4.28% vs 5.04%; HR 0.85; 95% CI 0.53-1.37; P=0.517), missing significance overall - but a prespecified subgroup analysis by CHA2DS2-VASc score found a 56% relative risk reduction with LAA closure among patients at high baseline stroke risk (P=0.018). The findings argue against routine LAA closure in all cardiac surgery patients, suggesting any benefit is confined to those at high stroke risk.",
+   "source": "ESC Congress 2026",
+   "type": "conference",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.news-medical.net/news/20260831/Left-atrial-appendage-closure-benefits-only-high-risk-cardiac-surgery-patients.aspx"
+  }
+ ]
+}
