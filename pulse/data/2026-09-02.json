@@ -1,0 +1,29 @@
+{
+ "date": "2026-09-02",
+ "items": [
+  {
+   "date": "2026-08-30",
+   "title": "Short-Term Anticoagulant Therapy and Subclinical Leaflet Thickening in Transcatheter Aortic Valves: The NOTION-4 Trial",
+   "title_zh": "NOTION-4随机试验:TAVI术后短程口服抗凝显著降低瓣叶血栓形成(HALT)风险",
+   "summary_zh": "丹麦NOTION-4随机对照试验(哥本哈根大学医院Rigshospitalet与奥胡斯大学医院联合开展,主要研究者Troels Højsgaard Jørgensen、Ole De Backer)纳入324例接受TAVI且无常规口服抗凝指征的患者,随机对比两种围术期抗栓策略:术后3个月直接口服抗凝药(DOAC)后转为终身单抗血小板治疗,与终身单抗血小板治疗。主要终点为术后1年心脏4DCT评估的瓣叶亚临床血栓形成(HALT)。结果显示,DOAC组HALT发生率显著低于单抗血小板组(相对风险RR 0.50,95%CI 0.36-0.70,P=0.0001),提示短程抗凝可有效抑制TAVI瓣叶亚临床血栓形成。该研究于ESC Congress 2026 Hot Line环节公布,并同步发表于JACC,为无常规抗凝指征的TAVI患者围术期抗栓方案提供了新的随机化证据,与同期公布的ACASA-TAVI试验(NOAC对比阿司匹林人群)形成互补。",
+   "summary_en": "The Danish NOTION-4 randomized trial, conducted at Rigshospitalet-Copenhagen University Hospital and Aarhus University Hospital and led by Troels Højsgaard Jørgensen and Ole De Backer, enrolled 324 TAVI patients with no standing indication for oral anticoagulation, randomizing them to a 3-month direct oral anticoagulant (DOAC) course followed by lifelong single antiplatelet therapy versus lifelong single antiplatelet therapy alone. The primary endpoint was 1-year cardiac 4DCT-assessed hypoattenuated leaflet thickening (HALT). DOAC therapy significantly reduced HALT incidence compared with antiplatelet therapy alone (RR 0.50, 95% CI 0.36-0.70, P=0.0001). Presented in an ESC Congress 2026 Hot Line session and published simultaneously in JACC, the trial adds new randomized evidence on periprocedural antithrombotic strategy for TAVI patients without a standing anticoagulation indication, complementing the concurrently reported ACASA-TAVI trial in patients already needing anticoagulation.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.023"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Boston Scientific Cyberattack Recovery Continues to Disrupt WATCHMAN, Pacemaker, and Stent Shipments",
+   "title_zh": "波士顿科学网络攻击持续影响WATCHMAN左心耳封堵器等产品发货,公司称本周有望部分恢复",
+   "summary_zh": "波士顿科学(Boston Scientific)8月25日确认遭受网络攻击,导致订单处理与全球发货系统中断,涉及WATCHMAN左心耳封堵器、起搏器、支架等结构性心脏与心律管理产品的物流受到波及,新植入心脏监测设备的远程激活功能也一度受阻;公司强调已在用的植入式心律管理器械本身不受影响。在9月1日的最新进展通报中,公司表示未授权活动仅限于部分本地(on-premises)系统,云端系统未受影响,自8月25日以来未再发现新的可疑活动迹象,预计本周内可部分恢复部分产品发货,全面恢复时间尚未确定。对依赖WATCHMAN等器械排期的结构性心脏团队而言,短期内仍需关注供应链延迟对手术安排的影响。",
+   "summary_en": "Boston Scientific confirmed on August 25 that a cyberattack had disrupted order-processing and global shipping systems, affecting logistics for structural heart and rhythm products including the WATCHMAN left atrial appendage closure device, pacemakers, and stents; remote activation of some newly implanted cardiac monitors was briefly affected too, though the company said already-implanted cardiac rhythm devices themselves were not impacted. In its September 1 update, the company said the unauthorized activity was confined to certain on-premises systems, cloud-based systems were unaffected, and no further suspicious activity had been detected since August 25; it expects partial shipping restoration for some products this week, with a full-capacity timeline still undetermined. Structural heart programs relying on WATCHMAN and related devices should watch for possible short-term supply delays affecting case scheduling.",
+   "source": "Boston Scientific",
+   "type": "industry",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://news.bostonscientific.com/update-on-recent-cybersecurity-incident"
+  }
+ ]
+}
