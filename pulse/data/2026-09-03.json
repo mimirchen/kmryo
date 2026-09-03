@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-03",
+ "items": [
+  {
+   "date": "2026-08-30",
+   "title": "Timing of PCI in Patients Undergoing Transcatheter Aortic-Valve Implantation: The TAVI PCI Trial",
+   "title_zh": "TAVI PCI试验:重度主动脉瓣狭窄合并冠心病患者中,TAVI优先策略不劣于PCI优先策略",
+   "summary_zh": "由研究者发起的TAVI PCI试验在2026年ESC年会Hot Line环节公布并同步发表于《新英格兰医学杂志》(Stähli等),在奥地利、法国、德国、意大利、荷兰、瑞士6国48家中心纳入986例合并冠心病的重度主动脉瓣狭窄患者,随机分为TAVI优先与PCI优先两组,第二项操作在首次术后1-45天内完成。术后1年复合主要终点(全因死亡、非致死性心肌梗死、缺血驱动血运重建、瓣膜/操作/心衰相关再住院及严重出血)发生率TAVI优先组为22.2%,PCI优先组为24.2%(组间差-2.0个百分点,95%CI -7.4至3.4,非劣效P<0.001),且TAVI优先组严重出血更少(6.6% vs 9.7%)。结果支持在需要同期处理主动脉瓣与冠脉病变时,采用TAVI优先的操作顺序作为安全的默认策略。",
+   "summary_en": "The investigator-initiated TAVI PCI trial, presented as an ESC Congress 2026 Hot Line and published simultaneously in NEJM (Stähli et al.), randomized 986 patients with severe aortic stenosis and concomitant coronary artery disease across 48 centers in Austria, France, Germany, Italy, the Netherlands, and Switzerland to a TAVI-first or PCI-first strategy, with the second procedure performed 1-45 days later. At 1 year, the composite primary endpoint (death, nonfatal myocardial infarction, ischemia-driven revascularization, valve/procedure/heart-failure-related rehospitalization, and severe bleeding) occurred in 22.2% of the TAVI-first group versus 24.2% of the PCI-first group (difference -2.0 percentage points, 95% CI -7.4 to 3.4; P<0.001 for noninferiority), with severe bleeding lower in the TAVI-first arm (6.6% vs 9.7%). The results support a TAVI-first sequencing strategy as a safe default when both procedures are needed.",
+   "source": "NEJM",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2606924"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "Tricuspid-Valve Intervention in Heart Failure: The TRIC-I-HF Trial",
+   "title_zh": "TRIC-I-HF随机试验:经导管三尖瓣修复联合药物治疗在重度三尖瓣反流合并心衰患者中显著优于单纯药物治疗",
+   "summary_zh": "德国多中心TRIC-I-HF(TRIC-I-HF-DZHK24)试验由Joerg Hausleiter教授团队牵头,在29家高手术量心脏瓣膜中心纳入360例症状性重度三尖瓣反流合并心衰患者(平均年龄80岁,女性占56%),随机对比经导管三尖瓣修复联合药物治疗与单纯药物治疗。该研究在2026年ESC年会公布并同步发表于《新英格兰医学杂志》,第一主要终点(1年时全因死亡、心衰住院及生活质量改善的分层win ratio复合终点)显示介入组显著获益,win ratio为2.42(95%CI 1.76-3.33,P<0.001);第二主要终点3年时无死亡或心衰住院生存率,介入组为52.4%,药物治疗组仅为21.0%。",
+   "summary_en": "The German multicenter TRIC-I-HF (TRIC-I-HF-DZHK24) trial, led by Joerg Hausleiter and colleagues across 29 high-volume heart-valve centers, randomized 360 patients (mean age 80 years, 56% women) with symptomatic severe tricuspid regurgitation and heart failure to transcatheter tricuspid valve repair plus medical therapy versus medical therapy alone. Presented at ESC Congress 2026 and published simultaneously in NEJM, the trial met its first hierarchical primary endpoint (win-ratio composite of death, heart-failure hospitalization, and quality-of-life improvement at 1 year), with a win ratio of 2.42 (95% CI 1.76-3.33; P<0.001) favoring transcatheter repair; the co-primary endpoint of freedom from death or heart-failure hospitalization at 3 years was 52.4% with repair versus 21.0% with medical therapy alone.",
+   "source": "NEJM",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2606934"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "Anticoagulation Monotherapy vs Antiplatelet Monotherapy After Transcatheter Aortic Valve Implant: The ACASA-TAVI Randomized Clinical Trial",
+   "title_zh": "ACASA-TAVI随机试验:TAVI术后口服抗凝单药治疗较阿司匹林单药显著降低瓣叶血栓形成(HALT)风险",
+   "summary_zh": "ACASA-TAVI随机试验在2026年ESC年会公布并同步发表于JAMA,纳入360例年龄65-80岁、接受TAVI治疗重度主动脉瓣狭窄且无其他抗凝指征的患者,随机分为直接口服抗凝药(DOAC)单药治疗12个月组与阿司匹林75mg/日单药治疗组。CT评估显示DOAC组瓣叶亚临床血栓形成(HALT)发生率显著低于阿司匹林组(16.2% vs 28.6%),且DOAC单药治疗在出血、血栓栓塞事件及死亡方面不劣于阿司匹林,为TAVI术后抗栓策略选择提供了新的随机化证据。",
+   "summary_en": "The ACASA-TAVI randomized trial, presented at ESC Congress 2026 and published simultaneously in JAMA, enrolled 360 patients aged 65-80 undergoing TAVI for severe aortic stenosis with no other indication for anticoagulation, randomizing them to 12 months of direct oral anticoagulant (DOAC) monotherapy versus aspirin 75 mg/day monotherapy. Hypoattenuated leaflet thickening (HALT) on CT was less frequent with DOAC than with aspirin (16.2% vs 28.6%), while DOAC monotherapy was noninferior to aspirin for bleeding, thromboembolic events, and death, offering new randomized evidence on optimal antithrombotic strategy after TAVI.",
+   "source": "JAMA",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://doi.org/10.1001/jama.2026.17036"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Medtronic Announces Strategic Investment in Pi-Cardia to Accelerate Innovation for Complex TAVR",
+   "title_zh": "美敦力战略投资Pi-Cardia,加码FDA已获批的ShortCut瓣叶劈开装置以应对复杂TAVI瓣中瓣手术",
+   "summary_zh": "2026年9月1日,美敦力宣布对Pi-Cardia公司进行最高8000万美元的战略投资,并获得在其达到预设里程碑后以最高2.1亿美元首付款(另有潜在里程碑付款)收购该公司的选择权。Pi-Cardia的ShortCut是首款获FDA批准的瓣叶劈开装置,用于在瓣中瓣TAVI手术前对原生或人工主动脉瓣叶进行预劈开,以保留冠脉入路、降低冠脉阻塞风险;在FDA审查的关键性临床研究中,ShortCut在所有入组患者中均实现成功的瓣叶劈开,安全性良好。",
+   "summary_en": "On September 1, 2026, Medtronic announced a strategic investment of up to $80 million in Pi-Cardia Ltd., with an option to acquire the company upon predefined milestones for an estimated upfront price of up to $210 million plus potential earn-outs. Pi-Cardia's ShortCut is the first FDA-cleared leaflet-modification device designed to split native or bioprosthetic aortic valve leaflets before valve-in-valve TAVR, helping preserve coronary access and reduce the risk of coronary obstruction; in FDA-reviewed pivotal studies, ShortCut achieved successful leaflet splitting in all treated patients with a favorable safety profile.",
+   "source": "Medtronic",
+   "type": "industry",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://www.prnewswire.com/news-releases/medtronic-announces-strategic-investment-in-pi-cardia-to-accelerate-innovation-for-complex-tavr-302865441.html"
+  }
+ ]
+}
