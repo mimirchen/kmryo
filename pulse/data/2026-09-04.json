@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-04",
+ "items": [
+  {
+   "date": "2026-08-24",
+   "title": "Redo-Transcatheter Aortic Valve Replacement With Self-Expanding Valves: A U.S. Registry Analysis",
+   "title_zh": "美国STS/ACC TVT注册研究:自膨胀瓣膜二次TAVR(redo-TAVR)死亡与卒中风险与原发TAVR相当",
+   "summary_zh": "该研究(Rogers、Bapat等)基于美国胸外科医师学会/美国心脏病学会经导管瓣膜治疗(STS/ACC TVT)注册数据库,纳入439例因既往TAVR瓣膜衰败而接受二次TAVR(redo-TAVR)的患者,均植入自膨胀超环上瓣膜(美敦力Evolut R/PRO/PRO+),平均年龄78.9±9.8岁,女性占63.1%,与同期采用相同瓣膜平台的原发TAVR队列比较。经协变量校正后,redo-TAVR组30天全因死亡校正HR为0.66(95%CI 0.39-1.13,P=0.129)、卒中HR为0.95(95%CI 0.54-1.68,P=0.853);1年死亡HR为0.91(95%CI 0.72-1.15,P=0.441)、卒中HR为0.91(95%CI 0.63-1.34,P=0.644),均与原发TAVR相当。研究于2026年8月24日发表于JACC: Cardiovascular Interventions,为TAVR瓣膜衰败后的补救策略提供了迄今最大规模的真实世界证据。",
+   "summary_en": "Using the STS/ACC Transcatheter Valve Therapy (TVT) Registry, Rogers, Bapat and colleagues analyzed 439 patients undergoing redo-TAVR for a failed TAVR valve, all treated with supra-annular self-expanding Evolut R/PRO/PRO+ valves (mean age 78.9±9.8 years, 63.1% women), compared with a contemporary native-TAVR cohort on the same valve platform. After adjustment, redo-TAVR showed mortality and stroke rates comparable to native TAVR at both 30 days (mortality HR 0.66, 95% CI 0.39-1.13; stroke HR 0.95, 95% CI 0.54-1.68) and 1 year (mortality HR 0.91, 95% CI 0.72-1.15; stroke HR 0.91, 95% CI 0.63-1.34). Published August 24, 2026, in JACC: Cardiovascular Interventions, it is the largest real-world dataset to date on rescue strategies for TAVR valve failure.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.07.009"
+  }
+ ]
+}
