@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-08",
+ "items": [
+  {
+   "date": "2026-09-04",
+   "title": "Boston Scientific Begins to Restore Shipping After Cyberattack, With WATCHMAN and Cardiac Device Supply Among the Disruptions",
+   "title_zh": "波士顿科学网络攻击后逐步恢复发货,WATCHMAN左心耳封堵器等心脏器械供应此前受冲击",
+   "summary_zh": "波士顿科学(Boston Scientific)于2026年8月25日发现内部IT系统遭未经授权访问并出现网络中断,8月26日对外披露后已联合CrowdStrike等第三方安全公司展开调查、遏制与恢复工作。此次事件影响了订单处理与发货系统,波及包括结构性心脏病核心产品WATCHMAN左心耳封堵器,以及起搏器、植入式除颤器(ICD)、心脏再同步治疗装置和可植入心电监测仪等心律管理产品线的正常供应与设备激活。公司8月30日更新称,调查未发现8月25日之后仍存在未经授权的活动迹象,受影响范围限于部分本地部署系统,云端系统与应用未受波及;截至9月4日,公司已开始在全球主要配送中心恢复大部分产品的发货,并正逐步推进全面产能恢复。此事件提醒结构性心脏病器械供应链对网络安全事件的脆弱性,心脏团队在此期间需关注WATCHMAN等植入物的到货周期。",
+   "summary_en": "Boston Scientific detected unauthorized activity and a network outage across certain internal IT systems on August 25, 2026, disclosed the incident on August 26, and engaged CrowdStrike and other third-party experts for investigation, containment, and recovery; the disruption hit order processing and shipping and affected supply and activation of cardiac rhythm management devices -- including the WATCHMAN left atrial appendage closure system, a core structural-heart product -- alongside pacemakers, ICDs, CRT devices, and insertable cardiac monitors. An August 30 update found no signs of unauthorized activity since August 25, with impact limited to specific on-premises systems (cloud systems were unaffected), and as of September 4 the company had begun restoring shipping for the majority of products from its major global distribution centers while working toward full capacity, a reminder of how exposed structural-heart device supply chains are to cyber incidents.",
+   "source": "MedTech Dive",
+   "type": "industry",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://www.medtechdive.com/news/boston-scientific-begins-to-restore-shipping-after-cyberattack/829694/"
+  }
+ ]
+}
