@@ -1,0 +1,29 @@
+{
+ "date": "2026-09-10",
+ "items": [
+  {
+   "date": "2026-09-09",
+   "title": "Emboline Receives U.S. FDA 510(k) Clearance for Emboliner Embolic Protection System",
+   "title_zh": "Emboline公司Emboliner全身型TAVR栓塞保护装置获FDA 510(k)许可",
+   "summary_zh": "Emboline公司于2026年9月9日宣布,其Emboliner®栓塞保护系统获得美国FDA 510(k)许可,用于经导管主动脉瓣置换术(TAVR)术中脑及全身栓塞保护。该装置为双层圆柱形镍钛合金网状滤器,带自密封通道供TAVR输送系统通过,可在瓣膜释放全程捕获并移除脱落栓子碎片,保护范围覆盖脑及肾脏等全身重要器官,而不仅限于既往产品的脑保护。许可依据为前瞻性、多中心、随机对照的PROTECT H2H关键性IDE试验(美国、德国、巴西入组500余例,平均年龄79岁),对比现有获批产品Sentinel脑保护系统:30天全因死亡/卒中/急性肾损伤复合主要终点Emboliner组4.5% vs Sentinel组5.0%(非劣效P=0.0004),30天卒中率2.0% vs 2.1%,为同类关键性试验中最低水平;Emboliner捕获的有临床意义栓子碎片量约为对照组的3倍,技术成功率96% vs 87%。",
+   "summary_en": "Emboline, Inc. announced on September 9, 2026 that the FDA has granted 510(k) clearance for its Emboliner Embolic Protection System, a double-wall cylindrical Nitinol mesh filter with a self-sealing access port that provides full-body (not just cerebral) embolic protection during transcatheter aortic valve replacement (TAVR) by capturing debris throughout the procedure. Clearance was supported by the prospective, multicenter, randomized PROTECT H2H pivotal IDE trial (>500 patients across the US, Germany and Brazil; mean age 79) comparing Emboliner with the previously cleared Sentinel Cerebral Protection System: the 30-day composite of death, stroke, or acute kidney injury occurred in 4.5% with Emboliner versus 5.0% with Sentinel (noninferiority P=.0004), 30-day stroke was 2.0% versus 2.1% — among the lowest reported in a pivotal TAVR embolic-protection trial — while Emboliner captured roughly three times more clinically relevant debris and achieved a higher technical success rate (96% vs 87%).",
+   "source": "FDA / Emboline",
+   "type": "regulatory",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://www.biospace.com/press-releases/emboline-receives-u-s-fda-510k-clearance-for-emboliner-embolic-protection-system"
+  },
+  {
+   "date": "2026-09-03",
+   "title": "InnovHeart Announces First U.S. Saturn Transseptal TMVR System Implant, Reaching 15 Patients Globally",
+   "title_zh": "InnovHeart宣布Saturn经房间隔二尖瓣置换系统完成首例美国植入,全球累计15例",
+   "summary_zh": "意大利器械公司InnovHeart于2026年9月3日宣布,其Saturn经房间隔二尖瓣置换(TMVR)系统在美国完成首例植入,为CASSINI-US早期可行性研究(EFS)的一部分。手术于8月25日在纽约长老会/哥伦比亚大学欧文医学中心完成,由该院结构性心脏病与瓣膜中心联合主任Torsten P. Vahl医生主刀,患者为86岁女性、重度(4+级)功能性二尖瓣反流。Saturn瓣膜经股静脉穿房间隔、全经皮输送并成功植入原生二尖瓣位置,标志着该系统全球累计植入量达到15例。CASSINI项目旨在评估Saturn系统在中重度及重度症状性二尖瓣反流、适合TMVR患者中的技术可行性、安全性与性能表现。",
+   "summary_en": "Italian device maker InnovHeart announced on September 3, 2026 the first U.S. implant of its Saturn Transseptal TMVR System, performed August 25 at NewYork-Presbyterian/Columbia University Irving Medical Center by principal investigator Torsten P. Vahl, MD, as part of the CASSINI-US Early Feasibility Study. The patient, an 86-year-old woman with severe (4+) functional mitral regurgitation, received the valve via a fully percutaneous transseptal approach into the native mitral position, bringing the global implant total to 15 patients. The CASSINI program is evaluating the technical feasibility, safety, and performance of the Saturn system in patients with moderate-to-severe or severe symptomatic mitral regurgitation who are candidates for transcatheter mitral valve replacement.",
+   "source": "InnovHeart",
+   "type": "industry",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://www.biospace.com/press-releases/innovheart-announces-first-u-s-saturn-transseptal-tmvr-system-implant-reaching-15-patients-globally"
+  }
+ ]
+}
