@@ -1,0 +1,29 @@
+{
+ "date": "2026-09-11",
+ "items": [
+  {
+   "date": "2026-09-07",
+   "title": "Multimodality Imaging for Pre-, Intra-, and Postprocedural Guidance of Left Atrial Appendage Closure: A European Left Atrial Appendage Closure Club (ELAACC) Expert Consensus Statement",
+   "title_zh": "欧洲左心耳封堵俱乐部(ELAACC)专家共识:左心耳封堵术前-术中-术后全流程多模态影像指南",
+   "summary_zh": "欧洲左心耳封堵俱乐部(ELAACC)专家共识于2026年9月7日发表于EuroIntervention,系统梳理左心耳封堵(LAAC)全流程的多模态影像策略:术前推荐心脏CT联合经食道超声心动图(TEE)评估左心耳形态、口部尺寸及毗邻结构以指导器械选型;术中推荐TEE或心腔内超声心动图(ICE)联合透视引导器械释放、评估封堵效果及并发症;术后推荐TEE或多排CT在术后45-90天随访,评估器械稳定性、器械相关血栓及边缘残余漏。共识旨在通过统一命名与结构化循证影像路径,提升LAAC操作安全性与不同中心间的可重复性。",
+   "summary_en": "A European Left Atrial Appendage Closure Club (ELAACC) expert consensus statement, published September 7, 2026 in EuroIntervention, sets out structured multimodality imaging guidance across the full LAAC pathway: preprocedural cardiac CT combined with transesophageal echocardiography (TEE) for LAA morphology, ostial sizing, and device selection; intraprocedural TEE or intracardiac echocardiography (ICE) alongside fluoroscopy to guide deployment and assess sealing and complications; and postprocedural TEE or multidetector CT at 45-90 days to evaluate device stability, device-related thrombus, and peridevice leak. The statement aims to standardize nomenclature and imaging pathways to improve procedural safety and reproducibility across centres.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://eurointervention.pcronline.com/article/multimodality-imaging-for-pre-intra-and-postprocedural-guidance-of-left-atrial-appendage-closure-a-european-left-atrial-appendage-closure-club-elaacc-expert-consensus-statement"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "Boston Scientific Says Manufacturing and WATCHMAN Shipping Are Fully Restored, but Cyberattack Will Likely Cause It to Miss 2026 Guidance",
+   "title_zh": "波士顿科学称制造与WATCHMAN发货已\"全面恢复\",但网络攻击将致2026年业绩指引落空",
+   "summary_zh": "波士顿科学(Boston Scientific)9月8日向美国证券交易委员会(SEC)提交的8-K文件披露,受8月25日网络攻击影响,公司预计三季度及2026全年净销售增速与调整后每股收益(EPS)将不及7月29日给出的指引区间——此前指引为三季度净销售增速约3%-5%、全年5.5%-6.5%,全年调整后EPS 3.28-3.32美元,这是该事件发生以来首次被认定构成重大财务影响。与此同时,公司官方通报确认制造、订单处理与发货已\"全面恢复\",产品在全球主要配送中心的流转已回到或超过正常水平,此前受冲击的WATCHMAN左心耳封堵器及起搏器、支架等结构性心脏与心律管理产品供应已逐步理顺,新植入设备的远程监测激活功能也已恢复,但全面财务影响尚未明确。事件提示结构性心脏病器械供应链对网络安全风险的敏感性。",
+   "summary_en": "In a September 8, 2026 SEC Form 8-K, Boston Scientific disclosed that the August 25 cyberattack is likely to make it miss the net sales growth and adjusted EPS guidance ranges it issued on July 29 (approximately 3-5% Q3 net sales growth, 5.5-6.5% full-year growth, and full-year adjusted EPS of $3.28-$3.32) -- the first time the incident has been deemed to have a material financial impact. Separately, the company's official update said manufacturing, order fulfillment, and shipping are now \"fully restored,\" with products moving through its global distribution network at or above normal levels; supply of previously disrupted structural-heart and rhythm-management products, including the WATCHMAN left atrial appendage closure device, pacemakers, and stents, has normalized, and remote-monitoring activation for newly implanted devices has also been restored, though the full financial impact remains unknown. The episode underscores how exposed structural-heart device supply chains are to cybersecurity risk.",
+   "source": "Boston Scientific / SEC Filing",
+   "type": "industry",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000059/bsx-20260907.htm"
+  }
+ ]
+}
