@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-12",
+ "items": [
+  {
+   "date": "2026-09-10",
+   "title": "CMS Finalizes National Coverage Determination for TAVR, Expanding Medicare Coverage to Asymptomatic Severe Aortic Stenosis and Dropping the Two-Operator Mandate",
+   "title_zh": "美国CMS正式发布TAVR国家覆盖决定(NCD)终版:医保覆盖首次扩大至无症状重度主动脉瓣狭窄,取消强制\"双术者\"要求",
+   "summary_zh": "美国医疗保险与医疗补助服务中心(CMS)于2026年9月10日发布经导管主动脉瓣置换术(TAVR)国家覆盖决定(NCD)终版,历时九个月评审。新政策取消了症状性重度主动脉瓣狭窄患者的\"证据发展covered\"(CED)要求,使其获得完全医保覆盖;同时首次将无症状重度主动脉瓣狭窄纳入医保覆盖范围(仍需CED注册研究支持),部分依据为EARLY TAVR试验证据(早期干预组死亡/卒中/心衰住院复合终点15.2% vs 临床随访组24.2%)。新规还取消了医院手术量门槛,并首次允许单一术者(心内科医生或外科医生均可)独立完成TAVR,不再强制要求心内科医生与心外科医生共同在场,但医院仍须具备心脏外科能力并保留多学科心脏团队概念。美国胸外科医师学会(STS)对单术者条款表示失望,担忧心脏团队协作被弱化;爱德华生命科学(Edwards Lifesciences)则欢迎该政策扩大患者可及性,但因落地尚需时间重申2026年财务指引不变,公司股价9月11日盘中一度下跌约2.8%。业内评价这是十余年来美国TAVR医保政策最大幅度的一次调整。",
+   "summary_en": "On September 10, 2026, CMS finalized its updated National Coverage Determination (NCD) for TAVR after a nine-month review, removing Coverage with Evidence Development (CED) requirements for symptomatic severe aortic stenosis while extending Medicare coverage to asymptomatic severe aortic stenosis for the first time (still under CED registries), informed in part by EARLY TAVR trial data (15.2% vs 24.2% for the composite of death, stroke, or heart failure hospitalization). The policy also drops hospital procedural-volume thresholds and, for the first time, permits a single operator -- cardiologist or surgeon -- to perform TAVR without mandating both an interventional cardiologist and a cardiac surgeon, though hospitals must retain on-site cardiac surgery capability and the heart-team concept. The Society of Thoracic Surgeons voiced disappointment over the single-operator provision, while Edwards Lifesciences welcomed the update as expanding patient access, even as its shares dipped about 2.8% intraday on September 11 amid questions on adoption timelines. It is widely regarded as the most significant U.S. Medicare TAVR policy shift in over a decade.",
+   "source": "CMS",
+   "type": "regulatory",
+   "topic": "TAVI",
+   "weight": 5,
+   "url": "https://www.scai.org/media-center/news-and-articles/final-tavr-ncd-released-key-changes-and-next-steps"
+  }
+ ]
+}
