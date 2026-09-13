@@ -1,0 +1,29 @@
+{
+ "date": "2026-09-13",
+ "items": [
+  {
+   "date": "2026-09-09",
+   "title": "Heart Failure Prevalence, Medications, and Outcomes in Transcatheter Aortic Valve Interventions: A Real-World Analysis",
+   "title_zh": "真实世界研究:超3.7万例TAVR患者心衰负担沉重,指南导向药物治疗利用不足",
+   "summary_zh": "一项发表于《Journal of Cardiovascular Medicine》(2026年8月)的真实世界研究分析了2017-2023年间美国超过37,000例接受经导管主动脉瓣置换术(TAVR)患者的心衰负担与用药情况:70.4%的患者在接受TAVR时已有心衰诊断,56.9%的患者在术后一年内被记录心衰诊断,18.6%的患者在术后一年内发生急性心衰事件。研究发现,尽管大多数TAVR患者合并心衰病史,但相当一部分患者术后并未获得指南推荐的心衰药物治疗,提示指南导向药物治疗(GDMT)存在明显利用不足。作者呼吁未来开展针对性临床试验,评估TAVR术后系统化心衰药物管理对减少心衰再入院及死亡率的作用。",
+   "summary_en": "A real-world analysis published in the Journal of Cardiovascular Medicine (August 2026) examined heart failure burden and medication use in more than 37,000 US patients who underwent transcatheter aortic valve replacement (TAVR) between 2017 and 2023: 70.4% already had a heart failure diagnosis at the time of TAVR, 56.9% had a heart failure diagnosis recorded within one year post-procedure, and 18.6% experienced an acute heart failure episode within that year. Despite the high burden of heart failure among TAVR patients, many were not receiving guideline-directed medical therapy (GDMT) after the procedure, the study found. The authors call for dedicated clinical trials testing whether systematic post-TAVR heart failure medical management can reduce heart failure readmissions and mortality.",
+   "source": "Cardiovascular Business",
+   "type": "news",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/heart-failure-and-after-tavr-new-data-point-ongoing-concerns"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "Medical Societies, Aging Advocates Share Early Reactions to New TAVR Policies",
+   "title_zh": "美国医学会与老年患者倡导团体对CMS最终TAVR新政作出早期回应,强调需保留质量监测框架",
+   "summary_zh": "继美国CMS于9月10日发布TAVR国家覆盖决定(NCD)终版后,美国心脏病学会(ACC)、胸外科医师学会(STS)与心血管造影和介入学会(SCAI)于9月11日发表联合声明回应,肯定CMS推动覆盖政策演进的努力,但强调\"随着TAVR适应证扩展至新的患者人群,保留曾支撑其成功的质量监测框架至关重要\",并指出参与国家注册登记、接受外部质量标杆比对及严格的结局报告仍是维持TAVR高质量诊疗标准不可或缺的环节。与此同时,聚焦老年患者权益的倡导团体则普遍欢迎新政,认为其扩大了老年患者获得TAVR治疗的可及性。",
+   "summary_en": "Following the September 10 release of CMS's final National Coverage Determination (NCD) for TAVR, the American College of Cardiology (ACC), Society of Thoracic Surgeons (STS), and Society for Cardiovascular Angiography and Interventions (SCAI) issued a joint statement on September 11 welcoming CMS's efforts to evolve coverage policy while cautioning that, \"as TAVR expands into new patient populations, it is critical to preserve the quality framework that has contributed to its success,\" adding that participation in national registries, externally benchmarked quality programs, and rigorous outcomes reporting remain essential. Aging-focused patient advocacy groups, by contrast, broadly welcomed the update as expanding older patients' access to TAVR.",
+   "source": "Cardiovascular Business",
+   "type": "news",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/medical-societies-aging-advocates-share-early-reactions-new-tavr-policies"
+  }
+ ]
+}
