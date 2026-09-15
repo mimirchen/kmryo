@@ -1,0 +1,41 @@
+{
+ "date": "2026-09-15",
+ "items": [
+  {
+   "date": "2026-09-15",
+   "title": "Sex-Specific Differences in Clinical Outcomes After Transcatheter Aortic Valve Replacement: A Meta-Analysis of Reconstructed Individual Patient Survival Data",
+   "title_zh": "481,353例患者荟萃分析揭示TAVR\"性别悖论\":女性早期风险更高,长期生存却更具优势",
+   "summary_zh": "《Structural Heart》2026年9月刊(第10卷第9期)发表一项基于重建个体患者数据的荟萃分析,纳入71项研究共481,353例接受经导管主动脉瓣置换术(TAVR)的患者,系统评估性别对预后的影响。结果显示女性30天全因死亡风险高于男性(HR 1.064,95%CI 1.005–1.127,p=0.033),卒中/短暂性脑缺血发作风险显著升高(HR 1.511,95%CI 1.317–1.734,p<0.001),危及生命的出血(RR 1.29)、大出血(RR 1.26)及主要血管并发症(RR 1.66)发生率也更高;但长期随访中女性全因死亡率反而低于男性,且这一生存优势在不同瓣膜代际中持续存在。同期配发的述评将此现象称为TAVR的\"性别悖论\",呼吁未来聚焦降低女性围术期出血与血管并发症风险的针对性策略。",
+   "summary_en": "A reconstructed individual-patient-data meta-analysis of 71 studies and 481,353 TAVR patients, published in the September 2026 issue of Structural Heart, found women had higher 30-day mortality (HR 1.064, 95% CI 1.005-1.127, p=0.033) and stroke/TIA risk (HR 1.511, 95% CI 1.317-1.734, p<0.001) than men, along with more life-threatening bleeding (RR 1.29), major bleeding (RR 1.26) and major vascular complications (RR 1.66). Despite these early hazards, women showed a sustained long-term survival advantage across valve generations — a pattern an accompanying editorial calls the \"female paradox\" in TAVR, urging dedicated strategies to curb women's periprocedural bleeding and vascular risk.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545726/"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "Sex-Based Differences in Outcomes After Transcatheter Edge-to-Edge Repair for Severe Mitral Regurgitation",
+   "title_zh": "293例二尖瓣缘对缘修复(M-TEER)单中心研究:男女基线合并症有别,但6个月生存获益相近",
+   "summary_zh": "《JACC: Advances》2026年提前在线发表一项单中心研究,纳入293例接受经导管二尖瓣缘对缘修复术(M-TEER)治疗重度二尖瓣反流的患者,其中女性119例(占40.6%)。男性合并冠心病比例显著更高(81% vs 65%,p=0.002),功能性二尖瓣反流比例也更高(47% vs 37%);术后6个月全因死亡率在男女间无统计学显著差异(女性17% vs 男性22%,p=0.301)。研究提示尽管两性基线心血管危险因素分布不同,M-TEER的短期生存获益在男女间总体相近。",
+   "summary_en": "A single-center study of 293 patients undergoing mitral transcatheter edge-to-edge repair (M-TEER) for severe mitral regurgitation, published ahead-of-print in JACC: Advances (2026), found women (119 patients, 40.6%) had a lower burden of coronary artery disease than men (65% vs 81%, p=0.002) and less functional MR (37% vs 47%), while 6-month all-cause mortality did not differ significantly by sex (17% in women vs 22% in men, p=0.301) — suggesting broadly comparable short-term survival benefit of M-TEER despite differing baseline cardiovascular risk profiles between sexes.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42658133/"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "Peijia Medical's GeminiOne Transcatheter Edge-to-Edge Repair System Receives NMPA Registration Approval in China",
+   "title_zh": "沛嘉医疗GeminiOne经导管缘对缘修复系统获中国NMPA注册批准,首次进入二尖瓣反流治疗市场",
+   "summary_zh": "中国医疗器械企业沛嘉医疗(09996.HK)于2026年9月11日宣布,其自主研发的GeminiOne®经导管缘对缘修复(TEER)系统的注册申请已获国家药品监督管理局(NMPA)批准,标志着公司首次进入二尖瓣反流治疗市场,在原有主动脉瓣产品线之外新增二尖瓣业务收入来源。GeminiOne采用独特的滑槽机构设计,在保持较小植入体与输送系统尺寸的同时实现更长的瓣叶对合长度,并具备独立抓瓣、自动锁定及多角度脱载等设计以适应不同解剖变异。该产品此前已获美国FDA早期可行性研究(EFS)的IDE批准,欧盟MDR CE认证注册申请也已提交。",
+   "summary_en": "China's Peijia Medical (09996.HK) announced on September 11, 2026 that its internally developed GeminiOne® transcatheter edge-to-edge repair (TEER) system has received registration approval from China's National Medical Products Administration (NMPA), marking the company's first entry into the mitral regurgitation treatment market alongside its existing aortic valve franchise. GeminiOne features a sliding-groove mechanism enabling a longer leaflet coaptation length with a smaller implant and delivery profile, plus independent leaflet grasping, auto-locking and multi-angle detachment to accommodate varied anatomy. The device has also received FDA IDE approval for a U.S. early feasibility study and has an EU MDR CE Mark application under review.",
+   "source": "Peijia Medical",
+   "type": "regulatory",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://www.minichart.com.sg/2026/09/12/peijia-medical-9996-geminione-wins-nmpa-approval-enters-mitral-regurgitation-market/"
+  }
+ ]
+}
