@@ -1,0 +1,41 @@
+{
+ "date": "2026-09-16",
+ "items": [
+  {
+   "date": "2026-08-28",
+   "title": "Prognostic Value of NYHA Functional Class in Tricuspid Valve Transcatheter Edge-to-Edge Repair: Insights From EuroTR",
+   "title_zh": "欧洲EuroTR注册研究(3467例):基线NYHA心功能分级每升1级,三尖瓣缘对缘修复术后2年死亡风险增加80%",
+   "summary_zh": "欧洲三尖瓣缘对缘修复(T-TEER)注册研究EuroTR纳入3467例接受该治疗的重度三尖瓣反流患者,其中3424例有基线NYHA心功能分级数据。结果显示总体2年全因死亡率为28.4%(619/3424例,95%CI 26.4%-30.4%);基线NYHA分级每升高1级,2年死亡风险即增加80%(HR 1.8,95%CI 1.5-2.1,p<0.001)。在1974例有随访配对数据的患者中,NYHA I/II级比例从基线16.4%显著提升至随访期的59.4%。研究提示术前症状严重程度是T-TEER术后预后的独立强预测因子,支持在症状进一步恶化前尽早转诊介入。",
+   "summary_en": "The European EuroTR registry analyzed 3,467 patients undergoing tricuspid transcatheter edge-to-edge repair (T-TEER), with 3,424 having baseline NYHA functional class data. Two-year all-cause mortality was 28.4% (619/3,424; 95% CI 26.4%-30.4%), and each one-class increase in baseline NYHA class was associated with an 80% higher 2-year mortality risk (HR 1.8, 95% CI 1.5-2.1, p<0.001). Among 1,974 patients with paired follow-up data, the proportion in NYHA class I/II rose from 16.4% at baseline to 59.4% at follow-up, underscoring baseline symptom severity as a strong independent predictor of outcomes and supporting earlier referral for intervention.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42663375/"
+  },
+  {
+   "date": "2026-08-17",
+   "title": "Outcomes of patients with large anatomies undergoing transcatheter tricuspid valve replacement with the LuX-Valve Plus system",
+   "title_zh": "欧洲TRINITY队列114例大三尖瓣环患者:LuX-Valve Plus经颈静脉置换30天临床成功率91.2%",
+   "summary_zh": "EuroIntervention发表欧洲TRINITY研究队列数据,纳入114例三尖瓣环过大(需55-70mm大尺寸瓣膜)、既往缺乏合适介入选择的重度三尖瓣反流患者,接受经颈静脉LuX-Valve Plus(健世科技)经导管三尖瓣置换。患者平均年龄77.8±5.8岁,STS外科风险评分高达9.9%±6.0%。术中成功率95.6%,无术中死亡或卒中;30天临床成功率91.2%,主要失败原因为残余重度三尖瓣反流。研究提示该系统为既往因解剖过大而被排除在TTVR之外的高危患者提供了新的治疗选择。",
+   "summary_en": "EuroIntervention published data from the European TRINITY cohort enrolling 114 patients with severe tricuspid regurgitation and annuli too large for standard devices (fitted with 55-70 mm valves), who underwent transjugular transcatheter tricuspid valve replacement with the LuX-Valve Plus system (Jenscare). Mean age was 77.8±5.8 years with a high STS risk score of 9.9%±6.0%. Intraprocedural success was 95.6% with no intraprocedural deaths or strokes, and 30-day clinical success was 91.2%, with residual severe TR the leading cause of failure — extending TTVR to high-risk patients previously excluded for oversized anatomy.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://eurointervention.pcronline.com/article/outcomes-of-patients-with-large-anatomies-undergoing-transcatheter-tricuspid-valve-replacement-with-the-lux-valve-plus-system"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "CRF Announces Late-Breaking Clinical Trials and Science to Be Presented at TCT 2026",
+   "title_zh": "CRF公布TCT 2026 late-breaking名单:PROGRESS(中危主动脉瓣狭窄TAVR)、CLASP II TR、SIMPLAAFY等28项研究将揭晓",
+   "summary_zh": "心血管研究基金会(CRF)公布将于10月31日至11月3日在圣地亚哥举行的TCT 2026年会late-breaking临床试验与科学报告名单,共28项研究。结构性心脏病相关的重点研究包括:PROGRESS随机试验(评估中重度但无症状主动脉瓣狭窄患者提前行TAVR是否优于临床观察等待)、CLASP II TR随机试验(PASCAL系统三尖瓣缘对缘修复对比药物治疗重度症状性三尖瓣反流的临床与健康状态结局)、SIMPLAAFY随机试验(左心耳封堵术后单一抗栓治疗方案),以及一项覆盖30年数据的全球退行性二尖瓣疾病负担与结局分析。这些结果将为TAVR适应证前移、三尖瓣器械选择及LAAO术后抗栓策略提供关键循证依据。",
+   "summary_en": "The Cardiovascular Research Foundation (CRF) announced the late-breaking clinical trials and science slate for TCT 2026, running October 31-November 3 in San Diego, featuring 28 studies. Key structural heart trials include PROGRESS (testing whether earlier TAVR outperforms clinical surveillance in patients with moderate, asymptomatic aortic stenosis), CLASP II TR (a randomized trial of PASCAL tricuspid edge-to-edge repair versus medical therapy for severe symptomatic tricuspid regurgitation), SIMPLAAFY (evaluating single antithrombotic therapy after left atrial appendage occlusion), and a 30-year Global Burden of Disease analysis of degenerative mitral valve disease — results expected to shape TAVR timing, tricuspid device selection, and post-LAAO antithrombotic strategy.",
+   "source": "CRF / TCT 2026",
+   "type": "conference",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://www.crf.org/crf/news-and-events/news/news/3998-crf-announces-late-breaking-clinical-trials-and-science-to-be-presented-at-tct-2026"
+  }
+ ]
+}
