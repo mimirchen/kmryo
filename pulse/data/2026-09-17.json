@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-17",
+ "items": [
+  {
+   "date": "2026-06-12",
+   "title": "Patterns and Timing of Sequential Transcatheter Valve Interventions After Index TAVR, M-TEER, and TMVR: A Nationwide Medicare Analysis",
+   "title_zh": "全美Medicare 52.8万例分析:TAVR、二尖瓣TEER、TMVR术后5年内再行其他瓣膜介入的比例仅0.86%-4.48%",
+   "summary_zh": "一项覆盖2017-2023年全美Medicare按服务收费数据库的队列研究纳入527,976例接受首次经导管瓣膜介入的患者(TAVR 461,272例、二尖瓣缘对缘修复M-TEER 59,782例、经导管二尖瓣置换TMVR 6,922例),分析术后再接受其他经导管瓣膜介入的模式与时机。结果显示5年累计发生率很低:TAVR术后再介入率0.86%(95%CI 0.83%-0.90%),M-TEER术后2.69%(95%CI 2.53%-2.87%),TMVR术后4.48%(95%CI 3.82%-5.26%);最常见序列为TAVR→M-TEER、M-TEER→TAVR及TMVR→TAVR,中位间隔时间分别为229天、300天和483天。研究提示多瓣膜介入总体仍属少见事件,但TMVR人群后续再介入需求相对更高,为心脏团队规划长期随访与瓣中瓣/序贯治疗路径提供了全美层面的基线数据。",
+   "summary_en": "A nationwide US Medicare fee-for-service cohort study (2017-2023) of 527,976 patients undergoing index transcatheter valve interventions (461,272 TAVR, 59,782 mitral TEER, 6,922 TMVR) found that additional transcatheter valve interventions remained uncommon, with 5-year cumulative incidences of 0.86% after TAVR, 2.69% after M-TEER, and 4.48% after TMVR. The dominant sequences were TAVR→M-TEER, M-TEER→TAVR, and TMVR→TAVR, with median times to the second procedure of 229, 300, and 483 days respectively, offering benchmark data for heart-team planning of long-term surveillance and sequential valve therapy.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42502262/"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "A randomized trial of carbon-dioxide flushing to reduce vascular brain injury in patients undergoing TAVI (INTERCEPTavi)",
+   "title_zh": "INTERCEPTavi单中心随机对照试验(60例):TAVI术中二氧化碳冲洗瓣膜使脑部MRI新发病灶数从8.5个降至4个",
+   "summary_zh": "INTERCEPTavi是一项单中心、盲法随机对照先导试验,纳入60例接受经导管主动脉瓣置换(TAVI)的患者,1:1随机分配至瓣膜二氧化碳(CO2)预冲洗联合生理盐水冲洗组与单纯生理盐水冲洗组,主要终点为术后脑部MRI检测的新发缺血病灶数量。结果显示CO2冲洗组每例患者平均新发病灶数显著更少(4个 vs 8.5个,p=0.031),总梗死面积在数值上更小(40.32mm² vs 93.20mm²)但未达统计学显著(p=0.111)。作为首个人体随机试验,该研究提示这一低成本、易于在导管室推广的简单操作或可为TAVI患者提供额外的脑保护获益,值得在更大样本中验证。",
+   "summary_en": "The INTERCEPTavi trial, a single-centre, blinded randomized pilot study, randomized 60 patients undergoing TAVI 1:1 to valve flushing with carbon dioxide plus saline versus saline alone, with new cerebral lesions on postprocedural MRI as the primary endpoint. CO2 flushing significantly reduced the mean number of new lesions per patient (4 vs 8.5; p=0.031), with a numerically smaller total infarct area (40.32 mm² vs 93.20 mm²) that did not reach significance (p=0.111) — a low-cost, easily adoptable technique that may offer additional neuroprotection during TAVI pending larger confirmatory trials.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://eurointervention.pcronline.com/article/a-randomized-trial-of-carbon-dioxide-flushing-to-reduce-vascular-brain-injury-in-patients-undergoing-tavi"
+  },
+  {
+   "date": "2026-05-06",
+   "title": "Outcomes of simplified left atrial appendage occlusion using the WATCHMAN FLX device: the ROSE-FLX study",
+   "title_zh": "ROSE-FLX多中心注册研究(400例):单纯X线透视引导下WATCHMAN FLX左心耳封堵技术成功率达100%",
+   "summary_zh": "ROSE-FLX是首个前瞻性多中心单臂注册研究,纳入400例血栓栓塞及出血高危的非瓣膜性房颤患者,采用局部麻醉、仅凭X线透视引导(不使用术中经食道超声、亦无需全身麻醉)完成WATCHMAN FLX左心耳封堵术,以验证这一简化流程的安全性与有效性。结果显示器械置入技术成功率达100%,严重围术期并发症发生率很低,器械相关血栓发生率仅0.3%,显著渗漏发生率同样很低。研究提示得益于器械设计改进与标准化置入评估流程,该简化路径有望降低左心耳封堵的资源与麻醉负担,拓展其在基层医院的可及性。",
+   "summary_en": "ROSE-FLX, the first prospective multicentre single-arm registry of its kind, enrolled 400 patients with non-valvular atrial fibrillation at high thromboembolic and bleeding risk who underwent WATCHMAN FLX left atrial appendage occlusion under local anaesthesia using fluoroscopic guidance alone, without intraprocedural transoesophageal echocardiography or general anaesthesia. Technical success was 100%, major periprocedural complications were rare, and device-related thrombosis occurred in only 0.3% of patients, suggesting this simplified, lower-resource workflow could broaden access to LAAO beyond high-volume centres.",
+   "source": "EP Europace",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42213877/"
+  },
+  {
+   "date": "2026-01-12",
+   "title": "Artificial intelligence assessment of valvular disease and ventricular function by a single echocardiography view",
+   "title_zh": "12万余例超声心动图训练AI模型:仅凭心尖四腔心单一切面即可评估瓣膜病与心室功能,前瞻验证209例非心脏科医师床旁操作",
+   "summary_zh": "该研究基于120,127份超声心动图检查训练并验证一个深度学习模型,目标是仅通过心尖四腔心这一单一切面自动评估二尖瓣反流、三尖瓣反流、右心室功能及左心室射血分数,以简化非心脏专科场景下的床旁心脏超声(POCUS)判读。前瞻性队列纳入209例由非心脏科医师使用手持超声设备采集的患者数据进行外部验证:二尖瓣反流识别AUC为0.883(敏感度0.744、特异度0.844,N=20,313);三尖瓣反流AUC为0.913(敏感度0.766、特异度0.887,N=21,742);右心室功能不全AUC达0.942(敏感度0.757、特异度0.939,N=6,010);左心室射血分数估测RMSE为4.78、MAE为3.34(N=23,350)。研究提示单切面AI辅助判读有望让基层与急诊场景下的简化超声筛查更快识别瓣膜病与心功能异常。",
+   "summary_en": "Researchers trained and validated a deep learning model on 120,127 echocardiographic studies to assess mitral regurgitation, tricuspid regurgitation, right ventricular dysfunction, and left ventricular ejection fraction from a single apical 4-chamber view alone, aiming to simplify point-of-care ultrasound interpretation outside cardiology. In prospective external validation on 209 patients scanned by non-cardiologist physicians with handheld devices, the model achieved an AUC of 0.883 for mitral regurgitation, 0.913 for tricuspid regurgitation, 0.942 for RV dysfunction, and an RMSE of 4.78 for LVEF estimation — suggesting single-view AI assistance could accelerate valvular and functional screening in primary-care and emergency settings.",
+   "source": "Frontiers in Digital Health",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41602208/"
+  }
+ ]
+}
