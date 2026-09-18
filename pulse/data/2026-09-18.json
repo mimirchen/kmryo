@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-18",
+ "items": [
+  {
+   "date": "2026-09-01",
+   "title": "Impact of Early Nonfatal Complications After Transcatheter Aortic Valve Implantation on 1-Year Mortality and Quality of Life: Insights From the LANDMARK Trial",
+   "title_zh": "LANDMARK试验事后分析(742例):23.9%的TAVI患者发生早期非致命并发症,与30-365天死亡率显著升高相关,但1年生活质量不受影响",
+   "summary_zh": "一项基于LANDMARK随机对照试验(Myval瓣膜对比Sapien/Evolut等当代瓣膜)的事后亚组分析,纳入术后30天存活的742例TAVI患者,按VARC-3早期安全性终点标准(卒中、3型出血、重大血管并发症、2-4期急性肾损伤、中重度瓣周漏、新发永久起搏器植入或再介入)评估早期非致命并发症的影响。结果显示177例(23.9%)患者发生了至少1项早期非致命并发症,这部分患者在术后30-365天的死亡率显著高于无并发症者,且早期非致命并发症是1年死亡的独立预测因素;但对于存活患者而言,发生并发症组与未发生组的1年生活质量评分无显著差异。研究提示评价TAVI手术成功与否不应仅看30天死亡率,还需纳入早期非致命并发症对远期预后的影响。",
+   "summary_en": "A post-hoc substudy of the randomized LANDMARK trial (Myval vs. contemporary Sapien/Evolut valves) analyzed 742 patients alive at 30 days after TAVI using the VARC-3 early safety endpoint (stroke, type 3 bleeding, major vascular complication, AKI stage 2-4, moderate/severe paravalvular leak, new pacemaker, or reintervention). Of these, 177 (23.9%) experienced at least one early nonfatal complication, which was independently associated with significantly higher mortality between 30 and 365 days, although 1-year quality of life was similar among survivors regardless of complication status — supporting calls to redefine TAVI procedural success beyond 30-day mortality alone.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545709/"
+  },
+  {
+   "date": "2026-03-14",
+   "title": "Ten-Year Clinical Outcomes and Valve Durability After Transcatheter Aortic Valve Implantation With Balloon-Expandable Valves",
+   "title_zh": "日本多中心注册研究297例SAPIEN XT瓣膜10年随访:VARC-3定义的瓣膜衰败累积发生率10.8%,再介入率4.5%",
+   "summary_zh": "该研究利用日本一项多中心注册数据库,对297例2010-2014年接受早期一代SAPIEN XT球囊扩张瓣膜TAVI的患者(平均年龄83.8±6.0岁,STS评分7.5±4.0)进行了长达10年的随访,评估远期临床结局与瓣膜耐久性。结果显示10年全因死亡自由生存率为13.2%;按VARC-3标准定义的瓣膜衰败(BVF)累积发生率随时间逐步上升,1年、5年、10年分别为0.8%、3.6%和10.8%,重度结构性瓣膜退化(SVD)10年发生率为3.0%,4.5%的患者接受了瓣中瓣或其他再介入。研究提示早期一代球囊扩张瓣膜长期耐久性总体理想,10年死亡主要由患者基础合并症驱动,而非瓣膜本身失效。",
+   "summary_en": "A Japanese multicenter registry analysis followed 297 patients who received early-generation SAPIEN XT balloon-expandable valves between 2010 and 2014 (mean age 83.8±6.0 years, STS score 7.5±4.0) for up to 10 years to assess long-term outcomes and valve durability. Freedom from all-cause mortality at 10 years was 13.2%, while cumulative bioprosthetic valve failure per VARC-3 criteria rose from 0.8% at 1 year to 3.6% at 5 years and 10.8% at 10 years, with severe structural valve deterioration in 3.0% and reintervention required in 4.5%. The findings suggest reassuring long-term durability for early-generation balloon-expandable valves, with 10-year mortality driven mainly by comorbidities rather than valve dysfunction.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41830944/"
+  },
+  {
+   "date": "2025-10-01",
+   "title": "Routine post-dilatation at nominal volume to optimise the expansion of balloon-expandable valves: the DOUBLE-TAP study",
+   "title_zh": "DOUBLE-TAP研究:球囊扩张式TAVI常规追加一次同容积球囊扩张,瓣膜扩张不足比例从49.6%降至0.9%",
+   "summary_zh": "DOUBLE-TAP研究评估了在球囊扩张式TAVI术中,于原容积下常规追加一次球囊扩张(即double-tap技术,不额外增加球囊容积以避免过度扩张)对瓣膜支架扩张程度与血流动力学的影响。结果显示:首次扩张后49.6%的患者瓣膜最小扩张度<80%,而追加一次同容积扩张后,扩张不足比例降至仅0.9%(1例);瓣膜变形指数由1.05降至1.03(p<0.001),平均跨瓣压差中位数下降6.5mmHg(p=0.036),瓣周漏在所有患者中降至微量或无。安全性方面,30天死亡率0.9%、卒中3.5%、新发永久起搏器植入6.2%,未见操作相关安全性问题增加;二叶瓣解剖与瓣膜钙化容积>385mm³是扩张改善更明显的独立预测因素。研究提示这一简单、低成本的操作在解剖条件合适的患者中可安全优化瓣膜扩张效果。",
+   "summary_en": "The DOUBLE-TAP study evaluated routine post-dilatation at the same nominal balloon volume (a 'double-tap' technique, avoiding additional oversizing) after balloon-expandable TAVI. Before the second inflation, 49.6% of patients had prosthesis expansion below 80%; afterward, underexpansion persisted in only 0.9% of patients. The deformation index improved (1.05 to 1.03; p<0.001), median transvalvular gradient fell by 6.5 mmHg (p=0.036), and paravalvular leak was reduced to trivial or none in all patients. Safety was preserved, with 30-day mortality of 0.9%, stroke 3.5%, and new pacemaker implantation 6.2%; bicuspid anatomy and valvular calcium volume >385 mm³ independently predicted greater improvement. The findings suggest this simple, low-cost technique can safely optimise valve expansion in favourable anatomies.",
+   "source": "EuroIntervention",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://eurointervention.pcronline.com/article/routine-post-dilatation-at-nominal-volume-to-optimise-the-expansion-of-balloon-expandable-valves-the-double-tap-study"
+  },
+  {
+   "date": "2026-07-23",
+   "title": "Transcatheter Edge-to-Edge Repair for Tricuspid Regurgitation: Design and Rationale of the TEER-CHINA Trial",
+   "title_zh": "TEER-CHINA试验设计论文:中国自主三尖瓣缘对缘修复系统DragonFly-T将在35家中心纳入236例患者展开随机对照研究",
+   "summary_zh": "TEER-CHINA是首个针对中国自主研发三尖瓣缘对缘修复(TEER)系统DragonFly-T的前瞻性、多中心随机对照试验,计划在全国35家中心纳入236例重度及以上(≥3+)三尖瓣反流患者,入选标准包括经优化药物治疗至少30天仍有症状、外科三尖瓣手术风险为中危及以上、解剖条件适合该器械。患者将按1:1随机分配至DragonFly-T器械联合优化药物治疗组与单纯优化药物治疗组,主要终点为12个月时的分层复合终点,依次包括全因死亡或三尖瓣介入、心衰住院年化率以及堪萨斯城心肌病问卷(KCCQ)健康状况改善。作为亚洲首个本土专用三尖瓣TEER平台的随机对照评估,该试验旨在为快速发展的三尖瓣介入领域提供本土化循证依据。",
+   "summary_en": "TEER-CHINA is the first prospective, multicenter randomized controlled trial of a China-developed dedicated tricuspid transcatheter edge-to-edge repair (TEER) platform, the DragonFly-T system. The trial will enroll 236 patients with severe or greater (≥3+) tricuspid regurgitation who remain symptomatic despite at least 30 days of optimal medical therapy (OMT), are at intermediate or higher surgical risk, and have suitable anatomy, across 35 centers in China. Patients will be randomized 1:1 to DragonFly-T plus OMT versus OMT alone, with a 12-month hierarchical composite primary endpoint of all-cause mortality or tricuspid valve intervention, annualized heart failure hospitalization, and Kansas City Cardiomyopathy Questionnaire health status improvement. As the first randomized evaluation of a China-developed dedicated tricuspid TEER platform, the trial aims to establish local evidence amid rapid growth of tricuspid interventions in Asia.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42496618/"
+  }
+ ]
+}
