@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-20",
+ "items": [
+  {
+   "date": "2026-08-26",
+   "title": "Transcatheter Aortic Valve Replacement for Severe Bicuspid Aortic Valve Stenosis: A Systematic Review and Meta-Analysis",
+   "title_zh": "52项研究、约29.6万例荟萃分析:二叶式主动脉瓣TAVR围术期风险高于三叶瓣但1年死亡率更低,相比SAVR起搏器植入率显著更高",
+   "summary_zh": "一项发表于JACC: Advances的系统综述与荟萃分析纳入52项研究、约29.6万例患者,比较了二叶式主动脉瓣(BAV)与三叶瓣(TAV)狭窄患者接受TAVR的结局,以及BAV患者TAVR与外科主动脉瓣置换(SAVR)的结局。与TAV相比,BAV患者TAVR术后瓣周漏风险升高(RR 1.44)、主动脉根部损伤风险升高(RR 1.83)、30天卒中(RR 1.27)与30天死亡率(RR 1.25)均更高,但1年死亡率反而更低(RR 0.84)。在BAV患者中,TAVR相比SAVR永久起搏器植入率显著更高(OR 2.29)、住院时间更短、出血更少(OR 0.31),但全因死亡率、急性肾损伤、卒中及血管并发症均无显著差异。研究提示BAV并非TAVR禁忌,但围术期并发症管理需要经验丰富的心脏团队。",
+   "summary_en": "A systematic review and meta-analysis in JACC: Advances pooled 52 studies (~295,615 patients) comparing TAVR outcomes in bicuspid (BAV) versus tricuspid (TAV) aortic stenosis, and TAVR versus surgical aortic valve replacement (SAVR) in BAV patients. Versus TAV, TAVR in BAV carried higher risks of paravalvular leak (RR 1.44), aortic root injury (RR 1.83), 30-day stroke (RR 1.27) and 30-day mortality (RR 1.25), but lower 1-year mortality (RR 0.84). Versus SAVR in BAV patients, TAVR had significantly higher permanent pacemaker rates (OR 2.29), shorter hospital stays, and less bleeding (OR 0.31), with no significant difference in mortality, acute kidney injury, stroke, or vascular complications — supporting TAVR as feasible in carefully selected BAV anatomy at experienced centers.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42657854/"
+  },
+  {
+   "date": "2026-03-09",
+   "title": "Predictors of Left Atrial Compliance and V-Wave Response in Patients Undergoing Transcatheter Mitral Valve Therapy",
+   "title_zh": "克利夫兰诊所255例经导管二尖瓣治疗研究:术后残余左房V波>25mmHg者3年死亡率达46.8%,显著高于≤25mmHg组的34.2%",
+   "summary_zh": "一项纳入255例2019-2023年在克利夫兰诊所接受经导管二尖瓣缘对缘修复或瓣中瓣置换的患者的研究,通过左房压力监测寻找左房顺应性及V波反应的预测因素。结果显示107例(42%)左房顺应性良好、148例(58%)顺应性差;左房V波压力由术前30.5±15.0 mmHg降至术后23.2±10.4 mmHg,左房平均压由16.6±6.3 mmHg降至15.3±5.9 mmHg。多变量分析显示,左房储备应变低及既往房颤介入治疗(消融或左心耳结扎)史是左房顺应性差的独立预测因素;若术后残余V波仍>25 mmHg,3年死亡率高达46.8%,显著高于V波≤25 mmHg组的34.2%。研究提示术中血流动力学监测有助于识别高危患者、指导后续管理。",
+   "summary_en": "In 255 patients who underwent transcatheter mitral edge-to-edge repair or valve-in-valve replacement at Cleveland Clinic (2019-2023), 107 (42%) had a compliant left atrium (LA) and 148 (58%) a noncompliant LA. Intraprocedural LA v-wave pressure fell from 30.5±15.0 to 23.2±10.4 mmHg and mean LA pressure from 16.6±6.3 to 15.3±5.9 mmHg after the procedure. On multivariable analysis, low LA reservoir strain and prior AF intervention (ablation or LAA ligation) independently predicted low LA compliance, and a residual post-procedural v-wave above 25 mmHg was linked to markedly worse 3-year mortality (46.8% vs. 34.2% for v-wave ≤25 mmHg).",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41609537/"
+  },
+  {
+   "date": "2026-08-12",
+   "title": "Patent Foramen Ovale Closure Versus Medical Therapy for Prevention of Recurrent Ischemic Events in Patients With Cryptogenic Stroke or TIA and Documented PFO: A Systematic Review and Network Meta-Analysis",
+   "title_zh": "18项研究、7135例网状荟萃分析:卵圆孔未闭封堵预防隐源性卒中/TIA复发缺血事件优于抗血小板、抗凝及混合药物治疗,出血风险低于抗凝",
+   "summary_zh": "一项发表于Frontiers in Cardiovascular Medicine的系统综述与网状荟萃分析,检索至2026年6月22日,纳入18项研究(6项RCT及12项观察性研究)共7135例隐源性卒中或短暂性脑缺血发作合并卵圆孔未闭(PFO)患者,比较PFO封堵、抗血小板治疗、抗凝治疗及混合药物治疗四种策略的疗效与安全性。结果显示,在预防脑血管缺血事件复发方面PFO封堵疗效最优,且与抗凝治疗相比出血风险显著更低;但封堵组与抗血小板组、混合药物组之间的安全性比较因出血事件较少、置信区间较宽,作者提示需谨慎解读。",
+   "summary_en": "A systematic review and network meta-analysis in Frontiers in Cardiovascular Medicine (search through June 22, 2026) pooled 18 studies (6 RCTs and 12 observational studies, 7,135 patients) with cryptogenic stroke or TIA and documented PFO, comparing PFO closure, antiplatelet therapy, anticoagulation, and mixed medical therapy. PFO closure showed the most favorable efficacy for preventing recurrent cerebrovascular ischemic events among the four strategies and carried a significantly lower bleeding risk than anticoagulation, though safety comparisons with antiplatelet and mixed therapy should be interpreted cautiously given sparse bleeding events and wide confidence intervals.",
+   "source": "Frontiers in Cardiovascular Medicine",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42656945/"
+  },
+  {
+   "date": "2026-05-15",
+   "title": "The SIMPLE Registry: SIMplified Approach for Percutaneous LAA Exclusion",
+   "title_zh": "SIMPLE注册研究:21中心104例仅用猪尾导管造影引导LARIAT经皮左心耳结扎,急性完全闭合率96.8%",
+   "summary_zh": "SIMPLE注册研究在21家中心纳入104例患者(平均年龄71.7±7.2岁,70%为男性),评估仅用猪尾导管造影引导(无需常规经食道超声或额外穿刺鞘定位)的简化LARIAT经皮左心耳结扎技术。94例完成即刻评估的患者中91例(96.8%)达到左心耳完全闭合;90例完成影像随访的患者中86例(95.5%)确认完全闭合,且无>3mm残余漏。术后7天内无操作相关并发症,3例发生迟发性炎性心包积液需心包穿刺引流(其中2例同期接受了消融手术)。研究提示这一简化猪尾导管入路可行、安全、有效。",
+   "summary_en": "The SIMPLE registry enrolled 104 patients (mean age 71.7±7.2 years, 70% male) across 21 centers to evaluate a simplified pigtail-catheter-guided LARIAT percutaneous left atrial appendage (LAA) ligation technique that forgoes routine transesophageal echocardiography or an additional access sheath for LAA localization. Acute complete LAA closure was achieved in 96.8% (91/94) of patients with immediate assessment, and 95.5% (86/90) on follow-up imaging, with no leaks >3 mm. There were no periprocedural complications within 7 days; three patients developed delayed inflammatory pericardial effusion requiring pericardiocentesis (two of whom also underwent concomitant ablation). The findings support this simplified pigtail-only approach as feasible, safe, and effective.",
+   "source": "Heart Rhythm",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42142854/"
+  }
+ ]
+}
