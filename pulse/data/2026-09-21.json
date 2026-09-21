@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-21",
+ "items": [
+  {
+   "date": "2026-01-15",
+   "title": "Frequency and Outcomes of Acute Hemodynamic Instability Following Transcatheter Tricuspid Valve Replacement: Insights From the CESAR-TR-Registry",
+   "title_zh": "国际CESAR-TR登记研究:经导管三尖瓣置换术后急性血流动力学不稳定发生率8.5%,院内死亡率骤增至35.2%",
+   "summary_zh": "CESAR-TR是一项国际多中心回顾性登记研究,纳入200例在5个中心接受经导管三尖瓣置换(TTVR)治疗重度三尖瓣反流的高外科风险患者(平均年龄78±11岁,64%为女性),旨在分析术后急性血流动力学不稳定(AHI)的发生率、结局及危险因素。结果显示AHI发生率为8.5%,且均在术后24小时内出现;发生AHI的患者院内死亡率高达35.2%,显著高于未发生者的0.1%(p<0.001)。在AHI患者中,65%表现为SCAI C期心源性休克,6%为D期,29%为E期。左心系统充盈压升高、肺动脉高压及肾功能不全是AHI的独立危险因素。研究提示TTVR围术期血流动力学监测与高危患者筛选至关重要。",
+   "summary_en": "The international multicenter CESAR-TR registry retrospectively analyzed 200 high-surgical-risk patients with severe tricuspid regurgitation who underwent transcatheter tricuspid valve replacement (TTVR) across 5 centers (mean age 78±11 years, 64% women), examining the frequency, outcomes, and risk factors of acute hemodynamic instability (AHI) after the procedure. AHI occurred in 8.5% of patients, always within 24 hours post-procedure, and was associated with markedly higher in-hospital mortality (35.2% vs 0.1% without AHI; P<0.001); among AHI patients, 65% presented with SCAI stage C cardiogenic shock, 6% stage D, and 29% stage E. Elevated left-sided filling pressures, pulmonary hypertension, and impaired renal function independently predicted AHI risk, underscoring the importance of periprocedural hemodynamic monitoring and careful patient selection for TTVR.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41881645/"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "Hemodynamic Changes After Transcatheter Valve Repair and Replacement for Tricuspid Regurgitation",
+   "title_zh": "梅奥诊所100例头对头比较:三尖瓣TEER与TTVR血流动力学改善路径不同,TTVR反流消除更完全、TEER右房压下降更多",
+   "summary_zh": "梅奥诊所(Rochester)一项回顾性队列研究纳入2017-2023年接受经导管三尖瓣缘对缘修复(TEER)或置换(TTVR)治疗中重度以上三尖瓣反流的100例患者(各50例,TTVR组年龄中位81岁、女性62%;TEER组年龄中位80岁、女性42%),通过有创血流动力学测量比较两种术式术后的右心房压力、V波及右心室重构变化。结果显示TEER组平均右心房压由16降至14mmHg(p<0.001),两组V波均降至16mmHg(p<0.001);但TTVR实现了更完全、更持久的三尖瓣反流消除,前向每搏输出量指数更高,而TEER在右心房压下降幅度及30天右心室重构方面表现更优。两组患者纽约心功能分级改善程度及生存率相近。研究提示TEER与TTVR在血流动力学获益路径上各有侧重,可为个体化术式选择提供参考。",
+   "summary_en": "A retrospective Mayo Clinic (Rochester) cohort study of 100 patients (2017-2023, 50 per group) who underwent tricuspid transcatheter edge-to-edge repair (TEER, median age 80, 42% women) or transcatheter tricuspid valve replacement (TTVR, median age 81, 62% women) for at least moderate-to-severe tricuspid regurgitation compared invasive hemodynamics, right ventricular remodeling, and symptom improvement between the two approaches. Mean right atrial pressure fell from 16 to 14 mmHg after TEER (P<0.001), and V-wave pressure decreased to 16 mmHg in both groups (P<0.001); TTVR achieved more complete and durable elimination of tricuspid regurgitation with a higher forward stroke volume index, while TEER produced a greater reduction in right atrial pressure and more favorable right ventricular remodeling at 30 days. NYHA functional class improvement and survival were similar between groups, suggesting TEER and TTVR offer complementary hemodynamic benefits that could inform individualized procedure selection.",
+   "source": "JAHA",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42657747/"
+  },
+  {
+   "date": "2026-06-02",
+   "title": "Distribution of peri-device leaks on transoesophageal echocardiography and cardiac computed tomography after WATCHMAN implantation: a multicentre core-lab analysis",
+   "title_zh": "多中心核心实验室分析:WATCHMAN封堵器术后心脏CT判定的器周漏发生率6.1%,经食道超声检出率随时间明显上升且以后壁多见",
+   "summary_zh": "一项发表于EP Europace的多中心核心实验室分析,对接受WATCHMAN左心耳封堵的患者术后经食道超声心动图(TEE)与心脏CT检出的器周漏(PDL)分布及演变进行了独立盲法判读比较。共676例患者完成CT评估,其中41例(6.1%)经核心实验室CT判定存在有明确解剖定位的器周漏;而TEE检出的器周漏数量则从基线的67例明显增加至3个月随访时的221例。两种影像模态检出的器周漏均以后壁部位最为常见。研究提示CT与TEE对器周漏的检出敏感性及随访时间点存在差异,联合影像评估有助于更全面地识别WATCHMAN术后残余漏。",
+   "summary_en": "A multicenter core-laboratory analysis published in EP Europace performed independent, blinded comparison of peri-device leak (PDL) distribution and evolution on transesophageal echocardiography (TEE) versus cardiac CT after WATCHMAN left atrial appendage closure. Among 676 patients evaluated by CT, core-lab-adjudicated PDL with a defined anatomical location was found in 41 (6.1%), while TEE-detected leaks rose markedly from 67 at baseline to 221 at 3-month follow-up. Leaks identified by both imaging modalities were predominantly located posteriorly, suggesting that TEE and CT differ in sensitivity and detection timing, and that combined imaging surveillance may better capture residual leaks after WATCHMAN implantation.",
+   "source": "EP Europace",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42189052/"
+  },
+  {
+   "date": "2026-01-21",
+   "title": "Effect of Device Size on Outcomes Following Left Atrial Appendage Closure in Borderline-Sized Anatomy",
+   "title_zh": "日本TERMINATOR登记研究亚组分析(757例交界解剖患者):左心耳封堵选择较大号WATCHMAN FLX可显著降低缺血性卒中/栓塞及器周漏风险",
+   "summary_zh": "该研究基于日本多中心TERMINATOR登记(共1,190例2021年5月至2023年9月接受第二代WATCHMAN FLX左心耳封堵的患者),聚焦其中757例左心耳口部直径处于两种器械型号均可选的\"交界\"解剖区间(16.8-18mm、18.9-21.6mm、21.7-24.3mm、24.5-27.9mm四档)的患者,比较选择较大号与较小号封堵器对结局的影响。结果显示,在交界解剖条件下选用较大号器械可显著降低缺血性卒中或体循环栓塞的发生率,同时器周漏发生率更低,且未增加手术相关风险。研究为交界解剖病例的器械型号选择提供了实用依据。",
+   "summary_en": "Using data from Japan's multicenter TERMINATOR registry (1,190 patients who underwent second-generation WATCHMAN FLX left atrial appendage closure between May 2021 and September 2023), this substudy focused on 757 patients with borderline-sized LAA ostial diameters (16.8-18, 18.9-21.6, 21.7-24.3, or 24.5-27.9 mm) for whom two device sizes were anatomically viable, comparing outcomes of larger versus smaller device selection. Choosing the larger device in borderline anatomy significantly reduced ischemic stroke or systemic embolism and was associated with fewer peri-device leaks, without increasing procedural risk — offering practical guidance for device sizing in borderline LAA cases.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41569219/"
+  }
+ ]
+}
