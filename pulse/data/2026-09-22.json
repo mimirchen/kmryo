@@ -1,0 +1,65 @@
+{
+ "date": "2026-09-22",
+ "items": [
+  {
+   "date": "2026-09-01",
+   "title": "Surgical Bailout During TAVR: A Contemporary Analysis of the Centers for Medicare and Medicaid Services Database",
+   "title_zh": "美国CMS数据库大型分析:TAVR外科紧急补救发生率降至0.40%,但补救患者30天死亡率仍高达26.3%",
+   "summary_zh": "该研究基于美国医疗保险与医疗补助服务中心(CMS)数据库,对2016-2024年间全美接受经导管主动脉瓣置换(TAVR)的患者进行了大规模分析。研究共纳入400,862例TAVR手术,其中2,240例(0.56%)因术中并发症需转为外科紧急补救,发生率从2016年的0.92%显著降至2024年的0.40%。尽管发生率下降,补救手术患者预后仍很差:30天死亡率高达26.3%,显著高于未需补救患者的1.8%;1年死亡率35% vs 10%,5年死亡率48% vs 26%。最常见的补救术式为纵隔血肿清除(38%)、心室修补(20%)、外科主动脉瓣置换(16%)及冠脉搭桥(13%)。研究提示尽管TAVR技术与器械持续进步使严重并发症发生率下降,一旦需要外科紧急补救,患者死亡风险仍极高,凸显心脏团队协作与外科后备能力的重要性。",
+   "summary_en": "Using the Centers for Medicare & Medicaid Services (CMS) database, this contemporary US analysis examined 400,862 TAVR procedures performed between 2016 and 2024, of which 2,240 (0.56%) required emergent surgical bailout for procedural complications; the incidence fell significantly from 0.92% in 2016 to 0.40% in 2024. Despite this decline, outcomes after bailout remained poor: 30-day mortality was 26.3% versus 1.8% in patients who did not require surgery, with elevated mortality persisting at 1 year (35% vs 10%) and 5 years (48% vs 26%). The most common bailout interventions were mediastinal hematoma evacuation (38%), ventricular repair (20%), surgical aortic valve replacement (16%), and coronary artery bypass grafting (13%), underscoring the continued importance of heart-team readiness and on-site surgical backup even as TAVR technology matures.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://doi.org/10.1016/j.jcin.2026.06.030"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "New-Generation Transcatheter Valves for Extremely Small Aortic Annuli",
+   "title_zh": "日本OCEAN-TAVI登记研究:极小主动脉瓣环患者中新一代球扩瓣与自膨瓣早期临床结局相近",
+   "summary_zh": "该研究基于日本多中心OCEAN-TAVI登记研究,聚焦极小主动脉瓣环(瓣环面积<314mm²)的重度主动脉瓣狭窄患者,比较了新一代球囊扩张瓣膜(BEV)、瓣上型自膨瓣(SA-SEV)与瓣内型自膨瓣(IA-SEV)三类器械的早期临床与血流动力学结局。结果显示,三组经校正后的重度人工瓣膜-患者不匹配(PPM)发生率均较低且相近(1.6%、2.0%、2.7%);但自膨瓣组≥轻度瓣周漏发生率在数值上高于球扩瓣。研究提示当代新一代经导管瓣膜在极小瓣环解剖中总体表现相近,为该高难度解剖亚组的器械选择提供了真实世界证据。",
+   "summary_en": "Drawing on Japan's multicenter OCEAN-TAVI registry, this study compared early clinical and hemodynamic outcomes among next-generation balloon-expandable valves (BEV), supra-annular self-expanding valves (SA-SEV), and intra-annular self-expanding valves (IA-SEV) in patients with severe aortic stenosis and extremely small aortic annuli (annular area <314 mm²). Adjusted rates of severe prosthesis-patient mismatch were low and similar across the three valve types (1.6%, 2.0%, and 2.7% respectively), though ≥mild paravalvular leak was numerically more frequent with self-expanding valves. The findings suggest broadly comparable early performance among contemporary transcatheter valve platforms in this technically challenging small-annulus subgroup, offering real-world guidance for device selection.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42658142/"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Impact of fully-automated AI based CT-analysis on pre-procedural TAVI planning",
+   "title_zh": "全自动AI CT分析用于TAVI术前规划:与传统半自动测量瓣环直径平均误差仅0.64mm",
+   "summary_zh": "该回顾性研究纳入两家心脏中心247例接受TAVI的重度症状性主动脉瓣狭窄患者,比较传统半自动TAVI专用CT分析软件(3mensio,Pie Medical Imaging)与基于深度学习的全自动CT分析平台在关键瓣环测量及模拟瓣膜型号选择上的一致性。结果显示两种方法测得的瓣环平均直径高度接近(24.4±2.4mm vs 24.0±2.4mm,平均绝对误差0.64mm,平均绝对百分误差2.6%),瓣环面积测量同样吻合良好(468.9±92.1mm² vs 455.6±91.0mm²,平均绝对误差22.4mm²)。研究认为全自动AI CT分析技术在瓣环测量上已展现出与人工半自动分析相当的准确性,但专家判读在整合解剖及临床背景以优化瓣膜型号选择方面仍不可或缺。",
+   "summary_en": "This retrospective study of 247 patients with symptomatic severe aortic stenosis undergoing TAVI at two heart centers compared conventional semi-automated TAVI-specific CT analysis software (3mensio, Pie Medical Imaging) with a fully-automated, deep-learning-based CT analysis platform for key annular measurements and simulated prosthesis sizing. Mean annulus diameter measurements were closely aligned between the two methods (24.4±2.4 mm vs 24.0±2.4 mm; mean absolute error 0.64 mm, mean absolute percentage error 2.6%), and annulus area agreement was similarly strong (468.9±92.1 mm² vs 455.6±91.0 mm²; mean absolute error 22.4 mm²). The authors conclude fully-automated AI-based CT analysis achieves accuracy comparable to conventional semi-automated measurement, though expert interpretation remains essential to integrate broader anatomical and clinical context for optimal prosthesis size selection.",
+   "source": "Clinical Research in Cardiology",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41603941/"
+  },
+  {
+   "date": "2026-06-05",
+   "title": "Novel Transcatheter Edge-to-Edge Repair System for Degenerative Mitral Regurgitation: 1-Year Outcomes",
+   "title_zh": "GeminiOne-DMR关键性试验1年结局:中国原研TEER系统治疗退行性二尖瓣反流临床成功率89.8%",
+   "summary_zh": "GeminiOne-DMR是一项针对沛嘉医疗自主研发的GeminiOne经导管缘对缘修复(TEER)系统的前瞻性关键性临床试验,共纳入120例外科手术禁忌、退行性二尖瓣反流(DMR)≥3+级的患者,经独立超声心动图核心实验室及临床事件委员会评估。结果显示1年临床成功率达89.84%±2.78%,达到预设主要有效性终点;1年时免于全因死亡、主要不良事件、二尖瓣再介入及心衰住院的比例分别为97.48%、91.61%、98.31%与94.00%;92.24%患者二尖瓣反流降至≤2+级,NYHA心功能I/II级比例由基线23.33%提升至94.74%。研究为这款采用独特滑槽抓合结构的国产TEER系统提供了积极的1年疗效与安全性证据。",
+   "summary_en": "The GeminiOne-DMR pivotal trial evaluated Peijia Medical's domestically developed GeminiOne transcatheter edge-to-edge repair (TEER) system in 120 surgically prohibitive-risk patients with degenerative mitral regurgitation (DMR) grade ≥3+, assessed by an independent echocardiography core lab and clinical events committee. At 1 year, clinical success reached 89.84%±2.78%, meeting the prespecified primary efficacy endpoint; freedom from all-cause mortality, major adverse events, mitral valve reintervention, and heart-failure hospitalization was 97.48%, 91.61%, 98.31%, and 94.00% respectively, with 92.24% of patients achieving MR ≤2+ and NYHA class I/II rising from 23.33% at baseline to 94.74% at 1 year. The results provide positive 1-year efficacy and safety evidence for this Chinese-designed TEER device, which features a distinctive sliding-groove grasping mechanism.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42283667/"
+  },
+  {
+   "date": "2026-03-01",
+   "title": "Clinical Outcomes of Atrial Septal Defect and Patent Foramen Ovale After Percutaneous Closure: A 10-Year Retrospective Analysis",
+   "title_zh": "沙特单中心10年回顾性分析:经皮ASD/PFO封堵手术成功率98.8%,主要并发症率仅2.4%",
+   "summary_zh": "该回顾性队列研究纳入沙特吉达King Abdulaziz医疗城2014-2024年间接受经皮房间隔缺损(ASD)或卵圆孔未闭(PFO)封堵的85例患者(平均年龄40.8±15.2岁,67.1%为女性;ASD 58例占68.2%,PFO 27例占31.8%)。结果显示手术成功率高达98.8%,主要并发症发生率仅2.4%(含1例需外科取出的器械脱落栓塞及1例心包填塞);新发房颤发生率3.5%,残余分流发生率7.1%。平均随访4.2±2.8年期间,82.4%患者症状完全缓解,PFO组未观察到复发性栓塞事件。研究为经皮ASD/PFO封堵的长期安全性与有效性提供了单中心真实世界证据。",
+   "summary_en": "This retrospective cohort study followed 85 patients (mean age 40.8±15.2 years, 67.1% women; 58 with ASD [68.2%], 27 with PFO [31.8%]) who underwent percutaneous closure of secundum atrial septal defect or patent foramen ovale at King Abdulaziz Medical City in Jeddah, Saudi Arabia, between 2014 and 2024. Procedural success was 98.8% with a major complication rate of 2.4% (including one device embolization requiring surgical retrieval and one cardiac tamponade); new-onset atrial fibrillation occurred in 3.5% and residual shunt in 7.1%. Over a mean follow-up of 4.2±2.8 years, 82.4% of patients achieved complete symptom resolution, with no recurrent embolic events in the PFO group, providing single-center real-world evidence for the long-term safety and efficacy of percutaneous ASD/PFO closure.",
+   "source": "Cureus",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41939600/"
+  }
+ ]
+}
