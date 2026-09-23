@@ -1,0 +1,65 @@
+{
+ "date": "2026-09-23",
+ "items": [
+  {
+   "date": "2026-01-10",
+   "title": "Patent Foramen Ovale Closure for Primary Prevention of Stroke",
+   "title_zh": "TriNetX真实世界队列研究:无卒中史PFO患者接受一级预防性封堵后缺血性卒中风险显著降低(3.5% vs 6.4%)",
+   "summary_zh": "该回顾性队列研究基于美国TriNetX真实世界数据库,纳入2014-2022年间诊断为卵圆孔未闭(PFO)、既往无缺血性卒中或房颤病史的成年人,按是否接受经导管PFO封堵分组,倾向评分匹配后每组3398例。结果显示,封堵组缺血性卒中发生率显著低于未封堵组(3.5% vs 6.4%),全因住院率也更低(15.5% vs 28.6%);但封堵组新发房颤发生率略高(1.1% vs 0.4%);两组全因死亡率无显著差异。当前指南尚不建议对无卒中史的PFO患者常规行一级预防性封堵,该研究为这一未覆盖场景提供了新的真实世界证据,但因缺乏随机对照数据,结果仍需谨慎解读并待前瞻性试验验证。",
+   "summary_en": "Using the US TriNetX real-world database, this retrospective cohort study identified adults diagnosed with patent foramen ovale (PFO) between 2014 and 2022 without prior ischemic stroke or atrial fibrillation, comparing those who underwent transcatheter PFO closure with those who did not (3,398 patients per propensity-matched cohort). Closure was associated with significantly lower ischemic stroke incidence (3.5% vs 6.4%) and lower all-cause hospitalization (15.5% vs 28.6%), though new-onset atrial fibrillation was slightly more common after closure (1.1% vs 0.4%); all-cause mortality did not differ significantly. Current guidelines do not recommend routine primary-prevention closure in PFO patients without a prior stroke, and this study offers new real-world evidence for that unaddressed scenario, though the absence of randomized data warrants cautious interpretation pending prospective trials.",
+   "source": "CJC Open",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42146289/"
+  },
+  {
+   "date": "2026-06-18",
+   "title": "Concomitant Left Atrial Appendage Occlusion and Transcatheter Aortic Valve Replacement: A Systematic Review and Meta-analysis",
+   "title_zh": "系统评价与meta分析:TAVR同期左心耳封堵(LAAO)在房颤患者中30天结局与单纯药物治疗相近",
+   "summary_zh": "该系统评价与meta分析纳入4项对比研究(2项随机对照试验、2项观察性研究)共563例接受TAVR的房颤患者(平均年龄82岁),其中279例(49.5%)同期接受左心耳封堵(LAAO),对比TAVR联合常规药物治疗。30天随访显示,LAAO联合组与药物治疗组在全因死亡、卒中/TIA及大出血发生率上均无显著差异。作者认为,现有证据尚不足以支持对所有TAVR合并房颤患者常规开展同期LAAO,但为长期抗凝存在禁忌的特定患者选择性应用留有空间。",
+   "summary_en": "This systematic review and meta-analysis pooled 4 comparative studies (2 randomized trials, 2 observational; n=563, mean age 82) of atrial fibrillation patients undergoing TAVR, of whom 279 (49.5%) received concomitant left atrial appendage occlusion (LAAO) versus TAVR plus standard medical therapy alone. At 30 days, no significant differences emerged between groups in all-cause mortality, stroke/TIA, or major bleeding. The authors conclude current evidence does not support routine concomitant LAAO for all TAVR patients with atrial fibrillation but leaves room for selective use in patients for whom long-term anticoagulation is undesirable.",
+   "source": "JSCAI",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42626402/"
+  },
+  {
+   "date": "2026-07-07",
+   "title": "Novel Transcatheter Edge-to-Edge Repair System for High-Risk Primary Mitral Regurgitation: 2-Year Pivotal Trial Outcomes",
+   "title_zh": "中国Neonova TEER系统2年关键性试验结果:92.68%患者1年免于死亡/外科/MR复发,2年MR≤2+比例达95.41%",
+   "summary_zh": "该前瞻性、多中心、单臂、以性能目标为终点的关键性临床试验在中国23家中心纳入123例外科高危、中重度/重度原发性二尖瓣反流患者,评估新型Neonova经导管缘对缘修复(TEER)系统的安全性与有效性,入组时间为2022年4月至2024年3月。主要疗效终点(1年时免于死亡、二尖瓣外科手术及MR>2+的复合终点)达标率为92.68%,显著优于预设60%的性能目标;2年时该复合终点仍维持在84.55%,95.41%患者二尖瓣反流降至≤2+。研究为这款中国原研TEER系统提供了积极的2年随访证据。",
+   "summary_en": "This prospective, multicenter, single-arm, performance-goal pivotal trial enrolled 123 surgically high-risk patients with moderate-to-severe or severe primary mitral regurgitation across 23 Chinese centers (April 2022–March 2024) to evaluate the novel Neonova transcatheter edge-to-edge repair (TEER) system. The primary efficacy endpoint — 1-year freedom from death, mitral valve surgery, and MR >2+ — was met in 92.68% of patients, exceeding the prespecified 60% performance goal; the composite endpoint was sustained at 84.55% at 2 years, with 95.41% of patients achieving MR ≤2+. The results provide positive 2-year evidence for this Chinese-developed TEER system.",
+   "source": "JACC: Asia",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42360250/"
+  },
+  {
+   "date": "2026-02-23",
+   "title": "Incidence and predictors for symptomatic stroke within 30 days after transcatheter aortic valve implantation: insights from the LAPLACE-TAVI registry",
+   "title_zh": "日本LAPLACE-TAVI注册研究(n=4774):TAVI术后30天症状性卒中发生率1.4%,外周动脉疾病与自膨瓣为独立预测因素",
+   "summary_zh": "该研究基于日本多中心前瞻性LAPLACE-TAVI注册研究,纳入2010年4月至2024年6月间接受TAVI的4774例连续患者(卒中组68例,非卒中组4706例),分析术后30天症状性卒中的发生率与预测因素。结果显示30天症状性卒中发生率为1.4%,绝大多数卒中发生在术后5天内;外周动脉疾病(OR 1.70)、STS评分升高(OR 1.03)及使用自膨式瓣膜(OR 1.71)是独立预测因素。研究为当代TAVI人群的卒中风险分层提供了大样本真实世界证据。",
+   "summary_en": "Drawing on Japan's prospective multicenter LAPLACE-TAVI registry, this study analyzed 4,774 consecutive patients who underwent TAVI between April 2010 and June 2024 (68 with stroke, 4,706 without) to characterize the incidence and predictors of symptomatic stroke within 30 days. The 30-day symptomatic stroke rate was 1.4%, with nearly all events occurring within the first 5 days after the procedure; independent predictors included peripheral artery disease (OR 1.70), higher STS risk score (OR 1.03), and use of a self-expanding valve (OR 1.71). The findings offer large-sample, real-world evidence for stroke risk stratification in contemporary TAVI populations.",
+   "source": "Journal of Cardiology",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41740839/"
+  },
+  {
+   "date": "2026-02-03",
+   "title": "TEERAI-Pre: A Multiview Artificial Intelligence Model for Preoperative Assessment of Transcatheter Edge-to-Edge Mitral Valve Repair Using Multiview, Multimodal Echocardiography",
+   "title_zh": "TEERAI-Pre深度学习模型:整合多切面超声与脉冲多普勒,自动评估TEER术前二尖瓣解剖适宜性",
+   "summary_zh": "该研究开发了TEERAI-Pre——一种基于视频视觉Transformer架构的多视图、多模态深度学习模型,通过融合经胸超声心动图多切面视频与脉冲多普勒图像,对拟行经导管缘对缘修复(TEER)患者的二尖瓣形态适宜性进行术前自动评估。模型在内部数据集(633例患者、7997段经胸超声视频、766幅脉冲多普勒图像)上完成5折交叉验证训练,并在来自2家医院的外部数据集(150例患者、1735段视频、169幅脉冲多普勒图像)中验证,显示出良好的泛化能力。研究提示该AI模型有望辅助TEER术前患者筛选、提升临床工作流程效率。",
+   "summary_en": "This study developed TEERAI-Pre, a video vision transformer–based, multiview and multimodal deep-learning model that integrates multiview transthoracic echocardiographic videos with pulsed-wave Doppler images to automatically assess mitral valve morphological suitability for transcatheter edge-to-edge repair (TEER) preoperatively. The model was trained and 5-fold cross-validated on an internal dataset of 633 patients (7,997 echocardiographic videos, 766 pulsed-wave Doppler images) and evaluated on an external dataset of 150 patients (1,735 videos, 169 Doppler images) from two hospitals, demonstrating good generalizability. The findings suggest the AI model could help streamline preoperative patient selection and clinical workflow for TEER.",
+   "source": "Journal of the American Heart Association",
+   "type": "journal",
+   "topic": "Imaging",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41614293/"
+  }
+ ]
+}
