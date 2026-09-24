@@ -1,0 +1,65 @@
+{
+ "date": "2026-09-24",
+ "items": [
+  {
+   "date": "2026-04-13",
+   "title": "Real-World Outcomes of Transcatheter Tricuspid Valve Replacement: Analysis From the STS/ACC TVT Registry",
+   "title_zh": "STS/ACC TVT注册研究(n=1034):真实世界经导管三尖瓣置换30天全因死亡率3.1%,98.4%患者三尖瓣反流降至轻度以下",
+   "summary_zh": "该研究基于美国STS/ACC经导管瓣膜治疗(TVT)注册数据库,纳入2024年2月至2025年3月间美国82个中心接受经导管三尖瓣置换(TTVR,EVOQUE系统)的1034例连续患者(平均年龄77岁,69%女性,基线75%为NYHA III/IV级)。结果显示,术后即刻及30天时分别有98.4%和97.7%患者三尖瓣反流降至轻度以下;30天全因死亡率3.1%,卒中0.2%,大出血7.9%,心衰再住院3.1%;NYHA I/II级比例升至82.7%,KCCQ总评分平均提高22.4分(均P<0.001)。研究显示TTVR在真实世界大规模应用中的安全性与有效性与TRISCEND II关键性试验高度一致,为该疗法的广泛推广提供了有力的注册数据支持。",
+   "summary_en": "Drawing on the US STS/ACC Transcatheter Valve Therapy (TVT) Registry, this study analyzed 1,034 consecutive patients (mean age 77, 69% female, 75% NYHA III/IV at baseline) who underwent transcatheter tricuspid valve replacement (TTVR, EVOQUE system) at 82 US centers between February 2024 and March 2025. Tricuspid regurgitation was reduced to mild or less in 98.4% of patients post-procedure and 97.7% at 30 days; 30-day all-cause mortality was 3.1%, stroke 0.2%, major bleeding 7.9%, and heart failure hospitalization 3.1%, while 82.7% reached NYHA class I/II and mean KCCQ overall summary score improved by 22.4 points (all P<.001). The real-world registry results closely mirror the pivotal TRISCEND II trial, providing strong evidence supporting broader adoption of TTVR.",
+   "source": "JAMA",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41973411/"
+  },
+  {
+   "date": "2026-08-20",
+   "title": "Redo-Transcatheter Aortic Valve Implantation Versus Surgical Explantation in Patients With Previous Transcatheter Aortic Valve Implantation: A Systematic Review and Meta-Analysis",
+   "title_zh": "系统评价与meta分析(8项研究、n=6166):Redo-TAVI较外科瓣膜取出术显著降低院内、30天及1年死亡率",
+   "summary_zh": "该系统评价与meta分析纳入8项观察性研究共6166例既往接受TAVI后需要再次干预的患者(Redo-TAVI组3743例,外科经导管心脏瓣膜取出+外科主动脉瓣置换组2425例),比较两种再干预策略的临床结局。结果显示,相较于外科瓣膜取出术,Redo-TAVI显著降低院内死亡率(OR 0.20,95%CI 0.11-0.35)、30天死亡率(OR 0.28,95%CI 0.23-0.34)及1年死亡率(OR 0.70,95%CI 0.62-0.80,均P<0.0001),同时出血更少、住院时间更短,两组卒中及永久起搏器植入率相近,但Redo-TAVI瓣周漏风险更高。作者认为该结果支持在解剖条件适宜的患者中将Redo-TAVI作为再干预的优选策略,但仍需随机对照试验及更长期随访数据以完善瓣膜衰败后的终身管理决策。",
+   "summary_en": "This systematic review and meta-analysis pooled 8 observational studies comprising 6,166 patients who required reintervention after prior TAVI (3,743 redo-TAVI vs 2,425 surgical transcatheter heart valve explantation with SAVR). Compared with surgical explantation, redo-TAVI was associated with significantly lower in-hospital mortality (OR 0.20, 95% CI 0.11-0.35), 30-day mortality (OR 0.28, 95% CI 0.23-0.34), and 1-year mortality (OR 0.70, 95% CI 0.62-0.80; all P<.0001), along with less bleeding and shorter hospital stay, while stroke and permanent pacemaker rates were similar and paravalvular leak risk was higher with redo-TAVI. The authors conclude redo-TAVI should be the preferred reintervention strategy in anatomically suitable patients, though randomized trials and longer follow-up are needed to refine lifetime management after transcatheter valve failure.",
+   "source": "JAHA",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42622107/"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "Clinical Outcomes of Transfemoral Transcatheter Mitral Valve Replacement: Results From the CHOICE-MI Registry",
+   "title_zh": "CHOICE-MI国际注册研究(n=124):经股静脉TMVR技术成功率91.1%,2年心血管死亡率20.3%",
+   "summary_zh": "该国际多中心CHOICE-MI注册研究纳入124例接受经股静脉(经房间隔)经导管二尖瓣置换(TF TMVR,涉及9种不同专用器械)的高危二尖瓣反流患者(中位年龄79岁,50%女性,EuroSCORE II 5.0%,原发性MR占39.5%),评估其临床、超声心动图及功能结局。结果显示技术成功率为91.1%(113/124例);出院时94.9%患者残余MR≤1+且随访期间维持稳定;心血管死亡率1年时14.7%、2年时20.3%;主要终点(全因死亡或心衰住院复合终点)1年时44.1%、2年时52.4%。房颤是主要终点的独立预测因素,而技术成功与生存显著相关。研究为TF TMVR专用器械在真实世界高危患者中的长期表现提供了迄今样本量较大的国际注册数据。",
+   "summary_en": "This international multicenter CHOICE-MI registry study enrolled 124 high-risk patients with mitral regurgitation (median age 79, 50% female, EuroSCORE II 5.0%, 39.5% primary MR) undergoing transfemoral transseptal transcatheter mitral valve replacement (TF TMVR) with 9 different dedicated devices, evaluating clinical, echocardiographic, and functional outcomes. Technical success was achieved in 91.1% (113/124); residual MR ≤1+ was present in 94.9% at discharge and remained stable at follow-up; cardiovascular mortality was 14.7% at 1 year and 20.3% at 2 years, while the primary composite endpoint of all-cause mortality or heart failure hospitalization occurred in 44.1% at 1 year and 52.4% at 2 years. Atrial fibrillation independently predicted the primary endpoint, while technical success was associated with survival — providing one of the largest international registry datasets to date on dedicated TF TMVR devices in real-world high-risk patients.",
+   "source": "JACC: Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42575577/"
+  },
+  {
+   "date": "2026-08-01",
+   "title": "Watchman FLX versus Amplatzer amulet for percutaneous left atrial appendage occlusion: A systematic review and meta-analysis",
+   "title_zh": "meta分析(5项研究、n=1316):高出血风险房颤患者中Amulet封堵器卒中/TIA风险显著低于Watchman FLX",
+   "summary_zh": "该系统评价与meta分析纳入5项对比研究共1316例合并高出血风险的房颤患者,比较Amplatzer Amulet与Watchman FLX两种左心耳封堵器械的临床结局。结果显示,Amulet组卒中或短暂性脑缺血发作(TIA)发生率显著低于Watchman FLX组(RR 2.31,95%CI 1.02-5.25,P=0.04),而两组在封堵器周围残余漏、器械相关血栓及心包积液发生率上均无显著差异。该研究发表于《Journal of Cardiology》(第88卷第2期,109-115页),为两大主流左心耳封堵装置的头对头比较提供了新的meta层面证据,但纳入样本量有限,仍需更大规模随机对照研究证实。",
+   "summary_en": "This systematic review and meta-analysis pooled 5 comparative studies totaling 1,316 patients with atrial fibrillation and high bleeding risk undergoing left atrial appendage occlusion, comparing the Amplatzer Amulet and Watchman FLX devices. Amulet was associated with a significantly lower rate of stroke or transient ischemic attack than Watchman FLX (RR 2.31, 95% CI 1.02-5.25; P=.04), while peridevice leak, device-related thrombus, and pericardial effusion rates did not differ significantly between devices. Published in the Journal of Cardiology (Vol 88, Issue 2, pp 109-115), the analysis offers new meta-level evidence in the head-to-head comparison of the two leading LAAO devices, though the limited sample size warrants confirmation in larger randomized trials.",
+   "source": "Journal of Cardiology",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41397490/"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "Percutaneous Closure of a Giant Secundum Atrial Septal Defect Using 2 Sutured Occluders",
+   "title_zh": "病例报道:75岁不可手术巨大继发孔型房间隔缺损(64.5×38.8mm)患者,经导管缝合双封堵器成功封堵",
+   "summary_zh": "该病例报道发表于《JACC: Case Reports》,描述一例75岁男性患者,合并巨大继发孔型房间隔缺损(64.5×38.8mm)、重度二尖瓣及三尖瓣反流、肺动脉高压、房颤、肝硬化及慢性肾病,外科手术风险极高。团队先分期完成二尖瓣与三尖瓣经导管缘对缘修复,随后将两枚38mm间隔封堵器体外缝合后同步释放,成功封堵这一超出现有单一封堵器尺寸上限的巨大缺损,术后无残余分流、封堵器位置稳定。该案例为传统上需外科修补的超大房间隔缺损提供了一种可行的经导管替代策略。",
+   "summary_en": "Published in JACC: Case Reports, this case describes a 75-year-old man with a giant secundum atrial septal defect (64.5 × 38.8 mm) plus severe mitral and tricuspid regurgitation, pulmonary hypertension, atrial fibrillation, cirrhosis, and chronic kidney disease, rendering him prohibitive surgical risk. After staged transcatheter edge-to-edge repair of the mitral and tricuspid valves, the team sutured two 38-mm septal occluder devices together ex vivo and deployed them simultaneously, successfully closing a defect exceeding the size limits of any single available occluder, with a stable device position and no residual shunt. The case demonstrates a feasible percutaneous alternative for exceptionally large ASDs that traditionally required surgical repair.",
+   "source": "JACC: Case Reports",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42347721/"
+  }
+ ]
+}
