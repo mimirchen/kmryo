@@ -1,0 +1,77 @@
+{
+ "date": "2026-09-25",
+ "items": [
+  {
+   "date": "2026-01-30",
+   "title": "Transcatheter aortic valve-in-mechanical valve replacement: a first-in-human study",
+   "title_zh": "全球首例经导管主动脉瓣-机械瓣置换术(ViMech):3例失效机械瓣患者6个月随访结果良好",
+   "summary_zh": "该研究发表于《European Heart Journal》,报道了全球首例\"ViMech\"经导管主动脉瓣-机械瓣置换技术在人体中的应用:3例年龄67-79岁、既往多次心脏手术史或存在严重机械瓣相关并发症、无法再次开胸手术的患者,经股动脉途径移除失效的机械瓣瓣叶后植入新一代经导管心脏瓣膜。3例手术均即刻恢复瓣膜功能,术中及随访期间无重大神经系统或血管并发症;6个月随访时所有患者存活、无症状,人工瓣膜功能良好。该研究首次完整证明了经皮治疗失效主动脉机械瓣的可行性,为无法耐受再次外科手术的高危患者提供潜在新选择。",
+   "summary_en": "Published in the European Heart Journal, this study reports the first-in-human experience with \"ViMech,\" a novel transcatheter aortic valve-in-mechanical-valve replacement technique, in 3 patients (aged 67-79) with multiple prior cardiac surgeries or severe mechanical-valve-related complications that precluded conventional reoperation. Performed via transfemoral access after removing the dysfunctional mechanical leaflets, the procedure immediately restored valve function in all 3 cases with no major neurological or vascular events; at 6-month follow-up, all patients were alive, asymptomatic, and had stable prosthesis function. The study is the first complete demonstration that percutaneous treatment of a failed mechanical aortic valve is feasible, offering a potential option for patients unfit for redo surgery.",
+   "source": "European Heart Journal",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41614684/"
+  },
+  {
+   "date": "2026-06-17",
+   "title": "Early Outcomes Between the Two Latest Generation Mitral Valve Transcatheter Edge-to-Edge Repair Devices: OCEAN-Mitral Registry",
+   "title_zh": "OCEAN-Mitral注册研究:新一代PASCAL(n=150)与MitraClip G4(历史队列n=679)治疗原发性二尖瓣反流,30天MR≤2+比例相当(92.3% vs 92.1%)",
+   "summary_zh": "该研究基于日本OCEAN-Mitral多中心注册数据库,纳入150例接受新一代PASCAL系统经导管二尖瓣缘对缘修复(M-TEER)治疗原发性二尖瓣反流(PMR)的连续患者,并与679例既往接受第四代MitraClip(MitraClip G4)治疗PMR的历史队列比较早期结局。结果显示,PASCAL组仅1例发生30天非心源性死亡,无器械释放失败或需追加外科手术病例;术中1例出现单叶装置脱附(SLDA),经成功回收处理后最终无SLDA病例。经倾向评分匹配后,两组30天时二尖瓣反流≤2+比例相近(92.3% vs 92.1%,P=0.89)。研究认为两种新一代M-TEER装置在原发性二尖瓣反流治疗中安全性与有效性相当,PASCAL独特结构或有助于降低继发性瓣叶脱附风险。",
+   "summary_en": "Drawing on Japan's multicenter OCEAN-Mitral registry, this study compared 150 consecutive patients undergoing mitral transcatheter edge-to-edge repair (M-TEER) for primary mitral regurgitation (PMR) with the newer PASCAL system against a historical cohort of 679 PMR patients treated with the fourth-generation MitraClip (MitraClip G4). Only 1 non-cardiac death occurred within 30 days in the PASCAL group, with no deployment failures or need for additional surgery; a single leaflet device attachment (SLDA) occurred intraprocedurally but was successfully retrieved, leaving no final SLDA cases. After propensity-score matching, 30-day rates of residual MR ≤2+ were comparable between devices (92.3% vs 92.1%, P=.89). The findings suggest similar early safety and efficacy between the two latest-generation M-TEER devices for PMR, with PASCAL's distinct clip structure potentially lowering the risk of secondary leaflet detachment.",
+   "source": "Catheterization and Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42304946/"
+  },
+  {
+   "date": "2026-08-19",
+   "title": "Transsubclavian versus transfemoral TAVR with self-expanding valves",
+   "title_zh": "维也纳医科大学单中心研究:经锁骨下动脉与经股动脉自膨胀瓣TAVR比较,未校正30天生存率经股动脉更优(log-rank P=0.042),校正后差异不显著但卒中风险仍与入路显著相关",
+   "summary_zh": "该研究来自奥地利维也纳医科大学与格拉茨医科大学团队,回顾性纳入2017年8月至2025年5月间因髂股动脉入路条件不佳而接受经锁骨下动脉(transsubclavian, TS)或经股动脉(transfemoral, TF)途径自膨胀瓣TAVR的连续患者,比较两种入路的临床结局。未校正分析显示TF组30天生存率显著高于TS组(log-rank P=0.042);但多因素Cox回归校正基线特征后,入路方式与30天死亡率无显著关联,提示生存差异很大程度上源于TS组基线风险更高。入路方式与卒中风险仍显著相关。研究认为,在TF入路不可行时,TS-TAVR是一种可行的替代方案,但围术期卒中风险需重点关注。",
+   "summary_en": "Conducted by teams at the Medical University of Vienna and Medical University of Graz, this retrospective single-center study compared consecutive patients undergoing transsubclavian (TS) versus transfemoral (TF) self-expanding TAVR for hostile iliofemoral access between August 2017 and May 2025. Unadjusted 30-day survival was significantly higher in the TF group (log-rank P=.042), but after multivariable Cox regression adjustment for baseline characteristics, access route was no longer significantly associated with 30-day mortality, suggesting the raw survival gap largely reflected the TS cohort's higher baseline risk. Access site remained significantly associated with stroke risk. The authors conclude TS-TAVR is a feasible alternative when TF access is not possible, though periprocedural stroke risk warrants close attention.",
+   "source": "Frontiers in Cardiovascular Medicine",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42688026/"
+  },
+  {
+   "date": "2026-05-12",
+   "title": "TAVR in Low-Risk Patients at Long-Term Follow-Up: Promising Outcomes With Remaining Uncertainties from an Updated Meta-Analysis",
+   "title_zh": "更新meta分析(3项RCT、n=2644,中位随访7年):低危患者TAVR与外科主动脉瓣置换主要临床结局相近,新发房颤为唯一显著差异指标",
+   "summary_zh": "该研究发表于《American Journal of Cardiology》,由罗马大学Sapienza团队完成,更新纳入3项低危人群TAVR对比外科主动脉瓣置换的随机对照试验(含PARTNER 3、Evolut Low Risk等)共2644例患者,中位随访达7年。结果显示,TAVR与外科手术在全因死亡率、心血管死亡、致残性卒中及心肌梗死等主要临床终点上均无显著差异;新发房颤是唯一具有统计学意义的差异指标(TAVR组更低)。血流动力学方面,TAVR组临床瓣膜血栓形成及中度以上瓣周漏发生率更高,而外科组重度患者-瓣膜不匹配及重度结构性瓣膜衰败发生率更高。作者认为,现有长期随机证据支持TAVR在低危患者中的安全性,但瓣膜血栓与瓣周漏等问题仍需长期随访进一步明确。",
+   "summary_en": "Published in the American Journal of Cardiology by a team from Sapienza University of Rome, this updated meta-analysis pooled 3 randomized controlled trials (including PARTNER 3 and Evolut Low Risk) of TAVR versus surgical aortic valve replacement in low-surgical-risk patients, totaling 2,644 patients with a median follow-up of 7 years. TAVR and surgery showed no significant differences in all-cause mortality, cardiovascular death, disabling stroke, or myocardial infarction; new-onset atrial fibrillation was the only outcome reaching statistical significance, favoring TAVR. TAVR was associated with higher rates of clinical valve thrombosis and more-than-mild paravalvular leak, while surgery carried higher rates of severe patient-prosthesis mismatch and severe structural valve deterioration. The authors conclude that current long-term randomized evidence supports TAVR's safety in low-risk patients, though valve thrombosis and paravalvular leak warrant continued long-term surveillance.",
+   "source": "American Journal of Cardiology",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42128259/"
+  },
+  {
+   "date": "2026-08-03",
+   "title": "Transcatheter Tricuspid Valve Replacement for Residual Tricuspid Regurgitation After TEER",
+   "title_zh": "杜塞尔多夫大学医院经验:T-TEER术后残余/复发重度三尖瓣反流患者行经导管三尖瓣置换(TTVR)可行且有效",
+   "summary_zh": "该研究发表于《Catheterization and Cardiovascular Interventions》,来自德国杜塞尔多夫大学医院,报道了经导管三尖瓣缘对缘修复(T-TEER)术后出现残余或复发重度至极重度三尖瓣反流(TR)患者接受经导管三尖瓣置换(TTVR)补救治疗的早期经验。研究纳入21例接受TTVR的患者,其中5例为既往T-TEER术后残余/复发重度TR、16例为直接转诊TTVR,按是否有既往T-TEER病史分组比较手术成功率、围术期并发症及临床结局。文献显示T-TEER术后1年内约12%患者出现残余或复发重度TR,而既往外科修复/置换风险高、治疗选择有限;本研究提示在既往T-TEER失败的患者中,TTVR作为补救手段具有良好的技术可行性与安全性,为这一治疗棘手的人群提供了新的补救路径。",
+   "summary_en": "Published in Catheterization and Cardiovascular Interventions, this study from University Hospital Duesseldorf reports early experience with transcatheter tricuspid valve replacement (TTVR) as bailout therapy in patients with residual or recurrent severe-to-torrential tricuspid regurgitation (TR) after transcatheter tricuspid edge-to-edge repair (T-TEER). Among 21 patients who underwent TTVR, 5 had residual/recurrent severe TR after prior T-TEER while 16 were referred directly for TTVR; the two groups were compared for procedural success, periprocedural complications, and outcomes. Residual or recurrent severe TR occurs in roughly 12% of patients within 1 year of T-TEER, and surgical options in this population carry high risk with few alternatives; the findings support TTVR as a technically feasible and reasonably safe bailout strategy after failed T-TEER.",
+   "source": "Catheterization and Cardiovascular Interventions",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42544860/"
+  },
+  {
+   "date": "2026-06-22",
+   "title": "Clinical improvement of functional mitral and tricuspid regurgitation following transcatheter aortic valve implantation with the NAVITOR VISION system: a case report",
+   "title_zh": "病例报道:87岁高危主动脉瓣狭窄患者行Navitor Vision TAVI后,继发性二尖瓣及三尖瓣反流同步改善",
+   "summary_zh": "该病例报道发表于《European Heart Journal - Case Reports》,描述一例87岁女性患者,合并低血流低跨瓣压差型主动脉瓣狭窄、中重度二尖瓣反流及重度三尖瓣反流,尽管接受强化药物治疗仍反复发生难治性心力衰竭。鉴于患者高龄、衰弱及外科手术高风险,团队为其行经股动脉TAVI,植入23mm Navitor Vision瓣膜(需兼顾小主动脉瓣环解剖与减少二尖瓣相互作用风险)。术后随访超声心动图显示,随着后负荷降低,继发性二尖瓣反流与三尖瓣反流均较基线明显改善,右心室收缩压同步下降。该病例提示,在合并多瓣膜病变的高危患者中,单纯TAVI解除后负荷可能同时改善功能性二尖瓣及三尖瓣反流,心脏团队评估与瓣膜选型至关重要。",
+   "summary_en": "Published in European Heart Journal - Case Reports, this case describes an 87-year-old woman with low-flow, low-gradient severe aortic stenosis complicated by moderate-to-severe mitral regurgitation and severe tricuspid regurgitation, who had recurrent refractory heart failure despite intensive medical therapy. Given her advanced age, frailty, and prohibitive surgical risk, the heart team performed transfemoral TAVI with a 23-mm Navitor Vision valve, chosen to balance a small aortic annulus with minimizing mitral valve interaction. Follow-up echocardiography showed that afterload relief from TAVI alone was accompanied by marked improvement in both functional mitral and tricuspid regurgitation, along with a reduction in right ventricular systolic pressure. The case illustrates that TAVI-driven afterload reduction can concurrently improve secondary mitral and tricuspid regurgitation in complex multivalvular disease, underscoring the importance of heart-team assessment and valve selection.",
+   "source": "European Heart Journal - Case Reports",
+   "type": "journal",
+   "topic": "Other",
+   "weight": 1,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42422109/"
+  }
+ ]
+}
