@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-26",
+ "items": [
+  {
+   "date": "2026-07-23",
+   "title": "Sex-Specific Differences in Clinical Outcomes After Transcatheter Aortic Valve Replacement: A Meta-Analysis of Reconstructed Individual Patient Survival Data",
+   "title_zh": "重建个体患者生存数据的meta分析(71项研究、48.1万例患者):TAVR术后女性30天死亡与卒中风险更高,但长期生存反而占优——\"女性悖论\"再现",
+   "summary_zh": "该meta分析发表于《Structural Heart》,由Ali M. Abdelaziz、Mamas A. Mamas等团队完成,基于重建的个体患者生存数据,汇总71项研究共481,353例接受TAVR的患者,系统比较男女临床结局差异。结果显示,女性30天全因死亡风险显著高于男性(HR 1.064,95%CI 1.005-1.127,P=0.033),卒中/短暂性脑缺血发作风险也更高(HR 1.511,95%CI 1.317-1.734,P<0.001),严重出血(RR 1.29)、大出血(RR 1.26)及严重血管并发症(RR 1.66)发生率均高于男性。然而长期随访显示女性全因死亡率反而低于男性,呈现所谓\"女性悖论\"。研究提示围术期风险管理需针对女性患者优化,长期获益机制仍待深入探讨。",
+   "summary_en": "Published in Structural Heart by Ali M. Abdelaziz, Mamas A. Mamas and colleagues, this meta-analysis of reconstructed individual patient survival data pooled 71 studies comprising 481,353 TAVR patients to compare outcomes by sex. Women had significantly higher 30-day all-cause mortality (HR 1.064, 95% CI 1.005-1.127, P=.033) and stroke/TIA risk (HR 1.511, 95% CI 1.317-1.734, P<.001), plus higher rates of life-threatening bleeding (RR 1.29), major bleeding (RR 1.26), and major vascular complications (RR 1.66) than men. Paradoxically, women showed lower long-term all-cause mortality on extended follow-up — the so-called \"female paradox\" in TAVR. The findings argue for sex-tailored periprocedural risk mitigation, while the mechanism behind women's long-term survival edge remains unresolved.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545726/"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Impact of Early Nonfatal Complications After Transcatheter Aortic Valve Implantation on 1-Year Mortality and Quality of Life: Insights From the LANDMARK Trial",
+   "title_zh": "LANDMARK试验亚组分析:TAVI术后30天内非致死性并发症使随后1年死亡率翻倍(8.0% vs 3.9%,P=0.03),但生活质量不受影响",
+   "summary_zh": "该研究基于LANDMARK随机对照试验(比较Myval瓣膜系列与Sapien/Evolut系列)数据,由Akihiro Tobe、Patrick W. Serruys等发表于《Structural Heart》,分析TAVI术后30天内发生非致死性并发症(按VARC-3标准定义,含卒中、3型出血、主要血管并发症、2-4期急性肾损伤、中重度瓣周漏、新发永久起搏器植入或再次干预)对存活患者后续预后的影响。结果显示,在30天时存活的患者中,发生早期非致死性并发症组其后30天至1年的死亡率显著高于无并发症组(8.0% vs 3.9%,P=0.03);但两组1年生活质量评分无显著差异。研究提示,早期非致死性并发症是TAVI术后中期死亡率的重要预测因素,应作为衡量\"手术成功\"的重要维度纳入VARC评估体系。",
+   "summary_en": "Drawing on data from the LANDMARK randomized trial (Myval valve series vs. contemporary Sapien and Evolut valves), this study by Akihiro Tobe, Patrick W. Serruys and colleagues, published in Structural Heart, examined how early nonfatal complications within 30 days after TAVI — defined per VARC-3 criteria as stroke, type 3 bleeding, major vascular complications, stage 2-4 acute kidney injury, moderate-or-severe paravalvular leak, new permanent pacemaker implantation, or reintervention — affected outcomes among 30-day survivors. Mortality between 30 days and 1 year was significantly higher in patients with early nonfatal complications than those without (8.0% vs 3.9%, P=.03), while 1-year quality-of-life scores were similar between groups. The findings argue for treating early nonfatal complications as a key driver of intermediate-term mortality after TAVI, deserving more weight within VARC-defined procedural success.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545709/"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Outcomes of Amulet Occluder Implantation Following Watchman Screen Failure in the ADVANCE LAA Study: A Real-World Analysis of Procedural Success and Safety",
+   "title_zh": "ADVANCE LAA真实世界研究(n=609):Watchman筛查失败后改用Amulet封堵器,手术成功率与1年安全性均与常规适应症患者相当",
+   "summary_zh": "该研究发表于《EP Europace》,基于ADVANCE LAA真实世界注册研究数据,纳入609例接受Amplatzer Amulet左心耳封堵器植入的患者,其中97例此前因左心耳解剖复杂被Watchman筛查淘汰(\"screen fail\"组)、512例为常规适应症患者(\"device eligible\"组),比较两组手术成功率及安全性。结果显示,两组手术成功率相近(96.9% vs 98.0%),植入及早期随访时临床相关封堵成功率(残余漏≤3mm)均≥97%;围术期安全性复合终点发生率相似(3.1% vs 2.7%,OR 1.14,95%CI 0.32-4.03,P=0.742),1年卒中(1.1% vs 1.0%)、大出血(9.6% vs 6.2%)及全因死亡(6.3% vs 6.6%)均无显著差异。研究提示,对于解剖复杂、Watchman筛查失败的患者,Amulet封堵器是安全有效的替代方案。",
+   "summary_en": "Published in EP Europace using real-world data from the ADVANCE LAA registry, this study analyzed 609 patients receiving an Amplatzer Amulet occluder, comparing 97 who had previously screen-failed for Watchman due to complex LAA anatomy against 512 device-eligible patients. Procedural success was similarly high in both groups (96.9% vs 98.0%), and clinically relevant closure (residual leak ≤3 mm) remained ≥97% at implant and early follow-up. The periprocedural safety composite endpoint occurred at similar rates (3.1% vs 2.7%; OR 1.14, 95% CI 0.32-4.03; P=.742), with comparable 1-year stroke (1.1% vs 1.0%), major bleeding (9.6% vs 6.2%), and all-cause mortality (6.3% vs 6.6%). The findings support Amulet as a safe, effective option for patients with anatomically challenging LAAs who fail Watchman screening.",
+   "source": "EP Europace",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 3,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13554794/"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "Persistent mitral regurgitation after TAVR more common among women than men",
+   "title_zh": "克利夫兰诊所单中心研究(n=344):TAVR术后女性持续性二尖瓣反流风险高于男性,低血流低跨瓣压差患者尤为不利",
+   "summary_zh": "该报道援引克利夫兰诊所团队(第一作者Eric Warner)发表于《JACC: Advances》的最新研究,纳入344例合并中重度二尖瓣反流(MR)的重度主动脉瓣狭窄患者,均接受TAVR治疗,平均年龄81.9岁,女性占48.5%。总体上62.8%的患者术后MR改善至少1个等级,但女性及术前MR程度更重的患者发生持续性MR的风险更高;对于低血流低跨瓣压差型主动脉瓣狭窄患者,残余MR的危害尤为显著。作者认为,应针对女性患者加强术前关于MR持续风险的告知,这一发现或将影响患者选择与围术期管理策略。",
+   "summary_en": "This report covers a new Cleveland Clinic study (first author Eric Warner) published in JACC: Advances, following 344 patients with severe aortic stenosis and baseline moderate-to-severe mitral regurgitation (MR) undergoing TAVR (mean age 81.9 years, 48.5% women). Overall, MR improved by at least one grade in 62.8% of patients after TAVR, but women and those with more severe baseline MR were more likely to have persistent MR, with residual MR appearing especially harmful in patients with low-flow, low-gradient aortic stenosis. The authors suggest sex-tailored counseling on the risk of persistent MR, which could inform patient selection and periprocedural management.",
+   "source": "Cardiovascular Business",
+   "type": "news",
+   "topic": "TAVI",
+   "weight": 2,
+   "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/persistent-mitral-regurgitation-after-tavr-more-common-among-women-men"
+  }
+ ]
+}
