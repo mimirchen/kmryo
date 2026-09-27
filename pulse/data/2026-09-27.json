@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-27",
+ "items": [
+  {
+   "date": "2026-08-11",
+   "title": "Long-Term Survival After Transcatheter Aortic Valve Replacement Relative to an Age- and Comorbidity-Matched Population",
+   "title_zh": "克利夫兰诊所团队TriNetX真实世界数据库分析(覆盖1.13亿患者、64家医疗机构):≥65岁TAVR患者5年死亡率(14.9%)反而低于年龄-合并症匹配对照人群(18.0%,P<0.001),但50-64岁年轻患者TAVR死亡率仍显著高于匹配人群",
+   "summary_zh": "该研究由Akiva Rosenzveig、Grant W. Reed等克利夫兰诊所团队完成,发表于《JACC: Advances》,利用TriNetX联邦化电子病历网络(覆盖美国64家医疗机构、约1.13亿患者)构建年龄-性别-合并症匹配队列,比较TAVR患者与无主动脉瓣狭窄匹配人群的长期生存。结果显示,≥65岁人群中TAVR术后5年全因死亡率为14.9%,反而低于匹配对照的18.0%(P<0.001),提示TAVR已使老年患者生存基本追平乃至优于同龄同合并症人群;但50-64岁较年轻患者中,TAVR术后5年死亡率为16.2%,显著高于匹配人群的10.6%(P<0.001),提示年轻多合并症患者接受TAVR后仍存在明显生存差距,可能与其潜在合并症负担更重、瓣膜选择的长期获益尚待验证有关。",
+   "summary_en": "In this study by Akiva Rosenzveig, Grant W. Reed and Cleveland Clinic colleagues, published in JACC: Advances, the authors used the TriNetX federated EHR network (roughly 113 million patients across 64 U.S. health systems) to build age-, sex- and comorbidity-matched cohorts comparing long-term survival after TAVR with matched populations without aortic stenosis. Among adults ≥65 years, 5-year all-cause mortality after TAVR was 14.9%, actually lower than 18.0% in matched controls (P<.001), suggesting TAVR has closed — and in this cohort reversed — the survival gap for older patients. However, among younger patients aged 50-64, 5-year mortality after TAVR was 16.2% versus 10.6% in the matched population (P<.001), indicating a persistent excess-mortality gap in younger, likely higher-comorbidity-burden TAVR recipients.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2026.103094"
+  },
+  {
+   "date": "2026-05-14",
+   "title": "Evolving Early Outcomes After Transcatheter Aortic Valve Replacement in Asian Patients: Temporal Trends From the OCEAN-TAVI Registry",
+   "title_zh": "日本OCEAN-TAVI多中心注册研究(n=13,245,18家中心,2013-2023年十年数据):TAVR围术期起搏器植入率年均下降约8%、瓣周漏改善,但卒中率2%-3%十年未见改善",
+   "summary_zh": "该研究由Hirofumi Hioki、Kentaro Hayashida等OCEAN-TAVI研究者团队完成,发表于《Structural Heart》,纳入2013-2023年间日本18家中心共13,245例接受TAVR的患者(中位年龄85岁,中位STS评分5.6%),分析十年间早期结局的演变趋势。结果显示,30天全因死亡率始终维持在约1%的低位且保持稳定;新发永久起搏器植入率显著下降(风险调整后年递减约8%,尤以球囊扩张瓣膜为著,现维持在5%-6%的个位数水平),中度以上瓣周漏发生率也显著下降;但卒中发生率始终维持在2%-3%,十年间未见明显改善,提示卒中仍是TAVR技术迭代中尚未攻克的关键并发症。",
+   "summary_en": "In this OCEAN-TAVI registry analysis by Hirofumi Hioki, Kentaro Hayashida and colleagues, published in Structural Heart, the investigators tracked 13,245 patients undergoing TAVR at 18 Japanese centers from 2013 to 2023 (median age 85, median STS score 5.6%) to characterize decade-long trends in early outcomes. Thirty-day mortality remained low and stable at roughly 1% throughout the study period. New permanent pacemaker implantation declined significantly over time (an estimated 8% relative risk reduction per year, most pronounced with balloon-expandable valves, now in the single-digit 5%-6% range), and moderate-or-greater paravalvular leak also fell significantly. Stroke, however, remained unchanged at 2%-3% across the decade, underscoring it as the key unresolved complication despite a decade of device and technique refinement.",
+   "source": "Structural Heart",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 3,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476895/"
+  },
+  {
+   "date": "2026-01-16",
+   "title": "Real-World Suitability of Patients for Transcatheter Tricuspid Valve Replacement",
+   "title_zh": "亨利·福特医院单中心回顾性研究(n=251,2024年2月至2025年8月转诊评估三尖瓣介入的患者):82.9%解剖上适合接受TTVR,不适合者男性比例更高(67.4% vs 33.2%,P<0.01)、既往植入心脏电子装置更常见(53.5% vs 32.2%,P=0.01)",
+   "summary_zh": "该研究由Tyler Andrews、Brian P. O'Neill等亨利·福特医院团队完成,发表于《American Journal of Cardiology》,回顾性纳入2024年2月至2025年8月经心脏团队评估的251例转诊接受经导管三尖瓣介入(TTVI)的患者,按解剖可行性优先考虑瓣膜置换(TTVR)策略。结果显示,251例中43例(17.1%)因解剖原因不适合TTVR,即82.9%患者具备置换可行性;与适合组相比,不适合组男性比例更高(67.4% vs 33.2%,P<0.01)、合并已植入心脏电子装置(如起搏器/除颤器导线)更常见(53.5% vs 32.2%,P=0.01)、既往接受过三尖瓣介入者也更多(7.9% vs 1.6%,P=0.03)。研究为真实世界TTVR患者筛选与心脏团队决策提供了解剖适用性基准数据。",
+   "summary_en": "In this study by Tyler Andrews, Brian P. O'Neill and Henry Ford Hospital colleagues, published in the American Journal of Cardiology, the authors retrospectively reviewed 251 patients referred for transcatheter tricuspid valve intervention (TTVI) between February 2024 and August 2025, with a heart-team strategy favoring transcatheter tricuspid valve replacement (TTVR) whenever anatomically feasible. Of 251 patients, 43 (17.1%) were deemed anatomically unsuitable for TTVR, meaning 82.9% were suitable. Compared with suitable patients, unsuitable patients were more often male (67.4% vs 33.2%, P<.01), more likely to have an implanted cardiac electronic device lead (53.5% vs 32.2%, P=.01), and more likely to have had a prior tricuspid intervention (7.9% vs 1.6%, P=.03) — real-world benchmark data for anatomic screening and heart-team decision-making.",
+   "source": "American Journal of Cardiology",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 2,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41548860/"
+  },
+  {
+   "date": "2026-05-18",
+   "title": "Occlusion effects, safety, and clinical prognosis of Watchman and LAmbre occluders in left atrial appendage closure",
+   "title_zh": "中国扬州苏北人民医院单中心回顾性研究(n=93,2020年1月至2023年2月,Watchman 48例 vs LAmbre 45例):Watchman完全封堵率显著高于LAmbre(45.83% vs 24.44%,P=0.031),两组围术期均无卒中、心包压塞或死亡",
+   "summary_zh": "该研究由Tianyu Li、Jing Ye等扬州大学附属苏北人民医院团队完成,发表于《BMC Cardiovascular Disorders》,回顾性纳入2020年1月至2023年2月间93例接受左心耳封堵的非瓣膜性房颤患者(Watchman 48例,LAmbre 45例),比较两种封堵器的封堵效果、安全性及临床预后。结果显示,Watchman组左心耳完全封堵率显著高于LAmbre组(45.83% vs 24.44%,P=0.031);两组围术期均未发生短暂性脑缺血发作、心包压塞或死亡等严重并发症。研究提示,在完全封堵率上Watchman可能优于LAmbre,但样本量较小,仍需更大规模前瞻性研究验证。",
+   "summary_en": "In this single-center retrospective study by Tianyu Li, Jing Ye and colleagues at Northern Jiangsu People's Hospital (affiliated with Yangzhou University), published in BMC Cardiovascular Disorders, the authors compared 93 patients with nonvalvular atrial fibrillation undergoing left atrial appendage closure between January 2020 and February 2023 (48 with Watchman, 45 with LAmbre) for occlusion efficacy, safety, and clinical prognosis. Complete LAA occlusion was significantly more common with Watchman than LAmbre (45.83% vs 24.44%, P=.031), while neither group experienced transient ischemic attack, cardiac tamponade, or death perioperatively. The findings suggest a possible occlusion-rate edge for Watchman, though the small sample warrants confirmation in larger prospective studies.",
+   "source": "BMC Cardiovascular Disorders",
+   "type": "journal",
+   "topic": "LAA",
+   "weight": 2,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366945/"
+  }
+ ]
+}
