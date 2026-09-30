@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-30",
+ "items": [
+  {
+   "date": "2026-06-16",
+   "title": "10-Year Randomized Outcomes of Transcatheter or Surgical Aortic Valve Replacement in Intermediate-Risk Aortic Stenosis",
+   "title_zh": "PARTNER 2A十年随访(JACC):早期TAVR(Sapien XT)全因死亡率显著高于外科换瓣(86% vs 83%,HR 1.13,P=0.02),经股入路组无差异",
+   "summary_zh": "PARTNER 2A试验将中危主动脉瓣狭窄患者随机分配至第二代球扩瓣Sapien XT经导管主动脉瓣置换(TAVR)或外科主动脉瓣置换(SAVR),该10年再分析显示,TAVR组全因死亡率显著高于SAVR组(86% vs 83%,HR 1.13,P=0.02),主动脉瓣再干预累积发生率TAVR组也显著更高(6% vs 2%,P<0.001)。按入路分层分析发现,经股TAVR与外科死亡率相近(84% vs 82%,P=0.27),但经心尖/经主动脉入路TAVR死亡率显著高于外科(93% vs 85%,P<0.001,交互P=0.03)。同期发表的倾向匹配分析显示,采用第三代球扩瓣Sapien 3的当代TAVR患者10年结局与外科相近,提示瓣膜设计与术前CT规划的进步已显著缩小长期耐久性差距。该研究为老一代TAVR瓣膜长期耐久性的争议提供了重要随机化证据,也凸显了非经股入路的长期风险。",
+   "summary_en": "This 10-year re-analysis of the PARTNER 2A randomized trial, which assigned intermediate-risk aortic stenosis patients to TAVR with the second-generation balloon-expandable SAPIEN XT valve or surgery, found significantly higher all-cause mortality (86% vs 83%, HR 1.13, P=.02) and aortic valve reintervention (6% vs 2%, P<.001) with TAVR. Mortality was similar between transfemoral TAVR and surgery (84% vs 82%, P=.27), but significantly higher with transapical/transaortic TAVR versus surgery (93% vs 85%, P<.001; P for interaction=.03). A companion propensity-matched analysis using the newer third-generation SAPIEN 3 valve showed 10-year outcomes comparable to surgery, suggesting device and imaging-guided planning advances have narrowed the durability gap — but underscoring the long-term risks tied to non-transfemoral access with older-generation valves.",
+   "source": "JACC",
+   "type": "journal",
+   "topic": "TAVI",
+   "weight": 4,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42300821/"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "Mitral Transcatheter Edge-to-Edge Repair in Ventricular Functional Mitral Regurgitation and Very Severe Left Ventricular Dysfunction",
+   "title_zh": "日本OCEAN-Mitral注册研究:极重度左室功能不全(LVEF<20%)患者行M-TEER手术成功率100%,住院死亡率5%,与LVEF 20%-40%组相近",
+   "summary_zh": "该研究基于日本多中心OCEAN(Optimized Catheter Valvular Intervention)-Mitral注册研究数据,纳入功能性二尖瓣反流合并左室射血分数(LVEF)≤40%的患者,其中103例LVEF<20%(既往随机对照试验普遍将其排除在外的极高危人群),1435例LVEF在20%-40%之间,比较两组接受经导管二尖瓣缘对缘修复术(M-TEER)的结局。结果显示,LVEF<20%组急性手术成功率达100%(LVEF 20%-40%组为97%),术后二尖瓣反流(MR)降至≤1+比例达88.2%;两组住院死亡率相近(5% vs 4%);1年随访时两组NYHA心功能分级均显著改善,但LVEF<20%组功能改善幅度相对较小、心血管死亡率仍偏高,提示这更多与其本身更严重的心肌病变有关而非手术本身。该研究首次为这一此前被随机试验排除的极重度左室功能不全人群提供M-TEER可行性与安全性的注册数据支持。",
+   "summary_en": "Drawing on Japan's multicenter OCEAN (Optimized Catheter Valvular Intervention)-Mitral registry, this study compared outcomes of mitral transcatheter edge-to-edge repair (M-TEER) in 103 patients with ventricular functional mitral regurgitation and very severe LV dysfunction (LVEF <20% — a population largely excluded from randomized M-TEER trials) versus 1,435 patients with LVEF 20%-40%. Acute procedural success was 100% in the LVEF <20% group (vs 97% in the LVEF 20%-40% group), with MR reduced to ≤1+ in 88.2% overall; in-hospital mortality was similar between groups (5% vs 4%). Both groups showed significant 1-year NYHA functional class improvement, though functional gains were more modest and cardiovascular mortality remained higher in the LVEF <20% group, likely reflecting more advanced underlying myocardial disease rather than the procedure itself. The findings provide the first substantial registry evidence supporting the feasibility and safety of M-TEER in this highest-risk population previously excluded from pivotal trials.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "Mitral",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42600559/"
+  },
+  {
+   "date": "2026-06-18",
+   "title": "Transcatheter Tricuspid Valve Annuloplasty vs Edge-to-Edge Repair: A Propensity-Matched Multicenter Comparative Analysis",
+   "title_zh": "首项倾向性评分匹配多中心比较研究(111对):三尖瓣缘对缘修复术(T-TEER)较经导管三尖瓣成形术(TTVA)并发症更少(4.5% vs 27.0%),残余TR更轻,1年临床结局相近",
+   "summary_zh": "该多中心倾向性评分匹配分析纳入2017-2024年间因严重继发性三尖瓣反流(TR)接受介入治疗的1122例患者(882例接受三尖瓣缘对缘修复术T-TEER,240例接受经导管三尖瓣成形术TTVA),经1:1倾向匹配后得到111对匹配患者,比较两种截然不同的三尖瓣修复策略。结果显示,出院时T-TEER组残余TR≤1+比例显著高于TTVA组(50.0% vs 34.2%),残余TR≤2+比例分别为87.7%和67.6%;T-TEER组围手术期并发症发生率显著更低(4.5% vs 27.0%,P<0.001);两组1年时全因死亡或首次心衰住院复合终点的无事件生存率相近(75.0% vs 79.8%,P=0.408)。该研究是目前样本量最大的T-TEER与TTVA头对头倾向匹配比较,提示T-TEER安全性更优、TR降低效果更佳,但两种策略中期临床结局无显著差异。",
+   "summary_en": "This multicenter propensity-score-matched analysis compared two distinct transcatheter strategies for severe secondary tricuspid regurgitation (TR) among 1,122 consecutive patients treated from 2017-2024 (882 with tricuspid edge-to-edge repair, T-TEER; 240 with transcatheter tricuspid valve annuloplasty, TTVA), yielding 111 well-matched pairs after 1:1 matching. At discharge, residual TR ≤1+ was achieved in 50.0% of T-TEER patients versus 34.2% of TTVA patients, and TR ≤2+ in 87.7% versus 67.6%; procedural complications were significantly less frequent with T-TEER (4.5% vs 27.0%, P<.001). One-year freedom from the composite of all-cause mortality or first heart failure hospitalization was similar between strategies (75.0% vs 79.8%, P=.408). As the largest head-to-head propensity-matched comparison to date, the study suggests T-TEER offers a more favorable safety profile and greater TR reduction, though mid-term clinical outcomes appear comparable between the two approaches.",
+   "source": "JACC: Advances",
+   "type": "journal",
+   "topic": "Tricuspid",
+   "weight": 3,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42485713/"
+  },
+  {
+   "date": "2026-05-07",
+   "title": "Early Outcomes After Patent Foramen Ovale Closure in Routine Clinical Practice: A Retrospective Study",
+   "title_zh": "荷兰奈梅亨大学医学中心回顾性研究(n=365):常规临床实践中PFO封堵术主要并发症发生率仅1.6%,随访期间未再发卒中/TIA",
+   "summary_zh": "该回顾性研究纳入荷兰奈梅亨大学医学中心(Radboudumc)\"心脏-卒中团队\"2018年9月至2025年6月期间经多学科评估后接受经导管卵圆孔未闭(PFO)封堵术的365例患者(平均年龄43.7±11.2岁,44%为女性),评估常规临床实践中的手术安全性及早期结局。中位随访90天(IQR 60-180天),结果显示主要手术并发症仅见于6例(含1例封堵器脱位并经导管成功取回),新发房颤5例;随访时22%患者存在中-重度残余分流;随访期间无缺血性卒中或短暂性脑缺血发作复发。该研究以摘要形式发表于欧洲卒中大会(ESOC)2026并刊于《European Stroke Journal》,为真实世界PFO封堵术的安全性提供了较大样本的当代证据,但残余分流比例偏高提示器械选择与封堵技术仍有优化空间。",
+   "summary_en": "This retrospective study from the dedicated Heart-Stroke Team at Radboudumc (Nijmegen, the Netherlands) analyzed 365 patients (mean age 43.7±11.2 years, 44% female) who underwent percutaneous patent foramen ovale (PFO) closure after multidisciplinary evaluation between September 2018 and June 2025, evaluating procedural safety and early outcomes in routine clinical practice. Over a median follow-up of 90 days (IQR 60-180), major procedural complications occurred in only 6 patients (including one device dislocation successfully retrieved percutaneously) and new-onset atrial fibrillation in 5; moderate-to-severe residual shunt was present in 22% of patients at follow-up, but no recurrent ischemic stroke or TIA occurred. Presented as an abstract at the European Stroke Organisation Conference (ESOC) 2026 and published in the European Stroke Journal, the study offers real-world safety evidence from one of the larger contemporary PFO closure cohorts, though the relatively high residual shunt rate points to room for improved device selection and closure technique.",
+   "source": "European Stroke Journal",
+   "type": "conference",
+   "topic": "Other",
+   "weight": 2,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13145726/"
+  }
+ ]
+}
