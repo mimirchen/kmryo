@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "date": "2026-09-11",
+      "title": "Mitral Regurgitation and Severe Aortic Stenosis: Clinical Characteristics, Prognostic Impact, and Response to TAVR: Insights From Egnite Data",
+      "title_zh": "Egnite大数据研究(Circ:CVI):合并二尖瓣反流的重度主动脉瓣狭窄患者2年死亡率随MR加重攀升(36.8%→65.5%),单纯TAVR后77.5%患者MR改善",
+      "summary_zh": "基于美国43家机构Egnite真实世界数据库(涵盖约299万例患者、524万余次超声心动图检查),Peterson BE等研究者识别出36,402例合并中度及以上二尖瓣反流(MR)的重度主动脉瓣狭窄(AS)患者(平均年龄78.2岁,男性54.6%)。其中52.0%未接受干预,36.5%单纯行经导管主动脉瓣置换(TAVR),11.5%接受外科或其他介入治疗。随访2年时,死亡率随MR程度加重呈剂量效应:轻度以下MR患者为36.8%,中度MR患者升至57.3%,中重度/重度MR患者达65.5%。在单纯TAVR组中,77.5%患者术后MR得到改善,提示单纯解除主动脉瓣后负荷即可显著缓解继发性MR,为\"先TAVR、再评估二尖瓣干预需求\"的分步治疗策略提供了迄今样本量最大的真实世界证据。",
+      "summary_en": "Drawing on the Egnite real-world database of roughly 2.99 million patients and 5.25 million echocardiograms across 43 US institutions, Peterson BE and colleagues identified 36,402 patients with severe aortic stenosis (AS) and at least moderate mitral regurgitation (MR) (mean age 78.2, 54.6% male), of whom 52.0% were untreated, 36.5% underwent TAVR alone, and 11.5% had surgery or other transcatheter intervention. Two-year mortality rose with MR severity — 36.8% with less-than-moderate MR, 57.3% with moderate MR, and 65.5% with moderate-to-severe/severe MR — while 77.5% of patients treated with TAVR alone showed MR improvement, offering the largest real-world evidence yet that relieving aortic afterload alone can meaningfully reduce secondary MR and supporting a staged \"TAVR-first\" strategy.",
+      "source": "Circ: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42723621/"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Asian Pacific Society of Cardiology Consensus Statements on the Use of Transcatheter Edge-to-Edge Repair in the Treatment of Tricuspid and Mitral Regurgitation",
+      "title_zh": "亚太心脏病学会(APSC)发布三尖瓣/二尖瓣TEER共识声明:16条推荐意见强调多学科评估与影像筛选",
+      "summary_zh": "亚太心脏病学会(APSC)联合多国专家(Yeo KK、Muller DWM、Wang JA等)发布首部针对经导管缘对缘修复术(TEER)治疗三尖瓣反流(TR)与二尖瓣反流(MR)的区域共识声明,共提出16条推荐意见。声明强调在亚太人群中应用TEER前需经多学科心脏团队评估,并结合影像学严格筛选患者解剖条件(如瓣叶活动度、瓣环大小、对合情况);现有证据显示TEER可改善症状、提升生活质量、降低心衰再住院率,是外科高危或不宜手术的重度TR/MR患者的安全选择。该共识填补了此前亚太地区缺乏专门指导文件的空白,因当地患者解剖特征与器械可及性与欧美人群存在差异。",
+      "summary_en": "The Asian Pacific Society of Cardiology (APSC) has issued its first regional consensus statement on transcatheter edge-to-edge repair (TEER) for tricuspid (TR) and mitral regurgitation (MR), authored by an international panel including Yeo KK, Muller DWM and Wang JA, comprising 16 recommendations. The statement calls for multidisciplinary Heart Team evaluation and rigorous imaging-based anatomic screening (leaflet mobility, annular size, coaptation) before TEER, noting that current evidence shows TEER reduces symptoms, improves quality of life and lowers heart-failure hospitalizations, offering a safe option for surgery-ineligible patients with severe TR or MR. The document addresses a gap for the Asia-Pacific region, where patient anatomy and device access can differ from Western cohorts.",
+      "source": "JACC: Asia",
+      "type": "guideline",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41984487/"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Clinical Applications of Artificial Intelligence in Structural Heart Disease",
+      "title_zh": "JSCAI综述:人工智能在结构性心脏病诊断、手术规划与结局预测中的临床应用",
+      "summary_zh": "这篇发表于《美国心血管造影与介入学会杂志》(JSCAI)的开放获取综述,由Allaham H等作者系统梳理了人工智能(AI)在结构性心脏病领域的临床应用现状,涵盖诊断(如超声心动图/CT自动化瓣膜解剖测量)、病情进展评估、风险分层、介入手术规划(如TAVR瓣膜型号选择与入路评估)以及临床结局预测等场景,并讨论了AI工具在验证、可解释性与临床工作流整合方面仍面临的挑战。该综述为结构性心脏介入医生理解AI辅助决策工具的现状与局限提供了实用参考。",
+      "summary_en": "This open-access review in the Journal of the Society for Cardiovascular Angiography & Interventions (JSCAI), by Allaham H and colleagues, surveys current clinical applications of artificial intelligence (AI) in structural heart disease — spanning automated diagnostic imaging analysis, disease-progression tracking, risk stratification, procedural planning (e.g., TAVR valve sizing and access-route assessment), and prediction of clinical outcomes. The authors also discuss ongoing challenges around validation, interpretability and clinical workflow integration, offering a practical reference for structural interventionalists navigating AI-assisted decision-making.",
+      "source": "JSCAI",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42111101/"
+    }
+  ]
+}
