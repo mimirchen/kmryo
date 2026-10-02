@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "date": "2026-08-17",
+      "title": "Mitral Transcatheter Edge-to-Edge Repair in Ventricular Functional Mitral Regurgitation and Very Severe Left Ventricular Dysfunction",
+      "title_zh": "OCEAN-Mitral注册研究(JACC: Advances):LVEF<20%重度左室功能不全患者行M-TEER手术成功率达100%,但心血管死亡风险仍是其他患者的2倍",
+      "summary_zh": "日本OCEAN-Mitral多中心注册研究纳入1538例心室功能性二尖瓣反流合并LVEF≤40%的患者,比较LVEF<20%组(103例)与LVEF 20%-40%组(1435例)接受经导管缘对缘修复(M-TEER)后的结局。两组急性手术成功率均很高且相近(100% vs 97%),院内死亡率无显著差异(5% vs 4%),但多变量分析显示LVEF<20%独立预测1年心血管死亡风险升高(HR 2.00,95%CI 1.08-3.68)。此类重症患者此前多被随机对照试验排除,该研究以迄今最大样本证实M-TEER在该人群中仍可行,并带来有意义的症状改善,未增加全因死亡或心衰再住院风险。",
+      "summary_en": "The Japanese OCEAN-Mitral registry enrolled 1,538 patients with ventricular functional mitral regurgitation and LVEF ≤40% undergoing M-TEER, comparing those with LVEF <20% (n=103) against LVEF 20%-40% (n=1,435); acute procedural success was similarly high (100% vs 97%) and in-hospital mortality did not differ (5% vs 4%), but LVEF <20% independently predicted higher 1-year cardiovascular mortality (HR 2.00, 95% CI 1.08-3.68). Although such severely impaired patients have largely been excluded from randomized trials, this largest-to-date registry shows M-TEER remains feasible and brings meaningful symptomatic benefit without excess death or heart-failure hospitalization.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 4,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42600559/"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Transcatheter Aortic Valve Replacement for Severe Native Aortic Valve Regurgitation: A Multicenter and International Registry",
+      "title_zh": "意大利-美国6中心登记研究:TAVR治疗重度主动脉瓣原发反流技术成功率仅79.8%,球囊扩张瓣膜组30天MACE更低",
+      "summary_zh": "一项纳入意大利与美国6家中心、104例接受经导管主动脉瓣置换(TAVR)治疗重度主动脉瓣原发反流(非狭窄)患者的多中心国际登记研究(入组时间2021年1月至2025年1月)显示,整体技术成功率仅为79.8%,提示现有以主动脉瓣狭窄为主要适应症设计的瓣膜用于反流病变仍存在局限。其中77例(74.0%)使用球囊扩张瓣膜、27例(26.0%)使用自膨胀瓣膜;在外科高危人群中,球囊扩张瓣膜组30天主要不良心脏事件(MACE)发生率更低,而长期结局主要由患者基础风险而非瓣膜类型决定。作者呼吁需要更多专用于主动脉瓣反流的介入瓣膜装置以提升手术安全性。",
+      "summary_en": "A multicenter international registry across 6 centers in Italy and the United States (enrollment January 2021-January 2025) analyzed 104 patients undergoing TAVR for severe native (non-stenotic) aortic regurgitation, finding an overall technical success rate of only 79.8%, underscoring the limitations of off-label use of stenosis-designed valves for regurgitant disease. Of these, 77 (74.0%) received balloon-expandable valves and 27 (26.0%) self-expanding valves; among high-risk patients, balloon-expandable valves were associated with lower 30-day major adverse cardiac events, while long-term outcomes were driven mainly by baseline patient risk rather than valve type.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766953/"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Real-world outcomes of Left Atrial Appendage Occlusion with the Amplatzer™ Amulet™: a multicentre observational registry from Southeast Asia",
+      "title_zh": "东南亚多中心真实世界登记:Amplatzer Amulet左心耳封堵植入成功率98.1%,1年复发卒中率仅1.9%",
+      "summary_zh": "一项来自马来西亚、印度尼西亚、泰国的多中心真实世界观察性登记研究纳入104例接受Amplatzer Amulet左心耳封堵器治疗的非瓣膜性房颤患者,评估其手术特征、安全性与1年临床结局。结果显示器械植入成功率达98.1%,1年复发卒中率为1.9%,83.5%的患者在1年时仅接受单一抗血小板或已停用抗栓药物。该研究填补了东南亚人群左心耳封堵真实世界数据的空白,支持Amulet在亚洲房颤患者卒中预防中的可行性与安全性。",
+      "summary_en": "A multicentre real-world observational registry from Malaysia, Indonesia and Thailand enrolled 104 patients with nonvalvular atrial fibrillation treated with the Amplatzer Amulet left atrial appendage occluder, assessing procedural characteristics, safety and 1-year outcomes. Implantation success reached 98.1%, the 1-year recurrent stroke rate was 1.9%, and 83.5% of patients were on single or no antithrombotic therapy at 1 year, filling a data gap for LAA occlusion outcomes in Southeast Asian populations.",
+      "source": "BMC Cardiovascular Disorders",
+      "type": "journal",
+      "topic": "LAA",
+      "weight": 3,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13037305/"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Innovations in transcatheter tricuspid valve interventions: what has failed, what has worked, what is coming",
+      "title_zh": "《Annals of Cardiothoracic Surgery》综述:Cardioband三尖瓣环缩系统宣布停产,折射介入三尖瓣领域\"成败\"之辩",
+      "summary_zh": "Montefiore-Einstein心脏中心Sturla、Scotti、Latib三位专家在《Annals of Cardiothoracic Surgery》\"三尖瓣病变终身管理\"专刊(2026年5月31日出版)撰文回顾经导管三尖瓣介入技术的兴衰。文章指出,Cardioband直接环缩系统因操作复杂(需沿瓣环逐步植入多枚锚钉并机械收紧)、学习曲线陡峭、影像引导困难,已被厂商宣布停产,成为业内反思\"手术可行性不等于可规模化推广的可重复性与耐久性\"的典型案例;与此同时,经导管缘对缘修复(T-TEER)与瓣膜置换(TTVR)技术持续进步,但患者转诊时机延迟、合并肝肾功能不全等晚期右心衰表现仍是限制疗效的最主要瓶颈。",
+      "summary_en": "In a review for the \"Lifetime Management of Tricuspid Valve Disease\" special issue of Annals of Cardiothoracic Surgery (published May 31, 2026), Sturla, Scotti and Latib (Montefiore-Einstein) trace the rise and fall of transcatheter tricuspid technologies. They note that the Cardioband direct annuloplasty system — hampered by its technically demanding, imaging-intensive sequential anchor-and-cinch procedure — has now been discontinued by its manufacturer, a cautionary tale that procedural feasibility alone cannot guarantee reproducibility and durability at scale, while T-TEER and TTVR continue to advance despite persistent late-referral challenges.",
+      "source": "Annals of Cardiothoracic Surgery",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://www.annalscts.com/article/view/17564/html"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Edwards Lifesciences Receives FDA Approval for AUTUS Valve, the First Size-Adjustable Surgical Pulmonary Valve for Pediatric Patients",
+      "title_zh": "爱德华生命科学AUTUS可调节瓣膜获FDA批准:全球首款随儿童生长扩张的外科肺动脉瓣,30天零器械相关并发症",
+      "summary_zh": "2026年10月1日,爱德华生命科学(Edwards Lifesciences)宣布其AUTUS可调节尺寸瓣膜(AUTUS Size-Adjustable Valve)获美国FDA上市前批准(PMA),用于患有先天性心脏病、需行肺动脉瓣置换的儿科患者。该瓣膜是全球首款采用聚合物人工瓣叶(替代传统动物源组织)、可通过微创导管球囊扩张技术随患儿生长而扩张(植入直径约13毫米,可扩张至22毫米)的外科瓣膜,旨在减少患儿反复开胸手术的需求。基于纳入62例患儿、60例完成6个月随访数据的研究,主要安全性与有效性终点均达标:30天器械相关并发症发生率为0%,6个月内无一例瓣膜再干预。",
+      "summary_en": "On October 1, 2026, Edwards Lifesciences announced FDA premarket approval (PMA) of its AUTUS Size-Adjustable Valve, a surgical pulmonary valve for pediatric congenital heart disease patients requiring pulmonary valve replacement. It is the first valve worldwide to use polymeric (rather than animal-derived) leaflets and to be expandable via a minimally invasive transcatheter balloon procedure as a child grows — implanted at roughly 13 mm and expandable to 22 mm — aiming to reduce the need for repeated open-heart surgeries. Based on a study of 62 children with 6-month outcome data on 60 patients, the valve met its primary safety and efficacy endpoints, with 0% device-related complications through 30 days and no valve reinterventions through 6 months.",
+      "source": "Edwards Lifesciences",
+      "type": "regulatory",
+      "topic": "Other",
+      "weight": 2,
+      "url": "https://www.massdevice.com/edwards-earns-fda-approval-for-first-of-its-kind-autus-size-adjustable-pediatric-heart-valve/"
+    }
+  ]
+}
