@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "date": "2026-08-27",
+      "title": "HighLife Receives CE Mark Approval for Clarity Valve, the Next-Generation Valve for the HighLife TMVR System",
+      "title_zh": "HighLife Clarity二代瓣膜获CE认证:经导管二尖瓣置换(TMVR)可覆盖30-53mm瓣环,为现有获批产品中最宽",
+      "summary_zh": "2026年8月27日,法国HighLife公司宣布其新一代Clarity二尖瓣获得CE认证,可用于HighLife经导管二尖瓣置换(TMVR)系统。Clarity瓣膜针对性优化了左室流出道梗阻(LVOTO)相关解剖学难题,同时保留了HighLife经股静脉、瓣中瓣式输送架构;本次认证涵盖标准款与LAV款两种尺寸,使该系统可治疗的自体二尖瓣环范围扩大至30-53mm,为目前所有获CE认证TMVR系统中最宽。适应证为外科修复/置换及经导管缘对缘修复均不适合的中重度至重度二尖瓣反流成人患者。该认证建立在HighLife TMVR系统2026年1月首次获CE认证的基础之上。",
+      "summary_en": "On August 27, 2026, France's HighLife announced CE Mark approval for its next-generation Clarity Valve for use with the HighLife transcatheter mitral valve replacement (TMVR) system. Purpose-built to mitigate left ventricular outflow tract obstruction (LVOTO)-related anatomical risk while preserving HighLife's transfemoral, valve-in-ring delivery architecture, the approval covers both the standard and LAV Clarity Valve sizes, extending the system's treatable native mitral annulus range to 30-53 mm — the broadest of any CE-marked TMVR system. It is indicated for adults with moderate-severe or severe mitral regurgitation unsuitable for surgical repair/replacement or transcatheter edge-to-edge repair, building on the initial CE Mark for the HighLife TMVR System granted in January 2026.",
+      "source": "HighLife Medical",
+      "type": "regulatory",
+      "topic": "Mitral",
+      "weight": 4,
+      "url": "https://www.biospace.com/press-releases/highlife-receives-ce-mark-approval-for-clarity-valve-the-next-generation-valve-for-the-highlife-tmvr-system"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Procedural and Hemodynamic Outcomes of Contemporary Self-Expanding Valves for Transcatheter Aortic Valve Replacement: A Multicenter Comparison From the AMTRAC Registry",
+      "title_zh": "AMTRAC多中心登记研究:Evolut与Navitor两款自膨胀TAVR瓣膜1年死亡率相当(9.2% vs 7.1%),但血流动力学表现存在差异",
+      "summary_zh": "发表于《Structural Heart》2026年第10卷第10期的AMTRAC多中心登记研究,由Levi、Talmor-Barkan、Barbanti等学者开展,比较了两款当代自膨胀TAVR瓣膜——Evolut(PRO/PRO+/FX)与Navitor——的手术及血流动力学结局。结果显示两组1年全因死亡率无显著差异(Navitor 7.1% vs Evolut 9.2%,HR 0.75,95%CI 0.47-1.21,P=0.24),院内死亡率(0.8%)、围术期卒中(2.3%)、永久起搏器植入率(14.4% vs 15.9%,P=0.554)及瓣周漏发生率也均相近;但Evolut平台在血流动力学表现上仍保持相对优势,且该差异独立于各中心手术量等机构因素。",
+      "summary_en": "Published in Structural Heart (volume 10, issue 10, 2026), the multicenter AMTRAC registry study by Levi, Talmor-Barkan, Barbanti and colleagues compared procedural and hemodynamic outcomes between two contemporary self-expanding TAVR valves — Evolut (PRO/PRO+/FX) and Navitor. One-year all-cause mortality was similar between groups (Navitor 7.1% vs Evolut 9.2%; HR 0.75, 95% CI 0.47-1.21; P=0.24), as were in-hospital mortality (0.8%), periprocedural stroke (2.3%), permanent pacemaker implantation (14.4% vs 15.9%; P=0.554) and paravalvular leak rates; however, the Evolut platform retained a hemodynamic performance edge that was independent of institutional factors such as case volume.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2474870626003234"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Prevalence, Pathophysiologic Mechanisms, and Clinical Outcomes of Tricuspid Regurgitation in the Elderly: Results from the TREY Registry",
+      "title_zh": "TREY登记研究(700例老年人群):中重度三尖瓣反流患者全因死亡率达41.5%,显著高于轻度(21.1%)与无/微量反流(17.4%)组",
+      "summary_zh": "《Cardiology》期刊2026年4月9日在线发表的TREY(Tricuspid Regurgitation in the Elderly)前瞻性登记研究,纳入700例因常规超声心动图检查就诊、年龄≥60岁的连续患者,系统评估三尖瓣反流(TR)的患病率、病理生理机制及临床结局。结果显示,即使是轻度TR(相较于无/微量TR)也与三尖瓣环及右心腔重构相关,包括瓣环径增大(P=0.002)、瓣叶延长(P<0.001)、右室基底径增大(P=0.001)及右房面积增大(P=0.003)。中位随访281天后,中重度TR组全因死亡率达41.5%,显著高于轻度组(21.1%)及无/微量反流组(17.4%)(log-rank P=0.035),提示瓣环扩张、瓣叶牵拉增加及瓣叶延长是继发性TR发生发展的三大主要机制,凸显对老年人群TR及时筛查、把握转诊介入治疗时机的重要性。",
+      "summary_en": "Published online April 9, 2026 in the journal Cardiology, the prospective TREY (Tricuspid Regurgitation in the Elderly) registry enrolled 700 consecutive patients aged ≥60 referred for routine echocardiography to characterize the prevalence, pathophysiology and clinical outcomes of tricuspid regurgitation (TR). Even mild TR (versus none/trace TR) was associated with tricuspid annular and right-heart remodeling, including larger annulus diameter (P=0.002), leaflet elongation (P<0.001), larger RV basal diameter (P=0.001) and right atrial area (P=0.003). At a median follow-up of 281 days, all-cause mortality reached 41.5% with moderate/severe TR, significantly higher than with mild TR (21.1%) and none/trace TR (17.4%) (log-rank P=0.035), underscoring annular dilatation, leaflet tethering and leaflet elongation as key drivers of secondary TR and the need for timely screening and referral in older adults.",
+      "source": "Cardiology",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41955173/"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Mitria Medical Partners with T45 Labs to Advance Novel Mitral Valve Repair Therapy",
+      "title_zh": "Mitria Medical携手硅谷孵化器T45 Labs,推进新型经导管二尖瓣下间隔器疗法",
+      "summary_zh": "早期结构性心脏病公司Mitria Medical于2026年9月29日宣布与硅谷医疗器械孵化器T45 Labs建立战略合作,T45 Labs创始人兼管理合伙人Marwan Berrada-Sounni将兼任Mitria首席执行官,全面支持其产品开发、融资及临床监管策略。Mitria正在开发经导管二尖瓣下间隔器(Subvalvular Spacer,SVS),用于治疗继发性/功能性二尖瓣反流(FMR)中无法接受缘对缘修复的患者;截至目前已有6例患者植入该装置,早期经验已在TCT、New York Valves等多个结构性心脏会议上报告。",
+      "summary_en": "On September 29, 2026, early-stage structural heart company Mitria Medical announced a strategic partnership with Silicon Valley medtech incubator T45 Labs, with T45 Labs founder and managing partner Marwan Berrada-Sounni also becoming Mitria's CEO to support product development, financing, and clinical/regulatory strategy. Mitria's investigational Subvalvular Spacer (SVS) is designed for transcatheter mitral repair in functional mitral regurgitation patients unsuitable for edge-to-edge clip repair; six patients have received the implant to date, with early experience reported at TCT, New York Valves and other structural heart meetings.",
+      "source": "Mitria Medical",
+      "type": "industry",
+      "topic": "Mitral",
+      "weight": 2,
+      "url": "https://www.prnewswire.com/news-releases/mitria-medical-partners-with-t45-labs-to-advance-novel-mitral-valve-repair-therapy-302889421.html"
+    },
+    {
+      "date": "2026-03-06",
+      "title": "Percutaneous Closure of Patent Foramen Ovale is Associated With Improvement of Migraine",
+      "title_zh": "《Reviews in Cardiovascular Medicine》:经皮PFO封堵与偏头痛改善相关,封堵组改善几率达未封堵组5.57倍",
+      "summary_zh": "一项发表于《Reviews in Cardiovascular Medicine》(2026年第27卷第3期)的回顾性研究,纳入71例无卒中病史、合并卵圆孔未闭(PFO)的成人(45例接受经皮封堵、26例未封堵,数据取自2015-2020年5581例PFO住院患者队列),评估PFO封堵与偏头痛转归的关系。结果显示,经皮PFO封堵显著降低偏头痛发作频率与严重程度,且2年随访时改善幅度更大(P<0.001);多因素Logistic回归显示,封堵组较未封堵组偏头痛改善的几率显著更高(OR 5.57,95%CI 1.76-17.68,P=0.004)。该研究为PFO封堵在偏头痛治疗中的潜在获益提供了进一步的观察性证据,但样本量有限,仍需随机对照研究验证。",
+      "summary_en": "A retrospective study published in Reviews in Cardiovascular Medicine (volume 27, issue 3, 2026) enrolled 71 stroke-free adults with patent foramen ovale (PFO) — 45 who underwent percutaneous closure and 26 who did not, drawn from a 2015-2020 cohort of 5,581 PFO inpatients — to assess the relationship between PFO closure and migraine outcomes. PFO closure significantly reduced migraine frequency and severity, with greater improvement at 2-year follow-up (P<0.001). Multivariable logistic regression showed closure was associated with substantially higher odds of migraine improvement versus non-closure (OR 5.57, 95% CI 1.76-17.68; P=0.004), adding observational support for a potential migraine benefit of PFO closure, though the small sample size means randomized confirmation is still needed.",
+      "source": "Reviews in Cardiovascular Medicine",
+      "type": "journal",
+      "topic": "Other",
+      "weight": 2,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13036522/"
+    }
+  ]
+}
