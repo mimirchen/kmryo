@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "date": "2026-03-01",
+      "title": "Long-Term Outcomes After Transcatheter Aortic Valve Replacement in Nonagenarians: Impact of Frailty and Malnutrition",
+      "title_zh": "日本多中心登记研究(4623例):TAVR术后90岁以上患者5年死亡率53.2%,但虚弱与营养不良才是预后主因,而非高龄本身",
+      "summary_zh": "发表于《JACC: Advances》2026年3月刊的一项日本多中心登记研究,纳入4623例接受经股动脉TAVR的患者,其中700例年龄≥90岁,随访5年。结果显示,≥90岁组全因死亡率显著高于<90岁组(53.2% vs 37.0%,P<0.001),差异主要源于非心血管死亡(如衰老相关、感染等,32.5% vs 19.9%,P<0.001),而心血管死亡率两组相近(20.3% vs 17.0%,P=0.198)。多因素分析显示,年龄≥90岁本身并非独立预测因子,虚弱与营养不良才是长期预后的最强决定因素。研究提示TAVR患者遴选应基于老年综合评估中的虚弱与营养状态,而非单纯年龄界限,以避免对高龄但状态良好者的\"一刀切\"拒绝,同时识别真正可能从手术中获益有限的患者。",
+      "summary_en": "A Japanese multicenter registry study published in JACC: Advances (March 2026) followed 4,623 transfemoral TAVR patients, including 700 aged ≥90 years, for 5 years. All-cause mortality was significantly higher in nonagenarians (53.2% vs 37.0%, P<0.001), driven mainly by noncardiovascular deaths (32.5% vs 19.9%, P<0.001), while cardiovascular mortality was similar between groups (20.3% vs 17.0%, P=0.198). On multivariable analysis, age ≥90 itself was not an independent mortality predictor -- frailty and malnutrition were the strongest determinants of long-term outcomes, suggesting TAVR candidacy should be guided by geriatric assessment rather than chronological age alone.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13352011/"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Sex-Specific Outcomes in Patients Undergoing Mitral Valve Transcatheter Edge-to-Edge Repair: The REPAIR Study",
+      "title_zh": "REPAIR研究(2601例PASCAL系统):女性M-TEER术后\"最优结果\"获得率低于男性(55.7% vs 65.9%),但1年死亡/心衰住院率无差异",
+      "summary_zh": "发表于《JACC: Advances》(2026年5月13日)的REPAIR研究纳入2601例接受PASCAL系统经导管二尖瓣缘对缘修复(M-TEER)的患者,其中女性1150例(44.2%)、男性1451例(55.8%)。结果显示,女性获得\"最优结果\"的比例显著低于男性(55.7% vs 65.9%,P<0.001),主要原因是女性术后平均跨瓣压差≥5mmHg的比例更高(24.0% vs 14.0%,P<0.001),而残余轻度及以下二尖瓣反流比例两性相近,技术成功率亦相似(97.0% vs 97.7%)。1年全因死亡或心衰住院复合终点两性无显著差异(女性20.1% vs 男性20.8%)。研究提示,尽管女性因瓣环解剖较小更易出现术后跨瓣压差升高,M-TEER总体安全性与远期获益在两性间相当。",
+      "summary_en": "The REPAIR study, published in JACC: Advances on May 13, 2026, analyzed 2,601 patients undergoing PASCAL-system transcatheter edge-to-edge mitral repair (M-TEER), including 1,150 women (44.2%) and 1,451 men (55.8%). Women achieved an \"optimal result\" less often than men (55.7% vs 65.9%, P<0.001), driven by a higher rate of elevated postprocedural transmitral gradients (≥5 mmHg: 24.0% vs 14.0%, P<0.001), while residual mild-or-less MR rates and technical success (97.0% vs 97.7%) were similar. One-year all-cause mortality or heart failure hospitalization did not differ significantly by sex (20.1% vs 20.8%), suggesting comparable overall safety and benefit despite smaller annular anatomy predisposing women to higher residual gradients.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13309300/"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Jaguar LAA, Inc. Announces Acquisition of Assets Related to the Laminar Program",
+      "title_zh": "强生正式退出LAA封堵市场:原Laminar团队携手Santé Ventures成立Jaguar LAA,收购其左心耳封堵技术资产",
+      "summary_zh": "2026年9月11日,新成立的Jaguar LAA公司宣布收购强生医疗科技(Johnson & Johnson MedTech)旗下Laminar左心耳(LAA)封堵项目相关资产。强生于2023年11月以约4亿美元收购Laminar,并支持其拟入组约1500例非瓣膜性房颤患者的关键性临床试验,但该试验因器械植入后存在左心耳\"展开/解包\"导致临床显著渗漏的风险,已于2025年年中暂停入组。此次交易由原Laminar管理团队联合风投机构Santé Ventures出资完成,交易金额未披露;强生已于9月17日正式确认退出LAA封堵市场。Jaguar LAA计划在原有临床与研发基础上继续推进该器械(采用导管输送、旋转方式闭合左心耳,植入后体内暴露部分极小)的开发与监管审批,这也是今年以来结构性心脏器械领域又一起大企业收缩业务、初创公司接盘技术资产的案例。",
+      "summary_en": "On September 11, 2026, newly formed Jaguar LAA, Inc. announced it had acquired assets related to the Laminar left atrial appendage (LAA) closure program from Johnson & Johnson MedTech. J&J had acquired Laminar in November 2023 for roughly $400 million and backed a pivotal trial intended to enroll about 1,500 patients with non-valvular atrial fibrillation, but enrollment was suspended in mid-2025 after a risk of post-implant LAA \"unwrapping\" causing clinically significant leaks emerged. The undisclosed-sum transaction was financed by original Laminar management together with venture firm Santé Ventures; J&J formally confirmed its exit from the LAA closure market on September 17. Jaguar LAA plans to continue developing the catheter-delivered, rotationally deployed closure device -- which leaves minimal device material exposed in the left atrium -- toward regulatory approval, another case this year of a large company divesting a structural heart program into a startup spinout.",
+      "source": "Jaguar LAA",
+      "type": "industry",
+      "topic": "LAA",
+      "weight": 3,
+      "url": "https://www.biospace.com/press-releases/jaguar-laa-inc-announces-acquisition-of-assets-related-to-the-laminar-program"
+    }
+  ]
+}
