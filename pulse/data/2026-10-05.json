@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "date": "2026-10-01",
+      "title": "Sex Disparities in In-Hospital Outcomes After Transcatheter Edge-to-Edge Mitral Valve Repair: A Nationwide Inpatient Sample Analysis, 2016-2022",
+      "title_zh": "美国全国住院患者数据库(2016–2022)分析:女性M-TEER术后出血、心包压塞风险更高,院内死亡率与男性无统计学差异(1.98% vs 1.75%)",
+      "summary_zh": "一项基于美国全国住院患者数据库(NIS,2016–2022年)的分析,发表于《Structural Heart》2026年10月,评估了接受经导管二尖瓣缘对缘修复(M-TEER)患者的性别差异。结果显示,女性患者院内出血和心包压塞发生率显著高于男性,但院内死亡率两组无统计学差异(女性1.98% vs 男性1.75%,经多因素调整后差异不显著);卒中、心肌梗死等其他主要并发症发生率两性相近。研究提示尽管女性在M-TEER围术期面临更高的出血与压塞风险(可能与体型、解剖较小有关),但总体院内生存结局与男性相当,为临床性别风险沟通提供了大样本真实世界证据。",
+      "summary_en": "A Nationwide Inpatient Sample analysis (2016-2022) published in Structural Heart in October 2026 examined sex-specific in-hospital outcomes after transcatheter edge-to-edge mitral valve repair (M-TEER). Women had significantly higher rates of in-hospital bleeding and cardiac tamponade than men, but in-hospital mortality did not differ significantly between sexes (1.98% in women vs 1.75% in men after multivariable adjustment); rates of stroke, myocardial infarction, and other major complications were similar between groups. The findings suggest that although women face a higher burden of periprocedural bleeding and tamponade -- likely related to smaller body size and anatomy -- their overall in-hospital survival after M-TEER is comparable to men's, offering large real-world evidence for sex-specific risk counseling.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/hospital-mortality-after-m-teer-doesnt-diverge-sex"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Features and short-term outcomes of real-world transcatheter tricuspid valve repair vs. replacement in Asia-Pacific",
+      "title_zh": "亚太四中心174例真实世界登记:严重三尖瓣反流患者中TTVR反流纠正更彻底(100% vs 74%),但主要不良事件和住院时间显著更高",
+      "summary_zh": "发表于《Annals of Cardiothoracic Surgery》(2026年3月)的一项回顾性多中心研究,纳入香港、台湾、泰国4个中心2017–2025年间174例接受经导管三尖瓣治疗的严重症状性三尖瓣反流(TR)患者,其中136例行三尖瓣缘对缘修复(T-TEER)、38例行经导管三尖瓣置换(TTVR,原位或异位)。结果显示,术后30天TR降至中度以下的比例TTVR组达100.0%,显著高于T-TEER组的74.0%(P=0.001);两组NYHA心功能分级改善至I/II级的比例相近(93.7% vs 96.2%)。但TTVR组住院期主要不良事件发生率显著更高(15.8% vs 2.2%,P=0.003),住院时间更长(中位15天 vs 5天,P<0.001),血小板下降幅度也更大。研究提示在亚太人群中,TTVR目前主要用于解剖条件不适合T-TEER的患者,两种术式均可改善症状,但TTVR伴随更高的围术期风险。",
+      "summary_en": "A retrospective multicenter study from four centers in Hong Kong, Taiwan, and Thailand, published in Annals of Cardiothoracic Surgery in March 2026, analyzed 174 patients with severe symptomatic tricuspid regurgitation (TR) treated between 2017 and 2025: 136 underwent tricuspid transcatheter edge-to-edge repair (T-TEER) and 38 underwent transcatheter tricuspid valve replacement (TTVR, orthotopic or heterotopic). At 30 days, TR reduction to moderate or less was achieved in 100.0% of TTVR patients versus 74.0% of T-TEER patients (P=0.001), while NYHA class I/II improvement was similar between groups (93.7% vs 96.2%). However, TTVR was associated with significantly higher in-hospital major adverse events (15.8% vs 2.2%, P=0.003), longer hospital stays (median 15 vs 5 days, P<0.001), and a greater platelet count decline. The findings suggest that in the Asia-Pacific region, TTVR is currently reserved mainly for patients with anatomy unsuitable for T-TEER, and while both approaches improve TR and symptoms, TTVR carries higher procedural risk.",
+      "source": "Annals of Cardiothoracic Surgery",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://www.annalscts.com/article/view/17463/html"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Emboline Announces First U.S. Commercial Use of the Emboliner® Embolic Protection System",
+      "title_zh": "Emboline公布Emboliner®全身栓塞保护系统美国首例商业化使用,TAVR术中完成2例应用",
+      "summary_zh": "2026年9月10日,Emboline公司的Emboliner全身栓塞保护系统获FDA 510(k)许可,用于TAVR术中捕获并移除栓塞碎屑;该器械采用环周双层滤网,可在不中断TAVR输送系统通过的同时提供脑部与全身器官保护。10月1日,该系统完成美国首例商业化使用,在两例TAVR手术中应用。获批依据为随机对照的PROTECT H2H研究,将Emboliner与波士顿科学Sentinel脑保护装置头对头比较。公司计划2026年内分阶段展开美国商业化,包括医生培训与重点中心逐步铺开。",
+      "summary_en": "On September 10, 2026, Emboline's Emboliner embolic protection system received FDA 510(k) clearance to capture and remove embolic debris during TAVR, using a circumferential dual-layer filter that provides both cerebral and systemic protection while allowing the TAVR delivery system to pass through its central lumen. On October 1, 2026, the device was used commercially for the first time in the US, in two TAVR cases. Clearance was supported by the randomized PROTECT H2H trial comparing Emboliner head-to-head with Boston Scientific's Sentinel cerebral protection system. The company plans a phased US commercial rollout through the rest of 2026, including physician training and selected center launches.",
+      "source": "Emboline",
+      "type": "industry",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://www.biospace.com/press-releases/emboline-announces-first-u-s-commercial-use-of-the-emboliner-embolic-protection-system"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "Artificial intelligence-based calcium scoring using 3D transesophageal echocardiography in aortic stenosis: a pilot study",
+      "title_zh": "23例中重度主动脉瓣狭窄患者先导研究:AI从3D经食道超声自动计算瓣膜钙化评分,探索无辐射替代CT的可行性",
+      "summary_zh": "发表于《Journal of Cardiovascular Imaging》(2026年)的一项前瞻性先导研究,纳入23例中重度主动脉瓣狭窄患者(中位年龄76岁,56.5%为男性),同时接受三维经食道超声心动图(3D TEE)与CT检查。研究团队开发了一种基于计算机视觉的AI模型,自动识别TEE图像中与钙化相关的回声斑点,并通过逐帧(每例11帧)像素累加得出自动化TEE钙化评分。结果初步证实了利用AI从3D TEE自动量化主动脉瓣钙化的可行性,为无法耐受辐射或造影剂、或无法获得CT检查的患者提供了一种潜在的无辐射替代评估手段,但样本量小,仍需更大队列验证其与CT钙化评分的一致性及临床预测价值。",
+      "summary_en": "A prospective pilot study published in the Journal of Cardiovascular Imaging (2026) enrolled 23 patients with moderate or severe aortic stenosis (median age 76 years, 56.5% male) who underwent both 3D transesophageal echocardiography (TEE) and CT. The team developed a computer-vision-based AI model that automatically identifies calcium-related speckles on TEE images and derives an automated TEE calcium score by summing calcium pixels across 11 frames per patient. The results provide preliminary proof of feasibility for AI-based automated quantification of aortic valve calcium from 3D TEE, offering a potential radiation-free alternative for patients who cannot tolerate CT contrast or radiation or lack CT access -- though the small sample size means larger cohorts are needed to validate agreement with CT-based scoring and clinical predictive value.",
+      "source": "Journal of Cardiovascular Imaging",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42426851/"
+    }
+  ]
+}
