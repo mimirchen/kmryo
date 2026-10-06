@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "date": "2026-09-01",
+      "title": "Safety of Selective and Routine Femoral Access Angiography Post-Transcatheter Aortic Valve Implantation",
+      "title_zh": "双中心1147例分析:TAVI术后选择性血管造影与常规造影相比,血管并发症相近、出血检出更少",
+      "summary_zh": "发表于《JACC: Advances》(2026年9月)的一项双中心回顾性研究,比较了经股动脉TAVI术后两种不同穿刺点评估策略下1147例患者的结局:常规髂股动脉造影(674例,德国巴特克罗青根中心)与基于临床体征的选择性造影(473例,弗赖堡中心)。结果显示,两组VARC-3血管/穿刺点并发症总体相近(选择性6.6% 对 常规8.0%;OR 0.76,95%CI 0.48-1.19),但常规造影组检出更多穿刺点出血事件(13.9% 对 5.2%,P<0.001),而血红蛋白下降幅度、输血及出血相关死亡两组无显著差异;血管再介入总体相当(4.2% 对 6.5%,P=0.095),常规造影组更多采用导管介入处理,选择性造影组则更多需外科或凝血酶注射处理。调整分析显示,选择性策略出血并发症更低,但两组VARC-3总体并发症无差异。研究提示,基于临床体征的选择性造影可能是经股动脉TAVI术后更省资源且同样安全的默认策略。",
+      "summary_en": "A retrospective two-site analysis in JACC: Advances (September 2026) compared outcomes in 1,147 patients undergoing transfemoral TAVI under two post-procedural strategies: routine iliofemoral angiography (n=674, Bad Krozingen) versus selective, clinically-driven angiography (n=473, Freiburg). Overall VARC-3 vascular/access-site complications were similar (selective 6.6% vs routine 8.0%; OR 0.76, 95% CI 0.48-1.19), but routine angiography detected more access-site bleeding events (13.9% vs 5.2%, P<0.001) with no difference in hemoglobin drop, transfusion, or bleeding-related death; vascular reinterventions were comparable overall (4.2% vs 6.5%, P=0.095), with routine angiography favoring catheter-based fixes and selective angiography more often needing surgical or thrombin-based repair. The findings suggest selective, clinically-driven angiography may be a reasonable and less resource-intensive default strategy after transfemoral TAVI.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42600558/"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "CMS Opens National Coverage Analysis on TAVR for Aortic Regurgitation Alongside Final TAVR-for-Stenosis Decision",
+      "title_zh": "美国CMS发布TAVR覆盖最终决定同日,另启新一轮国家覆盖分析评估TAVR用于主动脉瓣反流",
+      "summary_zh": "2026年9月10日,美国医疗保险和医疗补助服务中心(CMS)在发布TAVR治疗主动脉瓣狭窄最终国家覆盖决定(NCD)修订版的同一天,启动了一项新的国家覆盖分析(CAG-00430R3),重新评估医保是否应覆盖TAVR用于治疗主动脉瓣反流(AR)。该分析由CMS内部发起,触发因素包括2026年3月JenaValve公司Trilogy瓣膜系统获FDA批准(首个获批用于AR的经导管瓣膜)以及此前主动脉瓣狭窄覆盖决定重新评估期间收到的公众意见。CMS正就TAVR治疗AR的证据(尤其是同行评审文献)公开征求意见,截止日期为2026年10月10日,预计2027年3月10日前发布拟定决定备忘录。",
+      "summary_en": "On September 10, 2026, the Centers for Medicare & Medicaid Services (CMS) simultaneously finalized its revised national coverage determination for TAVR in aortic stenosis and opened a separate, internally generated national coverage analysis (CAG-00430R3) reconsidering whether Medicare should cover TAVR for aortic regurgitation (AR). The reconsideration was prompted by the March 2026 FDA approval of JenaValve's Trilogy system -- the first TAVR device approved for AR -- and by comments received during the aortic-stenosis coverage reconsideration. CMS is soliciting public comment, particularly peer-reviewed evidence on TAVR's role in AR, through October 10, 2026, with a proposed decision memo expected by March 10, 2027.",
+      "source": "CMS",
+      "type": "regulatory",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/cms-considers-covering-tavr-aortic-regurgitation"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Validation and Longitudinal Trajectory Analysis of an AI-Based ECG Model for Aortic Stenosis: From Community Screening to Pre-TAVR Risk Stratification",
+      "title_zh": "AI心电图模型AK-AVS验证研究:可提前4.5年检出主动脉瓣狭窄,心电轨迹聚类独立预测TAVR术后1年死亡率",
+      "summary_zh": "发表于《European Heart Journal - Digital Health》(2026年)的一项验证性研究,评估了AccurKardia公司AI增强心电图(ECG)模型AK-AVS在社区筛查人群及贝勒圣卢克医学中心TAVR患者中对主动脉瓣狭窄(AS)的识别能力。结果显示,该AI-ECG模型可在TAVR手术前最多提前4.5年检出AS相关征象;AI-ECG阳性但超声心动图阴性的患者,在中位6.2年随访中AS相关住院风险较AI-ECG阴性者升高4.4倍。对TAVR患者纵向AI-ECG轨迹进行无监督聚类分析还发现,其对术后1年死亡率的预测价值独立于STS评分、EuroSCORE等现有风险评分体系。研究提示AI-ECG有望将AS筛查窗口前移至超声确诊及症状出现之前,并为TAVR术后风险分层提供补充信息。",
+      "summary_en": "A validation study published in European Heart Journal - Digital Health (2026) evaluated AccurKardia's AI-enabled ECG model AK-AVS for aortic stenosis (AS), testing it in both a community-based screening population and in TAVR patients at Baylor St. Luke's Medical Center. The AI-ECG model detected AS-related signal up to 4.5 years before TAVR, and patients with a positive AI-ECG but a negative echocardiogram had a 4.4-fold higher risk of future AS-related hospitalization over a median 6.2-year follow-up. Unsupervised clustering of longitudinal AI-ECG trajectories in TAVR patients also independently predicted 1-year post-TAVR mortality beyond established risk scores such as the STS score and EuroSCORE, suggesting AI-ECG could push AS screening upstream of symptomatic, echo-confirmed disease while adding prognostic information after TAVR.",
+      "source": "European Heart Journal - Digital Health",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 3,
+      "url": "https://academic.oup.com/ehjdh/article/7/2/ztag018/8455663"
+    }
+  ]
+}
