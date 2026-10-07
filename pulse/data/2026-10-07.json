@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-07",
+  "items": [
+    {
+      "date": "2026-04-01",
+      "title": "Outcomes of Patients With Reduced Left Ventricular Function Undergoing Left Atrial Appendage Occlusion",
+      "title_zh": "NCDR LAAO登记研究(18.6万例):左室射血分数<30%患者行左心耳封堵术,手术成功率与并发症不受影响,但1年全因死亡率显著升高",
+      "summary_zh": "一项基于美国国家心血管数据登记处(NCDR)左心耳封堵(LAAO)登记库的大型研究,纳入2015年12月至2023年12月期间接受LAAO且有明确左室射血分数(LVEF)记录的186,085例患者,其中5,192例(2.8%)LVEF<30%。结果显示,LVEF<30%组与LVEF≥50%组手术成功率相近(98.0% 对 98.1%,P=0.12),院内死亡率调整后也无显著差异(校正OR 1.39,95%CI 0.76-2.55),1年卒中发生率两组同样无显著差异。但LVEF每降低10%,1年全因死亡风险即显著上升,LVEF<30%组死亡风险最高(校正HR 1.93,95%CI 1.75-2.12)。研究提示,严重左室功能不全并非LAAO手术安全性的禁忌因素,但此类患者仍需警惕其基础心功能相关的远期死亡风险。",
+      "summary_en": "A large NCDR LAAO Registry analysis identified 186,085 patients undergoing left atrial appendage occlusion with documented LVEF between December 2015 and December 2023, including 5,192 (2.8%) with LVEF <30%. Procedural success (98.0% vs 98.1%, P=0.12) and in-hospital mortality (adjusted OR 1.39, 95% CI 0.76-2.55) were similar between patients with LVEF <30% and LVEF ≥50%, and 1-year stroke rates did not differ significantly. However, all-cause mortality at 1 year rose significantly with every 10% drop in LVEF, with the highest risk in the LVEF <30% group (adjusted HR 1.93, 95% CI 1.75-2.12), suggesting severely reduced LV function should not by itself preclude LAAO despite its link to higher longer-term mortality.",
+      "source": "JACC: Clinical Electrophysiology",
+      "type": "journal",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://www.jacc.org/doi/10.1016/j.jacep.2026.04.004"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Redo TAVR With Self-Expanding Valves Linked to Positive Early Outcomes",
+      "title_zh": "STS/ACC TVT登记库分析:400余例自膨式瓣膜redo-TAVR术后死亡率、卒中率与原发TAVR相当,症状与生活质量改善可持续1年",
+      "summary_zh": "基于STS/ACC经导管瓣膜治疗(TVT)登记库的一项分析纳入400余例因既往TAVR瓣膜失效而接受redo-TAVR的患者,全部使用美敦力Evolut R、Evolut PRO及Evolut PRO+等supra-annular自膨式瓣膜。经校正相关临床协变量后,redo-TAVR组30天及1年的死亡率与卒中发生率均与原发TAVR人群相当,患者功能状态与生活质量的改善在1年随访中持续维持。该结果为自膨式瓣膜平台上日益增多的redo-TAVR实践提供了真实世界安全性证据,支持其作为瓣膜衰败后终身管理策略的可行选项。",
+      "summary_en": "An analysis of the STS/ACC Transcatheter Valve Therapy (TVT) Registry examined more than 400 patients who underwent redo-TAVR for failed prior TAVR valves, all receiving supra-annular, self-expanding Medtronic devices (Evolut R, Evolut PRO, and Evolut PRO+). After adjustment for relevant clinical covariates, redo-TAVR was associated with 30-day and 1-year mortality and stroke rates comparable to native TAVR, with gains in functional status and quality of life sustained through 1 year, supporting self-expanding redo-TAVR as a viable lifetime-management strategy after valve failure.",
+      "source": "JACC: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/redo-tavr-self-expanding-valves-linked-positive-early-outcomes"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Adverse Events After Transcatheter Edge-to-Edge Repair: Descriptive Post-Marketing Surveillance Analysis of MitraClip and PASCAL From the MAUDE Registry",
+      "title_zh": "FDA MAUDE数据库518例二尖瓣TEER不良事件分析:器械脱位/故障在MitraClip中报告比例(47.98%)远高于PASCAL(20.83%)",
+      "summary_zh": "一项基于美国FDA制造商与用户机构设备使用经验(MAUDE)数据库2022年9月至2025年8月报告的描述性上市后监测分析,共纳入518份二尖瓣缘对缘修复(TEER)相关不良事件报告,对比MitraClip与PASCAL两大系统。结果显示,器械脱位/故障(包括对合不全、单叶夹持、器械脱落等)是最常见的器械相关事件,MitraClip报告比例(47.98%)显著高于PASCAL(20.83%);器械相关瓣膜装置撕裂/破裂为第二常见事件,MitraClip(24.49%)同样高于PASCAL(16.66%)。由于MAUDE为被动报告系统、缺乏分母数据且两组病例量明显不均衡,作者强调该结果仅具描述性与假设生成意义,不能作为两器械确定性安全性比较的依据,但提示需对器械脱位/撕裂相关信号保持关注。",
+      "summary_en": "A descriptive post-marketing surveillance analysis of the FDA's MAUDE database covering September 2022 to August 2025 reviewed 518 adverse-event reports for mitral transcatheter edge-to-edge repair (TEER), comparing MitraClip and PASCAL. Device detachment/malfunction (including incomplete leaflet coaptation, single-leaflet device attachment, and device dislodgement) was the most frequently reported device-related event, reported far more often with MitraClip (47.98%) than PASCAL (20.83%); device-related valve apparatus rupture/tear was the second most common event, again higher with MitraClip (24.49% vs 16.66% for PASCAL). Given MAUDE's passive reporting, lack of denominator data, and marked cohort imbalance, the authors caution these findings are descriptive and hypothesis-generating rather than definitive comparative safety evidence, but they flag a signal worth monitoring for device detachment and tear-related events.",
+      "source": "Journal of Thoracic Disease",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42444847/"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Long-Term Incidence and Risk Factors of Atrial Fibrillation After Percutaneous Patent Foramen Ovale Occlusion: A Retrospective Cohort Study",
+      "title_zh": "867例PFO封堵长期随访(中位11.7年):11.2%新发房颤,器械尺寸偏大、瓣膜反流及高龄是独立危险因素",
+      "summary_zh": "一项回顾性队列研究纳入867例因卒中二级预防为主(86%)接受经皮卵圆孔未闭(PFO)封堵的患者(中位年龄51岁,47%为女性),中位随访11.7年。结果显示,新发房颤累计发生97例(11.2%),发生率为1.0/100患者年,其中26.8%的房颤诊断集中在封堵术后3个月内。多变量分析显示,封堵时年龄较大、封堵器尺寸较大以及合并中度及以上瓣膜反流是新发房颤的独立危险因素。研究提示PFO封堵术后新发房颤风险在长期随访中持续存在且有迹可循,建议对高危人群加强针对性心律监测。",
+      "summary_en": "A retrospective cohort study followed 867 patients (median age 51 years, 47% female) who underwent percutaneous patent foramen ovale (PFO) closure, predominantly for secondary stroke prevention (86%), over a median of 11.7 years. New-onset atrial fibrillation occurred in 97 patients (11.2%), an incidence rate of 1.0 per 100 patient-years, with 26.8% of diagnoses clustering within the first 3 months after closure. On multivariable analysis, older age at closure, larger occluder device size, and moderate-or-greater valvular regurgitation were independently associated with new-onset atrial fibrillation, supporting targeted rhythm surveillance in higher-risk patients after PFO closure.",
+      "source": "PubMed",
+      "type": "journal",
+      "topic": "Other",
+      "weight": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42731861/"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Clinical Experience of Transcatheter Tricuspid Valve-In-Ring Interventions With Incomplete Rings: Transjugular and Transfemoral Approaches",
+      "title_zh": "Henry Ford中心经验:不完整三尖瓣成形环行瓣中瓣介入,经颈静脉入路手术成功率(86%)、瓣周漏发生率均优于经股静脉入路",
+      "summary_zh": "美国Henry Ford医院结构性心脏病中心报告了针对不完整(开放式)三尖瓣成形环失效患者,接受经导管瓣中瓣置入(valve-in-ring)的临床经验,比较经颈静脉与经股静脉两种入路。结果显示,经颈静脉入路手术成功率(86%)高于经股静脉入路(60%);经颈静脉组无穿刺点并发症,经股静脉组则发生1例(20%)腹股沟并发症;瓣周漏发生率经颈静脉组(29%)亦低于经股静脉组(60%),且瓣周漏在刚性Contour 3D与半刚性Carpentier-Edwards成形环中最常见,在MC3与CG Future成形带中最少见。由于设计初衷为保留间隔侧瓣环,不完整成形环术后面临更高的瓣膜移位与瓣周漏风险,该研究为入路与成形环类型选择提供了实践参考。",
+      "summary_en": "The Center for Structural Heart Disease at Henry Ford Hospital reported its clinical experience with transcatheter valve-in-ring implantation for failed incomplete (open) tricuspid annuloplasty rings, comparing transjugular and transfemoral access. Procedural success was higher with transjugular access (86%) than transfemoral (60%); no access-site complications occurred transjugularly versus one groin complication (20%) transfemorally; and paravalvular leak was lower with transjugular (29%) than transfemoral access (60%), occurring most often with rigid Contour 3D and semirigid Carpentier-Edwards rings and least with MC3 and CG Future bands. Because incomplete rings are designed to spare the septal annulus, they carry a higher inherent risk of device embolization and paravalvular leak, and this experience offers practical guidance on access and ring-type selection.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42369875/"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Transcatheter Tricuspid Valve Replacement in a Patient With Small Right Atrium and Multiple Device Leads",
+      "title_zh": "病例报告:右心房腔小且合并多根心脏植入装置导线的重度三尖瓣反流患者,成功完成经导管三尖瓣置换",
+      "summary_zh": "《JACC: Case Reports》刊登的一则病例报告,描述了一例右心房解剖空间狭小且合并多根心脏植入式电子装置(CIED)导线的重度三尖瓣反流患者,因导线占据右心房空间、增加器械定位与导线嵌顿风险,此前被视为经导管三尖瓣置换(TTVR)的相对禁忌人群。术者通过细致的术前影像规划与术中导线管理,成功完成TTVR,为合并多根导线、解剖受限患者的三尖瓣介入治疗提供了可行性参考及操作要点。",
+      "summary_en": "A case report in JACC: Case Reports describes successful transcatheter tricuspid valve replacement (TTVR) in a patient with a small right atrium and multiple cardiac implantable electronic device (CIED) leads -- an anatomy traditionally considered higher-risk for TTVR because leads occupy right atrial space and raise the risk of device malpositioning or lead entrapment. Careful pre-procedural imaging planning and intraprocedural lead management enabled successful valve implantation, offering practical guidance for TTVR in patients with multiple leads and constrained right atrial anatomy.",
+      "source": "JACC: Case Reports",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 1,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879743/"
+    }
+  ]
+}
