@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "date": "2025-05-16",
+      "title": "Long-Term Structural Valve Deterioration After TAVI: Insights From the EORP-ESC Valve Durability TAVI Registry",
+      "title_zh": "EORP-ESC瓣膜耐久性TAVI登记研究:中位6.1年随访中重度结构性瓣膜退化发生率9.5%,瓣内型设计相关风险增38倍",
+      "summary_zh": "由欧洲心脏病学会EurObservational注册研究计划(EORP)主导的\"瓣膜耐久性TAVI登记研究\"覆盖22家欧洲中心,纳入597例接受TAVI后存活患者(植入时平均年龄79.6±7.1岁,47.2%为男性),在入组后6个月内及术后至少5年各完成一次超声随访,按VARC-3标准判定结构性瓣膜退化(SVD)。中位随访6.1年(IQR 5.2-7.3年)时,中重度SVD粗发生率为9.5%(57例;中度6.2%、重度3.4%)。多变量分析识别出三项独立预测因素:瓣内型(intra-annular)瓣膜设计(HR 38.44)、瓣膜型号偏小(HR 4.82)及中重度瓣周漏(HR 3.64)。作者认为该结果提示在为年轻TAVI患者选择瓣膜时应谨慎考虑老一代瓣内型设计,但同时强调这是观察性登记数据,且仅61%的超声图像由核心实验室统一判读,结论需谨慎解读。",
+      "summary_en": "The EORP-ESC Valve Durability TAVI Registry, coordinated across 22 European centres under the ESC's EurObservational Research Programme, followed 597 surviving TAVI patients (mean age 79.6±7.1 years at implantation, 47.2% male) with echocardiography within 6 months of enrollment and again at 5+ years, grading structural valve deterioration (SVD) by VARC-3 criteria. At a median follow-up of 6.1 years (IQR 5.2-7.3), the crude incidence of moderate/severe SVD was 9.5% (n=57; moderate 6.2%, severe 3.4%). Multivariable analysis identified three independent predictors: intra-annular valve design (HR 38.44), small valve size (HR 4.82), and moderate-to-severe paravalvular leak (HR 3.64). The authors say the findings argue for caution when choosing older intra-annular designs in younger TAVI candidates, while cautioning that this is observational registry data with only 61% of echocardiograms read by a core laboratory.",
+      "source": "EuroIntervention",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://eurointervention.pcronline.com/article/long-term-structural-valve-deterioration-after-tavi-insights-from-the-eorp-esc-valve-durability-tavi-registry"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Short-Term Outcomes of Commercial Transcatheter Tricuspid Valve Intervention: A Systematic Review and Meta-Analysis",
+      "title_zh": "商业化经导管三尖瓣介入短期结局荟萃分析(13项研究1589例):30天死亡率1.8%,1年时66.5%患者三尖瓣反流降至中度以下",
+      "summary_zh": "一项系统综述与荟萃分析汇总13项研究共1,589例接受商业化经导管三尖瓣介入(修复及置换)治疗三尖瓣反流的患者数据。30天全因死亡率为1.8%;1年时全因死亡率9.9%,心衰再住院率20.1%。1年随访时66.5%患者三尖瓣反流已降至中度以下,81.1%患者NYHA心功能分级达I或II级。作者指出,除TRILUMINATE与TRISCEND等关键临床试验外,商业化器械的真实世界数据仍较有限,长期随访结果仍待积累。",
+      "summary_en": "A systematic review and meta-analysis pooled 13 studies totaling 1,589 patients treated with commercially available transcatheter tricuspid valve devices (repair and replacement) for tricuspid regurgitation. Thirty-day mortality was 1.8%; at 1 year, all-cause mortality was 9.9% and heart-failure hospitalization 20.1%. Tricuspid regurgitation had improved to moderate or less in 66.5% of patients at 1 year, and 81.1% were in NYHA functional class I or II. The authors note that outside of the TRILUMINATE and TRISCEND trials, published real-world experience with commercial devices remains limited, with longer-term outcomes still awaited.",
+      "source": "Annals of Cardiothoracic Surgery",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://www.annalscts.com/article/view/17468/html"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Comparative Outcomes of Transcatheter Edge-to-Edge Repair and Surgical Mitral Valve Repair or Replacement for Degenerative Mitral Regurgitation: A Systematic Review, Meta-Analysis, and Trial Sequential Analysis",
+      "title_zh": "退行性二尖瓣反流TEER对比外科手术的系统综述与试验序贯分析(1.3万例):TEER组1年死亡与再干预风险均显著更高",
+      "summary_zh": "一项系统综述、荟萃分析及试验序贯分析汇总8项研究共13,308例退行性二尖瓣反流(DMR)患者,比较经导管缘对缘修复(TEER)与外科修复/置换的疗效。结果显示,TEER组1年全因死亡风险显著更高(RR 1.82,95%CI 1.04-3.19),1年以上二尖瓣再干预风险也显著增加(RR 4.52,95%CI 3.46-5.91);但TEER组新发房颤、输血、脓毒症及急性肾损伤风险更低,住院及ICU时间更短。作者认为,现有证据不支持在可耐受外科手术的退行性二尖瓣反流患者中,以TEER替代外科手术作为首选方案。",
+      "summary_en": "A systematic review, meta-analysis, and trial sequential analysis pooled 8 studies comprising 13,308 patients comparing transcatheter edge-to-edge repair (TEER) with surgical repair or replacement for degenerative mitral regurgitation (DMR). TEER was associated with significantly higher 1-year mortality (RR 1.82, 95% CI 1.04-3.19) and higher mitral reintervention at 1+ year follow-up (RR 4.52, 95% CI 3.46-5.91) versus surgery, though TEER carried lower risk of new-onset atrial fibrillation, blood transfusion, sepsis, and acute kidney injury, plus shorter hospital and ICU stays. The authors conclude current evidence does not support substituting TEER for surgery in patients with degenerative MR who are surgical candidates.",
+      "source": "Catheterization and Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42008639/"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Smart Valves: A Systematic Review of Artificial Intelligence Applications in Transcatheter Aortic Valve Replacement",
+      "title_zh": "《智能瓣膜》系统综述:51项研究显示AI辅助TAVR瓣环测量准确度最高达0.989,死亡率预测持续优于传统评分",
+      "summary_zh": "一项发表于《European Heart Journal Supplements》的系统综述遵循PRISMA流程,检索PubMed与Google Scholar至2025年9月,从7,177篇文献中经189篇全文评估后纳入51项2017-2025年发表的研究,系统梳理人工智能(AI)在TAVR/TAVI全流程中的应用。结果显示,AI影像工具在瓣环测量及冠脉开口高度评估中准确度最高达0.989;深度学习图像重建可在保持图像质量的同时将辐射剂量降低超过50%;机器学习模型在死亡率预测方面持续优于EuroSCORE II、TAVI-SCORE及CoreValve等传统风险评分。作者认为AI有望提升TAVR术前规划的标准化程度与效率,但仍需更大规模前瞻性验证方可纳入临床常规流程。",
+      "summary_en": "A systematic review in European Heart Journal Supplements followed PRISMA methodology, searching PubMed and Google Scholar through September 2025; from 7,177 studies screened and 189 assessed in full text, 51 studies (2017-2025) met inclusion criteria mapping artificial intelligence (AI) applications across the TAVR/TAVI pathway. AI-based imaging tools reached accuracy up to 0.989 for annular sizing and coronary ostial height assessment; deep-learning image reconstruction cut radiation exposure by more than 50% while preserving image quality; and machine-learning models consistently outperformed conventional risk scores (EuroSCORE II, TAVI-SCORE, CoreValve) for mortality prediction. The authors conclude AI could standardize and speed TAVR planning, but larger prospective validation is needed before routine clinical integration.",
+      "source": "European Heart Journal Supplements",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 2,
+      "url": "https://esc365.escardio.org/journal/91095"
+    }
+  ]
+}
