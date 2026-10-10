@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "date": "2026-10-01",
+      "title": "Temporal Trends in Transcatheter Tricuspid Valve Interventions After FDA Approval in the United States",
+      "title_zh": "美国FDA批准后经导管三尖瓣介入早期商业化应用趋势:2,143例T-TEER与1,301例TTVR,院内死亡率分别为0.5%与2.0%",
+      "summary_zh": "一项发表于《JACC: Advances》的回顾性队列研究,利用Vizient临床数据库分析2024年10月至2025年12月美国经导管三尖瓣介入获批后的早期商业化应用情况。期间共纳入180家医院2,143例经导管三尖瓣缘对缘修复(T-TEER)手术,及113家医院1,301例经导管三尖瓣置换(TTVR)手术,两类手术月均例数均持续上升,TTVR占三尖瓣介入总量的比例由约32%升至约42%。院内死亡率T-TEER组为0.5%、TTVR组为2.0%;严重出血发生率分别为6.0%和12.4%;TTVR组11.3%患者需新植入永久起搏器。患者基线合并症与关键性临床试验人群相近。作者认为,早期真实世界商业化经验显示两类手术采用率快速增长且结局总体良好,但TTVR相关的出血与起搏器植入负担仍需持续关注。",
+      "summary_en": "A retrospective cohort study in JACC: Advances used the Vizient Clinical Data Base to track early commercial adoption of transcatheter tricuspid valve interventions in the US between October 2024 and December 2025, following their FDA approval. The analysis included 2,143 transcatheter tricuspid edge-to-edge repair (T-TEER) procedures at 180 hospitals and 1,301 transcatheter tricuspid valve replacement (TTVR) procedures at 113 hospitals, with monthly volumes for both rising steadily and TTVR's share of all tricuspid interventions growing from about 32% to about 42%. In-hospital mortality was 0.5% after T-TEER versus 2.0% after TTVR; major bleeding occurred in 6.0% and 12.4%, respectively; and 11.3% of TTVR patients required a new permanent pacemaker. Baseline comorbidities resembled those of the pivotal trial populations. The authors conclude that early real-world commercial experience shows rapid uptake of both procedures with generally favorable outcomes, though TTVR's bleeding and pacemaker burden warrant continued attention.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772963X26006873"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "FDA Approves Pediatric Pulmonary Valve That Grows With Patients",
+      "title_zh": "FDA批准爱德华生命科学Autus可调节肺动脉瓣——首款聚合物瓣叶心脏瓣膜,专为儿童\"生长\"设计",
+      "summary_zh": "美国FDA批准爱德华生命科学(Edwards Lifesciences)Autus可调节尺寸肺动脉瓣系统上市,用于先天性心脏病患儿的外科肺动脉瓣置换。该瓣膜经外科植入时直径约13mm,随患儿生长可经导管用球囊扩张至22mm,以减少反复开胸换瓣的次数;其瓣叶为聚合物材质而非动物组织,是FDA首次批准的非生物瓣叶心脏瓣膜。获批依据为纳入美国12家中心、62例18个月至16岁患儿的Autus关键性研究:前60例患者6个月随访时血流达标、反流程度不超过轻度,1年随访显示合成瓣叶功能维持良好,但多次扩张后的长期耐久性数据仍有限。",
+      "summary_en": "The FDA approved Edwards Lifesciences' Autus Size-Adjustable Valve for surgical pulmonary valve replacement in children with congenital heart disease. Surgically implanted at roughly 13 mm, the valve can later be expanded percutaneously via balloon catheter up to 22 mm as the child grows, reducing the need for repeat open-heart reoperations; its polymeric leaflets make it the first FDA-approved heart valve without animal-tissue leaflets. Approval rested on the pivotal Autus study of 62 patients (ages 18 months-16 years) at 12 U.S. sites: the first 60 patients had acceptable flow with no more than mild regurgitation at 6 months, and 1-year follow-up showed the synthetic leaflets continuing to function well, though long-term durability data across repeated expansions remain limited.",
+      "source": "Healio",
+      "type": "regulatory",
+      "topic": "Other",
+      "weight": 3,
+      "url": "https://www.healio.com/news/cardiology/20261002/fda-approves-pediatric-pulmonary-valve-that-grows-with-patients"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "TAVR Now 'Cornerstone' of Severe Aortic Stenosis Treatment",
+      "title_zh": "专家访谈:TAVR已成为重度主动脉瓣狭窄治疗的\"基石\"——关注点从\"能否做\"转向\"该不该做、何时做\"",
+      "summary_zh": "Healio发布对结构性心脏病专家Grant Reed医师的访谈。Reed指出,经导管主动脉瓣置换术(TAVR)已从最初仅用于不能手术或手术极高危的患者,扩展为覆盖全部手术风险层级的主流治疗手段;临床讨论的核心已从\"TAVR是否可行\"转向\"是否应该做、何时做\",尤其是对预期寿命更长的年轻、低危患者,需要从瓣膜终身管理的角度权衡首次治疗方案的选择。他将这一转变归功于新一代瓣膜设计的改进以及基于CT的术前规划技术的进步。",
+      "summary_en": "In a Healio interview, structural heart specialist Grant Reed, MD, describes how transcatheter aortic valve replacement (TAVR) has expanded from a last resort for inoperable or extreme-risk patients into a mainstream option spanning the full surgical-risk spectrum. He argues the clinical question has shifted from whether TAVR can be done to whether and when it should be done — particularly for younger, lower-risk patients with longer life expectancy, where lifetime valve management now shapes the choice of initial therapy. He credits newer valve designs and advances in CT-based procedural planning for the outcomes behind this shift.",
+      "source": "Healio",
+      "type": "news",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://www.healio.com/news/cardiology/20260929/tavr-now-cornerstone-of-severe-aortic-stenosis-treatment"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Transcatheter Valve-in-Band Implantation in a Swine Model of Failed Mitral Repair: A Technical Note and Proof of Feasibility",
+      "title_zh": "猪模型中经导管\"瓣中带\"(Valve-in-Band)置入治疗二尖瓣修复失败:技术说明与可行性验证",
+      "summary_zh": "一项发表于《Journal of Clinical Medicine》的大动物概念验证研究,在一只68公斤Yucatan小型猪中,经体外循环直视下植入28mm二尖瓣环成形带并故意过度缩环以制造二尖瓣反流,随后使用Commander输送系统经导管在成形带内释放一枚23mm Edwards SAPIEN Ultra瓣膜,实现\"瓣中带\"置入。结果显示瓣膜固定稳定,未发生瓣膜移位、瓣周漏或左心室流出道梗阻,超声证实二尖瓣反流完全纠正。作者认为该技术在单只动物中展示了初步的技术可行性与急性期安全性,可为二尖瓣修复失败后的经导管补救治疗提供新思路,但仍需更大样本动物实验及长期随访验证。",
+      "summary_en": "A proof-of-concept large-animal study in the Journal of Clinical Medicine implanted a 28 mm mitral annuloplasty band via open-heart surgery in a 68 kg Yucatan minipig, deliberately oversizing it to create mitral regurgitation, then deployed a 23 mm Edwards SAPIEN Ultra valve transcatheter inside the band using the Commander delivery system — a \"valve-in-band\" approach. The valve achieved stable fixation with no embolization, paravalvular leak, or LVOT obstruction, and echocardiography confirmed resolution of the mitral regurgitation. The authors say the single-animal result demonstrates technical feasibility and acute safety for a transcatheter rescue strategy after failed mitral repair, though larger animal cohorts and longer follow-up are needed before any clinical translation.",
+      "source": "Journal of Clinical Medicine",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 1,
+      "url": "https://www.mdpi.com/2077-0383/15/19/7733"
+    }
+  ]
+}
