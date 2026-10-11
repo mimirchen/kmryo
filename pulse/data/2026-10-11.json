@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "date": "2026-09-28",
+      "title": "Tempus Receives FDA Clearance for its ECG-MR AI Product Designed to Identify Undiagnosed Mitral Regurgitation",
+      "title_zh": "Tempus AI的ECG-MR软件获FDA批准:基于常规12导联心电图筛查疑似中重度二尖瓣反流",
+      "summary_zh": "Tempus AI公司宣布其ECG-MR软件于2026年9月28日获FDA 510(k)许可。该软件读取常规静息12导联心电图,用于提示65岁及以上、具有心血管危险因素患者可能存在中度或重度二尖瓣反流,以便转诊接受超声心动图等进一步评估;不可单独作为诊断依据,也不适用于起搏心律。这是Tempus第四款获FDA许可的心电图AI产品(此前已覆盖心律失常、心功能及肺血管疾病筛查),标志心电图AI筛查正进一步扩展至瓣膜病领域,有望帮助更多未被诊断的二尖瓣反流患者更早进入专科评估路径。",
+      "summary_en": "Tempus AI announced on September 28, 2026 that its ECG-MR software received FDA 510(k) clearance. The tool analyzes a standard resting 12-lead ECG to flag signs consistent with moderate or severe mitral regurgitation in patients aged 65 and older with cardiovascular risk factors, prompting referral for further evaluation such as echocardiography; it is not a stand-alone diagnostic tool and should not be used with paced rhythms. It is Tempus's fourth FDA-cleared ECG-AI product, following tools for arrhythmia, cardiac function, and pulmonary vascular disease, extending ECG-based AI screening into valvular heart disease and potentially helping identify undiagnosed MR patients earlier for specialist referral.",
+      "source": "Tempus AI",
+      "type": "regulatory",
+      "topic": "Imaging",
+      "weight": 3,
+      "url": "https://www.tempus.com/news/pr/tempus-receives-fda-clearance-for-its-ecg-mr-ai-product-designed-to-identify-undiagnosed-mitral-regurgitation/"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Transcatheter Edge-to-Edge Repair in Older Adults With Mitral and Tricuspid Valve Disease",
+      "title_zh": "综述:高龄患者二尖瓣/三尖瓣经导管缘对缘修复(TEER)——建议将衰弱评估纳入围术期常规",
+      "summary_zh": "发表于《Circulation: Cardiovascular Interventions》(2026年9月11日在线)的一篇综述指出,随着人口老龄化,越来越多合并显著二尖瓣或三尖瓣反流的高龄患者因衰弱及多种合并症而不适合外科手术。作者系统梳理现有随机对照试验与注册研究证据,认为经导管缘对缘修复(TEER)在不同年龄层患者中均能持续降低反流程度、改善心功能并减少心衰再住院,安全性可接受;但建议常规纳入衰弱、认知功能、营养状态及多重用药等老年综合评估工具,以更精准筛选适合介入治疗的高龄患者并优化围术期管理。",
+      "summary_en": "A review published online September 11, 2026 in Circulation: Cardiovascular Interventions notes that as populations age, a growing number of older adults with significant mitral or tricuspid regurgitation are poor surgical candidates because of frailty and multiple comorbidities. Drawing on randomized trial and registry evidence, the authors conclude that transcatheter edge-to-edge repair (TEER) provides durable regurgitation reduction, functional improvement, and fewer heart-failure hospitalizations with acceptable safety across age groups, but argue that geriatric assessment tools for frailty, cognition, nutrition, and polypharmacy should be incorporated routinely to better select candidates and optimize periprocedural care.",
+      "source": "Circulation: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 2,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42723624/"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Canon Launches New TAVR Technology to Help Structural Heart Programs Meet Rising Demand",
+      "title_zh": "佳能医疗推出Vitrea TAVR Assist+软件,自动化TAVR术前CT测量流程以应对手术量增长",
+      "summary_zh": "据Cardiovascular Business 2026年10月6日报道,佳能医疗信息(Canon Medical Informatics)正式推出其Vitrea高级可视化平台新应用——TAVR Assist+。这款工作流自动化软件可自动完成TAVR术前CT规划中的关键测量,包括瓣环平面、瓣环径、冠脉开口高度、左心室流出道、主动脉窦及主动脉根部角度等,同时保留临床医生对测量结果的最终核实与把控。公司将其定位为应对TAVR手术量持续增长、结构性心脏病中心读片与人力负荷上升的效率工具,是CMS近期扩大TAVR覆盖范围背景下影像与AI工具链布局的最新一步。",
+      "summary_en": "Canon Medical Informatics has launched Vitrea TAVR Assist+, a new workflow-automation application for its Vitrea Advanced Visualization platform, Cardiovascular Business reported on October 6, 2026. The tool automates key pre-procedural CT measurements for TAVR planning -- including the valve plane, annulus, coronary ostia height, left ventricular outflow tract, sinuses of Valsalva, and aortic root angle -- while keeping clinicians in control of final review. Canon positions it as an efficiency tool for structural heart programs facing rising TAVR case volumes and reading workload, arriving as CMS's recent expansion of TAVR coverage is expected to further increase demand.",
+      "source": "Cardiovascular Business",
+      "type": "industry",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/canon-tavr-structural-heart-rising-demand"
+    }
+  ]
+}
