@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "date": "2026-01-15",
+      "title": "Challenges in the Timely Management of Severe Aortic Stenosis: A Multicentre Analysis of Delayed Transcatheter Aortic Valve Implantation Referrals and Gender Disparities",
+      "title_zh": "欧洲三中心研究:重度主动脉瓣狭窄转诊TAVI存在性别差距——女性确诊延迟约3个月,男性约1个月",
+      "summary_zh": "《European Heart Journal - Valvular and Structural Heart Disease》发表的一项多中心观察性研究,纳入欧洲三个中心2023年因重度症状性主动脉瓣狭窄转诊接受TAVI的519例患者(女性占46.1%)。结果显示,女性从症状出现到确诊的诊断延迟显著长于男性(约3个月对约1个月),且中心间差异明显;但一旦完成转诊,女性与男性从诊断到TAVI手术的等待时间及术后结局均相近。研究提示,主动脉瓣狭窄诊疗中的性别差距主要出现在疾病识别与转诊环节,而非TAVI通路本身,为优化早期筛查流程提供了依据。",
+      "summary_en": "A multicentre observational study in the European Heart Journal - Valvular and Structural Heart Disease analyzed 519 patients (46.1% women) referred for TAVI with severe symptomatic aortic stenosis across three European centres in 2023. Women experienced substantially longer diagnostic delays from symptom onset to diagnosis than men (roughly 3 months vs 1 month), with marked variation between centres, yet once referred, time from diagnosis to TAVI and post-procedural outcomes were similar between sexes -- suggesting the sex gap in aortic stenosis care lies mainly in disease recognition and referral rather than in the TAVI pathway itself.",
+      "source": "EHJ - Valvular and Structural Heart Disease",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://academic.oup.com/ehjvshd/article/2/1/xwag009/8489647"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Sex Disparities in In-Hospital Outcomes After Transcatheter Edge-to-Edge Mitral Valve Repair: A National Inpatient Sample Analysis, 2016-2022",
+      "title_zh": "美国NIS数据库分析:二尖瓣TEER术后院内死亡率男女无显著差异,但女性出血与心包填塞更常见",
+      "summary_zh": "Brett Cohen医生团队基于美国全国住院样本(National Inpatient Sample)2016-2022年数据,分析了接受经导管二尖瓣缘对缘修复(M-TEER)的住院患者性别差异,发表于《Structural Heart》。结果显示,女性院内死亡率为1.98%,男性为1.75%,经多因素校正后两者无统计学差异(OR 0.96,95%CI 0.71-1.30);但女性出血及心包填塞发生率更高,且接受ICD/CRT-D装置治疗的比例更低,卒中、心肌梗死、血管并发症及中转外科手术等指标两性相近。作者指出,该研究仅覆盖住院期间结局,出院后的性别差异仍有待观察。",
+      "summary_en": "Using 2016-2022 US National Inpatient Sample data, a team led by Brett Cohen, DO, examined sex differences in in-hospital outcomes after transcatheter edge-to-edge mitral valve repair (M-TEER), published in Structural Heart. In-hospital mortality did not differ significantly between women (1.98%) and men (1.75%) after multivariable adjustment (OR 0.96, 95% CI 0.71-1.30), though women had higher rates of bleeding and cardiac tamponade and were less likely to receive an ICD/CRT-D device; stroke, myocardial infarction, vascular complications, and surgical conversion were similar between sexes. The authors note the analysis captures only in-hospital outcomes, leaving post-discharge sex differences unassessed.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://doi.org/10.1016/j.shj.2026.101098"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Valve Migration After EVOQUE in Annuloplasty Band Rescued With SAPIEN-in-EVOQUE Strategy",
+      "title_zh": "病例报告:EVOQUE三尖瓣在既往成形环内发生移位,经导管植入SAPIEN瓣中瓣成功抢救",
+      "summary_zh": "《Structural Heart》刊载一则病例报告:一名37岁女性曾于2015年接受31mm Duran AnCore三尖瓣成形环手术,后因三尖瓣反流植入48mm EVOQUE经导管三尖瓣,随访中出现进行性瓣周漏及瓣架部分向心室内移位、嵌顿。术者采用双重套扎稳定瓣架,在EVOQUE瓣架内植入29mm SAPIEN完成瓣中瓣抢救,避免了外科手术。作者认为既往成形环内瓣叶捕获不完全可能是EVOQUE移位的诱因。该病例与近期一项MAUDE不良事件数据库分析相呼应——该分析发现EVOQUE相关不良事件中装置错位/移位/栓塞占20.9%(33/158例),造成6例死亡,提示该并发症虽不常见但需警惕。",
+      "summary_en": "A case report in Structural Heart describes a 37-year-old woman who had undergone tricuspid annuloplasty with a 31-mm Duran AnCore band in 2015 and later received a 48-mm EVOQUE transcatheter tricuspid valve for tricuspid regurgitation. On follow-up she developed progressive paravalvular leak with partial ventricular migration and entrapment of the valve frame. Operators stabilized the frame with dual snare support and rescued the valve percutaneously with a 29-mm SAPIEN valve-in-valve inside the EVOQUE, avoiding surgery; the authors suggest incomplete leaflet capture within the prior annuloplasty band may have contributed to migration. The case echoes a recent MAUDE database review finding device malposition, migration, or embolization in 20.9% (33/158) of reported EVOQUE adverse events, with 6 associated deaths.",
+      "source": "Structural Heart",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 2,
+      "url": "https://www.structuralheartjournal.org/article/S2474-8706(26)00303-9/fulltext"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "The Most Innovative Medical Devices of 2026 (Prix Galien USA Nominees)",
+      "title_zh": "2026年美国盖伦奖「最佳医疗技术」提名揭晓:SAPIEN M3与TriClip G4双双入围",
+      "summary_zh": "盖伦基金会公布2026年度美国盖伦奖(Prix Galien USA)「最佳医疗技术」提名名单,共23款创新医疗器械入围,其中两款结构性心脏病器械获提名:爱德华生命科学的SAPIEN M3经导管二尖瓣置换系统(2026年初获FDA批准,首款经房间隔入路的经导管二尖瓣置换系统)与雅培的TriClip G4三尖瓣缘对缘修复系统。最终获奖名单将于2026年10月29日的颁奖典礼上公布,被视为业界对近年二尖瓣与三尖瓣介入治疗商业化进展的阶段性认可。",
+      "summary_en": "The Galien Foundation announced its 2026 Prix Galien USA 'Best Medical Technology' nominees, naming 23 innovative devices overall, including two structural heart devices: Edwards Lifesciences' SAPIEN M3 transcatheter mitral valve replacement system (FDA-approved in early 2026 as the first transseptal transcatheter mitral valve replacement system) and Abbott's TriClip G4 tricuspid edge-to-edge repair system. Winners will be revealed at the awards ceremony on October 29, 2026, marking industry recognition of recent commercial progress in mitral and tricuspid transcatheter therapies.",
+      "source": "Medical Design and Outsourcing",
+      "type": "industry",
+      "topic": "Other",
+      "weight": 1,
+      "url": "https://www.medicaldesignandoutsourcing.com/most-innovative-medical-devices-2026-prix-galien/"
+    }
+  ]
+}
