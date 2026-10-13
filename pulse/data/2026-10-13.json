@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "date": "2026-08-31",
+      "title": "CLOSURE-AF: Worse Outcomes With LAAO Driven by Results in Women",
+      "title_zh": "ESC 2026最新亚组分析:CLOSURE-AF试验中左心耳封堵疗效不及药物治疗,主要由女性患者结局驱动",
+      "summary_zh": "在2026年8月31日ESC年会(慕尼黑)late-breaking环节公布的CLOSURE-AF-DZHK-16性别亚组分析显示,此前发表的CLOSURE-AF试验(左心耳封堵未能证明不劣于强化药物治疗)的总体阴性结果几乎完全由女性患者驱动:按性别分层后,女性接受左心耳封堵(LAAO)的结局显著劣于药物治疗组,主要源于心血管/不明原因死亡增加;男性两组结局则相近。主讲人Ingo Eitel教授指出,女性总体卒中发生率反而更低,两性在手术成功率与围术期并发症方面无明显差异,提示当代强化药物治疗(含新型口服抗凝药)可能对女性患者获益更大,但具体机制尚不明确。他强调这是探索性亚组分析,结果需谨慎解读,但已促使业界重新审视女性房颤患者中左心耳封堵的适应证选择。",
+      "summary_en": "A sex-specific substudy of the CLOSURE-AF trial (CLOSURE-AF-DZHK-16), presented as a late-breaking analysis at ESC Congress 2026 in Munich on August 31, found that the trial's previously reported failure of left atrial appendage occlusion (LAAO) to achieve noninferiority against intensified medical therapy was driven almost entirely by results in women: women randomized to LAAO fared significantly worse than those on medical therapy, mainly due to more cardiovascular or unexplained deaths, while outcomes in men were similar between arms. Presenter Ingo Eitel, MD, noted that women actually had a lower overall stroke incidence and that procedural success and periprocedural complications did not differ by sex, suggesting contemporary intensive medical therapy (including NOACs) may be particularly effective in women -- though the reason remains unclear. Eitel cautioned this is an exploratory substudy requiring careful interpretation, but the finding has already prompted renewed debate over patient selection for LAAO in women with atrial fibrillation.",
+      "source": "TCTMD",
+      "type": "conference",
+      "topic": "LAA",
+      "weight": 3,
+      "url": "https://www.tctmd.com/news/closure-af-worse-outcomes-laao-driven-results-women"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "This Week in Cardiology, October 09, 2026",
+      "title_zh": "Medscape《本周心脏病学》播客:Mandrola批评EARLY TAVR主要终点\"存在明显偏倚\",为CMS扩大TAVR保险覆盖的证据基础引发争议",
+      "summary_zh": "在2026年10月9日发布的Medscape《本周心脏病学》播客中,专栏作者John Mandrola医生对EARLY TAVR随机对照试验的复合主要终点提出尖锐批评,称其为\"我见过最有偏倚的终点之一\"。他指出,该复合终点主要由住院事件驱动而非死亡或重大致残,且方案预先将观察组患者6个月内接受TAVR的情形计入\"非计划心血管住院\";此前全国健康倡导中心(NCHR)的评审也曾指出,无症状患者的症状自我报告(常触发交叉至TAVI组)易受患者预期与对随机分组不满等心理因素影响。数据显示,早期TAVI组非计划住院率为20.9%,显著低于临床观察组的41.7%,但全因死亡率差异未达统计学显著性。该批评正值美国CMS今年9月已依据EARLY TAVR证据将医保覆盖扩大至无症状重度主动脉瓣狭窄患者之后,凸显业界对\"提前介入\"证据强度仍存分歧。",
+      "summary_en": "In the October 9, 2026 episode of Medscape's 'This Week in Cardiology' podcast, columnist John Mandrola, MD, sharply criticized the composite primary endpoint of the EARLY TAVR randomized trial, calling it 'one of the most biased endpoints I've seen.' He argued the endpoint was driven mainly by hospitalizations rather than death or major disability, and that the protocol prespecified counting a surveillance-arm patient's TAVR within 6 months as an 'unplanned cardiovascular hospitalization' -- echoing an earlier National Center for Health Research critique that self-reported symptoms triggering crossover in an open-label trial of asymptomatic patients may reflect expectation bias or dissatisfaction with randomization rather than true clinical need. Reported figures show unplanned hospitalization at 20.9% with early TAVI versus 41.7% with surveillance, while the difference in all-cause mortality was not statistically significant. The critique lands weeks after CMS, citing EARLY TAVR evidence, expanded Medicare TAVR coverage to asymptomatic severe aortic stenosis in September, underscoring continuing disagreement over how strong that evidence base really is.",
+      "source": "Medscape",
+      "type": "news",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.medscape.com/p04/oct-09-2026-this-week-cardiology-podcast-2026a100120j"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "SCCT: Photon-Counting CT a New Standard for Assessing CAD Prior to TAVR?",
+      "title_zh": "SCCT 2026会议报告:光子计数CT在TAVR术前冠脉评估中特异性与阳性预测值显著优于传统能量积分CT",
+      "summary_zh": "在2026年美国心血管CT学会(SCCT)年会(7月9-12日,加州)上公布的一项回顾性研究,比较了光子计数探测器CT(PCD-CT,546例)与传统能量积分探测器CT(EID-CT,581例)在TAVR术前冠脉CT血管成像中对显著冠心病的诊断表现。结果显示,PCD-CT检测显著冠状动脉疾病的特异性与阳性预测值均显著优于传统EID-CT,研究者将其归因于超高分辨率采集减少了支架及重度钙化造成的blooming伪影干扰。该研究为会议报告形式,尚未经同行评审全文发表,但延续了此前多项单中心小样本研究(如2023年《Radiology》68例研究报告96%敏感性、84%特异性)的结论,进一步支持光子计数CT作为TAVR术前评估合并冠心病的潜在新标准。",
+      "summary_en": "A retrospective study presented at the Society of Cardiovascular Computed Tomography (SCCT) 2026 annual meeting (July 9-12, San Diego) compared photon-counting detector CT (PCD-CT, 546 patients) with conventional energy-integrating detector CT (EID-CT, 581 patients) for coronary CT angiography before TAVR. PCD-CT showed significantly higher specificity and positive predictive value for detecting significant coronary artery disease, which investigators attributed largely to ultra-high-resolution acquisition reducing blooming artifact from stents and heavy calcification. The findings are conference-presented and not yet published in full peer-reviewed form, but they extend earlier smaller single-center studies (including a 2023 Radiology study of 68 patients reporting 96% sensitivity and 84% specificity) supporting photon-counting CT as a potential new standard for pre-TAVR coronary assessment.",
+      "source": "Diagnostic Imaging",
+      "type": "conference",
+      "topic": "Imaging",
+      "weight": 2,
+      "url": "https://www.diagnosticimaging.com/view/scct-photon-counting-ct-new-standard-assessing-cad-prior-to-tavr-"
+    }
+  ]
+}
