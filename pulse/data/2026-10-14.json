@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "date": "2026-09-15",
+      "title": "CMS Finalizes Updated TAVR National Coverage Determination",
+      "title_zh": "CMS正式发布TAVR医保覆盖新规:有症状重度主动脉瓣狭窄取消\"循证收集\"限制,医院例数门槛与强制登记注册要求一并取消",
+      "summary_zh": "美国医保与医疗救助服务中心(CMS)于2026年9月正式发布更新后的TAVR全国覆盖决定(NCD):对有症状重度主动脉瓣狭窄患者,TAVR不再需要\"附条件证据收集\"(CED)即可获得医保覆盖;无症状重度主动脉瓣狭窄患者仍仅限于CMS认可的CED研究方可覆盖,但ACC指出目前尚无此类已获批研究,故该人群暂未实际获得覆盖。新规同时取消了长期存在的\"双术者\"强制要求(由心脏团队自行决定是否需要一名介入心脏科医生与一名心脏外科医生共同操作)、医院TAVR手术量门槛,以及将注册登记作为医保覆盖前提的要求(医院仍需保持持续质量改进机制)。ACC、STS与SCAI联合声明对CMS此次更新表示认可,认为其更贴合当前TAVR作为重度主动脉瓣狭窄治疗\"基石\"的临床地位。",
+      "summary_en": "In September 2026, CMS finalized an updated national coverage determination (NCD) for TAVR: symptomatic severe aortic stenosis patients are now covered without the prior coverage-with-evidence-development (CED) requirement, while asymptomatic severe AS remains covered only under CMS-approved CED studies -- none of which currently exist, so that population is not yet actually covered. The policy also drops the long-standing dual-operator mandate (letting the heart team decide whether an interventional cardiologist and a cardiac surgeon must jointly perform each case), eliminates hospital TAVR volume thresholds, and removes mandatory registry participation as a coverage condition (hospitals must still run a continuous quality-improvement process). ACC, STS, and SCAI issued a joint statement welcoming the update as better matching TAVR's current role as a cornerstone therapy for severe aortic stenosis.",
+      "source": "ACC",
+      "type": "regulatory",
+      "topic": "TAVI",
+      "weight": 5,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/09/15/18/42/cms-finalizes-updated-tavr-national-coverage-determination"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "FDA Approves JenaValve's Trilogy for Aortic Regurgitation",
+      "title_zh": "FDA批准JenaValve Trilogy瓣膜系统:全球首款专用于主动脉瓣反流的经导管心脏瓣膜在美获批",
+      "summary_zh": "2026年3月18日,FDA批准JenaValve公司Trilogy经导管心脏瓣膜系统(THV)上市,适应证为外科手术高危及以上、有症状的重度原发性主动脉瓣反流(AR)患者,是美国首款、也是目前唯一专门针对主动脉瓣反流(而非主动脉瓣狭窄)获批的经导管瓣膜。获批依据为ALIGN-AR关键性试验扩展队列(约700例患者)数据:企业方报告30天卒中率0.6%、全因死亡率1.6%,1年全因死亡率7.7%,显著优于预设25%的性能目标(达成优效);30天复合安全终点发生率24%,低于40.5%的预设目标(达成非劣效)。需注意ACC会议报告给出的30天卒中率为1.7%,与企业新闻稿数据存在差异,具体以同行评审全文为准。该瓣膜此前已于2021年获欧盟CE认证,在欧洲完成逾1200例商业植入;Edwards Lifesciences曾计划收购JenaValve,但该交易因美国联邦贸易委员会(FTC)以反垄断为由提起诉讼而未能完成,JenaValve最终独立推进并获得此次FDA批准。",
+      "summary_en": "On March 18, 2026, the FDA approved JenaValve's Trilogy transcatheter heart valve (THV) system for symptomatic, severe native aortic regurgitation (AR) in patients at high or greater surgical risk -- the first and only transcatheter valve approved in the US specifically for AR rather than aortic stenosis. Approval rested on the expanded ALIGN-AR pivotal cohort (roughly 700 patients): the company reported a 30-day stroke rate of 0.6% and all-cause mortality of 1.6%, with 1-year all-cause mortality of 7.7%, significantly beating the prespecified 25% performance goal (superiority met), and a 30-day composite safety endpoint of 24% against a 40.5% goal (non-inferiority met). Note that an ACC meeting summary of the same trial reported a higher 30-day stroke rate of 1.7%, a discrepancy with the company's release that isn't yet resolved in the peer-reviewed literature. Trilogy previously earned CE Mark in 2021 and has been used in over 1,200 commercial European procedures; Edwards Lifesciences' planned acquisition of JenaValve collapsed after the FTC sued to block it on antitrust grounds, leaving JenaValve to bring Trilogy to FDA approval independently.",
+      "source": "TCTMD",
+      "type": "regulatory",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/fda-approves-jenavalves-trilogy-aortic-regurgitation"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Automated Alerts to Improve Timely Evaluation and Treatment of Valvular Heart Disease: The ALERT Trial",
+      "title_zh": "ALERT整群随机对照试验(JACC):电子病历AI自动预警使重度主动脉瓣狭窄/二尖瓣反流患者90天内瓣膜干预率提升40%",
+      "summary_zh": "由Medtronic与Tempus AI联合开展、发表于《美国心脏病学会杂志》(JACC)并同期在2026年ACC年会公布的ALERT试验,是一项覆盖美国5家医疗系统、35家医院、765名开具超声心动图医生、共2016份含重度主动脉瓣狭窄(AS)或二尖瓣反流(MR)异常所见的超声报告的整群随机对照试验。试验将临床医生随机分为接受电子病历内AI自动预警(基于Tempus Next平台识别超声报告中的重度瓣膜病变)与常规诊疗两组。结果显示,预警组在90天内接受瓣膜干预(含TAVR)的比例为13.4%,显著高于常规诊疗组的9.6%(相对提升约40%,P=0.005);接受心脏团队多学科评估的比例为22.7%,高于对照组17.9%(P=0.005);复合主要终点的胜率(win ratio)为1.27(95%CI 1.05-1.65,P=0.007)。研究者指出,该研究延续了此前单中心DETECT-AS研究的思路,旨在借助自动化、不依赖人工判断的预警系统,缩小结构性心脏病诊疗中长期存在的种族与医疗可及性差距(企业方援引数据称目前美国约九成TAVR手术患者为白人)。",
+      "summary_en": "The ALERT trial, run by Medtronic and Tempus AI and published in the Journal of the American College of Cardiology (JACC) with simultaneous presentation at ACC.26, was a cluster-randomized trial spanning 5 US health systems and 35 hospitals, covering 765 clinicians who ordered 2,016 echocardiograms flagging severe aortic stenosis (AS) or mitral regurgitation (MR). Clinicians were randomized to receive an automated, AI-driven EHR alert (built on the Tempus Next platform to flag significant valve disease on echo reports) or usual care. At 90 days, the alert arm had a valve-intervention rate (including TAVR) of 13.4% versus 9.6% with usual care (a roughly 40% relative increase, P=0.005), and a multidisciplinary heart-team evaluation rate of 22.7% versus 17.9% (P=0.005); the hierarchical composite primary endpoint favored the alert arm with a win ratio of 1.27 (95% CI, 1.05-1.54, P=0.007). The authors frame ALERT as a multisite follow-on to the single-center DETECT-AS study, aimed at using automated, judgment-independent alerts to narrow persistent racial and access disparities in structural heart care -- the sponsors cite data showing roughly 90% of current US TAVR recipients are white.",
+      "source": "JACC",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 3,
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.037"
+    }
+  ]
+}
