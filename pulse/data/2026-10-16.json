@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "date": "2026-04-15",
+      "title": "Real-World Outcomes of Transcatheter Tricuspid Valve Replacement: Analysis From the STS/ACC TVT Registry",
+      "title_zh": "JAMA发表STS/ACC TVT登记研究:EVOQUE经导管三尖瓣置换\"真实世界\"数据显示手术成功率超98%,出血与起搏器植入风险低于关键性试验",
+      "summary_zh": "由Makkar等主导、发表于《美国医学会杂志》(JAMA)的STS/ACC TVT登记研究,回顾性分析了2024年2月至2025年3月间美国82家中心共1034例接受EVOQUE经导管三尖瓣置换(TTVR)治疗的重度三尖瓣反流(TR)患者(平均年龄77.1岁,69.1%为女性)。结果显示手术成功率超过98%,30天时97%以上患者TR降至轻度及以下;30天全因死亡率3.1%、卒中0.2%、严重出血7.9%,出血及新发永久起搏器植入比例均低于此前TRISCEND II关键性随机对照试验报告的水平(严重出血10.4%)。作者同时提醒,该登记研究未设同期对照组、超声影像亦缺乏核心实验室统一判读,TTVR的长期耐久性与真实世界获益仍需更长随访验证。",
+      "summary_en": "A retrospective STS/ACC TVT Registry analysis led by Makkar and colleagues, published in JAMA, examined 1,034 patients with severe tricuspid regurgitation (TR) treated with the EVOQUE transcatheter tricuspid valve replacement (TTVR) system at 82 US centers between February 2024 and March 2025 (mean age 77.1 years, 69.1% women). Procedural success exceeded 98%, and more than 97% of patients had mild or lesser TR at 30 days. Thirty-day rates were 3.1% for all-cause mortality, 0.2% for stroke, and 7.9% for severe bleeding -- bleeding and new permanent pacemaker rates both came in lower than in the pivotal TRISCEND II randomized trial (10.4% severe bleeding). The authors cautioned that the registry lacked a concurrent comparator arm and core-laboratory echocardiographic adjudication, so TTVR's long-term durability and real-world benefit still need longer follow-up.",
+      "source": "JAMA",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 4,
+      "url": "https://doi.org/10.1001/jama.2026.3446"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "10-Year Outcomes of SAPIEN 3 Transcatheter Aortic Valve Replacement or Surgery in Intermediate-Risk Patients",
+      "title_zh": "JACC发表P2S3i登记10年随访:新一代SAPIEN 3瓣膜TAVR与外科手术10年死亡率、再介入率相近,与二代瓣膜曾现的远期劣势形成对比",
+      "summary_zh": "发表于2026年6月16日JACC专题刊的一项倾向性评分匹配分析,将PARTNER 2 SAPIEN 3中危登记研究(P2S3i)中的TAVR患者与PARTNER 2A试验中的外科手术患者进行比较:共2005例患者(TAVR 1069例、手术936例)纳入分析,匹配后每组783例。结果显示,10年全因死亡率TAVR组83.4%、手术组82.3%,两组相近(HR 1.01,95%CI 0.91-1.13,P=0.82);主动脉瓣再介入率分别为2.0%与1.9%(P=0.47),同样无显著差异。这与同期发表的PARTNER 2A二代SAPIEN XT瓣膜配对分析形成对照——后者10年全因死亡率TAVR组86% vs 手术组83%(HR 1.13,P=0.02),再介入率6% vs 2%(P<0.001),TAVR结局显著劣于手术。两篇配对论文提示,瓣膜设计迭代(球扩式三代瓣膜)可能已消除早期经导管瓣膜相对外科手术的远期劣势,但专家同时指出,10年随访期内高龄患者死亡率本身较高,仍需更长期、更新一代瓣膜平台的数据持续验证耐久性结论。",
+      "summary_en": "A propensity-matched analysis published in the June 16, 2026 JACC focus issue compared TAVR patients from the PARTNER 2 SAPIEN 3 Intermediate-Risk registry (P2S3i) with surgical patients from the PARTNER 2A trial: 2,005 patients (1,069 TAVR, 936 surgery) were analyzed, yielding 783 matched pairs. At 10 years, all-cause mortality was similar (83.4% TAVR vs. 82.3% surgery; HR 1.01, 95% CI 0.91-1.13, P=0.82), as was aortic valve reintervention (2.0% vs. 1.9%, P=0.47). That contrasts with a companion PARTNER 2A analysis of the earlier second-generation SAPIEN XT valve published in the same issue, where 10-year all-cause mortality was higher with TAVR (86% vs. 83% surgery; HR 1.13, P=0.02) and reintervention was also higher (6% vs. 2%, P<0.001). Together the two papers suggest that newer balloon-expandable valve design may have closed the late-term gap seen with earlier-generation transcatheter valves versus surgery, though experts caution that high background mortality among elderly patients at 10 years complicates the comparison, and durability conclusions still hinge on longer follow-up of newer valve platforms.",
+      "source": "JACC",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://doi.org/10.1016/j.jacc.2026.03.170"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Reappraising CHAMPION-AF: Does Placebo Meet Noninferiority in Stroke Prevention?",
+      "title_zh": "争议未散:CHAMPION-AF达成\"非劣效\"后,Heart Rhythm再评价文章质疑左心耳封堵卒中预防结论的稳健性",
+      "summary_zh": "在2026年ACC年会发布并同步发表于《新英格兰医学杂志》(NEJM)的CHAMPION-AF试验中,3000例非瓣膜性房颤患者按1:1随机分入Watchman FLX左心耳封堵组或新型口服抗凝药(NOAC)组。3年复合主要终点(心血管死亡、卒中或全身栓塞)封堵组5.7% vs NOAC组4.8%,差异0.9个百分点(95%CI -0.8至2.6),在预设4.8个百分点的非劣效界值内达成非劣效(P<0.001);安全性方面,非手术相关大出血/临床相关非大出血封堵组10.9% vs NOAC组19.0%(相对降低45%)。然而,Heart Rhythm杂志随后刊发的一篇再评价文章对该\"非劣效\"结论提出质疑:若单独拆解卒中终点,封堵组实际发生50例卒中,NOAC组33例,风险比(HR)升至1.46(95%CI 0.94-2.27),提示试验达成整体非劣效很大程度上由出血获益\"稀释\"驱动,而非真正意义上不劣于抗凝的卒中预防效果。这一争议延续了业界对左心耳封堵能否作为房颤卒中预防\"一线疗法\"取代抗凝药物的长期辩论。",
+      "summary_en": "In the CHAMPION-AF trial, presented at ACC.26 and published simultaneously in the New England Journal of Medicine, 3,000 patients with nonvalvular atrial fibrillation were randomized 1:1 to Watchman FLX left atrial appendage closure or a direct oral anticoagulant (NOAC). The 3-year composite primary endpoint (cardiovascular death, stroke, or systemic embolism) occurred in 5.7% of the device arm versus 4.8% of the NOAC arm, a 0.9-percentage-point difference (95% CI, -0.8 to 2.6) that met the prespecified 4.8-point noninferiority margin (P<0.001); on safety, non-procedural major or clinically relevant non-major bleeding was 10.9% with the device versus 19.0% with NOACs (a 45% relative reduction). A reappraisal subsequently published in Heart Rhythm, however, challenges that noninferiority conclusion: broken out on its own, the stroke endpoint showed 50 strokes in the device arm versus 33 in the NOAC arm, a hazard ratio of 1.46 (95% CI, 0.94-2.27) -- suggesting the trial's overall noninferiority result was driven largely by the bleeding advantage diluting the composite, rather than by closure genuinely matching anticoagulation on stroke prevention itself. The critique extends a long-running debate over whether left atrial appendage closure is ready to replace anticoagulation as first-line stroke prevention in atrial fibrillation.",
+      "source": "Heart Rhythm",
+      "type": "journal",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://www.heartrhythmjournal.com/article/S1547-5271(26)02661-5/fulltext"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Anteris Technologies Announces First U.S. Patients Treated in Global Pivotal PARADIGM Trial",
+      "title_zh": "Anteris宣布DurAVR瓣膜全球关键性PARADIGM试验启动美国入组:随机对照头对头比较新型瓣膜与现有TAVR产品",
+      "summary_zh": "2026年5月5日,Anteris Technologies宣布其DurAVR经导管主动脉瓣系统(采用ADAPT组织处理技术的球扩式人工瓣膜)全球关键性PARADIGM试验完成首批美国患者入组与治疗,手术由Azeem Latib医生在纽约Montefiore医学中心完成。该试验为前瞻性、随机对照设计,计划入组约1000例重度钙化性主动脉瓣狭窄患者,以1:1比例随机分配接受DurAVR或市售TAVR瓣膜,主要复合终点为术后1年全因死亡、全部卒中及心血管住院的非劣效性评估。企业方称,美国入组紧随CMS将该试验纳入医保报销范围之后,获批一周内即完成首例入组;试验此前已在丹麦、荷兰等欧洲中心启动,后续计划继续在美国、欧洲及澳大利亚多中心扩大入组。",
+      "summary_en": "On May 5, 2026, Anteris Technologies announced it had enrolled and treated the first U.S. patients in the global pivotal PARADIGM trial of its DurAVR transcatheter heart valve, a balloon-expandable valve built with ADAPT tissue processing technology. The procedures were performed by Azeem Latib, MD, at Montefiore Medical Center in New York. The trial is a prospective, randomized, controlled study expected to enroll roughly 1,000 patients with severe calcific aortic stenosis, randomized 1:1 to DurAVR or a commercially available TAVR valve, with a primary composite endpoint testing noninferiority on all-cause mortality, all stroke, and cardiovascular hospitalization at one year. The company said U.S. enrollment followed CMS Medicare coverage for the trial, with the first U.S. patients enrolled within a week of that approval; enrollment had previously begun at European sites including Denmark and the Netherlands, with further U.S., European, and Australian sites expected to join through 2026.",
+      "source": "Anteris Technologies",
+      "type": "industry",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://announcements.asx.com.au/asxpdf/20260506/pdf/06z93wgy9z4j18.pdf"
+    }
+  ]
+}
