@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "date": "2026-05-20",
+      "title": "EuroPCR 2026: Coronary Revascularisation in Patients Undergoing TAVI — The ARTICA Individual Patient Data Meta-Analysis",
+      "title_zh": "EuroPCR 2026公布ARTICA个体患者数据汇总分析:合并冠心病的TAVI患者中,PCI较单纯药物治疗一年主要不良心血管事件风险降低30%,生理学指导的PCI获益更明确",
+      "summary_zh": "在2026年5月19-22日于巴黎举行的EuroPCR大会上,Roberto Scarsini团队公布了ARTICA个体患者数据汇总分析,汇总包括ACTIVATION、NOTION-3等四项随机对照试验共1050例合并冠心病的重度主动脉瓣狭窄TAVI患者数据(694例接受PCI,其中439例为血流储备分数FFR指导、255例为造影指导;356例仅接受优化药物治疗)。结果显示,PCI组1年主要不良心血管事件(MACE)风险较单纯药物治疗组降低30%(HR 0.70,95%CI 0.49-0.99),主要由再次血运重建减少驱动(HR 0.34,95%CI 0.14-0.80);但纳入出血的净不良临床事件(NACE)两组相近。亚组分析显示,FFR指导的PCI在MACE(HR 0.58)和NACE(HR 0.68)上均优于单纯药物治疗,而造影指导的PCI未显示获益。研究者认为,TAVI患者合并冠心病时常规PCI获益有限,生理学指导的选择性PCI策略可能更优,这一结论与同期中性结果的PRO-TAVI试验相呼应。",
+      "summary_en": "Presented at EuroPCR 2026 (Paris, May 19-22) by Roberto Scarsini and colleagues, the ARTICA individual patient data meta-analysis pooled four randomized trials (including ACTIVATION and NOTION-3) comprising 1,050 patients with severe aortic stenosis and concomitant coronary artery disease undergoing TAVI (694 assigned to PCI -- 439 FFR-guided, 255 angiography-guided -- versus 356 to optimal medical therapy alone). At 1 year, PCI was associated with a 30% lower risk of major adverse cardiovascular events (MACE) versus medical therapy alone (HR 0.70, 95% CI 0.49-0.99), driven mainly by fewer repeat revascularizations (HR 0.34, 95% CI 0.14-0.80), while net adverse clinical events including bleeding (NACE) were similar between groups. FFR-guided PCI showed benefit over medical therapy on both MACE (HR 0.58) and NACE (HR 0.68), whereas angiography-guided PCI did not. The investigators concluded that routine PCI offers only modest benefit in TAVI patients with CAD, and that a selective, physiology-guided strategy may be preferable -- a message consistent with the neutral primary results of the contemporaneous PRO-TAVI trial.",
+      "source": "EuroPCR 2026",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://www.pcronline.com/News/PCR-Press-Releases/2026/EuroPCR-2026-Coronary-revascularisation-in-patients-undergoing-TAVI"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "PCI Before TAVR May Still Be the Safest Strategy for Some Heart Patients",
+      "title_zh": "PRO-TAVI试验SYNTAX评分亚组分析:冠脉病变最复杂的TAVR患者中,\"先PCI后TAVR\"可能仍优于延迟PCI",
+      "summary_zh": "发表于《JACC: Cardiovascular Interventions》、由Gijs M. Broeze(阿姆斯特丹大学医学中心)领衔的PRO-TAVI试验SYNTAX评分亚组分析,纳入466例合并显著冠心病的TAVR患者,按基线SYNTAX评分高低分层比较\"TAVR前PCI\"与\"延迟PCI\"两种策略。总体上,1年复合终点(全因死亡、心梗、卒中、大出血)在各SYNTAX评分组间无显著差异,延迟PCI组出血事件持续更少;但在冠脉病变最复杂的最高SYNTAX评分组中,延迟PCI组死亡/心梗/卒中复合终点达30.9%,显著高于即刻PCI组的14.8%。作者据此提出,冠心病复杂程度应纳入TAVR患者的PCI决策,但该结论源于亚组分析,仍需随机对照研究证实。",
+      "summary_en": "A SYNTAX-score subanalysis of the PRO-TAVI trial, led by Gijs M. Broeze (Amsterdam UMC) and published in JACC: Cardiovascular Interventions, examined 466 TAVR patients with significant coronary artery disease, comparing PCI before TAVR versus deferred PCI stratified by baseline SYNTAX score. Overall, the 1-year composite endpoint (all-cause death, MI, stroke, major bleeding) did not differ significantly across SYNTAX-score categories, and deferred PCI was consistently linked to less bleeding. However, in the highest-complexity SYNTAX subgroup, the death/MI/stroke composite was 30.9% with deferred PCI versus 14.8% with immediate PCI. The authors suggest that the extent of coronary disease should factor into PCI-timing decisions in TAVR patients with CAD, though they caution the finding comes from a subgroup analysis and needs confirmation in randomized trials.",
+      "source": "JACC: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/pci-tavr-may-still-be-safest-strategy-some-heart-patients"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Artificial Intelligence–Enabled Acquisition and Interpretation for Screening Aortic Stenosis",
+      "title_zh": "JAMA Cardiology发表梅奥诊所研究:AI引导无经验操作者完成心脏超声筛查,中重度主动脉瓣狭窄检测特异性达99.7%",
+      "summary_zh": "梅奥诊所团队(Lee、Naser、Kane等)在《JAMA Cardiology》发表研究,开发并验证了一套人工智能(AI)系统,可同时指导超声探头采集并自动判读聚焦心脏超声(FoCUS)图像,以筛查中度及以上主动脉瓣狭窄。系统先在602例由经验丰富的超声医师采集的图像上验证,再前瞻性纳入1302例由9名此前无任何临床或超声经验、仅接受4小时培训的研究人员采集的图像进行测试。结果显示,AI对中重度主动脉瓣狭窄识别的敏感性85.4%、特异性99.7%、阳性预测值91.1%、阴性预测值99.4%;引入\"AI阳性或图像质量不佳者交由专家复核\"的两步工作流程后,阳性预测值进一步提升,且仅需专家复核约10%的检查。作者强调该工具定位为社区筛查而非确诊手段,意在扩大主动脉瓣狭窄的早期发现覆盖面。",
+      "summary_en": "A Mayo Clinic team (Lee, Naser, Kane, and colleagues) reported in JAMA Cardiology the development and validation of an AI system that both guides probe acquisition and automatically interprets focused cardiac ultrasound (FoCUS) images to screen for moderate-or-greater aortic stenosis. The algorithm was first validated on 602 exams acquired by experienced sonographers, then tested prospectively on 1,302 exams acquired by nine research staff with no prior clinical or ultrasound experience who received only four hours of training. For detecting moderate-or-greater aortic stenosis, sensitivity was 85.4%, specificity 99.7%, positive predictive value 91.1%, and negative predictive value 99.4%. A two-step workflow routing AI-positive or technically inadequate studies to expert review further improved positive predictive value while requiring expert review of only about 10% of exams. The authors frame the tool as a community screening aid rather than a diagnostic replacement, aimed at widening early detection of aortic stenosis.",
+      "source": "JAMA Cardiology",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 4,
+      "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2853493"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Left Atrial Appendage Closure During Open-Heart Surgery Only Beneficial for High-Risk Patients: The LAACS-2 Trial",
+      "title_zh": "ESC 2026公布LAACS-2试验:心脏外科手术同期左心耳封堵未显著降低全部患者卒中风险,但卒中高危亚组相对风险降低66%",
+      "summary_zh": "在2026年8月29日至9月1日于慕尼黑举行的欧洲心脏病学会(ESC)年会上公布的LAACS-2试验,是一项多中心、随机、开放标签的优效性试验,纳入接受择期心脏外科手术的成年患者(含有无房颤病史者),比较常规同期外科左心耳封堵与不封堵。总体人群中,封堵未能显著降低卒中发生率,ESC官方声明指出结果不支持对所有接受心脏手术的患者常规施行左心耳封堵。但在预设的高卒中风险亚组(CHA2DS2-VASc评分≥3分)中,封堵组卒中相对风险降低66%(95%CI 0.20-0.90,P=0.01)。研究者强调该亚组结果为预设但非主要比较,属于假设生成性质,现行指南仅推荐对已确诊房颤患者行外科左心耳封堵,该试验将继续随访以明确长期获益。",
+      "summary_en": "The LAACS-2 trial, presented at the European Society of Cardiology (ESC) Congress 2026 in Munich (August 29-September 1), was a multicenter, randomized, open-label superiority trial enrolling adults undergoing planned cardiac surgery (with or without a history of atrial fibrillation), comparing routine concomitant surgical left atrial appendage closure versus no closure. In the overall population, closure did not significantly reduce stroke, and the ESC's own press release states the results do not support routine LAA closure in all patients undergoing planned cardiac surgery. However, in a prespecified high-risk subgroup (CHA2DS2-VASc score ≥3), closure was associated with a 66% relative reduction in stroke (95% CI 0.20-0.90, P=0.01). The investigators caution that this subgroup finding, while prespecified, is hypothesis-generating rather than the primary comparison; current guidelines recommend surgical LAA closure only in patients with established AF, and follow-up continues to clarify long-term benefit.",
+      "source": "ESC Congress 2026",
+      "type": "conference",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://www.escardio.org/news/press/press-releases/left-atrial-appendage-closure-during-open-heart-surgery-only-beneficial-for-high-risk-patients/"
+    }
+  ]
+}
