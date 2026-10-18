@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "date": "2026-06-24",
+      "title": "Seven-Year Valve Durability With Transcatheter or Surgical Aortic Valve Replacement: An Ad Hoc Analysis of the PARTNER 3 Randomized Clinical Trial",
+      "title_zh": "PARTNER 3试验7年随访事后分析:低危重度主动脉瓣狭窄患者中,经导管与外科主动脉瓣置换远期瓣膜耐久性相近",
+      "summary_zh": "发表于《JAMA Cardiology》、由Julien Ternacle等人完成的PARTNER 3试验事后分析,纳入该随机对照试验中接受球囊扩张式SAPIEN 3瓣膜经导管主动脉瓣置换(TAVR,495例)或外科主动脉瓣置换(SAVR,453例)的低危重度主动脉瓣狭窄患者,比较两组7年瓣膜耐久性。结果显示,结构性瓣膜退化、瓣膜相关心内膜炎(TAVR组0.4% vs SAVR组0.5%)及因瓣膜衰败需再次干预的发生率在两组均处于低位且相近;存活患者中7年免于全因瓣膜衰败比例TAVR组为73%、SAVR组为75%。TAVR组血栓相关瓣膜功能障碍在早期更常见,但多数可逆,极少进展为瓣膜衰败或需要再次干预。同期述评将该结果称为低危人群TAVR远期表现的\"令人安心的证据\"。",
+      "summary_en": "An ad hoc analysis of the PARTNER 3 randomized trial, led by Julien Ternacle and colleagues and published in JAMA Cardiology, compared 7-year valve durability between 495 low-risk patients with severe aortic stenosis who received balloon-expandable SAPIEN 3 TAVR and 453 who underwent surgical aortic valve replacement. Structural valve deterioration, endocarditis-related valve dysfunction (0.4% with TAVR vs 0.5% with surgery), and all-cause bioprosthetic valve failure requiring reintervention were low and similar between groups; freedom from all-cause valve failure among survivors at 7 years was 73% with TAVR versus 75% with surgery. Thrombosis-related valve dysfunction was more common early after TAVR but was mostly reversible and rarely progressed to failure or reintervention. An accompanying editorial called the findings reassuring evidence of durable long-term TAVR performance in low-risk patients.",
+      "source": "JAMA Cardiology",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://doi.org/10.1001/jamacardio.2026.2299"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Temporal Trends in Transcatheter Tricuspid Valve Interventions After FDA Approval in the United States",
+      "title_zh": "JACC: Advances发表美国真实世界数据:FDA批准后经导管三尖瓣介入快速放量,TTVR死亡率、出血及起搏器置入率均高于T-TEER",
+      "summary_zh": "发表于《JACC: Advances》、由Rawlley、Gupta等人基于Vizient临床数据库完成的美国真实世界分析,纳入2024年10月至2025年12月期间180家医院的2143例经导管三尖瓣缘对缘修复(T-TEER)和113家医院的1301例经导管三尖瓣置换(TTVR)病例。期间TTVR占全部经导管三尖瓣介入的比例从31.9%升至41.6%,两类手术月度例数均持续攀升。院内死亡率T-TEER为0.5%、TTVR为2.0%;大出血发生率T-TEER为6.0%、TTVR为12.4%;TTVR组11.3%患者新植入永久起搏器。作者指出患者基线合并症与此前关键性临床试验人群相近,提示FDA批准后美国临床实践已迅速普及三尖瓣介入治疗,但TTVR围术期风险仍明显高于T-TEER,需在选择治疗策略时加以权衡。",
+      "summary_en": "A US real-world analysis published in JACC: Advances by Rawlley, Gupta, and colleagues, drawing on the Vizient Clinical Data Base, examined 2,143 transcatheter tricuspid edge-to-edge repair (T-TEER) procedures at 180 hospitals and 1,301 transcatheter tricuspid valve replacement (TTVR) procedures at 113 hospitals between October 2024 and December 2025. TTVR's share of all tricuspid interventions rose from 31.9% to 41.6% over the period, with monthly volumes of both procedures climbing steadily. In-hospital mortality was 0.5% after T-TEER versus 2.0% after TTVR; major bleeding occurred in 6.0% of T-TEER versus 12.4% of TTVR patients; and 11.3% of TTVR patients required a new permanent pacemaker. The authors note that baseline comorbidities resembled those of the pivotal trial populations, suggesting rapid real-world uptake of tricuspid interventions since FDA approval, though TTVR carries meaningfully higher periprocedural risk than T-TEER that should factor into treatment selection.",
+      "source": "JACC: Advances",
+      "type": "journal",
+      "topic": "Tricuspid",
+      "weight": 3,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772963X26006873"
+    }
+  ]
+}
