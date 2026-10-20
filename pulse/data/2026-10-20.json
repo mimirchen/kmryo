@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "date": "2026-08-31",
+      "title": "CRF Announces Late-Breaking Clinical Trials and Science to Be Presented at TCT 2026",
+      "title_zh": "CRF公布TCT 2026重磅临床试验(late-breaking)名单:三尖瓣置换RCT「TRAVEL III」、中度主动脉瓣狭窄早期TAVR试验「PROGRESS」等28项研究将揭晓",
+      "summary_zh": "心血管研究基金会(CRF)于2026年8月31日公布TCT 2026(10月31日至11月3日,美国圣地亚哥)重磅临床试验(late-breaking)名单,共28项研究将在11月1日至3日的专场发布会上公布,覆盖冠脉介入、药物治疗与结构性心脏病等领域。结构性心脏病方向的焦点包括:与《Circulation》同步发表的随机对照试验TRAVEL III——评估LuX-Valve Plus经导管三尖瓣置换系统对比药物治疗重度三尖瓣返流患者的疗效,计划11月1日公布;以及探讨中度主动脉瓣狭窄患者早期TAVR策略对比常规随访的PROGRESS试验主要结果,计划11月2日公布。这份名单预告了未来两周内结构性心脏介入领域最值得关注的随机对照试验证据。",
+      "summary_en": "The Cardiovascular Research Foundation (CRF) announced on August 31, 2026 the late-breaking clinical trial and science program for TCT 2026 (San Diego, October 31–November 3), listing 28 studies to be unveiled across dedicated press briefings November 1–3, spanning coronary intervention, pharmacotherapy and structural heart disease. Structural heart highlights include TRAVEL III, a randomized trial of the LuX-Valve Plus transcatheter tricuspid valve replacement system versus medical therapy for severe tricuspid regurgitation, presented jointly with Circulation on November 1, and the primary results of the PROGRESS trial on early TAVR versus clinical surveillance in moderate aortic stenosis, due November 2. The program previews the randomized evidence the structural heart field will be watching most closely over the next two weeks.",
+      "source": "CRF / TCTMD",
+      "type": "conference",
+      "topic": "Other",
+      "weight": 3,
+      "url": "https://www.newswise.com/articles/crf-announces-late-breaking-clinical-trials-and-science-to-be-presented-at-tct-2026"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Tempus Receives FDA Clearance for its ECG-MR AI Product Designed to Identify Undiagnosed Mitral Regurgitation",
+      "title_zh": "Tempus AI的ECG-MR心电图人工智能产品获FDA许可,用于筛查未诊断的二尖瓣返流",
+      "summary_zh": "Tempus AI于2026年9月28日宣布,其ECG-MR人工智能产品获美国FDA 510(k)许可。该产品基于标准12导联心电图,通过AI算法识别可能存在中度及以上二尖瓣返流(MR)的高危患者,适用于65岁及以上有心血管疾病风险、且既往无二尖瓣介入史或已确诊中重度MR的人群;输出为二分类提示而非独立诊断结果,不可用于起搏节律心电图或作为序贯监测工具,旨在帮助临床医生筛出需进一步超声心动图评估的「未诊断MR」患者。这是Tempus继心律失常、心功能、肺血管疾病产品之后第四款获FDA许可的心电图AI产品,反映心电图AI筛查工具正加速进入结构性心脏病早期发现环节。",
+      "summary_en": "On September 28, 2026, Tempus AI announced FDA 510(k) clearance for Tempus ECG-MR, an AI algorithm that analyzes standard 12-lead ECGs to flag patients likely to have undiagnosed moderate-or-greater mitral regurgitation. It is intended for patients 65 and older with cardiovascular risk factors, excluding those with prior mitral valve intervention or an existing MR diagnosis, is not for use on paced-rhythm ECGs or serial monitoring, and outputs a binary screening signal rather than a standalone diagnosis, meant to prompt confirmatory echocardiography. It is Tempus's fourth FDA-cleared ECG-AI product, following tools for arrhythmia, heart function and pulmonary vascular disease, underscoring the growing role of ECG-based AI screening in early detection of structural valve disease.",
+      "source": "Tempus AI",
+      "type": "regulatory",
+      "topic": "Imaging",
+      "weight": 3,
+      "url": "https://www.tempus.com/news/pr/tempus-receives-fda-clearance-for-its-ecg-mr-ai-product-designed-to-identify-undiagnosed-mitral-regurgitation/"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Startup Behind New Heart Device Partners With Medtech Incubator",
+      "title_zh": "二尖瓣「瓣下支撑器」疗法初创公司Mitria Medical携手硅谷医疗器械孵化器T45 Labs,加速功能性二尖瓣返流新疗法开发",
+      "summary_zh": "由克利夫兰诊所(Cleveland Clinic)孵化、心脏科医生Samir Kapadia与外科医生Jose Navia共同发明的Mitria Medical公司,于2026年10月1日宣布与硅谷医疗器械孵化器T45 Labs达成战略合作:T45将协助其推进产品开发、融资、运营及临床监管策略,T45创始人兼管理合伙人Marwan Berrada-Sounni同时出任Mitria新任CEO。Mitria在研的「瓣下支撑器」(Subvalvular Spacer, SVS)是一款镍钛合金编织装置,植入于二尖瓣后叶瓣环下方以恢复瓣叶对合,专为无法接受缘对缘夹合修复的功能性二尖瓣返流患者设计。该装置已于2026年3月在克利夫兰诊所、依据FDA单患者扩展使用(慈悲用药)通道完成美国首例植入,迄今已有6例患者接受治疗,尚处早期临床阶段,暂无已发表的有效性或安全性数据。",
+      "summary_en": "Mitria Medical — a Cleveland Clinic Innovations spinout co-invented by cardiologist Samir Kapadia and cardiac surgeon Jose Navia — announced on October 1, 2026 a strategic partnership with T45 Labs, a Silicon Valley medtech incubator, which will support product development, financing, operations and clinical/regulatory strategy; T45 founder and managing partner Marwan Berrada-Sounni becomes Mitria's new CEO. Mitria's investigational Subvalvular Spacer (SVS) is a nitinol-braid implant placed beneath the posterior mitral leaflet hinge to restore leaflet coaptation, designed for patients with functional mitral regurgitation who are not candidates for edge-to-edge clip repair. The device's first US implant was performed in March 2026 at Cleveland Clinic under the FDA's Single Patient Expanded Access (compassionate use) pathway, with six patients treated to date; it remains at an early clinical stage with no published efficacy or safety data yet.",
+      "source": "Cardiovascular Business",
+      "type": "industry",
+      "topic": "Mitral",
+      "weight": 2,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/startup-behind-new-heart-device-partners-medtech-incubator"
+    }
+  ]
+}
