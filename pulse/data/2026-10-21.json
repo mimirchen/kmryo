@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "date": "2026-10-09",
+      "title": "As Years Pass, Mortality Grows Higher With TAVI vs SAVR in Low-Risk Patients: Meta-Analysis",
+      "title_zh": "EACTS 2026时间依赖性荟萃分析:低危人群TAVI远期(5-7年)死亡率显著高于外科换瓣(HR 1.64),近中期无差异",
+      "summary_zh": "2026年10月EACTS年会(西班牙巴塞罗那)上公布的一项时间依赖性荟萃分析,汇总PARTNER 3、Evolut Low Risk与NOTION三项低外科风险随机对照试验共2644例患者数据,发现TAVI与外科主动脉瓣置换(SAVR)的全因死亡率差异随随访时间推移而变化:总体风险比(HR)为1.14(95% CI 0.97-1.39),无统计学差异;但在术后5-7年这一时间窗内,TAVI组死亡风险显著更高,HR达1.64(95% CI 1.27-2.12);7年累积全因死亡率TAVI组为26.9%,SAVR组为23.7%,研究者估算每治疗30-35例TAVI患者较SAVR多出1例死亡。该结果在多项敏感性分析中基本稳健,为近期TAVI远期生存信号的争议再添证据,提示低危、预期寿命较长患者的瓣膜选择仍需长期随访数据支撑。",
+      "summary_en": "A time-dependent meta-analysis presented at EACTS 2026 in Barcelona pooled 2,644 low-surgical-risk patients from the PARTNER 3, Evolut Low Risk and NOTION trials and found that while overall mortality did not differ significantly between TAVI and SAVR (HR 1.14, 95% CI 0.97-1.39), TAVI carried a significantly higher mortality risk specifically in the 5- to 7-year window (HR 1.64, 95% CI 1.27-2.12), with 7-year cumulative all-cause mortality of 26.9% for TAVI versus 23.7% for SAVR and an estimated number needed to treat of roughly 30-35 for one extra death. The finding, which largely held up across sensitivity analyses, adds to an unsettled debate over long-term survival after TAVI in low-risk, longer-life-expectancy patients.",
+      "source": "TCTMD",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/years-pass-mortality-grows-higher-tavi-vs-savr-low-risk-patients-meta-analysis"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Registry Analysis Tempers Difference Between TAVI and SAVR Seen in DEDICATE-DZHK6",
+      "title_zh": "EACTS 2026:荷兰全国注册数据分析提示DEDICATE-DZHK6试验的外科组结果可能偏差,但TAVI死亡获益依然存在",
+      "summary_zh": "同样在EACTS 2026大会上,Erasmus MC的Kevin Veen团队将经审核的荷兰全国注册登记数据中的真实世界SAVR患者,与2024年发表、支持TAVI非劣效于SAVR(1年卒中+死亡复合终点5.4% vs 10.0%,HR 0.53)的DEDICATE-DZHK6试验的SAVR组、TAVI组分别进行比较。结果显示,试验SAVR组患者发生卒中+死亡复合终点的风险显著高于注册登记中的真实世界SAVR患者(HR 1.63),单纯卒中风险更高达HR 2.96,提示试验中的外科对照组结局可能劣于真实世界常规外科诊疗水平;但将试验TAVI组与注册登记SAVR患者比较时,TAVI的死亡率获益依然显著(HR 0.46,95% CI 0.24-0.87)。该分析提醒临床界解读随机对照试验的SAVR对照组结果时需考虑中心及术者经验的异质性。",
+      "summary_en": "At EACTS 2026, Kevin Veen's team from Erasmus MC compared audited real-world SAVR patients from the Dutch national registry against the SAVR and TAVI arms of the 2024 DEDICATE-DZHK6 trial (which found TAVI noninferior to SAVR for 1-year stroke-or-death, 5.4% vs 10.0%, HR 0.53). Trial SAVR patients had significantly higher risk of the stroke-or-death composite than registry SAVR patients (HR 1.63) and of stroke alone (HR 2.96), suggesting the trial's surgical arm may have underperformed real-world surgery. However, when trial TAVI patients were compared against registry SAVR patients, TAVI's mortality benefit remained significant (HR 0.46, 95% CI 0.24-0.87), highlighting how surgical-control performance can vary across centers when interpreting TAVI-vs-SAVR trials.",
+      "source": "TCTMD",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.tctmd.com/news/registry-analysis-tempers-difference-between-tavi-and-savr-seen-dedicate-dzhk6"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "egnite's Call for Science Study on M-TEER Device Durability and Long-Term Patient Outcomes to Be Featured at TCT 2026",
+      "title_zh": "egnite「科学召集令」资助研究将在TCT 2026公布:超2000例M-TEER患者长达3年随访,聚焦二尖瓣缘对缘修复器械远期耐久性",
+      "summary_zh": "医疗影像数据公司egnite宣布,其首届「Call for Science」研究资助计划的获奖项目——由弗吉尼亚大学健康中心John T. Saxon医生主导的《成功M-TEER术后长期耐久性:基于大型真实世界影像数据库的洞察》——将作为TCT 2026(10月31日至11月3日,美国圣地亚哥)的Featured Clinical Research重磅研究公布。该研究利用egnite注册库中约6000余例接受经导管二尖瓣缘对缘修复(M-TEER)的患者数据,聚焦其中2000余例手术成功者,通过系列超声心动图与临床结局随访长达3年,评估器械耐久性与二尖瓣返流复发情况;研究团队指出,现有TVT等手术登记库普遍缺乏此类长期随访数据。egnite注册库目前涵盖约1400万患者、600万份超声心动图数据。",
+      "summary_en": "Cardiac imaging data company egnite announced that the winning project from its inaugural Call for Science grant program — led by Dr. John T. Saxon of UVA Health, titled \"Long-Term Durability After Successful M-TEER: Insights from a Large, Real-World Imaging Database\" — will be presented as Featured Clinical Research at TCT 2026 (October 31-November 3, San Diego). The study draws on data from roughly 6,000+ patients who underwent mitral transcatheter edge-to-edge repair (M-TEER) in the egnite registry, following more than 2,000 technically successful procedures for up to three years with serial echocardiograms and clinical outcomes to assess device durability and recurrent mitral regurgitation — addressing a gap Saxon says existing procedural registries such as TVT lack. The egnite registry now spans roughly 14 million patients and 6 million echocardiograms.",
+      "source": "egnite / BioSpace",
+      "type": "industry",
+      "topic": "Mitral",
+      "weight": 2,
+      "url": "https://www.biospace.com/press-releases/egnites-call-for-science-study-on-m-teer-device-durability-and-long-term-patient-outcomes-to-be-featured-at-tct-2026"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Anteris Advances Global PARADIGM Trial Expansion with German Regulatory Clearance",
+      "title_zh": "Anteris Technologies获德国监管机构(BfArM)批准,扩大DurAVR「仿生」瓣膜全球PARADIGM关键性试验至德国",
+      "summary_zh": "澳大利亚医疗器械公司Anteris Technologies于2026年10月19日(欧洲中部时间10月20日前后)宣布,德国联邦药品和医疗器械局(BfArM)已正式批准其DurAVR经导管主动脉瓣系统全球关键性PARADIGM试验在德国境内开展患者招募。该随机对照试验计划在「全入组随机队列」(All Comers Randomized Cohort)纳入约1000例重度钙化性主动脉瓣狭窄患者,按1:1比例随机分配至DurAVR组或现有已上市TAVR瓣膜组,主要终点为术后1年全因死亡、卒中及心血管住院复合终点的非劣效性。DurAVR被称为「首款仿生」瓣膜,其瓣叶设计模拟健康人主动脉瓣的血流动力学表现。公司表示德国是欧洲最大、最成熟的TAVR市场之一,拥有大量经验丰富的结构性心脏病中心,此次获批将显著加快全球入组进度。需注意,此次批准仅为临床试验招募许可,并非商业上市批准。",
+      "summary_en": "Australian medtech company Anteris Technologies announced on October 19, 2026 that Germany's Federal Institute for Drugs and Medical Devices (BfArM) has cleared patient enrollment in Germany for the global pivotal PARADIGM trial of its DurAVR transcatheter aortic valve. The randomized, All-Comers Cohort will enroll approximately 1,000 patients with severe calcific aortic stenosis, randomized 1:1 to DurAVR or a commercially available TAVR valve, with a primary endpoint of noninferiority on the composite of all-cause mortality, stroke and cardiovascular hospitalization at one year. DurAVR is marketed as the first \"biomimetic\" valve, designed to replicate the hemodynamic performance of a healthy native aortic valve. The company said Germany, one of Europe's largest and most established TAVR markets with an extensive network of experienced structural heart centers, should meaningfully accelerate global recruitment; the clearance authorizes trial enrollment only, not commercial marketing of the investigational valve.",
+      "source": "Anteris Technologies",
+      "type": "regulatory",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3383993/0/en/anteris-advances-global-paradigm-trial-expansion-with-german-regulatory-clearance.html"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Jaber Hospital Team Performs Advanced Heart Valve Procedure",
+      "title_zh": "科威特Jaber Al-Ahmad医院完成经导管主动脉瓣置换术并向迪拜「海湾心脏瓣膜大会」卫星直播",
+      "summary_zh": "科威特卫生部通报,Jaber Al-Ahmad医院心脏团队(Ali Saheb与Mohammed Al-Turki医生)为一名70多岁、反复因肺水肿入院的重度主动脉瓣狭窄患者,在局部麻醉下使用Navitor(NavitorVision)经导管瓣膜成功完成经导管主动脉瓣置换术(TAVR);手术过程通过卫星实时直播至在迪拜举行的「海湾心脏瓣膜大会」,患者术后两天即康复出院。该病例是中东地区结构性心脏病介入持续普及、区域学术交流日益活跃的一个缩影,也体现出经导管主动脉瓣技术在高龄、高危人群中的可及性正不断提升。",
+      "summary_en": "Kuwait's Ministry of Health reported that a cardiac team at Jaber Al-Ahmad Hospital (Drs. Ali Saheb and Mohammed Al-Turki) successfully performed transcatheter aortic valve replacement under local anesthesia, using a Navitor (NavitorVision) valve, in a patient in his 70s with severe aortic stenosis and recurrent hospitalizations for pulmonary edema; the procedure was broadcast live via satellite to the Gulf Heart Valve Conference in Dubai, and the patient was discharged home in good condition two days later. The case reflects the continued spread of structural heart interventions and growing regional scientific exchange across the Gulf, alongside the expanding accessibility of TAVR for elderly, high-risk patients.",
+      "source": "Kuwait Times",
+      "type": "news",
+      "topic": "TAVI",
+      "weight": 1,
+      "url": "https://kuwaittimes.com/article/51712/kuwait/jaber-hospital-team-performs-advanced-heart-valve-procedure/"
+    }
+  ]
+}
