@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "date": "2026-10-15",
+      "title": "Edwards Pulls Some Lots of Sapien M3 Delivery System: FDA Alert",
+      "title_zh": "FDA发布早期预警:Edwards Sapien M3经导管二尖瓣系统输送装置球囊破裂致1死1重伤,受累批次已召回",
+      "summary_zh": "美国FDA于2026年10月15日发布早期预警,涉及Edwards Lifesciences用于植入Sapien M3经导管二尖瓣置换(TMVR)系统的Commander M输送装置:该装置在球囊充盈过程中可能发生破裂,进而导致栓塞或装置无法经导引鞘回撤,须额外外科干预。截至10月5日,公司共收到3例球囊破裂报告,其中1例死亡、1例严重伤害;受影响批次共4个(67718561、67804014、67887043、67887044),Edwards已于10月5日致函客户要求查找并下架库存中相关产品并退回公司,其余批次产品不受影响、可继续使用。FDA特别指出,接受Sapien M3治疗的患者通常被认为不适合外科手术,因此此类并发症的死亡风险尤其高,目前FDA仍在持续调查该高风险器械问题,尚未发布正式分级召回。该预警仅涉及输送系统,Sapien M3瓣膜本身未发现问题。",
+      "summary_en": "On October 15, 2026, the FDA issued an early alert on Edwards Lifesciences' Commander M delivery system used to implant the Sapien M3 transcatheter mitral valve replacement (TMVR) system, after balloon bursts during inflation were linked to embolism risk and difficulty retrieving the device through the guide sheath, sometimes requiring additional surgery. As of October 5, Edwards had received three balloon-burst reports, including one death and one serious injury; four affected delivery-system lots (67718561, 67804014, 67887043 and 67887044) were flagged, with customers told to locate, remove and return them, while other lots remain unaffected and in use. The FDA noted that Sapien M3 patients are generally deemed unsuitable for surgery, making such complications especially high-risk, and said it is continuing to investigate; the alert concerns only the delivery system, with no issues identified in the Sapien M3 valve itself.",
+      "source": "TCTMD",
+      "type": "regulatory",
+      "topic": "Mitral",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/edwards-pulls-some-lots-sapien-m3-delivery-system-fda-alert"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "In Vitro Comparison of Conventional BASILICA, Balloon-Assisted BASILICA, and UNICORN to Prevent Coronary Obstruction During TAV-in-TAV",
+      "title_zh": "台式模型研究比较BASILICA、球囊辅助BASILICA与UNICORN三种瓣叶处理技术预防TAV-in-TAV冠脉阻塞:UNICORN裂口面积可达对照2-10倍,但并非所有尺寸组合均适用",
+      "summary_zh": "SOLACI于2026年10月21日报道了一项体外台式模型研究,比较传统BASILICA、球囊辅助BASILICA(BA-BASILICA)与UNICORN(射频导丝瓣叶穿越联合渐进球囊扩张)三种瓣叶处理技术,在\"短入高\"\"短入短\"\"高入短\"三类瓣中瓣(TAV-in-TAV)尺寸组合下预防冠脉阻塞的效果。结果显示,BASILICA与BA-BASILICA产生的纵向裂口面积相近(19.2-64.9 mm²);UNICORN在\"短入高\"与\"短入短\"组合中产生的裂口面积可达前两者的2-10倍,但在\"高入短\"组合中瓣叶内释放方案不可行,需改为术前球囊撕裂瓣叶、裂口结果难以预测,该组合裂口阻塞风险也最高(可达93%)。研究提示瓣叶处理策略应根据具体瓣型尺寸组合个体化选择,UNICORN并非在所有场景下都优于BASILICA类技术。",
+      "summary_en": "SOLACI reported on October 21, 2026 on a bench (in vitro) study comparing three leaflet-modification techniques — conventional BASILICA, balloon-assisted BASILICA (BA-BASILICA), and UNICORN (radiofrequency-wire leaflet crossing with progressive balloon dilation) — for preventing coronary obstruction across short-in-tall, short-in-short, and tall-in-short TAV-in-TAV size combinations. BASILICA and BA-BASILICA produced similarly sized vertical leaflet splay areas (19.2-64.9 mm²), while UNICORN created splays 2 to 10 times larger in short-in-tall and short-in-short combinations; in tall-in-short combinations, however, intraleaflet deployment was not feasible, requiring unpredictable pre-deployment balloon laceration, and this combination carried the highest obstruction risk, up to 93%. The findings suggest leaflet-modification strategy should be individualized by TAV-in-TAV sizing rather than assuming UNICORN is universally superior to BASILICA-based techniques.",
+      "source": "SOLACI",
+      "type": "news",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://solaci.org/en/2026/10/21/in-vitro-comparison-of-conventional-basilica-balloon-assisted-basilica-and-unicorn-to-prevent-coronary-obstruction-during-tav-in-tav"
+    }
+  ]
+}
