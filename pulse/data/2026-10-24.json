@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "date": "2026-10-21",
+      "title": "FDA Green-Lights Pascal System for Tricuspid Valve Repair",
+      "title_zh": "FDA批准Edwards PASCAL Precision系统用于三尖瓣修复:成为美国第二款获批T-TEER装置,CLASP II TR一年期数据将在TCT 2026公布",
+      "summary_zh": "美国FDA于2026年10月21日批准Edwards Lifesciences的PASCAL Precision系统用于经导管三尖瓣缘对缘修复(T-TEER),适应症为经优化药物治疗仍有症状的重度三尖瓣反流、外科手术风险为中度及以上、经心脏团队评估适合接受T-TEER的患者。该批准基于关键性CLASP II TR试验,使PASCAL成为继Abbott TriClip之后美国第二款获批的T-TEER装置;其一年期临床与健康状态结局数据将作为重磅研究在10月31日至11月3日举行的TCT 2026上公布。同日FDA还批准了带Capture Clarity透视标记功能的PASCAL Ace系统用于退行性二尖瓣TEER,帮助术者在植入时确认瓣叶抓取是否到位。",
+      "summary_en": "On October 21, 2026, the FDA approved Edwards Lifesciences' PASCAL Precision system for transcatheter edge-to-edge tricuspid valve repair (T-TEER) in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are at intermediate-or-greater surgical risk and judged appropriate for T-TEER by a multidisciplinary heart team, based on the pivotal CLASP II TR trial; PASCAL becomes only the second FDA-approved T-TEER device after Abbott's TriClip, with one-year CLASP II TR clinical and health-status outcomes due as a late-breaker at TCT 2026 (Oct 31-Nov 3, San Diego). The same day, the FDA also cleared the PASCAL Ace system with Capture Clarity fluoroscopic markers for degenerative mitral TEER to help confirm leaflet grasping during implantation.",
+      "source": "TCTMD",
+      "type": "regulatory",
+      "topic": "Tricuspid",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/fda-green-lights-pascal-system-tricuspid-valve-repair"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "TruLeaf Medical Expands First-in-Human Clinical Program: Successfully Implants Breakthrough RoseDoc Platform via Pure Percutaneous Access",
+      "title_zh": "TruLeaf Medical经导管三尖瓣置换平台RoseDoc在乌兹别克斯坦完成首批对接装置植入",
+      "summary_zh": "以色列AllMeD Solutions旗下TruLeaf Medical于2026年10月22日宣布,其两段式经导管三尖瓣置换(TTVR)平台RoseDoc在乌兹别克斯坦塔什干完成首批第一阶段(对接装置)植入,共2例重度三尖瓣反流合并难治性心衰患者接受治疗,术中未出现急性并发症,计划数月内完成第二阶段的瓣膜植入。此前在印度开展的首次人体可行性研究中,4例患者手术成功率达100%、10-13个月随访未见器械相关不良事件,其中3例存活;公司同时在南非推进入组,并着手准备在以色列与欧洲开展多中心试验的监管申报。",
+      "summary_en": "Israel-based AllMeD Solutions' subsidiary TruLeaf Medical announced on October 22, 2026 that it completed its first stage-1 (docking device) implants in Tashkent, Uzbekistan, for its two-stage RoseDoc transcatheter tricuspid valve replacement (TTVR) platform, treating two patients with severe, refractory heart failure from massive tricuspid regurgitation with no acute complications; stage-2 valve implantation is planned within the coming months. The expansion builds on an earlier India first-in-human cohort of four patients with 100% procedural success and no device-related adverse events at 10-13 months' follow-up (three of four patients alive), while enrollment continues in South Africa and regulatory filings are being prepared for multicenter trials in Israel and Europe.",
+      "source": "PR Newswire",
+      "type": "industry",
+      "topic": "Tricuspid",
+      "weight": 2,
+      "url": "https://www.prnewswire.com/news-releases/truleaf-medical-expands-first-in-human-clinical-program-successfully-implants-breakthrough-rosedoc-platform-via-pure-percutaneous-access-302916728.html"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "An Artificial Intelligence Model Demonstrates the Potential for Improving the Efficiency of Structural Heart Disease Screening Using Electrocardiograms",
+      "title_zh": "TARGET-AI模型:结合电子病历与心电图实现结构性心脏病筛查的精准化部署,训练数据覆盖75万余例心电图-超声心动图配对",
+      "summary_zh": "耶鲁大学团队开发的TARGET-AI模型发表于《NEJM AI》,整合纵向电子病历信息与12导联心电图,用于指导AI-ECG结构性心脏病筛查的精准化部署。该模型基于75.4万余例心电图-超声心动图配对数据训练与验证,可识别26种结构性心脏病亚型,其中左心室收缩功能不全的AUROC为0.90、重度主动脉瓣狭窄为0.85。相比对所有做心电图的患者一概筛查,按模型指导的靶向筛查在社区与住院患者队列中均降低了假阳性率,同时改善了精确度与敏感度的平衡,提示未来有望减少不必要的超声心动图检查。",
+      "summary_en": "A Yale-led team published TARGET-AI in NEJM AI, a multimodal model that combines longitudinal electronic health record data with 12-lead ECGs to guide more selective, targeted deployment of AI-ECG screening for structural heart disease; trained and validated on more than 754,000 ECG-echocardiogram pairs, it discriminates 26 structural heart disease phenotypes, with an AUROC of 0.90 for left ventricular systolic dysfunction and 0.85 for severe aortic stenosis. Compared with screening every patient who receives an ECG, the model's targeted approach reduced false positives and improved the precision-sensitivity balance across both community and hospitalized cohorts, pointing to a way to cut unnecessary downstream echocardiography.",
+      "source": "2 Minute Medicine",
+      "type": "news",
+      "topic": "Imaging",
+      "weight": 2,
+      "url": "https://www.2minutemedicine.com/artificial-intelligence-ai-model-demonstrates-potential-for-guiding-selective-deployment-of-structural-heart-disease-screening-using-electrocardiograms/"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Recross Cardio's Global PROTEA-PFO Clinical Program Marks Enrollment Milestone",
+      "title_zh": "Recross Cardio经皮PFO封堵系统PROTEA-PFO全球临床项目已治疗第25例受试者",
+      "summary_zh": "器械公司Recross Cardio于2026年10月初宣布,其全球PROTEA-PFO临床项目(美国早期可行性研究+塞尔维亚境外研究)已完成第25例受试者的经皮卵圆孔未闭(PFO)封堵系统治疗,其中美国15例、塞尔维亚10例。该研究面向既往发生隐源性/反常栓塞性卒中的PFO患者,是该公司产品自2025年12月在美国塔夫茨医学中心完成首例植入以来的最新入组进展,目前尚无完整安全性与有效性数据公布。",
+      "summary_en": "Device maker Recross Cardio announced in early October 2026 that its global PROTEA-PFO clinical program - combining a US early feasibility study with an outside-US study in Serbia - has now treated its 25th subject (15 in the US, 10 in Serbia) with its percutaneous PFO sealing system, aimed at patients with prior cryptogenic or paradoxical embolic stroke attributed to a patent foramen ovale. The milestone follows the program's first implant at Tufts Medical Center in December 2025; full safety and efficacy data have not yet been reported.",
+      "source": "Cardiac Interventions Today",
+      "type": "industry",
+      "topic": "Other",
+      "weight": 1,
+      "url": "https://citoday.com/news/recross-cardios-global-protea-pfo-clinical-program-marks-enrollment-milestone"
+    }
+  ]
+}
