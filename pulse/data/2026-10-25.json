@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "date": "2026-10-16",
+      "title": "Abbott Updates Heart Device Instructions to Highlight Safety Risk",
+      "title_zh": "雅培更新Amplatzer Amulet左心耳封堵器说明书:警示器械邻近肺动脉存在穿孔风险,FDA列为II类召回",
+      "summary_zh": "美国FDA于2026年10月16日公示一项针对雅培(Abbott)Amplatzer Amulet左心耳封堵器的II类召回(编号Z-0191-2027),雅培已于9月10日启动该行动,涉及9-ACP2-007-016至9-ACP2-010-034共8个型号的全部批次/序列号产品。此次召回并非产品缺陷,而是说明书(IFU)更新:新增警告指出封堵器植入位置过于贴近肺动脉会显著增加穿孔风险,一旦发生可导致心包积液、心脏压塞甚至死亡等严重不良事件。新版说明书给出具体距离阈值——封堵区到肺动脉距离≤1.5mm为显著风险、1.5-3.0mm为理论风险、>3.0mm风险较低,并建议术者在临床适用时考虑更换着床区或调整器械方向。本次行动无需召回已植入或库存器械,临床医生被要求在今后手术前查阅新版说明书。",
+      "summary_en": "On October 16, 2026, the FDA posted a Class II recall (Z-0191-2027) of Abbott's Amplatzer Amulet left atrial appendage occluder, an action Abbott initiated on September 10 covering all lots and serial numbers of eight model numbers (9-ACP2-007-016 through 9-ACP2-010-034). The action is a labeling update rather than a device defect: revised instructions for use now warn that implanting the device too close to the pulmonary artery carries an increased risk of perforation, which Abbott says could cause a serious adverse event including pericardial effusion, cardiac tamponade and potentially death. The updated IFU gives explicit distance thresholds from the landing zone to the pulmonary artery - ≤1.5 mm significant risk, 1.5-3.0 mm theoretical risk, >3.0 mm lower risk - and advises considering an alternative landing zone or device orientation where clinically appropriate. No devices are being physically recalled; clinicians are instructed to review the new IFU before future Amulet procedures.",
+      "source": "Cardiovascular Business",
+      "type": "regulatory",
+      "topic": "LAA",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/left-atrial-appendage-closure/abbott-updates-heart-device-instructions-highlight-safety-risk"
+    }
+  ]
+}
