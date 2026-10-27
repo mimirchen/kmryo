@@ -136,7 +136,7 @@ def build(items, ndays, year):
   <!-- masthead -->
   <tr><td style="padding:0 0 6px;">
     <span style="display:inline-block;width:16px;height:16px;background:{SEAL};border-radius:3px;vertical-align:middle;"></span>
-    <span style="font:700 12px/1 Arial,sans-serif;letter-spacing:.2em;color:{MUTED};vertical-align:middle;padding-left:8px;">RYO · STRUCTURAL HEART FOCUS</span>
+    <span style="font:700 12px/1 Arial,sans-serif;letter-spacing:.2em;color:{MUTED};vertical-align:middle;padding-left:8px;">STRUCTURAL HEART FOCUS</span>
   </td></tr>
   <tr><td style="padding:14px 0 0;border-bottom:2px solid {INK};">
     <span style="font:600 15px/1 Georgia,serif;color:{INK};">The Year in Structural Heart</span>

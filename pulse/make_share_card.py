@@ -389,10 +389,7 @@ def main():
     else:
         d.text((LX+17, 76), "R", font=font("serif", 20), fill=CREAM, anchor="mm")
     bx = LX+48
-    if HAS_CJK:
-        d.text((bx, 78), "千觅量子", font=font("cjk", 17), fill=MUTED, anchor="lm")
-        bx += d.textlength("千觅量子", font=font("cjk", 17)) + 7
-    d.text((bx, 77), "RYO · STRUCTURAL HEART FOCUS", font=font("sans", 17), fill=MUTED, anchor="lm")
+    d.text((bx, 77), "DR. MI CHEN · STRUCTURAL HEART FOCUS", font=font("sans", 17), fill=MUTED, anchor="lm")
     # topic kicker pill
     topic = (it.get("topic") or "").upper()
     if topic:
