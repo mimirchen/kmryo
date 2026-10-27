@@ -11,6 +11,7 @@
 2. **只收录真实、可验证的条目**:每条必须有能打开的 URL。宁缺毋滥,严禁编造标题/数据/链接。典型每天 4–10 条;确实没有大新闻时可以少于 4 条。
 3. **写入数据文件** `pulse/data/YYYY-MM-DD.json`(格式见下)。
 4. **更新 `pulse/data/manifest.json`**:把新日期追加进 `days` 数组(保持升序,勿删旧日期)。
+4b. **重建往期存档索引**:`python3 pulse/build_archive.py`。它扫描 `pulse/weekly|monthly|yearly/` 写出 `pulse/data/archive.json`(主页周报/月报/年报标签读它)。每天跑一次作保底,随 `pulse/data` 一起提交。
 5. **重新生成社交分享卡片**:`python3 pulse/make_share_card.py`。它读取最新一天的头条(评分最高那条),渲染 `pulse/img/share/card.png`(1200×630),这张就是领英/微信/X 抓到的 `og:image`。**必须每天重跑**,否则分享出去还是旧头条。
 6. **更新 `index.html` 里的社交文字标签**(让文字预览也反映今日头条):把头条英文标题填进 `og:title` 与 `twitter:title`,把它的一句话英文简述填进 `og:description` 与 `twitter:description`。这几行有 `<!-- Social share card -->` 注释标记,只改 content,别动结构。`og:image` 的 URL 保持不变(内容靠重画 card.png 更新)。
 7. **提交并推送**:`git add pulse/data pulse/img/share index.html && git commit -m "pulse: YYYY-MM-DD daily update" && git push`。GitHub Pages 约 1 分钟后生效。
@@ -68,7 +69,7 @@
   - **3** 值得读的研究或重要行业新闻
   - **2** 较小研究、病例系列、观点文章
   - **1** 简讯、社媒热议
-- `manifest.json`: `{ "updated": "YYYY-MM-DD", "days": [...], "weeks": [], "months": [], "years": [] }`。`weeks/months/years` 为后续周报/月报/年报预留,暂不填。
+- `manifest.json`: `{ "updated": "YYYY-MM-DD", "days": [...], "weeks": [], "months": [], "years": [] }`。`weeks/months/years` 为历史预留字段,**保持为空、勿填**;往期周/月/年报的索引在 `pulse/data/archive.json`(由 `build_archive.py` 生成)。
 
 ## 质量标准
 

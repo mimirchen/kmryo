@@ -186,5 +186,9 @@ def main():
     print(f"SUBJECT: {subject}")
     print(f"WROTE: pulse/monthly/{fname}  ({len(items)} items, {year}-{month:02d})")
 
+    # refresh the homepage archive index (pulse/data/archive.json)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); sys.dont_write_bytecode = True
+    import build_archive; build_archive.main()
+
 if __name__ == "__main__":
     main()

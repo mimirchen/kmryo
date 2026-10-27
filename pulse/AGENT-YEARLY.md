@@ -16,9 +16,9 @@
 4. **发送(Buttondown API)**:与周报同一套流程与密钥纪律(见 [AGENT-WEEKLY.md](AGENT-WEEKLY.md) 第 4 步),body 换成 `pulse/yearly/YYYY.html`。**只有 HTTP 201/200 才算成功;失败如实报告。**
 5. **归档**:
    ```bash
-   git add pulse/yearly && git commit -m "yearly: YYYY in review" && git push
+   git add pulse/yearly pulse/data/archive.json && git commit -m "yearly: YYYY in review" && git push
    ```
-   除 `pulse/yearly/` 外**不改动仓库其他任何内容**。
+   除 `pulse/yearly/` 与 `pulse/data/archive.json`(生成脚本自动刷新的主页存档索引)外**不改动仓库其他任何内容**。无论邮件是否发出,都要归档。
 6. **总结**:发了没、订阅者数、主题行、全年条数/覆盖天数。
 
 ## 排期

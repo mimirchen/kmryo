@@ -363,18 +363,33 @@ html[data-lang="zh"] .plate-name h1 { font-family: "Noto Serif SC",serif; letter
 .day-label { display: flex; flex-direction: column; align-items: center; min-width: 12ch; }
 .day-label .d-main { font-family: var(--serif-news); font-size: 1.5rem; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.1; }
 .day-label .d-sub { font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--faint); }
-.paper-bar-right { display: flex; align-items: center; gap: 1rem; }
+.paper-bar-right { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; min-width: 0; }
+.scope-tabs { flex-wrap: wrap; }
 .share-btn { border: 1px solid var(--hair); border-radius: 999px; padding: 0.42rem 1.05rem; font-size: 0.82rem; color: var(--cream); white-space: nowrap; transition: background 0.2s, border-color 0.2s; }
 .share-btn:hover { background: var(--seal-deep); border-color: var(--seal-deep); }
 .scope-tabs { display: flex; gap: 0.35rem; }
 .scope-tabs .scope { border: 1px solid transparent; border-radius: 999px; padding: 0.32rem 0.9rem; font-size: 0.8rem; color: var(--muted); transition: color 0.2s, border-color 0.2s, background 0.2s; }
 .scope-tabs .scope.on { color: var(--bg); background: var(--cream); }
-.scope-tabs .scope.off { opacity: 0.32; cursor: default; }
+.scope-tabs .scope { cursor: pointer; background: none; font: inherit; font-size: 0.8rem; }
+.scope-tabs .scope:not(.on):hover { color: var(--cream); border-color: var(--hair); }
+.day-nav.is-hidden { visibility: hidden; }
+/* weekly / monthly / yearly archive list */
+.arch-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); border-top: 1px solid var(--hair-soft); border-left: 1px solid var(--hair-soft); }
+.arch { border-right: 1px solid var(--hair-soft); border-bottom: 1px solid var(--hair-soft); display: flex; flex-direction: column; gap: 0.7rem; padding: 1.4rem 1.3rem 1.2rem; background: var(--bg); color: var(--cream); text-decoration: none; transition: background 0.25s; animation: tileIn 0.55s cubic-bezier(0.22,1,0.36,1) both; }
+.arch:hover { background: rgba(236,234,227,0.04); }
+.arch .a-kick { display: flex; justify-content: space-between; gap: 0.8rem; font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--faint); }
+.arch .a-kick .a-id { color: var(--seal); font-weight: 600; }
+.arch .a-when { font-family: var(--serif-news); font-size: 1.35rem; line-height: 1.2; }
+.arch .a-lead { font-size: 0.88rem; line-height: 1.5; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.arch .a-meta { margin-top: auto; display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--faint); }
+.arch:hover .a-meta .b-arr { color: var(--seal); }
+.arch-note { color: var(--muted); font-size: 0.85rem; margin: 0 0 1.2rem; }
+.arch-note a { color: var(--seal); }
 
 /* — 编辑部布局:Monocle 骨架 + 大头条 — */
 .mosaic { display: block; }
 @keyframes tileIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
-html.reduced .hero-card, html.reduced .feature { animation: none !important; }
+html.reduced .hero-card, html.reduced .feature, html.reduced .arch { animation: none !important; }
 
 .ed-label { display: flex; align-items: center; gap: 0.9rem; margin: clamp(2rem,5vh,3rem) 0 1.1rem; font-size: 0.66rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--faint); }
 html[data-lang="zh"] .ed-label { letter-spacing: 0.34em; }
@@ -584,11 +599,11 @@ html.reduced .sup-cup, html.reduced .sup-drop, html.reduced .sup-level, html.red
           <button class="pnav" id="pulseNext" aria-label="Next day">›</button>
         </div>
         <div class="paper-bar-right">
-          <div class="scope-tabs" aria-hidden="true">
-            <span class="scope on"><span class="en">Daily</span><span class="zh">日报</span></span>
-            <span class="scope off" title="coming soon"><span class="en">Weekly</span><span class="zh">周报</span></span>
-            <span class="scope off" title="coming soon"><span class="en">Monthly</span><span class="zh">月报</span></span>
-            <span class="scope off" title="coming soon"><span class="en">Yearly</span><span class="zh">年报</span></span>
+          <div class="scope-tabs" role="tablist" aria-label="Edition">
+            <button class="scope on" data-scope="day" role="tab" aria-selected="true"><span class="en">Daily</span><span class="zh">日报</span></button>
+            <button class="scope" data-scope="week" role="tab" aria-selected="false"><span class="en">Weekly</span><span class="zh">周报</span></button>
+            <button class="scope" data-scope="month" role="tab" aria-selected="false"><span class="en">Monthly</span><span class="zh">月报</span></button>
+            <button class="scope" data-scope="year" role="tab" aria-selected="false"><span class="en">Yearly</span><span class="zh">年报</span></button>
           </div>
           <button class="share-btn magnetic" id="shareBtn" aria-label="Share today's front page"><span class="en">Share ↗</span><span class="zh">分享 ↗</span></button>
         </div>
@@ -1163,16 +1178,80 @@ tickTime(); setInterval(tickTime, 30000);
     if (cache[d]) { render(cache[d]); return; }
     fetch('pulse/data/' + d + '.json').then(r => r.json()).then(day => {
       cache[d] = day;
-      if (days[idx] === d) render(day);
+      if (days[idx] === d && scope === 'day') render(day);
     }).catch(() => { grid.replaceChildren(); emptyEl.hidden = false; });
   }
 
   prevBtn.addEventListener('click', () => show(idx - 1));
   nextBtn.addEventListener('click', () => show(idx + 1));
 
+  /* ---- Weekly / Monthly / Yearly: archive of issued briefings (pulse/data/archive.json) ---- */
+  const SCOPES = {
+    week:  {key: 'weeks',  name: ['The Monday Briefing', '周一简报'], unit: ['items', '条'],
+            empty: ['The first weekly briefing is on its way.', '第一期周报即将发布。']},
+    month: {key: 'months', name: ['The Monthly Digest', '月度精选'], unit: ['items', '条'],
+            empty: ['The first monthly digest is on its way.', '第一期月报即将发布。']},
+    year:  {key: 'years',  name: ['The Year in Structural Heart', '结构心年度回顾'], unit: ['items', '条'],
+            empty: ['The first Year in Structural Heart arrives on 2 January 2027.', '首期年度回顾将于 2027 年 1 月 2 日发布。']}
+  };
+  const dayNav = document.querySelector('.day-nav');
+  const tabs = document.querySelectorAll('.scope-tabs .scope');
+  let archive = null, scope = 'day';
+
+  function archCard(e, sc, i) {
+    const a = document.createElement('a'); a.className = 'arch'; a.href = e.href; a.target = '_blank'; a.rel = 'noopener';
+    a.style.animationDelay = Math.min(i * 0.04, 0.4) + 's';
+    const k = document.createElement('div'); k.className = 'a-kick';
+    const kn = bi('span', sc.name[0], sc.name[1]);
+    const ki = document.createElement('span'); ki.className = 'a-id'; ki.textContent = e.id.replace(/^\d{4}-(W\d+)$/, '$1');
+    k.append(kn, ki);
+    const w = document.createElement('div'); w.className = 'a-when'; w.textContent = e.label || e.id;
+    const l = document.createElement('div'); l.className = 'a-lead'; l.lang = 'en'; l.textContent = e.lead || '';
+    const m = document.createElement('div'); m.className = 'a-meta';
+    const mc = e.count ? bi('span', e.count + ' ' + sc.unit[0], e.count + ' ' + sc.unit[1]) : document.createElement('span');
+    const ar = document.createElement('span'); ar.className = 'b-arr'; ar.textContent = '↗';
+    m.append(mc, ar);
+    a.append(k, w, l, m);
+    return a;
+  }
+
+  function renderArchive(s) {
+    const sc = SCOPES[s];
+    grid.replaceChildren(); emptyEl.hidden = true;
+    const list = (archive && archive[sc.key]) || [];
+    if (!list.length) {
+      const p = bi('p', sc.empty[0], sc.empty[1]); p.className = 'paper-empty'; grid.append(p); return;
+    }
+    const note = bi('p', 'Past issues — the briefings sent to subscribers (in English). ',
+                         '往期存档 —— 即发给订阅者的英文简报。');
+    note.className = 'arch-note';
+    grid.append(note);
+    const wrap = document.createElement('div'); wrap.className = 'arch-list';
+    list.forEach((e, i) => wrap.append(archCard(e, sc, i)));
+    grid.append(wrap);
+  }
+
+  function setScope(s) {
+    if (!(s === 'day' || SCOPES[s])) s = 'day';
+    scope = s;
+    tabs.forEach(t => { const on = t.dataset.scope === s; t.classList.toggle('on', on); t.setAttribute('aria-selected', on); });
+    dayNav.classList.toggle('is-hidden', s !== 'day');
+    if (s === 'day') { if (days.length) show(idx); return; }
+    if (archive) { renderArchive(s); return; }
+    fetch('pulse/data/archive.json').then(r => r.json()).then(a => { archive = a; if (scope === s) renderArchive(s); })
+      .catch(() => { archive = {}; if (scope === s) renderArchive(s); });
+  }
+  tabs.forEach(t => t.addEventListener('click', () => {
+    setScope(t.dataset.scope);
+    history.replaceState(null, '', t.dataset.scope === 'day' ? location.pathname + location.search : '#' + t.dataset.scope + 'ly');
+  }));
+  const HASH = {'#weekly': 'week', '#monthly': 'month', '#yearly': 'year'};
+
   fetch('pulse/data/manifest.json').then(r => r.json()).then(m => {
     days = (m.days || []).slice().sort();
-    if (days.length) show(days.length - 1);
+    idx = Math.max(days.length - 1, 0);
+    if (HASH[location.hash]) setScope(HASH[location.hash]);
+    else if (days.length) show(days.length - 1);
     else emptyEl.hidden = false;
   }).catch(() => { emptyEl.hidden = false; dMain.textContent = 'offline'; });
 

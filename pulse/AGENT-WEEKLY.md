@@ -11,7 +11,7 @@
    ```bash
    python3 pulse/make_weekly.py $SUN
    ```
-   它会读取 `pulse/data/*.json`,选出该 ISO 周内所有条目,按评分(期刊影响力 + weight + type,与分享卡同一套)排序,写出 `pulse/weekly/YYYY-Www.html`,并把建议主题行打印为 `SUBJECT: ...`。**记下这两样:文件路径 + 主题行。**
+   它会读取 `pulse/data/*.json`,选出该 ISO 周内所有条目,按评分(期刊影响力 + weight + type,与分享卡同一套)排序,写出 `pulse/weekly/YYYY-Www.html`,自动刷新主页存档索引 `pulse/data/archive.json`,并把建议主题行打印为 `SUBJECT: ...`。**记下这两样:文件路径 + 主题行。**
 3. **质量闸门**:如果该周条目 **少于 2 条**,视为"淡周",**不发信**,只在总结里说明。宁可不发,也不发一封空briefing。
 4. **发送(Buttondown API)**:密钥从环境变量 `BUTTONDOWN_API_KEY` 读取(**绝不出现在仓库、日志、总结里**)。用 `pulse/weekly/YYYY-Www.html` 的内容做 body、上一步的 SUBJECT 做 subject,POST 到 Buttondown:
    ```bash
@@ -25,11 +25,11 @@
    - `status: "about_to_send"` = 立即群发给所有确认订阅者。
    - **只有 HTTP 201/200 才算成功**。若是 404,改用 `https://api.buttondown.email/v1/emails` 重试(域名迁移期两者可能并存);其他错误码把 `/tmp/bd_resp.json` 的报错读出来写进总结,**不要谎报成功**。
    - 邮件正文里有 `{{ unsubscribe_url }}` 模板标记,Buttondown 会自动替换成一键退订链接,勿改。
-5. **归档(可选,推荐)**:把 `pulse/weekly/YYYY-Www.html` 提交进仓库,作为公开的往期存档(未来可在站内做 /pulse/weekly/ 索引页,利于 SEO 与回访):
+5. **归档(必做)**:把 `pulse/weekly/YYYY-Www.html` 和存档索引一起提交——主页「周报」标签会立即列出这一期(无论邮件是否发出,都要归档):
    ```bash
-   git add pulse/weekly && git commit -m "weekly: YYYY-Www briefing" && git push
+   git add pulse/weekly pulse/data/archive.json && git commit -m "weekly: YYYY-Www briefing" && git push
    ```
-   除 `pulse/weekly/` 外**不改动仓库其他任何内容**。
+   除 `pulse/weekly/` 与 `pulse/data/archive.json` 外**不改动仓库其他任何内容**。
 6. **总结**:报告发了没、发给多少订阅者(响应里有)、主题行、当周收录条数;若淡周未发或发送失败,如实说明原因。
 
 ## 密钥怎么配(一次性,用户操作)
