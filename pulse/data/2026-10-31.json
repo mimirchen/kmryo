@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "date": "2026-10-31",
+      "title": "TCT 2026 Opens in San Diego With 28 Late-Breaking Trials Spanning Coronary, Structural Heart, Peripheral and Renal Denervation Research",
+      "title_zh": "TCT 2026大会今日在圣地亚哥开幕,公布28项重磅研究,涵盖冠脉、结构性心脏、外周血管及肾脏去神经化领域",
+      "summary_zh": "由心血管研究基金会(CRF)主办的TCT 2026大会于2026年10月31日至11月3日在圣地亚哥会议中心召开,本届大会共安排28项late-breaking重磅研究,分布于冠脉、结构性心脏病、外周血管、肾脏去神经化及抗栓治疗等六大专场。结构性心脏病焦点包括:11月2日公布的PROGRESS研究(比较TAVR与临床随访治疗中度主动脉瓣狭窄)、爱德华PASCAL三尖瓣修复系统CLASP IITR研究的一年期数据,以及雅培Cephea经导管二尖瓣置换系统CROWN-MV关键性研究的早期可行性数据。",
+      "summary_en": "The Cardiovascular Research Foundation's TCT 2026 meeting opened October 31 at the San Diego Convention Center and runs through November 3, featuring 28 late-breaking studies across six sessions covering coronary, structural heart, peripheral vascular, renal denervation and antithrombotic research. Structural heart highlights on the late-breaking agenda include the PROGRESS trial of TAVR versus clinical surveillance for moderate aortic stenosis (presenting November 2), one-year CLASP IITR outcomes for Edwards' PASCAL tricuspid repair system, and early feasibility data from Abbott's CROWN-MV pivotal trial of the Cephea transcatheter mitral valve replacement system.",
+      "source": "TCT 2026 / CRF",
+      "type": "conference",
+      "topic": "Other",
+      "weight": 4,
+      "url": "https://www.dicardiology.com/content/tct-2026-announces-late-breaking-clinical-trials-and-science-presentations"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "FDA Approves Edwards' PASCAL Precision for Tricuspid Repair and PASCAL Ace With Capture Clarity for Mitral TEER",
+      "title_zh": "FDA批准爱德华PASCAL Precision三尖瓣修复系统及搭载Capture Clarity透视辅助功能的PASCAL Ace二尖瓣TEER系统",
+      "summary_zh": "2026年10月21日,FDA批准爱德华生命科学(Edwards Lifesciences)的PASCAL Precision经导管三尖瓣修复系统,用于经优化药物治疗后仍有症状的重度三尖瓣反流、且外科手术风险为中度及以上的患者,获批依据为CLASP IITR关键性研究(1年期数据将于TCT 2026公布);同日获批的PASCAL Ace搭载Capture Clarity透视辅助显影功能,用于退行性二尖瓣反流的经导管缘对缘修复(M-TEER),是美国首款在置入过程中可透视确认瓣叶已被夹持的TEER系统。两项获批使爱德华成为美国唯一同时拥有二尖瓣与三尖瓣修复及置换全产品线的公司。",
+      "summary_en": "On October 21, 2026, the FDA approved Edwards Lifesciences' PASCAL Precision system for transcatheter tricuspid edge-to-edge repair in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are intermediate or greater surgical risk, based on the CLASP IITR pivotal trial (1-year data due at TCT 2026). The same day, the FDA cleared PASCAL Ace with Capture Clarity for degenerative mitral M-TEER, the first US-approved TEER system with fluoroscopic indicators confirming leaflet grasping during implantation. The approvals make Edwards the only US company offering a full repair-and-replacement portfolio across both the mitral and tricuspid valves.",
+      "source": "Edwards Lifesciences / Healio",
+      "type": "regulatory",
+      "topic": "Tricuspid",
+      "weight": 4,
+      "url": "https://www.healio.com/news/cardiology/20261022/fda-approves-new-tricuspid-valve-repair-system"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Abbott Initiates Pivotal CROWN-MV Trial for Cephea Transcatheter Mitral Valve Replacement System",
+      "title_zh": "雅培启动Cephea经导管二尖瓣置换系统关键性研究CROWN-MV,计划入组585例患者",
+      "summary_zh": "雅培(Abbott)于2026年10月29日宣布启动Cephea经导管二尖瓣置换系统的关键性研究CROWN-MV,计划在美国、加拿大及欧洲入组最多585例中重度至重度二尖瓣反流或二尖瓣环钙化、且无法接受传统外科手术或经导管修复的患者。首例入组已在堪萨斯州Ascension Via Christi医院完成,由Bassem Chehab医生主刀。该器械经股静脉穿刺送入,补齐雅培在MitraClip(修复)与Tendyne(置换)之外的第三代经导管二尖瓣置换产品线;公司预计第三代输送系统的早期数据将于TCT 2026公布。",
+      "summary_en": "Abbott announced on October 29, 2026 that it has initiated the CROWN-MV pivotal trial for its investigational Cephea transcatheter mitral valve replacement system, planning to enroll up to 585 patients across the US, Canada and Europe with moderate-to-severe or severe mitral regurgitation or mitral annular calcification who are not candidates for conventional surgery or transcatheter repair. The first patient was enrolled at Ascension Via Christi Hospital in Wichita, Kansas, under Dr. Bassem Chehab. Delivered transvenously, Cephea rounds out Abbott's mitral portfolio alongside MitraClip (repair) and Tendyne (replacement); early feasibility data from the third-generation delivery system are expected at TCT 2026.",
+      "source": "Abbott",
+      "type": "industry",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://abbott.mediaroom.com/2026-10-29-Abbott-initiates-pivotal-trial-for-Cephea-TM-device,-an-innovative-treatment-for-mitral-heart-valve-disease"
+    }
+  ]
+}
