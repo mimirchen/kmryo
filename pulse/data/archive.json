@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "weeks": [
   {
    "id": "2026-W43",
@@ -108,6 +108,13 @@
   }
  ],
  "months": [
+  {
+   "id": "2026-10",
+   "href": "pulse/monthly/2026-10.html",
+   "label": "October 2026",
+   "lead": "Real-World Outcomes of Transcatheter Tricuspid Valve Replacement: Analysis From the STS/ACC TVT Registry",
+   "count": 86
+  },
   {
    "id": "2026-09",
    "href": "pulse/monthly/2026-09.html",
