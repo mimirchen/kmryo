@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "date": "2026-11-02",
+      "title": "TAVR in Patients with Moderate Aortic Stenosis with At-Risk Features: Primary Results of the PROGRESS Trial",
+      "title_zh": "PROGRESS随机试验主要结果:经导管主动脉瓣置换(TAVR)在伴高危特征的中度主动脉瓣狭窄患者中优于临床监测",
+      "summary_zh": "2026年11月2日,TCT 2026大会(圣迭戈)上Philippe Genereux医生公布PROGRESS随机对照试验主要结果,同步发表于《新英格兰医学杂志》(NEJM)。研究于2021年10月至2024年1月在744例合并至少1项高危特征的中度主动脉瓣狭窄患者中,按1:1随机分配接受经股动脉球囊扩张式SAPIEN 3 TAVR或指南推荐的临床监测。2年时死亡或心衰事件复合主要终点发生率TAVR组为16.7%、临床监测组为23.9%,相对风险降低33%;监测组中57.4%患者2年内最终接受了TAVR,两组操作相关不良事件发生率无显著差异。该结果可能推动中度主动脉瓣狭窄伴高危特征患者的早期干预指征前移。",
+      "summary_en": "At TCT 2026 in San Diego on November 2, 2026, Philippe Genereux, MD, presented primary results of the randomized PROGRESS trial, published simultaneously in the New England Journal of Medicine. Between October 2021 and January 2024, 744 patients with moderate aortic stenosis and at least one at-risk feature were randomized 1:1 to transfemoral balloon-expandable SAPIEN 3 TAVR or guideline-directed clinical surveillance. The composite primary endpoint of death or a heart-failure event at 2 years occurred in 16.7% of the TAVR group versus 23.9% of the surveillance group, a 33% relative risk reduction; 57.4% of surveillance patients crossed over to TAVR within 2 years, with no meaningful difference in procedure-related adverse events between arms.",
+      "source": "NEJM / TCT 2026",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 5,
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2607326"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "CLASP II TR Trial Demonstrates Superior Clinical and Quality-of-Life Benefits With Edwards PASCAL System",
+      "title_zh": "CLASP II TR随机试验:Edwards PASCAL经导管三尖瓣修复系统治疗重度三尖瓣返流,临床与生活质量获益优于药物治疗",
+      "summary_zh": "2026年11月2日,Edwards Lifesciences在TCT 2026大会公布CLASP II TR随机对照试验结果:在重度症状性三尖瓣返流患者中,PASCAL经导管三尖瓣修复系统较单纯药物治疗,在涵盖死亡、右心辅助装置植入/心脏移植、三尖瓣再干预、心衰住院及生活质量的分层复合主要终点上显著占优。随访1年时PASCAL组80%患者三尖瓣返流降至中度及以下,对照组仅30%;PASCAL组KCCQ生活质量评分较基线提升18分。公司PASCAL Precision系统已于10月21日获FDA批准用于特定重度三尖瓣返流适应症。",
+      "summary_en": "On November 2, 2026, Edwards Lifesciences reported primary results of the randomized CLASP II TR trial at TCT 2026, comparing its PASCAL transcatheter tricuspid valve repair system against medical therapy alone in patients with severe, symptomatic tricuspid regurgitation. PASCAL met its hierarchical composite primary endpoint, spanning mortality, durable RVAD implantation or transplant, tricuspid reintervention, heart-failure hospitalization and quality of life. At one year, 80% of PASCAL-treated patients had TR of moderate severity or less versus 30% of controls, with an 18-point improvement in KCCQ quality-of-life score in the device arm. The PASCAL Precision system received FDA approval for a defined severe-TR indication on October 21, 2026.",
+      "source": "Edwards Lifesciences / TCT 2026",
+      "type": "conference",
+      "topic": "Tricuspid",
+      "weight": 4,
+      "url": "https://stockhouse.com/news/press-releases/2026/11/02/clasp-ii-tr-trial-demonstrates-superior-clinical-quality-of-life-benefits-with"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "SIMPLAAFY Study of the WATCHMAN FLX Pro Left Atrial Appendage Closure Device Meets Primary Endpoints",
+      "title_zh": "SIMPLAAFY随机试验:WATCHMAN FLX Pro左心耳封堵装置术后简化抗栓方案达成主要终点",
+      "summary_zh": "2026年11月2日,Boston Scientific在TCT 2026大会公布SIMPLAAFY随机对照试验结果,同步发表于《美国医学会杂志》(JAMA)。研究在美国86个中心纳入1857例接受WATCHMAN FLX Pro左心耳封堵的房颤患者,比较单用阿司匹林、减量新型口服抗凝药(阿哌沙班2.5mg每日两次或利伐沙班10mg每日一次、持续3个月)与双联抗血小板治疗(DAPT)三种术后方案。两种单药方案在6个月时死亡、卒中、体循环栓塞及大出血复合主要终点上均对DAPT达到非劣效,其中减量NOAC组装置相关血栓发生率低于DAPT组,提示左心耳封堵术后可采用更简化的抗栓策略。",
+      "summary_en": "On November 2, 2026, Boston Scientific presented primary results of the randomized SIMPLAAFY trial at TCT 2026, published simultaneously in JAMA. The study randomized 1,857 atrial fibrillation patients across 86 U.S. sites who received a WATCHMAN FLX Pro left atrial appendage closure device to post-implant aspirin monotherapy, reduced-dose NOAC (apixaban 2.5 mg twice daily or rivaroxaban 10 mg daily for 3 months), or dual antiplatelet therapy. Both monotherapy regimens met non-inferiority versus DAPT for the composite primary endpoint of death, stroke, systemic embolism and major bleeding at 6 months, with the reduced-dose NOAC arm showing a lower rate of device-related thrombosis than DAPT, supporting simplified post-procedure antithrombotic regimens after LAA closure.",
+      "source": "JAMA / TCT 2026",
+      "type": "journal",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://www.prnewswire.com/news-releases/simplaafy-study-of-the-watchman-flx-pro-left-atrial-appendage-closure-device-meets-primary-endpoints-302926809.html"
+    }
+  ]
+}
