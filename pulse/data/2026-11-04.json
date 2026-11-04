@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "date": "2026-11-04",
+      "title": "TRAVEL III: Transcatheter Tricuspid Valve Replacement With the LuX-Valve Plus System vs. Medical Therapy for Severe Tricuspid Regurgitation",
+      "title_zh": "TRAVEL III随机试验:LuX-Valve Plus经导管三尖瓣置换系统对比单纯药物治疗重度三尖瓣反流",
+      "summary_zh": "2026年11月1日公布于TCT 2026的TRAVEL III是中国多中心随机对照试验,由葛均波教授牵头,纳入126例外科高危、重度及以上三尖瓣反流、NYHA III-IV级患者,按1:1随机分配至经颈静脉LuX-Valve Plus经导管三尖瓣置换(TTVR)联合优化药物治疗(OMT)组或单纯OMT组。6个月复合主要疗效终点(生存、免于心衰再住院、三尖瓣反流至少降低一个等级且NYHA功能分级改善至少一级)达标率TTVR+OMT组为82.9%,OMT组仅4.8%,组间差78.1个百分点(95%CI 67.5-88.8,p<0.001);器械植入成功率98.7%,平均手术时间148分钟。该结果为LuX-Valve Plus系统提供了首个随机对照证据支持。",
+      "summary_en": "Presented at TCT 2026 on November 1, the China-based randomized TRAVEL III trial (led by Junbo Ge) assigned 126 surgical high-risk patients with severe or greater tricuspid regurgitation and NYHA III-IV symptoms 1:1 to transjugular transcatheter tricuspid valve replacement (TTVR) with the LuX-Valve Plus system plus optimal medical therapy (OMT), or OMT alone. The composite 6-month efficacy endpoint (survival, freedom from HF rehospitalization, TR reduction of at least one grade, and NYHA class improvement of at least one class) was met in 82.9% of TTVR+OMT patients versus 4.8% with OMT alone (rate difference 78.1%, 95% CI 67.5-88.8; p<0.001); implant success was 98.7% with a mean procedure time of 148 minutes, providing the first randomized evidence for the LuX-Valve Plus system.",
+      "source": "TCT 2026",
+      "type": "conference",
+      "topic": "Tricuspid",
+      "weight": 4,
+      "url": "https://solaci.org/en/2026/11/03/tct-2026-travel-iii-lux-valve-plus-in-severe-tricuspid-regurgitation/"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "VERITAS Trial: One-Year Outcomes of Left Atrial Appendage Closure With the New Amulet 360 Device",
+      "title_zh": "VERITAS研究:新一代Amulet 360左心耳封堵器一年随访结果",
+      "summary_zh": "2026年11月1日在TCT 2026公布、同步发表于《JACC: Cardiovascular Interventions》的VERITAS研究纳入458例非瓣膜性房颤患者,评估Abbott新一代Amplatzer Amulet 360左心耳封堵器。术后1年经食道超声评估完全封堵率达96.3%(95%CI 93.2%-98.2%),缺血性卒中或体循环栓塞发生率1.8%,临床相关器械血栓发生率0.4%,无器械脱落;器械植入成功率99.3%,平均手术时间37分钟。该装置在美国目前仍属研究用途,尚待FDA批准上市。",
+      "summary_en": "The VERITAS trial of Abbott's next-generation Amplatzer Amulet 360 left atrial appendage occluder, presented at TCT 2026 on November 1 and published simultaneously in JACC: Cardiovascular Interventions, enrolled 458 patients with non-valvular atrial fibrillation. At one year, complete LAA closure on transesophageal echo was 96.3% (95% CI 93.2-98.2%), ischemic stroke or systemic embolism occurred in 1.8%, clinically relevant device-related thrombosis in 0.4%, with no device embolization; implant success was 99.3% and mean procedure time 37 minutes. The device remains investigational in the US pending FDA approval.",
+      "source": "JACC: Cardiovascular Interventions / TCT 2026",
+      "type": "journal",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://solaci.org/en/2026/11/03/tct-2026-veritas-amulet-360-one-year-outcomes-of-left-atrial-appendage-closure-with-the-new-amulet-device/"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "TCT 2026: Severity-Based Subgroup Results From the TRIC-I-HF-DZHK24 Trial of Transcatheter Tricuspid Repair in Heart Failure",
+      "title_zh": "TCT 2026公布TRIC-I-HF-DZHK24试验按反流严重程度的亚组分析结果",
+      "summary_zh": "德国多中心随机试验TRIC-I-HF-DZHK24(369例重度及以上三尖瓣反流合并心衰高风险患者)今年8月已在ESC大会公布主要结果:经导管三尖瓣修复联合药物治疗较单纯药物治疗使全因死亡或心衰再住院复合终点风险显著降低。TCT 2026上,Jörg Hausleiter于11月1日追加报告了按基线反流程度(重度50.8%、极重度34.2%、超大量10.3%)分层的亚组分析:重度与极重度亚组获益趋势与总体结果一致,但样本量较小的超大量反流亚组尚未显示出确定性获益,提示该亚组证据仍不充分。",
+      "summary_en": "TRIC-I-HF-DZHK24, a German multicenter randomized trial of 369 patients with at least severe tricuspid regurgitation and elevated heart-failure risk, reported its primary results at the ESC Congress in August 2026, showing that transcatheter tricuspid repair plus medical therapy significantly cut the composite of all-cause death or HF hospitalization versus medical therapy alone. At TCT 2026 on November 1, Jörg Hausleiter presented a severity-based subgroup analysis (baseline TR severe in 50.8%, massive in 34.2%, torrential in 10.3%): the severe and massive subgroups tracked the overall benefit, but the smaller torrential-TR subgroup did not yet show conclusive benefit, highlighting a gap in the evidence for this group.",
+      "source": "TCT 2026",
+      "type": "conference",
+      "topic": "Tricuspid",
+      "weight": 2,
+      "url": "https://solaci.org/en/2026/11/03/tct-2026-tric-i-hf-dzhk24-transcatheter-tricuspid-valve-repair-in-patients-with-heart-failure/"
+    }
+  ]
+}
