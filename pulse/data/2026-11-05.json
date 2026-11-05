@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "date": "2026-11-05",
+      "title": "Global Burden of Degenerative Mitral Valve Disease Continues to Rise",
+      "title_zh": "全球疾病负担研究:退行性二尖瓣病患病率30年翻倍,性别与社会经济差距显著",
+      "summary_zh": "TCT 2026大会(11月2日,圣迭戈)上,Juan Granada公布基于全球疾病负担(GBD)数据的退行性二尖瓣病流行病学分析:2023年全球患病人数达1610万,较1990年增长约一倍;年龄标准化患病率男性为女性的2.1倍,但2023年女性死亡人数却是男性的1.6倍,提示女性患者存在诊断延迟与治疗不足。Granada指出,在医疗资源匮乏地区该病存在系统性漏诊,呼吁提高筛查与早期转诊意识。",
+      "summary_en": "At TCT 2026 in San Diego on November 2, Juan Granada presented a Global Burden of Disease analysis of degenerative mitral valve disease showing global prevalence reached 16.1 million in 2023, roughly double the 1990 figure. Age-standardized prevalence was 2.1 times higher in men, yet women accounted for 1.6 times more deaths in 2023, pointing to delayed diagnosis and undertreatment among women. Granada said the disease is systematically underdiagnosed in resource-limited regions and called for greater screening and earlier referral.",
+      "source": "TCT 2026 / TCTMD",
+      "type": "conference",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://www.tctmd.com/news/global-burden-degenerative-mitral-valve-disease-continues-rise"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "EARLY TAVR: Economic Analysis Supports TAVI Over Clinical Surveillance for Asymptomatic AS",
+      "title_zh": "EARLY TAVR经济学分析:无症状重度主动脉瓣狭窄早期TAVI较临床监测具有良好成本效益",
+      "summary_zh": "TCT 2026大会(11月1日,圣迭戈)上公布的EARLY TAVR试验卫生经济学分析显示,在无症状重度主动脉瓣狭窄患者中,早期经导管主动脉瓣置换(TAVR)较指南推荐的临床监测终身预计增加医疗费用约4500美元、增加0.3个质量调整生命年(QALY),增量成本效果比(ICER)为14698美元/QALY,按常用120000美元/QALY阈值判断具有良好成本效益,系统层面成本效益概率达91.3%;在纳入10年再次换瓣费用的敏感性分析中,ICER约为25000美元/QALY,结论仍具成本效益。该分析为无症状重度AS患者更早干预指征的扩大提供了经济学支持。",
+      "summary_en": "A health-economic analysis of the EARLY TAVR trial, presented November 1 at TCT 2026 in San Diego, found that early transcatheter aortic valve replacement (TAVR) in asymptomatic severe aortic stenosis added about $4,500 in lifetime cost and 0.3 QALYs versus guideline-directed clinical surveillance, yielding an incremental cost-effectiveness ratio (ICER) of $14,698 per QALY gained and a 91.3% probability of being cost-effective from a system perspective at the commonly used $120,000/QALY threshold; a sensitivity analysis incorporating repeat valve intervention costs at 10 years still showed early TAVR cost-effective at roughly $25,000 per QALY. The findings add economic support for earlier intervention in asymptomatic severe AS.",
+      "source": "TCT 2026 / TCTMD",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.tctmd.com/news/early-tavr-economic-analysis-supports-tavi-over-clinical-surveillance-asymptomatic"
+    }
+  ]
+}
