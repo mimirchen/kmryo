@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "date": "2026-11-06",
+      "title": "SINGLE-CLOSURE: Single- vs Double-ProGlide Vascular Closure After Transfemoral TAVR",
+      "title_zh": "SINGLE-CLOSURE试验:经股动脉TAVR术后单枚ProGlide血管闭合策略不劣于双枚策略",
+      "summary_zh": "TCT 2026大会(11月2日,圣迭戈)公布、同步发表于JACC的SINGLE-CLOSURE试验在中国25家中心入组876例接受经股动脉TAVR的重度主动脉瓣狭窄患者(年龄≥65岁,女性45%),按1:1随机分为单枚ProGlide与双枚ProGlide血管闭合策略。院内VARC-3主入路相关血管并发症(主要终点)在单枚组发生率为13.1%(57/436例),以轻微并发症为主;两组主要并发症均罕见(单枚0.5% vs 双枚1.4%),30天全因死亡率相近(2.1% vs 2.3%),单枚组入路狭窄发生率反而更低(5.0% vs 7.9%),但补救性闭合装置使用更多(2.5% vs 0.9%)。结果支持用单枚ProGlide简化TAVR常规血管闭合流程。",
+      "summary_en": "Presented at TCT 2026 in San Diego (Nov 2) and published simultaneously in JACC, the SINGLE-CLOSURE trial randomized 876 patients (age ≥65, 45% women) undergoing transfemoral TAVR at 25 Chinese centers 1:1 to single- vs double-ProGlide vascular closure. The in-hospital composite of VARC-3 access-site complications (primary endpoint) occurred in 13.1% (57/436) of the single-ProGlide group, mostly minor; major complications were rare in both arms (0.5% vs 1.4%), 30-day mortality was similar (2.1% vs 2.3%), and access-site stenosis was numerically lower with single-ProGlide (5.0% vs 7.9%), though bailout closure devices were used more often (2.5% vs 0.9%). The findings support a simplified single-device closure strategy after transfemoral TAVR.",
+      "source": "TCT 2026 / JACC",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/11/02/22/45/tues-239pm-single-closure-tct-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "PROTEMBO IDE Trial: Cerebral Embolic Protection During TAVR Misses Efficacy Endpoint Despite Meeting Safety Endpoint",
+      "title_zh": "PROTEMBO关键性试验:TAVR术中脑保护装置ProtEmbo未达主要有效性终点,但达到安全性终点",
+      "summary_zh": "TCT 2026大会收官日(11月3日,圣迭戈)公布的PROTEMBO IDE关键性试验将305例TAVR患者按2:1:1随机分为ProtEmbo脑保护装置组、Sentinel脑保护装置组与无脑保护组,主要影像终点为术后36小时MRI测得的新发脑损伤总体积(TNLV),随访至30天。试验未达到主要有效性终点,但达到主要安全性终点;报告的30天主要不良心脑血管事件(MACCE)发生率为Sentinel组8.5%、无保护组11.6%(未公布ProtEmbo组具体数值)。该结果为TAVR术中常规使用脑保护装置的临床价值增添了不确定性,成为会场内争议焦点之一。",
+      "summary_en": "Presented on the final day of TCT 2026 (Nov 3, San Diego), the pivotal PROTEMBO IDE trial randomized 305 TAVR patients 2:1:1 to the ProtEmbo cerebral protection device, the Sentinel device, or no cerebral embolic protection, with the primary imaging endpoint being total new lesion volume on MRI at 36 hours, followed to 30 days. The trial missed its primary efficacy endpoint but met its primary safety endpoint; reported 30-day MACCE rates were 8.5% with Sentinel and 11.6% with no protection (the ProtEmbo arm's figure was not disclosed). The mixed result adds uncertainty about routine use of cerebral embolic protection during TAVR and became a talking point among attendees.",
+      "source": "TCT 2026 / ACC",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/11/02/22/45/tues-432pm-avr-tct-2026"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "PARADIGM 30-Day Results: Amplatzer Valvular Plug III Shows High Procedural Success for Paravalvular Leak Closure",
+      "title_zh": "PARADIGM研究30天结果公布:Amplatzer Valvular Plug III封堵瓣周漏手术成功率约77%,支持此前FDA获批",
+      "summary_zh": "继10月28日FDA批准雅培Amplatzer Paraclose(即Amplatzer Valvular Plug III)成为美国首个瓣周漏(PVL)经导管封堵装置后,支撑获批的PARADIGM研究(美/欧/加约200例外科主动脉瓣或二尖瓣置换术后PVL患者)30天结果已在TCT 2026公布,并同步发表于JACC: Cardiovascular Interventions。近九成患者因心衰症状接受封堵,65%为二尖瓣PVL;器械植入成功率达96%,无操作相关死亡,30天内免于非计划再次介入(手术/经导管)的“手术成功率”约77%。主要研究者Ignacio Cruz-Gonzalez表示试验达到主要终点,短期结果良好。",
+      "summary_en": "Following the FDA's Oct. 28 approval of Abbott's Amplatzer Paraclose (Amplatzer Valvular Plug III) as the first US transcatheter paravalvular leak (PVL) closure device, 30-day outcomes from the supporting PARADIGM study (~200 patients in the US, Europe and Canada with PVL after surgical aortic or mitral valve replacement) were presented at TCT 2026 and published simultaneously in JACC: Cardiovascular Interventions. Heart failure was the indication in nearly 90% of patients and 65% had mitral PVL; device implantation succeeded in 96% with no procedure-related deaths, and roughly 77% achieved 30-day freedom from unplanned reintervention. Lead investigator Ignacio Cruz-Gonzalez said the trial met its primary endpoint with favorable short-term outcomes.",
+      "source": "TCT 2026 / JACC: Cardiovascular Interventions",
+      "type": "conference",
+      "topic": "Other",
+      "weight": 3,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/26/16/55/sat-fcr-jacc-tct-2026"
+    }
+  ]
+}
