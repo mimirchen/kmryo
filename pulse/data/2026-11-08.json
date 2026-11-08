@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "date": "2026-11-08",
+      "title": "ENCIRCLE Trial: 2-Year Outcomes of Transfemoral Transcatheter Mitral Valve Replacement With SAPIEN M3",
+      "title_zh": "ENCIRCLE试验2年随访结果:经股静脉/经房间隔SAPIEN M3二尖瓣置换系统疗效持续",
+      "summary_zh": "TCT 2026大会公布并同步发表于《美国心脏病学会杂志》(JACC)的ENCIRCLE试验2年随访数据显示,在因外科手术及二尖瓣钳夹(TEER)均不适用而接受爱德华SAPIEN M3经导管二尖瓣置换(经房间隔入路)的299名重度二尖瓣反流患者中,202人完成2年随访。全因死亡或心衰再住院的复合终点发生率为35.6%,较1年时的25.2%(对照45%的历史对照目标,p<0.0001)有所上升但总体可控;2年时免于死亡和免于心衰住院的比例分别约为75%和77%。随刊配发的编者述评(Vora与Tang撰写)指出,该器械对二尖瓣反流的消除效果可持续至2年,多数器械相关风险集中在术后第一年内,但长期疗效仍需随机对照数据进一步验证。SAPIEN M3已于2025年底获FDA批准,是首款经房间隔入路获批的经导管二尖瓣置换系统。",
+      "summary_en": "Two-year outcomes from the ENCIRCLE trial, presented as a TCT 2026 late-breaker and published simultaneously in JACC, show that among 299 patients with severe symptomatic mitral regurgitation ineligible for surgery or TEER who received Edwards' transseptal SAPIEN M3 valve, 202 completed 2-year follow-up. The composite of all-cause death or heart-failure hospitalization was 35.6% at 2 years (up from 25.2% at 1 year, which had beaten the 45% performance goal, p<0.0001), with freedom from death and from HF hospitalization at roughly 75% and 77%, respectively. An accompanying editorial by Vora and Tang notes durable MR elimination through 2 years, with most device-related risk clustering in year one, while longer-term and randomized data are still needed.",
+      "source": "JACC / TCT 2026",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.10.048"
+    }
+  ]
+}
