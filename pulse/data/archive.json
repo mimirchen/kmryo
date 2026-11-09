@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "weeks": [
+  {
+   "id": "2026-W45",
+   "href": "pulse/weekly/2026-W45.html",
+   "label": "Nov 2–8, 2026",
+   "lead": "TAVR in Patients with Moderate Aortic Stenosis with At-Risk Features: Primary Results of the PROGRESS Trial",
+   "count": 14
+  },
   {
    "id": "2026-W44",
    "href": "pulse/weekly/2026-W44.html",
