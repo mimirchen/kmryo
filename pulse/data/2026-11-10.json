@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "date": "2026-11-10",
+      "title": "DUOTAP: Routine Postdilation Improves Transcatheter Heart Valve Geometry in Balloon-Expandable TAVI",
+      "title_zh": "DUOTAP随机试验:球扩瓣TAVI中常规后扩张可显著改善瓣膜几何形态",
+      "summary_zh": "作为TCT 2026 late-breaker并同期发表于《JAMA Cardiology》的DUOTAP研究中,维也纳医科大学团队将148名无高危解剖特征、拟经股动脉植入球扩式瓣膜的重度主动脉瓣狭窄患者按1:1随机分为常规后扩张组与不后扩张组。主要终点——CT测得的经导管瓣膜(THV)不对称指数,后扩张组中位数为1.2%,显著低于对照组的2.8%,降幅约70%(几何均值比0.30,95%CI 0.18-0.47,P<0.001);后扩张组瓣膜流入道、中段及流出道的CT测量面积也更大,瓣叶增厚(HALT)及轻度以上瓣周漏发生率更低,而两组VARC-3复合安全终点无统计学差异(P=0.36)。该研究为此前单臂DOUBLE-TAP研究的随机对照验证,提示在无高危解剖特征患者中常规后扩张可安全优化瓣膜膨胀,但对长期瓣膜功能与耐久性的影响仍待观察。",
+      "summary_en": "In the DUOTAP randomized trial, presented as a late-breaker at TCT 2026 and published simultaneously in JAMA Cardiology, a Medical University of Vienna team randomized 148 anatomically low-risk patients with severe aortic stenosis undergoing transfemoral balloon-expandable TAVI 1:1 to routine postdilation versus no postdilation. The CT-based transcatheter heart valve asymmetry index was markedly lower with postdilation (median 1.2% vs 2.8%; ~70% reduction, geometric mean ratio 0.30, 95% CI 0.18-0.47, P<0.001), with larger valve areas at the inflow, midframe and outflow levels and less hypoattenuated leaflet thickening and ≥mild paravalvular leak, while the VARC-3 composite safety endpoint did not differ significantly between groups (P=0.36). The trial is the randomized follow-up to the earlier single-arm DOUBLE-TAP study; effects on long-term valve function and durability remain unknown.",
+      "source": "JAMA Cardiology / TCT 2026",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/11/02/22/45/tues-414pm-duotap-tct-2026"
+    }
+  ]
+}
