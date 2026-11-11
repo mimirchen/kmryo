@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "date": "2026-11-11",
+      "title": "FDA Approves Abbott's Amplatzer Paraclose PVL Occluder, First Dedicated Transcatheter Device for Paravalvular Leak",
+      "title_zh": "FDA批准雅培Amplatzer Paraclose PVL封堵器——美国首款专用于瓣周漏的经导管器械",
+      "summary_zh": "美国FDA批准雅培Amplatzer Paraclose PVL封堵器上市,这是美国首款专门用于治疗外科人工瓣膜瓣周漏(PVL)的经导管封堵装置。该器械经股动脉/静脉送入,椭圆形设计可适配不同形态的瓣周漏口,公司称封堵有效率最高可达93%。获批依据为纳入200例患者的前瞻性、多中心、单臂PARADIGM研究,其30天结果已在TCT 2026同期公布。该产品此前已在欧洲以Amplatzer Valvular Plug III之名上市(自2020年起获CE认证)。瓣周漏在外科二尖瓣置换术后发生率约7%-17%,主动脉瓣置换术后约5%-10%,此次获批为这类患者提供了避免再次开胸手术的新选择。",
+      "summary_en": "The FDA approved Abbott's Amplatzer Paraclose PVL Occluder, the first US transcatheter device dedicated to closing paravalvular leak (PVL) after surgical valve replacement. Delivered via a leg artery or vein, its oblong design is intended to fit diverse leak anatomies, and Abbott says it achieves effective closure in up to 93% of patients. Approval rests on the prospective, multicenter, single-arm 200-patient PARADIGM trial, whose 30-day results were presented at TCT 2026; the device has been sold in Europe since 2020 as the Amplatzer Valvular Plug III. PVL occurs in an estimated 7%-17% of surgical mitral and 5%-10% of aortic valve replacements, and the approval gives these patients a catheter-based alternative to repeat open-heart surgery.",
+      "source": "FDA / Abbott",
+      "type": "regulatory",
+      "topic": "Other",
+      "weight": 4,
+      "url": "https://citoday.com/news/abbotts-amplatzer-paraclose-pvl-occluder-approved-by-fda"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "EXPLORE MR: Early Feasibility Study of Posterior Leaflet Restoration (MRace Implant) for Secondary Mitral Regurgitation",
+      "title_zh": "EXPLORE MR早期可行性研究:MRace后叶重建植入物治疗继发性二尖瓣反流",
+      "summary_zh": "作为TCT 2026重点临床研究并同期发表于《JACC: Cardiovascular Interventions》,由Ulrich Schäfer等报告的EXPLORE MR研究纳入78例来自格鲁吉亚和巴西的重度继发性二尖瓣反流(MR)患者,评估经导管后叶重建(PLR)装置MRace的早期可行性。器械植入成功率约96%,30天时逾90%患者MR显著降低且多数在1年时维持,30天全因死亡率为6.4%。左心室未严重扩大的患者MR改善幅度、功能恢复及生存情况均更优。作者认为该结果为将PLR作为缘对缘修复不适用患者的替代经导管策略提供了早期可行性依据,但样本量较小,仍需更大规模随机对照研究验证。",
+      "summary_en": "EXPLORE MR, a featured clinical study at TCT 2026 published simultaneously in JACC: Cardiovascular Interventions, enrolled 78 symptomatic patients with severe secondary mitral regurgitation in Georgia and Brazil to test early feasibility of posterior leaflet restoration (PLR) with the MRace implant. Implantation succeeded in about 96% of patients, MR was substantially reduced in more than 90% at 30 days (largely sustained at 1 year), and 30-day all-cause mortality was 6.4%; patients without severely enlarged left ventricles had greater MR reduction and better functional recovery. The authors frame this small, single-arm series as a foundation for larger studies of PLR as an alternative to edge-to-edge repair in anatomically unsuitable patients.",
+      "source": "JACC: Cardiovascular Interventions / TCT 2026",
+      "type": "journal",
+      "topic": "Mitral",
+      "weight": 3,
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/26/16/55/sat-fcr-jacc-tct-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Real-World US Registry: Abbott's Navitor TAVR Valve Shows Low 30-Day Mortality/Stroke and Low Paravalvular Leak",
+      "title_zh": "美国真实世界登记研究:雅培Navitor经导管主动脉瓣系统30天死亡/卒中及瓣周漏发生率低",
+      "summary_zh": "基于STS/ACC TVT登记库、由Santiago Garcia领导并发表于《JACC: Cardiovascular Interventions》的真实世界研究,纳入2023年1月至2024年12月期间接受雅培Navitor自膨胀瓣膜经导管主动脉瓣置换(TAVR)的近3000例患者(平均年龄81.4岁,女性占62.4%)。结果显示,30天全因死亡或卒中复合终点发生率为5.2%,中度以上瓣周漏发生率仅1.8%,手术技术成功率97.9%,院内死亡率1.3%;新发永久起搏器植入率17.8%,经验较丰富中心(单中心逾20例)起搏器植入率更低。作者指出随访仅30天,长期疗效仍待观察。",
+      "summary_en": "A real-world US registry analysis drawing on the STS/ACC TVT Registry, led by Santiago Garcia and published in JACC: Cardiovascular Interventions, examined nearly 3,000 patients (mean age 81.4, 62.4% women) treated with Abbott's self-expanding Navitor valve for TAVR between January 2023 and December 2024. The 30-day composite of all-cause mortality or stroke was 5.2%, moderate-or-greater paravalvular leak occurred in just 1.8%, technical success was 97.9%, and in-hospital mortality was 1.3%; new permanent pacemaker implantation was 17.8%, lower at higher-volume (>20 cases) sites. The authors note follow-up was limited to 30 days and call for longer-term data.",
+      "source": "JACC: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/abbotts-navitor-tavr-valve-linked-positive-real-world-outcomes"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Abbott Begins CROWN-MV Pivotal Trial of Third-Generation Cephea Transcatheter Mitral Valve Replacement System",
+      "title_zh": "雅培启动CROWN-MV关键性试验,评估第三代Cephea经导管二尖瓣置换系统",
+      "summary_zh": "雅培宣布启动CROWN-MV关键性临床试验,计划在美国、加拿大和欧洲入组最多585例合并重度二尖瓣反流及二尖瓣环钙化的患者,评估第三代Cephea经导管二尖瓣置换(TMVR)输送系统。首例患者已在美国堪萨斯州威奇托的Ascension Via Christi医院完成入组,心血管研究基金会的Juan Granada担任试验主席。公司同期在TCT 2026创新环节公布了第三代输送系统的30天早期可行性研究数据,但具体结果未在公开报道中详述;此前因房间隔高度不足导致的筛选失败是限制因素之一,第三代导管设计旨在扩大可治疗的解剖适应范围。",
+      "summary_en": "Abbott announced the start of its CROWN-MV pivotal trial, planning to enroll up to 585 patients with severe mitral regurgitation and mitral annular calcification across the US, Canada and Europe to evaluate the third-generation Cephea transcatheter mitral valve replacement (TMVR) delivery system. The first patient was enrolled at Ascension Via Christi Hospital in Wichita, Kansas, with the Cardiovascular Research Foundation's Juan Granada chairing the trial. Abbott separately presented 30-day early feasibility data for the Gen-3 delivery system at a TCT 2026 Innovation session, though detailed results were not disclosed in public coverage; the redesigned catheter is intended to widen eligibility beyond patients previously excluded for insufficient septal height.",
+      "source": "Abbott / TCT 2026",
+      "type": "industry",
+      "topic": "Mitral",
+      "weight": 2,
+      "url": "https://citoday.com/news/crown-mv-pivotal-trial-begins-for-abbotts-cephea-device-for-mitral-valve-disease"
+    }
+  ]
+}
