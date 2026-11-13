@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "date": "2026-11-13",
+      "title": "CT-Based Deep Learning Assessment of Aortic Valve Fibrosis and Calcification",
+      "title_zh": "基于CT的深度学习主动脉瓣纤维化与钙化评估研究",
+      "summary_zh": "该研究发表于《JACC: Cardiovascular Imaging》,由Cedars-Sinai医学中心Kajetan Grodecki、Piotr Slomka等牵头,纳入9个中心共1674例拟行TAVR术前CT血管造影(CTA)检查的患者,采用基于nnU-Net架构的深度学习模型自动分割并量化主动脉瓣纤维化与钙化组织体积——模型在468例患者数据上训练,在外部测试集1206例患者中完成验证。该AI模型单次分析仅需1.35分钟(专家人工评估需7.2分钟),测量结果与专家读片(r=0.915)及组织学结果(r=0.909)高度一致。平均随访4.1年期间约40%患者死亡,纤维化组织体积可独立于传统钙化评分预测全因死亡率,提示纤维-钙化联合评估有望为TAVR术前风险分层提供超越单纯钙化测量的新信息。",
+      "summary_en": "Published in JACC: Cardiovascular Imaging, this study led by Kajetan Grodecki, Piotr Slomka and colleagues at Cedars-Sinai used an nnU-Net-based deep learning model to automatically segment and quantify aortic valve fibrotic and calcific tissue on CT angiography from 1,674 TAVR candidates across 9 sites, training on 468 patients and externally validating on 1,206. The model completed analysis in 1.35 minutes versus 7.2 minutes for expert readers, correlating closely with expert measurements (r=0.915) and histology (r=0.909). Over a mean follow-up of 4.1 years, roughly 40% of patients died, and fibrotic tissue volume independently predicted all-cause mortality beyond traditional calcium scoring, suggesting combined fibro-calcific imaging could refine pre-TAVR risk stratification.",
+      "source": "JACC: Cardiovascular Imaging",
+      "type": "journal",
+      "topic": "Imaging",
+      "weight": 3,
+      "url": "https://www.auntminnie.com/clinical-news/ct/article/16424554/deeplearning-model-predicts-mortality-from-cta-scans"
+    }
+  ]
+}
