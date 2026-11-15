@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-15",
+  "items": [
+    {
+      "date": "2026-11-15",
+      "title": "ANDES at 1 Year: Less Bleeding With Short-Term DOAC vs DAPT After LAA Closure, but a Device Thrombosis Signal Emerges",
+      "title_zh": "ANDES研究1年随访:左心耳封堵术后短程NOAC出血更少,但装置血栓信号值得关注",
+      "summary_zh": "ANDES是一项在加拿大和欧洲12个中心开展的随机对照研究,纳入510例接受左心耳封堵(LAAC)的非瓣膜性房颤患者(平均年龄77岁,女性占34.5%,77%既往有出血史),比较“口服抗凝药(DOAC)用2个月”与“双联抗血小板(DAPT)用2个月”两种术后抗栓策略,此后均过渡为长期单抗板治疗。此前公布的60天数据显示,DOAC组装置相关血栓(DRT)发生率为1.5%,低于DAPT组的4.1%(未达统计学显著,p=0.11),且DOAC组安全事件(主要是出血)显著更少。TCT 2026大会上公布的1年随访结果延续了DOAC组出血更少的安全性优势,但同时出现DOAC组晚期装置相关血栓发生率上升的信号(约4.7%),研究者强调该试验样本量不足以评估1年DRT差异,提示LAAC术后最优抗栓方案仍需更大规模研究明确。",
+      "summary_en": "ANDES, a randomized trial across 12 centers in Canada and Europe, enrolled 510 patients with nonvalvular AF undergoing left atrial appendage closure (LAAC; mean age 77, 34.5% women, 77% with a prior bleed) to compare a 2-month course of DOAC versus DAPT, both transitioning to long-term single antiplatelet therapy thereafter. Previously reported 60-day data showed device-related thrombosis (DRT) in 1.5% of the DOAC group versus 4.1% with DAPT (not statistically significant, p=0.11), with significantly fewer safety events (mainly bleeding) on DOAC. New 1-year results presented at TCT 2026 continue to favor DOAC on bleeding safety, but also reveal a signal of increased late DRT in the DOAC arm (roughly 4.7%); investigators cautioned the trial was not powered to detect 1-year DRT differences, leaving the optimal post-LAAC antithrombotic strategy an open question.",
+      "source": "TCT 2026 / TCTMD",
+      "type": "conference",
+      "topic": "LAA",
+      "weight": 4,
+      "url": "https://www.tctmd.com/news/andes-less-bleeding-after-doacs-device-related-thrombosis-signal-emerges"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "No Difference in Quality of Life When PCI Is Deferred Until After TAVI: PRO-TAVI Substudy",
+      "title_zh": "PRO-TAVI亚组分析:TAVI术后延迟PCI不影响患者生活质量",
+      "summary_zh": "该生活质量亚组分析在TCT 2026大会上由Gijs Broeze报告,基于PRO-TAVI随机对照试验——该试验纳入合并冠心病的TAVI患者,比较“延迟PCI”与“TAVI前常规PCI”两种处理策略。主试验显示,死亡/心梗/卒中/大出血复合终点在延迟组为24%(56例),常规PCI组为26%(60例),延迟策略达到非劣效,且延迟组仅11%患者在1年内最终接受了PCI,大出血发生率也显著更低(6% vs 15%)。新公布的生活质量亚组分析显示,随访1年时两组生活质量及心绞痛评分改善幅度相近,延迟PCI并未对患者报告结局造成负面影响,为TAVI合并冠心病患者采取“先瓣膜、后冠脉”的分期策略提供了进一步支持。",
+      "summary_en": "Presented at TCT 2026 by Gijs Broeze, this quality-of-life substudy of the PRO-TAVI randomized trial examined whether deferring percutaneous coronary intervention (PCI) until after TAVI affects patient-reported outcomes in patients with concomitant coronary artery disease. In the main trial, a composite of death, MI, stroke, or major bleeding occurred in 24% (56 patients) with deferred PCI versus 26% (60 patients) with upfront PCI, meeting noninferiority, with only 11% of the deferral group ultimately needing PCI within a year and markedly less major bleeding (6% vs 15%). The new substudy found similar improvements in quality-of-life and angina scores between strategies at 1 year, reinforcing that deferring PCI is a reasonable, patient-friendly approach in TAVI candidates with coronary artery disease.",
+      "source": "TCT 2026 / TCTMD",
+      "type": "conference",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.tctmd.com/news/no-difference-qol-when-pci-deferred-until-after-tavi-pro-tavi-subanalysis"
+    }
+  ]
+}
