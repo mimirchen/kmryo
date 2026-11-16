@@ -358,6 +358,20 @@ html[data-lang="zh"] .scard.chair .nm{font-stretch:100%; text-transform:none}
 @media (max-width:480px){.sgrid{grid-template-columns:1fr 1fr} .scard .tx{padding:0.7rem 0.75rem 0.9rem} .scard .nm{font-size:0.95rem}}
 
 /* partners */
+.ivx{background:var(--night); color:var(--cream); padding:clamp(4rem,10vh,6.5rem) 0}
+.ivx .wrap{display:grid; grid-template-columns:minmax(0,340px) 1fr; gap:clamp(2rem,6vw,5rem); align-items:center}
+.ivx .vid{position:relative; aspect-ratio:9/16; background:#000; border:1px solid var(--hair); overflow:hidden}
+.ivx video{display:block; width:100%; height:100%; object-fit:cover}
+.ivx .label{color:var(--muted)}
+.ivx h2{font-size:clamp(3.2rem,8vw,6rem); margin:1rem 0 1.4rem; color:var(--cream)}
+.ivx h2 i{font-style:normal; color:var(--seal); font-weight:300; padding:0 0.08em}
+.ivx blockquote{font-family:"Cormorant Garamond","Noto Serif SC",Georgia,serif; font-style:italic; font-weight:500; font-size:clamp(1.5rem,3vw,2.2rem); line-height:1.25; color:var(--cream); border-left:2px solid var(--seal); padding-left:1.1rem; margin-bottom:1.6rem}
+html[data-lang="zh"] .ivx blockquote{font-style:normal; letter-spacing:0.04em}
+.ivx .who{font-weight:600; font-size:1.05rem}
+.ivx .ttl{color:var(--muted); font-size:0.85rem; line-height:1.55; margin-top:0.3rem}
+.ivx .txt{color:var(--muted); max-width:34rem; margin:1.4rem 0 1.8rem; line-height:1.7}
+.ivx .meta{font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--faint); margin-top:1.4rem}
+@media (max-width:760px){.ivx .wrap{grid-template-columns:1fr} .ivx .vid{max-width:340px; width:100%; margin:0 auto}}
 .ptx{padding:0 0 clamp(4rem,10vh,6rem); border-top:1px solid var(--ink-hair)}
 .ptx .sec-head{padding-top:clamp(3rem,8vh,4.5rem)}
 .prow{border:1px solid var(--ink); margin-bottom:-1px; display:grid; grid-template-columns:220px 1fr}
@@ -404,6 +418,7 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
     <span class="anchors">
       <a href="#y2026">2026 · <span class="en">Shenzhen</span><span class="zh">深圳</span></a>
       <a href="#speakers26"><span class="en">Speakers</span><span class="zh">讲者</span></a>
+      <a href="#interview"><span class="en">Interview</span><span class="zh">访谈</span></a>
       <a href="#partners"><span class="en">Partners</span><span class="zh">合作</span></a>
       <a href="#gallery"><span class="en">Gallery</span><span class="zh">影像</span></a>
       <a href="#y2025">2025 · <span class="en">Zürich</span><span class="zh">苏黎世</span></a>
@@ -502,7 +517,7 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
     <div class="head">
       <span class="label"><span class="en">2026 Faculty</span><span class="zh">2026 讲者</span></span>
       <h2 class="big disp"><span class="en">Who's on <em>stage</em></span><span class="zh">谁将<em>登台</em></span></h2>
-      <p class="lead"><span class="en">Clinicians, engineers and founders from Shanghai, Shenzhen, Guangzhou and Nanjing join the CardioAI faculty from Europe. More names soon.</span><span class="zh">来自上海、深圳、广州、南京的临床医生、工程师与创业者,与欧洲的 CardioAI 讲者同台。更多讲者陆续公布。</span></p>
+      <p class="lead"><span class="en">Clinicians, engineers and founders from Shanghai, Shenzhen, Guangzhou, Nanjing and Bern on one stage. More names soon.</span><span class="zh">来自上海、深圳、广州、南京和伯尔尼的临床医生、工程师与创业者同台。更多讲者陆续公布。</span></p>
     </div>
     <div class="sgrid">
       <div class="scard chair">
@@ -513,14 +528,37 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
           <div class="af"><span class="en">Associate Professor · Shanghai Jiao Tong University</span><span class="zh">副教授 · 上海交通大学</span></div>
         </div>
       </div>
+      <div class="scard"><div class="ph"><img src="cardioai/2026/ahmed.jpg" alt="Prof. Daniel Ahmed" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Prof. Daniel Ahmed</span><span class="zh">Daniel Ahmed</span></div><div class="ro"><span class="en">Acoustic Robotics</span><span class="zh">声学机器人</span></div><div class="af"><span class="en">ARTORG Center, University of Bern</span><span class="zh">伯尔尼大学 ARTORG 中心</span></div></div></div>
+      <div class="scard"><div class="ph"><img src="cardioai/2026/zhou.jpg" alt="Sai Zhou, PhD" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Sai Zhou, PhD</span><span class="zh">周赛</span></div><div class="ro"><span class="en">Founder &amp; CEO</span><span class="zh">创始人兼 CEO</span></div><div class="af"><span class="en">CircuCare</span><span class="zh">CircuCare</span></div></div></div>
       <div class="scard"><div class="ph"><img src="cardioai/2026/liu.jpg" alt="Dr. Yupeng Liu" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Dr. Yupeng Liu</span><span class="zh">刘宇鹏</span></div><div class="ro"><span class="en">Cardiologist</span><span class="zh">心血管医生</span></div><div class="af"><span class="en">Guangdong Provincial People's Hospital</span><span class="zh">广东省人民医院</span></div></div></div>
       <div class="scard"><div class="ph"><img src="cardioai/2026/yang-xin.jpg" alt="Prof. Xin Yang" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Prof. Xin Yang</span><span class="zh">杨鑫</span></div><div class="ro"><span class="en">Associate Professor</span><span class="zh">副教授</span></div><div class="af"><span class="en">Shenzhen University</span><span class="zh">深圳大学</span></div></div></div>
+      <div class="scard"><div class="ph"><img src="cardioai/2026/xue.jpg" alt="Prof. Wufeng Xue" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Prof. Wufeng Xue</span><span class="zh">薛武峰</span></div><div class="ro"><span class="en">Associate Professor</span><span class="zh">副教授</span></div><div class="af"><span class="en">Shenzhen University</span><span class="zh">深圳大学</span></div></div></div>
       <div class="scard"><div class="ph"><img src="cardioai/2026/cai.jpg" alt="Yuchen Cai" loading="lazy"></div><div class="tx"><div class="nm"><span class="en">Yuchen Cai</span><span class="zh">蔡雨辰</span></div><div class="ro"><span class="en">Deputy General Manager</span><span class="zh">副总经理</span></div><div class="af"><span class="en">TAVIMercy Data Technology (Nanjing)</span><span class="zh">拓微摹心数据科技(南京)有限公司</span></div></div></div>
-      <div class="scard tba"><div><b>+</b><div><span class="en">More speakers<br>to be announced</span><span class="zh">更多讲者<br>即将公布</span></div></div></div>
+      <div class="scard tba" style="grid-column:span 2"><div><b>+</b><div><span class="en">More speakers<br>to be announced</span><span class="zh">更多讲者<br>即将公布</span></div></div></div>
     </div>
     <div class="after">
       <a class="btn ink" data-gs="tickets" href="https://www.genaishenzhen.com/tickets" target="_blank" rel="noopener"><span class="en">Register to attend ↗</span><span class="zh">报名参会 ↗</span></a>
       <a class="btn line-ink" href="/#contact"><span class="en">Propose a talk</span><span class="zh">联系我们洽谈演讲</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ivx" id="interview">
+  <div class="wrap">
+    <div class="vid">
+      <video controls playsinline preload="none" poster="cardioai/2026/pan-poster.jpg" aria-label="PAN × AI · Interview with Prof. Xiangbin Pan">
+        <source src="cardioai/2026/pan.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+      <span class="label"><span class="en">CardioAI Interview · N° 01</span><span class="zh">CardioAI 访谈 · N° 01</span></span>
+      <h2 class="disp">PAN<i>×</i>AI</h2>
+      <blockquote><span class="en">“Cutting-edge care that is neither expensive nor difficult.”</span><span class="zh">“既不贵,也不难。”</span></blockquote>
+      <div class="who"><span class="en">Prof. Xiangbin Pan</span><span class="zh">潘湘斌</span></div>
+      <div class="ttl"><span class="en">Deputy Director, National Center for Cardiovascular Diseases<br>Vice President, Fuwai Hospital, Chinese Academy of Medical Sciences</span><span class="zh">国家心血管病中心副主任<br>中国医学科学院阜外医院副院长</span></div>
+      <p class="txt"><span class="en">From heart procedures on a bed under a tree in Africa to live cases in Russia, the UK and France: Prof. Pan on the PAN Procedure, which treats heart disease without open surgery and without radiation, and on what he hopes AI teams will build next: an intelligent ultrasound robot and an intelligent surgical robot.</span><span class="zh">从非洲大树下的一张床板,到俄罗斯、英国、法国的手术直播。潘湘斌院长讲述不开刀、不用放射线的 PAN Procedure,以及他最希望 AI 团队做出来的两样东西:智能超声机器人和智能手术机器人。</span></p>
+      <a class="btn light" data-gs="tickets" href="https://www.genaishenzhen.com/tickets" target="_blank" rel="noopener"><span class="en">Meet us in Shenzhen ↗</span><span class="zh">12.05 深圳见 ↗</span></a>
+      <div class="meta"><span class="en">1 min 28 · Chinese with English subtitles</span><span class="zh">1 分 28 秒 · 中文原声 · 中英字幕</span></div>
     </div>
   </div>
 </section>
