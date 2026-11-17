@@ -58,11 +58,11 @@ nav.top{
 }
 nav.top .wrap{display:flex; align-items:center; gap:1.4rem; height:3.6rem}
 nav.top a{color:var(--cream); text-decoration:none; font-size:0.9rem}
+.closer .mail a{color:inherit; text-decoration:underline; text-underline-offset:3px}
 nav.top .brand{font-weight:600; letter-spacing:0.04em}
 nav.top .brand em{font-style:normal; color:var(--seal)}
-nav.top .back{margin-left:auto; color:var(--muted)}
-nav.top .back:hover{color:var(--cream)}
 .lang-toggle{
+  margin-left:auto;
   background:none; border:1px solid var(--hair); color:var(--muted);
   font:inherit; font-size:0.78rem; padding:0.25rem 0.7rem; border-radius:99px; cursor:pointer;
 }
@@ -423,7 +423,6 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
       <a href="#gallery"><span class="en">Gallery</span><span class="zh">影像</span></a>
       <a href="#y2025">2025 · <span class="en">Zürich</span><span class="zh">苏黎世</span></a>
     </span>
-    <a class="back" href="/"><span class="en">← Home</span><span class="zh">← 返回主页</span></a>
     <button class="lang-toggle" id="langToggle">中文</button>
   </div>
 </nav>
@@ -538,7 +537,7 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
     </div>
     <div class="after">
       <a class="btn ink" data-gs="tickets" href="https://www.genaishenzhen.com/tickets" target="_blank" rel="noopener"><span class="en">Register to attend ↗</span><span class="zh">报名参会 ↗</span></a>
-      <a class="btn line-ink" href="/#contact"><span class="en">Propose a talk</span><span class="zh">联系我们洽谈演讲</span></a>
+      <a class="btn line-ink" data-gs="join/speaker" href="https://www.genaishenzhen.com/join/speaker" target="_blank" rel="noopener"><span class="en">Propose a talk ↗</span><span class="zh">联系我们洽谈演讲 ↗</span></a>
     </div>
   </div>
 </section>
@@ -679,11 +678,11 @@ footer.fx .wm .yr{color:transparent; -webkit-text-stroke:1.5px var(--faint)}
     <div>
       <div class="big disp"><span class="en">See you<br>in Shenzhen</span><span class="zh">12.05<br>深圳见</span></div>
       <p><span class="en">CardioAI 2026 · SIAT · a partner session of GenAI Shenzhen. Register, sponsor, or get in touch about speaking.</span><span class="zh">CardioAI 2026 · 深圳先进院 · GenAI Shenzhen 合作专场。欢迎报名、赞助,或联系我们洽谈演讲。</span></p>
+      <p class="mail"><span class="en">Contact</span><span class="zh">联系我们</span> · <a href="mailto:cardioai@turicor.com">cardioai@turicor.com</a></p>
     </div>
     <div class="btns">
       <a class="btn light lg" data-gs="tickets" href="https://www.genaishenzhen.com/tickets" target="_blank" rel="noopener"><span class="en">Register ↗</span><span class="zh">立即报名 ↗</span></a>
       <a class="btn line-light lg" data-gs="join/partner" href="https://www.genaishenzhen.com/join/partner" target="_blank" rel="noopener"><span class="en">Sponsor ↗</span><span class="zh">赞助 ↗</span></a>
-      <a class="btn line-light lg" href="/#contact"><span class="en">Contact</span><span class="zh">联系我们</span></a>
     </div>
   </div>
 </section>
@@ -724,11 +723,11 @@ function setLang(l) {
   toggle.textContent = l === 'zh' ? 'EN' : '中文';
   // GenAI Shenzhen links follow page language (/cn/ for Chinese)
   document.querySelectorAll('[data-gs]').forEach(a => { a.href = GS + (l === 'zh' ? 'cn/' : '') + a.dataset.gs + UTM; });
-  try { localStorage.setItem('kmryo-lang', l); } catch (e) {}
+  try { localStorage.setItem('cardioai-lang', l); } catch (e) {}
 }
 toggle.addEventListener('click', () => setLang(html.dataset.lang === 'en' ? 'zh' : 'en'));
 setLang(html.dataset.lang);
-try { const s = localStorage.getItem('kmryo-lang'); if (s) setLang(s); } catch (e) {}
+try { const s = localStorage.getItem('cardioai-lang'); if (s) setLang(s); } catch (e) {}
 
 // countdown to 5 Dec 2026, 09:00 Shenzhen time (days / hours / minutes)
 (function(){
