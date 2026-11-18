@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "date": "2026-11-18",
+      "title": "Short-Term Anticoagulant Therapy and Subclinical Leaflet Thickening in Transcatheter Aortic Valves: The NOTION-4 Trial",
+      "title_zh": "NOTION-4研究:短程抗凝治疗与经导管主动脉瓣亚临床瓣叶增厚",
+      "summary_zh": "该随机对照试验发表于《JACC》11月瓣膜病专刊,由Jørgensen、De Backer等北欧学者牵头,纳入352例TAVR术后无长期抗凝指征的患者,随机分配至短程(3个月)直接口服抗凝药(DOAC)或单一抗血小板治疗,以CT评估的瓣叶亚临床血栓性增厚(HALT)为主要终点。结果显示,3个月时DOAC组HALT发生率显著低于抗板组;但停用DOAC后,这一保护效应在9个月随访时明显减弱消失。研究提示短程抗凝虽能暂时抑制瓣叶亚临床血栓形成,但停药后获益不持续,TAVR术后抗栓策略的最佳疗程仍待明确。",
+      "summary_en": "Published in JACC's November valvular heart disease focus issue, this randomized trial (Jørgensen, De Backer, et al.) enrolled 352 TAVR patients with no indication for long-term oral anticoagulation, randomizing them to a 3-month course of DOAC versus single antiplatelet therapy, with CT-defined hypoattenuated leaflet thickening (HALT) as the primary endpoint. A short DOAC course significantly reduced HALT prevalence at 3 months, but this protective effect was largely attenuated by 9 months, after the DOAC had been stopped. The findings suggest short-term anticoagulation suppresses subclinical leaflet thrombosis only transiently, leaving the optimal duration of post-TAVR antithrombotic therapy unresolved.",
+      "source": "JACC",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 4,
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.023"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Transcatheter Aortic Valve Replacement or Medical Treatment for Paradoxical Low-Flow, Low-Gradient Aortic Valve Stenosis: REBOOT-PARADOX",
+      "title_zh": "REBOOT-PARADOX研究:矛盾型低流速低压差重度主动脉瓣狭窄,TAVR联合药物治疗未能显著降低死亡率",
+      "summary_zh": "该多中心、开放标签随机对照试验发表于《JACC》,由Julinda Mehilli、Steffen Massberg等德国学者主导,纳入症状性矛盾型低流速、低压差重度主动脉瓣狭窄(瓣口面积≤1.0cm²、平均压差<40mmHg、射血分数≥50%但每搏输出量指数<35mL/m²)患者,按2:1随机分配至TAVR联合指南导向药物治疗(GDMT)组或单纯GDMT组。试验因入组缓慢提前终止,最终约120例完成随机。2年随访时,主要终点全因死亡率TAVR+GDMT组为29.0%,单纯GDMT组为37.1%(HR 0.83,95%CI 0.41-1.66),未达统计学显著,但TAVR组症状与生活质量改善更明显、心衰再住院更少。随刊配发的编辑评论题为\"Still Searching\",指出该罕见但诊断棘手的亚型中,TAVI能否降低死亡率仍无定论,凸显这一人群决策的持续争议。",
+      "summary_en": "Published in JACC, this multicenter, open-label randomized trial led by Julinda Mehilli, Steffen Massberg and colleagues in Germany enrolled patients with symptomatic paradoxical low-flow, low-gradient severe aortic stenosis (aortic valve area ≤1.0 cm², mean gradient <40 mmHg, ejection fraction ≥50% but stroke volume index <35 mL/m²), randomizing them 2:1 to TAVR plus guideline-directed medical therapy (GDMT) versus GDMT alone. The trial stopped early for slow enrollment, with roughly 120 patients randomized. At 2 years, the primary endpoint of all-cause mortality occurred in 29.0% with TAVR plus GDMT versus 37.1% with GDMT alone (HR 0.83, 95% CI 0.41-1.66), not statistically significant, though the TAVR group had greater symptomatic and quality-of-life improvement and fewer heart failure rehospitalizations. An accompanying editorial, \"Still Searching,\" underscores that whether TAVI reduces mortality in this hard-to-diagnose subtype remains unresolved, keeping management of this population a point of ongoing debate.",
+      "source": "JACC",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42663358/"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Heart surgery outperforms TAVR in new 5-year study of young, low-risk patients",
+      "title_zh": "真实世界登记研究:年轻低危患者5年随访中外科手术优于TAVR",
+      "summary_zh": "由West Virginia University的J. Hunter Mehaffey领衔的真实世界登记研究分析了2016至2024年间超过37000例接受TAVR或外科主动脉瓣置换(SAVR)的患者,经倾向匹配后各纳入18549例进行比较。结果显示TAVR在院内死亡率及围术期卒中方面优于SAVR,但5年随访时,全因死亡、卒中、瓣膜再介入及心衰再住院复合终点的无事件生存率,SAVR组为87.5%,显著高于TAVR组的77.8%;SAVR组心衰再住院及全因死亡率均更低。该结果与Evolut Low Risk、PARTNER 3等随机对照试验5年数据(TAVR与外科手术结局相近)相悖,登记研究为观察性设计,选择偏倚不可排除,但其聚焦年轻、低危患者的真实世界数据,为心脏团队在为该人群选择治疗策略时提供了与RCT证据不同的参考视角,也是当前结构性心脏病圈内争论的焦点之一。",
+      "summary_en": "A real-world registry analysis led by J. Hunter Mehaffey of West Virginia University tracked more than 37,000 patients treated with TAVR or surgical aortic valve replacement (SAVR) from 2016 to 2024, comparing 18,549 propensity-matched patients in each group. TAVR outperformed SAVR on in-hospital mortality and periprocedural stroke, but at 5 years, freedom from the composite of all-cause mortality, stroke, valve reintervention and heart failure rehospitalization was 87.5% with SAVR versus 77.8% with TAVR, with SAVR also showing lower heart failure rehospitalization and all-cause mortality. These findings diverge from 5-year randomized trial data (Evolut Low Risk, PARTNER 3) showing comparable outcomes between TAVR and surgery; as an observational registry, selection bias cannot be excluded, but the focus on younger, low-risk patients offers heart teams a real-world perspective distinct from RCT evidence, fueling ongoing debate in the structural heart community over TAVR's expanding use in younger patients.",
+      "source": "JTCVS Open / Cardiovascular Business",
+      "type": "news",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/cardiac-surgery/heart-surgery-outperforms-tavr-new-5-year-study-young-low-risk-patients"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Case Volumes and Outcomes of Early-Career Operators Performing TAVR in the United States",
+      "title_zh": "美国早期职业生涯术者TAVR病例量与结局研究",
+      "summary_zh": "该研究发表于《Circulation: Cardiovascular Interventions》,由Husam M. Salah等学者完成,分析美国全国数据中由\"早期职业生涯术者\"(定义为独立执业5年以内)完成的TAVR手术情况。研究期间该类术者完成了约14.2%的TAVR病例,尽管其既往累计手术量较低、且更多承担非择期及合并症更多的复杂病例,但30天死亡率(2.38% vs 2.44%)及30天复合终点发生率(11.19% vs 11.77%)经风险校正后与经验更丰富的术者相近甚至略优。作者认为结果支持当前TAVR培训及准入体系的有效性,为早期职业生涯术者独立开展TAVR提供了安全性证据。",
+      "summary_en": "Published in Circulation: Cardiovascular Interventions by Husam M. Salah and colleagues, this national US analysis examined TAVR procedures performed by \"early-career operators\" (defined as within 5 years of independent practice), who performed roughly 14.2% of TAVR cases during the study period. Despite lower cumulative case volumes and a greater share of non-elective, higher-complexity patients, early-career operators had risk-adjusted 30-day mortality (2.38% vs. 2.44%) and 30-day composite outcome rates (11.19% vs. 11.77%) similar to, or modestly better than, more experienced operators. The authors say the findings support the adequacy of current TAVR training and credentialing pathways, offering reassurance about early-career operators performing TAVR independently.",
+      "source": "Circulation: Cardiovascular Interventions",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 2,
+      "url": "https://cardiovascularbusiness.com/topics/clinical/structural-heart-disease/tavr/tavr-just-safe-when-performed-early-career-operators"
+    }
+  ]
+}
