@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "items": [
+    {
+      "date": "2026-11-22",
+      "title": "Outcomes of Transcatheter Aortic Valve Replacement for Aortic Regurgitation in LVAD Patients: The JENA-VAD Study",
+      "title_zh": "JENA-VAD研究:左心室辅助装置(LVAD)合并主动脉瓣关闭不全患者的经导管主动脉瓣置换结局",
+      "summary_zh": "该前瞻性、多中心、单臂登记研究(JENA-VAD,嵌套于ALIGN-AR关键性试验内)作为TCT 2026 late-breaking数据公布并发表于《JACC》,由Ravi Ramana等学者主导,纳入50例合并左心室辅助装置(LVAD)的重度主动脉瓣关闭不全患者,采用JenaValve专用自膨胀经导管瓣膜(Trilogy THV)治疗。结果显示技术成功率与30天器械成功率均为96.0%,30天内无死亡或卒中,亦未见中度以上人工瓣膜反流;但随访期间22%(11/50)患者出现瓣叶亚临床血栓性增厚(HALT)或瓣膜/主动脉血栓。这一人群此前只能依靠同情使用或超适应症TAVR治疗,该研究为专用器械提供了早期安全性与有效性证据,完整队列的1年随访及瓣膜耐久性数据仍待公布。",
+      "summary_en": "Presented as late-breaking data at TCT 2026 and published in JACC, the prospective, multicenter, single-arm JENA-VAD registry (nested within the ALIGN-AR pivotal trial), led by Ravi Ramana and colleagues, enrolled 50 patients with severe native aortic regurgitation and a left ventricular assist device (LVAD), treated with JenaValve's dedicated self-expanding Trilogy transcatheter heart valve. Technical success and 30-day device success were each 96.0%, with no deaths or strokes at 30 days and no moderate-or-greater prosthetic regurgitation, though hypoattenuated leaflet thickening (HALT) or valvular/aortic thrombosis occurred in 22% (11/50) of patients during follow-up. The findings offer early safety and efficacy evidence for a dedicated device in a population previously treated only via compassionate use or off-label TAVR, while full-cohort 1-year follow-up and durability data remain pending.",
+      "source": "JACC",
+      "type": "journal",
+      "topic": "TAVI",
+      "weight": 3,
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.10.059"
+    }
+  ]
+}
